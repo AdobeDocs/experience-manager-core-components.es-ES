@@ -15,7 +15,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -135,13 +135,13 @@ Asegúrese de que los componentes proxy y las bibliotecas de cliente se han impl
 
 ## Permitir los componentes {#allow-the-components}
 
-Los pasos siguientes suelen realizarse en el Editor [de plantillas](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html); sin embargo, para las configuraciones existentes, esto puede realizarse en modo Diseño:
+Los pasos siguientes se realizan en el Editor [de plantillas](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
-1. En el Editor de plantillas (o modo Diseño), seleccione el contenedor de diseño (o parsys) y abra su política (o configuración de diseño).
+1. En el Editor de plantillas, seleccione el contenedor de diseño y abra su política.
 1. En la lista de componentes permitidos, seleccione los componentes proxy creados anteriormente, que deben aparecer bajo el grupo de componentes asignado a ellos. Una vez realizados, aplique los cambios.
 1. Opcionalmente, para los componentes que tienen un cuadro de diálogo de diseño, pueden estar preconfigurados.
 
-Es decir, en las páginas creadas a partir de la plantilla editada, ahora debería poder utilizar los componentes recién creados.
+¡Ya es! En las páginas creadas a partir de la plantilla editada, ahora debería poder utilizar los componentes recién creados.
 
 **Siguiente:**
 
