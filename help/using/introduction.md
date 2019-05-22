@@ -10,7 +10,7 @@ topic-tags: introducción
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: c 44 bb 0 d 7-5 d 91-4659-878 e-a 0658 fe 29 aa 2
 translation-type: tm+mt
-source-git-commit: dde716ccb64c4c444ec0f6ad432fd1ea8d5fd9f2
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -94,7 +94,7 @@ Para obtener una introducción a los componentes principales, las característic
 
 ## Tutorial para desarrolladores WKND {#wknd-developer-tutorial}
 
-[Aprenda a desarrollar sitios AEM con componentes principales siguiendo este paso paso a paso.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Aprenda a desarrollar sitios AEM con componentes principales siguiendo [este paso paso a paso.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Compatibilidad con componentes principales {#core-components-support}
 
@@ -115,4 +115,4 @@ Para obtener más información sobre la compatibilidad de las personalizaciones 
 
 Dado que los componentes Foundation han servido como base para el desarrollo de tantos proyectos en muchas versiones, seguirán siendo compatibles en un futuro próximo.
 
-Sin embargo, el énfasis de desarrollo de Adobe se ha trasladado a los componentes principales y se agregarán nuevas funciones, mientras que solo se realizarán correcciones de errores en los componentes de base.
+Sin embargo, el énfasis de desarrollo de Adobe se ha trasladado a los componentes principales y se agregarán nuevas funciones, mientras [que casi todos los componentes Foundation se han quedado obsoletos con AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) y solo se realizarán correcciones de errores en los componentes de base.
