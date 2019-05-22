@@ -10,7 +10,7 @@ topic-tags: desarrollar
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: 157 a 2 ec 3-9 fca -4 fad -977 a-d 93013 eeb 218
 translation-type: tm+mt
-source-git-commit: 600aefa49d6247c290b8fb9f6acf5548126b3f61
+source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
 
 ---
 
@@ -45,9 +45,9 @@ Los componentes principales proporcionan componentes base sólidos y extensibles
 
 >[!CAUTION]
 >
->Los componentes principales requieren AEM 6.3 o posterior y Java 8.
+>Los componentes principales requieren AEM 6.3 o posterior y Java 8 y requieren el uso de [plantillas editables](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 >
->Los componentes principales no funcionan con la IU clásica.
+>Los componentes principales no funcionan con la IU clásica ni con las plantillas estáticas.
 
 ## Información general de sesión de Gems {#gems-session-overview}
 
@@ -57,7 +57,7 @@ Para obtener una introducción a los componentes principales, las característic
 
 ## Tutorial para desarrolladores WKND {#wknd-developer-tutorial}
 
-[Aprenda a desarrollar sitios AEM con componentes principales siguiendo este paso paso a paso.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Aprenda a desarrollar sitios AEM con componentes principales siguiendo [este tutorial paso a paso.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
 ## Enviado por github {#delivered-over-github}
 
@@ -172,7 +172,22 @@ personalizados Si se puede personalizar un componente [Core existente](customizi
 personalizados existentes** Si los componentes funcionan correctamente, manténgalos tal y como están.\
    Si no es así, consulte &quot;Nuevos componentes personalizados&quot; arriba.
 
-### Compatibilidad con componentes principales {#core-component-support}
+## Migración a componentes principales
+
+Cualquier proyecto nuevo debe implementarse con Componentes principales. Sin embargo, los proyectos existentes generalmente tendrán implementaciones amplias de los componentes de base.
+
+Un esfuerzo mayor en un proyecto existente (por ejemplo, una refactorización o refactorización general) a menudo ofrece la posibilidad de migrar a los componentes principales. Para facilitar esta migración, Adobe ha proporcionado una serie de herramientas de migración para estimular la adopción de los componentes principales y la última tecnología de AEM.
+
+[El AEM Moderntools Suite](https://github.com/adobe/aem-modernize-tools) permite la fácil conversión de:
+
+* Plantillas estáticas para plantillas editables
+* Configuración de diseño a políticas
+* Componentes básicos a componentes principales
+* IU clásica a IU táctil
+
+Para obtener más información sobre el uso de estas herramientas [, consulte su documentación](https://www.adobe.com/go/aem_modernize_tools_en).
+
+## Compatibilidad con componentes principales {#core-component-support}
 
 Los componentes principales forman parte integral de AEM y se admiten tal y como está, bajo los mismos términos y condiciones que si se entregaran como parte de Quickstart.
 
@@ -182,11 +197,11 @@ La versión de cada componente indica claramente las versiones de AEM que admite
 
 Para obtener más información sobre la compatibilidad de las personalizaciones de componentes, consulte la página [Personalización de componentes](customizing.md) principales.
 
-### Compatibilidad con componentes base {#foundation-component-support}
+## Compatibilidad con componentes base {#foundation-component-support}
 
-Dado que los componentes base han servido como base para el desarrollo de tantos proyectos en muchas versiones, se seguirán admitiendo en un futuro próximo.
+Dado que los componentes base han servido como base para el desarrollo de tantos proyectos en muchas versiones AEM, seguirán siendo compatibles en un futuro próximo.
 
-Sin embargo, el énfasis de desarrollo de Adobe se ha trasladado a los componentes principales y se agregarán nuevas funciones, mientras que solo se realizarán correcciones de errores en los componentes base.
+Sin embargo, el énfasis de desarrollo de Adobe se ha trasladado a los componentes principales y se agregarán nuevas funciones, mientras [que casi todos los componentes Foundation se han quedado obsoletos con AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) y solo se realizarán correcciones de errores en los componentes de base.
 
 **Siguiente:**
 
