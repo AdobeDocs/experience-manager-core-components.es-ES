@@ -8,7 +8,7 @@ content-type: referencia
 topic-tags: componentes principales
 discoiquuid: 966 d 47 fb-d 35 d -4103-b 29 d -4 ef 0 aa 739 f 24
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -21,15 +21,15 @@ El componente Fichas de componente principal permite la organización de conteni
 
 El componente Fichas permite que el autor del contenido organice el contenido de la página en varias fichas.
 
-El cuadro de diálogo [de edición](#edit-dialog) permite al autor de contenido definir varias fichas, así como establecer la ficha activa. Con el cuadro de diálogo [de diseño](#design-dialog), el autor de la plantilla puede definir qué componentes se pueden agregar a las fichas y personalizar los estilos.
+The [edit dialog](#edit-dialog) allows the content author to define multiple tabs as well as set the active tab. Using the [design dialog](#design-dialog), the template author can define which components can be added to tabs and customize the styles.
 
 >[!NOTE]
 >
 >Se admiten componentes de fichas anidados (fichas dentro de fichas).
 >
->Los componentes de fichas simples (no anidados) pueden ubicarse o seleccionarse con el árbol [de contenido](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), aunque no pueden ser fichas anidadas.
+>Simple (non-nested) tab components can be located/selected using the [content tree](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html), however nested tabs can not be.
 
-## Versión y compatibilidad {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 La versión actual del componente Fichas es v 1, introducida con la versión 2.2.0 de los componentes principales en octubre de 2018, y se describe en este documento.
 
@@ -39,54 +39,46 @@ En la tabla siguiente se detallan todas las versiones compatibles del componente
 |--- |--- |--- |--- |
 | v1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre versiones y versiones de componentes principales, consulte las [versiones del documento Versiones principales](versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## Salida de componente de muestra {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-A continuación se muestra una muestra tomada de [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+To experience the Tabs Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
 
-### Captura de pantalla {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/screenshot_2018-11-28at142504.png)
+The latest technical documentation about the Tabs Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
 
-### Biblioteca de componentes
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-Para experimentar el componente Fichas, así como ver ejemplos de opciones de configuración, así como HTML y JSON, visite la Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/tabs.html).
-
-### Detalles técnicos {#technical-details}
-
-La documentación técnica más reciente sobre el componente Fichas [se encuentra en github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs).
-
-Encontrará más información sobre el desarrollo de componentes principales en la documentación del desarrollador de componentes [principales](developing.md).
-
-## Editar cuadro de diálogo {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor de contenido crear, renombrar y reorganizar fichas, así como definir la ficha activa.
 
-### Ficha Elementos {#items-tab}
+### Items Tab {#items-tab}
 
 ![](assets/screenshot_2018-10-11at153557.png)
 
-Utilice el botón **Agregar** para abrir el selector de componentes y elegir qué componente agregar como ficha. Una vez agregado, se agrega una entrada a la lista, que contiene las columnas siguientes:
+Use the **Add** button to open the component selector to choose which component to add as a tab. Una vez agregado, se agrega una entrada a la lista, que contiene las columnas siguientes:
 
 * **Icono** : el icono del tipo de componente de la ficha para facilitar la identificación en la lista. Pase el ratón para ver el nombre completo del componente como información de objeto.
 * **Descripción** : La descripción utilizada como texto de la ficha, predeterminada al nombre del componente seleccionado para la ficha.
 * **Eliminar** : toque o haga clic para eliminar la ficha del componente de tabulación.
 * **Reorganizar** : Toque o haga clic y arrastre para cambiar el orden de las fichas.
 
-### Ficha Propiedades {#properties-tab}
+### Properties Tab {#properties-tab}
 
 ![](assets/screenshot_2018-10-19at140646.png)
 
-En la ficha **Propiedades** , el autor de contenido puede definir qué ficha está activa cuando se carga la página. Con la opción **Predeterminado** , se seleccionará la primera ficha.
+On the **Properties** tab, the content author can define which tab is active when the page is loaded. With the **Default** option, the first tab will be selected.
 
-## Seleccionar panel {#select-panel}
+## Select Panel {#select-panel}
 
-El autor de contenido puede utilizar la opción **Seleccionar panel** de la barra de herramientas de componentes para cambiar a un panel diferente para editarlo y reorganizar fácilmente el orden de las fichas.
+The content author can use the **Select Panel** option on the component toolbar to change to a different panel for editing as well as to easily rearrange the order of the tabs.
 
 ![](assets/screenshot_2018-10-11at165417.png)
 
-Una vez seleccionada la opción **Seleccionar panel** en la barra de herramientas del componente, las fichas configuradas se muestran como una lista desplegable.
+Once selecting the **Select Panel** option in the component toolbar, the configured tabs are displayed as a drop-down.
 
 * La lista se ordena por la organización asignada de las fichas y se refleja en la numeración.
 * El tipo de componente de la ficha se muestra primero, seguido de la descripción de la ficha de la fuente más clara.
@@ -98,18 +90,18 @@ Una vez seleccionada la opción **Seleccionar panel** en la barra de herramienta
 
 >[!NOTE]
 >
->El autor no puede seleccionar las fichas cuando se encuentra en el modo **de edición** . Utilice [**el modo Vista previa**](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) o **[la](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** opción Ver como publicado para interactuar con las fichas como un lector del contenido publicado.
+>Tabs are not selectable by the author when in **Edit** mode. Use [**Preview** mode](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) or the **[View as Published](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** option to interact with the tabs as a reader of the published content would.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Design Dialog {#design-dialog}
 
 El cuadro de diálogo de diseño permite que el autor de la plantilla defina qué componentes pueden agregarse como elementos al componente de fichas, así como definir qué estilos personalizados están disponibles para el autor del contenido.
 
-### Ficha Componentes permitidos {#allowed-components-tab}
+### Allowed Components Tab {#allowed-components-tab}
 
-La **ficha Componentes** permitidos se utiliza para definir qué componentes pueden agregarse como elementos al componente fichas por autor del contenido.
+The **Allowed Components** tab is used to define which components can be added as items to the tabs component by the content author.
 
-La ficha Componentes permitidos funciona de la misma manera que la ficha del mismo nombre al [definir la política y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-### Ficha Estilos {#styles-tab}
+### Styles Tab {#styles-tab}
 
-El componente Fichas admite el sistema [de estilos AEM](authoring.md#component-styling).
+The Tabs Component supports the AEM [Style System](authoring.md#component-styling).
