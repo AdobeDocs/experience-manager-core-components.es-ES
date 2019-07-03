@@ -13,7 +13,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: b179888d19a95257602656d456d5c6bfe82877af
+source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
@@ -24,9 +24,9 @@ El componente Título de componente principal es un componente de encabezado de 
 
 ## Uso {#usage}
 
-El componente Título está diseñado para utilizarse como título o encabezado de una sección de contenido. El autor de la plantilla puede definir los niveles de encabezados disponibles en el cuadro de diálogo [de diseño](#design-dialog). El editor de contenido puede seleccionar los niveles de encabezados disponibles en el cuadro de diálogo [de edición](#edit-dialog). Para mayor comodidad, también hay disponible una edición in-situ sencilla del texto del encabezado.
+El componente Título está diseñado para utilizarse como título o encabezado de una sección de contenido. The available heading levels can be defined by the template author in the [design dialog](#design-dialog). The content editor can select from available headings levels in the [edit dialog](#edit-dialog). Para mayor comodidad, también hay disponible una edición in-situ sencilla del texto del encabezado.
 
-## Versión y compatibilidad {#version-and-compatibility}
+## Version and Compatibility {#version-and-compatibility}
 
 La versión actual del componente Título es v 2, introducida con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
 
@@ -37,27 +37,19 @@ En la tabla siguiente se detallan todas las versiones compatibles del componente
 | v2 | Compatible | Compatible | Compatible |
 | [v1](title-v1.md) | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre versiones y versiones de componentes principales, consulte las [versiones del documento Versiones principales](versions.md).
+For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
 
-## Salida de componente de muestra {#sample-component-output}
+## Sample Component Output {#sample-component-output}
 
-La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+To experience the Title Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
 
-### Captura de pantalla {#screenshot}
+### Technical Details {#technical-details}
 
-![](assets/chlimage_1-36.png)
+The latest technical documentation about the Title Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
 
-### Biblioteca de componentes
+Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
 
-Para experimentar el componente Título, así como ver ejemplos de opciones de configuración, así como HTML y JSON, visite la Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/title.html).
-
-### Detalles técnicos {#technical-details}
-
-La documentación técnica más reciente sobre el componente Título [se encuentra en github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title).
-
-Encontrará más información sobre el desarrollo de componentes principales en la documentación del desarrollador de componentes [principales](developing.md).
-
-## Editar cuadro de diálogo {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido definir el texto del título y seleccionar el nivel de encabezado.
 
@@ -75,11 +67,11 @@ El editor in-situ también se puede utilizar para editar el texto del componente
 
 ![](assets/chlimage_1-37.png)
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Design Dialog {#design-dialog}
 
 El cuadro de diálogo de diseño permite que el autor de la plantilla defina el nivel de encabezado predeterminado que tendrán los componentes de título cuando los creen los autores de contenido.
 
-### Ficha Tamaños {#sizes-tab}
+### Sizes Tab {#sizes-tab}
 
 ![](assets/screenshot_2018-10-19at110120.png)
 
@@ -91,6 +83,6 @@ El cuadro de diálogo de diseño permite que el autor de la plantilla defina el 
 >
 >La capacidad para definir un vínculo para el título se introdujo con la versión 2.2.0 de los componentes principales.
 
-### Ficha Estilos {#styles-tab}
+### Styles Tab {#styles-tab}
 
-El componente Título admite el sistema [de estilos AEM](authoring.md#component-styling).
+The Title Component supports the AEM [Style System](authoring.md#component-styling).
