@@ -1,5 +1,5 @@
 ---
-source-git-commit: 1bbec9b1f109df88964dce051a58d111bf6cafaa
+source-git-commit: 1273505a2b00913a89606b856d2e7c3811a3bd72
 translation-type: tm+mt
 
 ---
@@ -31,15 +31,15 @@ Debido a que la documentación de AEM cubre casos de uso estándar, errores, eso
 
 ### Las contribuciones de documentación no sirven para responder preguntas técnicas.
 
-Todas las ideas que tenga para mejorar la documentación de AEM son bienvenidas como contribuciones. Sin embargo, las contribuciones no pueden utilizarse para responder a sus preguntas sobre cómo utilizar AEM o resolver problemas técnicos.
+Todas las ideas que tenga para mejorar la documentación de AEM son bienvenidas como contribuciones. However comments, issues, and pull requests are intended for *contributions* only. No están pensados para responder a sus preguntas sobre cómo utilizar AEM o resolver problemas técnicos.
 
-Cualquier pregunta sobre el uso de AEM o los errores técnicos que pueda tener debe informarse a través del proceso de soporte normal o de los debates en los foros de usuarios de AEM.
+Any questions about the usage of AEM or technical errors you may have should be reported through the normal support process via the [Experience Manager Support Portal](https://daycare.day.com/home.html) or discussed in the [Experience Manager community](http://help-forums.adobe.com/content/adobeforums/en/experience-manager-forum/adobe-experience-manager.html).
 
-***Las contribuciones de documentación de AEM no se reemplazan por la compatibilidad*** de Adobe y se rechazarán dichas contribuciones.
+***Las contribuciones de documentación de AEM no se reemplazan por la compatibilidad de Adobe*** y las contribuciones que buscan respuestas a preguntas relacionadas con la compatibilidad serán rechazadas.
 
 ### Las contribuciones deben hacer referencia claramente a las páginas de documentación afectadas.
 
-Si crea un problema para sugerir mejoras en la documentación, debe incluir vínculos a las páginas afectadas. Si crea un problema utilizando el vínculo **Editar esta página** en una página de documentación, el problema se creará automáticamente con un vínculo a la página.
+Si crea un problema para sugerir mejoras en la documentación, debe incluir vínculos a las páginas afectadas. If you create an issue by using the **Edit this page** link on a documentation page, the issue will be created with a link to the page automatically.
 
 Esto no se aplica a las solicitudes de extracción, ya que las solicitudes de extracción incluyen las páginas afectadas por definición.
 
@@ -83,6 +83,6 @@ Intente evitar cualquier referencia directa a una versión específica en todo e
 
 ### Uso del día, AEM, CQ, CRX
 
-El producto siempre debe conocerse con su nombre completo **Adobe Experience Manager** por primera vez en un artículo y, a continuación, conocerse como **AEM**.
+The product should always be referred to by its full name **Adobe Experience Manager** for the first time in an article and can thereafter be referred to as **AEM**.
 
 No se debe utilizar el día, el software de día, CQ y CRX excepto en los casos inevitables, como en los nombres de clase o en el historial de AEM.
