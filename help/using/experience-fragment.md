@@ -5,12 +5,11 @@ description: El componente Fragmento de experiencia permite al autor de contenid
 seo-description: El componente Fragmento de experiencia permite al autor de contenido agregar una variación de fragmento de experiencia a una página.
 content-type: referencia
 topic-tags: componentes principales
-index: y
-internal: n
 translation-type: tm+mt
-source-git-commit: c0827595a594779f48ba5e8770b804e574346647
+source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
 
 ---
+
 
 # Componente de fragmento de experiencias{#experience-fragment-component}
 
