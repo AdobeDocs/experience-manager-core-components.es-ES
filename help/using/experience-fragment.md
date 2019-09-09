@@ -6,7 +6,7 @@ seo-description: El componente Fragmento de experiencia permite al autor de cont
 content-type: referencia
 topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: 12d18a31c5507f5bbc713383f4d194d8ab8c4d58
+source-git-commit: 9f4f97713d20b6343b78f8046d96752fa0b0a07d
 
 ---
 
@@ -90,7 +90,7 @@ El componente Fragmento de experiencia intentará encontrar un componente locali
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Fragmento de experiencia es v 1, que se introdujo con la versión 2.6.0 de los componentes principales en agosto de 2019 y se describe en este documento.
+La versión actual del componente Fragmento de experiencia es v 1, que se introdujo con la versión 2.6.0 de los componentes principales en septiembre de 2019 y se describe en este documento.
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a documentación de versiones anteriores.
 
