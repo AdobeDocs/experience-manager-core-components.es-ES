@@ -8,22 +8,24 @@ content-type: referencia
 topic-tags: creación
 discoiquuid: 8751 e 490-d 427-44 f 2-b 767-51935 afda 988
 translation-type: tm+mt
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
 
 # Autor con componentes principales
 
-En Adobe Experience Manager, los componentes son los elementos estructurales que constituyen el contenido de las páginas creadas. Esta sección trata los componentes principales, que proporcionan tipos de contenido esenciales para crear páginas.
+En Adobe Experience Manager, los componentes son los elementos estructurales que constituyen el contenido de las páginas creadas.
 
-Los componentes principales ofrecen funciones de creación flexibles y enriquecidas. El sitio de referencia [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) ilustra cómo se pueden utilizar los componentes principales.
+Los componentes principales ofrecen funciones de creación flexibles y enriquecidas. The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) illustrates how the core components can be used.
 
 Para probar los componentes principales y ver ejemplos de sus opciones de configuración, así como HTML y JSON, visite la biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html).
 
+Para obtener una introducción más detallada y detallada de la implementación de los componentes principales en un proyecto de AEM, consulte [el tutorial WKND.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+
 >[!NOTE]
 >
->Los componentes principales no están disponibles inmediatamente para los autores, el [equipo de desarrollo debe integrarlos primero en su entorno](using.md). Una vez integrados, pueden estar disponibles y preconfigurados a través del [editor de plantillas](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+>Core Components are not immediately available to authors, the [development team must first integrate them to your environment](using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
 >[!CAUTION]
 >
@@ -33,17 +35,19 @@ Para probar los componentes principales y ver ejemplos de sus opciones de config
 
 Como autor, notará varias ventajas de los componentes principales, como:
 
-* Uso sencillo y bien integrado con el editor [de páginas](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
+* Simple to use and well-integrated with the [page editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)
 
 * Capacidades ricas en funciones para dar cabida a muchos casos de uso como [se ilustra en We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html) , así como en la Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)
 
 * [Preconfigurable](#pre-configuring-core-components) para definir qué funciones están disponibles para los autores de páginas mediante el editor [de plantillas](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
 
-* Se basa en [las directrices de accesibilidad](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
+* Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
 
-* Creación de diseños [adaptables](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+* Built to support [responsive layout](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
 
-Los componentes están disponibles en la ficha **Componentes** del panel lateral del editor de páginas al [editar una página](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
+* Se ha creado para facilitar [la localización](localization.md)
+
+Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html).
 
 Los componentes se agrupan según las categorías denominadas grupos de componentes para organizar y filtrar fácilmente los componentes. El nombre del grupo de componentes se muestra con el componente en el navegador [de componentes](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) y también es posible filtrar por grupo para encontrar fácilmente el componente correcto.
 
@@ -89,12 +93,17 @@ La siguiente es una lista de los componentes principales disponibles vinculados 
 
 La versión actual de los componentes principales incluye los componentes siguientes.
 
+* [Acordeón](accordion.md)
 * [Ruta de exploración](breadcrumb.md)
-* [Botón de formulario](form-button.md)
+* [Botón](button.md)
+* [Contenedor](container.md)
 * [Carrusel](carousel.md)
-* [Contenedor del formulario](form-container.md)
 * [Fragmento de contenido](content-fragment-component.md)
 * [Lista de fragmentos de contenido](content-fragment-list.md)
+* [Descargar](download.md)
+* [Fragmento de experiencias](experience-fragment.md)
+* [Botón de formulario](form-button.md)
+* [Contenedor del formulario](form-container.md)
 * [Formulario oculto](form-hidden.md)
 * [Opciones de formulario](form-options.md)
 * [Texto de formulario](form-text.md)
@@ -106,7 +115,7 @@ La versión actual de los componentes principales incluye los componentes siguie
 * [Búsqueda rápida](quick-search.md)
 * [Separador](separator.md)
 * [Compartir en redes sociales](sharing.md)
-* [Teaser](teaser.md)
+* [Fichas](tabs.md)
 * [Texto](text.md)
 * [Título](title.md)
 
