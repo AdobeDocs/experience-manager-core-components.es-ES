@@ -10,7 +10,7 @@ topic-tags: introducción
 products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
 discoiquuid: c 44 bb 0 d 7-5 d 91-4659-878 e-a 0658 fe 29 aa 2
 translation-type: tm+mt
-source-git-commit: 63e75079e41d3091ca57bfc3129e700675bf4939
+source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
 
 ---
 
@@ -44,6 +44,7 @@ Los componentes principales son:
 | Extensible | Para cubrir necesidades personalizadas, pero sin empezar desde cero, todo se puede ampliar. |
 | Código abierto | Si algo no es así, contribuye con mejoras en github (Apache License). |
 | Versiones | Los componentes principales no romperán el sitio al mejorar las cosas que puedan afectarle. |
+| [Localizado](localization.md) | El archivo de referencia inteligente permite a ciertos componentes buscar y procesar el contenido localizado correspondiente automáticamente |
 
 ## Componentes disponibles {#available-components}
 
