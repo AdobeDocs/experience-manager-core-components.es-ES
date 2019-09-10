@@ -8,7 +8,7 @@ topic-tags: componentes principales
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
 
 ---
 
@@ -23,7 +23,7 @@ La mayoría de los sitios requieren que un pie de página esté presente en toda
 
 Del mismo modo, un componente de navegación suele mostrarse en todas las páginas. Sin embargo, también tendrá que reflejar el contenido de las páginas localizadas.
 
-Al utilizar las funciones de localización [del componente Core Core y](navigation.md) del [componente Core Fragment Core](experience-fragment.md) junto con las plantillas [editables de AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), esto se convierte en una tarea de smiple.
+Al utilizar las funciones de localización [del componente Core Core y](navigation.md) del [componente Core Fragment Core](experience-fragment.md) junto con las plantillas [editables de AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), esto se convierte en una tarea de smiple. El ejemplo podría ampliarse también para utilizar [el componente](language-navigation.md) de navegación de idioma.
 
 ## Estructura de contenido {#content-structure}
 
