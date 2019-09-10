@@ -18,7 +18,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 ---
 
@@ -38,6 +38,9 @@ El cuadro de diálogo [de edición](#edit-dialog) permite al autor de contenido 
 ## Compatibilidad con estructura de sitio localizada {#localized-site-structure}
 
 Los sitios Web generalmente se proporcionan en varios idiomas para distintas regiones. Generalmente, cada página localizada contendrá un elemento de navega que se incluye como parte de la plantilla de página. El componente de navegación permite colocarlo una vez en una plantilla para todas las páginas del sitio y luego se adaptará automáticamente para las páginas localizadas individuales en función de la estructura globalizada del sitio.
+
+* Para ver un ejemplo de cómo funciona la función de localización del componente de navegación, consulte [la siguiente sección](#example-localiatzion).
+* Para ver un ejemplo de cómo funcionan las características de localización de los componentes principales, consulte las características [de localización de la página Componentes principales](localization.md).
 
 ### Ejemplo {#example-localization}
 
