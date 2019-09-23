@@ -1,14 +1,14 @@
 ---
-title: Componente de sendero de exploración
-seo-title: Componente de sendero de exploración
+title: Componente de ruta de navegación
+seo-title: Componente de ruta de navegación
 description: nulo
-seo-description: El componente de ruta de componente principal es un componente de navegación que crea una ruta de vínculos basada en la ubicación de la página en la jerarquía de contenido.
-uuid: 13 e 858 d 5-24 ad -4144-adc 4-0 fa 1 ffd 257 c 1
+seo-description: El componente de ruta de navegación del componente principal es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
+uuid: 13e858d5-24ad-4144-adc4-0fa1ffd257c1
 contentOwner: Usuario
 content-type: referencia
 topic-tags: creación
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: ecd 237 df -08 b 8-4 deb -9881-66 a 1 f 0 d 65 ef 3
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: ecd237df-08b8-4deb-9881-66a1f0d65ef3
 modalsize: 426x240
 translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
@@ -16,76 +16,76 @@ source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 ---
 
 
-# Breadcrumb Component{#breadcrumb-component}
+# Componente de ruta de navegación{#breadcrumb-component}
 
-El componente de ruta de componente principal es un componente de navegación que crea una ruta de vínculos basada en la ubicación de la página en la jerarquía de contenido.
+El componente de ruta de navegación del componente principal es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 
 ## Uso {#usage}
 
-El componente de sendero de exploración muestra la posición de la página actual dentro de la jerarquía del sitio, permitiendo que los visitantes de la página naveguen por la jerarquía de páginas desde su ubicación actual. Esto suele integrarse en encabezados o pies de página de página.
+El componente de ruta de navegación muestra la posición de la página actual dentro de la jerarquía del sitio, lo que permite a los visitantes navegar por la jerarquía de páginas desde su ubicación actual. Esto suele integrarse en encabezados o pies de página.
 
-Available options, such as the default navigation level and the ability to show the current page or hidden pages, can be defined by the template author in the [design dialog](#design-dialog). The content editor can then choose if hidden pages should be shown or not and the actual navigation level for the component in the [edit dialog](#edit-dialog).
+Las opciones disponibles, como el nivel de navegación predeterminado y la capacidad de mostrar la página actual o las páginas ocultas, pueden ser definidas por el autor de la plantilla en el cuadro de diálogo [de](#design-dialog)diseño. A continuación, el editor de contenido puede elegir si se deben mostrar o no las páginas ocultas y el nivel de navegación real del componente en el cuadro de diálogo [de](#edit-dialog)edición.
 
-## Version and Compatibility {#version-and-compatibility}
+## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de sendero de exploración es v 2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
+La versión actual del componente de ruta de navegación es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v2 | Compatible | Compatible | Compatible |
 | [v1](breadcrumb-v1.md) | Compatible | Compatible | Compatible |
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
-## Sample Component Output {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-To experience the Breadcrumb Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html).
+Para experimentar el componente de ruta de navegación, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html)componentes.
 
 >[!NOTE]
 >
->As of Core Components release 2.1.0, the Breadcrumb Component supports [schema.org microdata](https://schema.org/BreadcrumbList).
+>A partir de la versión 2.1.0 de los componentes principales, el componente de ruta de navegación admite microdatos [de](https://schema.org/BreadcrumbList)esquema.org.
 
-## Technical Details {#technical-details}
+## Detalles técnicos {#technical-details}
 
-The latest technical documentation about the Breadcrumb Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
+La documentación técnica más reciente sobre el componente de ruta de navegación [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
 ## Edit Dialog {#edit-dialog}
 
-El cuadro de diálogo de edición permite que el autor del contenido suprima las páginas ocultas y activas en las rutas, así como la profundidad en la jerarquía que debería mostrar.
+El cuadro de diálogo de edición permite al autor del contenido suprimir las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
 
 ![](assets/screen_shot_2018-01-12at124250.png)
 
-* **Nivel** de inicio de navegación: en la jerarquía, el componente de sendero de navegación debería comenzar a desplazarse hacia la página actual. Por ejemplo, en We. Retail:
+* **Nivel** de inicio de navegación: donde, en la jerarquía, el componente de ruta de exploración debe empezar a desplazarse hacia abajo hasta la página actual. Por ejemplo en We.Retail:
 
-   * 0 starts at `/content`
+   * 0 empieza en `/content`
 
-   * 1 starts at `/content/we-retail`
-   * 2 starts at `/content/we-retail/<country>`
+   * 1 empieza en `/content/we-retail`
+   * 2 empieza en `/content/we-retail/<country>`
 
-* **Mostrar elementos** de navegación ocultos: Mostrar páginas marcadas como ocultas en la ruta (de forma predeterminada, no se mostrarán)
-* **Ocultar la página actual**: Eliminar la página actual en la ruta (de forma predeterminada se mostrará)
+* **Mostrar elementos** de navegación ocultos: mostrar páginas marcadas como ocultas en la ruta de exploración (de forma predeterminada, no se mostrarán)
+* **Ocultar página** actual: Suprimir la página actual en la ruta de exploración (de forma predeterminada se mostrará)
 
-## Design Dialog {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite que el autor de la plantilla defina los valores predeterminados para las opciones para eliminar las páginas ocultas y activas en las rutas, así como la profundidad en la jerarquía que debería mostrar.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir los valores predeterminados para las opciones de supresión de las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
 
-### Main Tab {#main-tab}
+### Ficha Principal {#main-tab}
 
 ![](assets/screen_shot_2018-01-12at124437.png)
 
-* **Nivel** de inicio de navegación: define el valor predeterminado para donde en la jerarquía el componente de sendero de exploración debería comenzar a bajar a la página actual cuando se agrega el componente de sendero de migas a una página.
-* **Mostrar elementos** de navegación ocultos: define el valor predeterminado de la opción **Mostrar elementos** de navegación ocultos cuando se agrega el componente de ruta de navegación a una página.
+* **Nivel** de inicio de navegación: define el valor predeterminado para dónde en la jerarquía el componente de ruta de exploración debe empezar a desplazarse hacia abajo hasta la página actual cuando se agrega el componente de ruta de exploración a una página.
+* **Mostrar elementos** de navegación ocultos: define el valor predeterminado de la opción **Mostrar elementos** de navegación ocultos cuando se agrega el componente de ruta de exploración a una página.
 
    * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
 
-* **Ocultar página actual**: define el valor predeterminado de la opción **Ocultar página** actual cuando se agrega el componente de sendero de migas a una página.
+* **Ocultar página** actual: define el valor predeterminado de la opción **Ocultar página** actual cuando se agrega el componente de ruta de exploración a una página.
 
    * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
 
-### Styles Tab {#styles-tab}
+### Ficha Estilos {#styles-tab}
 
-The Breadcrumb Component supports the AEM [Style System](authoring.md#component-styling).
+El componente de ruta de navegación es compatible con el sistema [de](authoring.md#component-styling)estilo de AEM.
