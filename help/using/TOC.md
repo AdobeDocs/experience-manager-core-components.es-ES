@@ -1,7 +1,7 @@
 ---
 cloud: experience-cloud
 product: adobe experience manager
-sub-product: componentes principales de adobe experience manager
+sub-product: componentes principales de Adobe Experience Manager
 archetype: Administrador
 user-guide-title: Componentes principales de AEM
 translation-type: tm+mt
@@ -19,7 +19,7 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
    + [Crear con componentes principales](authoring.md)
    + [Uso de componentes principales](using.md)
    + [Funciones de localización](localization.md)
-+ Componentes {#components}
++ Los componentes {#components}
    + [Acordeón](accordion.md)
    + [Ruta de exploración](breadcrumb.md)
    + [Botón](button.md)
@@ -47,14 +47,14 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
       + [Formulario oculto](form-hidden.md)
       + [Opciones de formulario](form-options.md)
       + [Texto de formulario](form-text.md)
-   + Componentes v 1 {#v1-components}
+   + Componentes v1 {#v1-components}
       + [Ruta (v1)](breadcrumb-v1.md)
       + [Imagen (v1)](image-v1.md)
       + [Lista (v1)](list-v1.md)
       + [Página (v1)](page-v1.md)
       + [Texto (v1)](text-v1.md)
       + [Título (v1)](title-v1.md)
-      + Componentes de formulario v 1 {#v1-forms}
+      + Componentes de formulario v1 {#v1-forms}
          + [Botón de formulario (v1)](form-button-v1.md)
          + [Contenedor de formulario (v1)](form-container-v1.md)
          + [Formulario oculto (v1)](form-hidden-v1.md)
@@ -62,6 +62,6 @@ source-git-commit: fb56cf9323ab0872c59563728f5947ced33c0658
          + [Texto del formulario (v1)](form-text-v1.md)
 + Desarrollo {#developing}
    + [Desarrollo de componentes principales](developing.md)
-   + [Tutorial para desarrolladores WKND](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+   + [Tutorial para desarrolladores de WKND](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
    + [Personalización de componentes principales](customizing.md)
    + [Directrices de componentes](guidelines.md)
