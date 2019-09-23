@@ -1,14 +1,14 @@
 ---
 title: Componente Opciones de formulario
 seo-title: Componente Opciones de formulario
-description: El componente de opciones Formulario principal permite la selección de opciones predefinidas en varios formatos.
-seo-description: El componente de opciones Formulario principal permite la selección de opciones predefinidas en varios formatos.
-uuid: 7 e 8714 df -75 d 1-4 bb 0-b 1 ee-b 7 c 7450 d 806 a
+description: El componente de opciones de formulario de componente principal permite seleccionar opciones predefinidas en diversos formatos.
+seo-description: El componente de opciones de formulario de componente principal permite seleccionar opciones predefinidas en diversos formatos.
+uuid: 7e8714df-75d1-4bb0-b1ee-b7c7450d806a
 contentOwner: Usuario
 content-type: referencia
 topic-tags: creación
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: 42289 c 2 b -1671-463 a-ac 1 d -457 aa 9 aefa 2 a
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: 42289c2b-1671-463a-ac1d-457aa9aefa2a
 translation-type: tm+mt
 source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
@@ -17,30 +17,30 @@ source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
 
 # Componente Opciones de formulario{#form-options-component}
 
-El componente Opciones de formulario de componente principal permite la selección de opciones predefinidas en varios formatos.
+El componente Opciones de formulario de componentes principales permite seleccionar opciones predefinidas en diversos formatos.
 
 ## Uso {#usage}
 
-El componente Opciones de formulario de componente principal permite enviar distintos tipos de opciones presentadas de muchas formas diferentes y está previsto que se utilicen junto con [el componente Contenedor de formulario](form-container.md).
+El componente Opciones de formulario de componentes principales permite enviar distintos tipos de opciones presentadas de diferentes maneras y está diseñado para utilizarse junto con el componente [Contenedor de](form-container.md)formularios.
 
-El editor de contenido puede definir la presentación de las opciones, etiquetas y opciones individuales en el cuadro de diálogo [de configuración](#configure-dialog).
+El editor de contenido puede definir la presentación de las opciones, etiquetas y opciones individuales en el cuadro de diálogo [de](#configure-dialog)configuración.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Opciones de formulario es v 2, introducida con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
+La versión actual del componente Opciones de formulario es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v2 | Compatible | Compatible | Compatible |
 | [v1](form-options-v1.md) | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre versiones y versiones de componentes principales, consulte las [versiones del documento Versiones principales](versions.md).
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
-## Salida de componente de muestra {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
 
 ### Captura de pantalla {#screenshot}
 
@@ -139,13 +139,13 @@ La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/exper
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Opciones de formulario [se encuentra en github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
+La documentación técnica más reciente sobre el componente Opciones de formulario [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options).
 
-Encontrará más información sobre el desarrollo de componentes principales en la documentación del desarrollador de componentes [principales](developing.md).
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
-El cuadro de diálogo de configuración permite al autor de contenido definir el tipo de opciones que se deben presentar, las etiquetas y las opciones disponibles.
+El cuadro de diálogo de configuración permite al autor del contenido definir el tipo de opciones que se deben presentar, las etiquetas y las opciones disponibles.
 
 ![](assets/screen_shot_2018-01-12at113153.png)
 
@@ -154,37 +154,24 @@ El cuadro de diálogo de configuración permite al autor de contenido definir el
    * **Botones de radio**
    * **Lista desplegable**
    * **Lista desplegable de selección múltiple**
-* **Títuloel título**
-que se mostrará como etiqueta para las opciones
-* **Nombre**
-del campo enviado con los datos del formulario
-* **Origen**
-donde se definen las opciones
-   * **Local**
-definido dentro del componente
-      * Toque o haga clic en el botón **Agregar** para agregar un valor, **Eliminar** para eliminar un valor
-      * **Valor**
-guardado cuando se selecciona esa opción cuando se envía el formulario
-      * **Texto**
-La etiqueta de la opción mostrada en el formulario
-      * **Activo**
-La opción se marca como seleccionada cuando se carga el formulario
-      * **Deshabilitada**
-La opción No se puede seleccionar pero aún se muestra
-      * **Lista**
-de una lista estática definida en AEM para las opciones
-         * **Lista**
-de la ruta de la lista estática de AEM
+* **Título** El título que se mostrará como la etiqueta de las opciones
+* **Nombre** El nombre del campo enviado con los datos del formulario
+* **Origen** donde se definen las opciones
+   * **Local** definido dentro del componente
+      * Toque o haga clic en el botón **Agregar** para agregar un valor, **Eliminar** para eliminarlo
+      * **Valor** El valor guardado cuando se selecciona esa opción al enviar el formulario
+      * **Texto** Etiqueta de la opción mostrada en el formulario
+      * **Activo** La opción se marca como seleccionada cuando se carga el formulario
+      * **Deshabilitada** La opción no se puede seleccionar pero se muestra
+      * **Lista** Se utiliza una lista estática definida en otra parte de AEM para las opciones
+         * **Lista** La ruta de la lista estática en AEM
             * Utilice el botón Examinar para localizar el recurso de lista
-      * **Fuente
-de datos** La fuente de datos se utiliza para las opciones
-         * **Tipo**de recurso de fuente
-de datos del origen de datos
-* **Mensaje**
-de ayuda Una sugerencia para el usuario de lo que se puede introducir en el campo
+      * **Fuente** de datos Se utiliza una fuente de datos para las opciones
+         * **Origen** de datos Tipo de recurso de la fuente de datos
+* **Mensaje** de ayuda Una sugerencia para el usuario sobre lo que se puede introducir en el campo
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Opciones de formulario admite el sistema [de estilos AEM](authoring.md#component-styling).
+El componente Opciones de formulario admite el sistema [de](authoring.md#component-styling)estilo AEM.
