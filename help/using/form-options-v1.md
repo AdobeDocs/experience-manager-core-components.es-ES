@@ -1,12 +1,12 @@
 ---
-title: Componente Opciones de formulario (v 1)
-seo-title: Componente Opciones de formulario (v 1)
+title: Componente Opciones de formulario (v1)
+seo-title: Componente Opciones de formulario (v1)
 description: nulo
-seo-description: El componente de opciones Formulario principal permite la selección de opciones predefinidas en varios formatos.
-uuid: a 22 ed 77 c-c 9 f 3-46 f 4-8 afe-e 478383 c 1251
+seo-description: El componente de opciones de formulario de componente principal permite seleccionar opciones predefinidas en diversos formatos.
+uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: e 1975 bfe -2 bda -409 a -998 e -1 ff 4 f 9 f 23 b 94
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
 disttype: dist5
 gnavtheme: claro
 groupsectionnavitems: nº
@@ -23,21 +23,21 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ---
 
 
-# Componente Opciones de formulario (v 1){#form-options-component-v}
+# Form Options Component (v1){#form-options-component-v}
 
-El componente de opciones Formulario principal permite la selección de opciones predefinidas en varios formatos.
+El componente de opciones de formulario de componente principal permite seleccionar opciones predefinidas en diversos formatos.
 
 ## Uso {#usage}
 
-El componente Opciones de formulario de componente principal permite enviar distintos tipos de opciones presentadas de muchas formas diferentes y se pretende utilizar junto con [el componente Contenedor de formulario](form-container.md).
+El componente Opciones de formulario de componentes principales permite enviar distintos tipos de opciones presentadas de diferentes maneras y está diseñado para utilizarse junto con el componente [contenedor de](form-container.md)formularios.
 
-El editor de contenido puede definir la presentación de las opciones, etiquetas y opciones individuales en el cuadro de diálogo [de configuración](form-options-v1.md#main-pars_title).
+El editor de contenido puede definir la presentación de las opciones, etiquetas y opciones individuales en el cuadro de diálogo [de](form-options-v1.md#main-pars_title)configuración.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
 Este documento describe la versión 1 del componente Opciones de formulario, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-La siguiente tabla muestra la compatibilidad de la versión 1 del componente Opciones de formulario.
+En la tabla siguiente se muestra la compatibilidad de v1 del componente Opciones de formulario.
 
 | Versión del componente | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
@@ -48,11 +48,11 @@ La siguiente tabla muestra la compatibilidad de la versión 1 del componente Opc
 >
 >Este documento describe la versión 1 del componente Opciones de formulario.
 >
->Para obtener más información sobre la versión actual del componente Opciones de formulario, consulte [el documento Componente](form-options.md) Opciones de formulario.
+>Para obtener más información sobre la versión actual del componente Opciones de formulario, consulte el documento Componente [Opciones de](form-options.md) formulario.
 
-## Salida de componente de muestra {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de pantalla {#screenshot}
 
@@ -122,47 +122,46 @@ La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/exper
 
 >[!NOTE]
 >
->La exportación JSON de los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información [de compatibilidad de Componentes principales v 1](versions.md#main-pars_title_236368006) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información de [compatibilidad de los componentes principales v1](versions.md#main-pars_title_236368006) para obtener más información.
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
-El cuadro de diálogo de configuración permite al autor de contenido definir el tipo de opciones que se deben presentar, las etiquetas y las opciones disponibles.
+El cuadro de diálogo de configuración permite al autor del contenido definir el tipo de opciones que se deben presentar, las etiquetas y las opciones disponibles.
 
 ![](assets/chlimage_1-90.png)
 
-* **Tipos**
-de opciones para presentar
+* **Tipos** Cómo se presentarán las opciones
 
    * **Casillas de verificación**
    * **Botones de radio**
    * **Lista desplegable**
    * **Lista desplegable de selección múltiple**
 
-* **Título** : El título que se mostrará como etiqueta para las opciones
-* **Nombre** : nombre del campo enviado con los datos del formulario
-* **Fuente** : donde se definen las opciones
+* **Título** : el título que se mostrará como la etiqueta de las opciones
+* **Nombre** : el nombre del campo enviado con los datos del formulario
+* **Origen** : donde se definen las opciones
 
-   * **Local** - Definido dentro del componente
-      * Toque o haga clic en el botón **Agregar** para agregar un valor, **Eliminar** para eliminar un valor
-      * **Valor** : valor guardado cuando se selecciona esa opción cuando se envía el formulario
-      * **Texto** : la etiqueta de la opción mostrada en el formulario
+   * **Local** : definido dentro del componente
+      * Toque o haga clic en el botón **Agregar** para agregar un valor, **Eliminar** para eliminarlo
+      * **Valor** : valor guardado cuando se selecciona esa opción al enviar el formulario
+      * **Texto** : la etiqueta de la opción que se muestra en el formulario
       * **Activo** : la opción se marca como seleccionada cuando se carga el formulario
-      * **Deshabilitado** : la opción no se puede seleccionar pero aún se muestra
-      * **Lista** : Se utiliza una lista estática definida en AEM para la opción
-         * **Lista** : Ruta de la lista estática de AEM
+      * **Deshabilitada** : la opción no se puede seleccionar pero se muestra
+      * **Lista** : se utiliza una lista estática definida en otra parte de AEM para la opción
+         * **Lista** : la ruta de la lista estática en AEM
             * Utilice el botón Examinar para localizar el recurso de lista
-      * **Fuente** de datos: Se utiliza un origen de datos para las opciones
-         * **Fuente** de datos: tipo de recurso del origen de datos
-* **Mensaje** de ayuda: Sugerencia para el usuario de lo que se puede introducir en el campo
+      * **Fuente** de datos: se utiliza una fuente de datos para las opciones
+         * **Fuente** de datos: tipo de recurso de la fuente de datos
+* **Mensaje** de ayuda: una sugerencia para el usuario sobre lo que se puede introducir en el campo
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-No hay un cuadro de diálogo de diseño para el componente Opciones de formulario.
+No hay ningún cuadro de diálogo de diseño para el componente Opciones de formulario.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Opciones de formulario [se encuentra en github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
+La documentación técnica más reciente sobre el componente Opciones de formulario [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
-Todo el proyecto de componentes principales se puede descargar desde github.
+Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más información sobre el desarrollo de componentes principales en la documentación del desarrollador de componentes [principales](developing.md).
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
