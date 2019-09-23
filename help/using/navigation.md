@@ -2,12 +2,12 @@
 title: Componente de navegación
 seo-title: Componente de navegación
 description: nulo
-seo-description: El componente de navegación permite a los usuarios navegar fácilmente por una estructura globalizada del sitio.
-uuid: 616 c 03 fb -39 b 3-402 a-b 990-f 56 c 87 bc 6 df 4
+seo-description: El componente de navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
+uuid: 616c03fb-39b3-402a-b990-f56c87bc6df4
 content-type: referencia
 topic-tags: creación
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: da 8 d 67 d 7-b 65 e -4041-bc 0 e-e 998 f 24 a 68 f 9
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: da8d67d7-b65e-4041-bc0e-e998f24a68f9
 disttype: dist5
 gnavtheme: claro
 groupsectionnavitems: nº
@@ -25,26 +25,26 @@ source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
 
 # Componente de navegación{#navigation-component}
 
-El componente de navegación permite a los usuarios navegar fácilmente por una estructura globalizada del sitio.
+El componente de navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
 
 ## Uso {#usage}
 
-En las listas de componentes de navegación, aparece una lista con un árbol de páginas para que los usuarios de un sitio puedan navegar fácilmente por la estructura del sitio.
+El componente de navegación enumera un árbol de páginas para que los usuarios de un sitio puedan navegar fácilmente por la estructura del sitio.
 
-El componente de navegación puede detectar automáticamente la estructura del sitio globalizado del sitio y [adaptarse automáticamente a una página localizada.](#localized-site-strucutre) Además, puede admitir cualquier estructura de sitio arbitraria utilizando [las páginas de redirección de sombra](#shadow-structure) para representar otra estructura distinta a la estructura de contenido principal.
+El componente de navegación puede detectar automáticamente la estructura del sitio globalizada y [adaptarse automáticamente a una página localizada.](#localized-site-strucutre) Además, puede admitir cualquier estructura de sitio arbitraria mediante el uso de páginas [de redireccionamiento de](#shadow-structure) sombra para representar otra estructura distinta a la estructura de contenido principal.
 
-El cuadro de diálogo [de edición](#edit-dialog) permite al autor de contenido definir la página raíz de navegación junto con la profundidad de navegación. El cuadro de diálogo [de diseño](#design-dialog) permite que el autor de la plantilla defina los valores predeterminados para la raíz y profundidad de navegación.
+El cuadro de diálogo [de](#edit-dialog) edición permite al autor del contenido definir la página raíz de navegación junto con la profundidad de navegación. El cuadro de diálogo [de](#design-dialog) diseño permite al autor de la plantilla definir los valores predeterminados para la raíz y la profundidad de navegación.
 
-## Compatibilidad con estructura de sitio localizada {#localized-site-structure}
+## Compatibilidad con la estructura del sitio localizada {#localized-site-structure}
 
-Los sitios Web generalmente se proporcionan en varios idiomas para distintas regiones. Generalmente, cada página localizada contendrá un elemento de navega que se incluye como parte de la plantilla de página. El componente de navegación permite colocarlo una vez en una plantilla para todas las páginas del sitio y luego se adaptará automáticamente para las páginas localizadas individuales en función de la estructura globalizada del sitio.
+Los sitios web se proporcionan a menudo en varios idiomas en diferentes regiones. Normalmente, cada página localizada contendrá un elemento de navegación que se incluye como parte de la plantilla de página. El componente de navegación le permite colocarlo una vez en una plantilla para todas las páginas del sitio y luego se adaptará automáticamente para las páginas localizadas individuales en función de la estructura del sitio globalizado.
 
-* Para ver un ejemplo de cómo funciona la función de localización del componente de navegación, consulte [la siguiente sección](#example-localiatzion).
-* Para ver un ejemplo de cómo funcionan las características de localización de los componentes principales, consulte las características [de localización de la página Componentes principales](localization.md).
+* Para ver un ejemplo de cómo funciona la función de localización del componente de navegación, consulte [la sección siguiente](#example-localiatzion).
+* Para ver un ejemplo de cómo funcionan conjuntamente las funciones de localización de los componentes principales, consulte la página [Características de](localization.md)localización de la páginaComponentes principales.
 
 ### Ejemplo {#example-localization}
 
-Supongamos que su contenido tiene un aspecto similar al siguiente:
+Supongamos que su contenido tiene este aspecto:
 
 ```
 /content
@@ -74,101 +74,93 @@ Supongamos que su contenido tiene un aspecto similar al siguiente:
 \-- wknd-shop
 ```
 
-Para el sitio We. Retail, probablemente desee colocar el componente de navegación en una plantilla de página como parte del encabezado. Una vez parte de la plantilla, puede definir la raíz **de navegación** del componente como `/content/we-retail/language-masters/en` desde donde comienza el contenido principal para dicho sitio. Quizás también desee configurar la profundidad de la estructura **de navegación** para que sea `2` porque probablemente no desee que el componente muestre todo el árbol de contenido, sino los dos primeros niveles para que actúe como información general.
+Para el sitio We.Retail, probablemente desee colocar el componente de navegación en una plantilla de página como parte del encabezado. Una vez que forme parte de la plantilla, puede establecer la raíz **de** navegación del componente en `/content/we-retail/language-masters/en` , ya que es ahí donde comienza el contenido maestro de ese sitio. Quizás también desee configurar la profundidad **de la estructura de** navegación `2` , ya que probablemente no desee que el componente muestre todo el árbol de contenido, sino los dos primeros niveles para que funcione como información general.
 
-Con el valor **Raíz** de navegación, el componente de navegación sabe que después `/content/we-retail/language-masters/en` de que comienza la navegación y puede generar opciones de navegación repitiendo la estructura del sitio dos niveles hacia abajo (tal como se define en el valor **Profundidad** de la estructura de navegación).
+Con el valor Raíz **de** navegación, el componente de navegación sabe que después de `/content/we-retail/language-masters/en` eso comienza la navegación y puede generar opciones de navegación recurriendo a la estructura del sitio dos niveles hacia abajo (como se define en el valor Profundidad **de la estructura de** navegación).
 
-Independientemente de la página localizada que esté viendo un usuario, el componente Navegación puede encontrar la página localizada correspondiente conociendo la ubicación de la página actual, avanzando hacia atrás hasta la raíz y luego avanza a la página correspondiente.
+Independientemente de la página localizada que esté viendo un usuario, el componente Navegación puede encontrar la página localizada correspondiente si conoce la ubicación de la página actual, retrocede a la raíz y luego reenvía a la página correspondiente.
 
-Por lo tanto, si un visitante está viendo `/content/ch/de/experience/arctic-surfing-in-lofoten`, el componente sabe generar la estructura de navegación basada `/content/we-retail/language-masters/de`en. Del mismo modo, si el visitante está viendo `/content/us/en/experience/arctic-surfing-in-lofoten`, el componente sabe generar la estructura de navegación basada `/content/we-retail/language-masters/en`en.
+Así, si un visitante está viendo `/content/ch/de/experience/arctic-surfing-in-lofoten`el componente sabe generar la estructura de navegación basada en `/content/we-retail/language-masters/de`. Del mismo modo, si el visitante está viendo `/content/us/en/experience/arctic-surfing-in-lofoten`el componente sabe generar la estructura de navegación basada en `/content/we-retail/language-masters/en`.
 
-## Compatibilidad con estructura del sitio de sombra {#shadow-structure}
+## Compatibilidad con la estructura del sitio de sombra {#shadow-structure}
 
-A veces es necesario crear un menú de navegación para el visitante diferente de la estructura real del sitio. Tal vez una promoción debe resaltar cierto contenido del menú reorganizando la lista de contenido. Al utilizar páginas de sombra, que simplemente redireccionan a otras páginas de contenido, el componente de navegación puede generar cualquier estructura de navegación arbitraria necesaria.
+A veces es necesario crear un menú de navegación para el visitante que sea diferente de la estructura real del sitio. Quizás una promoción debería resaltar cierto contenido en el menú reorganizando la lista de contenido. Con las páginas de sombra, que simplemente se redirigen a otras páginas de contenido, el componente de navegación puede generar cualquier estructura de navegación arbitraria necesaria.
 
-Para ello necesitará:
+Para ello deberá:
 
-1. Cree páginas de sombra como páginas emigry que representen la estructura del sitio que desee. Esto suele conocerse como una estructura de sitio sombreada.
-1. Establezca los valores **de Redireccionamiento** en la página divididas en estas páginas para que apunten a las páginas de contenido reales.
-1. Establezca **la opción Ocultar en navegación** en las propiedades de página de las páginas de sombra.
-1. Defina **el valor Raíz** de navegación del componente de navegación para que apunte a la raíz de la nueva estructura de sitio de sombra.
+1. Cree páginas de sombra como páginas vacías que representen la estructura del sitio deseada. Esto generalmente se denomina estructura de sitio de sombra.
+1. Configure los valores de **redirección** en las propiedades de página de estas páginas para que señalen a las páginas de contenido real.
+1. Establezca la opción **Ocultar en navegación** en las propiedades de página de las páginas de sombra.
+1. Establezca el valor Raíz **de** navegación del componente de navegación para que señale a la raíz de la nueva estructura del sitio de sombra.
 
-A continuación, el componente de navegación procesará el menú en función de la estructura del sitio de sombra. Los vínculos representados por el componente son las páginas de contenido real a las que redirecciona las páginas de sombra y no las páginas de sombra. Además, el componente muestra los nombres de las páginas reales y resalta correctamente la página activa, incluso cuando la navegación se basa en páginas de sombra. El componente de navegación hace que las páginas de sombra sean totalmente transparentes para el visitante.
-
->[!NOTE]
->Las páginas de sombra hacen que las opciones de navegación sean mucho más flexibles, pero tenga en cuenta que la persistencia de esta estructura es por completo manual. Si reorganiza el contenido real del sitio o agrega o elimina contenido, deberá actualizar manualmente la estructura de sombra según sea necesario.
+A continuación, el componente de navegación procesará el menú basado en la estructura del sitio de sombra. Los vínculos procesados por el componente son a las páginas de contenido real a las que las páginas de sombra se redirigen y no a las propias páginas de sombra. Además, el componente muestra los nombres de las páginas reales y resalta correctamente la página activa, incluso cuando la navegación se basa en páginas en la sombra. El componente de navegación hace que las páginas de sombra sean totalmente transparentes para el visitante.
 
 >[!NOTE]
->Cuando se representa una estructura de sitio sombreada, la lógica de navegación sólo recurre a las páginas de sombra. La lógica no recurre a la estructura de los destinos de redirección.
+>Las páginas de sombra hacen que las opciones de navegación sean mucho más flexibles, pero tenga en cuenta que el mantenimiento de esta estructura es, a continuación, completamente manual. Si reorganiza el contenido real del sitio o agrega o elimina contenido, deberá actualizar manualmente la estructura de sombra según sea necesario.
+
+>[!NOTE]
+>Al procesar una estructura de sitio de sombra, la lógica de navegación solo recurre a las páginas de sombra. La lógica no repite la estructura de los destinos de redireccionamiento.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de navegación es v 1, introducida con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
+La versión actual del componente de navegación es v1, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre versiones y versiones de componentes principales, consulte las [versiones del documento Versiones principales](versions.md).
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
-## Salida de componente de muestra {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente de navegación, así como ver ejemplos de opciones de configuración, así como HTML y JSON, visite la Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html).
+Para experimentar el componente de navegación, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/navigation.html)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de navegación [se encuentra en github](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
+La documentación técnica más reciente sobre el componente de navegación [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/navigation/v1/navigation).
 
-Encontrará más información sobre el desarrollo de componentes principales en la documentación del desarrollador de componentes [principales](developing.md).
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
 >[!NOTE]
 >
->Desde la versión de componentes principales 2.1.0, el componente de navegación admite [schema.org microdata](https://schema.org).
+>A partir de la versión 2.1.0 de los componentes principales, el componente de navegación admite microdatos [de](https://schema.org)schema.org.
 
 ## Edit Dialog {#edit-dialog}
 
-En el cuadro de diálogo de edición, el autor de contenido puede definir la página raíz para la navegación y la profundidad de la estructura de navegación.
+En el cuadro de diálogo de edición, el autor del contenido puede definir la página raíz para la navegación y la profundidad de la estructura de navegación.
 
 ### Ficha Propiedades {#properties-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.45.png)
 
-* **Raíz
-de navegación** La página raíz, que se utilizará para generar el árbol de navegación.
-* **Excluir raíz
-de navegación** Excluir la raíz de navegación en el árbol resultante, incluir solo a sus descendientes.
-* **Recopilación de todas las páginas**
-secundarias Recopile todas las páginas que sean descendientes de la raíz de navegación.
-* **Profundidad
-de estructura de navegación** Define cuántos niveles en el árbol de navegación se deben mostrar en relación con la raíz de navegación (solo disponible cuando **no se selecciona la opción Recopilación de todas las páginas** secundarias).
+* **Raíz** de navegación La página raíz, que se utilizará para generar el árbol de navegación.
+* **Excluir raíz** de navegación Excluir la raíz de navegación en el árbol resultante, incluir solo sus descendientes.
+* **Recopilar todas las páginas** secundarias Recopilar todas las páginas que sean descendientes de la raíz de navegación.
+* **Profundidad** de la estructura de navegaciónDefine cuántos niveles por debajo del árbol de navegación debería mostrar el componente en relación con la raíz de navegación (solo disponible cuando no está seleccionada la opción **Recopilar todas las páginas** secundarias).
 
 ### Ficha Accesibilidad {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.23.53.png)
 
-En la ficha **Accesibilidad** , los valores se pueden definir para [las etiquetas de accesibilidad](https://www.w3.org/WAI/standards-guidelines/aria/) de ARIA para el componente.
+En la ficha **Accesibilidad** , se pueden definir valores para las etiquetas de accesibilidad [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA del componente.
 
 * **Etiqueta** : valor de un atributo de etiqueta ARIA para el componente
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite que el autor de la plantilla establezca los valores predeterminados para la página raíz de navegación y la profundidad de navegación que se presentan a los autores de contenido.
+El cuadro de diálogo de diseño permite al autor de la plantilla establecer los valores predeterminados para la página raíz de navegación y la profundidad de navegación que se presentan a los autores de contenido.
 
 ### Ficha Propiedades {#properties-tab-design}
 
 ![](assets/screen_shot_2018-04-03at112357.png)
 
-* **Raíz de navegación El**
-valor predeterminado de la página raíz de la estructura de navegación, que se utilizará para generar el árbol de navegación y predeterminado cuando el autor de contenido agrega el componente a la página.
-* **Excluir raíz
-de navegación** El valor predeterminado de la opción para excluir la raíz de navegación en el árbol resultante.
-* **Recopilación de todas las páginas**
-secundarias El valor predeterminado de la opción para recopilar todas las páginas que sean descendientes de la raíz de navegación.
-* **Profundidad de la estructura de navegación El**
-valor predeterminado de la profundidad de la estructura de navegación.
+* **Raíz** de navegación El valor predeterminado de la página raíz de la estructura de navegación, que se utilizará para generar el árbol de navegación y se utilizará de forma predeterminada cuando el autor del contenido agregue el componente a la página.
+* **Excluir raíz** de navegaciónEl valor predeterminado de la opción para excluir la raíz de navegación en el árbol resultante.
+* **Recopilar todas las páginas** secundariasEl valor predeterminado de la opción para recopilar todas las páginas que sean descendientes de la raíz de navegación.
+* **Profundidad** de la estructura de navegaciónValor predeterminado de la profundidad de la estructura de navegación.
 
 ### Ficha Estilos {#styles-tab}
 
-El componente de navegación admite el sistema [de estilos AEM](authoring.md#component-styling).
+El componente de navegación es compatible con el sistema [de](authoring.md#component-styling)estilo de AEM.
