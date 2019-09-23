@@ -1,50 +1,50 @@
 ---
 title: Personalización de componentes principales
 seo-title: Personalización de componentes principales
-description: Los componentes principales implementan varios patrones que facilitan la personalización, desde un estilo simple a una reutilización de funcionalidad avanzada.
-seo-description: Los componentes de AEM Core implementan varios patrones que facilitan la personalización, desde un estilo simple a una reutilización de funcionalidad avanzada.
-uuid: 38 d 22 b 85-4867-4716-817 a -10 ee 2 f 8 de 6 f 5
+description: Los componentes principales implementan varios patrones que permiten una fácil personalización, desde el estilo simple hasta la reutilización avanzada de la funcionalidad.
+seo-description: Los componentes principales de AEM implementan varios patrones que facilitan la personalización, desde el estilo simple hasta la reutilización de funciones avanzadas.
+uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
 contentOwner: Usuario
 content-type: referencia
-topic-tags: desarrollar
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: 3 c 9 e 0 ade -1 ce 0-4 e 34-ae 04-8 da 63 f 9 b 6 c 4 f
+topic-tags: desarrollo
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
+discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
 source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
 
 ---
 
 
-# Personalización de componentes principales{#customizing-core-components}
+# Customizing Core Components{#customizing-core-components}
 
-Los componentes [principales](developing.md) implementan varios patrones que facilitan la personalización, desde un estilo simple a una reutilización de funcionalidad avanzada.
+The Core Components implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.[](developing.md)
 
-## Arquitectura flexible {#flexible-architecture}
+## Flexible Architecture {#flexible-architecture}
 
-Los componentes principales se diseñaron desde el principio para ser flexibles y extensibles. Un vistazo a una descripción general de su arquitectura revela dónde se pueden personalizar.
+The Core Components were designed from the beginning to be flexible and extensible. A look at an overview of their architecture reveals where customizations can be made.
 
-![Arquitectura de componentes principales](assets/screen_shot_2018-12-07at093742.png)
+![Core Components Architecture](assets/screen_shot_2018-12-07at093742.png)
 
-* [El cuadro de diálogo](authoring.md#edit-and-design-dialogs) de diseño define lo que los autores pueden o no hacer en el cuadro de diálogo de edición.
-* [El cuadro de diálogo](authoring.md#edit-and-design-dialogs) de edición muestra a los autores únicamente las opciones que pueden utilizar.
-* [El modelo Sling](#customizing-the-logic-of-a-core-component) comprueba y prepara el contenido para la vista (plantilla).
-* [El resultado del modelo Sling](#customizing-the-logic-of-a-core-component) se puede serializar en JSON para casos de uso de SPA.
-* [HTL procesa HTML](#customizing-the-markup) en el lado del servidor para la representación tradicional del lado del servidor.
-* [El resultado HTML](#customizing-the-markup) es semántica, accesible, motor de búsqueda optimizado y fácil de diseñar.
+* [The design dialog defines what authors can or cannot do in the edit dialog.](authoring.md#edit-and-design-dialogs)
+* [The edit dialog shows authors only the options they are allowed to use.](authoring.md#edit-and-design-dialogs)
+* [The Sling model verifies and prepares the content for the view (template).](#customizing-the-logic-of-a-core-component)
+* [The result of the Sling model can be serialized to JSON for SPA use-cases.](#customizing-the-logic-of-a-core-component)
+* [El HTL procesa el servidor HTML](#customizing-the-markup) para el procesamiento tradicional en el servidor.
+* [El resultado](#customizing-the-markup) HTML es semántico, accesible, optimizado para motores de búsqueda y de estilo sencillo.
 
-Y todos los componentes principales implementan el [sistema de estilos](customizing.md).
+Y todos los componentes principales implementan el Sistema [de estilos](customizing.md).
 
 ## Patrones de personalización {#customization-patterns}
 
-### Personalización de diálogos {#customizing-dialogs}
+### Personalización de cuadros de diálogo {#customizing-dialogs}
 
-Puede que desee personalizar las opciones de configuración disponibles en un cuadro de diálogo de componente principal, ya sea en el cuadro de diálogo [de diseño o en el cuadro de diálogo Editar](authoring.md).
+Es posible que desee personalizar las opciones de configuración disponibles en un cuadro de diálogo de componentes principales, ya sea el cuadro de diálogo [Diseño o el cuadro de diálogo](authoring.md)Editar.
 
-Cada cuadro de diálogo tiene una estructura de nodos coherente. Se recomienda que esta estructura se repita en un componente heredado para que se pueda utilizar [Sling Resource Fusion](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) and [Ocultar condiciones](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) para ocultar, reemplazar o reordenar secciones del cuadro de diálogo original. La estructura que se va a replicar se define como cualquier cosa hasta el nivel de nodo de elemento de tabulación.
+Cada cuadro de diálogo tiene una estructura de nodos consistente. Se recomienda que esta estructura se replique en un componente heredado para que se puedan usar las [fusiones](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) de recursos de Sling y las condiciones de [](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/hide-conditions.html) ocultación para ocultar, reemplazar o reordenar secciones del cuadro de diálogo original. La estructura que se va a replicar se define como cualquier elemento hasta el nivel de nodo de elemento de ficha.
 
-Para ser totalmente compatible con cualquier cambio realizado en un cuadro de diálogo en la versión actual, es muy importante que las estructuras debajo del nivel de elemento de tabulación no se toquen (ocultas, agregadas, reemplazadas, reordenadas, etc.). En su lugar, un elemento de ficha del elemento principal debe ocultarse mediante `sling:hideResource` la propiedad (consulte [Sling Resource Fusion Properties)](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)y agregar nuevos elementos de tabulación que contengan los campos de configuración de bespoke. `sling:orderBefore` se pueden utilizar para reordenar los elementos de la ficha si es necesario.
+Para ser totalmente compatible con cualquier cambio realizado en un cuadro de diálogo en su versión actual, es muy importante que no se toquen las estructuras situadas debajo del nivel de elemento de ficha (ocultado, agregado, sustituido, reordenado, etc.). En su lugar, se debe ocultar un elemento de ficha del elemento principal mediante la `sling:hideResource` propiedad (consulte [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) y se deben agregar nuevos elementos de ficha que contengan los campos de configuración personalizados. `sling:orderBefore` se puede utilizar para reordenar elementos de ficha si es necesario.
 
-El siguiente cuadro de diálogo muestra la estructura de diálogo recomendada y cómo ocultar y reemplazar una ficha heredada tal como se describe anteriormente:
+El cuadro de diálogo siguiente muestra la estructura de cuadro de diálogo recomendada, así como cómo ocultar y reemplazar una ficha heredada como se describe anteriormente:
 
 <!-- 
 
@@ -95,11 +95,11 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 ### Personalización de la lógica de un componente principal {#customizing-the-logic-of-a-core-component}
 
-La lógica comercial de los componentes principales se implementa en Sling Models. Esta lógica se puede ampliar utilizando un patrón de delegación Sling.
+La lógica empresarial de los componentes principales se implementa en los modelos de Sling. Esta lógica se puede ampliar utilizando un patrón de delegación de Sling.
 
-Por ejemplo, el componente núcleo del título utiliza la `jcr:title` propiedad del recurso solicitado para proporcionar el texto del título. Si no `jcr:title` se define ninguna propiedad, se implementa una alternativa al título de la página actual. Queremos cambiar el comportamiento para que el título de la página actual siempre se muestre.
+Por ejemplo, el componente principal del título utiliza la `jcr:title` propiedad del recurso solicitado para proporcionar el texto del título. Si no se define ninguna `jcr:title` propiedad, se implementa una alternativa al título de la página actual. Queremos cambiar el comportamiento para que siempre se muestre el título de la página actual.
 
-Dado que la implementación de los modelos de los componentes principales es privada, debe ampliarse con un patrón de delegación.
+Dado que la implementación de los modelos de componentes principales es privada, deben ampliarse con un patrón de delegación.
 
 ```java
 @Model(adaptables = SlingHttpServletRequest.class,
@@ -118,15 +118,15 @@ public class PageHeadline implements Title {
 }
 ```
 
-For further details about the delegation pattern see the Core Components GitHub Wiki article [Delegation Pattern for Sling Models](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models).
+Para obtener más información sobre el patrón de delegación, consulte el artículo sobre los componentes principales de GitHub Wiki [Patrón de delegación para modelos](https://github.com/adobe/aem-core-wcm-components/wiki/Delegation-Pattern-for-Sling-Models)Sling.
 
 ### Personalización del marcado {#customizing-the-markup}
 
 A veces, el estilo avanzado requiere una estructura de marcado diferente del componente.
 
-Esto se puede realizar fácilmente copiando los archivos HTL que deben modificarse desde el componente principal al componente proxy.
+Esto se puede hacer fácilmente copiando los archivos HTML que deben modificarse del componente principal al componente proxy.
 
-Volviendo a tomar el ejemplo del componente de Crumb principal, para personalizar el resultado de la marca, es `breadcrumb.html` necesario copiar el archivo en el componente específico del sitio que tenga un punto apuntado `sling:resourceSuperTypes` al componente de ruta de navegación principal.
+Tomando de nuevo el ejemplo del componente Core Breadcrumb, para personalizar su salida de marcado, el `breadcrumb.html` archivo tendría que copiarse en el componente específico del sitio que tiene un `sling:resourceSuperTypes` que apunta al componente Core Breadcrumb.
 
 <!-- 
 
@@ -149,11 +149,11 @@ Should we provide guidance on how to name their CSS classes, etc. to align to co
 
 ### Estilo de los componentes {#styling-the-components}
 
-La primera forma de personalización es aplicar estilos CSS.
+La primera forma de personalización consiste en aplicar estilos CSS.
 
-Para facilitar este proceso, los componentes principales representan la marca semántica y siguen una convención de nombre estandarizada inspirada por [Bootstrap](https://getbootstrap.com/). Además, para dirigir y namespace fácilmente los estilos de los componentes individuales, cada componente principal se envuelve en un elemento DIV con las clases &quot; `cmp`&quot; y &quot; `cmp-<name>`&quot;.
+Para facilitar esto, los Componentes principales procesan el marcado semántico y siguen una convención de nombres estandarizada inspirada en [Bootstrap](https://getbootstrap.com/). Además, para establecer fácilmente como objetivo y como espacio de nombres los estilos de los componentes individuales, cada componente principal se envuelve en un elemento DIV con las clases " `cmp`" y " `cmp-<name>`".
 
-Por ejemplo, al ver el archivo HTL del componente v 1 Core Breadcrumb: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), vemos que la jerarquía de elementos es `ol.breadcrumb > li.breadcrumb-item > a`. Así, para asegurarse de que una regla CSS solo afecta a la clase de sendero de exploración de ese componente, todas las reglas deben nombrarse como se muestra a continuación:
+Por ejemplo, mirando el archivo HTL del componente Core Breadcrumb v1: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), vemos que la salida de jerarquía de elementos es `ol.breadcrumb > li.breadcrumb-item > a`. Para asegurarse de que una regla CSS solo afecta a la clase breadcrumb de ese componente, todas las reglas deben tener un espacio de nombres como se muestra a continuación:
 
 ```shell
 .cmp-breadcrumb .breadcrumb {}  
@@ -161,41 +161,41 @@ Por ejemplo, al ver el archivo HTL del componente v 1 Core Breadcrumb: [breadcru
 .cmp-breadcrumb a {}
 ```
 
-Además, cada uno de los componentes principales aprovecha la función [de sistema de estilos AEM](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) que permite a los autores de plantillas definir nombres de clases CSS adicionales que los autores de páginas pueden aplicar al componente. Esto permite definir para cada plantilla una lista de estilos de componente permitidos y si uno de ellos debe aplicarse de forma predeterminada a todos los componentes de ese tipo.
+Additionally, each of the Core Components leverage the AEM Style System feature that allows template authors to define additional CSS class names that can be applied to the component by the page authors. [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) This allows to define for each template a list of allowed component styles, and whether one of them should apply by default to all components of that kind.
 
-## Actualizar compatibilidad de personalizaciones {#upgrade-compatibility-of-customizations}
+## Upgrade Compatibility of Customizations {#upgrade-compatibility-of-customizations}
 
-Se permiten tres tipos diferentes de actualizaciones:
+Three different kind of upgrades are possible:
 
-* actualizar la versión de AEM
-* actualizar los componentes principales a una nueva versión secundaria
-* actualizar los componentes principales a una versión principal
+* upgrading the version of AEM
+* upgrading the Core Components to a new minor version
+* actualización de los componentes principales a una versión principal
 
-En general, la actualización de AEM a una nueva versión no afectará a los componentes principales ni a las personalizaciones realizadas, siempre que las versiones de los componentes también admitan la nueva versión de AEM que se esté migrando y que las personalizaciones no utilicen API que estén [obsoletas o eliminadas](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+En general, la actualización de AEM a una nueva versión no afectará a los componentes principales ni a las personalizaciones realizadas, siempre que las versiones de los componentes también admitan la nueva versión de AEM a la que se está migrando y que las personalizaciones no utilicen API que se hayan [desaprobado o eliminado](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
 
-La actualización de los componentes principales sin pasar a una versión principal más reciente no debe afectar a las personalizaciones, siempre y cuando se usen los patrones de personalización descritos en esta página.
+La actualización de los componentes principales sin cambiar a una versión principal más reciente no debería afectar a las personalizaciones, siempre que se utilicen los patrones de personalización descritos en esta página.
 
-Cambiar a una versión principal más reciente de los componentes principales es compatible únicamente con la estructura de contenido, pero es posible que deba volver a factorizar las personalizaciones. Se publicarán registros de cambios de cambio para cada versión de componente para resaltar los cambios que afectarán el tipo de personalizaciones descritas en esta página.
+El cambio a una versión principal más reciente de los componentes principales solo es compatible con la estructura de contenido, pero es posible que sea necesario refactorizar las personalizaciones. Se publicarán registros de cambios claros para cada versión del componente a fin de resaltar los cambios que podrían afectar al tipo de personalizaciones descritas en esta página.
 
 ## Compatibilidad con personalizaciones {#support-of-customizations}
 
-Al igual que para cualquier componente de AEM, hay una serie de aspectos que debe tener en cuenta acerca de las personalizaciones:
+Al igual que para cualquier componente de AEM, hay que tener en cuenta varias cosas en relación con las personalizaciones:
 
-1. **No modifique directamente el código de los componentes principales.**
+1. **Nunca modifique directamente el código de los componentes principales.**
 
-   Esto no será compatible completamente y hará que las futuras actualizaciones de los componentes resulten difíciles. En su lugar, utilice los métodos de personalización descritos en esta página.
+   Esto haría que no fueran totalmente compatibles y que las futuras actualizaciones de los componentes fueran un proceso doloroso. En su lugar, utilice los métodos de personalización descritos en esta página.
 
 1. **El código personalizado es su propia responsabilidad.**
 
-   Nuestro programa de soporte no cubre el código personalizado, y los problemas informados que no se pueden reproducir con los componentes de vaincore que [se utilizan como documentados](using.md) no se califican.
+   Nuestro programa de soporte no cubre el código personalizado, y los problemas informados que no pueden reproducirse con los componentes principales de vainilla que se [utilizan como documentados](using.md) no serán válidos.
 
-1. **Vea la funcionalidad obsoleta y eliminada.**
+1. **Observar la funcionalidad obsoleta y eliminada.**
 
-   Con cada nueva versión de AEM a la que se esté actualizando, asegúrese de que todas las API utilizadas siguen teniendo un buen funcionamiento fijándose en la [página Funciones](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) obsoletas y eliminadas.
+   Al actualizar cada nueva versión de AEM, asegúrese de que todas las API utilizadas siguen teniendo actualidad, vigilando la página Funciones [](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) obsoletas y eliminadas.
 
-Consulte también [la sección Compatibilidad](developing.md#core-component-support) con componentes principales.
+Consulte también la sección Compatibilidad con [](developing.md#core-component-support) componentes principales.
 
-**Siguiente:**
+**Lea lo siguiente:**
 
-* [Uso de componentes](using.md) principales: familiarícese con los componentes principales en su propio proyecto.
+* [Uso de componentes](using.md) principales: obtenga y ejecute los componentes principales en su propio proyecto.
 * [Directrices](guidelines.md) de componentes: para conocer los patrones de implementación de los componentes principales.
