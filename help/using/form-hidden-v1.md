@@ -1,12 +1,12 @@
 ---
-title: Componente oculto de formulario (v 1)
-seo-title: Componente oculto de formulario (v 1)
-description: El componente Formulario de componente principal permite mostrar un campo oculto.
-seo-description: El componente Formulario de componente principal permite mostrar un campo oculto.
-uuid: f 5005346-def 5-4 e 1 f -8 f 93-e 4 cfc 67 a 9329
+title: Componente oculto de formulario (v1)
+seo-title: Componente oculto de formulario (v1)
+description: El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
+seo-description: El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
+uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: d 35 f 4 e 71-ec 7 f -4128-9123-b 997 dbb 5 f 0 cf
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 translation-type: tm+mt
 source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
@@ -14,36 +14,36 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ---
 
 
-# Componente oculto de formulario (v 1){#form-hidden-component-v}
+# Form Hidden Component (v1){#form-hidden-component-v}
 
-El componente Formulario de componente principal permite mostrar un campo oculto.
+El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
 
 ## Uso {#usage}
 
-El componente Oculto Formulario de componente principal permite crear campos ocultos para pasar información sobre la página actual de nuevo a AEM y está pensada para utilizarse junto con [el componente Contenedor de formulario](form-container.md).
+El componente Oculto del formulario de componente principal permite crear campos ocultos para devolver a AEM la información sobre la página actual y está diseñado para utilizarse junto con el componente [contenedor de](form-container.md)formularios.
 
-El editor de contenido puede definir las propiedades del campo en el cuadro de diálogo [de configuración](#configure-dialog).
+El editor de contenido puede definir las propiedades del campo en el cuadro de diálogo [](#configure-dialog)configurar.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 1 del componente Oculto de formulario, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
+Este documento describe la versión 1 del componente Formulario oculto, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-La siguiente tabla muestra la compatibilidad de v 1 del componente Oculto de formulario.
+En la tabla siguiente se muestra la compatibilidad de v1 del componente Formulario oculto.
 
-| Versión de AEM | Componente oculto de formulario v 1 |
+| Versión de AEM | Componente oculto de formulario v1 |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
 
 >[!CAUTION]
 >
->Este documento describe v 1 del componente Oculto de formulario.
+>Este documento describe la versión 1 del componente Oculto del formulario.
 >
->Para obtener más información sobre la versión actual del componente Oculto de formulario, consulte [el documento Componente](form-hidden.md) oculto de formulario.
+>Para obtener más información sobre la versión actual del componente Formulario oculto, consulte el documento Componente [](form-hidden.md) formulario oculto.
 
-## Salida de componente de muestra {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### HTML {#html}
 
@@ -83,26 +83,26 @@ La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/exper
 
 >[!NOTE]
 >
->La exportación JSON de los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información [de compatibilidad de Componentes principales v 1](versions.md#release-history-and-compatibility) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información de [compatibilidad de los componentes principales v1](versions.md#release-history-and-compatibility) para obtener más información.
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
-El cuadro de diálogo de configuración permite al autor de contenido definir los parámetros del campo oculto.
+El cuadro de diálogo de configuración permite al autor del contenido definir los parámetros del campo oculto.
 
 ![](assets/chlimage_1-26.png)
 
-* **Nombre** : el nombre del campo que se envía con los datos del formulario.
-* **Valor** : valor del campo que se envía con los datos del formulario.
-* **Identificador** : El identificador debe ser único en la página y se puede utilizar para enlazar secuencias de comandos a este campo de formulario
+* **Nombre** : el nombre del campo, que se envía con los datos del formulario
+* **Valor** : el valor del campo, que se envía con los datos del formulario
+* **Identificador** : el identificador debe ser único en la página y puede utilizarse para enlazar secuencias de comandos a este campo de formulario
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-No hay un cuadro de diálogo de diseño para el componente Formulario oculto.
+No hay ningún cuadro de diálogo de diseño para el componente Formulario oculto.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente oculto de formulario [se encuentra en github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
+La documentación técnica más reciente sobre el componente oculto de formulario [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v1/hidden).
 
-Todo el proyecto de componentes principales se puede descargar desde github.
+Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más información sobre el desarrollo de componentes principales en la documentación del desarrollador de componentes [principales](developing.md).
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
