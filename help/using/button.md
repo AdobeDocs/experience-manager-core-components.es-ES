@@ -1,76 +1,76 @@
 ---
-title: Componente Botón
-seo-title: Componente Botón
+title: Componente de botón
+seo-title: Componente de botón
 description: nulo
-seo-description: El componente Botón de componente principal permite crear y visualizar un botón.
-uuid: ec 807 de 9-f 76 c -4850-9 ece-c 3 e 439 a 1 d 626
+seo-description: El componente Botón del componente principal permite la creación y visualización de un botón.
+uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
 contentOwner: Usuario
 content-type: referencia
 topic-tags: creación
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: f 093 f 58 e -9755-4 a 4 f -803 a-ab 93 a 50 e 6870
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
 source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
 
 ---
 
 
-# Componente Botón{#button-component}
+# Componente de botón{#button-component}
 
-El componente Botón Componente Core permite la configuración y visualización de un elemento de botón en una página.
+El componente Botón del componente principal permite configurar y mostrar un elemento de botón en una página.
 
 ## Uso {#usage}
 
-El componente Botón de componente principal permite incluir un botón en una página.
+El componente Botón del componente principal permite la inclusión de un botón en una página.
 
-* Las propiedades del botón se pueden seleccionar en el cuadro de diálogo [de configuración](#configure-dialog).
-* Los estilos del componente Botón pueden definirse en el cuadro de diálogo [de diseño](#design-dialog).
+* Las propiedades del botón se pueden seleccionar en el cuadro de diálogo [](#configure-dialog)Configurar.
+* Los estilos del componente Botón se pueden definir en el cuadro de diálogo [](#design-dialog)de diseño.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Botón es v 1, introducida con la versión 2.5.0 de los componentes principales en junio de 2019, y se describe en este documento.
+La versión actual del componente Botón es v1, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019, y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |---|
 | v1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre versiones y versiones de componentes principales, consulte las [versiones del documento Versiones principales](versions.md).
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
-## Salida de componente de muestra {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente Botón, así como ver ejemplos de opciones de configuración, así como HTML y JSON, visite la Biblioteca [de componentes](http://opensource.adobe.com/aem-core-wcm-components/library/button.html).
+Para experimentar el componente Botón, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/button.html)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Botón [se encuentra en github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+La documentación técnica más reciente sobre el componente Botón [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
 
-Encontrará más información sobre el desarrollo de componentes principales en la documentación del desarrollador de componentes [principales](developing.md).
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
-El cuadro de diálogo de configuración permite al autor de contenido definir el botón y cómo se comportará y aparecerá para un visitante de la página.
+El cuadro de diálogo de configuración permite al autor del contenido definir el botón y cómo se comportará y aparecerá para un visitante de la página.
 
 ### Ficha Propiedades {#properties-tab}
 
 ![](assets/screen-shot-2019-08-29-12.19.32.png)
 
-* **Texto** : El texto que se va a mostrar en el botón
-* **Vínculo** : vínculo a una página de contenido dentro de AEM, un recurso externo o un anclaje
-   * Utilice el cuadro de diálogo **Selección** para elegir una ruta dentro de AEM.
+* **Texto** : el texto que se va a mostrar en el botón
+* **Vínculo** : vínculo a una página de contenido de AEM, un recurso externo o un anclaje
+   * Utilice el cuadro de diálogo **** Selección para elegir una ruta dentro de AEM.
 * **Icono** : identificador para mostrar un icono en el botón
 
 ### Ficha Accesibilidad {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-En la ficha **Accesibilidad** , los valores se pueden definir para [las etiquetas de accesibilidad](https://www.w3.org/WAI/standards-guidelines/aria/) de ARIA para el componente.
+En la ficha **Accesibilidad** , se pueden definir valores para las etiquetas de accesibilidad [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA del componente.
 
 * **Etiqueta** : valor de un atributo de etiqueta ARIA para el componente
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Imagen admite [el sistema de estilos AEM](authoring.md#component-styling).
+El componente Imagen admite el sistema [de](authoring.md#component-styling)estilo AEM.
