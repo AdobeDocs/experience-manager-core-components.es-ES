@@ -2,45 +2,45 @@
 title: Uso de componentes principales
 seo-title: Uso de componentes principales
 description: nulo
-seo-description: '" Para empezar a utilizarlo con componentes principales en su propio proyecto, siga estos pasos: descargue e instale, cree componentes proxy, cargue los estilos principales y permita los componentes de las plantillas. "'
-uuid: a 1 ef 2 acf -8226-4510-838 b-f 5 fae 196 f 9 f 1
+seo-description: '"Para ponerse en marcha con los componentes principales de su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes en las plantillas".'
+uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
 contentOwner: Usuario
 content-type: referencia
-topic-tags: desarrollar
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: 1703 a 171-830 c -477 e-a 34 f -99 caba 841 ec 4
+topic-tags: desarrollo
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
 disttype: dist5
 gnavtheme: claro
 index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 632d6abb1f13667cc0457152268d50af3bfabfc4
+source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
 
 ---
 
 
 # Uso de componentes principales{#using-core-components}
 
-Para ponerse en marcha con [componentes principales](developing.md) en su propio proyecto, hay cuatro pasos, que se detallan individualmente en las secciones siguientes:
+Para ponerse en marcha con los componentes [](developing.md) principales en su propio proyecto, hay cuatro pasos que se detallan individualmente en las secciones siguientes:
 
-1. [Descarga e instalación](#download-and-install)
-1. [Crear componentes Proxy](#create-proxy-components)
-1. [Cargar los estilos principales](#load-the-core-styles)
-1. [Activar componentes](#allow-the-components)
+1. [Descargar e instalar](#download-and-install)
+1. [Creación de componentes proxy](#create-proxy-components)
+1. [Carga de los estilos principales](#load-the-core-styles)
+1. [Habilitar los componentes](#allow-the-components)
 
 >[!NOTE]
 >
->Como alternativa, para obtener instrucciones más amplias sobre cómo empezar desde cero con la configuración del proyecto, los componentes principales, las plantillas editables, las bibliotecas cliente y el desarrollo de componentes, puede ser interesante el siguiente tutorial de varias partes:\
->[Introducción a sitios AEM - Tutorial de WKND](wknd-tutorial.md)
+>Como alternativa, para obtener instrucciones más amplias sobre cómo empezar desde cero con la configuración del proyecto, los componentes principales, las plantillas editables, las bibliotecas de clientes y el desarrollo de componentes, el siguiente tutorial de varias partes puede ser de interés:\
+>[Introducción a AEM Sites: Tutorial de WKND](wknd-tutorial.md)
 
-## Descarga e instalación {#download-and-install}
+## Descargar e instalar {#download-and-install}
 
-Una de las ideas que impulsan los componentes principales es la flexibilidad. Lanzar nuevas versiones de los componentes principales con mayor frecuencia permite a Adobe ser más flexible en la entrega de nuevas funciones. Los desarrolladores pueden ser flexibles en los componentes que elija integrar en sus proyectos y en la frecuencia con que desean actualizarlos.
+Una de las ideas que impulsan los componentes principales es la flexibilidad. La publicación de nuevas versiones de los componentes principales permite a Adobe ser más flexible a la hora de ofrecer nuevas funciones. A su vez, los desarrolladores pueden ser flexibles en cuanto a los componentes que eligen integrar en sus proyectos y a la frecuencia con que desean actualizarlos.
 
-Por este motivo, los componentes principales no forman parte del inicio rápido al comenzar en modo de producción (sin contenido de muestra). Por lo tanto, su primer paso es [descargar el último paquete de contenido publicado desde github](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalarlo en los entornos de AEM.
+Por este motivo, los componentes principales no forman parte del inicio rápido cuando se inician en modo de producción (sin contenido de muestra). Por lo tanto, el primer paso es [descargar el último paquete de contenido publicado de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalarlo en sus entornos AEM.
 
-Existen varias formas de automatizar esto, pero la manera más sencilla de instalar rápidamente un paquete de contenido en una instancia es mediante el Administrador de paquetes; Consulte [Instalación de paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Asimismo, una vez que tenga una instancia de publicación en ejecución, tendrá que replicar dicho paquete en el editor; Consulte [Replicación de paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+Existen varias formas de automatizar esto, pero la forma más sencilla de instalar rápidamente un paquete de contenido en una instancia es mediante el uso del Administrador de paquetes; consulte [Instalar paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Además, una vez que tenga una instancia de publicación en ejecución, deberá replicar el paquete al editor; consulte [Replicar paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
 
 <!-- 
 
@@ -52,29 +52,26 @@ Should we be promoting embedding the core-component package as an artifact in a 
 
  -->
 
-## Crear componentes Proxy {#create-proxy-components}
+## Creación de componentes proxy {#create-proxy-components}
 
-Por motivos explicados en la [sección Patrón](guidelines.md#proxy-component-pattern) de componente proxy, los componentes principales no se deben hacer referencia directamente desde el contenido. Para evitar esto, todos pertenecen a un grupo de componentes ocultos ( `.core-wcm` o `.core-wcm-form`), lo que impide que se muestren directamente en el editor.
+Por motivos explicados en la sección Patrón [de componentes](guidelines.md#proxy-component-pattern) proxy, no se debe hacer referencia a los componentes principales directamente desde el contenido. Para evitarlo, todos pertenecen a un grupo de componentes ocultos ( `.core-wcm` o `.core-wcm-form`), lo que les impedirá aparecer directamente en el editor.
 
-En su lugar, se deben crear componentes específicos del sitio que definan el nombre y el grupo que desee para mostrar a los autores de páginas, y hacer referencia a cada uno de ellos a un componente principal como supertipo. Estos componentes específicos del sitio se denominan a veces «componentes proxy» porque no necesitan contener nada y sirven principalmente para definir la versión de un componente que se utilizará en el sitio. Sin embargo, al personalizar los componentes [](customizing.md)principales, estos componentes proxy juegan un papel esencial en la personalización y la personalización de la lógica.
+En su lugar, se deben crear componentes específicos del sitio, que definan el nombre y el grupo del componente deseado para que se muestren a los autores de la página y remitan cada uno a un componente principal como su supertipo. Estos componentes específicos del sitio a veces se denominan "componentes proxy", ya que no necesitan contener nada y sirven principalmente para definir la versión de un componente que se va a utilizar en el sitio. Sin embargo, al personalizar los componentes [principales](customizing.md), estos componentes proxy desempeñan un papel esencial en el marcado y la personalización lógica.
 
-Así pues, para cada componente principal que desee utilizar para un sitio, debe:
+Por lo tanto, para cada componente principal que desee utilizar en un sitio, debe:
 
 1. Cree un componente proxy correspondiente en la carpeta de componentes del sitio.
 
-   **Ejemplo**
-bajo `/apps/my-site/components` creación de un nodo de título de tipo `cq:Component`
+   **Ejemplo** En `/apps/my-site/components` Crear un nodo de título de tipo `cq:Component`
 
-1. Apunte a la versión de componente principal correspondiente con el supertipo.
+1. Seleccione la versión correspondiente del componente principal con el supertipo.
 
-   **Ejemplo**
-Añadir siguiente propiedad:\
+   **Ejemplo** Agregar propiedad siguiente:\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
-1. Defina el grupo, el título y la descripción del componente. Estos valores son específicos del proyecto y dictan cómo se expone el componente a los autores.
+1. Defina el grupo, el título y la descripción opcional del componente. Estos valores son específicos del proyecto y dictan cómo se expone el componente a los autores.
 
-   **Ejemplo**
-Agregue las propiedades siguientes:
+   **Ejemplo** Agregar las siguientes propiedades:
 
    ```shell
    componentGroup="My Site"
@@ -82,9 +79,9 @@ Agregue las propiedades siguientes:
    jcr:description="Section Heading"
    ```
 
-Por ejemplo, observe el [componente de título del sitio de referencia We. Retail](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml), que es un buen ejemplo de componente proxy creado de ese modo.
+Por ejemplo: observe el componente de [título del sitio](https://github.com/Adobe-Marketing-Cloud/aem-sample-we-retail/blob/master/ui.apps/src/main/content/jcr_root/apps/weretail/components/content/title/.content.xml)de referencia We.Retail, que es un buen ejemplo de un componente proxy creado de esa manera.
 
-## Cargar los estilos principales {#load-the-core-styles}
+## Carga de los estilos principales {#load-the-core-styles}
 
 <!-- 
 
@@ -116,10 +113,10 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. Si aún no lo hace, cree una [biblioteca](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) de cliente que contenga todos los archivos CSS y JS necesarios para su sitio.
-1. En la biblioteca de cliente del sitio, agregue las dependencias a los componentes principales que puedan ser necesarios. Esto se realiza agregando `embed` una propiedad.
+1. Si aún no lo ha hecho, cree una biblioteca [de](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) clientes que contenga todos los archivos CSS y JS necesarios para su sitio.
+1. En la biblioteca de clientes de su sitio, agregue las dependencias a los componentes principales que podrían ser necesarias. Esto se realiza agregando una `embed` propiedad.
 
-   Por ejemplo, para incluir las bibliotecas cliente de todos los componentes principales v 1, la propiedad que agregar sería la siguiente:
+   Por ejemplo, para incluir las bibliotecas de cliente de todos los componentes principales v1, la propiedad que se debe agregar sería:
 
    ```shell
    embed="[  
@@ -138,12 +135,12 @@ Asegúrese de que los componentes proxy y las bibliotecas de cliente se han impl
 Los pasos siguientes se realizan en el Editor [de plantillas](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
 
 1. En el Editor de plantillas, seleccione el contenedor de diseño y abra su política.
-1. En la lista de componentes permitidos, seleccione los componentes proxy creados anteriormente, que deben aparecer bajo el grupo de componentes asignado a ellos. Una vez realizados, aplique los cambios.
-1. Opcionalmente, para los componentes que tienen un cuadro de diálogo de diseño, pueden estar preconfigurados.
+1. En la lista de componentes permitidos, seleccione los componentes proxy creados anteriormente, que deben aparecer en el grupo de componentes asignado a ellos. Una vez realizados, aplique los cambios.
+1. Opcionalmente, para los componentes que tienen un cuadro de diálogo de diseño, se pueden preconfigurar.
 
-¡Ya es! En las páginas creadas a partir de la plantilla editada, ahora debería poder utilizar los componentes recién creados.
+¡Eso es todo! En las páginas creadas a partir de la plantilla editada, ahora debe poder utilizar los componentes recién creados.
 
-**Siguiente:**
+**Lea lo siguiente:**
 
 * [Personalización de componentes](customizing.md) principales: para aprender a diseñar y personalizar los componentes principales.
 * [Directrices](guidelines.md) de componentes: para conocer los patrones de implementación de los componentes principales.
