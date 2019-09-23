@@ -1,12 +1,12 @@
 ---
-title: Componente de imagen (v 1)
-seo-title: Componente de imagen (v 1)
-description: El componente de imagen de componente principal es un componente de imagen adaptable que incluye edición in-situ.
-seo-description: El componente de imagen de componente principal es un componente de imagen adaptable que incluye edición in-situ.
-uuid: 20 ea 7921-511 d -4 d 3 a-b 3 df-c 2 f 2 c 1 d 8455 d
+title: Componente de imagen (v1)
+seo-title: Componente de imagen (v1)
+description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
+seo-description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
+uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
 content-type: referencia
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: ab 9041 ab-e 29 e -4277-b 326-85 ab 37 df 8413
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
 translation-type: tm+mt
 source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
@@ -14,23 +14,23 @@ source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
 ---
 
 
-# Componente de imagen (v 1){#image-component-v}
+# Image Component (v1){#image-component-v}
 
-El componente de imagen de componente principal es un componente de imagen adaptable que incluye edición in-situ.
+El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
 
 ## Uso {#usage}
 
-El componente Imagen permite una fácil colocación de recursos de imagen y la edición in situ. Presenta la selección de imágenes adaptables con carga diferida, además de recortar para el autor del contenido.
+El componente Imagen permite colocar fácilmente recursos de imagen y ofrece edición in situ. Incluye selección de imágenes adaptables con carga diferida, así como recorte para el autor del contenido.
 
-El autor de la plantilla puede definir los anchos de imagen permitidos como también los recortes y ajustes adicionales en el cuadro de diálogo [de diseño](image-v1.md#main-pars_title_1995166862). El editor de contenido puede cargar o seleccionar recursos en el cuadro de diálogo [de configuración](image-v1.md#main-pars_title_55926120) y recortar la imagen en el cuadro de diálogo [de edición](image-v1.md#main-pars_title). Para mayor comodidad, también hay disponible una modificación in-situ sencilla de la imagen.
+El autor de la plantilla puede definir los anchos de imagen permitidos, así como el recorte y la configuración adicional en el cuadro de diálogo [de](image-v1.md#main-pars_title_1995166862)diseño. El editor de contenido puede cargar o seleccionar recursos en el cuadro de diálogo [de](image-v1.md#main-pars_title_55926120) configuración y recortar la imagen en el cuadro de diálogo [de](image-v1.md#main-pars_title)edición. Para mayor comodidad, también está disponible una modificación simple in-situ de la imagen.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
 Este documento describe la versión 1 del componente de imagen, introducida originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-La siguiente tabla muestra la compatibilidad de v 1 del componente de imagen.
+En la tabla siguiente se muestra la compatibilidad de la versión 1 del componente de imagen.
 
-| Versión de AEM | Componente de imagen v 1 |
+| Versión de AEM | Componente de imagen v1 |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
@@ -39,11 +39,11 @@ La siguiente tabla muestra la compatibilidad de v 1 del componente de imagen.
 >
 >Este documento describe la versión 1 del componente de imagen.
 >
->Para obtener más información sobre la versión actual del componente de imagen, consulte [el documento Componente](image.md) de imagen.
+>Para obtener más información sobre la versión actual del componente de imagen, consulte el documento Componente [de](image.md) imagen.
 
-## Salida de componente de muestra {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
 ### Captura de pantalla {#screenshot}
 
@@ -76,32 +76,32 @@ La siguiente es una muestra tomada de [We. Retail](https://helpx.adobe.com/exper
 
 >[!NOTE]
 >
->La exportación JSON de los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información [de compatibilidad de Componentes principales v 1](versions.md#main-pars_title_236368006) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información de [compatibilidad de los componentes principales v1](versions.md#main-pars_title_236368006) para obtener más información.
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
-Además del cuadro de diálogo [de edición](image-v1.md#main-pars_title) y [del cuadro de diálogo de edición estándar](image-v1.md#main-pars_title_1995166862), el componente de imagen ofrece un cuadro de diálogo de configuración donde la propia imagen se define junto con su descripción y sus propiedades básicas.
+Además del cuadro de diálogo [de](image-v1.md#main-pars_title) edición estándar y del cuadro de diálogo [de](image-v1.md#main-pars_title_1995166862)diseño, el componente de imagen ofrece un cuadro de diálogo de configuración en el que la imagen misma se define junto con su descripción y sus propiedades básicas.
 
 ![](assets/chlimage_1-50.png)
 
 * **Recurso de imagen**
-   * Coloque un recurso desde el navegador [de recursos](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) o toque la opción **de exploración** para cargar desde un sistema de archivos local.
-   * Toque o haga clic **en Borrar** para anular la selección de la imagen seleccionada actualmente.
-   * Toque o haga clic **en Editar** para [transferir las representaciones del recurso](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) en el editor de recursos.
+   * Suelte un recurso del navegador [de](https://helpx.adobe.com/experience-manager/6-3/sites/authoring/using/author-environment-tools.html#main-pars_title) recursos o toque la opción de **exploración** para cargarlo desde un sistema de archivos local.
+   * Toque o haga clic en **Borrar** para anular la selección de la imagen seleccionada.
+   * Toque o haga clic en **Editar** para [administrar las representaciones del recurso](https://helpx.adobe.com/experience-manager/6-3/assets/using/managing-assets-touch-ui.html#main-pars_title_19) en el editor de recursos.
 
-* **Image es decorativa** : compruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto se aplica únicamente a imágenes decorativas.
-* **Texto** alternativoo: alternativa textual del significado o función de la imagen para los lectores con deficiencias visuales.
+* **La imagen es decorativa** : compruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto solo se aplica a imágenes decorativas.
+* **Texto** alternativo - Alternativa textual del significado o función de la imagen, para lectores con problemas de visión.
 * **Vínculo**
    * Vincule la imagen a otro recurso.
    * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.
-   * Si no se vincula a un recurso AEM, introduzca la dirección URL absoluta. Las URL no flotantes se interpretarán como relativas a AEM.
+   * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
 
-* **Rótulo** : información adicional sobre la imagen, que se muestra debajo de la imagen.
-* **Mostrar rótulo como ventana emergente** : cuando se marque, el rótulo no se mostrará debajo de la imagen, sino como una ventana emergente mostrada por algunos exploradores al situar el ratón sobre la imagen.
+* **Rótulo** : la información adicional sobre la imagen que se muestra debajo de la imagen es predeterminada.
+* **Mostrar rótulo como elemento emergente** : al activarlo, el rótulo no se mostrará debajo de la imagen, sino como elemento emergente que muestran algunos exploradores al pasar el ratón por encima de la imagen.
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Edit Dialog {#edit-dialog}
 
-El cuadro de diálogo de edición permite que el autor del contenido recorte, modifique el mapa de inicio y aplique zoom a la imagen.
+El cuadro de diálogo de edición permite al autor recortar, modificar el mapa de inicio y aplicar zoom a la imagen.
 
 ![](assets/chlimage_1-8.png)
 
@@ -109,49 +109,48 @@ El cuadro de diálogo de edición permite que el autor del contenido recorte, mo
 
    ![](assets/chlimage_1-9.png)
 
-   Al seleccionar esta opción se abre una lista desplegable para proporciones de recorte predefinidas.
+   Al seleccionar esta opción se abre una lista desplegable para las proporciones de recorte predefinidas.
 
-   * Elija la opción Mano **libre** para definir su propio recorte.
-   * Elija la opción **Quitar recorte** para mostrar el recurso original.
-   Una vez seleccionada la opción de recorte, utilice los controles azules para ajustar el tamaño del recorte en la imagen.
+   * Elija la opción **Mano** libre para definir su propio recorte.
+   * Elija la opción **Eliminar recorte** para mostrar el recurso original.
+   Una vez seleccionada la opción de recorte, utilice los controladores azules para ajustar el tamaño del recorte en la imagen.
 
    ![](assets/chlimage_1-10.png)
 
-* Rotar a la derecha
+* Girar a la derecha
 
    ![](assets/chlimage_1-11.png)
 
-   Utilice esta opción para rotar la imagen 90 ° a la derecha (en sentido de las agujas del reloj).
+   Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
 
 * Iniciar mapa
 
    ![](assets/chlimage_1-12.png)
 
-   Utilice esta opción para aplicar un mapa de inicio a la imagen. Al seleccionar esta opción, se abre una ventana nueva que permite al usuario seleccionar la forma del mapa:
+   Utilice esta opción para aplicar un mapa de inicio a la imagen. Al seleccionar esta opción se abre una nueva ventana que permite al usuario seleccionar la forma del mapa:
 
    * **Agregar mapa rectangular**
    * **Agregar mapa circular**
    * **Agregar mapa poligonal**
 
-      * De forma predeterminada, agrega un mapa triángulo. Haga doble clic en una línea de la forma para agregar un nuevo manipulador de cambio de tamaño azul en un nuevo lado.
-   Cuando se selecciona una forma de mapa, se superpone en la imagen que permite el cambio de tamaño. Arrastre y suelte los controles de cambio de tamaño azul para ajustar la forma.
+      * De forma predeterminada, agrega un mapa de triángulo. Haga doble clic en una línea de la forma para añadir un nuevo controlador azul de cambio de tamaño en un lado nuevo.
+   Una vez seleccionada una forma de mapa, se superpone a la imagen, lo que permite cambiar el tamaño. Arrastre y suelte los controladores de tamaño azules para ajustar la forma.
 
    ![](assets/chlimage_1-13.png)
 
-   Después de cambiar el tamaño del mapa de inicio, haga clic en él para abrir una barra flotante para definir la ruta del vínculo.
+   Después de ajustar el tamaño del mapa de inicio, haga clic en él para abrir una barra de herramientas flotante para definir la ruta del vínculo.
 
    * **Ruta**
-      * Utilice la opción Selector de rutas para seleccionar una ruta en AEM
+      * Utilice la opción Selector de ruta para seleccionar una ruta en AEM
       * Si la ruta no está en AEM, utilice la dirección URL absoluta. Las rutas no absolutas se interpretarán en relación con AEM.
 
-      * **Texto**
-alternativo Descripción alternativa del destino de ruta
+      * **Texto** alternativo Descripción alternativa del destino de ruta
       * **Destino**
          * **Misma ficha**
          * **Nueva ficha**
          * **Marco principal**
          * **Marco superior**
-   Toque o haga clic en la marca de verificación azul para guardar, la x negra para cancelar y la papelera roja puede eliminar el mapa.
+   Toque o haga clic en la marca de verificación azul para guardar, la x negra para cancelar y la papelera roja para eliminar el mapa.
 
    ![](assets/chlimage_1-14.png)
 
@@ -169,51 +168,50 @@ alternativo Descripción alternativa del destino de ruta
 
    ![](assets/chlimage_1-17.png)
 
-El editor in-situ también se puede utilizar para modificar la imagen. Debido a limitaciones de espacio, solo hay disponibles opciones básicas en línea. Para las opciones de edición completa, utilice el modo de pantalla completa.
+El editor in-situ también puede utilizarse para modificar la imagen. Debido a las limitaciones de espacio, solo las opciones básicas están disponibles en línea. Para las opciones de edición completas, utilice el modo de pantalla completa.
 
 ![](assets/chlimage_1-18.png)
 
 >[!NOTE]
 >
->Las operaciones de edición de imágenes (recortar, voltear, rotar) no son compatibles con las imágenes GIF. Los cambios realizados en el modo de edición a GIF no persistirán.
+>Las operaciones de edición de imágenes (recortar, voltear, rotar) no son compatibles con las imágenes GIF. Los cambios que se realicen en el modo de edición a GIF no se mantendrán.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite que el autor de la plantilla defina las cargas de recorte, carga y rotación que tiene el autor del contenido cuando utilice este componente.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir las cargas de recorte, carga y rotación que el autor tiene al utilizar este componente.
 
 ### Principal {#main}
 
-En la ficha **Principal** , puede definir una lista de anchos permitidos en píxeles para que la imagen cargue automáticamente el ancho más adecuado desde la lista.
+On the **Main** tab you can define a list of allowed widths in pixels for the image to automatically load the most appropriate width from the list.
 
 ![](assets/chlimage_1-51.png)
 
 Toque o haga clic en el botón Agregar para agregar otro tamaño.
 
-* Utilice los controles de captura para reorganizar el orden de los tamaños.
-* Utilice el icono Eliminar para eliminar una anchura.
+* Use los asideros para reorganizar el orden de los tamaños.
+* Utilice el icono Eliminar para eliminar un ancho.
 
-De forma predeterminada, la carga de imágenes se pospone hasta que se vuelven visibles. Seleccione la opción **Deshabilitar carga diferida** para cargar las imágenes al cargar la página.
+De forma predeterminada, la carga de imágenes se aplaza hasta que se hace visible. Seleccione la opción **Deshabilitar la carga** diferida para cargar las imágenes al cargar la página.
 
 ### Características {#features}
 
-En la ficha **Funciones** , puede definir las opciones disponibles para los autores de contenido al utilizar el componente, incluso opciones de carga, orientación y recorte.
+En la ficha **Funciones** puede definir las opciones disponibles para los autores de contenido al utilizar el componente, incluidas las opciones de carga, la orientación y el recorte.
 
 * Origen
 
    ![](assets/chlimage_1-19.png)
 
-   Seleccione la opción **Permitir la carga de recursos desde el sistema** de archivos para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar únicamente recursos de AEM, anule la selección de esta opción.
+   Seleccione la opción **Permitir la carga de recursos desde el sistema** de archivos para permitir a los autores de contenido cargar imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, desactive esta opción.
 
 * Orientación
 
    ![](assets/chlimage_1-20.png)
 
-   * **Rotar** : utilice esta opción para permitir que el autor del contenido utilice la **opción Rotar derecha** .
-   * **Voltear**
-Utilice esta opción para permitir al autor del contenido utilizar **las opciones Voltear horizontalmente** y **Voltear verticalmente** .
+   * **Rotar** : Utilice esta opción para permitir que el autor del contenido utilice la opción **Girar a la derecha** .
+   * **Voltear** Utilice esta opción para permitir que el autor del contenido utilice las opciones **Voltear horizontalmente** y **Voltear verticalmente** .
    >[!CAUTION]
    >
-   >**La** opción Voltear está deshabilitada de forma predeterminada. Si se activa, se mostrarán **los botones Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen. Sin embargo, la función no se admite actualmente en AEM y los cambios realizados con estas opciones no persistirán.
+   >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen; sin embargo, AEM no admite actualmente la función y los cambios realizados con estas opciones no se mantendrán.
 
 <!-- 
 Comment Type: remark
@@ -227,20 +225,20 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 
    ![](assets/chlimage_1-21.png)
 
-   Seleccione la opción **Permitir recorte** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
-   * Haga clic **en Agregar** para agregar una proporción de aspecto de recorte predefinida.
-   * Introduzca un nombre descriptivo, que se mostrará en la lista desplegable **Iniciar recorte** .
+   Seleccione la opción **Permitir recortar** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
+   * Haga clic en **Agregar** para agregar una proporción de aspecto de recorte predefinida.
+   * Escriba un nombre descriptivo que se mostrará en la lista desplegable **Iniciar recorte** .
    * Introduzca la proporción numérica del aspecto.
-   * Utilice los controles de arrastrar para reorganizar el orden de las proporciones de aspecto
-   * Utilice el icono de la papelera para eliminar una proporción de aspecto.
+   * Utilice los controladores de arrastre para reorganizar el orden de las proporciones de aspecto
+   * Utilice el icono de papelera para eliminar una proporción de aspecto.
    >[!CAUTION]
    >
-   >Tenga en cuenta que en AEM, las proporciones de aspecto de recorte se definen como **height/width**. Esto difiere de la definición convencional de anchura y altura y se realiza por motivos de compatibilidad heredados. Los autores de contenido no tendrán constancia de ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la misma proporción.
+   >Note that in AEM, crop aspect ratios are defined as **height/width**. Esto difiere de la definición convencional de anchura y altura y se realiza por motivos de compatibilidad heredados. Los autores de contenido no tendrán en cuenta ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la relación misma.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de imagen [se encuentra en github](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image).
+La documentación técnica más reciente sobre el componente de imagen [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v1/image).
 
-Todo el proyecto de componentes principales se puede descargar desde github.
+Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más información sobre el desarrollo de componentes principales en la documentación del desarrollador de componentes [principales](developing.md).
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
