@@ -1,57 +1,57 @@
 ---
-title: Componente Compartir en redes sociales
-seo-title: Componente Compartir en redes sociales
-description: El componente de uso compartido en redes sociales del componente principal es una utilidad de uso compartido de Facebook y Pinterest.
-seo-description: El componente de uso compartido en redes sociales del componente principal es una utilidad de uso compartido de Facebook y Pinterest.
-uuid: a 75 aeca 9-f 055-429 b-a 128-7 d 4 a 1 e 5 ab 21 e
+title: Componente de uso compartido en redes sociales
+seo-title: Componente de uso compartido en redes sociales
+description: El componente principal de uso compartido en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
+seo-description: El componente principal de uso compartido en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
+uuid: a75aeca9-f055-429b-a128-7d4a1e5ab21e
 contentOwner: Usuario
 content-type: referencia
 topic-tags: creación
-products: SG_ EXPERIENCEMANAGER/CORECOMPONENTS-NEW
-discoiquuid: a 4 a 31261-01 e 9-4 fda -8 d 1 b -7 cec 90 bb 6574
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+discoiquuid: a4a31261-01e9-4fda-8d1b-7cec90bb6574
 translation-type: tm+mt
 source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
 
 ---
 
 
-# Social Sharing Component{#social-sharing-component}
+# Componente de uso compartido en redes sociales{#social-sharing-component}
 
-El componente de uso compartido en redes sociales del componente principal es una utilidad de uso compartido de Facebook y Pinterest.
+El componente principal de uso compartido en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
 
 ## Uso {#usage}
 
-El componente Compartir en redes sociales agrega vínculos compartidos de Facebook y Pinterest a la página. A menudo se incluye en encabezados o pies de página de página.
+El componente Compartir en redes sociales agrega vínculos de uso compartido de Facebook y Pinterest a la página. A menudo se incluye en encabezados o pies de página.
 
-Unlike other components, the settings for the Social Sharing Component is done by the template author via [Initial Page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) and by the content author via [Page Properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+A diferencia de otros componentes, la configuración del componente de uso compartido en redes sociales la realiza el autor de la plantilla mediante las propiedades [de página](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) inicial y el autor del contenido mediante las propiedades [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html)página.
 
-## Version and Compatibility {#version-and-compatibility}
+## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Compartir en redes sociales es v 1, introducida con la versión 1.0.0 de los componentes principales con AEM 6.3, y se describe en este documento.
+La versión actual del componente Compartir en redes sociales es v1, que se introdujo con la versión 1.0.0 de los componentes principales con AEM 6.3 y se describe en este documento.
 
-La siguiente tabla detalla todas las versiones compatibles del componente y las versiones AEM con las que es compatible las versiones del componente.
+La siguiente tabla detalla todas las versiones compatibles del componente y las versiones de AEM con las que las versiones del componente son compatibles.
 
 | Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
 |--- |--- |--- |--- |
 | v1 | Compatible | Compatible | Compatible |
 
 
-For more information about Core Component versions and releases, see the document [Core Components Versions](versions.md).
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
-## Sample Component Output {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-To experience the Social Sharing Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html).
+Para experimentar el componente de uso compartido en redes sociales, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/social-sharing.html)componentes.
 
-### Technical Details {#technical-details}
+### Detalles técnicos {#technical-details}
 
-The latest technical documentation about the Sharing Component [can be found on GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
+La documentación técnica más reciente sobre el componente Compartir [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing).
 
-Further details about developing Core Components can be found in the [Core Components developer documentation](developing.md).
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
 ## Edit Dialog {#edit-dialog}
 
-Debido a que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe estar habilitado en el nivel de página. Therefore, for the content author the edit options for the sharing component are available through the sharing tab the [page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html).
+Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe habilitarse en el nivel de página. Por lo tanto, para el autor del contenido, las opciones de edición para el componente de uso compartido están disponibles a través de la ficha de uso compartido las propiedades [de la](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html)página.
 
-## Design Dialog {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-Debido a que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe estar habilitado en el nivel de página. Therefore, for the template author the design options for the sharing component are available through the [initial page properties](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe habilitarse en el nivel de página. Por lo tanto, para el autor de la plantilla, las opciones de diseño para el componente de uso compartido están disponibles a través de las propiedades [de página](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)iniciales.
