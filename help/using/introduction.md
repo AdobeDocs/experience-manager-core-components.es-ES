@@ -10,7 +10,7 @@ topic-tags: introducción
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -21,22 +21,22 @@ En Adobe Experience Manager, los componentes son los elementos estructurales que
 
 Los componentes principales se introdujeron para proporcionar componentes básicos robustos y ampliables, basados en las últimas tecnologías y prácticas recomendadas, y respetando las directrices de accesibilidad, y cumpliendo la norma WCAG 2.0 AA. Los componentes principales hacen que la creación de páginas sea más flexible y personalizable, y ampliarla para ofrecer funcionalidad personalizada es sencillo para el desarrollador.
 
-## Pruebe los componentes principales
+## Try Out the Core Components
 
-Si desea empezar a probar los componentes principales directamente, vaya a la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library.html)componentes. La biblioteca de componentes es una muestra en línea de la versión actual de la mayoría de los componentes principales, que le permite interactuar con variaciones de los componentes, así como ver la salida HTML y JSON de muestra.
+If you want to get started straight away trying out the Core Components, head over to the Component Library. [](http://opensource.adobe.com/aem-core-wcm-components/library.html) The Component Library is an online showcase of the current version of most of the Core Components, allowing you to interact with variations of the components as well as see sample HTML and JSON output.
 
 The [We.Retail reference site](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html) also illustrates how the core components can be used.
 
-## Componentes principales: funciones principales {#core-components-core-features}
+## Core Components - Core Features {#core-components-core-features}
 
-Los componentes principales son:
+The Core Components are:
 
 |  |  |
 |--- |--- |
-| Preconfigurable | Las plantillas pueden definir cómo los autores de la página pueden utilizarlos. |
-| Versátil | Los autores pueden crear la mayor parte del contenido con ellos. |
-| Fácil de usar | Los autores pueden crear y administrar contenido con ellos de forma eficaz. |
-| Listo para la producción | ¡Usable y listo para usar! Son robustas, están bien probadas y funcionan bien. |
+| Pre-Configurable | Templates can define how the page authors can use them. |
+| Versatile | Authors can create most kind of content with them. |
+| Easy-to-Use | Authors can efficiently create and manage content with them. |
+| Production-Ready | ¡Usable y listo para usar! They are robust, well-tested, and perform well. |
 | Accesible | Cumplen el estándar WCAG 2.0, proporcionan etiquetas ARIA y admiten la navegación mediante el teclado. |
 | Fácil de estilo | Los componentes implementan el sistema de estilos y el marcado sigue la nominación de BEM CSS. |
 | Compatible con SEO | El resultado HTML es semántico y proporciona anotaciones de microdatos de schema.org. |
@@ -58,6 +58,7 @@ La versión actual de los componentes principales incluye los siguientes compone
 * [Fragmento de contenido](content-fragment-component.md)
 * [Lista de fragmentos de contenido](content-fragment-list.md)
 * [Descargar](download.md)
+* [Incrustar](embed.md)
 * [Fragmento de experiencias](experience-fragment.md)
 * [Botón de formulario](form-button.md)
 * [Contenedor del formulario](form-container.md)
@@ -96,29 +97,29 @@ Para obtener recomendaciones de uso específicas, consulte [¿Cuándo utilizar l
 
 Para obtener una introducción a los componentes principales, las funciones que ofrecen y cómo se aprovechan en AEM, consulte los componentes principales de AEM [AEM Gems Session.](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)
 
-[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) es una serie de inmersiones técnicas de expertos de Adobe. Esta serie complementa la documentación del producto y todos los demás canales técnicos, permitiendo a los desarrolladores ponerse en contacto y profundizar en un tema específico.
+[Gems on Adobe Experience Manager](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/aem-index.html) es una serie de inmersiones técnicas de expertos de Adobe. This series complements the product documentation and of all the other technical channels, allowing developers to get in touch and go deep on a specific topic.
 
-## Tutorial para desarrolladores de WKND {#wknd-developer-tutorial}
+## WKND Developer Tutorial {#wknd-developer-tutorial}
 
-Empiece a desarrollar sitios de AEM con componentes principales siguiendo [este tutorial paso a paso.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
+Get started developing AEM Sites with Core Components by following this step by step tutorial.[](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
-## Compatibilidad con componentes principales {#core-components-support}
+## Core Components Support {#core-components-support}
 
-Los componentes principales son una parte integral de AEM y se admiten tal cual, en los mismos términos y condiciones que si se hubieran entregado como parte de QuickStart.
+Core Components are an integral part of AEM and supported as is, under the same terms and conditions as if they were delivered as part of the Quickstart.
 
-Al igual que otras características del producto, la regla general de caducidad es:
+Like other product features, the general rule of end-of-life is:
 
 * Los componentes se anuncian primero como obsoletos antes de eliminarse
-* Como muy pronto se eliminarán de la versión de AEM tras el anuncio.
+* At the earliest they are then removed from the AEM release following the announcement.
 
-Esto permite a los clientes pasar al menos un ciclo de lanzamiento a la nueva versión del componente antes de que finalice la compatibilidad.
+This gives customers at least one release cycle to move to the new version of the component, before support ends.
 
-La versión de cada componente indica claramente las versiones de AEM que admite. Cuando la compatibilidad para una versión de AEM deja de ser compatible, también lo es la compatibilidad de los componentes principales para esa versión de AEM.
+The version of each component clearly states the AEM versions that it supports. When support ceases for a version of AEM, then so does the support of the Core Components for that version of AEM.
 
-Para obtener más información sobre la compatibilidad con las personalizaciones de componentes, consulte la página [Personalización de componentes](customizing.md) principales de la versión de componentes principales correspondiente.
+For details about the support of component customizations, see the Customizing Core Components page of the relevant Core Components Version.[](customizing.md)
 
-## Compatibilidad con componentes de base {#foundation-component-support}
+## Foundation Component Support {#foundation-component-support}
 
 Dado que los componentes básicos han servido de base para tanto desarrollo de proyectos en muchas versiones, seguirán recibiendo apoyo en el futuro previsible.
 
-Sin embargo, el énfasis de Adobe en el desarrollo ha cambiado a los componentes principales y se les añadirán nuevas funciones, mientras que [casi todos los componentes de base han quedado obsoletos con AEM 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html) y solo se corregirán los errores en los componentes de base a partir de ahora.
+However, Adobe's development emphasis has shifted to the Core Components and new features will be added to them, whereas nearly all Foundation Components have been deprecated with AEM 6.5 and only bug fixes will be made to the Foundation Components going forward.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html)
