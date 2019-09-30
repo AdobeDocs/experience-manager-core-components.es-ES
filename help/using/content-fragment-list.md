@@ -8,7 +8,7 @@ content-type: referencia
 topic-tags: creación
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
 translation-type: tm+mt
-source-git-commit: d683f8110b514860bba11e08e6923be49e92652f
+source-git-commit: 6882a0d8247328c403dc11a25ed9d079aefede69
 
 ---
 
@@ -54,27 +54,35 @@ El cuadro de diálogo de configuración permite al autor del contenido definir q
 
 La ficha **Propiedades** define qué fragmentos de contenido se incluyen en la lista. Se basa principalmente en un modelo de fragmento de contenido seleccionado, pero hay otras opciones de filtro disponibles.
 
-![](assets/screen-shot-2019-05-08-10.47.19.png)
+![](assets/screen-shot-2019-09-25-10.32.10.png)
 
 * **Modelo** : Ruta al modelo de fragmento de contenido en el que se basa la lista.
    * De forma predeterminada, todos los fragmentos de contenido del modelo definido como Ruta **del** modelo se incluyen en la lista.
 * **Ruta** principal: ruta principal desde la que se debe crear la lista.
    * Los fragmentos de contenido basados en la ruta **del** modelo seleccionada se filtrarán a los de la ruta **** principal especificada.
-   * Toque o haga clic en el botón **Abrir cuadro de diálogo** de selección en el lado derecho del campo para especificar la ruta.
-* **Etiquetas** : solo se incluirán en la lista los fragmentos de contenido con las etiquetas especificadas.
-   * Toque o haga clic en el botón **Abrir cuadro de diálogo** de selección en la parte derecha del campo para especificar las etiquetas.
+      * Toque o haga clic en el botón **Abrir cuadro de diálogo** de selección en el lado derecho del campo para especificar la ruta.
+* **Tags** - Only the Content Fragments with the specified tags will be included in the list.
+   * Click or tap the **Open Selection Dialog** button at the right side of the field to specify the tags.
    * Toque o haga clic en la X junto a las etiquetas seleccionadas para eliminarlas.
+* **Ordenar por** : campo del modelo de fragmento de contenido según el cual se ordenará la lista
+   * Solo se pueden seleccionar los campos de texto (incluidos los numéricos, de fecha y de hora).
+* **Orden** : Cómo se ordenará la lista según el campo **Ordenar por**
+   * Ascendente o descendente
+* **Número máximo de elementos** : número máximo de elementos que se mostrarán en la lista
+   * Ningún valor devolverá todos los elementos.
 
+>[!NOTE]
+>Las opciones **Ordenar por**, **Ordenar** y **Máx. elementos** se introdujeron con la versión 2.7.0 de los componentes principales.
 
 ### Ficha Elementos
 
-De forma predeterminada, todos los elementos del modelo de fragmento de contenido se incluirán en la lista. Los **elementos** le permiten especificar solo elementos específicos para incluir.
+De forma predeterminada, todos los elementos del Modelo de fragmento de contenido se incluirán en la lista (a menos que estén limitados por el campo **Máximo de elementos** ). La ficha **Elementos** permite especificar solo elementos específicos para incluir.
 
 ![](assets/screen-shot-2019-05-08-10.47.34.png)
 
 * **Elementos** : solo aparecerán los elementos de los fragmentos de contenido de la lista especificada.
-   * Toque o haga clic en el botón **Agregar** para agregar un nuevo elemento
-   * Toque o haga clic en el botón **Eliminar** para eliminar un elemento seleccionado
+   * Toque o haga clic en el botón **Agregar** para agregar un nuevo elemento.
+   * Toque o haga clic en el botón **Eliminar** para eliminar un elemento seleccionado.
    * Arrastre el control **Orden** para reorganizar el orden de los elementos.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
