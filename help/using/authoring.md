@@ -8,7 +8,7 @@ content-type: referencia
 topic-tags: creación
 discoiquuid: 8751e490-d427-44f2-b767-51935afda988
 translation-type: tm+mt
-source-git-commit: b6fbef1cff2908533df6573cd3a92266857ba93f
+source-git-commit: bf1993085c4cd95121cb6d78be8c52934802b645
 
 ---
 
@@ -72,7 +72,7 @@ Dado que los autores de plantillas pueden preconfigurar los componentes principa
 |  | Descripción | Qué controla | Ejemplos |
 |--- |--- |--- |--- |
 | **Editar cuadro de diálogo** | Opciones que un autor **de una** página puede modificar durante la edición normal de la página para los componentes colocados | El contenido que muestra el componente y cómo aparecerá finalmente en la página. | Formato del texto del contenido, girar una imagen en una página |
-| **Cuadro de diálogo Diseño** | Options that a **template author** can modify when configuring a page template. | Qué opciones tiene disponible el autor de la página al editar el componente | Qué opciones de formato de texto están disponibles, qué opciones de imagen in situ están disponibles |
+| **Cuadro de diálogo Diseño** | Opciones que el autor **de una** plantilla puede modificar al configurar una plantilla de página. | Qué opciones tiene disponible el autor de la página al editar el componente | Qué opciones de formato de texto están disponibles, qué opciones de imagen in situ están disponibles |
 
 ### Estilo de componente {#component-styling}
 
@@ -101,6 +101,7 @@ La versión actual de los componentes principales incluye los siguientes compone
 * [Fragmento de contenido](content-fragment-component.md)
 * [Lista de fragmentos de contenido](content-fragment-list.md)
 * [Descargar](download.md)
+* [Incrustar](embed.md)
 * [Fragmento de experiencias](experience-fragment.md)
 * [Botón de formulario](form-button.md)
 * [Contenedor del formulario](form-container.md)
