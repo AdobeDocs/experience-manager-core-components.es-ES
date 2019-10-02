@@ -6,7 +6,7 @@ seo-description: El componente Incrustar permite incrustar contenido externo en 
 content-type: referencia
 topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: 97f1461b57079806f9f96d325d9b763538e32127
+source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
 
 ---
 
@@ -85,15 +85,15 @@ You can add free-form HTML to your page using the Embed Component.
 ![](assets/screen-shot-2019-09-25-10.20.00.png)
 
 >[!NOTE]
->Las etiquetas no seguras, como las secuencias de comandos, se filtrarán del HTML introducido y no se representarán en la página resultante.
+>Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
 
-## Design Dialog {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-* **Deshabilitar URL** : desactiva la opción de **URL** para el autor del contenido cuando se selecciona
+* **Disable URL - Disables the URL option for the content author when selected******
 * **Deshabilitar incrustables** : desactiva la opción **Incrustable** para el autor del contenido cuando se selecciona, independientemente de qué procesadores se permiten incrustar.
 * **Disable HTML - Disables the HTML option for the content author when selected.******
-* **Allowed Embeddables** - Multislect that defines which embeddable processors are available to the content author, provided that the **Embeddable** option is active.
+* **Incrustaciones** permitidas: multiselección que define qué procesadores incrustables están disponibles para el autor del contenido, siempre que la opción **Incrustable** esté activa.
