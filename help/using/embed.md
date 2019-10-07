@@ -6,7 +6,7 @@ seo-description: El componente Incrustar permite incrustar contenido externo en 
 content-type: referencia
 topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: d748bf211ec36d12cac016ca9bf707f24db1ce48
+source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
 
 ---
 
@@ -46,7 +46,11 @@ Encontrará más detalles sobre el desarrollo de los componentes principales en 
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
-El cuadro de diálogo de configuración permite al autor del contenido definir el recurso externo que se va a incrustar en la página. Primero elija qué tipo de recurso debe incrustarse: **URL**, **incrustable** o **HTML**.
+El cuadro de diálogo de configuración permite al autor del contenido definir el recurso externo que se va a incrustar en la página. Primero elija qué tipo de recurso debe incrustarse:
+
+* [URL](#url)
+* [Insertable](#embeddable)
+* [HTML](#html)
 
 ### URL {#url}
 
@@ -57,43 +61,54 @@ El componente Incrustar se envía con procesadores para los siguientes tipos de 
 * Recursos que cumplen con el estándar [oEmbed](https://oembed.com/) , incluidos Facebook Post, Instagram, SoundCloud, Twitter y YouTube
 * Pinterest
 
-Developers can add additional URL processors by [following the developer documentation of the Embed Component.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Los desarrolladores pueden agregar procesadores de URL adicionales [siguiendo la documentación del desarrollador del componente incrustado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.08.29.png)
 
 ### Insertable {#embeddable}
 
-Embeddables allow for more customization of the embedded resource, which can be parameterized and include additional information. An author is able to select from pre-configured trusted embeddables and the component ships with a Youtube embeddable out-of-the-box.
+Las incrustaciones permiten una mayor personalización del recurso incrustado, que se puede parametrizar e incluir información adicional. Un autor puede seleccionar elementos incrustables de confianza preconfigurados y el componente se distribuye con un componente incorporado de YouTube incorporado de forma predeterminada.
 
-The Embeddable field defines the type of processor you want to use. **** In the case of the YouTube embeddable you can then define:
+El campo **Incrustable** define el tipo de procesador que desea utilizar. En el caso de la incrustación de YouTube, puede definir:
 
-* **Video ID - The unique video ID from YouTube of the resource you want to embed**
-* **Width - The width of the embedded video**
-* **Height - The height of the embedded video**
+* **ID** de vídeo: ID de vídeo único de YouTube del recurso que desea incrustar
+* **Anchura** : anchura del vídeo incrustado
+* **Altura** : altura del vídeo incrustado
 
-Other embeddables would offer similar fields and can be defined by a developer by following the developer documentation of the Embed Component.[](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Otros elementos incrustados ofrecerían campos similares y un desarrollador puede definirlos [siguiendo la documentación del desarrollador del componente incrustado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![](assets/screen-shot-2019-09-25-10.15.00.png)
 
 >[!NOTE]
->Embeddables must be enabled at the template level via the [Design Dialog](#design-dialog) to be available to the page author.
+>Las incrustaciones deben habilitarse en el nivel de plantilla mediante el cuadro de diálogo [](#design-dialog) Diseño para que estén disponibles para el autor de la página.
 
 ### HTML {#html}
 
-You can add free-form HTML to your page using the Embed Component.
+Puede agregar HTML de forma libre a la página mediante el componente Incrustar.
 
 ![](assets/screen-shot-2019-09-25-10.20.00.png)
 
 >[!NOTE]
->Any unsafe tags such as scripts will be filtered from the entered HTML and will not be rendered on the resulting page.
+>Las etiquetas no seguras, como las secuencias de comandos, se filtrarán del HTML introducido y no se representarán en la página resultante.
+
+#### Seguridad {#security}
+
+El código HTML que puede introducir el autor se filtra por motivos de seguridad para evitar ataques de secuencias de comandos entre sitios que podrían, por ejemplo, permitir a los autores obtener derechos administrativos.
+
+En general, todos los elementos y secuencias de comandos, así como todos `style` y `on*` `style` los atributos, se eliminarán del resultado.
+
+Sin embargo, las reglas son más complicadas porque el componente incrustado sigue el conjunto de reglas de filtrado HTML AntiSami global de AEM, que se encuentra en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponerlo para la configuración específica del proyecto, si es necesario.
+
+>[!NOTE]
+>Aunque las reglas AntiSamy se pueden configurar superponiendo `/libs/cq/xssprotection/config.xml`, estos cambios afectan a todo el comportamiento HTL y JSP y no solo al componente principal incrustado.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-The design dialog allows the template author to define the options available to the content author who uses the Embed Component and the defaults set when placing the Embed Component.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones disponibles para el autor del contenido que utiliza el componente Incrustar y los valores predeterminados establecidos al colocar el componente Incrustar.
 
 ![](assets/screen-shot-2019-09-25-10.25.28.png)
 
-* **Disable URL - Disables the URL option for the content author when selected******
+* **Deshabilitar URL** : desactiva la opción de **URL** para el autor del contenido cuando se selecciona
 * **Deshabilitar incrustables** : desactiva la opción **Incrustable** para el autor del contenido cuando se selecciona, independientemente de qué procesadores se permiten incrustar.
-* **Disable HTML - Disables the HTML option for the content author when selected.******
+* **Deshabilitar HTML** : desactiva la opción **HTML** para el autor del contenido cuando se selecciona.
 * **Incrustaciones** permitidas: multiselección que define qué procesadores incrustables están disponibles para el autor del contenido, siempre que la opción **Incrustable** esté activa.
