@@ -6,7 +6,7 @@ seo-description: El componente Incrustar permite incrustar contenido externo en 
 content-type: referencia
 topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: e4fdefd392281f4f9101b28a15846c922e3a52c1
+source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
 
 ---
 
@@ -95,12 +95,14 @@ Puede agregar HTML de forma libre a la página mediante el componente Incrustar.
 
 El código HTML que puede introducir el autor se filtra por motivos de seguridad para evitar ataques de secuencias de comandos entre sitios que podrían, por ejemplo, permitir a los autores obtener derechos administrativos.
 
-En general, todos los elementos y secuencias de comandos, así como todos `style` y `on*` `style` los atributos, se eliminarán del resultado.
+*En general,* todas las secuencias de comandos y `style` los elementos, así como todos `on*` y `style` los atributos, se eliminarán del resultado.
 
-Sin embargo, las reglas son más complicadas porque el componente incrustado sigue el conjunto de reglas de filtrado HTML AntiSami global de AEM, que se encuentra en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponerlo para la configuración específica del proyecto, si es necesario.
+Sin embargo, las reglas son más complicadas porque el componente incrustado sigue el conjunto global de reglas de filtrado del marco de saneamiento HTML AntiSamy de AEM, que se encuentra en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponerlo para la configuración específica del proyecto, si es necesario.
+
+Encontrará información adicional sobre seguridad en la documentación para desarrolladores de [AEM.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
 
 >[!NOTE]
->Aunque las reglas AntiSamy se pueden configurar superponiendo `/libs/cq/xssprotection/config.xml`, estos cambios afectan a todo el comportamiento HTL y JSP y no solo al componente principal incrustado.
+>Aunque las reglas del marco de saneamiento AntiSamy pueden configurarse superponiendo `/libs/cq/xssprotection/config.xml`, estos cambios afectan a todo el comportamiento de HTL y JSP y no sólo al componente básico incrustado.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
