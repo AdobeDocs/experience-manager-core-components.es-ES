@@ -10,7 +10,7 @@ topic-tags: desarrollo
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -112,7 +112,7 @@ La `cq:allowedTemplates` propiedad indica qué plantillas se pueden utilizar par
 
 ## Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
-[El arquetipo](archetype.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
+[El arquetipo](overview.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
 
 **Consulte lo siguiente:**
 
