@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: referencia
 topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
 
 ---
 
@@ -53,7 +53,7 @@ El arquetipo de AEM está compuesto de módulos:
 * **[ui.content](uicontent.md)**: contiene contenido de muestra utilizando los componentes del módulo ui.apps.
 * **ui.testing**: es un paquete Java que contiene pruebas JUnit que se ejecutan en el servidor. Este paquete no debe implementarse en producción.
 * **ui.launcher**: contiene código de pegado que implementa el paquete ui.testing (y paquetes dependientes) en el servidor y activa la ejecución remota de JUnit.
-* **[ui.front](front-end-build.md)**: [opcional] contiene los artefactos necesarios para utilizar el módulo de compilación front-end basado en Webpack.
+* **[ui.front](front-end-build.md)**: **(opcional)** contiene los artefactos necesarios para utilizar el módulo de compilación front-end basado en Webpack.
 
 ![](assets/project-pom.png)
 
