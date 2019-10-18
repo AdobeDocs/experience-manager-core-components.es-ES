@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: referencia
 topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: 3c37b57eb72d1d662cdbd41ca54cdc592919203c
+source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
 
 ---
 
@@ -20,7 +20,7 @@ El complemento Apache Jackrabbit FileVault Package se utiliza para compilar el c
 
 ## POM principal {#parent-pom}
 
-[El POM](archetype.md#parent-pom) principal (`<src>/<project>/pom.xml`) incluye `<plugin>` secciones que definen distintas configuraciones para los complementos utilizados en el proyecto. Esto incluye una configuración para el `filterSource` complemento de paquete Jackrabbit FileVault. El `filterSource` apunta a la ubicación del `filter.xml` archivo que se utiliza para definir las rutas jcr incluidas en el paquete.
+[El POM](overview.md#parent-pom) principal (`<src>/<project>/pom.xml`) incluye `<plugin>` secciones que definen distintas configuraciones para los complementos utilizados en el proyecto. Esto incluye una configuración para el `filterSource` complemento de paquete Jackrabbit FileVault. El `filterSource` apunta a la ubicación del `filter.xml` archivo que se utiliza para definir las rutas jcr incluidas en el paquete.
 
 Además del complemento de paquete Jackrabbit FileVault es una definición del complemento de paquete de contenido que se utiliza para insertar el paquete en AEM. Tenga en cuenta que se utilizan variables para `aem.host`, `aem.port`, `vault.user`y `vault.password` que corresponden a las propiedades globales definidas en el mismo POM principal.
 
@@ -30,7 +30,7 @@ La pom ui.apps (`<src>/<project>/ui.apps/pom.xml`) proporciona las `embedded` et
 
 Observe que los paquetes core.wcm.components.all y core.wcm.components.samples se incluyen como un subpaquete. Esto implementará el paquete de componentes principales junto con el código WKND cada vez.
 
-Los archivos core.wcm.components.all y core.wcm.components.samples se incluyen como dependencias en la lista de dependencias. Sin embargo, como práctica recomendada, las versiones para dependencias se omiten aquí y se administran en el archivo [pom](archetype.md#core-components)principal.
+Los archivos core.wcm.components.all y core.wcm.components.samples se incluyen como dependencias en la lista de dependencias. Sin embargo, como práctica recomendada, las versiones para dependencias se omiten aquí y se administran en el archivo [pom](overview.md#core-components)principal.
 
 ## filter.xml {#filter}
 
