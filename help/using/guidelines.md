@@ -1,21 +1,21 @@
 ---
-title: Directrices de componentes
-seo-title: Directrices de componentes
+title: Instrucciones de los componentes
+seo-title: Instrucciones de los componentes
 description: Los componentes principales siguen patrones de implementación modernos que son muy diferentes de los componentes básicos.
 seo-description: Los componentes principales siguen patrones de implementación modernos que son muy diferentes de los componentes básicos.
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
-contentOwner: Usuario
-content-type: referencia
+contentOwner: User
+content-type: reference
 topic-tags: desarrollo
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
 
-# Directrices de componentes {#component-guidelines}
+# Instrucciones de los componentes {#component-guidelines}
 
 Los componentes [principales](developing.md) siguen patrones de implementación modernos que son muy diferentes de los componentes básicos.
 
@@ -110,7 +110,11 @@ La `cq:allowedTemplates` propiedad indica qué plantillas se pueden utilizar par
 
 ![Plantillas y descripción general de directiva](assets/screen_shot_2018-12-07at093102.png)
 
-**Lea lo siguiente:**
+## Tipo de archivo del proyecto AEM {#aem-project-archetype}
+
+[El arquetipo](archetype.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
+
+**Consulte lo siguiente:**
 
 * [Uso de componentes](using.md) principales: obtenga y ejecute los componentes principales en su propio proyecto.
 * [Personalización de componentes](customizing.md) principales: para aprender a diseñar y personalizar los componentes principales.
