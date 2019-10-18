@@ -4,35 +4,39 @@ seo-title: Personalización de componentes principales
 description: Los componentes principales implementan varios patrones que permiten una fácil personalización, desde el estilo simple hasta la reutilización avanzada de la funcionalidad.
 seo-description: Los componentes principales de AEM implementan varios patrones que facilitan la personalización, desde el estilo simple hasta la reutilización de funciones avanzadas.
 uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: Usuario
-content-type: referencia
+contentOwner: User
+content-type: reference
 topic-tags: desarrollo
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: e3b5eb14a8172c2172b936dd8713befd17f17524
 
 ---
 
 
-# Customizing Core Components{#customizing-core-components}
+# Personalización de componentes principales{#customizing-core-components}
 
-The Core Components implement several patterns that allow easy customization, from simple styling to advanced functionality reuse.[](developing.md)
+Los componentes [](developing.md) principales implementan varios patrones que permiten una fácil personalización, desde el estilo simple hasta la reutilización avanzada de la funcionalidad.
 
-## Flexible Architecture {#flexible-architecture}
+## Arquitectura flexible {#flexible-architecture}
 
-The Core Components were designed from the beginning to be flexible and extensible. A look at an overview of their architecture reveals where customizations can be made.
+Los componentes principales fueron diseñados desde el principio para ser flexibles y ampliables. Un vistazo a una visión general de su arquitectura revela dónde se pueden realizar las personalizaciones.
 
-![Core Components Architecture](assets/screen_shot_2018-12-07at093742.png)
+![Arquitectura de componentes principales](assets/screen_shot_2018-12-07at093742.png)
 
-* [The design dialog defines what authors can or cannot do in the edit dialog.](authoring.md#edit-and-design-dialogs)
-* [The edit dialog shows authors only the options they are allowed to use.](authoring.md#edit-and-design-dialogs)
-* [The Sling model verifies and prepares the content for the view (template).](#customizing-the-logic-of-a-core-component)
-* [The result of the Sling model can be serialized to JSON for SPA use-cases.](#customizing-the-logic-of-a-core-component)
+* [El cuadro de diálogo](authoring.md#edit-and-design-dialogs) de diseño define qué pueden o no pueden hacer los autores en el cuadro de diálogo de edición.
+* [El cuadro de diálogo](authoring.md#edit-and-design-dialogs) de edición muestra a los autores solo las opciones que pueden utilizar.
+* [El modelo](#customizing-the-logic-of-a-core-component) Sling comprueba y prepara el contenido para la vista (plantilla).
+* [El resultado del modelo](#customizing-the-logic-of-a-core-component) Sling se puede serializar en JSON para casos de uso de SPA.
 * [El HTL procesa el servidor HTML](#customizing-the-markup) para el procesamiento tradicional en el servidor.
 * [El resultado](#customizing-the-markup) HTML es semántico, accesible, optimizado para motores de búsqueda y de estilo sencillo.
 
 Y todos los componentes principales implementan el Sistema [de estilos](customizing.md).
+
+## Tipo de archivo del proyecto AEM {#aem-project-archetype}
+
+[El arquetipo](archetype.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
 
 ## Patrones de personalización {#customization-patterns}
 
@@ -45,25 +49,6 @@ Cada cuadro de diálogo tiene una estructura de nodos consistente. Se recomienda
 Para ser totalmente compatible con cualquier cambio realizado en un cuadro de diálogo en su versión actual, es muy importante que no se toquen las estructuras situadas debajo del nivel de elemento de ficha (ocultado, agregado, sustituido, reordenado, etc.). En su lugar, se debe ocultar un elemento de ficha del elemento principal mediante la `sling:hideResource` propiedad (consulte [Sling Resource Merger Properties](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/sling-resource-merger.html)) y se deben agregar nuevos elementos de ficha que contengan los campos de configuración personalizados. `sling:orderBefore` se puede utilizar para reordenar elementos de ficha si es necesario.
 
 El cuadro de diálogo siguiente muestra la estructura de cuadro de diálogo recomendada, así como cómo ocultar y reemplazar una ficha heredada como se describe anteriormente:
-
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -128,25 +113,6 @@ Esto se puede hacer fácilmente copiando los archivos HTML que deben modificarse
 
 Tomando de nuevo el ejemplo del componente Core Breadcrumb, para personalizar su salida de marcado, el `breadcrumb.html` archivo tendría que copiarse en el componente específico del sitio que tiene un `sling:resourceSuperTypes` que apunta al componente Core Breadcrumb.
 
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:43:20.265-0400
-
-Should we provide guidance on how to name their CSS classes, etc. to align to component re-usability best-practices? We tout that we follow bootstrap css naming, should we be counseling customers to align similarly? .cmp- 
-<component name="">
-  -- 
- <element>
-   - 
-  <element descriptor="">
-    ? 
-  </element> 
- </element> 
-</component>
-
- -->
-
 ### Estilo de los componentes {#styling-the-components}
 
 La primera forma de personalización consiste en aplicar estilos CSS.
@@ -161,14 +127,14 @@ Por ejemplo, mirando el archivo HTL del componente Core Breadcrumb v1: [breadcru
 .cmp-breadcrumb a {}
 ```
 
-Additionally, each of the Core Components leverage the AEM Style System feature that allows template authors to define additional CSS class names that can be applied to the component by the page authors. [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) This allows to define for each template a list of allowed component styles, and whether one of them should apply by default to all components of that kind.
+Además, cada uno de los componentes principales aprovecha la función [AEM](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) Style System que permite a los autores de plantillas definir nombres de clase CSS adicionales que los autores de la página pueden aplicar al componente. Esto permite definir para cada plantilla una lista de estilos de componente permitidos y si uno de ellos debe aplicarse de forma predeterminada a todos los componentes de ese tipo.
 
-## Upgrade Compatibility of Customizations {#upgrade-compatibility-of-customizations}
+## Compatibilidad de actualización de personalizaciones {#upgrade-compatibility-of-customizations}
 
-Three different kind of upgrades are possible:
+Se pueden realizar tres tipos diferentes de actualizaciones:
 
-* upgrading the version of AEM
-* upgrading the Core Components to a new minor version
+* actualización de la versión de AEM
+* actualización de los componentes principales a una nueva versión secundaria
 * actualización de los componentes principales a una versión principal
 
 En general, la actualización de AEM a una nueva versión no afectará a los componentes principales ni a las personalizaciones realizadas, siempre que las versiones de los componentes también admitan la nueva versión de AEM a la que se está migrando y que las personalizaciones no utilicen API que se hayan [desaprobado o eliminado](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
@@ -195,7 +161,7 @@ Al igual que para cualquier componente de AEM, hay que tener en cuenta varias co
 
 Consulte también la sección Compatibilidad con [](developing.md#core-component-support) componentes principales.
 
-**Lea lo siguiente:**
+**Consulte lo siguiente:**
 
 * [Uso de componentes](using.md) principales: obtenga y ejecute los componentes principales en su propio proyecto.
 * [Directrices](guidelines.md) de componentes: para conocer los patrones de implementación de los componentes principales.
