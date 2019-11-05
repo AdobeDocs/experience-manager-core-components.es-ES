@@ -4,13 +4,13 @@ seo-title: Componente de acordeón
 description: nulo
 seo-description: El componente Acordeón de componentes principales permite la creación de una colección de paneles organizados en un acordeón en una página.
 uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Usuario
-content-type: referencia
+contentOwner: User
+content-type: reference
 topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: bbd54d433cbeee5395dc8b90bc47f9b44747e25b
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -72,6 +72,10 @@ Utilice el botón **Agregar** para abrir el selector de componentes y elegir qu�
 * **Elementos** expandidos: esta opción define los elementos que se expanden de forma predeterminada cuando se carga la página.
    * Cuando se selecciona la expansión **** de un solo elemento, se debe seleccionar un panel. De forma predeterminada, se selecciona el primer panel.
    * Cuando no se selecciona la expansión **** de un solo elemento, esta opción es de selección múltiple y es opcional.
+
+>[!TIP]
+>
+>Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Agregar** . Los componentes se pueden añadir al componente Acordeón [arrastrándolos desde el navegador de componentes y colocándolos en el componente Acordeón en el editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
 
 ## Ventana emergente Seleccionar panel {#seelct-panel-popover}
 
