@@ -17,7 +17,7 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -68,6 +68,10 @@ Utilice el botón **Agregar** para abrir el selector de componentes y elegir qu�
 * **Descripción** : la descripción utilizada como texto de la ficha, de forma predeterminada según el nombre del componente seleccionado para la ficha.
 * **Eliminar** : toque o haga clic para eliminar la ficha del componente de fichas.
 * **Reordenar** : toque o haga clic y arrastre para ordenar las fichas.
+
+>[!TIP]
+>
+>Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Agregar** . Los componentes se pueden añadir al componente Carrusel [arrastrándolos desde el navegador de componentes y colocándolos en el componente Carrusel en el editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
 
 ### Ficha Propiedades {#properties-tab}
 
