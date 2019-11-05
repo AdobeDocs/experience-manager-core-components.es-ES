@@ -4,13 +4,13 @@ seo-title: Componente de imagen
 description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
 seo-description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
 uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: Usuario
-content-type: referencia
+contentOwner: User
+content-type: reference
 topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
+products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: 34ae30ca8be3ad290924b986acfac11d960f2ee0
+source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
 
 ---
 
@@ -276,3 +276,13 @@ Last Modified Date: 2017-11-20T05:51:34.378-0500
 ### Ficha Estilos {#styles-tab-1}
 
 El componente Imagen admite el sistema [de](authoring.md#component-styling)estilo AEM.
+
+## Servlet de imagen adaptable {#adaptive-image-servlet}
+
+El componente de imagen utiliza el servlet de imagen adaptable del componente principal. [El servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) de imagen adaptable es responsable del procesamiento y la transmisión de imágenes y puede ser utilizado por los desarrolladores en sus [personalizaciones de los componentes](customizing.md)principales.
+
+>[!NOTE]
+>
+>Las solicitudes condicionales a través del `Last-Modified` encabezado son compatibles con el servlet de imagen adaptable, pero el almacenamiento en caché del `Last-Modified` encabezado [debe habilitarse en Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>
+>[La configuración de despachante de ejemplo de AEM Project Archetype](overview.md)ya contiene esta configuración.
