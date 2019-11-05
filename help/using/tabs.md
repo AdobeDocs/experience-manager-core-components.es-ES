@@ -8,7 +8,7 @@ content-type: referencia
 topic-tags: componentes principales
 discoiquuid: 966d47fb-d35d-4103-b29d-4ef0aa739f24
 translation-type: tm+mt
-source-git-commit: 48d23edbcdf4c4ed70d590cf6c6e4ac1db14f852
+source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
 
 ---
 
@@ -61,10 +61,14 @@ El cuadro de diálogo de edición permite al autor del contenido crear, cambiar 
 
 Utilice el botón **Agregar** para abrir el selector de componentes y elegir qué componente agregar como ficha. Una vez agregada, se agrega una entrada a la lista, que contiene las siguientes columnas:
 
-* **Icono** : icono del tipo de componente de la ficha para facilitar la identificación en la lista. Mouse over to see the full component name as a tooltip.
+* **Icono** : icono del tipo de componente de la ficha para facilitar la identificación en la lista. Pase el ratón por encima para ver el nombre completo del componente como información sobre herramientas.
 * **Descripción** : la descripción utilizada como texto de la ficha, de forma predeterminada según el nombre del componente seleccionado para la ficha.
 * **Eliminar** : toque o haga clic para eliminar la ficha del componente de ficha.
 * **Reorganizar** : toque o haga clic y arrastre para reorganizar el orden de las fichas.
+
+>[!TIP]
+>
+>Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Agregar** . Los componentes se pueden añadir al componente Tabs [arrastrándolos desde el navegador de componentes y colocándolos en el componente Tabs del editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
 
 ### Ficha Propiedades {#properties-tab}
 
