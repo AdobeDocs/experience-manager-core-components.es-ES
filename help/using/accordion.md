@@ -10,7 +10,7 @@ topic-tags: creación
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: ac88c3bb608be4fff70ad23d48ad0852347eff4a
 
 ---
 
@@ -64,6 +64,10 @@ Utilice el botón **Agregar** para abrir el selector de componentes y elegir qu�
 * **Eliminar** : toque o haga clic para eliminar el panel del componente de acordeón.
 * **Reorganizar** : toque o haga clic y arrastre para reorganizar el orden de los paneles.
 
+>[!TIP]
+>
+>Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Agregar** . Los componentes se pueden añadir al componente Acordeón [arrastrándolos desde el navegador de componentes y colocándolos en el componente Acordeón en el editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
+
 ### Ficha Propiedades {#properties-tab}
 
 ![](assets/screen-shot-2019-06-21-08.26.53.png)
@@ -72,10 +76,6 @@ Utilice el botón **Agregar** para abrir el selector de componentes y elegir qu�
 * **Elementos** expandidos: esta opción define los elementos que se expanden de forma predeterminada cuando se carga la página.
    * Cuando se selecciona la expansión **** de un solo elemento, se debe seleccionar un panel. De forma predeterminada, se selecciona el primer panel.
    * Cuando no se selecciona la expansión **** de un solo elemento, esta opción es de selección múltiple y es opcional.
-
->[!TIP]
->
->Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Agregar** . Los componentes se pueden añadir al componente Acordeón [arrastrándolos desde el navegador de componentes y colocándolos en el componente Acordeón en el editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
 
 ## Ventana emergente Seleccionar panel {#seelct-panel-popover}
 
