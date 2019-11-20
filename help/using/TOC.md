@@ -5,7 +5,7 @@ sub-product: adobe experience manager core components
 archetype: Administrator
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
+source-git-commit: f1db87b0a1fce494041c229f9cd3a125a174150e
 
 ---
 
@@ -71,4 +71,4 @@ source-git-commit: b9bbfcf34737b7a8794e611d102a45f26e9e6fae
       + [Módulo principal](core.md)
       + [Módulo ui.apps](uiapps.md)
       + [Módulo ui.content](uicontent.md)
-      + [Proceso de compilación de front-end](front-end-build.md)
+      + [ui.frontender](uifrontend.md)
