@@ -4,10 +4,10 @@ seo-title: Tipo de archivo del proyecto AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 seo-description: Una plantilla de proyecto para aplicaciones basadas en AEM
 contentOwner: bohnert
-content-type: referencia
-topic-tags: componentes principales
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 488132fdc077985cdc3f369e1e127e8bff8e80c7
+source-git-commit: 69e9b6c9c1154f4af8ab98e86ed6aba13164a1de
 
 ---
 
@@ -53,11 +53,11 @@ El arquetipo de AEM está compuesto de módulos:
 * **[ui.content](uicontent.md)**: contiene contenido de muestra utilizando los componentes del módulo ui.apps.
 * **ui.testing**: es un paquete Java que contiene pruebas JUnit que se ejecutan en el servidor. Este paquete no debe implementarse en producción.
 * **ui.launcher**: contiene código de pegado que implementa el paquete ui.testing (y paquetes dependientes) en el servidor y activa la ejecución remota de JUnit.
-* **[ui.front](front-end-build.md)**: **(opcional)** contiene los artefactos necesarios para utilizar el módulo de compilación front-end basado en Webpack.
+* **[ui.front](uifrontend.md)**: **(opcional)** contiene los artefactos necesarios para utilizar el módulo de compilación front-end basado en Webpack.
 
 ![](assets/project-pom.png)
 
-Los módulos de AEM Archetpye representados en Maven se implementan en AEM como páginas de contenido que representan la aplicación, el contenido y los paquetes OSGi necesarios.
+Los módulos de AEM Archetype representados en Maven se implementan en AEM como paquetes de contenido que representan la aplicación, el contenido y los paquetes OSGi necesarios.
 
 ## Requisitos {#requirements}
 
@@ -67,7 +67,7 @@ La versión actual del arquetipo tiene los siguientes requisitos:
 * Apache Maven (3.3.9 o posterior)
 * Repositorio público de Adobe Maven en la configuración de Maven. Consulte este artículo [de la Base de conocimiento para obtener más detalles](https://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
 
-Para obtener una lista de las versiones compatibles de AEM de versiones anteriores de arquetipos, consulte las versiones [](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)históricas de AEM compatibles.
+Para obtener una lista de las versiones compatibles de AEM de versiones anteriores de arquetipos, consulte las versiones [](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md)históricas de AEM admitidas.
 
 ## Cómo usar el arquetipo {#how-to-use-the-archetype}
 
@@ -105,7 +105,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el arquet
 | `groupId` |  | Maven base `groupId` |
 | `artifactId` |  | Id. de artefacto de la curva base |
 | `version` |  | Versión |
-| `package` |  | Paquete de origen Java |
+| `package` |  | Paquete de código fuente Java |
 | `appsFolderName` |  | `/apps` nombre de carpeta |
 | `artifactName` |  | Nombre del proyecto de Maven |
 | `componentGroupName` |  | Nombre del grupo de componentes de AEM |
@@ -117,7 +117,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el arquet
 | `optionAemVersion` | 6.5.0 | Versión de AEM de Target |
 | `optionIncludeExamples` | y | Incluir un sitio de ejemplo de la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library.html) componentes |
 | `optionIncludeErrorHandler` | n | Incluir una página de respuesta personalizada 404 |
-| `optionIncludeFrontendModule` | n | [Incluir un módulo front-end dedicado](front-end-build.md) |
+| `optionIncludeFrontendModule` | n | [Incluir un módulo front-end dedicado](uifrontend.md) |
 
 >[!NOTE]
 > Si el arquetipo se ejecuta en modo interactivo la primera vez, no se pueden cambiar las propiedades con valores predeterminados (consulte [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) para obtener más información). El valor se puede cambiar cuando se deniega la confirmación de la propiedad al final y se repite el cuestionario, o pasando el parámetro en la línea de comandos (p. ej. `-DoptionIncludeExamples=n`).
@@ -133,7 +133,7 @@ El proyecto principal generado admite distintos perfiles de implementación al e
 | `autoInstallPackagePublish` | Instale el paquete de contenido ui.content y ui.apps con el complemento content-package-maven-plugin en el administrador de paquetes para publicar la instancia predeterminada en localhost, puerto 4503. El nombre de host y el puerto se pueden cambiar con las propiedades definidas por el usuario `aem.host` y el `aem.port` usuario. |
 | `integrationTests` | Ejecuta las pruebas de integración proporcionadas en la instancia de AEM (solo para la `verify` fase) |
 
-### Creación e instalación {#building-and-installing}
+### Generación e instalación {#building-and-installing}
 
 Para generar todos los módulos ejecutados en el directorio raíz del proyecto, utilice el siguiente comando Maven.
 
@@ -173,7 +173,7 @@ El `pom.xml` en la raíz del proyecto (`<src-directory>/<project>/pom.xml`) se c
 
 La `<properties>` sección del POM principal define varias propiedades globales que son importantes para la implementación del proyecto en una instancia de AEM, como nombre de usuario/contraseña, nombre de host/puerto, etc.
 
-Estas propiedades están configuradas para implementarse en una instancia de AEM local, ya que esta es la compilación más común que los desarrolladores van a realizar. Tenga en cuenta que hay propiedades que implementar en una instancia de autor y en una instancia de publicación. Aquí también se establecen las credenciales para la autenticación con la instancia de AEM. Se utilizan las credenciales predeterminadas admin:admin.
+Estas propiedades están configuradas para implementarse en una instancia de AEM local, ya que esta es la compilación más común que los desarrolladores van a realizar. Tenga en cuenta que hay propiedades que implementar en una instancia de autor, así como en una instancia de publicación. Aquí también se establecen las credenciales para la autenticación con la instancia de AEM. Se utilizan las credenciales predeterminadas admin:admin.
 
 Estas propiedades se configuran para que se puedan anular al implementarlas en entornos de nivel superior. De este modo, los archivos POM no tienen que cambiar, pero las variables como `aem.host` y se pueden anular `sling.password` mediante argumentos de la línea de comandos:
 
@@ -207,7 +207,7 @@ Por lo tanto, para aprovechar los componentes principales en todas las implement
 
 >[!NOTE]
 >
->Cada versión de los componentes principales suele ir seguida de una versión de AEM Project Archtype para que el último archetpye utilice la versión más reciente de los componentes principales.
+>Cada versión de los componentes principales suele ir seguida de una versión del arquetipo de proyecto de AEM, de modo que el último archetpye utiliza la versión más reciente de los componentes principales.
 >
 >Sin embargo, es posible que una nueva versión del arquetipo no siga directamente a una nueva versión de los componentes principales, por lo que puede que desee actualizar la dependencia de los componentes principales a la última versión.
 
@@ -233,7 +233,7 @@ Hay tres niveles de prueba contenidos en el proyecto y, como son diferentes tipo
 
 Así que ha creado e instalado el Arquetipo de proyecto de AEM. ¿Y ahora qué? Bueno, el arquetipo es pequeño, pero consta de muchos ejemplos de potentes funciones de AEM configuradas según las optimizaciones recomendadas. Estas funciones indican cómo puede aprovechar estas funciones en el proyecto. Para cualquier proyecto que necesite:
 
-* [Personalizar componentes ampliando los componentes principales existentes](customizing.md)
+* [Personalice los componentes ampliando los componentes principales existentes](customizing.md)
 * [Agregar plantillas adicionales](https://helpx.adobe.com/content/help/en/experience-manager/6-5/sites/authoring/using/templates.html)
 * [Adaptar la estructura de localización](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/tc-prep.html)
-* [Obtenga información sobre el módulo de compilación front-end](front-end-build.md)
+* [Obtenga información sobre el módulo de compilación front-end](uifrontend.md)
