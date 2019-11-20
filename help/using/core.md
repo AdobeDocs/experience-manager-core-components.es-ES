@@ -4,10 +4,10 @@ seo-title: Módulo principal del arquetipo del proyecto de AEM
 description: Módulo principal del arquetipo del proyecto de AEM
 seo-description: Módulo principal del arquetipo del proyecto de AEM
 contentOwner: bohnert
-content-type: referencia
-topic-tags: componentes principales
+content-type: reference
+topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: ca7a47d8ac91516659c115a3f27c09f0ee4b8b33
 
 ---
 
@@ -24,4 +24,4 @@ Aunque es raro que el paquete principal deba implementarse independientemente de
 mvn -PautoInstallBundle clean install
 ```
 
-Una vez ejecutada correctamente, debería poder ver la Consola de Bundels en `http://<host>:<port>/system/console/bundles`.
+Una vez ejecutada correctamente, debería poder ver la consola de paquetes en `http://<host>:<port>/system/console/bundles`.
