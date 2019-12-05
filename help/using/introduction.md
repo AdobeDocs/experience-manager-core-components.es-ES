@@ -10,7 +10,7 @@ topic-tags: introduction
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: c44bb0d7-5d91-4659-878e-a0658fe29aa2
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -44,7 +44,7 @@ Estos son los componentes principales:
 | Extensible | Todo se puede ampliar para cubrir las necesidades personalizadas y sin tener que empezar desde cero. |
 | Código abierto | Si algo no funciona como es debido, envíe sus comentarios en GitHub (Licencia Apache) y ayúdenos a mejorar. |
 | Con versiones | Los componentes principales interferirán en el funcionamiento del sitio al mejorar los elementos que esté usando. |
-| [Localizado](localization.md) | La resolución de referencia inteligente permite a ciertos componentes buscar y reproducir automáticamente el contenido localizado correspondiente |
+| [Localizado](localization.md) | La resolución de referencia inteligente permite a determinados componentes buscar y procesar automáticamente el contenido localizado correspondiente |
 
 ## Componentes disponibles {#available-components}
 
@@ -101,7 +101,7 @@ Para obtener información básica de los componentes principales, las funciones 
 
 ## Desarrollo con los componentes principales {#developing-core-components}
 
-Los componentes principales proporcionan componentes básicos robustos y ampliables que implementan varios patrones que facilitan la personalización, desde el estilo simple hasta la reutilización avanzada de la funcionalidad. Consulte la documentación [de desarrollo de componentes](developing.md) principales para obtener más información.
+Los componentes principales proporcionan componentes básicos robustos y ampliables que implementan varios patrones que facilitan la personalización, desde el estilo simple hasta la reutilización avanzada de la funcionalidad. Consulte la documentación [de desarrollo de los componentes](developing.md) principales para obtener más información.
 
 Empiece a desarrollar elementos en AEM Sites con componentes principales siguiendo [este tutorial paso a paso.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/getting-started.html)
 
