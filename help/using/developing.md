@@ -6,11 +6,11 @@ seo-description: Los componentes principales proporcionan componentes básicos r
 uuid: 68569da2-9bc8-4e20-9a71-e5816ace51ce
 contentOwner: User
 content-type: reference
-topic-tags: desarrollo
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 157a2ec3-9fca-4fad-977a-d93013eeb218
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -36,7 +36,7 @@ Los componentes principales proporcionan componentes básicos robustos y ampliab
    * Lógica del modelo de contenido implementada con modelos [Sling](https://sling.apache.org/documentation/bundles/models.html)
 * Marcado de pérdida
    * Notación del modificador [de elementos de](https://getbem.com/) bloque (BEM) siguiente a partir de la versión 2.0.0
-      * La versión anterior sigue las convenciones de nombres de [Bootstrap](https://getbootstrap.com/css/)
+      * La versión anterior sigue las convenciones de nomenclatura de [Bootstrap](https://getbootstrap.com/css/) .
    * Built around [accessibility guidelines](https://helpx.adobe.com/experience-manager/6-5/managing/using/web-accessibility.html)
    * Capacidad para utilizarse en sitios adaptables y móviles
 * Capacidad de serializar como JSON el modelo de contenido para casos de uso CMS sin encabezado
@@ -61,7 +61,7 @@ Get started developing AEM Sites with Core Components by following [this step-by
 
 ## Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
-[El arquetipo](overview.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
+[El arquetipo](overview.md) del proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
 
 ## Entregado a través de GitHub {#delivered-over-github}
 
@@ -119,15 +119,15 @@ Para obtener más información sobre sus capacidades de creación y las opciones
 
 La siguiente tabla enumera los componentes principales disponibles, vinculándolos a su API, e indica qué componentes de base reemplazan.
 
-| Componente principal | Descripción | Componente(s) de base reemplazado(s) |
+| Componente principal | Descripción | Componente(s) base(s) sustituido(s) |
 |---|---|---|
-| [Página](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page) | Página adaptable con el editor de plantillas | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
+| [Página](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page) | Página adaptable que trabaja con el editor de plantillas | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
 | [Ruta de navegación](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb) | Navegación por la jerarquía de páginas | `/libs/foundation/components/breadcrumb` |
 | [Título](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v2/title) | Título H1-H6 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [Texto](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | Texto enriquecido | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
 | [Imagen](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image) | Carga inteligente y diferida del tamaño de representación óptimo | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
 | [Lista](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list) | Lista de páginas | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [Compartir en redes sociales](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing) | Widget para compartir Facebook y Pinterest | `-` |
+| [Compartir en redes sociales](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/sharing/v1/sharing) | Widget de uso compartido de Facebook y Pinterest | `-` |
 | [Contenedor del formulario](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container) | Sistema de párrafos de formularios interactivos | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
 | [Texto de formulario](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text) | Campo de entrada de texto | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
 | [Opciones de formulario](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v2/options) | Campo de entrada de varias opciones | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
@@ -139,7 +139,7 @@ La siguiente tabla enumera los componentes principales disponibles, vinculándol
 | [Teaser](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/teaser/v1/teaser) | Permite al autor del contenido crear fácilmente un teaser para añadir contenido mediante una imagen, un título o texto enriquecido y vincularlo a contenido u otras acciones | `-` |
 | [Pestañas](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/tabs/v1/tabs) | Permite al autor del contenido organizar el contenido de la página en varias fichas | `-` |
 | [Carrusel](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel) | Permite al autor del contenido organizar el contenido en un carrusel de diapositivas rotatorio | `/libs/foundation/components/carousel` |
-| [Fracción de contenido](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permite la visualización de un fragmento de contenido | `-` |
+| [Fragmento de contenido](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragment/v1/contentfragment) | Permite la visualización de un fragmento de contenido | `-` |
 | [Lista de fragmentos de contenido](https://github.com/adobe/aem-core-wcm-components/tree/master/extension/contentfragment/content/src/content/jcr_root/apps/core/wcm/extension/components/contentfragmentlist/v1/contentfragmentlist) | Permite mostrar una lista de fragmentos de contenido | `-` |
 | [Separador](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator) | Separa el contenido de una página | `-` |
 | [Acordeón](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/accordion/v1/accordion) | Organizar paneles de contenido en un acordeón contraíble | `-` |
@@ -151,7 +151,7 @@ La siguiente tabla enumera los componentes principales disponibles, vinculándol
 
 ### Próximos componentes {#upcoming-components}
 
-Para obtener una visión general de la próxima hoja de ruta de Core Componente, consulte la wiki del [proyecto en GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+Para obtener una visión general de la próxima hoja de ruta del componente principal, consulte la wiki del [proyecto en GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Actualización de los componentes principales {#upgrade-of-core-components}
 
@@ -167,7 +167,7 @@ Como los componentes principales son completamente nuevos y ofrecen varios benef
 
 Por lo tanto, Adobe proporciona las siguientes recomendaciones:
 
-* **Nuevos proyectos** Los nuevos proyectos siempre deben intentar utilizar los componentes principales. Si los componentes principales no se pueden utilizar directamente o [ampliar](customizing.md) para satisfacer los requisitos del proyecto, cree un componente personalizado siguiendo la arquitectura de componentes establecida en los componentes principales. Salvo cuando no sea posible, evite utilizar los componentes [de](developing.md)base.
+* **Nuevos proyectos** Los nuevos proyectos siempre deben intentar utilizar los componentes principales. Si los componentes principales no se pueden utilizar directamente o [ampliar](customizing.md) para satisfacer los requisitos del proyecto, cree un componente personalizado siguiendo la arquitectura de componentes establecida en los componentes principales. Salvo en los casos en que no sea posible, evite utilizar los componentes [de](developing.md)base.
 * **La recomendación de proyectos** existentes se mantiene usando los componentes [de](developing.md)base, a menos que se planifique una refactorización de sitios o componentes.\
    Dado que la mayoría de los proyectos existentes los utilizan muy ampliamente, [seguirán contando con el apoyo de los componentes básicos.](developing.md)
 * **Nuevos componentes** personalizadosSe evalúa si un componente [principal existente puede personalizarse](customizing.md).\
@@ -177,7 +177,7 @@ Por lo tanto, Adobe proporciona las siguientes recomendaciones:
 
 ## Migración a los componentes principales
 
-Cualquier nuevo proyecto debe implementarse con componentes principales. Sin embargo, los proyectos existentes normalmente tendrán una amplia implementación de los componentes de base.
+Cualquier nuevo proyecto debe implementarse con los componentes principales. Sin embargo, los proyectos existentes normalmente tendrán una amplia implementación de los componentes de base.
 
 Un esfuerzo mayor en un proyecto existente (por ejemplo, un rediseño de marca o una refactorización general) a menudo ofrece la posibilidad de migrar a los componentes principales. Para facilitar esta migración, Adobe ha proporcionado una serie de herramientas de migración para fomentar la adopción de los componentes principales y la tecnología AEM más reciente.
 
