@@ -6,11 +6,11 @@ seo-description: Los componentes principales siguen patrones de implementación 
 uuid: b1daea89-da3c-454f-8ab5-d75a19412954
 contentOwner: User
 content-type: reference
-topic-tags: desarrollo
+topic-tags: developing
 products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
 discoiquuid: 170dba8f-a2ed-442e-a56e-1126b338c36e
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -51,16 +51,6 @@ Además del cuadro de diálogo de edición que utilizan los autores de páginas,
 
 Para que los componentes sean lo más reutilizables posible, se les deben proporcionar opciones significativas para preconfigurarlos. Esto permitirá habilitar o deshabilitar las características de los componentes para que coincidan con las necesidades específicas de los distintos sitios.
 
-<!-- 
-
-Comment Type: annotation
-Last Modified By: ims-author-CE1E2CE451D1F0680A490D45@AdobeID
-Last Modified Date: 2017-04-17T17:49:04.584-0400
-
-Unclear how I can add my own capability toggle (for example, if i extend a component and want to toggle that extended functionality ... )
-
- -->
-
 ### Patrón de componentes proxy {#proxy-component-pattern}
 
 Dado que cada recurso de contenido tiene una `sling:resourceType` propiedad que hace referencia al componente para representarlo, es recomendable que estas propiedades apunten a componentes específicos del sitio, en lugar de apuntar a componentes compartidos por varios sitios. Esto ofrecerá más flexibilidad y evitará la refactorización de contenido si un sitio necesita un comportamiento diferente para un componente, ya que esta personalización se puede lograr en el componente específico del sitio y no afectará a los otros sitios.
@@ -71,7 +61,7 @@ Sin embargo, para que los componentes específicos del proyecto no dupliquen nin
 
 Los componentes deben ser totalmente compatibles con el tiempo, pero a veces son necesarios cambios que no pueden ser compatibles. Una solución a estas necesidades opuestas es introducir el control de versiones de componentes agregando un número en la ruta de tipo de recurso y en los nombres de clase Java completos de sus implementaciones. Este número de versión representa una versión principal, tal como se define en las directrices [de versiones](https://semver.org/)semánticas, que se incrementa únicamente para los cambios que no son compatibles con versiones anteriores.
 
-Los cambios incompatibles en los siguientes aspectos de los componentes darán como resultado una nueva versión de ellos:
+Si se realizan cambios incompatibles en los siguientes aspectos de los componentes, se generará una nueva versión de los mismos:
 
 * Modelos Sling (siguiendo las directrices semánticas de versiones)
 * Plantillas y secuencias de comandos HTL
@@ -81,7 +71,7 @@ Los cambios incompatibles en los siguientes aspectos de los componentes darán c
 
 Para obtener más información, consulte el documento Políticas [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) versiones en GitHub.
 
-El control de versiones de componentes crea una forma de contrato que es importante para las actualizaciones, ya que aclara cuándo es necesario refactorizar algo. Consulte también la sección Compatibilidad de [actualización de personalizaciones](customizing.md#upgrade-compatibility-of-customizations), que explica las consideraciones que requieren las distintas formas de personalización para una actualización.
+El control de versiones de componentes crea una forma de contrato que es importante para las actualizaciones, ya que aclara cuándo es necesario refactorizar algo. Consulte también la sección Compatibilidad de [actualización de las personalizaciones](customizing.md#upgrade-compatibility-of-customizations), que explica las consideraciones que requieren las distintas formas de personalización para una actualización.
 
 Para evitar las dolorosas migraciones de contenido, es importante nunca señalar directamente a los componentes con versiones desde los recursos de contenido. Por regla general, una parte `sling:resourceType` del contenido nunca debe tener un número de versión, o para actualizar los componentes es necesario refactorizar también el contenido. La mejor manera de evitarlo es seguir el patrón [de componentes](#proxy-component-pattern) proxy descrito anteriormente.
 
@@ -94,7 +84,7 @@ Cuando se combina con el patrón [de componentes](#proxy-component-pattern) prox
 1. Un sitio puede redefinir la implementación de un modelo Sling registrándolo en el tipo de recurso del componente proxy, sin tener que preocuparse por el archivo HTL, que aún puede apuntar a la interfaz.
 1. Un sitio puede redefinir el marcado HTML de un componente sin tener en cuenta a qué lógica de implementación debe apuntar.
 
-## Colocar todo juntos {#putting-it-all-together}
+## Colocando todo juntos {#putting-it-all-together}
 
 A continuación se muestra una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de componentes, para evitar que el recurso de contenido contenga un número de versión cualquiera. A continuación, muestra cómo se utiliza el archivo `title.html` HTL [del componente en la interfaz del modelo, mientras que la implementación se enlaza a la versión específica del componente mediante anotaciones del modelo](https://helpx.adobe.com/experience-manager/htl/using/overview.html) de [](https://sling.apache.org/documentation/bundles/models.html) sling.
 
@@ -104,15 +94,15 @@ A continuación se muestra otra descripción general, que no muestra los detalle
 
 La `cq:allowedTemplates` propiedad indica qué plantillas se pueden utilizar para un sitio y `cq:template` indica a cada página cuál es la plantilla asociada. Cada plantilla consta de las tres partes siguientes:
 
-* **estructura** Contiene los recursos que se forzará a que cada página esté presente y que el autor de la página no podrá eliminarla, como por ejemplo los componentes de encabezado y pie de página.
-* **initial** Contiene el contenido inicial que se duplicará en la página cuando se cree.
-* **políticas** Contiene para cada componente la asignación a una política, que es la preconfiguración del componente. Esta asignación permite reutilizar las directivas en todas las plantillas y, por lo tanto, administrarlas de forma centralizada.
+* **estructura** : contiene los recursos que se forzará a que cada página esté presente y que el autor de la página no podrá eliminarla, como por ejemplo los componentes de encabezado y pie de página.
+* **inicial** : contiene el contenido inicial que se duplicará en la página cuando se cree.
+* **políticas** : contiene para cada componente la asignación a una política, que es la preconfiguración del componente. Esta asignación permite reutilizar las directivas en todas las plantillas y, por lo tanto, administrarlas de forma centralizada.
 
 ![Plantillas y descripción general de directiva](assets/screen_shot_2018-12-07at093102.png)
 
 ## Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
-[El arquetipo](overview.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
+[El arquetipo](overview.md) del proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
 
 **Consulte lo siguiente:**
 
