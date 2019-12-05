@@ -7,7 +7,7 @@ contentOwner: bohnert
 content-type: reference
 topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 6616db2e76d35716cb37052afca8ca2cc2379548
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
@@ -207,7 +207,7 @@ Por lo tanto, para aprovechar los componentes principales en todas las implement
 
 >[!NOTE]
 >
->Cada versión de los componentes principales suele ir seguida de una versión del arquetipo de proyecto de AEM, de modo que el último archetpye utiliza la versión más reciente de los componentes principales.
+>Cada versión de los componentes principales suele ir seguida de una versión del arquetipo de proyecto de AEM, de modo que el arquetipo más reciente utiliza la versión más reciente de los componentes principales.
 >
 >Sin embargo, es posible que una nueva versión del arquetipo no siga directamente a una nueva versión de los componentes principales, por lo que puede que desee actualizar la dependencia de los componentes principales a la última versión.
 
