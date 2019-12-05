@@ -3,19 +3,19 @@ title: Características de localización de los componentes principales
 seo-title: Características de localización de los componentes principales
 description: Características de localización de los componentes principales
 seo-description: Características de localización de los componentes principales
-content-type: referencia
-topic-tags: componentes principales
+content-type: reference
+topic-tags: core-components
 index: y
 internal: n
 translation-type: tm+mt
-source-git-commit: c8041e855386b7195fe32dd5dc53458f1d8270b8
+source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
 
 ---
 
 
 # Características de localización de los componentes principales {#localization-features-of-the-core-components}
 
-Muchos sitios Web requieren que el contenido se entregue en un formato localizado en varios idiomas y regiones geográficas. Los componentes principales seleccionados presentan una solución de referencia inteligente para facilitar la creación de una plantilla unificada para todo el contenido localizado que se adapte automáticamente en función de la estructura del sitio localizado.
+Muchos sitios Web requieren que el contenido se entregue en un formato localizado en varios idiomas y regiones geográficas. Los componentes principales seleccionados presentan una resolución de referencia inteligente para que sea más sencillo crear una plantilla unificada para todo el contenido localizado que se adapte automáticamente en función de la estructura del sitio localizado.
 
 ## Ejemplo: Página localizada con navegación y pies de página {#example}
 
@@ -23,7 +23,7 @@ La mayoría de los sitios requieren que haya un pie de página en todas las pág
 
 Del mismo modo, un componente de navegación generalmente debe mostrarse en todas las páginas. Sin embargo, también deberá reflejar el contenido de las páginas localizadas.
 
-Al utilizar las funciones de localización del componente [principal de](navigation.md) navegación y del componente [principal de fragmento de](experience-fragment.md) experiencia junto con las plantillas [editables de AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html), se convierte en una tarea sencilla. El ejemplo podría ampliarse para utilizar también el componente [de navegación por](language-navigation.md) idiomas.
+El uso de las funciones de localización del componente [principal de](navigation.md) navegación y del componente [principal de fragmento de](experience-fragment.md) experiencia junto con las plantillas [editables de AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)se convierte en una tarea sencilla. El ejemplo podría ampliarse para utilizar también el componente [de navegación por](language-navigation.md) idiomas.
 
 ## La estructura de contenido {#content-structure}
 
@@ -35,7 +35,7 @@ Supongamos que su sitio se llama simplemente `my-site` y se encuentra aquí:
 /content/my-site
 ```
 
-Supongamos también que crea su sitio en inglés y lo ofrece también en francés. Así que si tiene una página simple llamada `my-page` se encontraría en dos ramas de localización en el árbol de contenido del sitio:
+Supongamos también que usted crea su sitio en inglés y lo ofrece también en francés. Así que si tiene una página simple llamada `my-page` se encontraría en dos ramas de localización en el árbol de contenido del sitio:
 
 ```
 /content
@@ -66,7 +66,7 @@ Los pies de página generalmente se crean con fragmentos de experiencia, por lo 
 
 Es a través de la estructura de localización reflejada que los componentes principales pueden encontrar el contenido localizado necesario para una página correspondiente.
 
-## Pie de página: fragmento de experiencias {#xf-footer}
+## Pie de página - Fragmento de experiencias {#xf-footer}
 
 El componente Fragmento de experiencia es muy flexible y es adecuado para un encabezado o pie de página.
 
