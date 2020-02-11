@@ -1,23 +1,15 @@
 ---
 title: Componente de imagen
-seo-title: Componente de imagen
 description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
-seo-description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
-uuid: 1a229d42-2428-43aa-895a-9b7c1bf02834
-contentOwner: User
-content-type: reference
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: d4684f33-2fb5-4f32-866f-7136cf1800d7
 translation-type: tm+mt
-source-git-commit: ddc970cc3ca21fac5d1f0078837cfd091ec0dccb
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
 
 # Componente de imagen{#image-component}
 
-El componente de imagen del componente principal es un componente de imagen adaptable que incluye la edición in situ.
+El componente de imagen del componente principal es un componente de imagen adaptable que incluye la edición in-situ.
 
 ## Uso {#usage}
 
@@ -27,9 +19,9 @@ El autor de la plantilla puede definir el ancho de la imagen, así como el recor
 
 ## Funciones adaptables {#responsive-features}
 
-El componente de imagen incorpora funciones interactivas sólidas listas para usar. En el nivel de plantilla de página, el cuadro de diálogo [de](#design-dialog) diseño se puede utilizar para definir los anchos predeterminados del recurso de imagen. A continuación, el componente de imagen cargará automáticamente la anchura correcta para que se muestre según el tamaño de la ventana del navegador. A medida que se cambia el tamaño de la ventana, el componente Imagen carga dinámicamente el tamaño de imagen correcto sobre la marcha. No es necesario que los desarrolladores de componentes se preocupen por definir consultas de medios personalizadas, ya que el componente de imagen ya está optimizado para cargar el contenido.
+El componente de imagen incorpora funciones interactivas sólidas listas para usar. En el nivel de plantilla de página, el cuadro de diálogo [de](#design-dialog) diseño se puede utilizar para definir los anchos predeterminados del recurso de imagen. A continuación, el componente de imagen cargará automáticamente la anchura correcta para que se muestre en función del tamaño de la ventana del navegador. A medida que se cambia el tamaño de la ventana, el componente de imagen carga dinámicamente el tamaño de imagen correcto sobre la marcha. No es necesario que los desarrolladores de componentes se preocupen por definir consultas de medios personalizadas, ya que el componente de imagen ya está optimizado para cargar el contenido.
 
-Además, el componente Imagen admite la carga diferida para aplazar la carga del recurso de imagen real hasta que esté visible en el navegador, lo que aumenta la capacidad de respuesta de las páginas.
+Además, el componente de imagen admite la carga diferida para aplazar la carga del recurso de imagen real hasta que esté visible en el navegador, lo que aumenta la capacidad de respuesta de las páginas.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -37,20 +29,20 @@ La versión actual del componente de imagen es v2, que se introdujo con la versi
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](image-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](image-v1.md) | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Compatibilidad con SVG {#svg-support}
 
-El componente Imagen admite gráficos vectoriales escalables (SVG).
+Los gráficos vectoriales escalables (SVG) son compatibles con el componente Imagen.
 
 * Se admiten la función de arrastrar y soltar un recurso SVG desde DAM y la carga de un archivo SVG desde un sistema de archivos local.
 * El servlet de imagen adaptable transmite el archivo SVG original (se omiten las transformaciones).
-* Para una imagen SVG, las "imágenes inteligentes" y los "tamaños inteligentes" se establecen en una matriz vacía en el modelo de imagen.
+* Para una imagen SVG, las &quot;imágenes inteligentes&quot; y los &quot;tamaños inteligentes&quot; se establecen en una matriz vacía en el modelo de imagen.
 
 ### Seguridad {#security}
 
@@ -58,15 +50,15 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 >[!CAUTION]
 >
->La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superior, junto con el [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) para AEM 6.4 o el [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para AEM 6.3 o superior, para admitir [nuevas funciones](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) del editor de imágenes en AEM.
+>La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superior, junto con el [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) para AEM 6.4 o el [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para AEM 6.3 o superior, para admitir [nuevas funciones](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) del editor de imágenes en AEM.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente de imagen, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/image.html)componentes.
+Para experimentar el componente de imagen, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_image)componentes.
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de imagen [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/image/v2/image).
+La documentación técnica más reciente sobre el componente de imagen [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_image_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -83,9 +75,9 @@ Además del cuadro de diálogo [de](#edit-dialog) edición estándar y del cuadr
 ![](assets/screen_shot_2018-01-08at114245.png)
 
 * **Recurso de imagen**
-   * Suelte un recurso del navegador [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/author-environment-tools.html) recursos o toque la opción de **exploración** para cargarlo desde un sistema de archivos local.
+   * Suelte un recurso del navegador [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) recursos o toque la opción de **exploración** para cargarlo desde un sistema de archivos local.
    * Toque o haga clic en **Borrar** para anular la selección de la imagen seleccionada.
-   * Toque o haga clic en **Editar** para [administrar las representaciones del recurso](https://helpx.adobe.com/experience-manager/6-5/assets/using/managing-assets-touch-ui.html) en el editor de recursos.
+   * Toque o haga clic en **Editar** para [administrar las representaciones del recurso](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) en el editor de recursos.
 
 ### Ficha Metadatos {#metadata-tab}
 
@@ -114,7 +106,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
    ![](assets/chlimage_1-9.png)
 
-   Al seleccionar esta opción se abre una lista desplegable para las proporciones de recorte predefinidas.
+   Al seleccionar esta opción, se abre una lista desplegable para las proporciones de recorte predefinidas.
 
    * Elija la opción **Mano** libre para definir su propio recorte.
    * Elija la opción **Eliminar recorte** para mostrar el recurso original.
@@ -126,7 +118,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
    ![](assets/chlimage_1-11.png)
 
-   Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
+   Utilice esta opción para rotar la imagen 90° hacia la derecha (en el sentido de las agujas del reloj).
 
 * Voltear horizontalmente
 
@@ -144,7 +136,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
    >[!CAUTION]
    >
-   >La función de mapa de inicio requiere la versión 2.1.0 de los componentes principales o superior, junto con el [Service Pack 2](https://helpx.adobe.com/experience-manager/6-4/release-notes/sp-release-notes.html) para AEM 6.4 o el [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para AEM 6.3 o superior para admitir [nuevas funciones](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/image-editor.html) de editor de imágenes en AEM.
+   >La función de mapa de inicio requiere la versión 2.1.0 de los componentes principales o superior, junto con el [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) para AEM 6.4 o el [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para AEM 6.3 o superior para admitir [nuevas funciones](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) de editor de imágenes en AEM.
 
    ![](assets/chlimage_1-12.png)
 
@@ -228,7 +220,7 @@ Además, puede definir qué opciones generales de componente se desactivan o se 
 
 >[!NOTE]
 >
->A partir de la versión 2.2.0 de los componentes principales, el componente de imagen agrega el atributo UUID exclusivo `data-asset-id` al recurso de imagen para permitir el seguimiento y análisis del número de vistas que reciben los recursos individuales.
+>A partir de la versión 2.2.0 de los componentes principales, el componente de imagen agrega el atributo UUID exclusivo `data-asset-id` al recurso de imagen para permitir el seguimiento y el análisis del número de vistas que reciben los recursos individuales.
 
 ### Ficha Características {#features-tab}
 
@@ -251,14 +243,6 @@ En la ficha **Funciones** puede definir las opciones disponibles para los autore
    >
    >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen; sin embargo, AEM no admite actualmente la función y los cambios realizados con estas opciones no se mantendrán.
 
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
- -->
-
 * Recortar
 
    ![](assets/chlimage_1-21.png)
@@ -279,7 +263,7 @@ El componente Imagen admite el sistema [de](authoring.md#component-styling)estil
 
 ## Servlet de imagen adaptable {#adaptive-image-servlet}
 
-El componente de imagen utiliza el servlet de imagen adaptable del componente principal. [El servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) de imagen adaptable es responsable del procesamiento y la transmisión de imágenes y puede ser utilizado por los desarrolladores en sus [personalizaciones de los componentes](customizing.md)principales.
+El componente de imagen utiliza el servlet de imagen adaptable del componente principal. [El servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) de imagen adaptable es responsable del procesamiento y la transmisión de imágenes y puede ser aprovechado por los desarrolladores en sus [personalizaciones de los componentes](customizing.md)principales.
 
 >[!NOTE]
 >
