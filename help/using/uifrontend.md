@@ -1,13 +1,8 @@
 ---
 title: Compilación de front-end de arquetipo de proyecto de AEM
-seo-title: Compilación de front-end de arquetipo de proyecto de AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
-seo-description: Una plantilla de proyecto para aplicaciones basadas en AEM
-contentOwner: bohnert
-content-type: reference
-topic-tags: core-components
 translation-type: tm+mt
-source-git-commit: 277359d2c0ba624353d5cf4addc6fe0d8dfdf2d0
+source-git-commit: 0e1f26e1032812a36ea6a30532ce40dafa903536
 
 ---
 
@@ -34,7 +29,7 @@ La ejecución `npm run dev` inicia el proceso de compilación de front-end que r
 Cuando se ejecuta todo el arquetipo de proyecto de AEM utilizando todos los artefactos del proyecto, incluidos los clientes, se insertan en la instancia de AEM. `mvn clean install -PautoInstallPackage`
 
 >[!TIP]
->Obtenga más información sobre clientlibs en la documentación [de desarrollo de](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) AEM y [cómo los utiliza el módulo ui.front a continuación](#clientlib-generation).
+>Obtenga más información sobre clientlibs en la documentación [de desarrollo de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) AEM y [cómo los utiliza el módulo ui.front a continuación](#clientlib-generation).
 
 ## Posibles flujos de trabajo de desarrollo front-end {#possible-workflows}
 
@@ -53,7 +48,7 @@ En este flujo, un desarrollador de AEM puede realizar los pasos uno y dos y pasa
 
 >[!TIP]
 >
->También se podría aprovechar la biblioteca [de](https://opensource.adobe.com/aem-core-wcm-components/library.html) componentes para capturar muestras de la salida de marcado de cada componente para trabajar en el nivel de componente en lugar de en el nivel de página.
+>También se podría aprovechar la biblioteca [de](https://adobe.com/go/aem_cmp_library) componentes para capturar muestras de la salida de marcado de cada componente para trabajar en el nivel de componente en lugar de en el nivel de página.
 
 ### Uso de Storybook {#using-storybook}
 
@@ -65,7 +60,7 @@ Al utilizar [Storybook](https://storybook.js.org) , puede realizar más desarrol
 
 ### Determinación del marcado {#determining-markup}
 
-Independientemente del flujo de trabajo de desarrollo front-end que decida implementar para su proyecto, los desarrolladores back-end y los desarrolladores front-end primero deben ponerse de acuerdo en el marcado. Normalmente, AEM define el marcado, que lo proporcionan los componentes principales. [Sin embargo, esto se puede personalizar si es necesario](https://docs.adobe.com/content/help/en/experience-manager-core-components/using/developing/customizing.html#customizing-the-markup).
+Independientemente del flujo de trabajo de desarrollo front-end que decida implementar para su proyecto, los desarrolladores back-end y los desarrolladores front-end primero deben ponerse de acuerdo en el marcado. Normalmente, AEM define el marcado, que lo proporcionan los componentes principales. [Sin embargo, esto se puede personalizar si es necesario](customizing.md#customizing-the-markup).
 
 ## Módulo ui.frontender {#ui-frontend-module}
 
@@ -91,7 +86,7 @@ El arquetipo de proyecto de AEM incluye un mecanismo de compilación front-end o
 
 >[!NOTE]
 >
->Para obtener más información técnica sobre el módulo ui.frontender, consulte la [documentación en GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend/README.md).
+>Para obtener más información técnica sobre el módulo ui.frontender, consulte la [documentación en GitHub](https://github.com/adobe/aem-project-archetype/blob/master/src/main/archetype/ui.frontend.general/README.md).
 
 ## Instalación {#installation}
 
@@ -149,7 +144,7 @@ El proceso de compilación del módulo ui.frontened aprovecha el complemento [ae
 
 ### Inclusión de bibliotecas de cliente en páginas {#clientlib-inclusion}
 
-`clientlib-site` y `clientlib-dependencies` las categorías se incluyen en las páginas mediante la configuración [de la directiva de](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/page-templates-editable.html#TemplateDefinitions) página como parte de la plantilla predeterminada. Para ver la directiva, edite la plantilla de página de **contenido &gt; Información de página &gt; Política** de página.
+`clientlib-site` y `clientlib-dependencies` las categorías se incluyen en las páginas mediante la configuración [de la directiva de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) página como parte de la plantilla predeterminada. Para ver la directiva, edite la plantilla de página de **contenido > Información de página > Política** de página.
 
 La inclusión final de las bibliotecas de cliente en la página de sitios es la siguiente:
 
