@@ -1,24 +1,9 @@
 ---
 title: Componente de texto (v1)
-seo-title: Componente de texto (v1)
-description: nulo
-seo-description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
-uuid: b787ebac-fa85-416a-b96b-9d2ee85428ec
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: d5e37dc7-dfd4-4a44-89b6-c15651472c43
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-noindex: verdadero
+description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -37,7 +22,7 @@ El cuadro de diálogo [de](text-v1.md#main-pars_title) edición incluye edición
 
 Este documento describe la versión 1 del componente de texto, introducida originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-En la tabla siguiente se muestra la compatibilidad de v1 del componente de texto.
+En la tabla siguiente se muestra la compatibilidad de la versión 1 del componente de texto.
 
 | Versión de AEM | Componente de texto v1 |
 |--- |--- |
@@ -84,7 +69,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 ## Edit Dialog {#edit-dialog}
 
-El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan texto.
+El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan el texto.
 
 ![](assets/chlimage_1-52.png)
 
@@ -130,7 +115,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    Pega el texto copiado como texto sin formato sin ningún formato.
 
-   Al seleccionar esta opción, se abre una ventana donde el texto se puede pegar como texto sin formato sin formato como vista previa antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
+   Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como vista previa antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
 
    ![](assets/chlimage_1-59.png)
 
@@ -182,7 +167,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
 
-   Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de búsqueda se atenúa. Toque o haga clic de nuevo en el botón **Buscar** del cuadro de diálogo atenuado para buscar la siguiente incidencia.
+   Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de búsqueda se atenúa. Toque o haga clic en el botón **Buscar** de nuevo en el cuadro de diálogo atenuado para buscar la siguiente incidencia.
 
    ![](assets/chlimage_1-67.png)
 
@@ -248,7 +233,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    Se utiliza para reducir el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
 
-   Solo activa si el texto o la posición seleccionados del cursor ya están sangrados.
+   Solo se activa si el texto o la posición seleccionados del cursor ya están sangrados.
 
 * Sangría
 
@@ -277,7 +262,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
       * Debe utilizarse la primera columna
       * Debe utilizarse la primera fila y la primera columna
       * O bien, no se debe utilizar ningún encabezado.
-   * **Rótulo** : rótulo de la tabla
+   * **Rótulo** : el rótulo de la tabla
 
 
 * Revisar ortografía
@@ -294,7 +279,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    ![](assets/chlimage_1-82.png)
 
-   Toque o haga clic en el carácter deseado para insertarlo en el texto después del cursor. Se pueden insertar varios caracteres. Toque o haga clic en la x para cerrar la ventana de selección.
+   Toque o haga clic en el carácter que desee para insertarlo en el texto después del cursor. Se pueden insertar varios caracteres. Toque o haga clic en la x para cerrar la ventana de selección.
 
 * Modificar código fuente
 
@@ -337,7 +322,7 @@ Las siguientes funciones se pueden activar o desactivar para el componente.
 * Pasado de la palabra
 * Buscar y reemplazar
 * Corrector ortográfico
-* Edición de origen
+* Edición de código fuente
 
 ### Formato {#formatting}
 
