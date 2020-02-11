@@ -1,15 +1,9 @@
 ---
 title: Componente de imagen (v1)
-seo-title: Componente de imagen (v1)
 description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
-seo-description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
-uuid: 20ea7921-511d-4d3a-b3df-c2f2c1d8455d
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: ab9041ab-e29e-4277-b326-85ab37df8413
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -109,7 +103,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
    ![](assets/chlimage_1-9.png)
 
-   Al seleccionar esta opción se abre una lista desplegable para las proporciones de recorte predefinidas.
+   Al seleccionar esta opción, se abre una lista desplegable para las proporciones de recorte predefinidas.
 
    * Elija la opción **Mano** libre para definir su propio recorte.
    * Elija la opción **Eliminar recorte** para mostrar el recurso original.
@@ -121,7 +115,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
    ![](assets/chlimage_1-11.png)
 
-   Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
+   Utilice esta opción para rotar la imagen 90° hacia la derecha (en el sentido de las agujas del reloj).
 
 * Iniciar mapa
 
