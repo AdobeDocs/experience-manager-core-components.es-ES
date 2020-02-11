@@ -1,24 +1,8 @@
 ---
 title: Componente de navegación de idioma
-seo-title: Componente de navegación de idioma
-description: nulo
-seo-description: El componente de navegación por idiomas proporciona navegación por el idioma o país para un sitio, de modo que los visitantes pueden navegar a la misma página en una configuración regional diferente.
-uuid: ce736458-9cdf-4bc2-b90f-9c5a62fe1ca0
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: 8f232eb0-65d5-4075-8668-75f1366882c8
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: El componente de navegación por idiomas proporciona navegación por el idioma o país para un sitio, de modo que los visitantes pueden navegar a la misma página en una configuración regional diferente.
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -29,7 +13,7 @@ El componente de navegación de idioma proporciona navegación por el idioma o p
 
 ## Uso {#usage}
 
-Los sitios web se proporcionan a menudo en varios idiomas en diferentes regiones. El componente de navegación por idiomas permite a los visitantes ver la misma página en distintos idiomas o configuraciones regionales. Así que si eres un lector de la versión en alemán suizo del sitio web, puedes cambiar fácilmente a la versión en inglés de EE. UU. de la misma página. El componente Navegación de idioma se encarga de comprender la estructura de idioma del sitio y busca la página correspondiente automáticamente.
+Los sitios web se proporcionan a menudo en varios idiomas en diferentes regiones. El componente de navegación por idiomas permite que un visitante vea la misma página en distintos idiomas o configuraciones regionales. Así que si eres un lector de la versión en alemán suizo del sitio web, puedes cambiar fácilmente a la versión en inglés de EE. UU. de la misma página. El componente Navegación de idioma se encarga de comprender la estructura de idioma del sitio y busca la página correspondiente automáticamente.
 
 * Para ver un ejemplo de cómo funciona la función de localización del componente de navegación de idioma, consulte [la sección siguiente](#example).
 * Para ver un ejemplo de cómo funcionan conjuntamente las funciones de localización de los otros componentes principales, consulte la página [Características de](localization.md)localización de la páginaComponentes principales.
@@ -42,19 +26,19 @@ La versión actual del componente de navegación por idiomas es v1, que se intro
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente de navegación de idioma, así como ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/language-navigation/language-structure/us/en/language-navigation.html)componentes.
+Para experimentar el componente de navegación de idioma, así como ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_langnav)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de navegación de idiomas [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/languagenavigation/v1/languagenavigation).
+La documentación técnica más reciente sobre el componente de navegación de idiomas [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_langnav_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -96,11 +80,11 @@ Supongamos que su contenido tiene este aspecto:
 \-- wknd-shop
 ```
 
-Para el sitio We.Retail, probablemente desee colocar el componente Navegación de idioma en una plantilla de página como parte del encabezado. Una vez que forma parte de la plantilla, puede establecer la raíz **de** navegación del componente en `/content/we-retail` , ya que es ahí donde comienza el contenido localizado para ese sitio. También desea establecer la profundidad **de la estructura** del idioma `2` , ya que la estructura es de dos niveles (país y luego idioma).
+Para el sitio We.Retail, probablemente desee colocar el componente Navegación de idioma en una plantilla de página como parte del encabezado. Una vez que forma parte de la plantilla, puede establecer la raíz **de** navegación del componente en `/content/we-retail` , ya que es allí donde comienza el contenido localizado para ese sitio. También desea establecer la profundidad **de la estructura** del idioma `2` , ya que la estructura es de dos niveles (país y luego idioma).
 
 Con el valor Raíz **de** navegación, el componente Idioma sabe que después de `/content/we-retail` eso comienza la navegación y puede generar opciones de navegación por el idioma reconociendo los dos niveles siguientes en el árbol de contenido como la estructura de navegación por el idioma del sitio (tal como se define en el valor Profundidad **de la estructura del** lenguaje).
 
-Independientemente de la página que esté viendo un usuario, el componente Navegación de idioma puede encontrar la página correspondiente en otro idioma, conociendo la ubicación de la página actual y trabajando hacia atrás hasta la raíz, y luego hacia la página correspondiente.
+Independientemente de la página que esté viendo un usuario, el componente Navegación de idioma puede encontrar la página correspondiente en otro idioma, conociendo la ubicación de la página actual y trabajando hacia atrás hasta la raíz, y luego reenviando a la página correspondiente.
 
 ### Ficha Estilos {#styles-tab}
 
