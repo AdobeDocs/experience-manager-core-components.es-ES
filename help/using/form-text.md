@@ -1,53 +1,36 @@
 ---
 title: Componente de texto de formulario
-seo-title: Componente de texto de formulario
-description: nulo
-seo-description: The Core Component Form Text component allows the entry of form text for submission.
-uuid: f2418d55-0b59-4c7c-a541-d12dda4db4cf
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3a970c4b-806b-4a0a-b6b8-b3dca4e9f136
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: El componente Texto del formulario de componente principal permite introducir el texto del formulario para enviarlo.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
 
-# Form Text Component{#form-text-component}
+# Componente de texto de formulario{#form-text-component}
 
-The Core Component Form Text component allows the entry of form text for submission.
+El componente Texto del formulario de componente principal permite introducir el texto del formulario para enviarlo.
 
 ## Uso {#usage}
 
-The Form Text component allows for the submission of different types of text and is intended to be used along with the form container component. [](form-container.md) The type of text validation, labels, and help messages can be defined by the content editor in the configure dialog.[](#configure-dialog)
+El componente Texto de formulario permite enviar distintos tipos de texto y está diseñado para utilizarse junto con el componente [contenedor de](form-container.md)formulario. El editor de contenido puede definir el tipo de validación de texto, etiquetas y mensajes de ayuda en el cuadro de diálogo [](#configure-dialog)configurar.
 
-## Version and Compatibility {#version-and-compatibility}
+## Versión y compatibilidad {#version-and-compatibility}
 
-The current version of the Form Text Component is v2, which was introduced with release 2.0.0 of the Core Components in January 2018, and is described in this document.
+La versión actual del componente Texto de formulario es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Component Version | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](form-text-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](form-text-v1.md) | Compatible | Compatible | Compatible | - |
 
-For more information about Core Component versions and releases, see the document Core Components Versions.[](versions.md)
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
-## Sample Component Output {#sample-component-output}
+## Ejemplo de salida de componente {#sample-component-output}
 
-The following is sample taken from [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Captura de pantalla {#screenshot}
 
@@ -88,7 +71,7 @@ The following is sample taken from [We.Retail](https://helpx.adobe.com/experienc
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Texto del formulario [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v2/text).
+La documentación técnica más reciente sobre el componente Texto del formulario [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_form_text_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
