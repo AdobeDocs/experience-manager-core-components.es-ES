@@ -1,13 +1,8 @@
 ---
 title: Módulo ui.apps del arquetipo del proyecto AEM
-seo-title: Módulo ui.apps del arquetipo del proyecto AEM
 description: Módulo ui.apps del arquetipo del proyecto AEM
-seo-description: Módulo ui.apps del arquetipo del proyecto AEM
-contentOwner: bohnert
-content-type: referencia
-topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
