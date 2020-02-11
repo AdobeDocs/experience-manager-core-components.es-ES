@@ -1,15 +1,9 @@
 ---
 title: Componente oculto de formulario (v1)
-seo-title: Componente oculto de formulario (v1)
 description: El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
-seo-description: El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
-uuid: f5005346-def5-4e1f-8f93-e4cfc67a9329
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: d35f4e71-ec7f-4128-9123-b997dbb5f0cf
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -92,7 +86,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir l
 ![](assets/chlimage_1-26.png)
 
 * **Nombre** : el nombre del campo, que se envía con los datos del formulario
-* **Valor** : el valor del campo, que se envía con los datos del formulario
+* **Valor** : el valor del campo, que se envía con los datos del formulario.
 * **Identificador** : el identificador debe ser único en la página y puede utilizarse para enlazar secuencias de comandos a este campo de formulario
 
 ## Cuadro de diálogo Diseño {#design-dialog}
