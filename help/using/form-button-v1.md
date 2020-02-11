@@ -1,21 +1,9 @@
 ---
 title: Componente Botón de formulario (v1)
-seo-title: Componente Botón de formulario (v1)
-description: nulo
-seo-description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
-uuid: 0525e70f-294f-4d35-bf96-fc0e4ec225e9
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: ea06acc0-38e2-4252-ac29-07332835b7c4
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
+description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
