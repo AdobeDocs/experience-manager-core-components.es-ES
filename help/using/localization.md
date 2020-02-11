@@ -1,14 +1,8 @@
 ---
 title: Características de localización de los componentes principales
-seo-title: Características de localización de los componentes principales
 description: Características de localización de los componentes principales
-seo-description: Características de localización de los componentes principales
-content-type: reference
-topic-tags: core-components
-index: y
-internal: n
 translation-type: tm+mt
-source-git-commit: 0f84eb6d52b9d6d76a4347d371367acf3d34e58e
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -23,7 +17,7 @@ La mayoría de los sitios requieren que haya un pie de página en todas las pág
 
 Del mismo modo, un componente de navegación generalmente debe mostrarse en todas las páginas. Sin embargo, también deberá reflejar el contenido de las páginas localizadas.
 
-El uso de las funciones de localización del componente [principal de](navigation.md) navegación y del componente [principal de fragmento de](experience-fragment.md) experiencia junto con las plantillas [editables de AEM](https://docs.adobe.com/content/help/en/experience-manager-64/authoring/siteandpage/templates.html)se convierte en una tarea sencilla. El ejemplo podría ampliarse para utilizar también el componente [de navegación por](language-navigation.md) idiomas.
+El uso de las funciones de localización del componente [principal de](navigation.md) navegación y del componente [principal de fragmento de](experience-fragment.md) experiencia junto con las plantillas [editables de AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)se convierte en una tarea sencilla. El ejemplo podría ampliarse para utilizar también el componente [de navegación por](language-navigation.md) idiomas.
 
 ## La estructura de contenido {#content-structure}
 
