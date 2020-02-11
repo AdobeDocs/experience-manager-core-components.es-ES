@@ -1,29 +1,13 @@
 ---
 title: Componente de búsqueda rápida
-seo-title: Componente de búsqueda rápida
-description: nulo
-seo-description: El componente Búsqueda rápida proporciona funciones de búsqueda a un sitio Web y presenta resultados de búsqueda para que los visitantes puedan buscar en el sitio y filtrar los resultados.
-uuid: 1ba69be3-537e-4f20-9f17-b4b7174a8e88
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: 906a684d-5663-4497-bef3-37f13d5b46c7
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: El componente Búsqueda rápida proporciona funciones de búsqueda a un sitio Web y presenta resultados de búsqueda para que los visitantes puedan buscar en el sitio y filtrar los resultados.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
-# Componente de búsqueda rápida{#quick-search-component}
+# Componente de búsqueda rápida {#quick-search-component}
 
 El componente Búsqueda rápida proporciona funciones de búsqueda a un sitio Web y presenta resultados de búsqueda para que los visitantes puedan encontrar fácilmente contenido coincidente y ver los resultados.
 
@@ -39,15 +23,15 @@ La versión actual del componente de búsqueda rápida es v1, que se introdujo c
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Captura de pantalla {#screenshot}
 
@@ -95,7 +79,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 >
 >La protección del componente de búsqueda o de cualquier aplicación basada en AEM contra los ataques DOS debe implementarse en un nivel superior, por ejemplo, mediante el uso `mod_security` en el despachante.
 
-La documentación técnica más reciente sobre el componente de búsqueda rápida [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/search/v1/search).
+La documentación técnica más reciente sobre el componente de búsqueda rápida [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_search_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -109,7 +93,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir dónde 
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-Mediante el cuadro de diálogo de diseño, el autor de la plantilla puede establecer el valor predeterminado para el lugar en el que debería comenzar la búsqueda, así como un tamaño máximo del conjunto de resultados y una longitud mínima del término de búsqueda.El cuadro de diálogo de diseño permite al autor de la plantilla definir qué opciones de formato de texto están disponibles para los autores de contenido.
+Mediante el cuadro de diálogo de diseño, el autor de la plantilla puede establecer el valor predeterminado para el lugar en el que debería comenzar la búsqueda en el árbol de contenido, así como un tamaño máximo del conjunto de resultados y una longitud mínima del término de búsqueda.El cuadro de diálogo de diseño permite al autor de la plantilla definir qué opciones de formato de texto están disponibles para los autores de contenido.
 
 ### Ficha Propiedades {#properties-tab}
 
