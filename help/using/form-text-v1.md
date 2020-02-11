@@ -1,15 +1,9 @@
 ---
 title: Componente de texto de formulario (v1)
-seo-title: Componente de texto de formulario (v1)
-description: nulo
-seo-description: El componente Texto del formulario de componente principal permite introducir el texto del formulario para enviarlo.
-uuid: 30123aba-57a8-4ed4-93cb-6a3d2edff9a7
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: bd4e9930-4d81-49ae-a3d1-9a8740418dae
+description: El componente Texto del formulario de componente principal permite introducir el texto del formulario para enviarlo.
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
