@@ -1,23 +1,15 @@
 ---
 title: Componente de fragmento de contenido
-seo-title: Componente de fragmento de contenido
-description: nulo
-seo-description: El componente Fragmento de contenido del componente principal permite la visualización de un fragmento de contenido.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: El componente Fragmento de contenido del componente principal permite la visualización de un fragmento de contenido.
 translation-type: tm+mt
-source-git-commit: 548972c65751b594cd62234d4681634a60fa41e2
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # Componente de fragmento de contenido{#content-fragment-component}
 
-El componente Fragmento de contenido del componente principal permite la visualización de un fragmento [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html)contenido.
+El componente Fragmento de contenido del componente principal permite la visualización de un fragmento [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html)contenido.
 
 >[!NOTE]
 >
@@ -25,11 +17,11 @@ El componente Fragmento de contenido del componente principal permite la visuali
 
 ## Uso {#usage}
 
-El componente de fragmento de contenido del componente principal permite la inclusión de un fragmento [de](https://helpx.adobe.com/experience-manager/6-5/assets/using/content-fragments.html) contenido en una página.
+El componente de fragmento de contenido del componente principal permite la inclusión de un fragmento [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) contenido en una página.
 
 * El fragmento y sus propiedades se pueden seleccionar en el cuadro de diálogo [](#configure-dialog)Configurar.
 * Los tipos de recursos para gestionar determinadas imágenes y cuadrículas se pueden definir en el cuadro de diálogo [de](#design-dialog)diseño.
-* La opción de edición abrirá el fragmento seleccionado en el editor [de fragmentos de](https://helpx.adobe.com/content/help/en/experience-manager/6-5/assets/using/content-fragments.html)contenido.
+* La opción de edición abrirá el fragmento seleccionado en el editor [de fragmentos de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments-variations.html)contenido.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -37,9 +29,9 @@ La versión actual del componente Fragmento de contenido es v1, que se introdujo
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 >[!NOTE]
 >
@@ -57,11 +49,11 @@ Para obtener más información sobre las versiones y versiones de los componente
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente Fragmento de contenido, así como ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/content-fragment.html)componentes.
+Para experimentar el componente Fragmento de contenido, así como ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_cf)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Fragmento de contenido [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/contentfragment/v1/contentfragment).
+La documentación técnica más reciente sobre el componente Fragmento de contenido [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_cf_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -76,7 +68,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir q
    * Ruta al fragmento de contenido deseado
    * El cuadro de diálogo **** Selección se puede utilizar para localizar el fragmento
 
-* **Elemento** : el elemento del fragmento de contenido que se incluirá
+* **Elemento** : el elemento del fragmento de contenido que se va a incluir
 * **Variación** : variación del fragmento de contenido que se va a utilizar (el valor predeterminado es **Principal**)
 
 * **Párrafos**
@@ -91,7 +83,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir q
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite al autor de la plantilla definir los tipos de recursos utilizados para gestionar imágenes de medios mixtos y cuadrículas adaptables.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir los tipos de recursos utilizados para gestionar las imágenes de medios mixtos y las cuadrículas interactivas.
 
 ![](assets/chlimage_1-88.png)
 
@@ -102,3 +94,4 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir los ti
 * **Cuadrícula interactiva interna**
 
    * El tipo de recurso de sling que se utiliza para la cuadrícula interactiva interna
+
