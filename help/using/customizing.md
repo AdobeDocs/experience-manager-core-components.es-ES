@@ -1,16 +1,8 @@
 ---
 title: Personalización de componentes principales
-seo-title: Personalización de componentes principales
 description: Los componentes principales implementan varios patrones que permiten una fácil personalización, desde el estilo simple hasta la reutilización avanzada de la funcionalidad.
-seo-description: Los componentes principales de AEM implementan varios patrones que facilitan la personalización, desde el estilo simple hasta la reutilización de funciones avanzadas.
-uuid: 38d22b85-4867-4716-817a-10ee2f8de6f5
-contentOwner: User
-content-type: reference
-topic-tags: desarrollo
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTS-new
-discoiquuid: 3c9e0ade-1ce0-4e34-ae04-8da63f9b6c4f
 translation-type: tm+mt
-source-git-commit: 683b4f4705c226275439a408423cbf1b23bea66f
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -36,7 +28,7 @@ Y todos los componentes principales implementan el Sistema [de estilos](customiz
 
 ## Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
-[El arquetipo](overview.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo práctico del componente HTL personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
+[El arquetipo](overview.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo de componente HTML personalizado con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
 
 ## Patrones de personalización {#customization-patterns}
 
@@ -84,7 +76,7 @@ La lógica empresarial de los componentes principales se implementa en los model
 
 Por ejemplo, el componente principal del título utiliza la `jcr:title` propiedad del recurso solicitado para proporcionar el texto del título. Si no se define ninguna `jcr:title` propiedad, se implementa una alternativa al título de la página actual. Queremos cambiar el comportamiento para que siempre se muestre el título de la página actual.
 
-Dado que la implementación de los modelos de componentes principales es privada, deben ampliarse con un patrón de delegación.
+Dado que la implementación de los modelos de los componentes principales es privada, deben ampliarse con un patrón de delegación.
 
 ```java
 @Model(adaptables = SlingHttpServletRequest.class,
@@ -117,7 +109,7 @@ Tomando de nuevo el ejemplo del componente Core Breadcrumb, para personalizar su
 
 La primera forma de personalización consiste en aplicar estilos CSS.
 
-Para facilitar esto, los Componentes principales procesan el marcado semántico y siguen una convención de nombres estandarizada inspirada en [Bootstrap](https://getbootstrap.com/). Además, para establecer fácilmente como objetivo y como espacio de nombres los estilos de los componentes individuales, cada componente principal se envuelve en un elemento DIV con las clases " `cmp`" y " `cmp-<name>`".
+Para facilitar esto, los Componentes principales procesan el marcado semántico y siguen una convención de nombres estandarizada inspirada en [Bootstrap](https://getbootstrap.com/). Además, para establecer fácilmente como objetivo y como espacio de nombres los estilos de los componentes individuales, cada componente principal se envuelve en un elemento DIV con las clases &quot; `cmp`&quot; y &quot; `cmp-<name>`&quot;.
 
 Por ejemplo, mirando el archivo HTL del componente Core Breadcrumb v1: [breadcrumb.html](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb/breadcrumb.html), vemos que la salida de jerarquía de elementos es `ol.breadcrumb > li.breadcrumb-item > a`. Para asegurarse de que una regla CSS solo afecta a la clase breadcrumb de ese componente, todas las reglas deben tener un espacio de nombres como se muestra a continuación:
 
@@ -127,9 +119,9 @@ Por ejemplo, mirando el archivo HTL del componente Core Breadcrumb v1: [breadcru
 .cmp-breadcrumb a {}
 ```
 
-Además, cada uno de los componentes principales aprovecha la función [AEM](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/style-system.html) Style System que permite a los autores de plantillas definir nombres de clase CSS adicionales que los autores de la página pueden aplicar al componente. Esto permite definir para cada plantilla una lista de estilos de componente permitidos y si uno de ellos debe aplicarse de forma predeterminada a todos los componentes de ese tipo.
+Además, cada uno de los componentes principales aprovecha la función [AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) Style System, que permite a los autores de plantillas definir nombres de clase CSS adicionales que los autores de la página pueden aplicar al componente. Esto permite definir para cada plantilla una lista de estilos de componente permitidos y si uno de ellos debe aplicarse de forma predeterminada a todos los componentes de ese tipo.
 
-## Compatibilidad de actualización de personalizaciones {#upgrade-compatibility-of-customizations}
+## Compatibilidad de actualización de las personalizaciones {#upgrade-compatibility-of-customizations}
 
 Se pueden realizar tres tipos diferentes de actualizaciones:
 
@@ -137,9 +129,9 @@ Se pueden realizar tres tipos diferentes de actualizaciones:
 * actualización de los componentes principales a una nueva versión secundaria
 * actualización de los componentes principales a una versión principal
 
-En general, la actualización de AEM a una nueva versión no afectará a los componentes principales ni a las personalizaciones realizadas, siempre que las versiones de los componentes también admitan la nueva versión de AEM a la que se está migrando y que las personalizaciones no utilicen API que se hayan [desaprobado o eliminado](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html).
+En general, la actualización de AEM a una nueva versión no afectará a los componentes principales ni a las personalizaciones realizadas, siempre que las versiones de los componentes también admitan la nueva versión de AEM a la que se está migrando y que las personalizaciones no utilicen API que se hayan [desaprobado o eliminado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
-La actualización de los componentes principales sin cambiar a una versión principal más reciente no debería afectar a las personalizaciones, siempre que se utilicen los patrones de personalización descritos en esta página.
+La actualización de los componentes principales sin cambiar a una versión principal más reciente no debería afectar a las personalizaciones, siempre y cuando se utilicen los patrones de personalización descritos en esta página.
 
 El cambio a una versión principal más reciente de los componentes principales solo es compatible con la estructura de contenido, pero es posible que sea necesario refactorizar las personalizaciones. Se publicarán registros de cambios claros para cada versión del componente a fin de resaltar los cambios que podrían afectar al tipo de personalizaciones descritas en esta página.
 
@@ -157,7 +149,7 @@ Al igual que para cualquier componente de AEM, hay que tener en cuenta varias co
 
 1. **Observar la funcionalidad obsoleta y eliminada.**
 
-   Al actualizar cada nueva versión de AEM, asegúrese de que todas las API utilizadas siguen teniendo actualidad, vigilando la página Funciones [](https://helpx.adobe.com/experience-manager/6-5/release-notes/deprecated-removed-features.html) obsoletas y eliminadas.
+   Al actualizar cada nueva versión de AEM, asegúrese de que todas las API utilizadas siguen teniendo actualidad, vigilando la página Funciones [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html) obsoletas y eliminadas.
 
 Consulte también la sección Compatibilidad con [](developing.md#core-component-support) componentes principales.
 
