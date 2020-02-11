@@ -1,24 +1,8 @@
 ---
 title: Componente oculto de formulario
-seo-title: Componente oculto de formulario
-description: nulo
-seo-description: El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
-uuid: 63a1b381-f45c-4241-b743-dea8abd45e11
-contentOwner: Usuario
-content-type: referencia
-topic-tags: componentes principales
-discoiquuid: 36e49035-7641-4bad-8a61-723060032903
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -39,16 +23,16 @@ La versión actual del componente Formulario oculto es v2, que se introdujo con 
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](form-hidden-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](form-hidden-v1.md) | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### HTML {#html}
 
@@ -88,7 +72,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente oculto de formulario [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/hidden/v2/hidden).
+La documentación técnica más reciente sobre el componente oculto de formulario [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
