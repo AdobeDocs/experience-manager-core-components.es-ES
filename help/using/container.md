@@ -1,16 +1,8 @@
 ---
 title: Componente de contenedor
-seo-title: Componente de contenedor
-description: nulo
-seo-description: El componente Contenedor de componentes principales permite la creación de un contenedor para varios componentes adicionales en una página.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: El componente Contenedor de componentes principales permite la creación de un contenedor para varios componentes adicionales en una página.
 translation-type: tm+mt
-source-git-commit: 3e2e7a297c6ee1d6c8d092c619df8febdc900e25
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -32,19 +24,19 @@ La versión actual del componente Contenedor es v1, que se introdujo con la vers
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente Contenedor y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/container.html)componentes.
+Para experimentar el componente Contenedor y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_container)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Contenedor [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/container/v1/container).
+La documentación técnica más reciente sobre el componente Contenedor [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_container_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -56,7 +48,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 
 * **Diseño** : esta opción define el comportamiento o el comportamiento de diseño del componente contenedor.
    * **Simple** : define un contenedor como una simple colección de componentes
-   * **Cuadrícula** adaptable: define un contenedor como una cuadrícula adaptable a [AEM](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/responsive-layout.html)
+   * **Cuadrícula** adaptable: define un contenedor como un diseño adaptable de [AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **ID** : utilice esta opción para definir el atributo de ID HTML que se aplicará al componente.
 * **Color** de fondo: se puede definir como valores RGB de forma libre o mediante el selector de color, [según la configuración](#background-tab)
 * **Imagen** de fondo: define un color de fondo para el contenedor, [según la configuración](#background-tab)
@@ -69,11 +61,11 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir las op
 
 La ficha Componentes **** permitidos se utiliza para definir qué componentes puede agregar el autor del contenido como elementos al componente contenedor.
 
-La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre al [definir la política y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre al [definir la política y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Ficha Componentes predeterminados {#default-components-tab}
 
-La ficha Componentes predeterminados se utiliza para definir qué componente se agrega al componente cuando se coloca un tipo de recurso determinado en el contenedor, de forma similar a [cómo se definen los componentes predeterminados en la plantilla](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html#EditingTemplatesTemplateAuthors)de página.
+La ficha Componentes predeterminados se utiliza para definir qué componente se agrega al componente cuando se coloca un tipo de recurso determinado en el contenedor, de forma similar a [cómo se definen los componentes predeterminados en la plantilla](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de página.
 
 ### Ficha Configuración adaptable {#responsive-settings-tab}
 
@@ -100,4 +92,4 @@ La ficha Componentes predeterminados se utiliza para definir qué componente se 
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Contenedor es compatible con el sistema [de](authoring.md#component-styling)estilo AEM.
+El componente Contenedor admite el sistema [de](authoring.md#component-styling)estilo AEM.
