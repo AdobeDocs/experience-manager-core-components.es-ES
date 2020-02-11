@@ -1,23 +1,15 @@
 ---
 title: Componente de botón
-seo-title: Componente de botón
-description: nulo
-seo-description: El componente Botón del componente principal permite la creación y visualización de un botón.
-uuid: ec807de9-f76c-4850-9ece-c3e439a1d626
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: f093f58e-9755-4a4f-803a-ab93a50e6870
+description: El componente Botón del componente principal permite la creación y visualización de un botón.
 translation-type: tm+mt
-source-git-commit: d37cde072dea612ccb55ad31b4aaf42f17839cb4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # Componente de botón{#button-component}
 
-El componente Botón del componente principal permite configurar y mostrar un elemento de botón en una página.
+El componente Botón del componente principal permite la configuración y visualización de un elemento de botón en una página.
 
 ## Uso {#usage}
 
@@ -32,19 +24,19 @@ La versión actual del componente Botón es v1, que se introdujo con la versión
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente Botón, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/button.html)componentes.
+Para experimentar el componente Botón, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_button)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Botón [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/button/v1/button).
+La documentación técnica más reciente sobre el componente Botón [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -65,7 +57,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 
 ![](assets/screen-shot-2019-08-29-12.19.43.png)
 
-En la ficha **Accesibilidad** , se pueden definir valores para las etiquetas de accesibilidad [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA del componente.
+En la ficha **Accesibilidad** , se pueden definir valores para las etiquetas de accesibilidad [de](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA para el componente.
 
 * **Etiqueta** : valor de un atributo de etiqueta ARIA para el componente
 
