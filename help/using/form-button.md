@@ -1,25 +1,8 @@
 ---
 title: Componente de botón de formulario
-seo-title: Componente de botón de formulario
-description: nulo
-seo-description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
-uuid: 22c53cd0-d0bc-4e5d-89f3-5ac4f61a9100
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: a6e2974a-243f-40ab-903c-c7d3e8615bcc
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -40,10 +23,10 @@ La versión actual del componente Botón de formulario es v2, que se introdujo c
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](form-button-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](form-button-v1.md) | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
@@ -85,7 +68,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Botón de formulario [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v2/button).
+La documentación técnica más reciente sobre el componente Botón de formulario [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
