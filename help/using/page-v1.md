@@ -1,15 +1,9 @@
 ---
 title: Componente de página (v1)
-seo-title: Componente de página (v1)
 description: El componente Página es un componente de página extensible diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
-seo-description: El componente Página es un componente de página extensible diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
-uuid: dd1b1e58-ae14-4818-afbe-8bcff0de2c32
-content-type: referencia
-topic-tags: componentes principales
-discoiquuid: b3f1775d-743d-4f72-a1e5-198303007a8e
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -689,7 +683,7 @@ Dado que el componente representa toda la página, la configuración que normalm
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-Dado que el componente representa toda la página, se accede al cuadro de diálogo de diseño a través de Información **de página -&gt; Diseño** de página.
+Dado que el componente representa toda la página, se accede al cuadro de diálogo de diseño a través de Información **de página -> Diseño** de página.
 
 ![](assets/chlimage_1-94.png)
 
