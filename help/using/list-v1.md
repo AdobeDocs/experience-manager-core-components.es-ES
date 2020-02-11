@@ -1,24 +1,9 @@
 ---
 title: Componente de lista (v1)
-seo-title: Componente de lista (v1)
-description: nulo
-seo-description: El componente Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
-uuid: 06658c9d-cbf2-4bfe-b425-d980d1181908
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: 7c130ccc-83ff-464d-b58f-d581f4365dbd
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-noindex: verdadero
+description: El componente Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -174,7 +159,7 @@ La lista se puede crear con las páginas secundarias de la página actual u otra
 ![](assets/chlimage_1-39.png)
 
 * **Página principal**
-   * La página cuyas páginas secundarias deben crear la lista
+   * La página cuyas páginas secundarias deben incluirse en la lista
    * Deje en blanco para utilizar la página actual
 * **Profundidad** secundaria: cuántos niveles inferiores de la jerarquía se deben utilizar
 
@@ -233,7 +218,7 @@ Independientemente de cómo elija crear la lista, hay ciertas opciones de ordena
 
 ### Ajustes del elemento {#item-settings}
 
-Mediante la ficha Configuración **de** elemento, se puede configurar el formato de los elementos de lista.
+Mediante la ficha Configuración **de** elemento, se puede configurar el formato de los elementos de la lista.
 
 ![](assets/chlimage_1-44.png)
 
@@ -252,7 +237,7 @@ En la ficha Configuración **de** lista, se puede definir el formato de fecha, a
 ![](assets/chlimage_1-45.png)
 
 * **Formato** de fecha: formato que se usará para mostrar la fecha de la última modificación
-* **Deshabilitar elementos secundarios** : desactive el tipo de lista de elementos secundarios del componente
+* **Deshabilitar elementos secundarios** : desactive el tipo de lista de elementos secundarios en el componente
 * **Deshabilitar estático** : Deshabilitar el tipo de lista estática en el componente
 * **Deshabilitar la búsqueda** : Deshabilitar el tipo de lista de búsqueda en el componente
 * **Deshabilitar etiquetas** : deshabilitar el tipo de lista de etiquetas en el componente
