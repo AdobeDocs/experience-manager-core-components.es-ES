@@ -1,15 +1,9 @@
 ---
 title: Componente contenedor de formularios (v1)
-seo-title: Componente contenedor de formularios (v1)
 description: El componente Contenedor de formularios de componentes principales permite la creación de formularios de envío simples.
-seo-description: El componente Contenedor de formularios de componentes principales permite la creación de formularios de envío simples.
-uuid: 075d83ed-de40-414e-a18f-46b3a857acba
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: 800c064e-2ad5-41f3-9cef-b025a555efd9
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
