@@ -1,24 +1,9 @@
 ---
 title: Componente Opciones de formulario (v1)
-seo-title: Componente Opciones de formulario (v1)
-description: nulo
-seo-description: El componente de opciones de formulario de componente principal permite seleccionar opciones predefinidas en diversos formatos.
-uuid: a22ed77c-c9f3-46f4-8afe-e478383c1251
-content-type: referencia
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: e1975bfe-2bda-409a-998e-1ff4f9f23b94
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-noindex: verdadero
+description: El componente de opciones de formulario de componente principal permite seleccionar opciones predefinidas en diversos formatos.
 index: n
-internal: n
-snippet: y
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -143,7 +128,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 
    * **Local** : definido dentro del componente
       * Toque o haga clic en el botón **Agregar** para agregar un valor, **Eliminar** para eliminarlo
-      * **Valor** : valor guardado cuando se selecciona esa opción al enviar el formulario
+      * **Valor** : el valor guardado cuando se selecciona esa opción al enviar el formulario
       * **Texto** : la etiqueta de la opción que se muestra en el formulario
       * **Activo** : la opción se marca como seleccionada cuando se carga el formulario
       * **Deshabilitada** : la opción no se puede seleccionar pero se muestra
