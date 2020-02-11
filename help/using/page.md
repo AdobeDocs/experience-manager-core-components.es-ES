@@ -1,23 +1,15 @@
 ---
 title: Componente de página
-seo-title: Componente de página
 description: El componente Página es un componente de página extensible diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
-seo-description: El componente Página es un componente de página extensible diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
-uuid: 7052a5b1-e7f1-4944-a55c-faf739b6e89c
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: cb1a745a-30c4-4ad6-a04f-fefb3666cd95
 translation-type: tm+mt
-source-git-commit: 1243d6cc1b0b015ee2f37ae89d0e2e42d366cc02
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
 
 # Componente de página{#page-component}
 
-El componente Página es un componente de página extensible diseñado para trabajar con el editor [de](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html) plantillas y permite ensamblar el encabezado/pie de página y los componentes de estructura con el editor de plantillas.
+El componente Página es un componente de página extensible diseñado para trabajar con el editor [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) plantillas y permite ensamblar el encabezado/pie de página y los componentes de estructura con el editor de plantillas.
 
 ## Uso {#usage}
 
@@ -31,10 +23,10 @@ La versión actual del componente Página es v2, que se introdujo con la versió
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| [v2](page-v1.md) | Compatible | Compatible | Compatible |
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|---|---|---|---|---|
+| [v2](page-v1.md) | Compatible | Compatible | Compatible | Compatible |
+| v1 | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
@@ -44,7 +36,7 @@ Para obtener más información sobre las versiones y versiones de los componente
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
 
 ### Captura de pantalla {#screenshot}
 
@@ -52,17 +44,17 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Página [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page).
+La documentación técnica más reciente sobre el componente Página [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_page_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
 ## Edit Dialog {#edit-dialog}
 
-Dado que el componente representa toda la página, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana Propiedades [de la](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-page-properties.html) página.
+Dado que el componente representa toda la página, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana Propiedades [de la](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) página.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-Dado que el componente representa toda la página, se accede al cuadro de diálogo de diseño mediante Información de **página -&gt; Política** de página al editar la plantilla de página.
+Dado que el componente representa toda la página, se accede al cuadro de diálogo de diseño mediante Información de **página -> Política** de página al editar la plantilla de página.
 
 ![](assets/screen_shot_2018-04-03at113410.png)
 
@@ -75,7 +67,7 @@ Dado que el componente representa toda la página, se accede al cuadro de diálo
 Mediante la ventana Diseño de página, puede definir las bibliotecas de cliente que se van a cargar, así como la biblioteca de recursos web de la página.
 
 * **Bibliotecas** de clienteDefine las categorías de biblioteca de cliente que se van a cargar. JavaScript se agrega al final del cuerpo y CSS al encabezado de la página.
-* **Bibliotecas de clientes Cabeza** de página JavaScriptDefine las categorías de biblioteca del cliente JavaScript que se cargarán en el encabezado de página.
+* **Bibliotecas de clientes Cabecera** de página JavaScriptDefine las categorías de biblioteca del cliente JavaScript que se cargarán en el encabezado de página.
    * Las categorías definidas aquí que también están presentes en el campo Bibliotecas **de** cliente tendrán JavaScript cargado en el encabezado de página en lugar de en el extremo del cuerpo.
    * No se cargará CSS a menos que la categoría también esté presente en el campo **Bibliotecas** de clientes.
 
