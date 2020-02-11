@@ -1,21 +1,8 @@
 ---
 title: Uso de componentes principales
-seo-title: Uso de componentes principales
-description: nulo
-seo-description: '"Para ponerse en marcha con los componentes principales de su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes en las plantillas".'
-uuid: a1ef2acf-8226-4510-838b-f5fae196f9f1
-contentOwner: Usuario
-content-type: referencia
-topic-tags: desarrollo
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: 1703a171-830c-477e-a34f-99caba841ec4
-disttype: dist5
-gnavtheme: claro
-index: y
-internal: n
-snippet: y
+description: '"Para ponerse en marcha con los componentes principales de su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes en las plantillas".'
 translation-type: tm+mt
-source-git-commit: a1d725b6fc32112323e9939e8870922410a6c4f3
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 
 ---
 
@@ -32,15 +19,15 @@ Para ponerse en marcha con los componentes [](developing.md) principales en su p
 >[!NOTE]
 >
 >Como alternativa, para obtener instrucciones más amplias sobre cómo empezar desde cero con la configuración del proyecto, los componentes principales, las plantillas editables, las bibliotecas de clientes y el desarrollo de componentes, el siguiente tutorial de varias partes puede ser de interés:\
->[Introducción a AEM Sites: Tutorial de WKND](wknd-tutorial.md)
+>[Introducción a los sitios de AEM: Tutorial de WKND](wknd-tutorial.md)
 
 ## Descargar e instalar {#download-and-install}
 
-Una de las ideas que impulsan los componentes principales es la flexibilidad. La publicación de nuevas versiones de los componentes principales permite a Adobe ser más flexible a la hora de ofrecer nuevas funciones. A su vez, los desarrolladores pueden ser flexibles en cuanto a los componentes que eligen integrar en sus proyectos y a la frecuencia con que desean actualizarlos.
+Una de las ideas que impulsan los componentes principales es la flexibilidad. La publicación de nuevas versiones de los componentes principales permite a Adobe ser más flexible a la hora de ofrecer nuevas funciones. A su vez, los desarrolladores pueden ser flexibles en cuanto a los componentes que eligen integrar en sus proyectos y a la frecuencia con la que desean actualizarlos.
 
 Por este motivo, los componentes principales no forman parte del inicio rápido cuando se inician en modo de producción (sin contenido de muestra). Por lo tanto, el primer paso es [descargar el último paquete de contenido publicado de GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalarlo en sus entornos AEM.
 
-Existen varias formas de automatizar esto, pero la forma más sencilla de instalar rápidamente un paquete de contenido en una instancia es mediante el uso del Administrador de paquetes; consulte [Instalar paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html). Además, una vez que tenga una instancia de publicación en ejecución, deberá replicar el paquete al editor; consulte [Replicar paquetes](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/package-manager.html).
+Existen varias formas de automatizar esto, pero la forma más sencilla de instalar rápidamente un paquete de contenido en una instancia es mediante el uso del Administrador de paquetes; consulte [Instalación de paquetes](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Además, una vez que tenga una instancia de publicación en ejecución también, deberá replicar ese paquete al editor; consulte [Replicar paquetes](https://docs.adobe.com/content/help/en/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 <!-- 
 
@@ -54,9 +41,9 @@ Should we be promoting embedding the core-component package as an artifact in a 
 
 ## Creación de componentes proxy {#create-proxy-components}
 
-Por motivos explicados en la sección Patrón [de componentes](guidelines.md#proxy-component-pattern) proxy, no se debe hacer referencia a los componentes principales directamente desde el contenido. Para evitarlo, todos pertenecen a un grupo de componentes ocultos ( `.core-wcm` o `.core-wcm-form`), lo que les impedirá aparecer directamente en el editor.
+Por motivos explicados en la sección Patrón [de componentes](guidelines.md#proxy-component-pattern) proxy, no se debe hacer referencia a los componentes principales directamente desde el contenido. Para evitarlo, todos pertenecen a un grupo de componentes ocultos ( `.core-wcm` o `.core-wcm-form`), lo que impedirá que se muestren directamente en el editor.
 
-En su lugar, se deben crear componentes específicos del sitio, que definan el nombre y el grupo del componente deseado para que se muestren a los autores de la página y remitan cada uno a un componente principal como su supertipo. Estos componentes específicos del sitio a veces se denominan "componentes proxy", ya que no necesitan contener nada y sirven principalmente para definir la versión de un componente que se va a utilizar en el sitio. Sin embargo, al personalizar los componentes [principales](customizing.md), estos componentes proxy desempeñan un papel esencial en el marcado y la personalización lógica.
+En su lugar, se deben crear componentes específicos del sitio, que definan el nombre y el grupo del componente que se desea mostrar a los autores de la página y hacen referencia a cada uno de ellos a un componente principal como supertipo. Estos componentes específicos del sitio a veces se denominan &quot;componentes proxy&quot;, ya que no necesitan contener nada y sirven principalmente para definir la versión de un componente que se va a utilizar en el sitio. Sin embargo, al personalizar los componentes [principales](customizing.md), estos componentes proxy desempeñan un papel esencial en el marcado y la personalización lógica.
 
 Por lo tanto, para cada componente principal que desee utilizar en un sitio, debe:
 
@@ -66,7 +53,7 @@ Por lo tanto, para cada componente principal que desee utilizar en un sitio, deb
 
 1. Seleccione la versión correspondiente del componente principal con el supertipo.
 
-   **Ejemplo** Agregar propiedad siguiente:\
+   **Ejemplo** Agregar la siguiente propiedad:\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
 1. Defina el grupo, el título y la descripción opcional del componente. Estos valores son específicos del proyecto y dictan cómo se expone el componente a los autores.
@@ -113,7 +100,7 @@ Load the Core Client Libraries sounds way better
 
  -->
 
-1. Si aún no lo ha hecho, cree una biblioteca [de](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html) clientes que contenga todos los archivos CSS y JS necesarios para su sitio.
+1. Si aún no lo ha hecho, cree una biblioteca [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) clientes que contenga todos los archivos CSS y JS necesarios para su sitio.
 1. En la biblioteca de clientes de su sitio, agregue las dependencias a los componentes principales que podrían ser necesarias. Esto se realiza agregando una `embed` propiedad.
 
    Por ejemplo, para incluir las bibliotecas de cliente de todos los componentes principales v1, la propiedad que se debe agregar sería:
@@ -132,7 +119,7 @@ Asegúrese de que los componentes proxy y las bibliotecas de cliente se han impl
 
 ## Permitir los componentes {#allow-the-components}
 
-Los pasos siguientes se realizan en el Editor [de plantillas](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html).
+Los pasos siguientes se realizan en el Editor [de plantillas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 1. En el Editor de plantillas, seleccione el contenedor de diseño y abra su política.
 1. En la lista de componentes permitidos, seleccione los componentes proxy creados anteriormente, que deben aparecer en el grupo de componentes asignado a ellos. Una vez realizados, aplique los cambios.
@@ -140,7 +127,7 @@ Los pasos siguientes se realizan en el Editor [de plantillas](https://helpx.adob
 
 ¡Eso es todo! En las páginas creadas a partir de la plantilla editada, ahora debe poder utilizar los componentes recién creados.
 
-**Lea lo siguiente:**
+**Consulte lo siguiente:**
 
 * [Personalización de componentes](customizing.md) principales: para aprender a diseñar y personalizar los componentes principales.
 * [Directrices](guidelines.md) de componentes: para conocer los patrones de implementación de los componentes principales.
