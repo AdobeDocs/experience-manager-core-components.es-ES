@@ -1,13 +1,8 @@
 ---
 title: Componente de separador
-seo-title: Componente de separador
 description: El componente separador crea un salto entre los componentes de una página
-seo-description: El componente separador crea un salto entre los componentes de una página
-contentOwner: bohnert
-content-type: referencia
-topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -26,17 +21,17 @@ La versión actual del componente separador es v1, que se introdujo con la versi
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|---|---|---|---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente Separador, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [](http://opensource.adobe.com/aem-core-wcm-components/library/separator.html)de componentes.
+Para experimentar el componente Separador, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [](https://adobe.com/go/aem_cmp_library_separator)de componentes.
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente separador [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/separator/v1/separator).
+La documentación técnica más reciente sobre el componente separador [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_separator_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
