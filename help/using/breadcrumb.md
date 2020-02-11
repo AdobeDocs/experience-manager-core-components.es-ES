@@ -1,17 +1,8 @@
 ---
 title: Componente de ruta de navegación
-seo-title: Componente de ruta de navegación
-description: nulo
-seo-description: El componente de ruta de navegación del componente principal es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
-uuid: 13e858d5-24ad-4144-adc4-0fa1ffd257c1
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: ecd237df-08b8-4deb-9881-66a1f0d65ef3
-modalsize: 426x240
+description: El componente de ruta de navegación del componente principal es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,16 +23,16 @@ La versión actual del componente de ruta de navegación es v2, que se introdujo
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](breadcrumb-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](breadcrumb-v1.md) | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente de ruta de navegación, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/breadcrumb/hidden/level-1/level-2/breadcrumb.html)componentes.
+Para experimentar el componente de ruta de navegación, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_breadcrumb)componentes.
 
 >[!NOTE]
 >
@@ -49,7 +40,7 @@ Para experimentar el componente de ruta de navegación, así como ver ejemplos d
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de ruta de navegación [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/breadcrumb/v2/breadcrumb).
+La documentación técnica más reciente sobre el componente de ruta de navegación [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -71,7 +62,7 @@ El cuadro de diálogo de edición permite al autor del contenido suprimir las p�
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite al autor de la plantilla definir los valores predeterminados para las opciones de supresión de las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir los valores predeterminados para las opciones de supresión de páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
 
 ### Ficha Principal {#main-tab}
 
