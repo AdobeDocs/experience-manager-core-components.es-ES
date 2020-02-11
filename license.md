@@ -1,23 +1,14 @@
 ---
-source-git-commit: 3113ed985136880c33302d2ab3504be16c5ed963
+source-git-commit: 945381996db443c227aa31f0aacb963071165681
 translation-type: tm+mt
 
 ---
-# Licencia de MIT
+# Licencia MIT
 
-© Copyright 2019 Adobe. All rights reserved.
+© Copyright 2020 Adobe. All rights reserved.
 
-El permiso se concede, de forma gratuita, a cualquier persona que obtenga una copia
-de este software y a los archivos de documentación asociados (el «Software»),
-para tratar
-en el Software sin restricciones, incluso sin limitación de los derechos
-para utilizar, copiar, modificar, combinar, publicar, distribuir, combinar, publicar, distribuir, sublicenciar y/o vender
-copias del Software. hágalo, sujeta a las condiciones siguientes:
+Se concede permiso, de forma gratuita, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el &quot;Software&quot;), para tratar el Software sin restricciones, incluidos, sin limitación, los derechos de uso, copia, modificación, fusión, publicación, distribución, sublicencia y/o ventas del Software, y para permitir que las personas a las que el Software esté proporcionado lo hagan, con sujeción a las siguientes condiciones:
 
-El aviso de copyright anterior y este aviso de permiso se incluirán en todas
-las copias o partes considerables del Software.
+El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.
 
-EL SOFTWARE SE PROPORCIONA "TAL Y COMO ESTÁ", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O
-IMPLÍCITA, INCLUSO LAS GARANTÍAS DE COMERCIABILIDAD,
-ADECUACIÓN PARA UN FIN PARTICULAR Y NO CONTRAVENCIÓN. EN NINGÚN CASO LOS AUTORES O TITULARES DE COPYRIGHT SE HARÁN RESPONSABLES DE RECLAMOS, DAÑOS U OTRA
-RESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTUAL, TORT O DE OTRA MANERA, ORIGINADA, FUERA O EN CONEXIÓN CON EL SOFTWARE O CON EL USO U OTROS OPERADORES DEL SOFTWARE.
+EL SOFTWARE SE PROPORCIONA &quot;TAL CUAL&quot;, SIN GARANTÍA DE NINGÚN TIPO, EXPRESAMENTE ORDENADO, INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD, ADECUACIÓN PARA UN FIN DETERMINADO Y NO INFRACCIÓN. EN NINGÚN CASO SUS AUTORES O TITULARES DE DERECHOS DE AUTOR SERÁN RESPONSABLES DE CUALQUIER RECLAMACIÓN, DAÑOS U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN DE CONTRATO, TORT O DE OTRA MANERA, QUE RESULTE DE, FUERA O EN RELACIÓN CON EL SOFTWARE, EL USO U OTROS TRATOS DE ESTE.
