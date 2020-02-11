@@ -1,25 +1,8 @@
 ---
 title: Componente de lista
-seo-title: Componente de lista
-description: nulo
-seo-description: El componente Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
-uuid: 50a572e8-b444-4f7d-82bc-5a93ebb4be95
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: 89053323-6221-46ed-896a-31a42c55282e
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: El componente Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -38,20 +21,20 @@ La versión actual del componente Lista es v2, que se introdujo con la versión 
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](list-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](list-v1.md) | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente Lista, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [](http://opensource.adobe.com/aem-core-wcm-components/library/list.html)de componentes.
+Para experimentar el componente Lista, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [](https://adobe.com/go/aem_cmp_library_list)de componentes.
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Lista [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/list/v2/list).
+La documentación técnica más reciente sobre el componente Lista [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_list_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -81,7 +64,7 @@ La lista se puede crear con las páginas secundarias de la página actual u otra
 ![](assets/chlimage_1-39.png)
 
 * **Página principal**
-   * La página cuyas páginas secundarias deben crear la lista
+   * La página cuyas páginas secundarias deben incluirse en la lista
    * Deje en blanco para utilizar la página actual
 
 * **Profundidad** secundaria Cuántos niveles inferiores de la jerarquía se deben utilizar
@@ -141,7 +124,7 @@ Independientemente de cómo elija crear la lista, hay ciertas opciones de ordena
 
 ### Ficha Configuración de elemento {#item-settings-tab}
 
-Mediante la ficha Configuración de elemento, se puede configurar el formato de los elementos de lista.
+Mediante la ficha Configuración de elemento, se puede configurar el formato de los elementos de la lista.
 
 ![](assets/chlimage_1-44.png)
 
