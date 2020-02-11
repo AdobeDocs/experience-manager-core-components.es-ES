@@ -1,20 +1,9 @@
 ---
 title: Componente de ruta de navegación (v1)
-seo-title: Componente de ruta de navegación (v1)
 description: El componente de ruta de navegación del componente principal es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
-seo-description: El componente de ruta de navegación del componente principal de AEM es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
-uuid: c1f20a82-b6ff-4a3c-920a-6710084a69f2
-content-type: referencia
-topic-tags: componentes principales
-discoiquuid: 0b3a7d8f-d110-424f-b531-ff88c9a09128
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
 index: n
 translation-type: tm+mt
-source-git-commit: 4e74f10e2a4119484a597178dc4577b399833dbf
+source-git-commit: 5439f90faef28c72367419bb7429a3a880b65229
 
 ---
 
@@ -110,7 +99,7 @@ El cuadro de diálogo de edición permite al autor del contenido suprimir las p�
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite al autor de la plantilla definir los valores predeterminados para las opciones de supresión de las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir los valores predeterminados para las opciones de supresión de páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
 
 ![](assets/chlimage_1-35.png)
 
