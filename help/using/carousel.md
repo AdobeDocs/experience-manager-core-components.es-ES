@@ -1,30 +1,15 @@
 ---
 title: Componente de carrusel
-seo-title: Componente de carrusel
-description: nulo
-seo-description: El componente Carrusel permite al autor del contenido presentar contenido en un carrusel rotatorio.
-uuid: 34934491-bd85-4f1e-ae22-bb48ed4dbd5c
-content-type: referencia
-topic-tags: componentes principales
-discoiquuid: 3510812b-9d3e-40fe-b986-0f15d40b42ad
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: El componente Carrusel permite al autor del contenido presentar contenido en un carrusel rotatorio.
 translation-type: tm+mt
-source-git-commit: da404fff6c6e934bbe06a5c4d441d89281ed0c54
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # Componente de carrusel{#carousel-component}
 
-El componente de carrusel de componentes principales permite al autor del contenido presentar contenido en un carrusel navegable.
+El componente de carrusel de componentes principales permite al autor del contenido presentar el contenido en un carrusel navegable.
 
 ## Uso {#usage}
 
@@ -38,19 +23,19 @@ La versión actual del componente Carrusel es v1, que se introdujo con la versi�
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente Carrusel y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/carousel.html)componentes.
+Para experimentar el componente Carrusel y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_carousel)componentes.
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Carrusel [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/carousel/v1/carousel).
+La documentación técnica más reciente sobre el componente Carrusel [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -71,7 +56,7 @@ Utilice el botón **Agregar** para abrir el selector de componentes y elegir qu�
 
 >[!TIP]
 >
->Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Agregar** . Los componentes se pueden añadir al componente Carrusel [arrastrándolos desde el navegador de componentes y colocándolos en el componente Carrusel en el editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html#InsertingaComponent)de páginas.
+>Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Agregar** . Los componentes se pueden añadir al componente Carrusel [arrastrándolos desde el navegador de componentes y colocándolos en el componente Carrusel en el editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser)de páginas.
 
 ### Ficha Propiedades {#properties-tab}
 
@@ -85,21 +70,21 @@ En la ficha **Propiedades** , el autor del contenido puede definir las diapositi
 
 >[!NOTE]
 >
->Los controles de avance de diapositivas no están activados en el modo **Editar** . Utilice el modo [**de** vista previa](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html) o la opción **[Ver como publicado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** para interactuar con el carrusel como un lector del contenido publicado.
+>Los controles de avance de diapositivas no están activados en el modo de **edición** . Utilice el modo [**de **vista previa](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)o la opción **[Ver como publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**para interactuar con el carrusel como un lector del contenido publicado.
 >
->La función de avance automático no está habilitada en el modo **Editar** . Utilice la opción **[Ver como publicado](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/editing-content.html)** para ver la función de avance automático como un lector del contenido publicado.
+>La función de avance automático no está habilitada en el modo **Editar** . Utilice la opción **[Ver como publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)**para ver la función de avance automático como un lector del contenido publicado.
 
 ### Ficha Accesibilidad {#accessibility-tab}
 
 ![](assets/screen-shot-2019-08-29-12.02.22.png)
 
-En la ficha **Accesibilidad** , se pueden definir valores para las etiquetas de accesibilidad [](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA del componente.
+En la ficha **Accesibilidad** , se pueden definir valores para las etiquetas de accesibilidad [de](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA para el componente.
 
 * **Etiqueta** : valor de un atributo de etiqueta ARIA para el componente
 
 ## Select Panel {#select-panel}
 
-El autor del contenido puede utilizar la opción **Seleccionar panel** de la barra de herramientas del componente para cambiar a una diapositiva diferente para editarla y para reorganizar fácilmente el orden de las diapositivas.
+El autor del contenido puede utilizar la opción **Seleccionar panel** de la barra de herramientas del componente para cambiar a una diapositiva diferente para editarla, así como para reorganizar fácilmente el orden de las diapositivas.
 
 ![](assets/screenshot_2018-10-11at165417.png)
 
@@ -131,7 +116,7 @@ La ficha **Propiedades** se utiliza para definir la configuración predeterminad
 
 La ficha Componentes **** permitidos se utiliza para definir qué componentes puede agregar el autor del contenido como diapositivas al componente de carrusel.
 
-La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre al [definir la política y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)
+La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre al [definir la política y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Ficha Estilos {#styles-tab}
 
