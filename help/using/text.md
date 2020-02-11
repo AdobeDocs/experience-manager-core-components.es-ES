@@ -1,15 +1,8 @@
 ---
 title: Componente de texto
-seo-title: Componente de texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
-seo-description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
-uuid: 5f8eee8f-7317-4712-a77f-e34e8a024187
-contentOwner: Usuario
-content-type: referencia
-topic-tags: componentes principales
-discoiquuid: 9a290584-565e-4392-999c-999ee4a93da1
 translation-type: tm+mt
-source-git-commit: eef608fb06001485aa2c2c0b574af412ed7f15a4
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -30,36 +23,36 @@ La versión actual del componente de texto es v2, que se introdujo con la versi�
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|---|---|---|---|
-| v2 | Compatible | Compatible | Compatible |
-| [v1](text-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|---|---|---|---|---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](text-v1.md) | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente de texto y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/text.html)componentes.
+Para experimentar el componente de texto y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_text)componentes.
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de texto [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text).
+La documentación técnica más reciente sobre el componente de texto [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_text_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
 ## El componente de texto y el editor de texto enriquecido {#the-text-component-and-the-rich-text-editor}
 
-El componente de texto Componentes principales aprovecha el Editor de texto enriquecido (RTE) de AEM. RTE proporciona a los autores de contenido una amplia gama de funciones para editar su contenido de texto. El RTE es muy flexible en su configuración y ofrece una serie de opciones. Encontrará más información sobre cómo se puede configurar RTE en los artículos [Configurar el editor](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/rich-text-editor.html) de texto enriquecido y [Configurar los complementos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
+El componente de texto Componentes principales aprovecha el Editor de texto enriquecido (RTE) de AEM. RTE proporciona a los autores de contenido una amplia gama de funciones para editar su contenido de texto. El RTE es muy flexible en su configuración y ofrece una serie de opciones. Encontrará más información sobre cómo se puede configurar RTE en los artículos [Configurar el editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) de texto enriquecido y [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
 
 El resto de este artículo muestra la configuración estándar del componente de texto de componentes principales con la configuración RTE lista para usar.
 
 >[!NOTE]
 >
->En el componente de texto solo están disponibles las opciones activadas por las configuraciones de [IU de RTE](https://chl-author-preview.corp.adobe.com/content/help/en/experience-manager/6-5/sites/administering/using/rich-text-editor.html) .
+>En el componente de texto solo están disponibles las opciones activadas por las configuraciones de [IU de RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) .
 
 ## Edit Dialog {#edit-dialog}
 
-El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan texto.
+El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan el texto.
 
 ![](assets/screen_shot_2018-01-11at143025.png)
 
@@ -105,7 +98,7 @@ Se utiliza para dar formato al texto seleccionado o al texto introducido despué
 
 Pega el texto copiado como texto sin formato sin ningún formato.
 
-Al seleccionar esta opción, se abre una ventana donde el texto se puede pegar como texto sin formato sin formato como vista previa antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
+Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como vista previa antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
 
 ![](assets/screen_shot_2018-01-11at143234.png)
 
@@ -153,7 +146,7 @@ Utilice esta opción para buscar en el texto la aparición de una cadena de text
 
 Escriba el texto para el cual desee buscar y toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
 Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
-Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de búsqueda se atenúa. Toque o haga clic de nuevo en el botón **Buscar** del cuadro de diálogo atenuado para buscar la siguiente incidencia.
+Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de búsqueda se atenúa. Toque o haga clic en el botón **Buscar** de nuevo en el cuadro de diálogo atenuado para buscar la siguiente incidencia.
 
 ![](assets/screen_shot_2018-01-11at130145.png)
 
@@ -219,7 +212,7 @@ Para finalizar una lista numerada, toque o haga clic de nuevo en el botón **Num
 
 Se utiliza para reducir el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
 
-Solo activa si el texto o la posición seleccionados del cursor ya están sangrados.
+Solo se activa si el texto o la posición seleccionados del cursor ya están sangrados.
 
 ### Sangría
 
@@ -257,7 +250,7 @@ La altura de la tabla
 
 Se utiliza para revisar la ortografía del contenido del texto. Los posibles errores ortográficos se ven subrayados con líneas rojas rotas rotas.
 
-Encontrará más detalles sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica en el documento [Configurar los complementos](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
+Encontrará más detalles sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica en el documento [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
 
 ### Caracteres especiales {#special-characters}
 
@@ -267,7 +260,7 @@ Se utiliza para insertar caracteres especiales en el texto. Al seleccionar esta 
 
 ![](assets/screen_shot_2018-01-11at142635.png)
 
-Toque o haga clic en el carácter deseado para insertarlo en el texto después del cursor. Se pueden insertar varios caracteres. Toque o haga clic en la x para cerrar la ventana de selección.
+Toque o haga clic en el carácter que desee para insertarlo en el texto después del cursor. Se pueden insertar varios caracteres. Toque o haga clic en la x para cerrar la ventana de selección.
 
 ### Modificar código fuente
 
@@ -317,7 +310,7 @@ Las siguientes funciones se pueden activar o desactivar para el componente.
 * Pasado de la palabra
 * Buscar y reemplazar
 * Corrector ortográfico
-* Edición de origen
+* Edición de código fuente
 
 ### Formato {#formatting}
 
