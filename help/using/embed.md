@@ -1,12 +1,8 @@
 ---
 title: Incrustar componente
-seo-title: Incrustar componente
 description: El componente Incrustar permite incrustar contenido externo en una página de contenido de AEM.
-seo-description: El componente Incrustar permite incrustar contenido externo en una página de contenido de AEM.
-content-type: referencia
-topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: 648a54d3ab76ec9a9dee10dc97a3f91e6b7509df
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
@@ -17,7 +13,7 @@ El componente Integrado de componentes principales permite incrustar contenido e
 
 ## Uso {#usage}
 
-El componente Core Component Embed permite al autor del contenido definir el contenido externo seleccionado para que se incruste en una página de contenido de AEM. Además, existe una opción para definir el HTML de forma libre que se va a incrustar.
+El componente Core Component Embed permite al autor del contenido definir el contenido externo seleccionado para que se incruste en una página de contenido de AEM. Además, existe una opción para definir el código HTML de forma libre que se va a incrustar.
 
 * Las propiedades del componente se pueden definir en el cuadro de diálogo [](#configure-dialog)Configurar.
 * Los valores predeterminados del componente al agregarlo a una página se pueden definir en el cuadro de diálogo [de](#design-dialog)diseño.
@@ -28,19 +24,19 @@ La versión actual del componente incrustado es v1, que se introdujo con la vers
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente de incrustación, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/embed.html)componentes.
+Para experimentar el componente de incrustación, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_embed)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente incrustado [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed).
+La documentación técnica más reciente sobre el componente incrustado [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -97,9 +93,9 @@ El código HTML que puede introducir el autor se filtra por motivos de seguridad
 
 *En general,* todas las secuencias de comandos y `style` los elementos, así como todos `on*` y `style` los atributos, se eliminarán del resultado.
 
-Sin embargo, las reglas son más complicadas porque el componente incrustado sigue el conjunto global de reglas de filtrado del marco de saneamiento HTML AntiSamy de AEM, que se encuentra en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponerlo para la configuración específica del proyecto, si es necesario.
+Sin embargo, las reglas son más complicadas porque el componente incrustado sigue el conjunto global de reglas de filtrado del marco de saneamiento HTML AntiSamy de AEM, que se puede encontrar en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponerlo para la configuración específica del proyecto, si es necesario.
 
-Encontrará información adicional sobre seguridad en la documentación para desarrolladores de [AEM.](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/security.html)
+Puede encontrar información adicional sobre seguridad en la documentación para desarrolladores de [AEM para instalaciones](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html) locales, así como en instalaciones de [AEM como servicio de nube.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Aunque las reglas del marco de saneamiento AntiSamy pueden configurarse superponiendo `/libs/cq/xssprotection/config.xml`, estos cambios afectan a todo el comportamiento de HTL y JSP y no sólo al componente básico incrustado.
