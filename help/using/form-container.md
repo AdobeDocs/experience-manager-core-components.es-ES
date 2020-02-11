@@ -1,25 +1,8 @@
 ---
 title: Componente de contenedor de formularios
-seo-title: Componente de contenedor de formularios
-description: nulo
-seo-description: El componente Contenedor de formularios de componentes principales permite la creación de formularios de envío simples.
-uuid: 9d556daf-3fe7-4b2a-b5ae-6926acb267a9
-contentOwner: Usuario
-content-type: referencia
-topic-tags: creación
-products: SG_EXPERIENCEMANAGER/CORECOMPONENTES-new
-discoiquuid: 3d33fe60-a0ac-4ff2-a865-d600b5448aeb
-disttype: dist5
-gnavtheme: claro
-groupsectionnavitems: nº
-hidemerchandisingbar: heredar
-hidepromocomponent: heredar
-modalsize: 426x240
-index: y
-internal: n
-snippet: y
+description: El componente Contenedor de formularios de componentes principales permite la creación de formularios de envío simples.
 translation-type: tm+mt
-source-git-commit: 62643e5bd49ab006230f65004bb9374822dcc017
+source-git-commit: 60df01ca9efe59b67bad57610d04496a2cdded9e
 
 ---
 
@@ -32,38 +15,38 @@ El componente Contenedor de formularios de componentes principales permite la cr
 
 El componente Contenedor del formulario permite crear formularios y funciones de envío de información simples mediante la compatibilidad con formularios WCM simples y el uso de una estructura anidada para permitir componentes de formulario adicionales.
 
-Mediante el cuadro de diálogo [de](#configure-dialog) configuración, el editor de contenido puede definir la acción desencadenada por el envío del formulario, dónde se debe almacenar el contenido enviado y si se debe activar un flujo de trabajo. El autor de la plantilla puede utilizar el cuadro de diálogo [de](#design-dialog) diseño para definir los componentes permitidos y sus asignaciones de forma similar al cuadro de diálogo de diseño para el contenedor de diseño [estándar en el editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)de plantillas.
+Mediante el cuadro de diálogo [de](#configure-dialog) configuración, el editor de contenido puede definir la acción desencadenada por el envío del formulario, dónde se debe almacenar el contenido enviado y si se debe activar un flujo de trabajo. El autor de la plantilla puede utilizar el cuadro de diálogo [de](#design-dialog) diseño para definir los componentes permitidos y sus asignaciones de forma similar al cuadro de diálogo de diseño para el contenedor de diseño [estándar en el editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de plantillas.
 
 >[!NOTE]
 >
->Los componentes principales Componente Contenedor de formulario solo admiten el uso de componentes principales de los componentes de formulario (botón, texto, oculto, etc.). Using foundation components form components within the core components form container (and vice versa) is not supported.[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/default-components-foundation.html)
+>Los componentes principales Componente Contenedor de formulario solo admiten el uso de componentes principales de los componentes de formulario (botón, texto, oculto, etc.). No se admite el uso de componentes [](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) de base de formularios dentro del contenedor de formularios de componentes principales (y viceversa).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
 La versión actual del componente Contenedor de formularios es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-The following table details all supported versions of the component, the AEM versions with which the versions of the component is compatible, and links to documentation for previous versions.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Component Version | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |--- |
-| v2 | Compatible | Compatible | Compatible |
-| [v1](form-container-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible | Compatible |
+| [v1](form-container-v1.md) | Compatible | Compatible | Compatible | - |
 
-For more information about Core Component versions and releases, see the document Core Components Versions.[](versions.md)
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
-## Technical Details {#technical-details}
+## Detalles técnicos {#technical-details}
 
-The latest technical documentation about the Form Container Component can be found on GitHub.[](https://github.com/adobe/aem-core-wcm-components/blob/master/content/src/content/jcr_root/apps/core/wcm/components/form/container/v2/container)
+La documentación técnica más reciente sobre el componente Contenedor de formularios [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_form_container_v2).
 
-Further details about developing Core Components can be found in the Core Components developer documentation.[](developing.md)
+Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
-## Configure Dialog {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
-The configure dialog allows the content author to define what actions are taken when the component is submitted.
+El cuadro de diálogo de configuración permite al autor del contenido definir qué acciones se realizan cuando se envía el componente.
 
 ![](assets/screen_shot_2018-01-12at122046.png)
 
-Depending on the selected Action Type, the available options within the container will change. **** The available action types are:
+Según el tipo **de** acción seleccionado, cambiarán las opciones disponibles dentro del contenedor. Los tipos de acciones disponibles son:
 
 * [Correo](#mail)
 * [Almacenar contenido](#store-content)
@@ -74,14 +57,12 @@ Independientemente del tipo, hay una configuración [](#general-settings) genera
 
 ### Correo {#mail}
 
-When the form is submitted, the mail action type will send an email to designated recipients.
+Cuando se envía el formulario, el tipo de acción de correo enviará un correo electrónico a los destinatarios designados.
 
 ![](assets/screen_shot_2018-01-12at122554.png)
 
-* **Subject
-The subject of the email that will be sent on form submission**
-* **From
-The from email address of the email that will be send on form submission**
+* **Asunto** Asunto del correo electrónico que se enviará al enviar el formulario
+* **Desde** la dirección de correo electrónico de origen del mensaje que se enviará al enviar el formulario
 * **A** Las direcciones de los destinatarios que recibirán un correo electrónico al enviar el formulario
 
    * Toque o haga clic en el botón **Agregar** para agregar direcciones adicionales
@@ -126,4 +107,4 @@ El usuario será redireccionado a la página especificada después de completar 
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite al autor de la plantilla definir los componentes permitidos y sus asignaciones para el contenedor de forma similar al cuadro de diálogo de diseño para el contenedor de diseño [estándar en el editor](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/templates.html)de plantillas.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir los componentes permitidos y sus asignaciones para el contenedor de forma similar al cuadro de diálogo de diseño para el contenedor de diseño [estándar en el editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de plantillas.
