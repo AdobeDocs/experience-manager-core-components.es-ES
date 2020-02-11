@@ -1,25 +1,21 @@
 ---
 title: Componente de fragmento de experiencia
-seo-title: Componente de fragmento de experiencia
 description: El componente Fragmento de experiencia permite al autor del contenido agregar una variación de fragmento de experiencia a una página.
-seo-description: El componente Fragmento de experiencia permite al autor del contenido agregar una variación de fragmento de experiencia a una página.
-content-type: referencia
-topic-tags: componentes principales
 translation-type: tm+mt
-source-git-commit: c4e86960ec271464661193f6409cd93d1b9ec51b
+source-git-commit: 65f900ad6759206a13f2bda6169900f62d968d8d
 
 ---
 
 
 # Componente de fragmento de experiencia{#experience-fragment-component}
 
-El componente de fragmento de experiencia de componente principal permite al autor del contenido colocar una variación de fragmento de experiencia en una página mientras admite una estructura de sitio localizada.
+El componente de fragmento de experiencia de componente principal permite al autor del contenido colocar una variación de fragmento de experiencia en una página mientras se admite una estructura de sitio localizada.
 
 ## Uso {#usage}
 
-El componente de fragmento de experiencia de componente principal permite al autor del contenido seleccionar entre las variables de fragmento de experiencia existentes y colocar una en la página de contenido. El componente Fragmento de experiencia también admite una estructura de sitio localizada.
+El componente de fragmento de experiencia de componente principal permite al autor del contenido seleccionar entre las variaciones de fragmento de experiencia existentes y colocar una en la página de contenido. El componente Fragmento de experiencia también admite una estructura de sitio localizada.
 
-* Las propiedades de los componentes se pueden definir en el cuadro de diálogo [](#configure-dialog)Configurar.
+* Las propiedades del componente se pueden definir en el cuadro de diálogo [](#configure-dialog)Configurar.
 * Los valores predeterminados del componente al agregarlo a una página se pueden definir en el cuadro de diálogo [de](#design-dialog)diseño.
 
 ## Compatibilidad con la estructura del sitio localizada {#localized-site-structure}
@@ -97,19 +93,19 @@ La versión actual del componente Fragmento de experiencia es v1, que se introdu
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 |
-|--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como servicio de nube |
+|--- |--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](versions.md)principales.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para experimentar el componente Fragmento de experiencia y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](http://opensource.adobe.com/aem-core-wcm-components/library/experience-fragment.html)componentes.
+Para experimentar el componente Fragmento de experiencia y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_xf)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Fragmento de experiencias [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/experience-fragment/v1/experience-fragment).
+La documentación técnica más reciente sobre el componente Fragmento de experiencias [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](developing.md)principales.
 
@@ -121,7 +117,7 @@ El cuadro de diálogo de configuración permite al autor del contenido seleccion
 
 Utilice el botón **Abrir cuadro de diálogo** de selección para abrir el selector de componentes y elegir la variación de componente de fragmento de experiencia que desea agregar a la página de contenido.
 
-Si agrega el componente Fragmento de experiencia a una plantilla, tenga en cuenta que se localizará automáticamente siempre que los fragmentos de experiencia estén localizados, por lo que lo que se procese en la página puede variar del componente que seleccione explícitamente. [Consulte el ejemplo anterior](#example) para obtener más información.
+Si agrega el componente Fragmento de experiencia a una plantilla, tenga en cuenta que se localizará automáticamente siempre que los fragmentos de experiencia estén localizados, por lo que lo que se procese en la página puede variar con respecto al componente que seleccione explícitamente. [Consulte el ejemplo anterior](#example) para obtener más información.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
