@@ -2,7 +2,7 @@
 title: Tipo de archivo del proyecto AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -40,7 +40,7 @@ Por supuesto, hay muchos elementos que entran en un proyecto AEM exitoso, pero e
 
 El arquetipo del proyecto facilita el inicio del desarrollo en AEM. Puede dar sus primeros pasos de varias maneras.
 
-* Tutorial de WKND: para obtener una excelente introducción al desarrollo de AEM, incluida la forma de aprovechar el arquetipo, consulte el tutorial [](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) de WKND Getting Started with AEM Sites (Introducción a los sitios de AEM), donde encontrará un ejemplo práctico de cómo utilizar el arquetipo para implementar un proyecto sencillo.
+* Tutorial de WKND: para obtener una buena introducción al desarrollo de AEM, incluida la forma de aprovechar el arquetipo, consulte el tutorial [](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) Introducción a AEM Sites - WKND para ver un ejemplo práctico de cómo usar el arquetipo para implementar un proyecto sencillo.
 * Tutorial de eventos WKND: si está especialmente interesado en el desarrollo de aplicaciones de una sola página (SPA) en AEM, asegúrese de consultar el tutorial [dedicado de eventos](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)WKND.
 * Descárguelo y comience por su cuenta. - Puede descargar fácilmente el arquetipo de proyecto actual disponible en GitHub y crear su primer proyecto [siguiendo los sencillos pasos a continuación](#how-to-use-the-archetype).
 
@@ -77,7 +77,7 @@ Para utilizar el arquetipo, primero debe crear un proyecto, que genere los módu
 
 Al crear el proyecto con Maven se crean los artefactos (paquetes y paquetes OSGi) que se pueden implementar en AEM. Se pueden utilizar comandos y perfiles Maven adicionales para implementar los artefactos del proyecto en una instancia de AEM.
 
-### Creación de un proyecto {#create-project}
+### Creación de un proyecto   {#create-project}
 
 Para empezar, puede simplemente utilizar la extensión [Eclipse de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) AEM y seguir el Asistente para nuevo proyecto y elegir Proyecto **multimódulo de muestra de** AEM para utilizar una versión publicada del arquetipo.
 
