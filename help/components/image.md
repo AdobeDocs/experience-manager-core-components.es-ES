@@ -2,7 +2,7 @@
 title: Componente de imagen
 description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6be0028c45ce9f8b36ea278f8e569f3d6a626ae2
 
 ---
 
@@ -29,7 +29,7 @@ La versión actual del componente de imagen es v2, que se introdujo con la versi
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](v1/image-v1.md) | Compatible | Compatible | Compatible | - |
@@ -41,7 +41,7 @@ Para obtener más información sobre las versiones y versiones de los componente
 Los gráficos vectoriales escalables (SVG) son compatibles con el componente Imagen.
 
 * Se admiten la función de arrastrar y soltar un recurso SVG desde DAM y la carga de un archivo SVG desde un sistema de archivos local.
-* El velet de imagen adaptable transmite el archivo SVG original (las transformaciones se omiten).
+* El servlet de imagen adaptable transmite el archivo SVG original (se omiten las transformaciones).
 * Para una imagen SVG, las &quot;imágenes inteligentes&quot; y los &quot;tamaños inteligentes&quot; se establecen en una matriz vacía en el modelo de imagen.
 
 ### Seguridad {#security}
@@ -222,7 +222,7 @@ Además, puede definir qué opciones generales de componente se desactivan o se 
 >
 >A partir de la versión 2.2.0 de los componentes principales, el componente de imagen agrega el atributo UUID exclusivo `data-asset-id` al recurso de imagen para permitir el seguimiento y el análisis del número de vistas que reciben los recursos individuales.
 
-### Ficha Características {#features-tab}
+### Features Tab {#features-tab}
 
 En la ficha **Funciones** puede definir las opciones disponibles para los autores de contenido al utilizar el componente, incluidas las opciones de carga, la orientación y el recorte.
 
@@ -241,7 +241,7 @@ En la ficha **Funciones** puede definir las opciones disponibles para los autore
 
    >[!CAUTION]
    >
-   >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen; sin embargo, AEM no admite actualmente la función y los cambios realizados con estas opciones no se mantendrán.
+   >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen. Sin embargo, AEM no admite la función en este momento y los cambios realizados con estas opciones no se mantendrán.
 
 * Recortar
 
@@ -255,18 +255,18 @@ En la ficha **Funciones** puede definir las opciones disponibles para los autore
    * Utilice el icono de papelera para eliminar una proporción de aspecto.
    >[!CAUTION]
    >
-   >Note that in AEM, crop aspect ratios are defined as **height/width**. Esto difiere de la definición convencional de anchura y altura y se realiza por motivos de compatibilidad heredados. Los autores de contenido no tendrán en cuenta ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la relación misma.
+   >Note that in AEM, crop aspect ratios are defined as **height/width**. Esto es distinto de la definición convencional de anchura/altura y se realiza por motivos de compatibilidad con sistemas anteriores. Los autores de contenido no tendrán en cuenta ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la relación misma.
 
 ### Ficha Estilos {#styles-tab-1}
 
 El componente Imagen admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
 
-## Visor de imágenes adaptable {#adaptive-image-servelet}
+## Servlet de imagen adaptable {#adaptive-image-servlet}
 
-El componente de imagen utiliza el velet de imagen adaptable del componente principal. [El servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) de imagen adaptable es responsable del procesamiento y la transmisión de imágenes y puede ser aprovechado por los desarrolladores en sus [personalizaciones de los componentes](/help/developing/customizing.md)principales.
+El componente de imagen utiliza el servlet de imagen adaptable del componente principal. [El servlet](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) de imagen adaptable es responsable del procesamiento y la transmisión de imágenes y puede ser aprovechado por los desarrolladores en sus [personalizaciones de los componentes](/help/developing/customizing.md)principales.
 
 >[!NOTE]
 >
->Las solicitudes condicionales a través del `Last-Modified` encabezado son compatibles con el velet de imágenes adaptable, pero el almacenamiento en caché del `Last-Modified` encabezado [debe habilitarse en Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Las solicitudes condicionales a través del `Last-Modified` encabezado son compatibles con el servlet de imagen adaptable, pero el almacenamiento en caché del `Last-Modified` encabezado [debe habilitarse en Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
 >[La configuración de despachante de ejemplo de AEM Project Archetype](/help/developing/archetype/overview.md)ya contiene esta configuración.
