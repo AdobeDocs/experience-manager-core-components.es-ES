@@ -2,7 +2,7 @@
 title: Componente de contenedor de formularios
 description: El componente Contenedor de formularios de componentes principales permite la creación de formularios de envío simples.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -27,12 +27,16 @@ La versión actual del componente Contenedor de formularios es v2, que se introd
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-container-v1.md) | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](/help/versions.md)principales.
+
+## Ejemplo de salida de componente {#sample-component-output}
+
+Para obtener información sobre el componente Contenedor de formularios y ver ejemplos de sus opciones de configuración, así como sobre la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_form_container)componentes.
 
 ## Detalles técnicos {#technical-details}
 
