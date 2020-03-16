@@ -2,7 +2,7 @@
 title: Componente oculto de formulario
 description: El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -23,7 +23,7 @@ La versión actual del componente Formulario oculto es v2, que se introdujo con 
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-hidden-v1.md) | Compatible | Compatible | Compatible | - |
@@ -32,47 +32,11 @@ Para obtener más información sobre las versiones y versiones de los componente
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### HTML {#html}
-
-```
-<div class="cmp cmp-form aem-GridColumn aem-GridColumn--default--12">
- <form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="aem-Grid aem-Grid--12 aem-Grid--default--12 ">
-  <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-   <div class="visible aem-GridColumn aem-GridColumn--default--12">
-    <input type="hidden" id="ghostToast" name="Invisible Toast" value="ghostToast">
-   </div>
- </form>
-</div>
-```
-
-### JSON {#json}
-
-```
-"container": {
-              "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-              "columnCount": 12,
-              "gridClassNames": "aem-Grid aem-Grid--12 aem-Grid--default--12",
-              ":items": {
-                "hidden": {
-                  "columnClassNames": "aem-GridColumn aem-GridColumn--default--12",
-                  ":type": "weretail/components/form/hidden",
-                  "name": "Invisible Toast",
-                  "id": "ghostToast",
-                  "value": "ghostToast"
-                }
-              },
-              ":itemsOrder": [
-                "hidden"
-              ],
-              ":type": "weretail/components/form/container"
-            }
-```
+Para experimentar el componente Oculto del formulario y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_form_hidden)componentes.
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente oculto de formulario [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
+La documentación técnica más reciente sobre el componente Oculto del formulario [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
 
