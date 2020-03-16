@@ -2,7 +2,7 @@
 title: Componente Opciones de formulario
 description: El componente de opciones de formulario de componente principal permite seleccionar opciones predefinidas en diversos formatos.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 95c0621f5423bfa515fe5e8b693e127ea56b4ae0
 
 ---
 
@@ -23,7 +23,7 @@ La versión actual del componente Opciones de formulario es v2, que se introdujo
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-options-v1.md) | Compatible | Compatible | Compatible | - |
@@ -32,102 +32,7 @@ Para obtener más información sobre las versiones y versiones de los componente
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://docs.adobe.com/content/help/en/experience-manager-65/developing/bestpractices/we-retail/we-retail.html).
-
-### Captura de pantalla {#screenshot}
-
-![](/help/assets/screen_shot_2018-01-12at113648.png)
-
-### HTML {#html}
-
-```
-<form method="POST" action="/content/we-retail/us/en/experience.html" id="new_form" name="new_form" enctype="multipart/form-data" class="cmp-form aem-Grid aem-Grid--12 aem-Grid--default--12">
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container">
-    
-    <div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-66464844" name="hidden">
-
-</div>
-<div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-858231075" name="hidden">
-
-</div>
-<div class="hidden aem-GridColumn aem-GridColumn--default--12">
-<input type="hidden" id="form-hidden-862566768" name="hidden">
-
-</div>
-<div class="container responsivegrid aem-GridColumn aem-GridColumn--default--12">
-
-    <input type="hidden" name=":formstart" value="/content/we-retail/us/en/experience/jcr:content/root/responsivegrid/container/container">
-    
-    <div class="options aem-GridColumn aem-GridColumn--default--12">
-
-    <fieldset class="cmp-form-options">
-        
-            <legend class="cmp-form-options__legend">What is your favorite type of toast?</legend>
-            <label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="dryToast">
-                Plain dry toast
-            </label>
-<label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="frenchToast">
-                French Toast
-            </label>
-<label class="cmp-form-options__field-label">
-                <input class="cmp-form-options__field cmp-form-options__field--radio" type="radio" name="favToast" value="texasToast">
-                Texas Toast
-            </label>
-
-    </fieldset>
-
-</div>
-
-</div></form>
-```
-
-### JSON {#json}
-
-```
-"container":{  
-                           "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                           "columnCount":12,
-                           "gridClassNames":"aem-Grid aem-Grid--12 aem-Grid--default--12",
-                           ":items":{  
-                              "options_816658469":{  
-                                 "columnClassNames":"aem-GridColumn aem-GridColumn--default--12",
-                                 "id":"form-options-269951232",
-                                 "title":"What is your favorite type of toast?",
-                                 "name":"favToast",
-                                 "type":"RADIO",
-                                 "items":[  
-                                    {  
-                                       "value":"dryToast",
-                                       "text":"Plain dry toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    },
-                                    {  
-                                       "value":"frenchToast",
-                                       "text":"French Toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    },
-                                    {  
-                                       "value":"texasToast",
-                                       "text":"Texas Toast",
-                                       "selected":false,
-                                       "disabled":false
-                                    }
-                                 ],
-                                 ":type":"core/wcm/sandbox/components/form/options/v2/options"
-                              }
-                           },
-                           ":itemsOrder":[  
-                              "options_816658469"
-                           ],
-                           ":type":"core/wcm/sandbox/components/form/container/v2/container"
-                        }
-```
+Para obtener información sobre el componente Opciones de formulario, así como ejemplos de sus opciones de configuración, así como sobre la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_form_options)componentes.
 
 ### Detalles técnicos {#technical-details}
 
