@@ -2,7 +2,7 @@
 title: Componente de texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
 
 ---
 
@@ -13,7 +13,7 @@ El componente de texto del componente principal es un componente de composición
 
 ## Uso {#usage}
 
-El componente de texto ofrece un potente editor de texto enriquecido que permite una edición de texto sencilla en un editor en línea simplificado y en un formato de pantalla completa.
+El componente de texto oferta un potente editor de texto enriquecido que permite una edición de texto sencilla en un editor en línea simplificado y en un formato de pantalla completa.
 
 El cuadro de diálogo [de](#edit-dialog) edición incluye edición en línea con opciones limitadas con funcionalidad completa disponible en el cuadro de diálogo de edición a pantalla completa. Mediante el cuadro de diálogo [de](#design-dialog)diseño, se pueden configurar opciones de formato de texto como encabezados, caracteres especiales y estilos de párrafo para la plantilla del autor del contenido.
 
@@ -23,12 +23,12 @@ La versión actual del componente de texto es v2, que se introdujo con la versi�
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
 | v2 | Compatible | Compatible | Compatible | Compatible |
 | [v1](v1/text-v1.md) | Compatible | Compatible | Compatible | - |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](/help/versions.md)principales.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -42,7 +42,7 @@ Encontrará más detalles sobre el desarrollo de los componentes principales en 
 
 ## El componente de texto y el editor de texto enriquecido {#the-text-component-and-the-rich-text-editor}
 
-El componente de texto Componentes principales aprovecha el Editor de texto enriquecido (RTE) de AEM. RTE proporciona a los autores de contenido una amplia gama de funciones para editar su contenido de texto. El RTE es muy flexible en su configuración y ofrece una serie de opciones. Encontrará más información sobre cómo se puede configurar RTE en los artículos [Configurar el editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) de texto enriquecido y [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
+El componente de texto Componentes principales aprovecha el Editor de texto enriquecido (RTE) de AEM. RTE proporciona a los autores de contenido una amplia gama de funciones para editar su contenido de texto. El RTE es muy flexible en su configuración y oferta una serie de opciones. Encontrará más información sobre cómo se puede configurar RTE en los artículos [Configurar el editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) de texto enriquecido y [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
 
 El resto de este artículo muestra la configuración estándar del componente de texto de componentes principales con la configuración RTE lista para usar.
 
@@ -52,7 +52,7 @@ El resto de este artículo muestra la configuración estándar del componente de
 
 ## Edit Dialog {#edit-dialog}
 
-El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan el texto.
+El cuadro de diálogo de edición oferta las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan texto.
 
 ![](/help/assets/screen_shot_2018-01-11at143025.png)
 
@@ -98,7 +98,7 @@ Se utiliza para dar formato al texto seleccionado o al texto introducido despué
 
 Pega el texto copiado como texto sin formato sin ningún formato.
 
-Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como vista previa antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
+Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como previsualización antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
 
 ![](/help/assets/screen_shot_2018-01-11at143234.png)
 
@@ -106,7 +106,7 @@ Al seleccionar esta opción, se abre una ventana en la que el texto se puede peg
 
 ![](/help/assets/screen_shot_2018-01-11at125717.png)
 
-Al seleccionar esta opción, se abre una ventana donde se puede pegar el texto manteniendo su formato como una vista previa antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
+Al seleccionar esta opción, se abre una ventana en la que se puede pegar el texto manteniendo su formato como previsualización antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
 
 ![](/help/assets/screen_shot_2018-01-11at143250.png)
 
@@ -172,6 +172,10 @@ Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de b�
 
 Seleccione **Reemplazar todo** para reemplazar todas las apariciones del texto a la vez.
 
+Al utilizar la funcionalidad de reemplazo, la cadena de reemplazo que se va a reemplazar debe introducirse al mismo tiempo que la cadena de búsqueda. Sin embargo, puede seguir haciendo clic en buscar para buscar la cadena antes de reemplazarla. Si se introduce la cadena de reemplazo después de hacer clic en Buscar, la búsqueda se restablece al principio del texto.
+
+El cuadro de diálogo Buscar y reemplazar se vuelve transparente cuando se hace clic en Buscar y se vuelve opaco cuando se hace clic en reemplazar. Esto permite al autor revisar el texto que sustituirá.
+
 ### Alinear texto a la izquierda
 
 ![](/help/assets/screen_shot_2018-01-11at142012.png)
@@ -194,7 +198,7 @@ Se utiliza para alinear el texto con el margen derecho.
 
 ![](/help/assets/screen_shot_2018-01-11at142025.png)
 
-Se utiliza para dar formato al texto seleccionado como una lista con viñetas o para comenzar la inserción de una lista con viñetas después del cursor.
+Se utiliza para dar formato al texto seleccionado como una lista con viñetas o iniciar la inserción de una lista con viñetas después del cursor.
 
 Para finalizar una lista con viñetas, toque o haga clic de nuevo en el botón **Viñeta** o introduzca dos retornos de carro.
 
@@ -250,7 +254,7 @@ La altura de la tabla
 
 Se utiliza para revisar la ortografía del contenido del texto. Los posibles errores ortográficos se ven subrayados con líneas rojas rotas rotas.
 
-Encontrará más detalles sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica en el documento [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
+Encontrará más información sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica en el documento [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
 
 ### Caracteres especiales {#special-characters}
 
@@ -266,9 +270,9 @@ Toque o haga clic en el carácter que desee para insertarlo en el texto después
 
 ![](/help/assets/screen_shot_2018-01-11at142746.png)
 
-Se utiliza para ver y modificar el origen HTML del texto.
+Se utiliza para vista y modificación del origen HTML del texto.
 
-Toque o haga clic en el icono Editar **** origen para cambiar el contenido del texto desde la vista con formato para ver el HTML sin procesar. En este modo, todas las demás opciones de formato están desactivadas. Toque o haga clic en el icono Editar **** origen de nuevo para volver a la vista con formato.
+Toque o haga clic en el icono Editar **** origen para cambiar el contenido del texto de la vista con formato a la vista del HTML sin procesar. En este modo, todas las demás opciones de formato están desactivadas. Toque o haga clic de nuevo en el icono Editar **** origen para volver a la vista con formato.
 
 >[!CAUTION]
 >
@@ -278,7 +282,7 @@ Toque o haga clic en el icono Editar **** origen para cambiar el contenido del t
 
 >[!NOTE]
 >
->Dado que el HTML introducido mediante la edición **de** origen se analiza para detectar riesgos XSS y cualquier secuencia de comandos y elimina automáticamente los encontrados, el contenido real que se mantenga puede variar de lo que se introdujo en la edición **de** origen. Por este motivo, para guardar los cambios realizados con Edición **** de origen, primero debe salir de Editar **** origen para ver el texto en el editor normal antes de guardarlo.
+>Dado que el HTML introducido mediante la edición **de** origen se analiza para detectar riesgos XSS y cualquier secuencia de comandos y elimina automáticamente los encontrados, el contenido real que se mantenga puede variar de lo que se introdujo en la edición **de** origen. Por este motivo, para guardar los cambios realizados con Edición **** de origen, primero debe salir de Editar **** origen para vista del texto en el editor normal antes de guardarlo.
 
 ### Formato de párrafo
 
@@ -331,7 +335,7 @@ Las siguientes opciones de formato se pueden activar o desactivar para el compon
 
 Los estilos de párrafo se pueden activar o desactivar para el componente. Cuando se activa, se pueden definir los formatos permitidos.
 
-* Toque o haga clic en el botón **Agregar** para insertar un nuevo estilo.
+* Toque o haga clic en el botón **Añadir** para insertar un nuevo estilo.
 * Introduzca el código del estilo y una descripción que se mostrará en el cuadro de diálogo de edición.
 * Para eliminar un estilo, toque o haga clic en el botón **Eliminar** .
 * Para reorganizar el orden de los formatos, toque o haga clic y arrastre los controladores.
@@ -342,7 +346,7 @@ Los estilos de párrafo se pueden activar o desactivar para el componente. Cuand
 
 La opción para insertar caracteres especiales se puede activar o desactivar para el componente. Cuando se activa, se pueden definir los caracteres permitidos.
 
-* Toque o haga clic en el botón **Agregar** para insertar un carácter nuevo.
+* Toque o haga clic en el botón **Añadir** para insertar un carácter nuevo.
 * Introduzca el código HTML del carácter y una descripción que se mostrará en el cuadro de diálogo de edición.
 * Para eliminar un carácter, toque o haga clic en el botón **Eliminar** .
 * Para reorganizar el orden de los caracteres, toque o haga clic y arrastre los controladores.
