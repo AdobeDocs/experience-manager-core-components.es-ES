@@ -2,7 +2,7 @@
 title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica qué versiones y versiones son y cómo comprender la compatibilidad con los componentes principales y AEM.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 6c0dcfbe4af6aeb3bfa69bdbb43edaab273207be
 
 ---
 
@@ -11,55 +11,23 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 La versión actual de los componentes principales es 2.8.0 y es compatible con [AEM como servicio](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) de nube e instalaciones [in situ de AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) . Fue lanzado en diciembre de 2019 como una actualización importante de la versión 2.0.0. La versión 2.0.0 incorpora nuevos componentes y actualizaciones de la versión 2 de los componentes existentes.
 
-Consulte la sección Historial de [versiones y Compatibilidad](#versions-and-releases) de este documento para obtener más información.
-
-También puede consultar la biblioteca [de](https://adobe.com/go/aem_cmp_library)componentes, que muestra la versión actual de los componentes principales y ofrece ejemplos de su uso.
-
-## Versiones y versiones {#versions-and-releases}
-
-Los componentes principales se distribuyen a través de GitHub. Esto permite a Adobe agregar más rápidamente funciones a los componentes y también permitir la entrada de la comunidad fuera del ciclo de versiones de AEM.
-
-Los componentes principales están disponibles con versiones de AEM definidas con las que son compatibles. Esto significa que una versión de AEM puede admitir varias versiones o versiones de los componentes principales. Esto proporciona más flexibilidad que los antiguos componentes de base, que estaban vinculados a una versión específica de AEM.
-
-### Versiones {#versions}
-
-La iteración principal de los componentes principales son las **versiones**. Cada componente tiene una versión. Las versiones se indican con **v** anexada con un entero positivo distinto de cero, como v1 y v2. Las versiones solo se incrementan para los cambios que no son compatibles con versiones anteriores, lo que normalmente sucede con la introducción de nuevas funciones y funcionalidades.
-
-Los desarrolladores y administradores pueden reconocer versiones de los componentes principales por un número en sus rutas de tipo de recurso y en los nombres de clase Java completos de sus implementaciones. Este número de versión representa una versión principal, tal como se define en las directrices [de versiones](https://semver.org/)semánticas.
-
-Para obtener más información sobre las versiones de componentes principales, consulte la documentación para [desarrolladores de los componentes](developing/guidelines.md)principales.
-
-### Versiones {#releases}
-
-Los componentes principales están disponibles a través de **las versiones** y [representan los artefactos publicados reales disponibles en GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Las versiones se indican con un número decimal del formato X.Y.Z y recopilan todos los componentes principales juntos como un paquete de entrega.
-
-* **Las versiones** principales pueden introducir nuevas versiones de componentes existentes junto con componentes completamente nuevos, así como correcciones de errores estándar. Esto se representa mediante un incremento en el componente X del número de versión.
-* **Las versiones** importantes pueden introducir nuevas funciones a las versiones existentes de los componentes, junto con correcciones de errores. Esto se representa mediante un incremento en el componente Y del número de versión.
-* **Las versiones** menores solo contienen correcciones de errores. Esto se representa mediante un incremento en el componente Z del número de versión.
-
->[!NOTE]
->
->Las versiones pueden contener varias versiones del mismo componente.
->
->La misma versión de un componente puede aparecer en varias versiones.
-
 ## Historial de versiones y compatibilidad {#release-history-and-compatibility}
 
 Los componentes principales se lanzaron por primera vez con AEM 6.3 y están diseñados para ser flexibles y compatibles con todas las versiones de AEM admitidas. Debido a esto, una versión de los componentes puede contener varias versiones del mismo componente.
 
 Las siguientes tablas ilustran la compatibilidad de las versiones de los componentes principales junto con las versiones de los componentes en las que se incluyen.
 
-### Historial de versiones y versiones compatibles de AEM {#release-history-supported-aem-versions}
+### Historial y requisitos de la versión {#release-history-requirements}
 
 La siguiente tabla, cuyo contenido está [disponible en GitHub con todos los detalles](https://github.com/adobe/aem-core-wcm-components/releases)de la versión, ofrece una visión general de las versiones de los Componentes principales y su compatibilidad con las versiones de AEM y las versiones de Java.
 
-| Versión | Descripción | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service | Java | Fecha de lanzamiento |
+| Versión | Descripción | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de lanzamiento |
 |---|---|---|---|---|---|---|---|
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Esta versión se centra en correcciones con pequeñas mejoras. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 5 de diciembre de 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Esta versión incorpora el nuevo componente Incrustar | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 25 de septiembre de 2019 |
 | [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versión incorpora el nuevo componente Fragmento de experiencias | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 6 de septiembre de 2019 |
 | [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Esta versión incorpora los nuevos componentes Acordeón, Botón, Contenedor y Descargar. | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | Continua | 8, 11 | 25 de junio de 2019 |
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Esta versión incorpora el componente Lista de fragmentos de contenido | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | Continua | 8, 11 | 7 de mayo de 2019 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Esta versión incorpora el componente de Lista de fragmentos de contenido | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | Continua | 8, 11 | 7 de mayo de 2019 |
 | [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Esta versión se centra en perfeccionar la biblioteca de componentes, pero también contiene algunas mejoras en las funciones del componente Separador | 6.3.3.0+ | 6.4.2.0+ | 6.5.0.0+ | Continua | 8 | 14 de marzo de 2019 |
 | [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Esta versión se centra en la biblioteca de componentes y en la introducción del nuevo componente separador, pero también contiene algunas mejoras de funciones para el componente de imagen | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 11 de febrero de 2019 |
 | [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Esta versión se centra principalmente en la corrección de errores, pero también contiene algunas mejoras en las funciones del componente Carrusel | 6.3.3.0+ | 6.4.2.0+ | - | - | 8 | 27 de noviembre de 2018 |
@@ -112,14 +80,51 @@ La siguiente tabla detalla las versiones de los componentes que contiene cada ve
 | **[Fragmento de experiencias](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[Incrustar](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 |
 
-## Documentación {#documentation}
+## Versiones y versiones {#versions-and-releases}
 
-[La creación con componentes](get-started/authoring.md) principales describe el uso de los componentes principales y las funciones que se exponen a los autores de contenido y a los autores de plantillas. Cada componente se documenta en detalle.
+Los componentes principales se distribuyen a través de GitHub. Esto permite a Adobe agregar más rápidamente funciones a los componentes y también permitir la entrada de la comunidad fuera del ciclo de versiones de AEM.
 
-[La biblioteca](https://adobe.com/go/aem_cmp_library) de componentes es una muestra de la versión actual de la mayoría de los componentes principales, que ilustra cómo se pueden utilizar.
+Los componentes principales están disponibles con versiones de AEM definidas con las que son compatibles. Esto significa que una versión de AEM puede admitir varias versiones o versiones de los componentes principales. Esto proporciona más flexibilidad que los antiguos componentes de base, que estaban vinculados a una versión específica de AEM.
 
-[Desarrollar componentes](developing/overview.md) principales describe las capacidades técnicas de los componentes principales, cómo utilizarlos en sus proyectos, cómo personalizarlos y prácticas recomendadas.
+### Versiones {#versions}
 
-[La introducción](introduction.md) de los componentes principales ofrece una visión general de la compatibilidad de los componentes principales entre versiones, casos de uso y soporte.
+La iteración principal de los componentes principales son las **versiones**. Cada componente tiene una versión. Las versiones se indican con **v** anexada con un entero positivo distinto de cero, como v1 y v2. Las versiones solo se incrementan para los cambios que no son compatibles con versiones anteriores, lo que normalmente sucede con la introducción de nuevas funciones y funcionalidades.
 
-[El tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) WKND es una excelente introducción paso a paso para el desarrollo de AEM, incluido el uso de los componentes principales.
+Los desarrolladores y administradores pueden reconocer versiones de los componentes principales por un número en sus rutas de tipo de recurso y en los nombres de clase Java completos de sus implementaciones. Este número de versión representa una versión principal, tal como se define en las directrices [de versiones](https://semver.org/)semánticas.
+
+Para obtener más información sobre las versiones de componentes principales, consulte la documentación para [desarrolladores de los componentes](developing/guidelines.md)principales.
+
+### Versiones {#releases}
+
+Los componentes principales están disponibles a través de **las versiones** y [representan los artefactos publicados reales disponibles en GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Las versiones se indican con un número decimal del formato X.Y.Z y recopilan todos los componentes principales juntos como un paquete de entrega.
+
+* **Las versiones** principales pueden introducir nuevas versiones de componentes existentes junto con componentes completamente nuevos, así como correcciones de errores estándar. Esto se representa mediante un incremento en el componente X del número de versión.
+* **Las versiones** importantes pueden introducir nuevas funciones a las versiones existentes de los componentes, junto con correcciones de errores. Esto se representa mediante un incremento en el componente Y del número de versión.
+* **Las versiones** menores solo contienen correcciones de errores. Esto se representa mediante un incremento en el componente Z del número de versión.
+
+>[!NOTE]
+>
+>Las versiones pueden contener varias versiones del mismo componente.
+>
+>La misma versión de un componente puede aparecer en varias versiones.
+
+## Compatibilidad con componentes principales {#core-components-support}
+
+Los componentes principales son parte integral de AEM y se admiten tal cual bajo los mismos términos y condiciones en los que se admitirían si fueran parte del inicio rápido.
+
+Al igual que sucede con otras funciones del producto, la regla general de la fecha de vencimiento es:
+
+* Los componentes se anuncian primero como en desuso antes de eliminarse
+* Se eliminarán de la versión de AEM lo antes posible tras realizar el anuncio.
+
+Esto proporciona a los clientes al menos un ciclo de lanzamiento para poder cambiarse a la nueva versión del componente antes de que finalice el servicio de soporte.
+
+La versión de cada componente señala claramente las versiones de AEM que admite. Cuando una versión de AEM deja de ser compatible, también lo deja de ser el componente principal de esa versión de AEM.
+
+Para obtener más detalles sobre la compatibilidad de la personalización de componentes, consulte la página [Personalización de componentes principales](developing/customizing.md) de la versión del componente principal en cuestión.
+
+## Compatibilidad con componentes de base {#foundation-component-support}
+
+Dado que los componentes de base han servido de fundamento en el desarrollo de proyectos en muchas versiones, seguirán recibiendo ayuda técnica en el futuro.
+
+However, Adobe&#39;s development emphasis has shifted to the Core Components and new features will be added to them, whereas [nearly all Foundation Components have been deprecated with AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) and only bug fixes will be made to the Foundation Components going forward.
