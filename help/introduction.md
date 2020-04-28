@@ -2,7 +2,7 @@
 title: Introducción a los componentes principales
 description: 'Los componentes principales se introdujeron para proporcionar componentes básicos sólidos y ampliables, basados en las últimas tecnologías y prácticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: 71c1cca664dde91968df16848650df9f0f0a5218
+source-git-commit: 1c6e27c163f72fd66336e8db883144dc4dd60510
 
 ---
 
@@ -25,11 +25,21 @@ Los componentes principales son un conjunto de componentes de Gestor de contenid
 
 ## Características {#features}
 
-||||—|—||Preparados para la producción| Los componentes principales son 27 componentes sólidos que están bien probados, se utilizan ampliamente y que funcionan bien.||Preparados para la nube| Tanto si se encuentran en [AEM como servicio](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)de nube, en los servicios [gestionados de](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe como in situ, solo funcionan.||Versátil| Los componentes representan conceptos genéricos con los que los autores pueden combinar casi cualquier diseño.||Configurable| Las directivas [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) contenido de nivel de plantilla definen qué funciones pueden utilizar o no los autores de la página.|
-|Accessible| They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+access+in%3Atítulo)).|
-|SEO-Friendly| The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations.||Listo para WebApp| La salida [JSON](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) optimizada permite el procesamiento en el lado del cliente, con la posibilidad de editar [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)en contexto.||Kit de diseño| Un kit de [interfaz de usuario para Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) permite a los diseñadores crear esquemas que, a continuación, pueden [diseñar según sea necesario](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd).|
-|Themeable| The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/).||Personalizable| Varios patrones permiten una personalización [](developing/customizing.md)sencilla, desde ajustar el HTML hasta una reutilización avanzada de la funcionalidad.||Versiones| La directiva [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) versiones garantiza que los componentes principales no interrumpan el sitio al mejorar las cosas que puedan afectarle.|
-|Localizable|Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md).||Abrir fuente| Si algo no es como debería, [contribuya con sus mejoras!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md)|
+|  |  |
+|---|---|
+| Listo para la producción | Los componentes principales son 27 componentes robustos que están bien probados, se utilizan ampliamente y que funcionan bien. |
+| Preparado para la nube | Ya sea en [AEM como servicio](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)de nube, en los servicios [gestionados de](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe o in situ, solo funcionan. |
+| Versátil | Los componentes representan conceptos genéricos con los que los autores pueden ensamblar casi cualquier diseño. |
+| Configurable | Las directivas [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) contenido de nivel de plantilla definen qué funciones pueden utilizar o no los autores de la página. |
+| Accesible | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+access+in%3Atítulo)). |
+| Compatible con SEO | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
+| Listo para WebApp | La salida [JSON](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) optimizada permite el procesamiento en el lado del cliente, con la posibilidad de editar [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)en contexto. |
+| Kit de diseño | Un kit de [interfaz de usuario para Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) permite a los diseñadores crear esquemas que, a continuación, pueden [aplicar estilo según sea necesario](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
+| Themeable | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
+| Personalizable | Varios patrones permiten una personalización [](developing/customizing.md)sencilla, desde ajustar el HTML hasta una reutilización avanzada de la funcionalidad. |
+| Versiones | La directiva [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) versiones garantiza que los componentes principales no interrumpan el sitio al mejorar las cosas que puedan afectarle. |
+| Localizable | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
+| Abrir fuente | Si algo no es como debería, [contribuya con sus mejoras!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
 ## Los componentes {#the-components}
 
