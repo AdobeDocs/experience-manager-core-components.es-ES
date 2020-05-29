@@ -2,9 +2,9 @@
 title: Introducción a los componentes principales
 description: 'Los componentes principales se introdujeron para proporcionar componentes básicos sólidos y ampliables, basados en las últimas tecnologías y prácticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '841'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ Los componentes principales son un conjunto de componentes de Gestor de contenid
 
 * **[Biblioteca de componentes:](https://www.adobe.com/go/aem_cmp_library)**Recopilación de ejemplos para la vista de los componentes en sus distintas configuraciones.
 * **Documentación de componentes (este documento):** Para desarrolladores y autores, con detalles sobre cada componente.
+* **[Repositorio de GitHub de componentes principales:](https://github.com/adobe/aem-core-wcm-components)**Para obtener detalles de desarrollador de cada componente y descarga de proyecto.
 * Introducción:
    * **[Éxito con los componentes principales:](/help/developing/success.md)**Directrices para considerar mucho antes del inicio de cualquier proyecto que vaya a utilizar los componentes principales.
    * **[Tutorial de WKND:](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)**Un tutorial de dos días para crear un nuevo sitio.
@@ -43,6 +44,7 @@ Los componentes principales son un conjunto de componentes de Gestor de contenid
 | Versiones | La directiva [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) versiones garantiza que los componentes principales no interrumpan el sitio al mejorar las cosas que puedan afectarle. |
 | Localizable | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
 | Abrir fuente | Si algo no es como debería, [contribuya con sus mejoras!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
+| Trackable | Los componentes principales se [integran con la capa de datos del cliente de Adobe.](/help/developing/data-layer/overview.md) |
 
 ## Los componentes {#the-components}
 
