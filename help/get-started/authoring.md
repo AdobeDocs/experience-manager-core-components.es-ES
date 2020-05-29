@@ -1,8 +1,11 @@
 ---
 title: Crear con componentes principales
-description: 'En AEM, los componentes son los elementos estructurales que constituyen el contenido de las páginas que se crean: los componentes principales ofrecen una funcionalidad de creación flexible y con muchas funciones.'
+description: 'En AEM, los componentes son los elementos estructurales que constituyen el contenido de las páginas que se crean: oferta de componentes principales, funcionalidad de creación flexible y con muchas funciones.'
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 7%
 
 ---
 
@@ -11,7 +14,7 @@ source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
 
 En Adobe Experience Manager, los componentes son los elementos estructurales que constituyen el contenido de las páginas creadas.
 
-Los componentes principales ofrecen una funcionalidad de creación flexible y rica en funciones. El sitio [de referencia](https://wknd.site) WKND y su informe ilustran cómo se pueden utilizar los componentes principales para implementar una experiencia de sitio web enriquecida.
+La oferta de componentes principales ofrece una funcionalidad de creación flexible y rica en funciones. El sitio [de referencia](https://wknd.site) WKND y su informe ilustran cómo se pueden utilizar los componentes principales para implementar una experiencia de sitio web enriquecida.
 
 Para experimentar los componentes principales y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library)componentes.
 
@@ -39,7 +42,7 @@ Como autor, notará varias ventajas de los componentes principales, entre las qu
 
 * Built to support [responsive layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
-* Creado para admitir la localización [sencilla](localization.md)
+* Diseñado para soportar una localización [sencilla](localization.md)
 
 Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 
@@ -49,7 +52,7 @@ Los componentes se agrupan según categorías denominadas grupos de componentes 
 >
 >Los componentes principales son, de forma predeterminada, parte de un grupo oculto y no están visibles en el navegador de componentes.
 >
->Agregue los componentes necesarios a un grupo visible o personalícelos para que estén disponibles para los autores.
+>Añada los componentes necesarios en un grupo visible o personalícelos para que estén disponibles para los autores.
 
 ## Preconfiguración de componentes principales {#pre-configuring-core-components}
 
@@ -80,50 +83,6 @@ Para obtener más información, consulte la documentación [del sistema](https:/
 >[!NOTE]
 >
 >En AEM 6.3, se requiere el Service Pack 2 (6.3.2.0) o una versión posterior para activar la función del sistema de estilo.
-
-## Lista de componentes principales disponibles {#list-of-core-components-available}
-
-A continuación se muestra una lista de los componentes principales disponibles vinculados a las páginas que describen detalladamente sus funciones de edición y diseño del cuadro de diálogo.
-
-La versión actual de los componentes principales contiene los siguientes componentes.
-
-* [Acordeón](/help/components/accordion.md)
-* [Ruta de navegación](/help/components/breadcrumb.md)
-* [Botón](/help/components/button.md)
-* [Contenedor](/help/components/container.md)
-* [Carrusel](/help/components/carousel.md)
-* [Fragmento de contenido](/help/components/content-fragment-component.md)
-* [Lista de fragmentos de contenido](/help/components/content-fragment-list.md)
-* [Descargar](/help/components/download.md)
-* [Incrustar](/help/components/embed.md)
-* [Fragmento de experiencias](/help/components/experience-fragment.md)
-* [Botón de formulario](/help/components/forms/form-button.md)
-* [Contenedor del formulario](/help/components/forms/form-container.md)
-* [Formulario oculto](/help/components/forms/form-hidden.md)
-* [Opciones de formulario](/help/components/forms/form-options.md)
-* [Texto de formulario](/help/components/forms/form-text.md)
-* [Imagen](/help/components/image.md)
-* [Navegación por idiomas](/help/components/language-navigation.md)
-* [Lista](/help/components/list.md)
-* [Navegación](/help/components/navigation.md)
-* [Página](/help/components/page.md)
-* [Búsqueda rápida](/help/components/quick-search.md)
-* [Separador](/help/components/separator.md)
-* [Compartir en redes sociales](/help/components/sharing.md)
-* [Pestañas](/help/components/tabs.md)
-* [Texto](/help/components/text.md)
-* [Título](/help/components/title.md)
-
->[!CAUTION]
->
->Puede que algunas versiones de los componentes principales individuales solo sean compatibles con algunas versiones de AEM.
->
->Consulte la página de ayuda individual (vinculada a la lista anterior) para obtener información sobre la compatibilidad de componentes específicos o consulte el documento [Versiones de componentes principales](/help/versions.md) para obtener más información.
-
->[!NOTE]
->
->En función de su instancia, puede disponer de componentes personalizados desarrollados explícitamente para sus necesidades. Pueden tener incluso el mismo nombre que algunos de los componentes mencionados aquí.
->Los componentes principales del formulario no están relacionados con AEM Forms.
 
 ## Medios del desarrollador {#developer-resources}
 
