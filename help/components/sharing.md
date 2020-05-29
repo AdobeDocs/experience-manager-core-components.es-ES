@@ -2,7 +2,10 @@
 title: Componente de uso compartido en redes sociales
 description: El componente principal de uso compartido en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 2%
 
 ---
 
@@ -23,11 +26,11 @@ La versión actual del componente de uso compartido en redes sociales es v1, que
 
 La siguiente tabla detalla todas las versiones compatibles del componente y las versiones de AEM con las que las versiones del componente son compatibles.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](/help/versions.md)principales.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -41,7 +44,14 @@ Encontrará más detalles sobre el desarrollo de los componentes principales en 
 
 ## Edit Dialog {#edit-dialog}
 
-Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe habilitarse en el nivel de página. Por lo tanto, para el autor del contenido, las opciones de edición para el componente de uso compartido están disponibles a través de la ficha de uso compartido las propiedades [de la](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)página.
+![Cuadro de diálogo de edición del componente Compartir](/help/assets/sharing-edit.png)
+
+* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
+   * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+   * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+   * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
+
+Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe habilitarse en el nivel de página. Por lo tanto, para el autor del contenido, hay disponibles opciones de edición adicionales para el componente de uso compartido mediante la ficha de uso compartido las propiedades [de la](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html)página.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
