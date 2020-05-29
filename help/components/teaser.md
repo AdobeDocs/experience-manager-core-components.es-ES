@@ -2,7 +2,10 @@
 title: Componente teaser
 description: El componente teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a otro contenido.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '751'
+ht-degree: 2%
 
 ---
 
@@ -19,13 +22,13 @@ El autor de la plantilla puede utilizar el cuadro de diálogo [de](#design-dialo
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Teaser es v1, que se introdujo con la versión 2.1.0 de los componentes principales en julio de 2018, y se describe en este documento.
+La versión actual del componente Teaser es v1, que se introdujo con la versión 2.1.0 de los componentes principales en julio de 2018 y se describe en este documento.
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|---|---|---|---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -43,7 +46,7 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
 
 ### Imagen {#image}
 
-![](/help/assets/screen_shot_2018-07-03at104125.png)
+![Ficha de imagen del cuadro de diálogo de edición del componente Teaser](/help/assets/teaser-edit-image.png)
 
 * **Recurso de imagen**
    * Suelte un recurso del navegador [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) recursos o toque la opción de **exploración** para cargarlo desde un sistema de archivos local.
@@ -52,19 +55,24 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
 
 ### Texto {#text}
 
-![](/help/assets/screen_shot_2018-07-03at104138.png)
+![Ficha de texto del cuadro de diálogo de edición del componente Teaser](/help/assets/teaser-edit-text.png)
 
-* **Título** Define un título para que se muestre como titular para el teaser.
-* **Obtener título de una página** vinculada Cuando se selecciona, el título se rellena con el título de la página vinculada.
-* **Descripción** Define una descripción para que se muestre como el subtítulo del teaser.
-* **Obtener descripción de la página** vinculada Cuando se selecciona, la descripción se rellena con la descripción de la página vinculada.
+* **Pretítulo** : el pretítulo se mostrará antes del título del teaser.
+* **Título** : define un título para que se muestre como titular para el teaser.
+   * **Obtener título de una página** vinculada: cuando se selecciona, el título se rellena con el título de la página vinculada.
+* **Descripción** : define una descripción para que se muestre como el subtítulo del teaser.
+   * **Obtener descripción de la página** vinculada: cuando se selecciona, la descripción se rellena con la descripción de la página vinculada.
+* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
+   * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+   * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+   * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
 
 ### Vínculos y acciones {#links-actions}
 
-![](/help/assets/screen_shot_2018-07-03at104146.png)
+![Ficha de vínculo del cuadro de diálogo de edición del componente Teaser](/help/assets/teaser-edit-link.png)
 
-* **Vínculo** aplicado al teaser. Utilice el navegador de rutas para seleccionar el destino del vínculo.
-* **Habilitar llamada a acción** Cuando está activada, habilita la definición de llamada a acción. El primer vínculo de llamada a acción de la lista se utiliza como vínculo para otros elementos de teaser.
+* **Vínculo** : vínculo aplicado al teaser. Utilice el navegador de rutas para seleccionar el destinatario del vínculo.
+* **Habilitar llamada a acción** : cuando está activada, habilita la definición de llamada a acción. El primer vínculo de llamada a acción de la lista se utiliza como vínculo para otros elementos de teaser.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -76,19 +84,20 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir las op
 
 ### Ficha Teaser {#teaser-tab}
 
-![](/help/assets/screen_shot_2018-07-03at105958.png)
+![Cuadro de diálogo de diseño del componente Teaser](/help/assets/teaser-design.png)
 
 * **Llamadas a la acción**
-   * **Deshabilitar llamada a acción** Ocultar la opción de **llamada a acción** para autores de contenido
+   * **Deshabilitar llamada a acción** : ocultar la opción de **llamada a acción** para autores de contenido
 * **Elementos**
-   * **Ocultar título**
-      * Oculta la opción **Título** para autores de contenido
+   * **Ocultar pretítulo** : oculta la opción **Pretítulo** para autores de contenido
+   * **Ocultar título** : oculta la opción **Título** para autores de contenido
       * Cuando se selecciona, el tipo **de** título está oculto
-   * **Ocultar descripción** Ocultar la opción **Descripción** para autores de contenido
-* **Tipo** de títuloDefine la etiqueta H que utilizará el título del teaser.
+   * **Ocultar descripción** - Ocultar la opción **Descripción** para autores de contenido
+* **Tipo** de título: define la etiqueta H que se utilizará en el título del teaser.
 * **Vínculos**
-   * **No vincular la imagen** Cuando se selecciona, la imagen de teaser no está vinculada
-   * **No vincular el título** Cuando se selecciona, el título del teaser no está vinculado
+   * **No vincular la imagen** : cuando se selecciona, la imagen de teaser no está vinculada
+   * **No vincular el título** : cuando se selecciona, el título del teaser no está vinculado
+* **Delegado** de imagen: visualización informativa que indica a qué componente delega el teaser la gestión de imágenes.
 
 ### Ficha Estilos {#styles-tab}
 
