@@ -2,7 +2,10 @@
 title: Componente de fragmento de contenido
 description: El componente Fragmento de contenido del componente principal permite la visualización de un fragmento de contenido.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '659'
+ht-degree: 5%
 
 ---
 
@@ -25,13 +28,13 @@ El componente de fragmento de contenido del componente principal permite la incl
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Fragmento de contenido es v1, que se introdujo con la versión 1.1.0 de los componentes principales en octubre de 2017 y se describe en este documento.
+La versión actual del componente Fragmento de contenido es v1, que se presentó con la versión 1.1.0 de los componentes principales en octubre de 2017 y se describe en este documento.
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible |
 
 >[!NOTE]
 >
@@ -45,7 +48,7 @@ En la tabla siguiente se detallan todas las versiones compatibles del componente
 >
 >Aunque ambos son v1, cualquier componente de fragmento de contenido que se haya utilizado desde la carpeta de extensiones requerirá una migración de sus componentes proxy relacionados para utilizar el nuevo tipo de recurso al actualizar a la versión 2.4.0 o superior de los componentes principales.
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](/help/versions.md)principales.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -61,14 +64,19 @@ Encontrará más detalles sobre el desarrollo de los componentes principales en 
 
 El cuadro de diálogo de configuración permite al autor del contenido definir qué fragmento de contenido y los elementos de ese fragmento se incluirán.
 
-![](/help/assets/chlimage_1-87.png)
+### Ficha Propiedades {#properties-tab}
+
+![Componente de fragmento de contenido](/help/assets/content-fragment-edit-properties.png)
 
 * **Fragmento de contenido**
 
    * Ruta al fragmento de contenido deseado
    * El cuadro de diálogo **** Selección se puede utilizar para localizar el fragmento
 
-* **Elemento** : el elemento del fragmento de contenido que se va a incluir
+* **Modo de visualización**
+   * **Elemento** de texto único: activa la selección de un elemento de texto multilínea y activa las opciones de control de párrafo
+   * **Varios elementos** : permite seleccionar uno o varios elementos del fragmento de contenido seleccionado
+* **Elemento** : elemento o elementos del fragmento de contenido que se van a incluir
 * **Variación** : variación del fragmento de contenido que se va a utilizar (el valor predeterminado es **Principal**)
 
 * **Párrafos**
@@ -78,18 +86,25 @@ El cuadro de diálogo de configuración permite al autor del contenido definir q
 
       * Especifique rangos de párrafos que se deben mostrar, separados por punto y coma
       * Por ejemplo `1;3-5;7;9-*` para incluir los párrafos primero, tercero a quinto, séptimo y noveno a los últimos
+* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
+   * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+   * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+   * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
 
+### Ficha Control de párrafo {#paragraph-control-tab}
+
+Esta ficha no está disponible cuando se selecciona el modo Elementos **** múltiples.
+
+![Componente de fragmento de contenido](/help/assets/content-fragment-edit-paragraph.png)
+
+* **Párrafos** : permite seleccionar todos los párrafos o un rango
 * **Tratar el encabezado como sus propios párrafos**
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir los tipos de recursos utilizados para gestionar las imágenes de medios mixtos y las cuadrículas interactivas.
 
-![](/help/assets/chlimage_1-88.png)
-
-* **Tipo de imagen de medios mixtos**
-
-   * Un tipo de recurso de sling que se utiliza para procesar imágenes de medios mixtos
+![Cuadro de diálogo Diseño del componente Fragmento de contenido](/help/assets/content-fragment-design.png)
 
 * **Cuadrícula interactiva interna**
 
