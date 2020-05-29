@@ -2,7 +2,10 @@
 title: Componente de título
 description: El componente Título del componente principal es un componente de encabezado de sección que incluye la edición in-situ.
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '558'
+ht-degree: 3%
 
 ---
 
@@ -17,16 +20,16 @@ El componente Título está diseñado para utilizarse como título o encabezado 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Título es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
+La versión actual del componente Título es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](v1/title-v1.md) | Compatible | Compatible | Compatible | - |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](/help/versions.md)principales.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -45,16 +48,20 @@ El cuadro de diálogo de edición permite al autor del contenido definir el text
 * **Título** : si está vacío, se utilizará el título de la página
 * **Tipo/Tamaño** : define el nivel de encabezado del título
 * **Vínculo** : define el contenido al que se vinculará el título. Puede ser una ruta a una página de contenido, una dirección URL externa o un anclaje de página.
+* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
+   * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+   * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+   * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
 
-![](/help/assets/screenshot_2018-10-19at110055.png)
+![Cuadro de diálogo de edición del componente Título](/help/assets/title-edit.png)
 
->[!CAUTION]
+>[!NOTE]
 >
 >La capacidad de definir un vínculo para el título se introdujo con la versión 2.2.0 de los componentes principales.
 
 El editor in-situ también puede utilizarse para editar el texto del componente de título.
 
-![](/help/assets/chlimage_1-37.png)
+![Edición in situ del componente Título](/help/assets/title-edit-inline.png)
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
@@ -62,13 +69,13 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir el niv
 
 ### Ficha Tamaños {#sizes-tab}
 
-![](/help/assets/screenshot_2018-10-19at110120.png)
+![Cuadro de diálogo de diseño del componente Título](/help/assets/title-design.png)
 
 * **Tipos permitidos / Tamaños para autores** : habilite o deshabilite los tipos de encabezados que estarán disponibles para los autores de contenido cuando usen el componente Título.
 * **Tipo/Tamaño** predeterminado: defina el tipo de encabezado que se asignará automáticamente cuando un autor de contenido agregue el componente Título a una página.
 * **Deshabilitar vínculo**: deshabilite la compatibilidad con vínculos en el componente de título para impedir que los autores de contenido se vinculen desde títulos.
 
->[!CAUTION]
+>[!NOTE]
 >
 >La capacidad de definir un vínculo para el título se introdujo con la versión 2.2.0 de los componentes principales.
 
