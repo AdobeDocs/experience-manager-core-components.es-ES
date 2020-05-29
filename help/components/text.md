@@ -2,7 +2,10 @@
 title: Componente de texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
 translation-type: tm+mt
-source-git-commit: 4df8e147fc9d0151c3a211473b067c78b807e52e
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '2202'
+ht-degree: 3%
 
 ---
 
@@ -23,9 +26,9 @@ La versión actual del componente de texto es v2, que se introdujo con la versi�
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](v1/text-v1.md) | Compatible | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
@@ -54,11 +57,11 @@ El resto de este artículo muestra la configuración estándar del componente de
 
 El cuadro de diálogo de edición oferta las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan texto.
 
-![](/help/assets/screen_shot_2018-01-11at143025.png)
+![Cuadro de diálogo de edición del componente de texto](/help/assets/text-edit.png)
 
 ### Negrita
 
-![](/help/assets/screen_shot_2018-01-11at125602.png)
+![Icono de negrita](/help/assets/text-bold.png)
 
 Se utiliza para aplicar formato de negrita al texto seleccionado o para aplicar formato negrita al texto introducido después del cursor.
 
@@ -66,7 +69,7 @@ Se utiliza para aplicar formato de negrita al texto seleccionado o para aplicar 
 
 ### Cursiva
 
-![](/help/assets/screen_shot_2018-01-11at125609.png)
+![Icono cursiva](/help/assets/text-italic.png)
 
 Se utiliza para aplicar formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor.
 
@@ -74,7 +77,7 @@ Se utiliza para aplicar formato en cursiva al texto seleccionado o texto en curs
 
 ### Subrayado
 
-![](/help/assets/screen_shot_2018-01-11at125615.png)
+![Icono Subrayado](/help/assets/text-underline.png)
 
 Se utiliza para aplicar formato subrayado al texto seleccionado o para subrayar el texto introducido después del cursor.
 
@@ -82,45 +85,46 @@ Se utiliza para aplicar formato subrayado al texto seleccionado o para subrayar 
 
 ### Subíndice
 
-![](/help/assets/screen_shot_2018-01-11at125703.png)
+![Icono de subíndice](/help/assets/text-subscript.png)
 
 Se utiliza para dar formato al texto seleccionado o al texto introducido después del cursor como subíndice.
 
 ### Superíndice
 
-![](/help/assets/screen_shot_2018-01-11at125708.png)
+![Icono Superíndice](/help/assets/text-superscript.png)
 
 Se utiliza para dar formato al texto seleccionado o al texto introducido después del cursor como superíndice.
 
 ### Pegar como texto
 
-![](/help/assets/screen_shot_2018-01-11at125713.png)
+![Pegar como icono de texto](/help/assets/text-paste-text.png)
 
 Pega el texto copiado como texto sin formato sin ningún formato.
 
 Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como previsualización antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
 
-![](/help/assets/screen_shot_2018-01-11at143234.png)
+![Pegar como ejemplo de texto](/help/assets/text-paste-text-example.png)
 
 ### Pegar desde Word
 
-![](/help/assets/screen_shot_2018-01-11at125717.png)
+![Pegar desde el icono de Word](/help/assets/text-paste-word.png)
 
 Al seleccionar esta opción, se abre una ventana en la que se puede pegar el texto manteniendo su formato como previsualización antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
 
-![](/help/assets/screen_shot_2018-01-11at143250.png)
+![Ejemplo de Pegar desde Word](/help/assets/text-paste-word-example.png)
 
 ### Hipervínculo
 
-![](/help/assets/screen_shot_2018-01-11at125839.png)
+![Icono de hipervínculo](/help/assets/text-hyperlink.png)
 
 Utilice esta opción para convertir el texto seleccionado en un hipervínculo o modificar un vínculo ya definido. Esta opción solo está activa cuando el texto ya está seleccionado y abre una ventana con opciones adicionales para configurar el vínculo.
 
-![](/help/assets/screen_shot_2018-01-11at130003.png)
+![Ejemplo de hipervínculo](/help/assets/text-hyperlink-example.png)
 
-* Introduzca la ubicación
+* Introduzca la ruta
    * Utilice el cuadro de diálogo Abrir selección para elegir una ruta en AEM
-   * Si el vínculo no está dentro de AEM, introduzca la dirección URL absoluta (las rutas no absolutas se interpretan como relativas a AEM)
+   * Si el vínculo no está dentro de AEM, introduzca la dirección URL absoluta
+      * Las rutas no absolutas se interpretan como relativas a AEM
 * Escriba un texto descriptivo alternativo para el vínculo
 * Seleccionar comportamiento de vínculo
    * Destino
@@ -132,71 +136,72 @@ Utilice esta opción para convertir el texto seleccionado en un hipervínculo o 
 
 ### Desvincular
 
-![](/help/assets/screen_shot_2018-01-11at125901.png)
+![Icono Desvincular](/help/assets/text-unlink.png)
 
 Utilice esta opción para eliminar un vínculo ya aplicado al texto seleccionado. Esta opción solo está activa cuando ya se ha seleccionado un vínculo.
 
 ### Buscar
 
-![](/help/assets/screen_shot_2018-01-11at125906.png)
+![Icono Buscar](/help/assets/text-find.png)
 
 Utilice esta opción para buscar en el texto la aparición de una cadena de texto especificada. Al seleccionar esta opción se abre una ventana para especificar las opciones de búsqueda.
 
-![](/help/assets/screen_shot_2018-01-11at130107.png)
+![Ejemplo de búsqueda](/help/assets/text-find-example.png)
 
 Escriba el texto para el cual desee buscar y toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
 Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
 Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de búsqueda se atenúa. Toque o haga clic en el botón **Buscar** de nuevo en el cuadro de diálogo atenuado para buscar la siguiente incidencia.
 
-![](/help/assets/screen_shot_2018-01-11at130145.png)
+![Encontrar ejemplo](/help/assets/text-find-example-found.png)
 
 Si no se encuentran más incidencias, se mostrará un mensaje y la búsqueda se reiniciará desde el principio del texto.
 
-![](/help/assets/screen_shot_2018-01-11at130241.png)
+![Buscar ejemplo sin más ocurrencias](/help/assets/text-find-example-found-end.png)
 
 ### Reemplazar
 
-![](/help/assets/screen_shot_2018-01-11at125910.png)
+![Reemplazar icono](/help/assets/text-replace.png)
 
 Utilice esta opción para buscar en el texto ocurrencias de una cadena de texto especificada y reemplazar las coincidencias por otra cadena. Al seleccionar esta opción se abre una ventana para especificar las opciones de búsqueda y reemplazo.
 
-![](/help/assets/screen_shot_2018-01-11at130441.png)
+![Reemplazar ejemplo](/help/assets/text-replace-example.png)
 
 Escriba el texto para el que desea buscar, así como el texto con el que debe reemplazarse.
 
-Toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
-
-Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
+* Toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
+* Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
+* Seleccione **Reemplazar todo** para reemplazar todas las apariciones del texto a la vez.
 
 Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de búsqueda se atenúa. Vuelva a hacer clic en el botón **Buscar** del cuadro de diálogo atenuado para buscar la siguiente incidencia o seleccione el botón **Reemplazar** para reemplazar el texto resaltado y coincidente. Tenga en cuenta que el botón **Reemplazar** solo está activo una vez que se ha realizado una coincidencia.
 
-Seleccione **Reemplazar todo** para reemplazar todas las apariciones del texto a la vez.
-
-Al utilizar la funcionalidad de reemplazo, la cadena de reemplazo que se va a reemplazar debe introducirse al mismo tiempo que la cadena de búsqueda. Sin embargo, puede seguir haciendo clic en buscar para buscar la cadena antes de reemplazarla. Si se introduce la cadena de reemplazo después de hacer clic en Buscar, la búsqueda se restablece al principio del texto.
-
 El cuadro de diálogo Buscar y reemplazar se vuelve transparente cuando se hace clic en Buscar y se vuelve opaco cuando se hace clic en reemplazar. Esto permite al autor revisar el texto que sustituirá.
+
+>[!NOTE]
+>
+>Al utilizar la funcionalidad de reemplazo, la cadena de reemplazo que se va a reemplazar debe introducirse al mismo tiempo que la cadena de búsqueda. Sin embargo, puede seguir haciendo clic en buscar para buscar la cadena antes de reemplazarla. Si se introduce la cadena de reemplazo después de hacer clic en Buscar, la búsqueda se restablece al principio del texto.
+
 
 ### Alinear texto a la izquierda
 
-![](/help/assets/screen_shot_2018-01-11at142012.png)
+![Icono Alinear a la izquierda](/help/assets/text-left.png)
 
 Se utiliza para alinear el texto con el margen izquierdo.
 
 ### Centrar texto
 
-![](/help/assets/screen_shot_2018-01-11at142017.png)
+![Icono Centrar texto](/help/assets/text-center.png)
 
 Se utiliza para centrar el texto.
 
 ### Alinear texto a la derecha
 
-![](/help/assets/screen_shot_2018-01-11at142021.png)
+![Icono Alinear a la derecha](/help/assets/text-right.png)
 
 Se utiliza para alinear el texto con el margen derecho.
 
 ### Viñeta
 
-![](/help/assets/screen_shot_2018-01-11at142025.png)
+![Icono de viñeta](/help/assets/text-bullet.png)
 
 Se utiliza para dar formato al texto seleccionado como una lista con viñetas o iniciar la inserción de una lista con viñetas después del cursor.
 
@@ -204,7 +209,7 @@ Para finalizar una lista con viñetas, toque o haga clic de nuevo en el botón *
 
 ### Numerado
 
-![](/help/assets/screen_shot_2018-01-11at142030.png)
+![Icono de lista numerada](/help/assets/text-numbered.png)
 
 Se utiliza para dar formato al texto seleccionado como una lista numerada o para comenzar la inserción de una lista numerada después del cursor.
 
@@ -212,7 +217,7 @@ Para finalizar una lista numerada, toque o haga clic de nuevo en el botón **Num
 
 ### Anular sangría
 
-![](/help/assets/screen_shot_2018-01-11at141917.png)
+![Icono de Anular sangría](/help/assets/text-outdent.png)
 
 Se utiliza para reducir el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
 
@@ -220,37 +225,35 @@ Solo se activa si el texto o la posición seleccionados del cursor ya están san
 
 ### Sangría
 
-![](/help/assets/screen_shot_2018-01-11at141922.png)
+![Icono de sangría](/help/assets/text-outdent.png)
 
 Se utiliza para aumentar el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
 
 ### Tabla
 
-![](/help/assets/screen_shot_2018-01-11at141928.png)
+![Icono de tabla](/help/assets/text-table.png)
 
 Se utiliza para insertar una tabla en el texto. Al seleccionar esta opción se abre una ventana para especificar los detalles de la tabla.
 
-![](/help/assets/screen_shot_2018-01-11at142405.png)
+![Ejemplo de tabla](/help/assets/text-table-example.png)
 
-* **Columnas** El número de columnas de la tabla (obligatorio)
-* **Filas** El número de filas de la tabla (requerido)
-* **Anchura**
-La anchura de la tabla
-* **Altura**
-La altura de la tabla
-* **Relleno** de celdas El espacio alrededor del contenido de la celda
-* **Espaciado** de celdas El espacio entre celdas
-* **Borde** El peso de las líneas de borde de la tabla
-* Si para el encabezado de la tabla:
-   * Se debe utilizar la primera fila
-   * Debe utilizarse la primera columna
-   * Debe utilizarse la primera fila y la primera columna
-   * O bien, no se debe utilizar ningún encabezado.
-* **Rótulo** El rótulo de la tabla
+* **Columnas** : el número de columnas de la tabla (obligatorio)
+* **Filas** : el número de filas de la tabla (obligatorio)
+* **Anchura** : anchura de la tabla
+* **Altura** : altura de la tabla
+* **Relleno** de celdas: el espacio alrededor del contenido de la celda
+* **Espaciado** de celdas: el espacio entre celdas
+* **Borde** : peso de las líneas de borde de la tabla
+   * Si para el encabezado de la tabla:
+      * Se debe utilizar la primera fila
+      * Debe utilizarse la primera columna
+      * Debe utilizarse la primera fila y la primera columna
+      * O bien, no se debe utilizar ningún encabezado.
+* **Rótulo** : el rótulo de la tabla
 
 ### Revisar ortografía
 
-![](/help/assets/screen_shot_2018-01-11at141935.png)
+![Revisar el icono ortográfico](/help/assets/text-spellcheck.png)
 
 Se utiliza para revisar la ortografía del contenido del texto. Los posibles errores ortográficos se ven subrayados con líneas rojas rotas rotas.
 
@@ -258,17 +261,17 @@ Encontrará más información sobre la revisión ortográfica y la personalizaci
 
 ### Caracteres especiales {#special-characters}
 
-![](/help/assets/screen_shot_2018-01-11at142600.png)
+![Icono de caracteres especiales](/help/assets/text-special-characters.png)
 
 Se utiliza para insertar caracteres especiales en el texto. Al seleccionar esta opción, se abre una ventana donde se muestran los caracteres disponibles.
 
-![](/help/assets/screen_shot_2018-01-11at142635.png)
+![Ejemplo de caracteres especiales](/help/assets/text-special-characters-example.png)
 
 Toque o haga clic en el carácter que desee para insertarlo en el texto después del cursor. Se pueden insertar varios caracteres. Toque o haga clic en la x para cerrar la ventana de selección.
 
 ### Modificar código fuente
 
-![](/help/assets/screen_shot_2018-01-11at142746.png)
+![Icono de edición de origen](/help/assets/text-source.png)
 
 Se utiliza para vista y modificación del origen HTML del texto.
 
@@ -286,15 +289,25 @@ Toque o haga clic en el icono Editar **** origen para cambiar el contenido del t
 
 ### Formato de párrafo
 
-![](/help/assets/screen_shot_2018-01-11at142752.png)
+![Icono de formato de párrafo](/help/assets/text-paragraph.png)
 
 Se utiliza para aplicar formato de párrafo al texto seleccionado o al texto insertado después del cursor. Al seleccionar estas opciones se abre una lista desplegable desde la que se selecciona el formato de párrafo.
 
-![](/help/assets/screen_shot_2018-01-11at142828.png)
+![Ejemplo de formato de párrafo](/help/assets/text-paragraph-example.png)
+
+### Edición en línea {#in-line-editing}
 
 El componente de texto también se puede editar en línea, pero debido a limitaciones de espacio, no todas las opciones de formato están disponibles en línea. Para ver todas las opciones, cambie al modo de pantalla completa.
 
-![](/help/assets/screen_shot_2018-01-11at142921.png)
+![Ejemplo de edición en línea](/help/assets/text-edit-inline-example.png)
+
+### Configuración e ID {#setting-id}
+
+Esta opción permite controlar el identificador único del componente en el HTML y en la capa [](/help/developing/data-layer/overview.md)de datos.
+
+* Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+* Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+* Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
@@ -306,7 +319,7 @@ La ficha Complementos se utiliza para habilitar y deshabilitar varias opciones d
 
 ### Características {#features}
 
-![](/help/assets/chlimage_1-28.png)
+![Funciones del cuadro de diálogo Diseño](/help/assets/text-design-features.png)
 
 Las siguientes funciones se pueden activar o desactivar para el componente.
 
@@ -314,24 +327,25 @@ Las siguientes funciones se pueden activar o desactivar para el componente.
 * Pasado de la palabra
 * Buscar y reemplazar
 * Corrector ortográfico
-* Edición de código fuente
+* Opciones de modificación de imágenes insertadas
+* Edición de código HTML
 
 ### Formato {#formatting}
 
-![](/help/assets/chlimage_1-29.png)
+![Formato del cuadro de diálogo Diseño](/help/assets/text-design-formatting.png)
 
 Las siguientes opciones de formato se pueden activar o desactivar para el componente.
 
 * Tabla
-* Listas
-* Alineación
+* Listas (viñeta, número, sangría, sangría)
+* Alineación (izquierda, derecha, centrada)
 * Negrita, cursiva, subrayado
-* Vínculos
+* Vinculación (y desvinculación)
 * Subíndice/superíndice
 
 ### Estilos de párrafo {#paragraph-styles}
 
-![](/help/assets/chlimage_1-30.png)
+![Estilos de párrafo del cuadro de diálogo Diseño](/help/assets/text-design-paragraph.png)
 
 Los estilos de párrafo se pueden activar o desactivar para el componente. Cuando se activa, se pueden definir los formatos permitidos.
 
@@ -340,9 +354,9 @@ Los estilos de párrafo se pueden activar o desactivar para el componente. Cuand
 * Para eliminar un estilo, toque o haga clic en el botón **Eliminar** .
 * Para reorganizar el orden de los formatos, toque o haga clic y arrastre los controladores.
 
-### Configuración de caracteres especiales {#configuring-special-characters}
+### Caracteres especiales {#configuring-special-characters}
 
-![](/help/assets/chlimage_1-31.png)
+![Caracteres especiales del cuadro de diálogo Diseño](/help/assets/text-design-special-characters.png)
 
 La opción para insertar caracteres especiales se puede activar o desactivar para el componente. Cuando se activa, se pueden definir los caracteres permitidos.
 
