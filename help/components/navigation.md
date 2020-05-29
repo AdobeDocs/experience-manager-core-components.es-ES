@@ -2,7 +2,10 @@
 title: Componente de navegación
 description: El componente de navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '1369'
+ht-degree: 1%
 
 ---
 
@@ -13,7 +16,7 @@ El componente de navegación permite a los usuarios navegar fácilmente por una 
 
 ## Uso {#usage}
 
-El componente de navegación enumera un árbol de páginas para que los usuarios de un sitio puedan navegar fácilmente por la estructura del sitio.
+El componente de navegación lista una lista de un árbol de páginas para que los usuarios de un sitio puedan navegar fácilmente por la estructura del sitio.
 
 El componente de navegación puede detectar automáticamente la estructura del sitio globalizada y [adaptarse automáticamente a una página localizada.](#localized-site-structure) Además, puede admitir cualquier estructura de sitio arbitraria mediante el uso de páginas [de redireccionamiento de](#shadow-structure) sombra para representar otra estructura distinta a la estructura de contenido principal.
 
@@ -24,7 +27,7 @@ El cuadro de diálogo [de](#edit-dialog) edición permite al autor del contenido
 Los sitios web se proporcionan a menudo en varios idiomas en diferentes regiones. Normalmente, cada página localizada contendrá un elemento de navegación que se incluye como parte de la plantilla de página. El componente de navegación le permite colocarlo una vez en una plantilla para todas las páginas del sitio y luego se adaptará automáticamente para las páginas localizadas individuales en función de la estructura del sitio globalizado.
 
 * Para ver un ejemplo de cómo funciona la función de localización del componente de navegación, consulte [la sección siguiente](#example-localization).
-* Para ver un ejemplo de cómo funcionan conjuntamente las funciones de localización de los componentes principales, consulte la página [Características de](/help/get-started/localization.md)localización de la páginaComponentes principales.
+* Para ver un ejemplo de cómo funcionan conjuntamente las funciones de localización de los componentes principales, consulte la página [Características de la](/help/get-started/localization.md)Localización de la páginaComponentes principales.
 
 ### Ejemplo {#example-localization}
 
@@ -32,7 +35,7 @@ Supongamos que su contenido tiene este aspecto:
 
 ```
 /content
-+-- we-retail
++-- wknd
    +-- language-masters
       +-- de
          \-- experience
@@ -58,13 +61,13 @@ Supongamos que su contenido tiene este aspecto:
 \-- wknd-shop
 ```
 
-Para el sitio We.Retail, probablemente desee colocar el componente de navegación en una plantilla de página como parte del encabezado. Una vez que forme parte de la plantilla, puede establecer la raíz **de** navegación del componente en `/content/we-retail/language-masters/en` , ya que es ahí donde comienza el contenido maestro de ese sitio. Quizás también desee configurar la profundidad **de la estructura de** navegación `2` , ya que probablemente no desee que el componente muestre todo el árbol de contenido, sino los dos primeros niveles para que funcione como información general.
+Para el sitio We.Retail, probablemente desee colocar el componente de navegación en una plantilla de página como parte del encabezado. Una vez que forme parte de la plantilla, puede establecer la raíz **de** navegación del componente en `/content/wknd/language-masters/en` , ya que es ahí donde comienza el contenido maestro de ese sitio. Quizás también desee configurar la profundidad **de la estructura de** navegación `2` , ya que probablemente no desee que el componente muestre todo el árbol de contenido, sino los dos primeros niveles para que funcione como información general.
 
-Con el valor Raíz **de** navegación, el componente de navegación sabe que después de `/content/we-retail/language-masters/en` eso comienza la navegación y puede generar opciones de navegación recurriendo a la estructura del sitio dos niveles hacia abajo (como se define en el valor Profundidad **de la estructura de** navegación).
+Con el valor Raíz **de** navegación, el componente de navegación sabe que después de `/content/wknd/language-masters/en` eso comienza la navegación y puede generar opciones de navegación recurriendo a la estructura del sitio dos niveles hacia abajo (como se define en el valor Profundidad **de la estructura de** navegación).
 
 Independientemente de la página localizada que esté viendo un usuario, el componente Navegación puede encontrar la página localizada correspondiente si conoce la ubicación de la página actual, retrocede a la raíz y luego reenvía a la página correspondiente.
 
-Así, si un visitante está viendo `/content/ch/de/experience/arctic-surfing-in-lofoten`el componente sabe generar la estructura de navegación basada en `/content/we-retail/language-masters/de`. Del mismo modo, si el visitante está viendo `/content/us/en/experience/arctic-surfing-in-lofoten`el componente sabe generar la estructura de navegación basada en `/content/we-retail/language-masters/en`.
+Así, si se visualiza un visitante `/content/ch/de/experience/arctic-surfing-in-lofoten`, el componente sabe generar la estructura de navegación basada en `/content/wknd/language-masters/de`. Del mismo modo, si el visitante está viendo `/content/us/en/experience/arctic-surfing-in-lofoten`, el componente sabe generar la estructura de navegación basada en `/content/wknd/language-masters/en`.
 
 ## Compatibilidad con la estructura del sitio de sombra {#shadow-structure}
 
@@ -91,11 +94,11 @@ La versión actual del componente de navegación es v1, que se introdujo con la 
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|--- |--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](/help/versions.md)principales.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -109,7 +112,7 @@ Encontrará más detalles sobre el desarrollo de los componentes principales en 
 
 >[!NOTE]
 >
->A partir de la versión 2.1.0 de los componentes principales, el componente de navegación admite microdatos [de](https://schema.org)schema.org.
+>A partir de la versión 2.1.0 de los componentes principales, el componente de navegación admite microdatos [de](https://schema.org)esquema.org.
 
 ## Edit Dialog {#edit-dialog}
 
@@ -117,7 +120,7 @@ En el cuadro de diálogo de edición, el autor del contenido puede definir la p�
 
 ### Ficha Propiedades {#properties-tab}
 
-![](/help/assets/screen-shot-2019-12-04at12.50.51.png)
+![Ficha Propiedades del cuadro de diálogo de edición del componente de navegación](/help/assets/navigation-edit-properties.png)
 
 * **Raíz** de navegación: página raíz que se utilizará para generar el árbol de navegación.
 * **Excluir niveles** raíz: a menudo, la raíz no se debe incluir en la navegación. Esta opción le permite especificar cuántos niveles superiores de la raíz desea excluir. Por ejemplo:
@@ -127,10 +130,15 @@ En el cuadro de diálogo de edición, el autor del contenido puede definir la p�
    * etc.
 * **Recopilar todas las páginas** secundarias: recopile todas las páginas que sean descendientes de la raíz de navegación.
 * **Profundidad** de la estructura de navegación: define cuántos niveles por debajo del árbol de navegación debe mostrarse el componente en relación con la raíz de navegación (solo disponible cuando no está seleccionada la opción **Recopilar todas las páginas** secundarias).
+* **Deshabilitar sombreado** : si la página en la jerarquía es una redirección, se mostrará el nombre de la página de redirección en lugar del destinatario. Para obtener más información, consulte la Compatibilidad [con la estructura del sitio de](#shadow-structure) sombra.
+* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
+   * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+   * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+   * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
 
 ### Ficha Accesibilidad {#accessibility-tab}
 
-![](/help/assets/screen-shot-2019-08-29-12.23.53.png)
+![Ficha de accesibilidad del cuadro de diálogo de edición del componente de navegación](/help/assets/navigation-edit-accessibility.png)
 
 En la ficha **Accesibilidad** , se pueden definir valores para las etiquetas de accesibilidad [de](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA para el componente.
 
@@ -142,7 +150,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla establecer los
 
 ### Ficha Propiedades {#properties-tab-design}
 
-![](/help/assets/screen-shot-2019-12-04at12.53.32.png)
+![Cuadro de diálogo de diseño del componente de navegación](/help/assets/navigation-design.png)
 
 * **Raíz** de navegación: valor predeterminado de la página raíz de la estructura de navegación, que se utilizará para generar el árbol de navegación y se utilizará de forma predeterminada cuando el autor del contenido agregue el componente a la página.
 * **Excluir niveles** raíz: a menudo, la raíz no se debe incluir en la navegación. Esta opción le permite especificar el valor predeterminado de cuántos niveles superiores de la raíz desea excluir. Por ejemplo:
@@ -152,6 +160,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla establecer los
    * etc.
 * **Recopilar todas las páginas** secundarias: el valor predeterminado de la opción para recopilar todas las páginas que sean descendientes de la raíz de navegación.
 * **Profundidad** de la estructura de navegación: el valor predeterminado de la profundidad de la estructura de navegación.
+* **Deshabilitar sombreado** : el valor predeterminado de si se debe desactivar la visualización al agregar un componente de navegación
 
 ### Ficha Estilos {#styles-tab}
 
