@@ -2,7 +2,10 @@
 title: Incrustar componente
 description: El componente Incrustar permite incrustar contenido externo en una página de contenido de AEM.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '944'
+ht-degree: 2%
 
 ---
 
@@ -20,15 +23,15 @@ El componente Core Component Embed permite al autor del contenido definir el con
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente incrustado es v1, que se introdujo con la versión 2.7.0 de los componentes principales en septiembre de 2019, y se describe en este documento.
+La versión actual del componente incrustado es v1, que se introdujo con la versión 2.7.0 de los componentes principales en septiembre de 2019 y se describe en este documento.
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
-|--- |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| v1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](/help/versions.md)principales.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -48,6 +51,12 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 * [Insertable](#embeddable)
 * [HTML](#html)
 
+Para cada tipo de incrustable, puede definir la **ID** de la publicidad. Esta opción permite controlar el identificador único del componente en el HTML y en la capa [](/help/developing/data-layer/overview.md)de datos.
+
+* Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+* Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+* Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
+
 ### URL {#url}
 
 La incrustación más sencilla es la URL. Simplemente pegue la dirección URL del recurso que desea incrustar en el campo **URL** . El componente intentará acceder al recurso y, si uno de los procesadores puede representarlo, mostrará un mensaje de confirmación debajo del campo **URL** . Si no es así, el campo se marcará por error.
@@ -59,7 +68,7 @@ El componente Incrustar se envía con procesadores para los siguientes tipos de 
 
 Los desarrolladores pueden agregar procesadores de URL adicionales [siguiendo la documentación del desarrollador del componente incrustado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.08.29.png)
+![Cuadro de diálogo de edición del componente incrustado para URL](/help/assets/embed-url.png)
 
 ### Insertable {#embeddable}
 
@@ -71,9 +80,9 @@ El campo **Incrustable** define el tipo de procesador que desea utilizar. En el 
 * **Anchura** : anchura del vídeo incrustado
 * **Altura** : altura del vídeo incrustado
 
-Otros elementos incrustados ofrecerían campos similares y un desarrollador puede definirlos [siguiendo la documentación del desarrollador del componente incrustado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
+Otros elementos incrustados oferta campos similares y pueden ser definidos por un desarrollador [siguiendo la documentación del desarrollador del componente incrustado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
-![](/help/assets/screen-shot-2019-09-25-10.15.00.png)
+![Cuadro de diálogo de edición del componente incrustado para elementos incrustados](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
 >Las incrustaciones deben habilitarse en el nivel de plantilla mediante el cuadro de diálogo [](#design-dialog) Diseño para que estén disponibles para el autor de la página.
@@ -82,7 +91,7 @@ Otros elementos incrustados ofrecerían campos similares y un desarrollador pued
 
 Puede agregar HTML de forma libre a la página mediante el componente Incrustar.
 
-![](/help/assets/screen-shot-2019-09-25-10.20.00.png)
+![Cuadro de diálogo de edición del componente incrustado para HTML](/help/assets/embed-html.png)
 
 >[!NOTE]
 >Las etiquetas no seguras, como las secuencias de comandos, se filtrarán del HTML introducido y no se representarán en la página resultante.
@@ -104,7 +113,7 @@ Puede encontrar información adicional sobre seguridad en la documentación para
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones disponibles para el autor del contenido que utiliza el componente Incrustar y los valores predeterminados establecidos al colocar el componente Incrustar.
 
-![](/help/assets/screen-shot-2019-09-25-10.25.28.png)
+![Cuadro de diálogo de diseño del componente incrustado](/help/assets/embed-design.png)
 
 * **Deshabilitar URL** : desactiva la opción de **URL** para el autor del contenido cuando se selecciona
 * **Deshabilitar incrustables** : desactiva la opción **Incrustable** para el autor del contenido cuando se selecciona, independientemente de qué procesadores se permiten incrustar.
