@@ -2,7 +2,10 @@
 title: Componente de ruta de navegación
 description: El componente de ruta de navegación del componente principal es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+workflow-type: tm+mt
+source-wordcount: '713'
+ht-degree: 2%
 
 ---
 
@@ -13,7 +16,7 @@ El componente de ruta de navegación del componente principal es un componente d
 
 ## Uso {#usage}
 
-El componente de ruta de navegación muestra la posición de la página actual dentro de la jerarquía del sitio, lo que permite a los visitantes navegar por la jerarquía de páginas desde su ubicación actual. Esto suele integrarse en encabezados o pies de página.
+El componente de ruta de navegación muestra la posición de la página actual dentro de la jerarquía del sitio, lo que permite a los visitantes de página navegar por la jerarquía de páginas desde su ubicación actual. Esto suele integrarse en encabezados o pies de página.
 
 Las opciones disponibles, como el nivel de navegación predeterminado y la capacidad de mostrar la página actual o las páginas ocultas, pueden ser definidas por el autor de la plantilla en el cuadro de diálogo [de](#design-dialog)diseño. A continuación, el editor de contenido puede elegir si se deben mostrar o no las páginas ocultas y el nivel de navegación real del componente en el cuadro de diálogo [de](#edit-dialog)edición.
 
@@ -23,12 +26,12 @@ La versión actual del componente de ruta de navegación es v2, que se introdujo
 
 En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4 | AEM 6.5 | AEM como Cloud Service |
+| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |--- |---|
-| v2 | Compatible | Compatible | Compatible | Compatible |
+| v2 | - | Compatible | Compatible | Compatible |
 | [v1](v1/breadcrumb-v1.md) | Compatible | Compatible | Compatible | - |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento Versiones [de componentes](/help/versions.md)principales.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -48,26 +51,31 @@ Encontrará más detalles sobre el desarrollo de los componentes principales en 
 
 El cuadro de diálogo de edición permite al autor del contenido suprimir las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
 
-![](/help/assets/screen_shot_2018-01-12at124250.png)
+![Cuadro de diálogo de edición de componentes de la ruta de navegación](/help/assets/breadcrumb-edit.png)
 
-* **Nivel** de inicio de navegación: donde, en la jerarquía, el componente de ruta de exploración debe empezar a desplazarse hacia abajo hasta la página actual. Por ejemplo en We.Retail:
+* **Nivel** de Inicio de navegación: donde en la jerarquía el componente de ruta de exploración debe tener el inicio de bajar a la página actual. Por ejemplo en We.Retail:
 
-   * 0 empieza en `/content`
-   * 1 empieza en `/content/we-retail`
-   * 2 empieza en `/content/we-retail/<country>`
+   * 0 inicios en `/content`
+   * 1 inicios en `/content/<yourSite>`
+   * 2 inicios en `/content/<yourSite>/<country>`
 
 * **Mostrar elementos** de navegación ocultos: mostrar páginas marcadas como ocultas en la ruta de exploración (de forma predeterminada, no se mostrarán)
 * **Ocultar página** actual: Suprimir la página actual en la ruta de exploración (de forma predeterminada se mostrará)
+* **Deshabilitar sombreado** : si la página en la jerarquía es una redirección, se mostrará el nombre de la página de redirección en lugar del destinatario. Consulte la Compatibilidad [con la estructura del sitio de](navigation.md#shadow-structure) sombra del componente de navegación para obtener más información.
+* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
+   * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+   * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+   * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite al autor de la plantilla definir los valores predeterminados para las opciones de supresión de páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir los valores predeterminados para las opciones de supresión de las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
 
 ### Ficha Principal {#main-tab}
 
-![](/help/assets/screen_shot_2018-01-12at124437.png)
+![](/help/assets/breadcrumb-design.png)
 
-* **Nivel** de inicio de navegación: define el valor predeterminado para dónde en la jerarquía el componente de ruta de exploración debe empezar a desplazarse hacia abajo hasta la página actual cuando se agrega el componente de ruta de exploración a una página.
+* **Nivel** de Inicio de navegación: define el valor predeterminado para dónde en la jerarquía el componente de ruta de exploración debe tener inicios para ir hacia abajo hasta la página actual cuando se agrega el componente de ruta de exploración a una página.
 * **Mostrar elementos** de navegación ocultos: define el valor predeterminado de la opción **Mostrar elementos** de navegación ocultos cuando se agrega el componente de ruta de exploración a una página.
 
    * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
@@ -75,6 +83,8 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir los va
 * **Ocultar página** actual: define el valor predeterminado de la opción **Ocultar página** actual cuando se agrega el componente de ruta de exploración a una página.
 
    * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
+
+* **Deshabilitar sombreado** : define el valor predeterminado de la opción **Deshabilitar sombreado** cuando se agrega el componente de ruta de exploración a una página.
 
 ### Ficha Estilos {#styles-tab}
 
