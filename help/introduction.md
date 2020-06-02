@@ -2,9 +2,9 @@
 title: Introducción a los componentes principales
 description: 'Los componentes principales se introdujeron para proporcionar componentes básicos sólidos y ampliables, basados en las últimas tecnologías y prácticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: c07dc21b1973ec541a1d96047f8a30aca8cfb886
+source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '846'
 ht-degree: 28%
 
 ---
@@ -35,6 +35,7 @@ Los componentes principales son un conjunto de componentes de Gestor de contenid
 | Preparado para la nube | Ya sea en [AEM como servicio](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)de nube, en los servicios [gestionados de](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe o in situ, solo funcionan. |
 | Versátil | Los componentes representan conceptos genéricos con los que los autores pueden ensamblar casi cualquier diseño. |
 | Configurable | Las directivas [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) contenido de nivel de plantilla definen qué funciones pueden utilizar o no los autores de la página. |
+| Trackable | La integración [de la capa de datos del cliente de](/help/developing/data-layer/overview.md) Adobe permite el seguimiento de todos los aspectos de la experiencia de visitante. |
 | Accesible | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+access+in%3Atítulo)). |
 | Compatible con SEO | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
 | Listo para WebApp | La salida [JSON](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) optimizada permite el procesamiento en el lado del cliente, con la posibilidad de editar [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)en contexto. |
@@ -44,7 +45,6 @@ Los componentes principales son un conjunto de componentes de Gestor de contenid
 | Versiones | La directiva [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) versiones garantiza que los componentes principales no interrumpan el sitio al mejorar las cosas que puedan afectarle. |
 | Localizable | Smart reference resolution allows certain components to find and [render corresponding localized content automatically](get-started/localization.md). |
 | Abrir fuente | Si algo no es como debería, [contribuya con sus mejoras!](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
-| Trackable | Los componentes principales se [integran con la capa de datos del cliente de Adobe.](/help/developing/data-layer/overview.md) |
 
 ## Los componentes {#the-components}
 
