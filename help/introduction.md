@@ -2,10 +2,10 @@
 title: Introducción a los componentes principales
 description: 'Los componentes principales se introdujeron para proporcionar componentes básicos sólidos y ampliables, basados en las últimas tecnologías y prácticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: b7e864686f31be8c0342b3f16750d276f554d219
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 28%
+source-wordcount: '848'
+ht-degree: 29%
 
 ---
 
@@ -32,7 +32,7 @@ Los componentes principales son un conjunto de componentes de Gestor de contenid
 |  |  |
 |---|---|
 | Listo para la producción | Los componentes principales son 28 componentes robustos que están bien probados, se utilizan ampliamente y que funcionan bien. |
-| Preparado para la nube | Ya sea en [AEM como servicio](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)de nube, en los servicios [gestionados de](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)Adobe o in situ, solo funcionan. |
+| Preparado para la nube | Ya sea en [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html), en [Adobes Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)o in situ, solo funcionan. |
 | Versátil | Los componentes representan conceptos genéricos con los que los autores pueden ensamblar casi cualquier diseño. |
 | Configurable | Las directivas [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#content-policies) contenido de nivel de plantilla definen qué funciones pueden utilizar o no los autores de la página. |
 | Trackable | La integración [de la capa de datos del cliente de](/help/developing/data-layer/overview.md) Adobe permite el seguimiento de todos los aspectos de la experiencia de visitante. |
@@ -74,6 +74,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 * [Compartir en redes sociales](components/sharing.md)
 * [Separador](components/separator.md)
 * [Barra de progreso](components/progress-bar.md)
+* [Visor de PDF](components/pdf-viewer.md)
 
 ### Componentes de Contenedor {#container-components}
 
@@ -104,10 +105,10 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 | Componentes principales | AEM as a Cloud Service | AEM 6.5 | AEM 6.4   | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Continua | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Continua | 6.5.0.0+ | 6.4.4.0+ | 8, 11 | 3.3.9+ |
 
 Para conocer los requisitos de versiones anteriores de componentes principales, consulte Versiones [de componentes](versions.md)principales.
 
 Los componentes principales requieren el uso de plantillas [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) editables y no admiten la IU clásica ni plantillas estáticas. Si es necesario, consulte las Herramientas [de modernización de](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) AEM para actualizar su proyecto con estas funciones modernas de AEM.
 
-Para configurar el entorno de desarrollo local, consulte [esta descripción general de AEM como un SDK](https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) de servicio de nube o este documento [para versiones anteriores de AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+Para configurar el entorno de desarrollo local, consulte [esta descripción general de AEM como SDK](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) Cloud Service o este documento [para versiones anteriores de AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
