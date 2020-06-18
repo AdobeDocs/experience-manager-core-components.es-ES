@@ -2,9 +2,9 @@
 title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica qué versiones y versiones son y cómo comprender la compatibilidad con los componentes principales y AEM.
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: cef65c3fdf99130086136fe9019ca759bbf1926c
 workflow-type: tm+mt
-source-wordcount: '1714'
+source-wordcount: '1717'
 ht-degree: 25%
 
 ---
@@ -85,6 +85,7 @@ La siguiente tabla detalla las versiones de los componentes que contiene cada ve
 | **[Fragmento de experiencias](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | v1 | v1 | v1 |
 | **[Incrustar](components/embed.md)** |  |  |  |  |  |  |  |  |  | v1 | v1 |
 | **[Barra de progreso](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
+| **[Visor de PDF](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | v1 |
 
 ## Versiones y versiones {#versions-and-releases}
 
