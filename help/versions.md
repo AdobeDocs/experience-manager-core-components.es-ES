@@ -2,9 +2,9 @@
 title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica qué versiones y versiones son y cómo comprender la compatibilidad con los componentes principales y AEM.
 translation-type: tm+mt
-source-git-commit: 448a2d31c27869b257ea694dc06fabca903c30b1
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '1694'
+source-wordcount: '1714'
 ht-degree: 25%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 25%
 
 # Versiones de componentes principales {#core-components-versions}
 
-La versión actual de los componentes principales es 2.9.0 y es compatible con [AEM como servicio](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) de nube e instalaciones [in situ de AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) . Fue lanzado en mayo de 2020 como una actualización importante de la versión 2.0.0. La versión 2.0.0 incorpora nuevos componentes y actualizaciones de la versión 2 de los componentes existentes.
+La versión actual de los componentes principales es 2.10.0 y es compatible con [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) e instalaciones [in situ de AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) . Fue lanzado en junio de 2020 como una actualización importante de la versión 2.0.0. La versión 2.0.0 incorpora nuevos componentes y actualizaciones de la versión 2 de los componentes existentes.
 
 ## Historial de versiones y compatibilidad {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con todos los det
 
 | Versión | Descripción | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|---|
+| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Esta versión incorpora el componente de visor de PDF. | - | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 17 de junio de 2020 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Esta versión habilitó la integración con la capa de datos del cliente de Adobe e introdujo el componente Barra de progreso. | - | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 29 de mayo de 2020 |
 | [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Esta versión se centra en correcciones con pequeñas mejoras. | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 5 de diciembre de 2019 |
 | [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Esta versión incorpora el nuevo componente Incrustar | 6.3.3.4+ | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 25 de septiembre de 2019 |
