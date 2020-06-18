@@ -2,10 +2,10 @@
 title: Desarrollo de componentes principales
 description: Los componentes principales proporcionan componentes básicos robustos y ampliables que oferta las funciones enriquecidas, el envío continuo, el control de versiones de componentes, la implementación moderna, el marcado magro y la exportación de contenido JSON.
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
 workflow-type: tm+mt
-source-wordcount: '1425'
-ht-degree: 12%
+source-wordcount: '1443'
+ht-degree: 13%
 
 ---
 
@@ -23,7 +23,8 @@ Por lo tanto, Adobe proporciona las siguientes recomendaciones:
    Dado que la mayoría de los proyectos existentes los utilizan muy ampliamente, [seguirán contando con el apoyo de los componentes básicos.](/help/versions.md#foundation-component-support)
 * **Nuevos componentes** personalizadosSe evalúa si un componente [principal existente puede personalizarse](customizing.md).\
    Si no es así, se recomienda crear un nuevo componente personalizado siguiendo las directrices [de](guidelines.md)componentes.
-* **Componentes** personalizados existentes Si los componentes funcionan correctamente, manténgalos tal como están.\
+* **Componentes** personalizados existentes Si los componentes funcionan correctamente, manténgalos tal como están.
+\
    Si no es así, consulte &quot;Nuevos componentes personalizados&quot; más arriba.
 
 ## Cómo lograr el éxito con los componentes principales {#how-to-succeed}
@@ -38,10 +39,10 @@ Un esfuerzo mayor en un proyecto existente (por ejemplo, un rediseño de marca o
 
 [Las herramientas](http://opensource.adobe.com/aem-modernize-tools/) de modernización de AEM facilitan la conversión de:
 
-* Plantillas estáticas a plantillas editables
-* Diseñar configuraciones para políticas
-* Componentes básicos a componentes principales
-* IU clásica a IU táctil
+* Plantillas estáticas a plantillas editables.
+* Diseño de las configuraciones para políticas.
+* Componentes básicos a principales.
+* De IU clásica a IU táctil.
 
 Para obtener más información sobre el uso de estas herramientas, [consulte su documentación](http://opensource.adobe.com/aem-modernize-tools/).
 
@@ -69,7 +70,7 @@ Para obtener más información sobre sus capacidades de creación y las opciones
 | **Capacidad** | **Componente principal** | **Componente de base** |
 |-----|---|---|
 | Implementación lógica | JPOs de Java con anotaciones [de modelos](https://sling.apache.org/documentation/bundles/models.html) Sling | Código JSP |
-| Definición de marca | [Sintaxis del lenguaje](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) de plantilla HTML (HTL) | Código JSP |
+| Definición de marca | [Sintaxis del lenguaje](https://docs.adobe.com/content/help/es-ES/experience-manager-htl/using/overview.html) de plantilla HTML (HTL) | Código JSP |
 | Saneamiento XSS | Automatizado por HTL | Principalmente manual |
 | Nombres de clases CSS | Convenciones de nombres estandarizadas basadas en la notación del modificador [de elementos de](https://getbem.com/) bloque (BEM) (a partir de la versión 2.0.0) | Esquemas personalizados |
 | Definición de cuadro de diálogo | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + IU clásica |
@@ -115,6 +116,7 @@ La siguiente tabla lista los componentes principales disponibles, vinculándolos
 | [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1) | Añadir un fragmento de experiencia en una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incrustar un recurso externo dentro de una página | - |
 | [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Proporcionar una representación visual del progreso hacia un objetivo | - |
+| [Visor de PDF](https://adobe.com/go/aem_cmp_tech_pdf_viewer_v1) | Presenta un documento PDF en una página | - |
 
 ### Próximos componentes {#upcoming-components}
 
@@ -124,6 +126,6 @@ Para obtener una visión general de la próxima hoja de ruta del componente prin
 
 Una ventaja de los componentes con versiones es que permite separar la migración a una nueva versión de AEM de la migración a las nuevas versiones de componentes. Además, si hay nuevas versiones de componentes disponibles, permite la migración individual de cada componente a la nueva versión.
 
-Las migraciones a una nueva versión de AEM no afectarán al funcionamiento de los componentes principales, siempre que sus versiones también admitan la nueva versión de AEM a la que se está migrando. Las personalizaciones realizadas en los componentes principales tampoco deben verse afectadas, siempre que no utilicen API que hayan sido [obsoletas o eliminadas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Las migraciones a una nueva versión de AEM no afectarán al funcionamiento de los componentes principales, siempre que sus versiones también admitan la nueva versión de AEM a la que se está migrando. Las personalizaciones realizadas en los componentes principales tampoco deben verse afectadas, siempre que no utilicen API que hayan sido [obsoletas o eliminadas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Las migraciones a nuevas versiones de los componentes principales tampoco afectarán al funcionamiento del componente, pero es posible que se introduzcan nuevas funciones a los autores de páginas, lo que puede requerir cierta configuración por parte de un editor de plantillas, en caso de que no se desee el comportamiento predeterminado. Sin embargo, es posible que sea necesario adaptar las personalizaciones para obtener más información, consulte la página [Personalización de componentes](customizing.md#upgrade-compatibility-of-customizations) principales.
