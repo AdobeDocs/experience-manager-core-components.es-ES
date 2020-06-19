@@ -2,9 +2,9 @@
 title: Desarrollo de componentes principales
 description: Los componentes principales proporcionan componentes básicos robustos y ampliables que oferta las funciones enriquecidas, el envío continuo, el control de versiones de componentes, la implementación moderna, el marcado magro y la exportación de contenido JSON.
 translation-type: tm+mt
-source-git-commit: bbbd918c7caf508866ae6dadbb8c815dca4e900b
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1442'
 ht-degree: 13%
 
 ---
@@ -23,8 +23,7 @@ Por lo tanto, Adobe proporciona las siguientes recomendaciones:
    Dado que la mayoría de los proyectos existentes los utilizan muy ampliamente, [seguirán contando con el apoyo de los componentes básicos.](/help/versions.md#foundation-component-support)
 * **Nuevos componentes** personalizadosSe evalúa si un componente [principal existente puede personalizarse](customizing.md).\
    Si no es así, se recomienda crear un nuevo componente personalizado siguiendo las directrices [de](guidelines.md)componentes.
-* **Componentes** personalizados existentes Si los componentes funcionan correctamente, manténgalos tal como están.
-\
+* **Componentes** personalizados existentes Si los componentes funcionan correctamente, manténgalos tal como están.\
    Si no es así, consulte &quot;Nuevos componentes personalizados&quot; más arriba.
 
 ## Cómo lograr el éxito con los componentes principales {#how-to-succeed}
@@ -116,7 +115,7 @@ La siguiente tabla lista los componentes principales disponibles, vinculándolos
 | [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1) | Añadir un fragmento de experiencia en una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incrustar un recurso externo dentro de una página | - |
 | [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Proporcionar una representación visual del progreso hacia un objetivo | - |
-| [Visor de PDF](https://adobe.com/go/aem_cmp_tech_pdf_viewer_v1) | Presenta un documento PDF en una página | - |
+| [Visor de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Presenta un documento PDF en una página | - |
 
 ### Próximos componentes {#upcoming-components}
 
