@@ -2,9 +2,9 @@
 title: Componente de visor PDF
 description: El componente de visor de PDF permite la visualización de un documento PDF.
 translation-type: tm+mt
-source-git-commit: 0df759a020020c21d776eb8f45d40cb7aff45cea
+source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -33,11 +33,11 @@ Para obtener más información sobre las versiones y versiones de los componente
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
-Para ver el componente de visor de PDF, así como ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_pdf_viewer)componentes.
+Para ver el componente de visor de PDF, así como ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_pdfviewer)componentes.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de visor de PDF [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_pdf-viewer_v1).
+La documentación técnica más reciente sobre el componente de visor de PDF [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
 
