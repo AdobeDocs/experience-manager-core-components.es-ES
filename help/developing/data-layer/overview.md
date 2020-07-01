@@ -2,10 +2,10 @@
 title: Uso de la capa de datos del cliente de Adobe con los componentes principales
 description: Uso de la capa de datos del cliente de Adobe con los componentes principales
 translation-type: tm+mt
-source-git-commit: 539a4250c954ac830731a9ecf010e129b2cf9c3a
+source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 4%
 
 ---
 
@@ -33,6 +33,7 @@ Sin embargo, la capa de datos no está activada de forma predeterminada. Para ac
 
 1. Cree la siguiente estructura debajo del `/conf` nodo:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
+   * Tipo de nodo: `nt:unstructured`
 1. Añada una propiedad booleana llamada `enabled` y configúrela en `true`.
 1. Añada una `sling:configRef` propiedad en el `jcr:content` nodo del sitio siguiente `/content` (p. ej. `/content/<mySite>/jcr:content`) y configúrela en `/conf/<mySite>`.
 
