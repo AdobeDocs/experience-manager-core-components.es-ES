@@ -2,7 +2,7 @@
 title: Uso del arquetipo del proyecto de AEM
 description: Instrucciones de uso detalladas para el arquetipo del proyecto de AEM
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 1%
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
-El arquetipo de proyecto de AEM crea un proyecto de Adobe Experience Manager mínimo basado en las prácticas recomendadas como punto de partida para sus propios proyectos de AEM. Las propiedades que se deben proporcionar al utilizar este arquetipo le permiten especificar los nombres de todas las partes de este proyecto, así como controlar determinadas funciones opcionales.
+El arquetipo de proyecto de AEM crea un proyecto de Adobe Experience Manager mínimo basado en prácticas recomendadas como punto de partida para sus propios proyectos de AEM. Las propiedades que se deben proporcionar al utilizar este arquetipo le permiten especificar los nombres de todas las partes de este proyecto, así como controlar determinadas funciones opcionales.
 
 ## ¿Por qué usar el arquetipo? {#why-use-the-archetype}
 
@@ -24,7 +24,7 @@ Por supuesto, hay muchos elementos que entran en un proyecto AEM exitoso, pero e
 
 El arquetipo del proyecto facilita el inicio del desarrollo en AEM. Puede dar sus primeros pasos de varias maneras.
 
-* Tutorial de WKND: para obtener una buena introducción al desarrollo de AEM, incluida la forma de aprovechar el arquetipo, consulte el tutorial [](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) Introducción a AEM Sites - WKND para ver un ejemplo práctico de cómo usar el arquetipo para implementar un proyecto sencillo.
+* Tutorial de WKND: para obtener una buena introducción al desarrollo de AEM, incluida la forma de aprovechar el arquetipo, consulte el tutorial [](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) de WKND Getting Started with AEM Sites (Introducción a los ), donde encontrará un ejemplo práctico de cómo utilizar el arquetipo para implementar un proyecto sencillo.
 * Tutorial de Eventos WKND: si está particularmente interesado en el desarrollo de aplicaciones de una sola página (SPA) en AEM, asegúrese de consultar el tutorial [de Eventos](https://helpx.adobe.com/experience-manager/kt/sites/using/getting-started-spa-wknd-tutorial-develop.html)WKND dedicado.
 * Descarga y inicio por su cuenta! - Puede descargar fácilmente el arquetipo de proyecto actual disponible en GitHub y crear su primer proyecto [siguiendo los sencillos pasos a continuación](#how-to-use-the-archetype).
 
@@ -51,7 +51,7 @@ Para utilizar el arquetipo, primero debe crear un proyecto, que genere los módu
 
 Al crear el proyecto con Maven se crean los artefactos (paquetes y paquetes OSGi) que se pueden implementar en AEM. Se pueden utilizar comandos y perfiles Maven adicionales para implementar los artefactos del proyecto en una instancia de AEM.
 
-### Creación de un proyecto   {#create-project}
+### Creación de un proyecto    {#create-project}
 
 Para empezar, puede simplemente utilizar la extensión [Eclipse de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/devtools/aem-eclipse.html) AEM y seguir el Asistente para nuevo proyecto y elegir Proyecto **multimódulo de muestra de** AEM para utilizar una versión publicada del arquetipo.
 
@@ -71,8 +71,8 @@ mvn -B archetype:generate \
 ```
 
 * Establezca `XX` el número [de](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) versión del último arquetipo de proyecto de AEM.
-* Set `aemVersion=cloud` for [AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
-   Se configura `aemVersion=6.5.0` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)o in situ.
+* Establecer `aemVersion=cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
+   Se configura `aemVersion=6.5.0` para [Adobes Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams)o locales.
 La dependencia Componentes principales solo se agrega para las versiones de Aem que no son de nube, ya que los Componentes principales se proporcionan OOTB para AEM como un servicio de nube.
 * Ajuste `appTitle="My Site"` para definir el título del sitio web y los grupos de componentes.
 * Ajuste `appId="mysite"` para definir Maven artifactsId, los nombres de los componentes, la configuración y las carpetas de contenido, así como los nombres de las bibliotecas de cliente.
@@ -97,7 +97,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el arquet
 | `groupId` |  | ID de grupo de Maven base (p. ej. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Paquete de fuentes Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Versión de AEM de Destinatario (puede ser `cloud` para [AEM como un servicio](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html)de nube; o `6.5.0`, `6.4.4`o `6.3.3` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o in situ). |
+| `aemVersion` | `6.5.0` | Versión de AEM de Destinatario (puede ser `cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); o `6.5.0`, `6.4.4`, o `6.3.3` para [Adobes Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o locales). |
 | `sdkVersion` | `latest` | Cuando se puede especificar `aemVersion=cloud` una versión del [SDK](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de distribuidor para cloud o para AMS/in situ, según el valor de `aemVersion` (puede ser `y` o `n`). |
 | `frontendModule` | `none` | Incluye un módulo de compilación de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implemente el Editor [de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/headless/spas/spa-overview.html)SPA). |
@@ -107,9 +107,11 @@ Las siguientes propiedades están disponibles al crear un proyecto con el arquet
 | `includeErrorHandler` | `n` | Incluye una página de respuesta personalizada 404 que será global para toda la instancia (puede ser `y` o `n`). |
 
 >[!NOTE]
+>
 > Si el arquetipo se ejecuta en modo interactivo la primera vez, no se pueden cambiar las propiedades con valores predeterminados (consulte [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) para obtener más información). El valor se puede cambiar cuando se deniega la confirmación de la propiedad al final y se repite el cuestionario, o pasando el parámetro en la línea de comandos (p. ej. `-DoptionIncludeExamples=n`).
 
 >[!NOTE]
+>
 >Cuando se ejecuta en Windows y se genera la configuración del despachante, debe estar ejecutando un símbolo del sistema elevado o el Subsistema de Windows para Linux (consulte el [problema 329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
 ### Perfiles {#profiles}
