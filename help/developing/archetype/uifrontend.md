@@ -2,7 +2,10 @@
 title: Compilación de front-end de arquetipo de proyecto de AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+workflow-type: tm+mt
+source-wordcount: '1613'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +27,12 @@ Debido a que estos dos procesos de desarrollo se centran en diferentes partes de
 
 Sin embargo, cualquier proyecto resultante debe utilizar los resultados de ambos esfuerzos de desarrollo, es decir, tanto el back-end como el front-end.
 
-La ejecución `npm run dev` inicia el proceso de compilación de front-end que recopila los archivos JavaScript y CSS almacenados en el módulo ui.front y produce dos bibliotecas de cliente minimizadas o ClientLibs llamadas `clientlib-site` y `clientlib-dependencies` depositadas en el módulo ui.apps. Las bibliotecas de cliente se pueden implementar en AEM y permiten almacenar el código del cliente en el repositorio.
+La ejecución `npm run dev` inicio el proceso de compilación de front-end que recopila los archivos JavaScript y CSS almacenados en el módulo ui.front y produce dos bibliotecas de cliente minimizadas o ClientLibs llamadas `clientlib-site` y `clientlib-dependencies` depositadas en el módulo ui.apps. Las bibliotecas de cliente se pueden implementar en AEM y permiten almacenar el código del cliente en el repositorio.
 
 Cuando se ejecuta todo el arquetipo de proyecto de AEM utilizando todos los artefactos de `mvn clean install -PautoInstallPackage` proyecto, incluidas las bibliotecas de cliente, se insertan en la instancia de AEM.
 
 >[!TIP]
+>
 >Obtenga más información sobre las bibliotecas de cliente en la documentación [de desarrollo de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) AEM y [cómo las utiliza el módulo ui.frontent a continuación](#clientlib-generation).
 
 ## Información general de ClientLibs {#clientlibs}
@@ -43,7 +47,7 @@ ClientLib constará de los siguientes archivos y directorios:
 * `js.txt` Indica a AEM el orden y los nombres de los archivos en `js/` los que se pueden combinar
 * `resources/`:: Mapas de origen, fragmentos de código de no punto de entrada (resultantes de la división de códigos), recursos estáticos (por ejemplo, iconos), etc.
 
-## Posibles flujos de trabajo de desarrollo front-end {#possible-workflows}
+## Posibles Flujos de trabajo de desarrollo front-end {#possible-workflows}
 
 El módulo de diseño frontal es una herramienta útil y muy flexible, pero no impone ninguna opinión particular sobre cómo debe utilizarse. Los siguientes son dos ejemplos de *posible* uso, pero las necesidades de cada proyecto pueden dictar otros modelos de uso.
 
@@ -51,9 +55,9 @@ El módulo de diseño frontal es una herramienta útil y muy flexible, pero no i
 
 Con Webpack, puede aplicar estilo y desarrollarse en función de la salida estática de las páginas web de AEM dentro del módulo ui.front.
 
-1. Vista previa de la página en AEM mediante el modo de vista previa de la página o pasando `wcmmode=disabled` en la dirección URL
-1. Ver el origen de la página y guardarlo como HTML estático dentro del módulo ui.front
-1. [Inicie webpack](#webpack-dev-server) y comience a diseñar y generar el JavaScript y CSS necesarios
+1. Previsualización en AEM mediante el modo de previsualización de página o pasando `wcmmode=disabled` la URL
+1. Vista del origen de la página y guarde como HTML estático en el módulo ui.frontender
+1. [Inicio webpack](#webpack-dev-server) y empezar a diseñar y generar el JavaScript y CSS necesarios
 1. Ejecutar `npm run dev` para generar las bibliotecas de cliente
 
 En este flujo, un desarrollador de AEM puede realizar los pasos uno y dos y pasar el HTML estático al desarrollador front-end que se desarrolla en función de la salida HTML de AEM.
@@ -115,11 +119,11 @@ Los siguientes scripts npm impulsan el flujo de trabajo de front-end:
 
 * `npm run dev` - compilación completa con la optimización de JS deshabilitada (temblor de árbol, etc.) y los mapas de origen habilitados y la optimización de CSS deshabilitada.
 * `npm run prod` - compilación completa con la optimización de JS habilitada (sacudida de árboles, etc.), mapas de origen deshabilitados y optimización de CSS habilitada.
-* `npm run start` - Inicia un servidor de desarrollo de webpack estático para el desarrollo local con dependencias mínimas en AEM.
+* `npm run start` - Inicio un servidor de desarrollo de webpack estático para el desarrollo local con dependencias mínimas en AEM.
 
 ## Salida {#output}
 
-El módulo ui.front compila el código en la `ui.frontend/src` carpeta y genera el CSS y JS compilados, así como todos los recursos debajo de una carpeta denominada `ui.frontend/dist`.
+El módulo ui.front compila el código en la `ui.frontend/src` carpeta y genera el CSS y JS compilados, así como cualquier recurso debajo de una carpeta denominada `ui.frontend/dist`.
 
 * **Sitio** : `site.js`, `site.css` y se crea una `resources/` carpeta para las imágenes y fuentes dependientes del diseño en una carpeta `dist/`clientlib-site.
 * **Dependencias** : `dependencies.js` y `dependencies.css` se crean en una `dist/clientlib-dependencies` carpeta.
@@ -132,19 +136,20 @@ El módulo ui.front compila el código en la `ui.frontend/src` carpeta y genera 
 
 * Autoprefixing: Todas las CSS se ejecutan a través de un prefijo y todas las propiedades que requieran un prefijo tendrán automáticamente las agregadas en la CSS.
 * Optimización: en la publicación, toda la CSS se ejecuta mediante un optimizador (cssnano) que la normaliza según las siguientes reglas predeterminadas:
-   * Reduce la expresión de calc de CSS siempre que sea posible, garantizando la compatibilidad del navegador y la compresiónConvierte entre valores de longitud, tiempo y ángulo equivalentes. Tenga en cuenta que, de forma predeterminada, los valores de longitud no se convierten.
+   * Reduce la expresión de clics de CSS siempre que sea posible, garantizando la compatibilidad del navegador y la compresiónConvierte entre valores de longitud, tiempo y ángulo equivalentes. Tenga en cuenta que, de forma predeterminada, los valores de longitud no se convierten.
    * Quita los comentarios de las reglas, selectores y declaraciones
    * Quita reglas, reglas y declaraciones duplicadas
       * Tenga en cuenta que esto solo funciona para duplicados exactos.
-   * Quita reglas vacías, consultas de medios y reglas con selectores vacíos, ya que no afectan al resultado
+   * Quita reglas vacías, consultas de medios y reglas con selectores vacíos, ya que no afectan a la salida
    * Combina reglas adyacentes por selectores y pares de propiedades/valores superpuestos
    * Garantiza que solo un @charset esté presente en el archivo CSS y lo mueve a la parte superior del documento
    * Reemplaza la palabra clave inicial CSS con el valor real, cuando la salida resultante es menor
    * Comprime las definiciones de SVG integradas con SVGO
-* Limpieza: incluye una tarea explícita y limpia para eliminar los archivos CSS, JS y Map generados a petición.
+* Limpieza: incluye una tarea limpia explícita para eliminar los archivos CSS, JS y Map generados a petición.
 * Asignación de origen: sólo compilación de desarrollo
 
 >[!NOTE]
+>
 >La opción de compilación de front-end utiliza archivos de configuración de webpack solo para desarrollo y solo para prod que comparten un archivo de configuración común. De este modo, los ajustes de desarrollo y producción se pueden modificar de forma independiente.
 
 ### Generación de biblioteca de clientes {#clientlib-generation}
@@ -156,7 +161,7 @@ El proceso de compilación del módulo ui.frontened aprovecha el complemento [ae
 
 ### Inclusión de bibliotecas de cliente en páginas {#clientlib-inclusion}
 
-`clientlib-site` y `clientlib-dependencies` las categorías se incluyen en las páginas mediante la configuración [de la directiva de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) página como parte de la plantilla predeterminada. Para ver la directiva, edite la plantilla de página de **contenido > Información de página > Política** de página.
+`clientlib-site` y `clientlib-dependencies` las categorías se incluyen en las páginas mediante la configuración [de la directiva de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) página como parte de la plantilla predeterminada. Para vista de la política, edite la plantilla de página de **contenido > Información de página > Política** de página.
 
 La inclusión final de las bibliotecas de cliente en la página de sitios es la siguiente:
 
@@ -176,7 +181,7 @@ La inclusión final de las bibliotecas de cliente en la página de sitios es la 
 </HTML>
 ```
 
-Por supuesto, la inclusión anterior se puede modificar actualizando la directiva de página y/o modificando las categorías y propiedades incrustadas de las respectivas bibliotecas cliente.
+Por supuesto, la inclusión anterior se puede modificar mediante la actualización de la directiva de página y/o la modificación de las categorías y propiedades incrustadas de las bibliotecas de cliente respectivas.
 
 ### Servidor de desarrollo de Webpack estático {#webpack-dev-server}
 
@@ -199,6 +204,6 @@ El módulo ui.frontender incluye un webpack-dev-server que proporciona recarga e
 
 1. Desde la raíz del proyecto, ejecute el comando `mvn -PautoInstallSinglePackage clean install` para instalar todo el proyecto en una instancia de AEM que se ejecute en `localhost:4502`.
 1. Navegue dentro de la `ui.frontend` carpeta.
-1. Ejecute el siguiente comando `npm run start` para iniciar el servidor de desarrollo de webpack. Una vez iniciado, debe abrir un navegador (`localhost:8080` o el siguiente puerto disponible).
+1. Ejecute el siguiente comando `npm run start` para inicio del servidor de desarrollo de webpack. Una vez iniciado, debe abrir un navegador (`localhost:8080` o el siguiente puerto disponible).
 
 Ahora puede modificar archivos CSS, JS, SCSS y TS y ver los cambios reflejados inmediatamente en el servidor de desarrollo de webpack.
