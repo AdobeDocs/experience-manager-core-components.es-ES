@@ -2,10 +2,10 @@
 sub-product: AEM Core Components
 user-guide-title: AEM Core Components
 translation-type: tm+mt
-source-git-commit: d344b5bf90099f9df6284cb097e006feac4973a3
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 69%
+source-wordcount: '185'
+ht-degree: 70%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 69%
    + [Lista](components/list.md)
    + [Navegación](components/navigation.md)
    + [Página](components/page.md)
-   + [Visor de PDF](components/pdf-viewer.md)
+   + [Visualizador de PDF](components/pdf-viewer.md)
    + [Barra de progreso](components/progress-bar.md)
    + [Búsqueda rápida](components/quick-search.md)
    + [Separador](components/separator.md)
@@ -70,6 +70,7 @@ ht-degree: 69%
    + [Tutorial para desarrolladores de WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalización de componentes principales](developing/customizing.md)
    + [Instrucciones de los componentes](developing/guidelines.md)
+   + [Compatibilidad con AMP](developing/amp.md)
    + Capa de datos del cliente de Adobe {#data-layer}
       + [Componentes principales y la capa de datos del cliente de Adobe](developing/data-layer/overview.md)
       + [Integración con Adobe Launch](developing/data-layer/launch-integration.md)
