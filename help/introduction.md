@@ -2,10 +2,10 @@
 title: Introducción a los componentes principales
 description: 'Los componentes principales se introdujeron para proporcionar componentes básicos sólidos y ampliables, basados en las últimas tecnologías y prácticas recomendadas. '
 translation-type: tm+mt
-source-git-commit: 5a953588f83e13e50924a2bd9afa2466e3ef6f4d
+source-git-commit: 6d21773dbf09b5e6622c51c662c4070e0242b7d6
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 29%
+source-wordcount: '863'
+ht-degree: 28%
 
 ---
 
@@ -39,6 +39,7 @@ Los componentes principales son un conjunto de componentes de Gestor de contenid
 | Accesible | They comply [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), provide ARIA labels, and support keyboard navigation ([known issues](https://github.com/adobe/aem-core-wcm-components/issues?utf8= ✓&amp;q=is%3Aissue+is%3Aopen+access+in%3Atítulo)). |
 | Compatible con SEO | The HTML output is semantic and provides [schema.org](https://schema.org) microdata annotations. |
 | Listo para WebApp | La salida [JSON](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/develop-sling-model-exporter.html) optimizada permite el procesamiento en el lado del cliente, con la posibilidad de editar [](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html)en contexto. |
+| Compatibilidad con AMP | Los componentes tienen [compatibilidad integrada con el estándar AMP,](/help/developing/amp.md) lo que acelera las experiencias móviles. |
 | Kit de diseño | Un kit de [interfaz de usuario para Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) permite a los diseñadores crear esquemas que, a continuación, pueden [aplicar estilo según sea necesario](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_WKND.xd). |
 | Themeable | The components implement the [Style System](https://docs.adobe.com/content/help/en/experience-manager-65/developing/components/style-system.html), and the markup follows [BEM CSS conventions](http://getbem.com/). |
 | Personalizable | Varios patrones permiten una personalización [](developing/customizing.md)sencilla, desde ajustar el HTML hasta una reutilización avanzada de la funcionalidad. |
@@ -105,7 +106,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 | Componentes principales | AEM as a Cloud Service | AEM 6.5 | AEM 6.4   | Java SE | Maven |
 ---------|---------|---------|---------|---------|---------
-| [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Continua | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Continua | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Para conocer los requisitos de versiones anteriores de componentes principales, consulte Versiones [de componentes](versions.md)principales.
 
