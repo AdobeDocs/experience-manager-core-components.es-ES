@@ -2,16 +2,15 @@
 title: Componente de visor PDF
 description: El componente de visor de PDF permite la visualización de un documento PDF.
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 2%
+source-wordcount: '705'
+ht-degree: 3%
 
 ---
 
 
 # Componente de visor PDF {#pdf-viewer-component}
-
 
 El componente Core Component PDF Viewer permite la inclusión de un documento PDF en una página.
 
@@ -23,7 +22,7 @@ El componente Core Component PDF Viewer incorpora un visor para mostrar los arch
 
 La versión actual del componente de visor de PDF es v1, que se introdujo con la versión 2.10.0 de los componentes principales en junio de 2020 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
@@ -41,13 +40,17 @@ La documentación técnica más reciente sobre el componente de visor de PDF [pu
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
 
+>[!NOTE]
+>
+>El componente de visor de PDF aprovecha las API [de servicios de Documento de](https://www.adobe.io/apis/documentcloud/dcsdk.html) Adobe y requiere que el administrador configure una configuración [según el](/help/developing/context-aware-configs.md) contexto para poder utilizar estos servicios. Consulte la documentación técnica del componente para [obtener detalles sobre esta configuración.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+
 ## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el visor y cómo se comportará y aparecerá para un visitante de la página.
 
 ### Configuration Tab {#configuration-tab}
 
-La ficha Configuración permite al autor definir qué PDF se debe mostrar. La ruta se puede definir como un recurso en AEM o como una ruta absoluta a otro recurso.
+La ficha Configuración permite al autor definir qué PDF se debe mostrar. La ruta se puede definir como un recurso en AEM o una ruta absoluta a otro recurso.
 
 ![Ficha Configuración del cuadro de diálogo de edición del componente de visor de PDF](/help/assets/pdf-viewer-edit-configuration.png)
 
@@ -81,7 +84,7 @@ El área de visualización se procesa en el navegador completo. Esto es más ade
    * Acoplar
    * Desacoplar
 
-#### Contenedor de tamaño {#sized-container}
+#### Contenedor de tamaño reducido {#sized-container}
 
 El área de visualización se procesa en el navegador completo. Esto es más adecuado para aplicaciones de almacenamiento y productividad.
 
