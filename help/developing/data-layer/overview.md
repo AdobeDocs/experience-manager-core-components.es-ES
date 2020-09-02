@@ -2,9 +2,9 @@
 title: Uso de la capa de datos del cliente de Adobe con los componentes principales
 description: Uso de la capa de datos del cliente de Adobe con los componentes principales
 translation-type: tm+mt
-source-git-commit: 57116fa8f8a71259400881609775af4047cd2225
+source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
 workflow-type: tm+mt
-source-wordcount: '418'
+source-wordcount: '426'
 ht-degree: 4%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 El objetivo de la capa de datos del cliente de Adobe es reducir el esfuerzo de instrumentar sitios web proporcionando un método estandarizado para exponer y acceder a cualquier tipo de datos para cualquier secuencia de comandos.
 
-La capa de datos del cliente de Adobe no depende de la plataforma, pero está totalmente integrada en los componentes principales para su uso con AEM.
+La capa de datos del cliente de Adobe no depende de la plataforma, pero está completamente integrada en los componentes principales para su uso con AEM.
 
-Al igual que los componentes principales, el código de la capa de datos del cliente de Adobe está disponible en GitHub, junto con la documentación para desarrolladores. Este documento proporciona una visión general de cómo interactúan los componentes principales con la capa de datos, pero los detalles técnicos completos se posponen a la documentación de GitHub.
+Al igual que los componentes principales, el código de la capa de datos del cliente de Adobe está disponible en GitHub junto con la documentación para desarrolladores. Este documento proporciona una visión general de cómo interactúan los componentes principales con la capa de datos, pero los detalles técnicos completos se posponen a la documentación de GitHub.
 
 >[!TIP]
 >
@@ -24,12 +24,11 @@ Al igual que los componentes principales, el código de la capa de datos del cli
 >
 >Para obtener más información técnica sobre la integración de la capa de datos del cliente de Adobe con los componentes principales, consulte el archivo [`DATA_LAYER_INTEGRATION.md`](https://github.com/adobe/aem-core-wcm-components/blob/master/DATA_LAYER_INTEGRATION.md) en el repositorio de componentes principales.
 
-
 ## Instalación y Activación {#installation-activation}
 
 A partir de la versión 2.9.0 de los componentes principales, la capa de datos se distribuye con los componentes principales como clientlib. No es necesaria ninguna instalación.
 
-Sin embargo, la capa de datos no está activada de forma predeterminada. Para activar la capa de datos
+Sin embargo, la capa de datos no está activada de forma predeterminada. Para activar la capa de datos debe crear una configuración [](/help/developing/context-aware-configs.md) contextual para ella:
 
 1. Cree la siguiente estructura debajo del `/conf` nodo:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
@@ -37,7 +36,7 @@ Sin embargo, la capa de datos no está activada de forma predeterminada. Para ac
 1. Añada una propiedad booleana llamada `enabled` y configúrela en `true`.
 1. Añada una `sling:configRef` propiedad en el `jcr:content` nodo del sitio siguiente `/content` (p. ej. `/content/<mySite>/jcr:content`) y configúrela en `/conf/<mySite>`.
 
-Una vez habilitada, puede comprobar la activación cargando una página del sitio fuera del editor. Cuando inspeccione la página, verá que se ha cargado la capa de datos del cliente de Adobe.
+Una vez habilitada, puede comprobar la activación cargando una página del sitio fuera del editor. Cuando inspeccione la página verá que se ha cargado la capa de datos del cliente de Adobe.
 
 ## Esquemas de datos de componentes principales {#data-schemas}
 
@@ -95,7 +94,7 @@ id: {
 }
 ```
 
-### Esquema Contenedor {#container}
+### Esquema contenedor {#container}
 
 Los siguientes componentes utilizan el esquema de Contenedor:
 
