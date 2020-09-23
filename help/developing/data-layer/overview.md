@@ -2,10 +2,10 @@
 title: Uso de la capa de datos del cliente de Adobe con los componentes principales
 description: Uso de la capa de datos del cliente de Adobe con los componentes principales
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: 4a44a5f584efa736320556f6b4e2f4126d058a48
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 4%
+source-wordcount: '575'
+ht-degree: 5%
 
 ---
 
@@ -57,7 +57,7 @@ El esquema Componente/Elemento de Contenedor se utiliza en los siguientes compon
 
 El esquema Componente/Elemento de Contenedor se define de la siguiente manera.
 
-```
+```javascript
 id: {                   // component ID
     @type               // resource type
     repo:modifyDate     // last modified date
@@ -69,6 +69,9 @@ id: {                   // component ID
 }
 ```
 
+El siguiente [evento](#events) es pertinente para el esquema de elementos de componente/Contenedor:
+
+* `cmp:click`
 
 ### Esquema de página {#page}
 
@@ -78,7 +81,7 @@ El siguiente componente utiliza el esquema Página:
 
 El esquema Página se define de la siguiente manera.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -104,7 +107,7 @@ Los siguientes componentes utilizan el esquema de Contenedor:
 
 El esquema de Contenedor se define de la siguiente manera.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -117,6 +120,12 @@ id: {
 }
 ```
 
+Los siguientes [eventos](#events) son pertinentes para el esquema de Contenedor:
+
+* `cmp:click`
+* `cmp:show`
+* `cmp:hide`
+
 ### Esquema de imagen {#image}
 
 El siguiente componente utiliza el esquema de imagen:
@@ -125,7 +134,7 @@ El siguiente componente utiliza el esquema de imagen:
 
 El esquema de imagen se define de la siguiente manera.
 
-```
+```javascript
 id: {
     @type
     repo:modifyDate
@@ -138,13 +147,17 @@ id: {
 }
 ```
 
+El siguiente [evento](#events) es relevante para el esquema de imágenes:
+
+* `cmp:click`
+
 ### Esquema de recursos {#asset}
 
 El esquema de recursos se utiliza dentro del componente [Imagen.](/help/components/image.md)
 
 El esquema de recursos se define de la siguiente manera.
 
-```
+```javascript
 id: {
     repo:id             // asset UUID
     repo:path           // asset path
@@ -154,3 +167,28 @@ id: {
 }
 ```
 
+El [evento](#events) siguiente es pertinente para el esquema de activos:
+
+* `cmp:click`
+
+## Sucesos {#events}
+
+Existen varios eventos que la capa de datos desencadena.
+
+* **`cmp:click`** - Al hacer clic en un elemento en el que se puede hacer clic (un elemento que tiene un `data-cmp-clickable` atributo), la capa de datos activa un `cmp:click` evento.
+* **`cmp:show`** y **`cmp:hide`** : Al manipular el acordeón (expandir/contraer), los componentes carrusel (botones siguiente/anterior) y las fichas (selección de tabuladores), la capa de datos se activa `cmp:show` y se `cmp:hide` eventos respectivamente.
+* **`cmp:loaded`** - Tan pronto como la capa de datos se rellena con los componentes principales de la página, la capa de datos desencadena un `cmp:loaded` evento.
+
+### Eventos activados por componente {#events-components}
+
+Las siguientes tablas lista los componentes principales estándar que activan eventos junto con esos eventos.
+
+| Componente | Eventos |
+|---|---|
+| [Navegación](/help/components/navigation.md) | `cmp:click` |
+| [Navegación por idiomas](/help/components/language-navigation.md) | `cmp:click` |
+| [Ruta de navegación](/help/components/breadcrumb.md) | `cmp:click` |
+| [Botón](/help/components/button.md) | `cmp:click` |
+| [Carrusel](/help/components/carousel.md) | `cmp:show` y `cmp:hide` |
+| [Pestañas](/help/components/tabs.md) | `cmp:show` y `cmp:hide` |
+| [Acordeón](/help/components/accordion.md) | `cmp:show` y `cmp:hide` |
