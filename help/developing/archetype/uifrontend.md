@@ -1,22 +1,22 @@
 ---
-title: Compilación de front-end de arquetipo de proyecto de AEM
+title: Creación de front-end de arquetipo de proyecto de AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 translation-type: tm+mt
-source-git-commit: 55b4dde320dcb38935b55b273d4df8d0cc2f16e6
+source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
 
 
-# Módulo ui.front del arquetipo del proyecto de AEM {#uifrontend-module}
+# Módulo ui.front del arquetipo del proyecto AEM {#uifrontend-module}
 
-El arquetipo de proyecto de AEM incluye un mecanismo de generación de front-end opcional basado en Webpack. El módulo ui.front se convierte así en la ubicación central de todos los recursos front-end del proyecto, incluidos los archivos JavaScript y CSS. Para aprovechar al máximo esta función útil y flexible, es importante comprender cómo encaja el desarrollo front-end en un proyecto de AEM.
+El Arquetipo de proyecto AEM incluye un mecanismo de diseño frontal opcional y dedicado basado en Webpack. El módulo ui.front se convierte así en la ubicación central de todos los recursos front-end del proyecto, incluidos los archivos JavaScript y CSS. Para aprovechar al máximo esta función útil y flexible, es importante comprender cómo encaja el desarrollo front-end en un proyecto AEM.
 
-## Proyectos de AEM y desarrollo front-end {#aem-and-front-end-development}
+## Proyectos AEM y desarrollo front-end {#aem-and-front-end-development}
 
-En términos muy simplificados, los proyectos de AEM pueden considerarse como dos partes separadas pero relacionadas:
+En términos muy simplificados, AEM proyectos pueden considerarse como dos partes separadas pero relacionadas:
 
 * Desarrollo back-end que impulsa la lógica de AEM y produce bibliotecas de Java, servicios OSGi, etc.
 * Desarrollo front-end que impulsa la presentación y el comportamiento del sitio web resultante y produce bibliotecas JavaScript y CSS
@@ -27,24 +27,24 @@ Debido a que estos dos procesos de desarrollo se centran en diferentes partes de
 
 Sin embargo, cualquier proyecto resultante debe utilizar los resultados de ambos esfuerzos de desarrollo, es decir, tanto el back-end como el front-end.
 
-La ejecución `npm run dev` inicio el proceso de compilación de front-end que recopila los archivos JavaScript y CSS almacenados en el módulo ui.front y produce dos bibliotecas de cliente minimizadas o ClientLibs llamadas `clientlib-site` y `clientlib-dependencies` depositadas en el módulo ui.apps. Las bibliotecas de cliente se pueden implementar en AEM y permiten almacenar el código del cliente en el repositorio.
+La ejecución `npm run dev` inicio el proceso de compilación de front-end que recopila los archivos JavaScript y CSS almacenados en el módulo ui.front y produce dos bibliotecas de cliente minimizadas o ClientLibs llamadas `clientlib-site` y `clientlib-dependencies` depositadas en el módulo ui.apps. Las bibliotecas de cliente se pueden implementar para AEM y permiten almacenar el código del cliente en el repositorio.
 
-Cuando se ejecuta todo el arquetipo de proyecto de AEM utilizando todos los artefactos de `mvn clean install -PautoInstallPackage` proyecto, incluidas las bibliotecas de cliente, se insertan en la instancia de AEM.
+Cuando se ejecuta todo el arquetipo de proyecto de AEM usando `mvn clean install -PautoInstallPackage` todos los artefactos del proyecto, incluyendo las bibliotecas de cliente, se insertan en la instancia de AEM.
 
 >[!TIP]
 >
->Obtenga más información sobre las bibliotecas de cliente en la documentación [de desarrollo de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html) AEM y [cómo las utiliza el módulo ui.frontent a continuación](#clientlib-generation).
+>Obtenga más información sobre cómo AEM gestiona las bibliotecas de cliente en la documentación [de desarrollo](https://docs.adobe.com/content/help/es-ES/experience-manager-65/developing/introduction/clientlibs.html)AEM, cómo [incluirlas](/help/developing/including-clientlibs.md)o ver a continuación [cómo las utiliza el módulo ui.frontender.](#clientlib-generation)
 
 ## Información general de ClientLibs {#clientlibs}
 
-El módulo front-end está disponible mediante [AEM ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). Al ejecutar el script de compilación NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de compilación resultante y la transforma en un ClientLib de este tipo.
+El módulo front-end está disponible mediante un [AEM ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). Al ejecutar el script de compilación NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de compilación resultante y la transforma en un ClientLib de este tipo.
 
 ClientLib constará de los siguientes archivos y directorios:
 
 * `css/`:: Archivos CSS que se pueden solicitar en el HTML
-* `css.txt`:: Indica a AEM el orden y los nombres de los archivos en `css/` los que se pueden combinar
+* `css.txt`:: Indica AEM el orden y los nombres de los archivos en `css/` los que se pueden combinar
 * `js/`:: Archivos JavaScript que se pueden solicitar en el código HTML
-* `js.txt` Indica a AEM el orden y los nombres de los archivos en `js/` los que se pueden combinar
+* `js.txt` Indica AEM el orden y los nombres de los archivos en `js/` los que se pueden combinar
 * `resources/`:: Mapas de origen, fragmentos de código de no punto de entrada (resultantes de la división de códigos), recursos estáticos (por ejemplo, iconos), etc.
 
 ## Posibles Flujos de trabajo de desarrollo front-end {#possible-workflows}
@@ -53,14 +53,14 @@ El módulo de diseño frontal es una herramienta útil y muy flexible, pero no i
 
 ### Uso de Webpack Static Development Server {#using-webpack}
 
-Con Webpack, puede aplicar estilo y desarrollarse en función de la salida estática de las páginas web de AEM dentro del módulo ui.front.
+Con Webpack puede diseñar y desarrollar en base a la salida estática de AEM páginas web dentro del módulo ui.frontender.
 
-1. Previsualización en AEM mediante el modo de previsualización de página o pasando `wcmmode=disabled` la URL
+1. Previsualización de página en AEM mediante el modo de previsualización de página o pasando `wcmmode=disabled` en la dirección URL
 1. Vista del origen de la página y guarde como HTML estático en el módulo ui.frontender
 1. [Inicio webpack](#webpack-dev-server) y empezar a diseñar y generar el JavaScript y CSS necesarios
 1. Ejecutar `npm run dev` para generar las bibliotecas de cliente
 
-En este flujo, un desarrollador de AEM puede realizar los pasos uno y dos y pasar el HTML estático al desarrollador front-end que se desarrolla en función de la salida HTML de AEM.
+En este flujo, un desarrollador de AEM puede realizar los pasos uno y dos y pasar el HTML estático al desarrollador de front-end que se desarrolla en función de la salida HTML AEM.
 
 >[!TIP]
 >
@@ -68,19 +68,19 @@ En este flujo, un desarrollador de AEM puede realizar los pasos uno y dos y pasa
 
 ### Uso de Storybook {#using-storybook}
 
-Al utilizar [Storybook](https://storybook.js.org) , puede realizar más desarrollo atómico del front-end. Aunque Storybook no se incluye en el arquetipo del proyecto de AEM, puede instalarlo y almacenar los artefactos del libro de historias en el módulo ui.frontender. Cuando estén listos para realizar pruebas en AEM, se pueden implementar como bibliotecas de cliente si se ejecutan `npm run dev`.
+Al utilizar [Storybook](https://storybook.js.org) , puede realizar más desarrollo atómico del front-end. Aunque Storybook no está incluido en el arquetipo del proyecto de AEM, puede instalarlo y almacenar los artefactos del libro de historias dentro del módulo ui.frontender. Cuando estén listos para realizar pruebas en AEM, se pueden implementar como bibliotecas de cliente `npm run dev`.
 
 >[!NOTE]
 >
->[Storybook](https://storybook.js.org) no se incluye en el arquetipo del proyecto de AEM. Si decide utilizarla, debe instalarla por separado.
+>[Storybook](https://storybook.js.org) no está incluido en el arquetipo del proyecto de AEM. Si decide utilizarla, debe instalarla por separado.
 
 ### Determinación del marcado {#determining-markup}
 
-Independientemente del flujo de trabajo de desarrollo front-end que decida implementar para su proyecto, los desarrolladores back-end y los desarrolladores front-end primero deben ponerse de acuerdo en el marcado. Normalmente, AEM define el marcado, que lo proporcionan los componentes principales. [Sin embargo, esto se puede personalizar si es necesario](/help/developing/customizing.md#customizing-the-markup).
+Independientemente del flujo de trabajo de desarrollo front-end que decida implementar para su proyecto, los desarrolladores back-end y los desarrolladores front-end primero deben ponerse de acuerdo en el marcado. Normalmente AEM define el marcado, que lo proporcionan los componentes principales. [Sin embargo, esto se puede personalizar si es necesario](/help/developing/customizing.md#customizing-the-markup).
 
 ## Módulo ui.frontender {#ui-frontend-module}
 
-El arquetipo de proyecto de AEM incluye un mecanismo de compilación front-end opcional basado en Webpack con las siguientes funciones.
+El Arquetipo de proyecto AEM incluye un mecanismo de generación de front-end opcional basado en Webpack con las siguientes características.
 
 * Compatibilidad total con TypeScript, ES6 y ES5 (con envoltorios de Webpack aplicables)
 * Linting de TypeScript y JavaScript mediante un conjunto de reglas TSLint
@@ -93,12 +93,12 @@ El arquetipo de proyecto de AEM incluye un mecanismo de compilación front-end o
    * El globber extrae todos los archivos JS de la `/component/` carpeta.
       * Webpack permite encadenar archivos CSS/SCSS mediante archivos JS.
       * Se extraen a través de los dos puntos de entrada `sites.js` y `vendors.js`.
-   * El único archivo consumido por AEM son los archivos de salida `site.js` y `site.css` tanto en `/clientlib-site` como `dependencies.js` y `dependencies.css` en `/clientlib-dependencies`
+   * El único archivo consumido por AEM son los archivos de salida `site.js` y `site.css` tanto `/clientlib-site` como `dependencies.js` y `dependencies.css` en `/clientlib-dependencies`
 * Chunks
    * Principal (sitio js/css)
    * Proveedores (dependencias js/css)
 * Compatibilidad total con Sass/Scss (Sass se compila en CSS a través de Webpack)
-* Servidor de desarrollo de webpack estático con proxy integrado para una instancia local de AEM
+* Servidor de desarrollo de webpack estático con proxy integrado a una instancia local de AEM
 
 >[!NOTE]
 >
@@ -195,14 +195,14 @@ El módulo ui.frontender incluye un webpack-dev-server que proporciona recarga e
 * `ui.frontend/src/main/webpack/static/index.html`
    * Es el HTML estático con el que se ejecutará el servidor.
    * Esto permite a los desarrolladores realizar cambios en CSS/JS y verlos reflejados inmediatamente en el marcado.
-   * Se da por hecho que el marcado colocado en este archivo refleja con precisión el marcado generado por los componentes de AEM.
-   * El marcado de este archivo no se sincroniza automáticamente con el marcado de componentes de AEM.
-   * Este archivo también contiene referencias a bibliotecas de cliente almacenadas en AEM, como CSS de componentes principales y CSS de cuadrícula adaptable.
-   * El servidor de desarrollo de webpack está configurado para proxy que estos CSS/JS incluyen desde una instancia local de AEM en ejecución basada en la configuración que se encuentra en `ui.frontend/webpack.dev.js`.
+   * Se da por hecho que el marcado colocado en este archivo refleja con precisión el marcado generado por AEM componentes.
+   * El marcado de este archivo no se sincroniza automáticamente con AEM marcado del componente.
+   * Este archivo también contiene referencias a bibliotecas de cliente almacenadas en AEM, como CSS de componente principal y CSS de cuadrícula adaptable.
+   * El servidor de desarrollo de webpack está configurado para proxy que estos CSS/JS incluyen desde una instancia de AEM local que se ejecuta en función de la configuración que se encuentra en `ui.frontend/webpack.dev.js`.
 
 #### Utilizando {#using-webpack-server}
 
-1. Desde la raíz del proyecto, ejecute el comando `mvn -PautoInstallSinglePackage clean install` para instalar todo el proyecto en una instancia de AEM que se ejecute en `localhost:4502`.
+1. Desde la raíz del proyecto, ejecute el comando `mvn -PautoInstallSinglePackage clean install` para instalar el proyecto completo en una instancia de AEM que se ejecute en `localhost:4502`.
 1. Navegue dentro de la `ui.frontend` carpeta.
 1. Ejecute el siguiente comando `npm run start` para inicio del servidor de desarrollo de webpack. Una vez iniciado, debe abrir un navegador (`localhost:8080` o el siguiente puerto disponible).
 
