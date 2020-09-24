@@ -2,7 +2,7 @@
 title: Módulo ui.apps del arquetipo del proyecto AEM
 description: Módulo ui.apps del arquetipo del proyecto AEM
 translation-type: tm+mt
-source-git-commit: 6f7166c46940ed451721e0760d565d58efe412ab
+source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Módulo ui.apps del arquetipo del proyecto AEM {#uiapps-module}
 
-El módulo muven ui.apps (`<src-directory>/<project>/ui.apps`) incluye todo el código de procesamiento necesario para el sitio debajo `/apps`. Esto incluye CSS/JS que se almacenarán en un formato AEM denominado clientlibs. Esto también incluye secuencias de comandos HTML para procesar HTML dinámico. Puede pensar en el módulo ui.apps como un mapa de la estructura del JCR, pero en un formato que se puede almacenar en un sistema de archivos y transferir al control de código fuente.
+El módulo muven ui.apps (`<src-directory>/<project>/ui.apps`) incluye todo el código de procesamiento necesario para el sitio debajo `/apps`. Esto incluye CSS/JS que se almacenarán en un formato AEM llamado [clientlibs.](uifrontend.md#clientlibs) Esto también incluye secuencias de comandos HTML para procesar HTML dinámico. Puede pensar en el módulo ui.apps como un mapa de la estructura del JCR, pero en un formato que se puede almacenar en un sistema de archivos y transferir al control de código fuente.
 
 El complemento Apache Jackrabbit FileVault Package se utiliza para compilar el contenido del módulo ui.apps en un paquete AEM que se puede implementar en AEM. Las configuraciones globales del complemento se definen en el archivo pom.xml principal.
 
