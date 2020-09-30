@@ -2,10 +2,10 @@
 title: Componente de lista
 description: El componente de Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '968'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,12 +22,12 @@ El componente Lista se puede utilizar para crear, por ejemplo, una lista dinámi
 
 La versión actual del componente de Lista es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](v1/list-v1.md) | Compatible | Compatible | Compatible | - |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](v1/list-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
@@ -45,7 +45,7 @@ Encontrará más detalles sobre el desarrollo de los componentes principales en 
 
 El cuadro de diálogo de edición permite al autor del contenido configurar la lista y los elementos de lista.
 
-### Ficha Configuración de Lista {#list-settings-tab}
+### Ficha Configuración de lista {#list-settings-tab}
 
 La lista se puede construir de diferentes maneras.
 
@@ -56,7 +56,7 @@ La lista se puede construir de diferentes maneras.
 
 Independientemente de cómo se cree la lista, hay opciones [de](#sort-options) ordenación e ID que siempre se pueden configurar.
 
-![Cuadro de diálogo de edición del componente de Lista](/help/assets/list-edit.png)
+![Cuadro de diálogo de edición del componente de lista](/help/assets/list-edit.png)
 
 Según el modo en que el autor elija crear la lista, cambiarán las opciones de configuración adicionales.
 
@@ -80,17 +80,17 @@ La lista se puede crear mediante una lista fija de elementos.
 
 Toque o haga clic en el botón **Añadir** para insertar un nuevo elemento en la lista.
 
-* Introduzca texto para el elemento en la lista o utilice el cuadro de diálogo **** Selección para elegir un elemento de AEM.
+* Escriba el texto del elemento en la lista o utilice el cuadro de diálogo **** Selección para elegir un elemento de AEM.
 * Utilice el controlador de arrastre para reorganizar los elementos de la lista.
 * Utilice el icono de papelera para eliminar elementos de la lista.
 
 #### Búsqueda {#search-options}
 
-La lista se puede crear mediante los resultados de una búsqueda de contenido de AEM.
+La lista se puede crear utilizando los resultados de una búsqueda de contenido AEM.
 
 ![Opciones de lista de búsqueda](/help/assets/list-edit-search.png)
 
-* **consulta** de búsqueda La cadena para la que se ejecutará una búsqueda de texto completo para generar los elementos de lista
+* **Consulta** de búsqueda La cadena para la que se ejecutará una búsqueda de texto completo para generar los elementos de lista
 * **Buscar** donde se debe ejecutar la búsqueda
    * Utilice el cuadro de diálogo **** Selección para elegir la ubicación en AEM
    * Usar la página actual si se deja en blanco
@@ -147,7 +147,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir los ti
 
 En la ficha Configuración **de** Lista, se puede definir el formato de fecha, así como el tipo de listas que deben estar disponibles en el componente para los autores de contenido.
 
-![Configuración de la lista del cuadro de diálogo de diseño del componente de Lista](/help/assets/list-design-list-settings.png)
+![Configuración de la lista del cuadro de diálogo de diseño del componente de lista](/help/assets/list-design-list-settings.png)
 
 * **Formato** de fecha que se usará para mostrar la fecha de la última modificación
 * **Deshabilitar elementos secundarios** Deshabilitar el tipo de lista secundarios en el componente
@@ -159,7 +159,7 @@ En la ficha Configuración **de** Lista, se puede definir el formato de fecha, a
 
 En la ficha Configuración **de** elemento, se pueden definir las opciones de formato para los elementos de lista individuales que deben estar disponibles en el componente para los autores de contenido.
 
-![Configuración del elemento del cuadro de diálogo de diseño del componente de Lista](/help/assets/list-design-item-settings.png)
+![Configuración del elemento del cuadro de diálogo de diseño del componente de lista](/help/assets/list-design-item-settings.png)
 
 * **Elementos** de vínculoOpción Activar elementos de vínculo en el cuadro de diálogo [Editar](#edit-dialog)
 * **Mostrar descripciones** Activar la opción Mostrar descripciones en el cuadro de diálogo [Editar](#edit-dialog)
@@ -167,4 +167,4 @@ En la ficha Configuración **de** elemento, se pueden definir las opciones de fo
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Imagen admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+El componente Imagen admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo de AEM.
