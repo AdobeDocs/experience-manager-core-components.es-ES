@@ -1,11 +1,11 @@
 ---
 title: Crear con componentes principales
-description: 'En AEM, los componentes son los elementos estructurales que constituyen el contenido de las páginas que se crean: oferta de componentes principales, funcionalidad de creación flexible y con muchas funciones.'
+description: 'En AEM, los componentes son los elementos estructurales que constituyen el contenido de las páginas que se crean: la oferta de componentes principales ofrece una funcionalidad de creación flexible y con muchas funciones.'
 translation-type: tm+mt
-source-git-commit: 4281f6421482682f603f6a7f5e18df61f9a6d98c
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 7%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +18,7 @@ La oferta de componentes principales ofrece una funcionalidad de creación flexi
 
 Para experimentar los componentes principales y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library)componentes.
 
-Para obtener una introducción más detallada y orientada al desarrollador sobre la implementación de los componentes principales en un proyecto de AEM mediante el arquetipo del proyecto de [AEM](/help/developing/archetype/overview.md) , consulte [el tutorial de WKND.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Para obtener una introducción más detallada y orientada al desarrollador para implementar los componentes principales en un proyecto AEM mediante el uso del arquetipo del proyecto [AEM](/help/developing/archetype/overview.md) , consulte [el tutorial de WKND.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ Para obtener una introducción más detallada y orientada al desarrollador sobre
 
 >[!CAUTION]
 >
->Los componentes principales [requieren AEM 6.3 o superior](/help/versions.md) y el uso de plantillas [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)editables. No funcionan con la IU clásica ni con plantillas estáticas.
+>Los componentes principales [requieren AEM 6.4 o superior](/help/versions.md) y el uso de plantillas [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)editables. No funcionan con la IU clásica ni con plantillas estáticas.
 
 ## Crear con componentes principales {#authoring-with-core-components}
 
@@ -79,10 +79,6 @@ Los estilos de la mayoría de los componentes principales se pueden definir con 
 * A continuación, el autor del contenido puede elegir qué estilos aplicar al agregar el componente y crear contenido.
 
 Para obtener más información, consulte la documentación [del sistema](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) de estilos.
-
->[!NOTE]
->
->En AEM 6.3, se requiere el Service Pack 2 (6.3.2.0) o una versión posterior para activar la función del sistema de estilo.
 
 ## Medios del desarrollador {#developer-resources}
 
