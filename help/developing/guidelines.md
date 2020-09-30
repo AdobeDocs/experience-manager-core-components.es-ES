@@ -2,7 +2,10 @@
 title: Instrucciones de los componentes
 description: Los componentes principales siguen patrones de implementación modernos que son muy diferentes de los componentes básicos.
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+workflow-type: tm+mt
+source-wordcount: '1259'
+ht-degree: 2%
 
 ---
 
@@ -27,11 +30,11 @@ Para ir más allá, si los componentes se reutilizan en sitios o proyectos, cons
 
 ### Separación de preocupaciones {#separation-of-concerns}
 
-Mantener la lógica (o modelo) de un componente separado de la plantilla (o vista) de marcado es generalmente una buena práctica. Existen varias formas de lograrlo, pero la recomendada es utilizar modelos [Sling](https://sling.apache.org/documentation/bundles/models.html) para la lógica y el lenguaje [de plantilla](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) HTML (HTL) para el marcado, como también lo hacen los componentes principales.
+Mantener la lógica (o el modelo) de un componente separado de la plantilla de marcado (o vista) suele ser una buena práctica. Existen varias formas de lograrlo, pero la recomendada es utilizar modelos [Sling](https://sling.apache.org/documentation/bundles/models.html) para la lógica y el lenguaje [de plantilla](https://docs.adobe.com/content/help/es-ES/experience-manager-htl/using/overview.html) HTML (HTL) para el marcado, como también lo hacen los componentes principales.
 
-Los modelos Sling son un conjunto de anotaciones Java para acceder fácilmente a las variables necesarias de los POJO y, por lo tanto, ofrecen una forma sencilla, potente y eficaz de implementar la lógica Java para los componentes.
+Los modelos Sling son un conjunto de anotaciones Java para acceder fácilmente a las variables necesarias de los POJO y, por lo tanto, oferta una forma sencilla, potente y eficaz de implementar la lógica Java para los componentes.
 
-HTL ha sido diseñado para ser un lenguaje de plantilla seguro y sencillo, diseñado para AEM. Puede llamar a muchas formas de lógica, lo que la hace muy flexible.
+HTL ha sido diseñado para ser un lenguaje de plantilla seguro y sencillo, adaptado a AEM. Puede llamar a muchas formas de lógica, lo que la hace muy flexible.
 
 ## Patrones de componentes reutilizables {#reusable-component-patterns}
 
@@ -45,9 +48,9 @@ Para que los componentes sean lo más reutilizables posible, se les deben propor
 
 ### Patrón de componentes proxy {#proxy-component-pattern}
 
-Dado que cada recurso de contenido tiene una `sling:resourceType` propiedad que hace referencia al componente para representarlo, es recomendable que estas propiedades apunten a componentes específicos del sitio, en lugar de apuntar a componentes compartidos por varios sitios. Esto ofrecerá más flexibilidad y evitará la refactorización de contenido si un sitio necesita un comportamiento diferente para un componente, ya que esta personalización se puede lograr en el componente específico del sitio y no afectará a los otros sitios.
+Dado que cada recurso de contenido tiene una `sling:resourceType` propiedad que hace referencia al componente para representarlo, es recomendable que estas propiedades apunten a componentes específicos del sitio, en lugar de apuntar a componentes compartidos por varios sitios. Esto oferta más flexibilidad y evita la refactorización de contenido si un sitio necesita un comportamiento diferente para un componente, ya que esta personalización se puede lograr en el componente específico del sitio y no afectará a los otros sitios.
 
-Sin embargo, para que los componentes específicos del proyecto no dupliquen ningún código, deben hacer referencia al componente principal compartido con la `sling:resourceSuperType` propiedad. Estos componentes específicos del proyecto que en su mayoría solo hacen referencia a componentes principales se denominan &quot;componentes proxy&quot;. Los componentes proxy pueden estar completamente vacíos si heredan completamente la funcionalidad o pueden redefinir algunos aspectos del componente.
+Sin embargo, para que los componentes específicos del proyecto no tengan duplicado con ningún código, deben hacer referencia al componente principal compartido con la `sling:resourceSuperType` propiedad. Estos componentes específicos del proyecto que en su mayoría solo hacen referencia a componentes principales se denominan &quot;componentes proxy&quot;. Los componentes proxy pueden estar completamente vacíos si heredan completamente la funcionalidad o pueden redefinir algunos aspectos del componente.
 
 ### Versiones de componentes {#component-versioning}
 
@@ -61,7 +64,7 @@ Si se realizan cambios incompatibles en los siguientes aspectos de los component
 * Representación JSON
 * Cuadros de diálogo
 
-Para obtener más información, consulte el documento Políticas [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) versiones en GitHub.
+Para obtener más información, consulte el documento de políticas [de](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-Policies) versiones en GitHub.
 
 El control de versiones de componentes crea una forma de contrato que es importante para las actualizaciones, ya que aclara cuándo es necesario refactorizar algo. Consulte también la sección Compatibilidad de [actualización de las personalizaciones](customizing.md#upgrade-compatibility-of-customizations), que explica las consideraciones que requieren las distintas formas de personalización para una actualización.
 
@@ -71,18 +74,18 @@ Para evitar las dolorosas migraciones de contenido, es importante nunca señalar
 
 Este patrón se refiere a la instrucción de HTL para que apunte a una interfaz de Java, mientras que la implementación del modelo de Sling también se está registrando en el tipo de recurso del componente. `data-sly-use`
 
-Cuando se combina con el patrón [de componentes](#proxy-component-pattern) proxy descrito anteriormente, esta forma de enlace doble ofrece los siguientes puntos de extensión agradables:
+Cuando se combina con el patrón [de componentes](#proxy-component-pattern) proxy descrito anteriormente, esta forma de ofertas de enlace de doble sigue puntos de extensión agradables:
 
 1. Un sitio puede redefinir la implementación de un modelo Sling registrándolo en el tipo de recurso del componente proxy, sin tener que preocuparse por el archivo HTL, que aún puede apuntar a la interfaz.
 1. Un sitio puede redefinir el marcado HTML de un componente sin tener en cuenta a qué lógica de implementación debe apuntar.
 
 ## Colocando todo juntos {#putting-it-all-together}
 
-A continuación se muestra una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de componentes, para evitar que el recurso de contenido contenga un número de versión cualquiera. A continuación, muestra cómo se utiliza el archivo `title.html` HTL [del componente en la interfaz del modelo, mientras que la implementación se enlaza a la versión específica del componente mediante anotaciones del modelo](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) de [](https://sling.apache.org/documentation/bundles/models.html) sling.
+A continuación se muestra una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de componentes, para evitar que el recurso de contenido contenga un número de versión cualquiera. A continuación, muestra cómo se utiliza el archivo `title.html` HTL [del componente en la interfaz del modelo, mientras que la implementación se enlaza a la versión específica del componente mediante anotaciones del modelo](https://docs.adobe.com/content/help/es-ES/experience-manager-htl/using/overview.html) de [](https://sling.apache.org/documentation/bundles/models.html) sling.
 
 ![Información general de enlace de recursos](/help/assets/chlimage_1-32.png)
 
-A continuación se muestra otra descripción general, que no muestra los detalles del POJO de implementación, pero revela cómo se hace referencia a [las plantillas y políticas](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html) asociadas.
+A continuación se muestra otra descripción general, que no muestra los detalles del POJO de implementación, pero revela cómo se hace referencia a [las plantillas y políticas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html) asociadas.
 
 La `cq:allowedTemplates` propiedad indica qué plantillas se pueden utilizar para un sitio y `cq:template` indica a cada página cuál es la plantilla asociada. Cada plantilla consta de las tres partes siguientes:
 
@@ -94,7 +97,7 @@ La `cq:allowedTemplates` propiedad indica qué plantillas se pueden utilizar par
 
 ## Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
-[El arquetipo](/help/developing/archetype/overview.md) de proyecto de AEM crea un proyecto mínimo de Adobe Experience Manager como punto de partida para sus propios proyectos, incluido un ejemplo de componentes HTML personalizados con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
+[El arquetipo](/help/developing/archetype/overview.md) del proyecto AEM crea un proyecto Adobe Experience Manager mínimo como punto de partida para sus propios proyectos, incluyendo un ejemplo de componentes HTML personalizados con SlingModels para la lógica y la correcta implementación de los componentes principales con el patrón proxy recomendado.
 
 **Consulte lo siguiente:**
 
