@@ -2,10 +2,10 @@
 title: Componente de ruta de navegación
 description: El componente de ruta de navegación del componente principal es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,12 @@ Las opciones disponibles, como el nivel de navegación predeterminado y la capac
 
 La versión actual del componente de ruta de navegación es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](v1/breadcrumb-v1.md) | Compatible | Compatible | Compatible | - |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- | --- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](v1/breadcrumb-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
@@ -53,7 +53,7 @@ El cuadro de diálogo de edición permite al autor del contenido suprimir las p�
 
 ![Cuadro de diálogo de edición de componentes de la ruta de navegación](/help/assets/breadcrumb-edit.png)
 
-* **Nivel** de Inicio de navegación: donde en la jerarquía el componente de ruta de exploración debe tener el inicio de bajar a la página actual. Por ejemplo en We.Retail:
+* **Nivel** de Inicio de navegación: donde en la jerarquía el componente de ruta de exploración debe tener el inicio de bajar a la página actual. Por ejemplo:
 
    * 0 inicios en `/content`
    * 1 inicios en `/content/<yourSite>`
