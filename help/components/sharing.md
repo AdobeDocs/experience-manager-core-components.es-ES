@@ -2,10 +2,10 @@
 title: Componente de uso compartido en redes sociales
 description: El componente principal de uso compartido en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,9 +22,9 @@ A diferencia de otros componentes, la configuración del componente de uso compa
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de uso compartido en redes sociales es v1, que se introdujo con la versión 1.0.0 de los componentes principales con AEM 6.3 y se describe en este documento.
+La versión actual del componente de uso compartido en redes sociales es v1, que se introdujo con la versión 1.0.0 de los componentes principales y se describe en este documento.
 
-La siguiente tabla detalla todas las versiones compatibles del componente y las versiones de AEM con las que las versiones del componente son compatibles.
+La siguiente tabla detalla todas las versiones compatibles del componente y las versiones AEM con las que las versiones del componente son compatibles.
 
 | Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
