@@ -2,9 +2,9 @@
 title: Compatibilidad de AMP con los componentes principales
 description: Los componentes principales admiten AMP - Páginas móviles aceleradas
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Aunque el soporte de AMP oferta una buena cantidad de flexibilidad, para empezar
 
 ### Activación de AMP para páginas {#enabling-amp}
 
-Para habilitar AMP para una página, el modo **** AMP debe estar seleccionado en la directiva [de página.](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html#editingatemplatepagepolicies)
+Para habilitar AMP para una página, el modo **** AMP debe estar seleccionado en la directiva [de página.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
 ![Opciones de directiva de página AMP](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Para habilitar AMP para una página, el modo **** AMP debe estar seleccionado en
 * **AMP** emparejada: la página se entrega como AMP y como HTML.
 * **Solo** AMP: la página se entrega como AMP solamente.
 
-La configuración de AMP de una página también se puede anular en las Propiedades [de](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-page-properties.html) página de una página individual.
+La configuración de AMP de una página también se puede anular en las Propiedades [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) página de una página individual.
 
 ![Propiedades de página AMP](/help/assets/amp-page-properties.png)
 
