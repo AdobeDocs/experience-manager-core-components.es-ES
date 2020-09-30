@@ -2,10 +2,10 @@
 title: Componente de botón de formulario
 description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,12 @@ El editor de contenido puede definir las propiedades del botón en el cuadro de 
 
 La versión actual del componente Botón de formulario es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](/help/components/v1/form-button-v1.md) | Compatible | Compatible | Compatible | - |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](/help/components/v1/form-button-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
@@ -72,4 +72,4 @@ El cuadro de diálogo de configuración permite al autor del contenido definir l
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Botón de formulario admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+El componente Botón de formulario admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo de AEM.
