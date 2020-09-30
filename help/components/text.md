@@ -2,10 +2,10 @@
 title: Componente de texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '2202'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,12 @@ El cuadro de diálogo [de](#edit-dialog) edición incluye edición en línea con
 
 La versión actual del componente de texto es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](v1/text-v1.md) | Compatible | Compatible | Compatible | - |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](v1/text-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
@@ -45,13 +45,13 @@ Encontrará más detalles sobre el desarrollo de los componentes principales en 
 
 ## El componente de texto y el editor de texto enriquecido {#the-text-component-and-the-rich-text-editor}
 
-El componente de texto Componentes principales aprovecha el Editor de texto enriquecido (RTE) de AEM. RTE proporciona a los autores de contenido una amplia gama de funciones para editar su contenido de texto. El RTE es muy flexible en su configuración y oferta una serie de opciones. Encontrará más información sobre cómo se puede configurar RTE en los artículos [Configurar el editor](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/rich-text-editor.html) de texto enriquecido y [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
+El componente de texto Componentes principales aprovecha el Editor de texto enriquecido AEM (RTE). RTE proporciona a los autores de contenido una amplia gama de funciones para editar su contenido de texto. El RTE es muy flexible en su configuración y oferta una serie de opciones. Encontrará más información sobre cómo se puede configurar RTE en los artículos [Configurar el editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) de texto enriquecido y [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
 
 El resto de este artículo muestra la configuración estándar del componente de texto de componentes principales con la configuración RTE lista para usar.
 
 >[!NOTE]
 >
->En el componente de texto solo están disponibles las opciones activadas por las configuraciones de [IU de RTE](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html) .
+>En el componente de texto solo están disponibles las opciones activadas por las configuraciones de [IU de RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) .
 
 ## Edit Dialog {#edit-dialog}
 
@@ -132,6 +132,7 @@ Utilice esta opción para convertir el texto seleccionado en un hipervínculo o 
    * Nueva ficha
    * Marco principal
    * Marco superior
+
    Toque o haga clic en la marca de verificación para aplicar el vínculo o la x para cancelar.
 
 ### Desvincular
@@ -257,7 +258,7 @@ Se utiliza para insertar una tabla en el texto. Al seleccionar esta opción se a
 
 Se utiliza para revisar la ortografía del contenido del texto. Los posibles errores ortográficos se ven subrayados con líneas rojas rotas rotas.
 
-Encontrará más información sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica en el documento [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-65/administering/operations/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
+Encontrará más información sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica en el documento [Configurar los complementos](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html)del editor de texto enriquecido.
 
 ### Caracteres especiales {#special-characters}
 
@@ -367,4 +368,4 @@ La opción para insertar caracteres especiales se puede activar o desactivar par
 
 ## Ficha Estilos {#styles-tab}
 
-El componente de texto admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+El componente Texto admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
