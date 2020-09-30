@@ -2,10 +2,10 @@
 title: Componente de imagen
 description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '1934'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,12 +30,12 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 
 La versión actual del componente de imagen es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](v1/image-v1.md) | Compatible | Compatible | Compatible | - |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](v1/image-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
@@ -53,7 +53,7 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 >[!CAUTION]
 >
->La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superior, junto con el [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) para AEM 6.4 o el [Service Pack 3](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp3-release-notes.html) para AEM 6.3 o superior, para admitir [nuevas funciones](https://docs.adobe.com/content/help/en/experience-manager-64/developing/components/image-editor.html) del editor de imágenes en AEM.
+>La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superior, junto con el [Service Pack 2](https://docs.adobe.com/content/help/en/experience-manager-64/release-notes/sp-release-notes.html) para AEM 6.4 o superior, para admitir las funciones [del editor de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) imágenes dentro de AEM.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -91,13 +91,14 @@ Además del cuadro de diálogo [de](#edit-dialog) edición estándar y del cuadr
    * Obtener texto alternativo de DAM: cuando se selecciona, el texto alternativo de la imagen se rellena con el valor de los metadatos en DAM `dc:description` .
 
 * **Rótulo** Información adicional sobre la imagen, que se muestra debajo de la imagen de forma predeterminada.
-   * **Obtener rótulo de DAM** Cuando se selecciona, el texto del rótulo de la imagen se rellena con el valor de los `dc:title` metadatos en DAM.
+   * **Obtener rótulo de DAM** Cuando se selecciona, el texto del rótulo de la imagen se rellena con el valor de la variable 
+`dc:title` metadatos en DAM.
    * **Mostrar rótulo como emergente** Cuando está activado, el rótulo no se mostrará debajo de la imagen, sino como una ventana emergente que muestran algunos navegadores al pasar el ratón por encima de la imagen.
 
 * **Vínculo**
    * Vincule la imagen a otro recurso.
-   * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.
-   * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
+   * Utilice el cuadro de diálogo de selección para vincular a otro recurso AEM.
+   * Si no se vincula a un recurso AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
 
 * **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
    * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
@@ -110,14 +111,15 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
 ![Cuadro de diálogo de edición del componente de imagen](/help/assets/image-edit.png)
 
-* Recorte de Inicio
+* Recorte de inicio
 
-   ![Icono de recorte de Inicio](/help/assets/image-start-crop.png)
+   ![Icono de recorte de inicio](/help/assets/image-start-crop.png)
 
    Al seleccionar esta opción, se abre una lista desplegable para las proporciones de recorte predefinidas.
 
    * Elija la opción **Mano** libre para definir su propio recorte.
    * Elija la opción **Eliminar recorte** para mostrar el recurso original.
+
    Una vez seleccionada la opción de recorte, utilice los controladores azules para ajustar el tamaño del recorte en la imagen.
 
    ![Opciones de recorte](/help/assets/image-crop-options.png)
@@ -211,12 +213,14 @@ En la ficha **Funciones** puede definir las opciones disponibles para los autore
 
    ![Ficha Características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-orientation.png)
 
-* **Rotar** Utilice esta opción para permitir que el autor del contenido utilice la opción **Girar a la derecha** .
-* **Voltear** Utilice esta opción para permitir que el autor del contenido utilice las opciones **Voltear horizontalmente** y **Voltear verticalmente** .
+* **Rotar** Utilice esta opción para permitir que el autor del contenido utilice la variable 
+**Opción Girar a la derecha** .
+* **Voltear** Utilice esta opción para permitir que el autor del contenido utilice la variable 
+**Opciones de voltear horizontalmente** y **voltear verticalmente** .
 
    >[!CAUTION]
    >
-   >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen. Sin embargo, AEM no admite la función en este momento y los cambios realizados con estas opciones no se mantendrán.
+   >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen; sin embargo, la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
 
 * Recortar
 
@@ -228,13 +232,14 @@ En la ficha **Funciones** puede definir las opciones disponibles para los autore
    * Introduzca la proporción numérica del aspecto.
    * Utilice los controladores de arrastre para reorganizar el orden de las proporciones de aspecto
    * Utilice el icono de papelera para eliminar una proporción de aspecto.
+
    >[!CAUTION]
    >
    >Note that in AEM, crop aspect ratios are defined as **height/width**. Esto es distinto de la definición convencional de anchura/altura y se realiza por motivos de compatibilidad con sistemas anteriores. Los autores de contenido no tendrán en cuenta ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la relación misma.
 
 ### Ficha Estilos {#styles-tab-1}
 
-El componente Imagen admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+El componente Imagen admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo de AEM.
 
 ## Servlet de imagen adaptable {#adaptive-image-servlet}
 
@@ -244,4 +249,4 @@ El componente de imagen utiliza el servlet de imagen adaptable del componente pr
 >
 >Las solicitudes condicionales a través del `Last-Modified` encabezado son compatibles con el servlet de imagen adaptable, pero el almacenamiento en caché del `Last-Modified` encabezado [debe habilitarse en Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
 >
->[La configuración de despachante de ejemplo de AEM Project Archetype](/help/developing/archetype/overview.md)ya contiene esta configuración.
+>[La configuración de despachante de ejemplo del Arquetipo](/help/developing/archetype/overview.md)de proyecto de AEM ya contiene esta configuración.
