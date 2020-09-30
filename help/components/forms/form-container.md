@@ -2,10 +2,10 @@
 title: Componente Contenedor de formulario
 description: El componente Contenedor de formularios de componentes principales permite crear formularios de envío simples.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '805'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,12 +28,12 @@ Mediante el cuadro de diálogo [de](#configure-dialog) configuración, el editor
 
 La versión actual del componente de Contenedor de formularios es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](/help/components/v1/form-container-v1.md) | Compatible | Compatible | Compatible | - |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](/help/components/v1/form-container-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
@@ -80,8 +80,8 @@ Cuando se envía el formulario, el contenido del formulario se almacena en una u
 ![Almacenar opciones de contenido en el cuadro de diálogo de edición del Contenedor de formularios](/help/assets/form-container-edit-store.png)
 
 * **Ruta** de contenido: Ruta del repositorio de contenido donde se almacena el contenido enviado
-* **Datos** de Vista: toque o haga clic en la vista de datos enviados almacenados como JSON
-* **Flujo de trabajo** de Inicio: configure el inicio de un flujo de trabajo con el contenido almacenado como carga útil tras el envío del formulario
+* **Datos** de vista: toque o haga clic en la vista de datos enviados almacenados como JSON
+* **Flujo de trabajo** de inicio: configure el inicio de un flujo de trabajo con el contenido almacenado como carga útil tras el envío del formulario
 
 ### Configuración general {#general-settings}
 
@@ -90,7 +90,7 @@ Independientemente del tipo de acción seleccionado, siempre se puede definir un
 ![Opciones generales en el cuadro de diálogo de edición del componente Contenedor de formulario](/help/assets/form-container-edit-general.png)
 
 * **Página** de agradecimiento: el usuario será redirigido a la página especificada una vez completado el envío del formulario.
-   * Utilice el cuadro de diálogo Selección para seleccionar un recurso en AEM.
+   * Utilice el cuadro de diálogo Selección para seleccionar un recurso dentro de AEM.
    * Si la página de agradecimiento no está en AEM, especifique la dirección URL absoluta. Las direcciones URL no absolutas se interpretarán en relación con AEM.
    * Deje en blanco para volver a mostrar el formulario después del envío.
 * **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
@@ -104,4 +104,4 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir los co
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Contenedor de formularios es compatible con el sistema [de](/help/get-started/authoring.md#component-styling)estilos AEM.
+El componente Contenedor de formulario admite el sistema [de](/help/get-started/authoring.md#component-styling)estilos de AEM.
