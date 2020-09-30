@@ -2,7 +2,7 @@
 title: Componente de navegación
 description: El componente de navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
 workflow-type: tm+mt
 source-wordcount: '1369'
 ht-degree: 1%
@@ -61,7 +61,7 @@ Supongamos que su contenido tiene este aspecto:
 \-- wknd-shop
 ```
 
-Para el sitio We.Retail, probablemente desee colocar el componente de navegación en una plantilla de página como parte del encabezado. Una vez que forme parte de la plantilla, puede establecer la raíz **de** navegación del componente en `/content/wknd/language-masters/en` , ya que es ahí donde comienza el contenido maestro de ese sitio. Quizás también desee configurar la profundidad **de la estructura de** navegación `2` , ya que probablemente no desee que el componente muestre todo el árbol de contenido, sino los dos primeros niveles para que funcione como información general.
+Para el WKND del sitio, probablemente desee colocar el componente de navegación en una plantilla de página como parte del encabezado. Una vez que forme parte de la plantilla, puede establecer la raíz **de** navegación del componente en `/content/wknd/language-masters/en` , ya que es ahí donde comienza el contenido maestro de ese sitio. Quizás también desee configurar la profundidad **de la estructura de** navegación `2` , ya que probablemente no desee que el componente muestre todo el árbol de contenido, sino los dos primeros niveles para que funcione como información general.
 
 Con el valor Raíz **de** navegación, el componente de navegación sabe que después de `/content/wknd/language-masters/en` eso comienza la navegación y puede generar opciones de navegación recurriendo a la estructura del sitio dos niveles hacia abajo (como se define en el valor Profundidad **de la estructura de** navegación).
 
@@ -92,7 +92,7 @@ A continuación, el componente de navegación procesará el menú basado en la e
 
 La versión actual del componente de navegación es v1, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018, y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
