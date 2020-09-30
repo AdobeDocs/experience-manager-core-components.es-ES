@@ -2,10 +2,10 @@
 title: Componente de página
 description: El componente Página es un componente de página extensible diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,18 +24,14 @@ Mediante el cuadro de diálogo [de](#design-dialog)diseño, se pueden definir bi
 
 La versión actual del componente Página es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](v1/page-v1.md) | Compatible | Compatible | Compatible | - |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|---|---|---|---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](v1/page-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
-
->[!NOTE]
->
->Para habilitar la redirección a `cq:Page` nivel para la versión 2 del componente de página y AEM 6.3, se requiere [el Service Pack 2](https://helpx.adobe.com/experience-manager/6-3/release-notes/sp2-release-notes.html) o posterior. Esta redirección no estaba disponible en versiones anteriores.
 
 ### Detalles técnicos {#technical-details}
 
@@ -49,13 +45,13 @@ Dado que el componente representa toda la página, la configuración que normalm
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-Dado que el componente representa toda la página, al editar la plantilla de página se accede al cuadro de diálogo de diseño mediante Información **de página -> Política** de página.
+Dado que el componente representa toda la página, se accede al cuadro de diálogo de diseño mediante Información de **página -> Política** de página al editar la plantilla de página.
 
 ![Política de la página](/help/assets/page-policy.png)
 
 >[!NOTE]
 >
->En versiones anteriores de AEM, la política **de** página se denominaba Diseño **de** página.
+>En versiones anteriores de AEM, la directiva **de** página se denominaba Diseño **de** página.
 
 ### Ficha Propiedades {#properties-tab}
 
@@ -63,7 +59,7 @@ Mediante la ventana Diseño de página, puede definir las bibliotecas de cliente
 
 * **Bibliotecas** cliente: define las categorías de la biblioteca de cliente que se van a cargar. JavaScript se agrega al final del cuerpo y CSS al encabezado de la página.
 * **Bibliotecas de clientes Cabeza** de página JavaScript: Define las categorías de biblioteca del cliente JavaScript que se cargarán en el encabezado de página.
-   * Las Categorías definidas aquí que también están presentes en el campo **Bibliotecas** de clientes tendrán JavaScript cargado en el encabezado de página en lugar de en el extremo del cuerpo.
+   * Las categorías definidas aquí que también están presentes en el campo **Bibliotecas** de clientes tendrán JavaScript cargado en el encabezado de página en lugar de en el extremo del cuerpo.
    * No se cargará CSS a menos que la categoría también esté presente en el campo **Bibliotecas** de clientes.
 
 * **Biblioteca** del cliente de recursos web: la categoría de la biblioteca del cliente que se utiliza para proporcionar recursos web como favoritos.
@@ -86,4 +82,4 @@ Para obtener más información sobre el uso de bibliotecas del lado del cliente,
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Página admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+El componente Página admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo de AEM.
