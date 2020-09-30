@@ -2,10 +2,10 @@
 title: Componente oculto de formulario
 description: El componente Formulario de componente principal oculto permite la visualización de un campo oculto.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,12 +24,12 @@ El editor de contenido puede definir las propiedades del campo en el cuadro de d
 
 La versión actual del componente Formulario oculto es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.3 | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |--- |---|
-| v2 | - | Compatible | Compatible | Compatible |
-| [v1](/help/components/v1/form-hidden-v1.md) | Compatible | Compatible | Compatible | - |
+| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |--- |---|
+| v2 | Compatible | Compatible | Compatible |
+| [v1](/help/components/v1/form-hidden-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
 
@@ -39,7 +39,7 @@ Para experimentar el componente Oculto del formulario y ver ejemplos de sus opci
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Oculto del formulario [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
+La documentación técnica más reciente sobre el componente oculto de formulario [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_form_hidden_v2).
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
 
@@ -64,4 +64,4 @@ Dado que el componente Formulario oculto normalmente no tiene atributos visibles
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Formulario oculto es compatible con el sistema [de](/help/get-started/authoring.md#component-styling)estilo de AEM.
+El componente Formulario oculto es compatible con el sistema [de](/help/get-started/authoring.md#component-styling)estilos AEM.
