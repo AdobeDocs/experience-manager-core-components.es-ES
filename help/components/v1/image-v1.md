@@ -3,7 +3,10 @@ title: Componente de imagen (v1)
 description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
 index: n
 translation-type: tm+mt
-source-git-commit: fe8a121520000ffd56ae3347469590e89121eaf0
+source-git-commit: 78202dc777b90f795f66873921c55e21ef8a239c
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 3%
 
 ---
 
@@ -14,7 +17,7 @@ El componente de imagen del componente principal es una función de edición in 
 
 ## Uso {#usage}
 
-El componente Imagen permite colocar fácilmente recursos de imagen y ofrece edición in situ. Incluye selección de imágenes adaptables con carga diferida, así como recorte para el autor del contenido.
+El componente de imagen permite colocar fácilmente recursos de imagen y ofertas en la edición in-situ. Incluye selección de imágenes adaptables con carga diferida, así como recorte para el autor del contenido.
 
 El autor de la plantilla puede definir los anchos de imagen permitidos, así como el recorte y la configuración adicional en el cuadro de diálogo [de](#design-dialog)diseño. El editor de contenido puede cargar o seleccionar recursos en el cuadro de diálogo [de](#configure-dialog) configuración y recortar la imagen en el cuadro de diálogo [de](#edit-dialog)edición. Para mayor comodidad, también está disponible una modificación simple in-situ de la imagen.
 
@@ -22,7 +25,7 @@ El autor de la plantilla puede definir los anchos de imagen permitidos, así com
 
 Este documento describe la versión 1 del componente de imagen, introducida originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-En la tabla siguiente se muestra la compatibilidad de la versión 1 del componente de imagen.
+La siguiente tabla lista la compatibilidad de v1 del componente de imagen.
 
 | Versión de AEM | Componente de imagen v1 |
 |--- |--- |
@@ -33,7 +36,7 @@ En la tabla siguiente se muestra la compatibilidad de la versión 1 del componen
 >
 >Este documento describe la versión 1 del componente de imagen.
 >
->Para obtener más información sobre la versión actual del componente de imagen, consulte el documento Componente [de](/help/components/image.md) imagen.
+>Para obtener más información sobre la versión actual del componente de imagen, consulte el documento del componente [de](/help/components/image.md) imagen.
 
 ## Ejemplo de salida de componente {#sample-component-output}
 
@@ -74,7 +77,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
-Además del cuadro de diálogo [de](#edit-dialog) edición estándar y del cuadro de diálogo [de](#design-dialog)diseño, el componente de imagen ofrece un cuadro de diálogo de configuración en el que la imagen misma se define junto con su descripción y sus propiedades básicas.
+Además del cuadro de diálogo [de](#edit-dialog) edición estándar y del cuadro de diálogo [de](#design-dialog)diseño, el componente de imagen oferta un cuadro de diálogo de configuración en el que la imagen misma se define junto con su descripción y sus propiedades básicas.
 
 ![](/help/assets/chlimage_1-50.png)
 
@@ -87,8 +90,8 @@ Además del cuadro de diálogo [de](#edit-dialog) edición estándar y del cuadr
 * **Texto** alternativo - Alternativa textual del significado o función de la imagen, para lectores con problemas de visión.
 * **Vínculo**
    * Vincule la imagen a otro recurso.
-   * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.
-   * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
+   * Utilice el cuadro de diálogo de selección para vincular a otro recurso AEM.
+   * Si no se vincula a un recurso AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
 
 * **Rótulo** : la información adicional sobre la imagen que se muestra debajo de la imagen es predeterminada.
 * **Mostrar rótulo como elemento emergente** : al activarlo, el rótulo no se mostrará debajo de la imagen, sino como elemento emergente que muestran algunos exploradores al pasar el ratón por encima de la imagen.
@@ -99,7 +102,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
 ![](/help/assets/chlimage_1-8.png)
 
-* Iniciar recorte
+* Recorte de inicio
 
    ![](/help/assets/chlimage_1-9.png)
 
@@ -107,6 +110,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
    * Elija la opción **Mano** libre para definir su propio recorte.
    * Elija la opción **Eliminar recorte** para mostrar el recurso original.
+
    Una vez seleccionada la opción de recorte, utilice los controladores azules para ajustar el tamaño del recorte en la imagen.
 
    ![](/help/assets/chlimage_1-10.png)
@@ -123,11 +127,12 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
    Utilice esta opción para aplicar un mapa de inicio a la imagen. Al seleccionar esta opción se abre una nueva ventana que permite al usuario seleccionar la forma del mapa:
 
-   * **Agregar mapa rectangular**
-   * **Agregar mapa circular**
-   * **Agregar mapa poligonal**
+   * **Añadir mapa rectangular**
+   * **Añadir mapa circular**
+   * **Añadir mapa poligonal**
 
-      * De forma predeterminada, agrega un mapa de triángulo. Haga doble clic en una línea de la forma para añadir un nuevo controlador azul de cambio de tamaño en un lado nuevo.
+      * De forma predeterminada, agrega un mapa de triángulo. Haga clic con el botón doble en una línea de la forma para agregar un nuevo controlador azul de cambio de tamaño en un lado nuevo.
+
    Una vez seleccionada una forma de mapa, se superpone a la imagen, lo que permite cambiar el tamaño. Arrastre y suelte los controladores de tamaño azules para ajustar la forma.
 
    ![](/help/assets/chlimage_1-13.png)
@@ -144,6 +149,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
          * **Nueva ficha**
          * **Marco principal**
          * **Marco superior**
+
    Toque o haga clic en la marca de verificación azul para guardar, la x negra para cancelar y la papelera roja para eliminar el mapa.
 
    ![](/help/assets/chlimage_1-14.png)
@@ -180,7 +186,7 @@ On the **Main** tab you can define a list of allowed widths in pixels for the im
 
 ![](/help/assets/chlimage_1-51.png)
 
-Toque o haga clic en el botón Agregar para agregar otro tamaño.
+Toque o haga clic en el botón Añadir para agregar otro tamaño.
 
 * Use los asideros para reorganizar el orden de los tamaños.
 * Utilice el icono Eliminar para eliminar un ancho.
@@ -202,32 +208,26 @@ En la ficha **Funciones** puede definir las opciones disponibles para los autore
    ![](/help/assets/chlimage_1-20.png)
 
    * **Rotar** : Utilice esta opción para permitir que el autor del contenido utilice la opción **Girar a la derecha** .
-   * **Voltear** Utilice esta opción para permitir que el autor del contenido utilice las opciones **Voltear horizontalmente** y **Voltear verticalmente** .
+   * **Voltear** Utilice esta opción para permitir que el autor del contenido utilice la variable 
+**Opciones de voltear horizontalmente** y **voltear verticalmente** .
    >[!CAUTION]
    >
-   >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen; sin embargo, AEM no admite actualmente la función y los cambios realizados con estas opciones no se mantendrán.
-
-<!-- 
-Comment Type: remark
-Last Modified By: Chris Bohnert (bohnert)
-Last Modified Date: 2017-11-20T05:51:34.378-0500
-
-<p>Added caution based on CQDOC-11457. Hid the flip options in the procedure using the <strong>Draft</strong> option so that when this feature is implemented in CQ-4221539, the <strong>Draft</strong> property can simply be removed along with the caution.</p>
--->
+   >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen; sin embargo, la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
 
 * Recortar
 
    ![](/help/assets/chlimage_1-21.png)
 
    Seleccione la opción **Permitir recortar** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
-   * Haga clic en **Agregar** para agregar una proporción de aspecto de recorte predefinida.
-   * Escriba un nombre descriptivo que se mostrará en la lista desplegable **Iniciar recorte** .
+   * Haga clic en **Añadir** para agregar una proporción de aspecto de recorte predefinida.
+   * Escriba un nombre descriptivo, que se mostrará en la lista desplegable Recortar **** Inicio.
    * Introduzca la proporción numérica del aspecto.
    * Utilice los controladores de arrastre para reorganizar el orden de las proporciones de aspecto
    * Utilice el icono de papelera para eliminar una proporción de aspecto.
+
    >[!CAUTION]
    >
-   >Note that in AEM, crop aspect ratios are defined as **height/width**. Esto difiere de la definición convencional de anchura y altura y se realiza por motivos de compatibilidad heredados. Los autores de contenido no tendrán en cuenta ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la relación misma.
+   >Note that in AEM, crop aspect ratios are defined as **height/width**. Esto es distinto de la definición convencional de anchura/altura y se realiza por motivos de compatibilidad con sistemas anteriores. Los autores de contenido no tendrán en cuenta ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la relación misma.
 
 ## Detalles técnicos {#technical-details}
 
