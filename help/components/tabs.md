@@ -2,10 +2,10 @@
 title: Componente de fichas
 description: El componente Fichas permite la creación de varias fichas para organizar el contenido de una página.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 2%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,8 +32,8 @@ Los componentes [Fichas y](accordion.md) Acordeón admiten la vinculación direc
 
 Para ello:
 
-1. Vista de la página con el componente mediante la opción **[Vista como publicada](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**en el editor de páginas.
-1. Inspeccione el contenido de la página e identifique el ID del panel.
+1. Vista de la página con el componente mediante la opción **[Vista como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** en el editor de páginas.
+1. Inspect muestra el contenido de la página e identifica el ID del panel.
    * Por ejemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. El ID se convierte en el anclaje que se puede anexar a la URL mediante un hash (`#`).
    * Por ejemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -44,7 +44,7 @@ Si se desplaza a la URL con el ID del panel como anclaje, el navegador se despla
 
 La versión actual del componente Tabs es v1, que se introdujo con la versión 2.2.0 de los componentes principales en octubre de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
@@ -118,7 +118,7 @@ Una vez seleccionada la opción **Seleccionar panel** en la barra de herramienta
 
 >[!NOTE]
 >
->El autor no puede seleccionar las fichas cuando se encuentra en el modo de **edición** . Utilice el modo de **[Previsualización](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)**o la opción**[Vista como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interactuar con las fichas como un lector del contenido publicado.
+>El autor no puede seleccionar las fichas cuando se encuentra en el modo de **edición** . Utilice el modo de **[Previsualización](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** o la opción **[Vista como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interactuar con las fichas como un lector del contenido publicado.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
@@ -132,4 +132,4 @@ La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo n
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Tabs es compatible con el sistema [de](/help/get-started/authoring.md#component-styling)estilo AEM.
+El componente Tabs es compatible con el sistema [de](/help/get-started/authoring.md#component-styling)estilos AEM.
