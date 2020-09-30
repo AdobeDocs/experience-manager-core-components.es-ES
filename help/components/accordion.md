@@ -2,10 +2,10 @@
 title: Componente de acordeón
 description: El componente Acordeón de componentes principales permite la creación de una colección de paneles organizados en un acordeón en una página.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,8 +28,8 @@ Los componentes [Acordeón y](tabs.md) Fichas admiten la vinculación directa a 
 
 Para ello:
 
-1. Vista de la página con el componente mediante la opción **[Vista como publicada](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/authoring/editing-content.html#view-as-published)**en el editor de páginas.
-1. Inspeccione el contenido de la página e identifique el ID del panel.
+1. Vista de la página con el componente mediante la opción **[Vista como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** en el editor de páginas.
+1. Inspect muestra el contenido de la página e identifica el ID del panel.
    * Por ejemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. El ID se convierte en el anclaje que se puede anexar a la URL mediante un hash (`#`).
    * Por ejemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
@@ -40,7 +40,7 @@ Si se desplaza a la URL con el ID del panel como anclaje, el navegador se despla
 
 La versión actual del componente Acordeón es v1, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones de AEM con las que las versiones del componente son compatibles y los vínculos a la documentación de versiones anteriores.
+En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
@@ -120,8 +120,8 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir las op
 
 La ficha Componentes **** permitidos se utiliza para definir qué componentes puede agregar el autor del contenido como elementos a los paneles del componente de acordeón.
 
-La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre al [definir la política y las propiedades de un Contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/templates.html)
+La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre al [definir la política y las propiedades de un Contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Acordeón es compatible con el sistema [de](/help/get-started/authoring.md#component-styling)estilo de AEM.
+El componente Acordeón es compatible con el sistema [de](/help/get-started/authoring.md#component-styling)estilos de AEM.
