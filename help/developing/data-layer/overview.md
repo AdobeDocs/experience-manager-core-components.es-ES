@@ -2,7 +2,7 @@
 title: Uso de la capa de datos del cliente de Adobe con los componentes principales
 description: Uso de la capa de datos del cliente de Adobe con los componentes principales
 translation-type: tm+mt
-source-git-commit: 7b0edac1b5ffd068443cc4805a0fa97d243b6e9e
+source-git-commit: 79a063951a790261e2f00c33d8a76f31f781da0c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 4%
@@ -35,7 +35,7 @@ Para activar manualmente la capa de datos, debe crear una configuración [según
    * Donde cada nodo tiene un `jcr:primaryType` conjunto en `nt:unstructured`.
 1. Añada una propiedad booleana llamada `enabled` y configúrela en `true`.
 
-   ![Ubicación de DataLayerConfig en el sitio de referencia WKND](../../assets/datalayer-contextaware-sling-config.png)
+   ![Ubicación de DataLayerConfig en el sitio de referencia WKND](/help/assets/datalayer-contextaware-sling-config.png)
 
    *Ubicación de DataLayerConfig en el sitio de referencia WKND*
 
@@ -59,7 +59,7 @@ Para activar manualmente la capa de datos, debe crear una configuración [según
 
 1. También puede abrir las herramientas de desarrollador del explorador y, en la consola, el objeto `adobeDataLayer` JavaScript debería estar disponible. Introduzca el siguiente comando para obtener el estado de la capa de datos de la página actual:
 
-   ```js
+   ```javascript
    window.adobeDataLayer.getState();
    ```
 
@@ -238,7 +238,7 @@ Dónde `<component-path>` está la ruta JSON al componente en la capa de datos q
 
 Por ejemplo:
 
-```js
+```javascript
 function logEventObject(event) {
     if(event.hasOwnProperty("eventInfo") && event.eventInfo.hasOwnProperty("path")) {
         var dataObject = window.adobeDataLayer.getState(event.eventInfo.path);
