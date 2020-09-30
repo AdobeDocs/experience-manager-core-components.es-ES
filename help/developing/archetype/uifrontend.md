@@ -2,10 +2,10 @@
 title: Creación de front-end de arquetipo de proyecto de AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 translation-type: tm+mt
-source-git-commit: d8503d92c2d4948e54b2ad7d5407e4c7c98ebf83
+source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 0%
+source-wordcount: '1622'
+ht-degree: 1%
 
 ---
 
@@ -37,7 +37,7 @@ Cuando se ejecuta todo el arquetipo de proyecto de AEM usando `mvn clean install
 
 ## Información general de ClientLibs {#clientlibs}
 
-El módulo front-end está disponible mediante un [AEM ClientLib](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/clientlibs.html). Al ejecutar el script de compilación NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de compilación resultante y la transforma en un ClientLib de este tipo.
+El módulo front-end está disponible mediante un [AEM ClientLib](https://docs.adobe.com/content/help/es-ES/experience-manager-65/developing/introduction/clientlibs.html). Al ejecutar el script de compilación NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de compilación resultante y la transforma en un ClientLib de este tipo.
 
 ClientLib constará de los siguientes archivos y directorios:
 
@@ -161,7 +161,7 @@ El proceso de compilación del módulo ui.frontened aprovecha el complemento [ae
 
 ### Inclusión de bibliotecas de cliente en páginas {#clientlib-inclusion}
 
-`clientlib-site` y `clientlib-dependencies` las categorías se incluyen en las páginas mediante la configuración [de la directiva de](https://docs.adobe.com/content/help/en/experience-manager-65/developing/platform/templates/page-templates-editable.html#template-definitions) página como parte de la plantilla predeterminada. Para vista de la política, edite la plantilla de página de **contenido > Información de página > Política** de página.
+`clientlib-site` y `clientlib-dependencies` las categorías se incluyen en las páginas mediante la configuración [de la directiva de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#template-definitions) página como parte de la plantilla predeterminada. Para vista de la política, edite la plantilla de página de **contenido > Información de página > Política** de página.
 
 La inclusión final de las bibliotecas de cliente en la página de sitios es la siguiente:
 
