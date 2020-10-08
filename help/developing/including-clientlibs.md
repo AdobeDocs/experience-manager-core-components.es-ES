@@ -2,10 +2,10 @@
 title: Inclusión de bibliotecas de cliente
 description: Existen diferentes maneras de incluir bibliotecas de cliente según el caso de uso.
 translation-type: tm+mt
-source-git-commit: 24f718be2ba66113eda970c213c6ce4baec51752
+source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 3%
+ht-degree: 4%
 
 ---
 
@@ -49,7 +49,7 @@ Para hacer lo mismo con varias categorías de biblioteca de cliente a la vez, se
 ## Solo CSS o JS {#css-js-only}
 
 A menudo, uno quiere colocar las inclusiones CSS en el elemento HTML `head` , y JS incluye justo antes del cierre del `body` elemento.
-&#x200B;
+
 En el `head`, para incluir solo el CSS y no el JS, utilice `cssIncludes`:
 
 ```html
@@ -84,7 +84,9 @@ Para aplicar atributos a los `link` elementos CSS generados y/o a los elementos 
 
 Atributos CSS `link` que se pueden pasar a `jsAndCssIncludes` y `cssIncludes`:
 
-* `media`:: atributos de cadena &#x200B; JS `script` que se pueden pasar a `jsAndCssIncludes` y `jsIncludes`:
+* `media`: cadena
+
+Atributos JS `script` que se pueden pasar a `jsAndCssIncludes` y `jsIncludes`:
 
 * `async`: boolean
 * `defer`: boolean
@@ -94,7 +96,7 @@ Atributos CSS `link` que se pueden pasar a `jsAndCssIncludes` y `cssIncludes`:
 ## Inclinación {#inlining}
 
 En algunos casos, ya sea para la optimización o para correo electrónico o [AMP,](amp.md) puede que sea necesario integrar el CSS o JS en la salida del HTML.
-&#x200B;
+
 Para alinear la CSS, `cssInline` se puede utilizar, en cuyo caso se debe escribir el `style` elemento que la rodea:
 
 ```html
