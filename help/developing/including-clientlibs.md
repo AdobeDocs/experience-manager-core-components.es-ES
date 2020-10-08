@@ -2,10 +2,10 @@
 title: Inclusión de bibliotecas de cliente
 description: Existen diferentes maneras de incluir bibliotecas de cliente según el caso de uso.
 translation-type: tm+mt
-source-git-commit: 87e39566617f64b91bd8e98b3779b9b5c426c31c
+source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
 workflow-type: tm+mt
 source-wordcount: '333'
-ht-degree: 4%
+ht-degree: 3%
 
 ---
 
@@ -84,10 +84,7 @@ Para aplicar atributos a los `link` elementos CSS generados y/o a los elementos 
 
 Atributos CSS `link` que se pueden pasar a `jsAndCssIncludes` y `cssIncludes`:
 
-* `media`: cadena
-
-Atributos JS `script` que se pueden pasar a `jsAndCssIncludes` y `jsIncludes`:
-
+* `media`:: atributos de JS `script` de cadena que se pueden pasar a `jsAndCssIncludes` y `jsIncludes`:
 * `async`: boolean
 * `defer`: boolean
 * `onload`: cadena
