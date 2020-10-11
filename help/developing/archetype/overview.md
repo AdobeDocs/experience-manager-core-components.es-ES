@@ -2,10 +2,10 @@
 title: Tipo de archivo del proyecto AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 translation-type: tm+mt
-source-git-commit: 8b8f0ad528c77cfb6080981438786275bd9fbef1
+source-git-commit: 52f2c4dbba54261863a98fa2b992fe4690da3511
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 9%
+source-wordcount: '1035'
+ht-degree: 10%
 
 ---
 
@@ -41,6 +41,7 @@ El Arquetipo de proyecto AEM es una plantilla Maven que crea un proyecto de Adob
 * **Sistema de estilos:** Evite crear componentes personalizados permitiendo a los autores [aplicarles estilos](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/style-system.html) diferentes.
 * **Diseño front-end:** Los desarrolladores de front-end pueden [burlarse de AEM páginas](uifrontend.md#webpack-dev-server) y [crear bibliotecas](uifrontend.md) de cliente con Webpack, TypeScript y SASS.
 * **Listo para WebApp:** Para los sitios que utilizan [React](uifrontend-react.md) o [Angular](uifrontend-angular.md), utilice el SDK [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/developing.html) SPA para conservar la creación [en contexto de la aplicación](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **Comercio habilitado:** Para proyectos que deseen integrar [AEM Commerce](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/commerce/home.html) con soluciones comerciales como [Magento](https://magento.com/) mediante los componentes [](https://github.com/adobe/aem-core-cif-components)principales de comercio.
 * **Código de ejemplo:** Cierre el componente HelloWorld y los modelos de muestra, servlets, filtros y Planificadoras.
 * **Abrir fuente:** Si algo no es como debería, ¡ [contribuya](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) con sus mejoras!
 
