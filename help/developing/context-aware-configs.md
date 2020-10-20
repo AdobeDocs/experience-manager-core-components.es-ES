@@ -2,9 +2,9 @@
 title: Configuraciones y componentes principales según el contexto de Sling
 description: Los componentes principales aprovechan las configuraciones de Sling según el contexto para determinadas funciones
 translation-type: tm+mt
-source-git-commit: 24a810ff634f8846881dfa0095e879476d0f16f0
+source-git-commit: 11e2c6da0fa93084b601437fd45fd65dd8d73231
 workflow-type: tm+mt
-source-wordcount: '185'
+source-wordcount: '194'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ Las configuraciones según el contexto son una característica de Sling y son co
 
 ## Configuraciones según el contexto de Sling {#context-aware-configurations}
 
-El sitio puede necesitar diferentes configuraciones para diferentes regiones del sitio, por ejemplo, algunos parámetros pueden compartirse y requerir herencia para contextos anidados y valores de reserva globales. Las configuraciones compatibles con contexto Sling lo habilitan.
+El sitio puede necesitar diferentes configuraciones para diferentes regiones del sitio, por ejemplo, algunos parámetros pueden compartirse y requerir herencia para contextos anidados y valores de reserva globales. AEM aprovecha las configuraciones según el contexto de Sling, que permiten esta posibilidad.
 
-Para obtener información detallada sobre las configuraciones compatibles con el contexto de Sling, [consulte la documentación de Apache.](https://sling.apache.org/documentation/bundles/context-aware-configuration/context-aware-configuration.html)
+Para obtener más información sobre las configuraciones en AEM, [consulte la documentación Configuraciones y Navegador de configuración.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/developing/configurations.html)
 
 ## Uso en los componentes principales {#core-components}
 
