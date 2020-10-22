@@ -2,10 +2,10 @@
 title: Desarrollo de componentes principales
 description: Los componentes principales proporcionan componentes básicos robustos y ampliables que oferta las funciones enriquecidas, el envío continuo, el control de versiones de componentes, la implementación moderna, el marcado magro y la exportación de contenido JSON.
 translation-type: tm+mt
-source-git-commit: b08fc5ec49126f7be19b7433a3d71de877d9e442
+source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
 workflow-type: tm+mt
 source-wordcount: '1442'
-ht-degree: 13%
+ht-degree: 14%
 
 ---
 
@@ -16,14 +16,15 @@ ht-degree: 13%
 
 Como los componentes principales son completamente nuevos y ofrecen varios beneficios, se recomienda utilizarlos en los nuevos proyectos de AEM. En los proyectos existentes, la migración debería ser parte de un esfuerzo de proyecto aún mayor; por ejemplo, para realizar un cambio en la marca o la refactorización total.
 
-Por lo tanto, Adobe proporciona las siguientes recomendaciones:
+Por lo tanto, Adobe formula las siguientes recomendaciones:
 
 * **Nuevos proyectos** Los nuevos proyectos siempre deben intentar utilizar los componentes principales. Si los componentes principales no se pueden utilizar directamente o [ampliar](customizing.md) para satisfacer los requisitos del proyecto, cree un componente personalizado siguiendo la arquitectura de componentes establecida en los componentes principales. Salvo en los casos en que no sea posible, evite utilizar los componentes [de](/help/versions.md#foundation-component-support)base.
 * **La recomendación de proyectos** existentes se mantiene usando los componentes [de](/help/versions.md#foundation-component-support)base, a menos que se planifique una refactorización de sitios o componentes.\
    Dado que la mayoría de los proyectos existentes los utilizan muy ampliamente, [seguirán contando con el apoyo de los componentes básicos.](/help/versions.md#foundation-component-support)
 * **Nuevos componentes** personalizadosSe evalúa si un componente [principal existente puede personalizarse](customizing.md).\
    Si no es así, se recomienda crear un nuevo componente personalizado siguiendo las directrices [de](guidelines.md)componentes.
-* **Componentes** personalizados existentes Si los componentes funcionan correctamente, manténgalos tal como están.\
+* **Componentes** personalizados existentes Si los componentes funcionan correctamente, manténgalos tal como están.
+\
    Si no es así, consulte &quot;Nuevos componentes personalizados&quot; más arriba.
 
 ## Cómo lograr el éxito con los componentes principales {#how-to-succeed}
@@ -34,9 +35,9 @@ Los componentes principales son potentes, flexibles y fáciles de usar y persona
 
 Cualquier nuevo proyecto debe implementarse con los componentes principales. Sin embargo, los proyectos existentes normalmente tendrán una amplia implementación de los componentes de base.
 
-Un esfuerzo mayor en un proyecto existente (por ejemplo, un rediseño de marca o una refactorización general) a menudo oferta la posibilidad de migrar a los componentes principales. Para facilitar esta migración, Adobe ha proporcionado una serie de herramientas de migración para fomentar la adopción de los componentes principales y la tecnología AEM más reciente.
+Un esfuerzo mayor en un proyecto existente (por ejemplo, un rediseño de marca o una refactorización general) a menudo oferta la posibilidad de migrar a los componentes principales. Para facilitar esta migración, el Adobe ha proporcionado una serie de instrumentos de migración para fomentar la adopción de los componentes principales y la tecnología de AEM más reciente.
 
-[Las herramientas](http://opensource.adobe.com/aem-modernize-tools/) de modernización de AEM facilitan la conversión de:
+[Las AEM herramientas](http://opensource.adobe.com/aem-modernize-tools/) de modernización permiten la conversión sencilla de:
 
 * Plantillas estáticas a plantillas editables.
 * Diseño de las configuraciones para políticas.
@@ -47,13 +48,13 @@ Para obtener más información sobre el uso de estas herramientas, [consulte su 
 
 >[!NOTE]
 >
->Las herramientas de moderación de AEM son un esfuerzo de la comunidad y Adobe no las admite ni garantiza.
+>Las herramientas de moderación de AEM son un esfuerzo comunitario y no están respaldadas ni garantizadas por el Adobe.
 
 ## Compatibilidad con componentes principales {#core-component-support}
 
 Los componentes principales son parte integral de AEM y se admiten tal cual bajo los mismos términos y condiciones en los que se admitirían si fueran parte del inicio rápido.
 
-Al igual que otras funciones de productos de AEM, la regla general es: Los componentes se anuncian primero como obsoletos y los primeros se eliminan en la siguiente versión de AEM. Esto proporciona a los clientes al menos un ciclo de lanzamiento para pasar a la nueva versión del componente, antes de dejar de ofrecer soporte.
+Al igual que otras funciones de producto AEM, la regla general es: Los componentes se anuncian primero como obsoletos y los primeros se eliminan para la siguiente versión de AEM. Esto proporciona a los clientes al menos un ciclo de lanzamiento para pasar a la nueva versión del componente, antes de dejar de ofrecer soporte.
 
 La versión de cada componente señala claramente las versiones de AEM que admite. Cuando una versión de AEM deja de ser compatible, también lo deja de ser el componente principal de esa versión de AEM.
 
@@ -77,9 +78,9 @@ Para obtener más información sobre sus capacidades de creación y las opciones
 | Versiones | [Para el modelo y el HTL](guidelines.md) | Ninguna |
 | Pruebas | Pruebas de unidad + Pruebas de integración | Pruebas de integración |
 | Entrega | [Vía GitHub público](https://github.com/adobe/aem-core-wcm-components) | Vía Quickstart |
-| Licencia | [Licencia de Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe, propiedad privada |
+| Licencia | [Licencia de Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propietario |
 | Contribución | Mediante solicitud de extracción | No es posible |
-| Accesibilidad | Compatible con el estándar []WCAG 2.0 AA(https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Compatible solo parcialmente con el estándar [WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accesibilidad | Compatible con el estándar [WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Compatible solo parcialmente con el estándar [WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Lista de componentes {#component-list}
 
@@ -115,7 +116,7 @@ La siguiente tabla lista los componentes principales disponibles, vinculándolos
 | [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1) | Añadir un fragmento de experiencia en una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incrustar un recurso externo dentro de una página | - |
 | [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Proporcionar una representación visual del progreso hacia un objetivo | - |
-| [Visor de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Presenta un documento PDF en una página | - |
+| [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Presenta un documento PDF en una página | - |
 
 ### Próximos componentes {#upcoming-components}
 
