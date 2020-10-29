@@ -2,9 +2,9 @@
 title: Ampliación de la capa de datos del cliente de Adobe
 description: La capa de datos del cliente de Adobe se puede ampliar siguiendo algunos patrones básicos
 translation-type: tm+mt
-source-git-commit: 896ed679ed3351cb309a34b38bf97fe81adc2cfe
+source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '276'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,7 @@ Un componente principal como el componente [](https://github.com/adobe/aem-core-
 Por lo tanto, el modelo Sling personalizado puede tener un `getData` método que devuelva un objeto que se extienda `ComponentData` a más campos.
 
 Al hacer esto, se agregará un `data-cmp-data-layer` atributo al elemento HTML del componente con el JSON de los datos que se rellenarán en la capa de datos. En este punto, puede implementar secuencias de comandos que escuchen estos datos o eventos relacionados.
+
+>[!TIP]
+>
+>Para explorar más a fondo la flexibilidad de la capa de datos, consulte las opciones de integración, incluida la forma de habilitar la capa de datos para los componentes personalizados.
