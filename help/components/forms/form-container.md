@@ -2,10 +2,10 @@
 title: Componente Contenedor de formulario
 description: El componente Contenedor de formularios de componentes principales permite crear formularios de envío simples.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 499047a8c15a6423a56b370f41fd020740481f80
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '956'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,7 @@ El componente Contenedor de formularios de componentes principales permite crear
 
 El componente Contenedor del formulario permite crear formularios y funciones de envío de información simples mediante la compatibilidad con formularios WCM simples y el uso de una estructura anidada para permitir componentes de formulario adicionales.
 
-Mediante el cuadro de diálogo [de](#configure-dialog) configuración, el editor de contenido puede definir la acción desencadenada por el envío del formulario, dónde se debe almacenar el contenido enviado y si se debe activar un flujo de trabajo. El autor de la plantilla puede utilizar el cuadro de diálogo [de](#design-dialog) diseño para definir los componentes permitidos y sus asignaciones de forma similar al cuadro de diálogo de diseño para el contenedor de diseño [estándar en el editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de plantillas.
+Mediante el cuadro de diálogo [de](#configure-dialog) configuración, el editor de contenido puede definir la acción desencadenada por el envío del formulario, la URL que debe gestionar el envío y si se debe activar un flujo de trabajo. El autor de la plantilla puede utilizar el cuadro de diálogo [de](#design-dialog) diseño para definir los componentes permitidos y sus asignaciones de forma similar al cuadro de diálogo de diseño para el contenedor de diseño [estándar en el editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)de plantillas.
 
 >[!NOTE]
 >
@@ -53,10 +53,23 @@ El cuadro de diálogo de configuración permite al autor del contenido definir q
 
 Según el tipo **de** acción seleccionado, cambiarán las opciones disponibles en el contenedor. Los tipos de acciones disponibles son:
 
+* [Publicar datos del formulario](#post-data)
 * [Correo](#mail)
 * [Almacenar contenido](#store-content)
 
 Independientemente del tipo, hay una configuración [](#general-settings) general que se aplica a cada acción.
+
+### Publicar datos del formulario {#post-data}
+
+Cuando se envía el formulario, el tipo de acción de datos del formulario de anuncio pasa los datos enviados a un tercero como JSON para su procesamiento.
+
+![Opciones de Datos de formulario de anuncio en el cuadro de diálogo de edición del componente Contenedor de formulario](/help/assets/form-container-edit-post.png)
+
+* **Extremo** : servicio HTTPS completo que procesará los datos
+* **Mensaje** de error: mensaje para mostrar si el envío no se ha realizado correctamente
+
+>[!TIP]
+>Hay opciones de tiempo de espera adicionales que un administrador del sistema puede ajustar para gestionar el procesamiento de los datos de formulario reenviados. [Consulte la documentación técnica de GitHub para obtener más información.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Correo {#mail}
 
@@ -82,6 +95,12 @@ Cuando se envía el formulario, el contenido del formulario se almacena en una u
 * **Ruta** de contenido: Ruta del repositorio de contenido donde se almacena el contenido enviado
 * **Datos** de vista: toque o haga clic en la vista de datos enviados almacenados como JSON
 * **Flujo de trabajo** de inicio: configure el inicio de un flujo de trabajo con el contenido almacenado como carga útil tras el envío del formulario
+
+>[!NOTE]
+>
+>A fin de simplificar la administración de datos de usuario y hacer cumplir la separación de problemas, generalmente no se recomienda almacenar contenido generado por el usuario en el repositorio.
+>
+>En su lugar, utilice el tipo de acción [Publicar datos](#post-data) de formulario para pasar contenido de usuario a un proveedor de servicio dedicado.
 
 ### Configuración general {#general-settings}
 
