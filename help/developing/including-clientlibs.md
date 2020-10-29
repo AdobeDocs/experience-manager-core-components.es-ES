@@ -2,9 +2,9 @@
 title: Inclusión de bibliotecas de cliente
 description: Existen diferentes maneras de incluir bibliotecas de cliente según el caso de uso.
 translation-type: tm+mt
-source-git-commit: f74883359561e5ff6ca679d58bedbdeb100f7b0b
+source-git-commit: afce571ada011c38c83830628f09a9e268658965
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
@@ -111,3 +111,26 @@ Del mismo modo, para integrar el JS, `jsInline` se puede utilizar, en cuyo caso 
     ${clientlibs.jsInline @ context="unsafe"}
 </script>
 ```
+
+## Carga de CSS y JavaScript según el contexto {#context-aware-loading}
+
+El componente [](/help/components/page.md) Página también admite la carga de etiquetas CSS, JavaScript o meta definidas por el desarrollador y que son compatibles con el contexto.
+
+Esto se realiza creando un recurso [contextual para](context-aware-configs.md) `com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig` utilizar la siguiente estructura:
+
+```text
+com.adobe.cq.wcm.core.components.config.HtmlPageItemsConfig
+    - prefixPath="/some/path"
+    + item01
+        - element=["link"|"script"|"meta"]
+        - location=["header"|"footer"]
+        + attributes
+            - attributeName01="attributeValue01"
+            - attributeName02="attributeValue02"
+            ...
+    + item02
+        ...
+    ...
+```
+
+[Consulte la documentación técnica del componente Página para obtener más información.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/page/v2/page#loading-of-context-aware-cssjs)
