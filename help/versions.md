@@ -2,7 +2,7 @@
 title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica qué versiones y versiones son y cómo comprender la compatibilidad con los componentes principales y AEM.
 translation-type: tm+mt
-source-git-commit: a35054397619e3efe051e557951e2d62634c678a
+source-git-commit: d815058a1fe295eba5988a283c17de576ef06c5e
 workflow-type: tm+mt
 source-wordcount: '1783'
 ht-degree: 22%
@@ -26,7 +26,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con todos los det
 
 | Versión | Descripción | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versión introdujo [un nuevo controlador de formularios POST;](/help/components/forms/form-container.md#post-data) la capacidad de incluir [etiquetas CSS, Javascript y de metadatos personalizadas mediante la configuración según el contexto;](/help/developing/including-clientlibs.md#context-aware-loading) y una `DataLayerBuilder` utilidad para [simplificar la integración de capas de datos en componentes personalizados.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | Continua | 8, 11 | 27 de octubre de 2020 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versión introdujo [un nuevo controlador de formularios POST;](/help/components/forms/form-container.md#post-data) la capacidad de incluir [etiquetas CSS, Javascript y de metadatos personalizadas mediante la configuración según el contexto;](/help/developing/including-clientlibs.md#context-aware-loading) y una `DataLayerBuilder` utilidad para [simplificar la integración de capas de datos en componentes personalizados.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | Continua | 8, 11 | 29 de octubre de 2020 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versión incorpora la compatibilidad con [AMP.](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | Continua | 8, 11 | 20 de julio de 2020 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Esta versión incorpora el componente de visor de [PDF.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | Continua | 8, 11 | 17 de junio de 2020 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Esta versión ha permitido la integración con la capa [de datos del cliente de](/help/developing/data-layer/overview.md) Adobe y ha introducido el componente [Barra de progreso.](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | Continua | 8, 11 | 29 de mayo de 2020 |
