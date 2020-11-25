@@ -2,9 +2,9 @@
 title: AEM como Cloud Service SDK Build Analyzer Maven Plugin
 description: Documentación para el complemento de analizador de Maven build local
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: a58434ebf7ae72472989f2e55d40bfa22fd99208
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '450'
 ht-degree: 3%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 3%
 
 El complemento AEM analyzer Maven analiza la estructura de los diversos proyectos de paquetes de contenido.
 
-Consulte la documentación [del](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) AEM Analyzer Maven Plugin para obtener información sobre cómo incluirlo en un proyecto AEM. El complemento está incluido en AEM arquetipo Maven versión 25 y posterior.
+Consulte la documentación [del](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) AEM Analyzer Maven Plugin para obtener información sobre cómo incluirlo en un proyecto AEM.
 
 A continuación se muestra una tabla que describe los analizadores que se ejecutan como parte de este paso. Tenga en cuenta que algunos se ejecutan en el SDK local, mientras que otros solo se ejecutan durante la implementación de la canalización de Cloud Manager.
 
