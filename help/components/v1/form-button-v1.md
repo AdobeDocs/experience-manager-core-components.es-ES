@@ -4,25 +4,28 @@ description: El componente Formulario oculto de componente principal permite inc
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 3%
 
 ---
 
 
-# Form Button Component (v1) {#form-button-component-v}
+# Componente Botón de formulario (v1) {#form-button-component-v}
 
 El componente Botón de formulario de componente principal permite incluir un campo de botón en un formulario para activar una acción.
 
 ## Uso {#usage}
 
-El componente Botón de formulario de componente principal permite la creación de un campo de botón, a menudo para activar el envío del formulario y está diseñado para utilizarse junto con el componente [contenedor de](form-container-v1.md)formulario.
+El componente Botón de formulario de componente principal permite crear un campo de botón, a menudo para activar el envío del formulario y está diseñado para utilizarse junto con el [componente de contenedor de formulario](form-container-v1.md).
 
-El editor de contenido puede definir las propiedades del botón en el cuadro de diálogo [](#configure-dialog)configurar.
+El editor de contenido puede definir las propiedades del botón en el cuadro de diálogo [configurar](#configure-dialog).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 1 del componente Botón de formulario, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
+Este documento describe la versión 1 del componente Botón de formulario, que se introdujo originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-En la tabla siguiente se muestra la compatibilidad de v1 del componente Botón de formulario.
+La siguiente tabla lista la compatibilidad de v1 del componente Botón de formulario.
 
 | Versión de AEM | Componente de botón de formulario v1 |
 |--- |--- |
@@ -31,11 +34,11 @@ En la tabla siguiente se muestra la compatibilidad de v1 del componente Botón d
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente Botón de formulario.
+>Este documento describe v1 del componente Botón de formulario.
 >
->Para obtener más información sobre la versión actual del componente Botón de formulario, consulte el documento Componente [Botón de](/help/components/forms/form-button.md) formulario.
+>Para obtener más información sobre la versión actual del componente Botón de formulario, consulte el documento [Componente de botón de formulario](/help/components/forms/form-button.md).
 
-## Ejemplo de salida de componente {#sample-component-output}
+## Salida de componente de muestra {#sample-component-output}
 
 El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -81,7 +84,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 >[!NOTE]
 >
->La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información de [compatibilidad de los componentes principales v1](/help/versions.md) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
@@ -99,14 +102,14 @@ El cuadro de diálogo de configuración permite al autor del contenido definir l
 * **Nombre** : el nombre del botón, que se envía con los datos del formulario
 * **Valor** : el valor del botón, que se envía con los datos del formulario
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Diálogo de diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente Botón de formulario.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Botón de formulario [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
+La documentación técnica más reciente sobre el componente Botón de formulario [se encuentra en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/button/v1/button).
 
 Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
+Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
