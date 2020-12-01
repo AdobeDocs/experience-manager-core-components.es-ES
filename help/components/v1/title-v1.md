@@ -4,11 +4,14 @@ description: El componente Título del componente principal es un componente de 
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 2%
 
 ---
 
 
-# Title Component (v1) {#title-component-v}
+# Componente de título (v1) {#title-component-v}
 
 El componente Título del componente principal es un componente de encabezado de sección que incluye la edición in-situ.
 
@@ -16,13 +19,13 @@ El componente Título del componente principal es un componente de encabezado de
 
 El componente Título está diseñado para utilizarse como título o encabezado de una sección de contenido.
 
-El autor de la plantilla puede definir los niveles de encabezado disponibles en el cuadro de diálogo [de](#design-dialog)diseño. El editor de contenido puede seleccionar los niveles de encabezados disponibles en el cuadro de diálogo [de](#edit-dialog)edición. Para mayor comodidad, también está disponible la edición in situ del texto del encabezado.
+El autor de la plantilla puede definir los niveles de encabezado disponibles en el cuadro de diálogo [diseño](#design-dialog). El editor de contenido puede seleccionar los niveles de encabezados disponibles en el cuadro de diálogo [editar](#edit-dialog). Para mayor comodidad, también está disponible la edición in situ del texto del encabezado.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
 Este documento describe la versión 1 del componente Título, introducida originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-En la tabla siguiente se muestra la compatibilidad de v1 del componente Título.
+La siguiente tabla lista la compatibilidad de v1 del componente Título.
 
 | Versión de AEM | Componente de título v1 |
 |--- |--- |
@@ -33,9 +36,9 @@ En la tabla siguiente se muestra la compatibilidad de v1 del componente Título.
 >
 >Este documento describe la versión 1 del componente Título.
 >
->Para obtener más información sobre la versión actual del componente Título, consulte el documento Componente [](/help/components/title.md) Título.
+>Para obtener más información sobre la versión actual del componente Título, consulte el documento [Componente de título](/help/components/title.md).
 
-## Ejemplo de salida de componente {#sample-component-output}
+## Salida de componente de muestra {#sample-component-output}
 
 El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -64,9 +67,9 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 >[!NOTE]
 >
->La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información de [compatibilidad de los componentes principales v1](/help/versions.md) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
-## Edit Dialog {#edit-dialog}
+## Editar cuadro de diálogo {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido definir el texto del título y seleccionar el nivel del encabezado.
 
@@ -80,7 +83,7 @@ El editor in-situ también puede utilizarse para editar el texto del componente 
 
 ![](/help/assets/chlimage_1-37.png)
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Diálogo de diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir el nivel de encabezado predeterminado que tendrán los componentes de título cuando los creen los autores de contenido.
 
@@ -88,8 +91,8 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir el niv
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Título [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
+La documentación técnica más reciente sobre el componente Título [se encuentra en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/title/v1/title).
 
 Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
+Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
