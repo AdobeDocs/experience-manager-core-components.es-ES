@@ -10,7 +10,7 @@ ht-degree: 3%
 ---
 
 
-# Componente de visor PDF {#pdf-viewer-component}
+# Componente de visor de PDF {#pdf-viewer-component}
 
 El componente Core Component PDF Viewer permite la inclusión de un documento PDF en una página.
 
@@ -28,42 +28,42 @@ En la tabla siguiente se detallan todas las versiones compatibles del componente
 |--- |--- |---|---|
 | v1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de componentes principales](/help/versions.md).
 
-## Ejemplo de salida de componente {#sample-component-output}
+## Salida de componente de muestra {#sample-component-output}
 
-Para ver el componente de visor de PDF, así como ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_pdfviewer)componentes.
+Para experimentar el componente de visor de PDF y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [biblioteca de componentes](https://adobe.com/go/aem_cmp_library_pdfviewer).
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de visor de PDF [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1).
+La documentación técnica más reciente sobre el componente de visor de PDF [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1).
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
+Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
 
 >[!NOTE]
 >
->El componente de visor de PDF aprovecha las API [de servicios de Documento de](https://www.adobe.io/apis/documentcloud/dcsdk.html) Adobe y requiere que el administrador configure una configuración [según el](/help/developing/context-aware-configs.md) contexto para poder utilizar estos servicios. Consulte la documentación técnica del componente para [obtener detalles sobre esta configuración.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
+>El componente de visor de PDF aprovecha las [API de servicios de Documento](https://www.adobe.io/apis/documentcloud/dcsdk.html) de Adobe y requiere que el administrador configure una [configuración contextual](/help/developing/context-aware-configs.md) para poder utilizar estos servicios. Consulte la documentación técnica del componente para obtener [detalles sobre esta configuración.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el visor y cómo se comportará y aparecerá para un visitante de la página.
 
-### Configuration Tab {#configuration-tab}
+### Ficha Configuración {#configuration-tab}
 
 La ficha Configuración permite al autor definir qué PDF se debe mostrar. La ruta se puede definir como un recurso en AEM o una ruta absoluta a otro recurso.
 
 ![Ficha Configuración del cuadro de diálogo de edición del componente de visor de PDF](/help/assets/pdf-viewer-edit-configuration.png)
 
-### Ficha Personalizar {#customize-tab}
+### Personalizar ficha {#customize-tab}
 
 La ficha Personalizar permite al autor definir las opciones disponibles en el visor para el lector y cómo se debe presentar el visor.
 
 ![Ficha Personalizar del cuadro de diálogo de edición del componente de visor de PDF](/help/assets/pdf-viewer-edit-customize.png)
 
-El número de opciones disponibles depende del **tipo** seleccionado.
+El número de opciones disponibles depende del **Tipo** que se seleccione.
 
-* [Ventana](#full-window) completa: el área de visualización se procesa en el navegador completo. Esto es más adecuado para aplicaciones de almacenamiento y productividad.
-* [Contenedor](#sized-container) de tamaño: el área de visualización se procesa en el navegador completo. Esto es más adecuado para aplicaciones de almacenamiento y productividad.
+* [Ventana](#full-window)  completa: el área de visualización se procesa en el navegador completo. Esto es más adecuado para aplicaciones de almacenamiento y productividad.
+* [Contenedor](#sized-container)  de tamaño: el área de visualización se procesa en el navegador completo. Esto es más adecuado para aplicaciones de almacenamiento y productividad.
 * [En línea](#in-line) : todas las páginas PDF representadas en línea dentro de una página web. Esto es más adecuado para la lectura de aplicaciones.
 
 #### Ventana completa {#full-window}
@@ -72,15 +72,15 @@ El área de visualización se procesa en el navegador completo. Esto es más ade
 
 ![Opción Personalizar ficha en ventana completa del cuadro de diálogo de edición del componente del visor de PDF](/help/assets/pdf-viewer-edit-customize-full.png)
 
-* **Modo** de Vista predeterminado: cómo se adaptará el visor a la página en la que se muestra
+* **Modo**  de Vista predeterminado: cómo se adaptará el visor a la página en la que se muestra
    * Ajustar página
    * Ajustar anchura
-* **Pantalla** completa: cuando está activada, el visor ocupa toda la altura y anchura de la ventanilla.
-* **Herramientas** de anotación: cuando está activada, las herramientas de anotación están disponibles.
-* **Panel** izquierdo: cuando está activado, se muestra el panel izquierdo.
+* **Pantalla**  completa: cuando está activada, el visor ocupa toda la altura y anchura de la ventanilla.
+* **Herramientas**  de anotación: cuando está activada, las herramientas de anotación están disponibles.
+* **Panel**  izquierdo: cuando está activado, se muestra el panel izquierdo.
 * **Descargar PDF** : cuando está activado, se muestra el botón de descarga.
 * **Imprimir PDF** : cuando está activado, se muestra el botón de impresión.
-* **Controles** de página: cambia el comportamiento de los controles de página.
+* **Controles**  de página: cambia el comportamiento de los controles de página.
    * Acoplar
    * Desacoplar
 
@@ -90,10 +90,10 @@ El área de visualización se procesa en el navegador completo. Esto es más ade
 
 ![Personalización de la opción de contenedor de tamaño de ficha del cuadro de diálogo de edición del componente de visor de PDF](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
-* **Pantalla** completa: cuando está activada, el visor ocupa toda la altura y anchura de la ventanilla.
+* **Pantalla**  completa: cuando está activada, el visor ocupa toda la altura y anchura de la ventanilla.
 * **Descargar PDF** : cuando está activado, se muestra el botón de descarga.
 * **Imprimir PDF** : cuando está activado, se muestra el botón de impresión.
-* **Controles** de página: cambia el comportamiento de los controles de página.
+* **Controles**  de página: cambia el comportamiento de los controles de página.
    * Acoplar
    * Desacoplar
 
@@ -106,6 +106,6 @@ Todas las páginas PDF representadas en línea dentro de una página web. Esto e
 * **Descargar PDF** : cuando está activado, se muestra el botón de descarga.
 * **Imprimir PDF** : cuando está activado, se muestra el botón de impresión.
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Diálogo de diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente de visor de PDF.
