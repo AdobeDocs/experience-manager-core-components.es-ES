@@ -4,25 +4,28 @@ description: El componente Texto del formulario de componente principal permite 
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '491'
+ht-degree: 8%
 
 ---
 
 
-# Form Text Component (v1) {#form-text-component-v}
+# Componente de texto de formulario (v1) {#form-text-component-v}
 
 El componente Texto del formulario de componente principal permite introducir el texto del formulario para enviarlo.
 
 ## Uso {#usage}
 
-El componente Texto del formulario permite enviar distintos tipos de texto y está diseñado para utilizarse junto con el componente [contenedor del](form-container-v1.md)formulario.
+El componente Texto del formulario permite enviar distintos tipos de texto y está diseñado para utilizarse junto con el [componente de contenedor del formulario](form-container-v1.md).
 
-El editor de contenido puede definir el tipo de validación de texto, etiquetas y mensajes de ayuda en el cuadro de diálogo [](#configure-dialog)configurar.
+El tipo de validación de texto, etiquetas y mensajes de ayuda puede ser definido por el editor de contenido en el [cuadro de diálogo de configuración](#configure-dialog).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 1 del componente de texto de formulario, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
+Este documento describe la versión 1 del componente de texto de formulario, introducida originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-En la tabla siguiente se muestra la compatibilidad de v1 del componente de texto de formulario.
+La siguiente tabla lista la compatibilidad de v1 del componente de texto de formulario.
 
 | Versión de AEM | Componente de texto de formulario v1 |
 |--- |--- |
@@ -33,9 +36,9 @@ En la tabla siguiente se muestra la compatibilidad de v1 del componente de texto
 >
 >Este documento describe la versión 1 del componente de texto de formulario.
 >
->Para obtener más información sobre la versión actual del componente de texto de formulario, consulte el documento Componente [de texto de](/help/components/forms/form-text.md) formulario.
+>Para obtener más información sobre la versión actual del componente de texto de formulario, consulte el documento [Componente de texto de formulario](/help/components/forms/form-text.md).
 
-## Ejemplo de salida de componente {#sample-component-output}
+## Salida de componente de muestra {#sample-component-output}
 
 El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -85,7 +88,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 >[!NOTE]
 >
->La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información de [compatibilidad de los componentes principales v1](/help/versions.md) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
@@ -105,19 +108,19 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
    * **Número**
    * **Contraseña**
 
-* **Líneas** de texto: número de líneas que se van a mostrar en el área de texto (solo se muestran cuando **Restricción** se define como Área **de** texto)
+* **Líneas**  de texto: número de líneas que se mostrarán en el área de texto (solo se muestran cuando  **** Restricciones se definen como Área **de** texto)
 
 * **Etiqueta** : la etiqueta que se mostrará para el campo
-* **Ocultar la etiqueta para que no se muestre** : Necesario si la etiqueta solo es necesaria para fines de accesibilidad y no proporciona información visual adicional sobre el campo
-* **Nombre** del elemento: el nombre del campo que se envía con los datos del formulario
+* **Ocultar la etiqueta para que no se muestre** - Necesario si la etiqueta solo es necesaria para fines de accesibilidad y no proporciona información visual adicional sobre el campo
+* **Nombre**  del elemento: el nombre del campo que se envía con los datos del formulario
 * **Valor** : valor predeterminado que se rellena previamente en el campo
 
 ### Acerca de {#about}
 
 ![](/help/assets/chlimage_1-24.png)
 
-* **Mensaje** de ayuda: una sugerencia para el usuario de lo que se puede introducir en el campo
-* **Mostrar mensaje de ayuda como marcador de posición** : para mostrar el mensaje de ayuda dentro de la entrada del formulario cuando está vacío y no está centrado
+* **Mensaje**  de ayuda: una sugerencia para el usuario de lo que se puede introducir en el campo
+* **Mostrar mensaje de ayuda como marcador**  de posición: para mostrar el mensaje de ayuda dentro de la entrada del formulario cuando está vacío y no está enfocado
 
 ### Restricciones {#constraints}
 
@@ -126,19 +129,19 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 * **Mensaje de restricción**
 
    * El mensaje se muestra como información cuando se envía el formulario si el valor no valida el tipo elegido
-   * No se muestra para los tipos de restricción **Texto** y Área **de texto**
+   * No se muestra para los tipos de restricción **Texto** y **Área de texto**
 
 * **Obligatorio** : si se selecciona, el usuario debe rellenar un valor antes de enviar el formulario
-* **Convertir en solo** lectura: si se selecciona, el usuario no puede modificar el valor del campo
+* **Convertir en solo**  lectura: si se selecciona, el usuario no puede modificar el valor del campo
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Diálogo de diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente Texto de formulario.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Texto del formulario [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
+La documentación técnica más reciente sobre el componente de texto de formulario [se encuentra en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/text/v1/text).
 
 Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
+Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
