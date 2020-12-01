@@ -4,8 +4,8 @@ description: 'En AEM, los componentes son los elementos estructurales que consti
 translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '764'
+ht-degree: 7%
 
 ---
 
@@ -14,39 +14,39 @@ ht-degree: 0%
 
 En Adobe Experience Manager, los componentes son los elementos estructurales que constituyen el contenido de las páginas creadas.
 
-La oferta de componentes principales ofrece una funcionalidad de creación flexible y rica en funciones. El sitio [de referencia](https://wknd.site) WKND y su informe ilustran cómo se pueden utilizar los componentes principales para implementar una experiencia de sitio web enriquecida.
+La oferta de componentes principales ofrece una funcionalidad de creación flexible y rica en funciones. El [sitio de referencia de WKND](https://wknd.site) e ilustra cómo se pueden utilizar los componentes principales para implementar una experiencia de sitio Web enriquecida.
 
-Para experimentar los componentes principales y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library)componentes.
+Para experimentar los componentes principales y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la [biblioteca de componentes](https://adobe.com/go/aem_cmp_library).
 
-Para obtener una introducción más detallada y orientada al desarrollador para implementar los componentes principales en un proyecto AEM mediante el uso del arquetipo del proyecto [AEM](/help/developing/archetype/overview.md) , consulte [el tutorial de WKND.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Para obtener una introducción más detallada y orientada al desarrollador para implementar los Componentes principales en un proyecto AEM mediante el [AEM Arquetipo de proyecto](/help/developing/archetype/overview.md) consulte el tutorial de WKND.](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)[
 
 >[!NOTE]
 >
->Los componentes principales no están disponibles para los autores de manera inmediata, ya que el [grupo de desarrollo debe integrarlos primero en su entorno](/help/get-started/using.md). Once integrated, they may be made available and pre-configured via the [template editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
+>Los componentes principales no están disponibles para los autores de manera inmediata, ya que el [grupo de desarrollo debe integrarlos primero en su entorno](/help/get-started/using.md). Una vez integrados, pueden estar disponibles y preconfigurados mediante el [editor de plantillas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!CAUTION]
 >
->Los componentes principales [requieren AEM 6.4 o superior](/help/versions.md) y el uso de plantillas [](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)editables. No funcionan con la IU clásica ni con plantillas estáticas.
+>Los componentes principales [requieren AEM 6.4 o superior](/help/versions.md) y requieren el uso de [plantillas editables](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html). No funcionan con la IU clásica ni con plantillas estáticas.
 
 ## Crear con componentes principales {#authoring-with-core-components}
 
 Como autor, notará varias ventajas de los componentes principales, entre las que se incluyen:
 
-* Simple to use and well-integrated with the [page editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+* Fácil de usar y bien integrado con el [editor de páginas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
 
-* Funciones ricas en funciones para dar cabida a muchos casos de uso, como se ilustra en el sitio [de referencia de](https://wknd.site) WKND y en la biblioteca de [componentes](https://adobe.com/go/aem_cmp_library)
+* Capacidades ricas en funciones para dar cabida a muchos casos de uso, como se ilustra en el [sitio de referencia de WKND](https://wknd.site) así como en la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library)
 
-* [Preconfigurable](#pre-configuring-core-components) para definir qué funciones están disponibles para los autores de páginas mediante el editor de [plantillas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Preconfigurable ](#pre-configuring-core-components) para definir qué funciones están disponibles para los autores de páginas mediante el editor de  [plantillas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
-* Built around [accessibility guidelines](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
+* Creado en torno a [pautas de accesibilidad](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
 
-* Built to support [responsive layout](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* Creado para admitir [diseño interactivo](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 
-* Diseñado para soportar una localización [sencilla](localization.md)
+* Creado para admitir [localización fácil](localization.md)
 
-Components are available on the **Components** tab of the side panel of the page editor when [editing a page](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
+Los componentes están disponibles en la ficha **Componentes** del panel lateral del editor de páginas al [editar una página](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
 
-Los componentes se agrupan según categorías denominadas grupos de componentes para organizar y filtrar fácilmente los componentes. El nombre del grupo de componentes se muestra con el componente en el navegador [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) componentes y también es posible filtrar por grupo para encontrar fácilmente el componente correcto.
+Los componentes se agrupan según categorías denominadas grupos de componentes para organizar y filtrar fácilmente los componentes. El nombre del grupo de componentes se muestra con el componente en el [navegador de componentes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) y también es posible filtrar por grupo para encontrar fácilmente el componente correcto.
 
 >[!NOTE]
 >
@@ -60,26 +60,26 @@ La configuración de los componentes básicos era tarea de un desarrollador. Sin
 
 Por ejemplo, si un componente de imagen no debe permitir la carga de imágenes desde el sistema de archivos o si un componente de texto solo debe permitir cierto formato de párrafo, estas funciones se pueden activar o desactivar con un solo clic.
 
-Consulte [Creación de plantillas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) de página para obtener más información.
+Consulte [Creación de plantillas de página](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html) para obtener más información.
 
-### Diálogos de edición y diseño {#edit-and-design-dialogs}
+### Editar y diseñar diálogos {#edit-and-design-dialogs}
 
 Dado que los autores de plantillas pueden preconfigurar los componentes principales para definir qué opciones se permiten como parte de una plantilla y, a continuación, el autor de la página puede configurarlas para definir el contenido real de la página, cada componente puede tener opciones en dos cuadros de diálogo diferentes.
 
 |  | Descripción | Qué controla | Ejemplos |
 |--- |--- |--- |--- |
-| **Editar cuadro de diálogo** | Opciones que un autor **de una** página puede modificar durante la edición normal de la página para los componentes colocados | El contenido que muestra el componente y cómo aparecerá en última instancia en la página. | Formato del texto del contenido, girar una imagen en una página |
-| **Cuadro de diálogo Diseño** | Opciones que el autor **de una** plantilla puede modificar al configurar una plantilla de página. | Qué opciones tiene disponible el autor de la página al editar el componente | Qué opciones de formato de texto están disponibles, qué opciones de imagen in situ están disponibles |
+| **Editar cuadro de diálogo** | Opciones que un **autor de página** puede modificar durante la edición normal de la página para los componentes colocados | El contenido que muestra el componente y cómo aparecerá en última instancia en la página. | Formato del texto del contenido, girar una imagen en una página |
+| **Cuadro de diálogo Diseño** | Opciones que un **autor de plantilla** puede modificar al configurar una plantilla de página. | Qué opciones tiene disponible el autor de la página al editar el componente | Qué opciones de formato de texto están disponibles, qué opciones de imagen in situ están disponibles |
 
-### Estilo de componente {#component-styling}
+### Estilo del componente {#component-styling}
 
 Los estilos de la mayoría de los componentes principales se pueden definir con el sistema de estilo AEM.
 
 * Un autor de plantilla puede definir qué estilos están disponibles para un componente concreto en el cuadro de diálogo Diseño de dicho componente.
 * A continuación, el autor del contenido puede elegir qué estilos aplicar al agregar el componente y crear contenido.
 
-Para obtener más información, consulte la documentación [del sistema](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html) de estilos.
+Para obtener más información, consulte la documentación de [Style System](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/style-system.html).
 
 ## Medios del desarrollador {#developer-resources}
 
-Consulte la documentación para desarrolladores de [Desarrollar componentes](/help/developing/overview.md) principales para obtener información técnica sobre los componentes principales.
+Consulte la [documentación para desarrolladores de Componentes principales](/help/developing/overview.md) para obtener información técnica sobre los componentes principales.
