@@ -4,8 +4,8 @@ description: El componente Fichas permite la creación de varias fichas para org
 translation-type: tm+mt
 source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1027'
+ht-degree: 2%
 
 ---
 
@@ -18,24 +18,24 @@ El componente Fichas de componentes principales permite organizar el contenido e
 
 El componente Fichas permite al autor del contenido organizar el contenido de la página en varias fichas.
 
-El cuadro de diálogo [de](#edit-dialog) edición permite al autor del contenido definir varias fichas, así como establecer la ficha activa. Mediante el cuadro de diálogo [de](#design-dialog)diseño, el autor de la plantilla puede definir qué componentes se pueden agregar a las fichas y personalizar los estilos.
+El [cuadro de diálogo de edición](#edit-dialog) permite al autor del contenido definir varias fichas, así como establecer la ficha activa. Mediante el cuadro de diálogo [diseño](#design-dialog), el autor de la plantilla puede definir qué componentes se pueden agregar a las fichas y personalizar los estilos.
 
 >[!TIP]
 >
 >Se admiten componentes de ficha anidados (fichas dentro de fichas).
 >
->Los componentes de ficha simples (no anidados) pueden ubicarse o seleccionarse mediante el árbol [de](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree)contenido; sin embargo, las fichas anidadas no pueden estar.
+>Los componentes de ficha simples (no anidados) se pueden ubicar o seleccionar mediante el [árbol de contenido](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html#content-tree), aunque no se pueden colocar fichas anidadas.
 
 ## Vinculación profunda a un panel {#deep-linking}
 
-Los componentes [Fichas y](accordion.md) Acordeón admiten la vinculación directa a un panel dentro del componente.
+Las fichas y [Componentes de acordeón](accordion.md) admiten la vinculación directa a un panel dentro del componente.
 
 Para ello:
 
-1. Vista de la página con el componente mediante la opción **[Vista como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** en el editor de páginas.
+1. Vista la página con el componente mediante la opción **[Vista tal como se publica](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** en el editor de páginas.
 1. Inspect muestra el contenido de la página e identifica el ID del panel.
    * Por ejemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
-1. El ID se convierte en el anclaje que se puede anexar a la URL mediante un hash (`#`).
+1. El ID se convierte en el anclaje que puede anexar a la dirección URL mediante un hash (`#`).
    * Por ejemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Si se desplaza a la URL con el ID del panel como anclaje, el navegador se desplazará directamente al componente en cuestión y mostrará el panel especificado. Si el panel está configurado para no expandirse de forma predeterminada, se expandirá automáticamente.
@@ -50,19 +50,19 @@ En la tabla siguiente se detallan todas las versiones compatibles del componente
 |--- |--- |--- |---|
 | v1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de componentes principales](/help/versions.md).
 
-## Ejemplo de salida de componente {#sample-component-output}
+## Salida de componente de muestra {#sample-component-output}
 
-Para experimentar el componente Tabs y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [de](https://adobe.com/go/aem_cmp_library_tabs)componentes.
+Para experimentar el componente Tabs y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_tabs).
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Tabs [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
+La documentación técnica más reciente sobre el componente Tabs [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_tabs_v1).
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
+Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
 
-## Edit Dialog {#edit-dialog}
+## Editar cuadro de diálogo {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido crear, cambiar el nombre y reorganizar fichas, así como definir la ficha activa.
 
@@ -73,21 +73,21 @@ El cuadro de diálogo de edición permite al autor del contenido crear, cambiar 
 Utilice el botón **Añadir** para abrir el selector de componentes y elegir qué componente agregar como ficha. Una vez agregada, se agrega una entrada a la lista, que contiene las siguientes columnas:
 
 * **Icono** : icono del tipo de componente de la ficha para facilitar la identificación en la lista. Pase el ratón por encima para ver el nombre completo del componente como información sobre herramientas.
-* **Descripción** : la descripción utilizada como texto de la ficha, de forma predeterminada según el nombre del componente seleccionado para la ficha.
+* **Descripción** : descripción utilizada como texto de la ficha, de forma predeterminada según el nombre del componente seleccionado para la ficha.
 * **Eliminar** : toque o haga clic para eliminar la ficha del componente de ficha.
 * **Reorganizar** : toque o haga clic y arrastre para reorganizar el orden de las fichas.
 
 >[!TIP]
 >
->Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Añadir** . Los componentes se pueden añadir al componente Tabs [arrastrándolos desde el navegador de componentes y colocándolos en el componente Tabs del editor](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component)de páginas.
+>Si se reduce la ventanilla de la página para que el cuadro de diálogo de edición se muestre a pantalla completa, se ocultará el botón **Añadir**. Los componentes pueden agregarse al componente Tabs [arrastrándolos desde el navegador de componentes y colocándolos en el componente Tabs del editor de páginas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component).
 
 ### Ficha Propiedades {#properties-tab}
 
 ![Ficha Propiedades del cuadro de diálogo de edición del componente Tabs](/help/assets/tabs-edit-properties.png)
 
-* **Elemento** activo: el autor del contenido puede definir qué ficha está activa cuando se carga la página.
-   * Con la opción **Predeterminado** , se seleccionará la primera ficha.
-* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
+* **Elemento**  activo: el autor del contenido puede definir qué ficha está activa cuando se carga la página.
+   * Con la opción **Predeterminado**, se seleccionará la primera ficha.
+* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [ de ](/help/developing/data-layer/overview.md)datos.
    * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
@@ -96,13 +96,13 @@ Utilice el botón **Añadir** para abrir el selector de componentes y elegir qu�
 
 ![Ficha Accesibilidad del cuadro de diálogo de edición del componente Tabuladores](/help/assets/tabs-edit-accessibility.png)
 
-En la ficha **Accesibilidad** , se pueden definir valores para las etiquetas de accesibilidad [de](https://www.w3.org/WAI/standards-guidelines/aria/) ARIA para el componente.
+En la ficha **Accesibilidad**, se pueden definir valores para las etiquetas [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
 * **Etiqueta** : valor de un atributo de etiqueta ARIA para el componente
 
-## Select Panel {#select-panel}
+## Seleccionar panel {#select-panel}
 
-El autor del contenido puede utilizar la opción **Seleccionar panel** de la barra de herramientas de componentes para cambiar a un panel diferente para editarlo y reorganizar fácilmente el orden de las fichas.
+El autor del contenido puede utilizar la opción **Seleccionar panel** de la barra de herramientas del componente para cambiar a otro panel para editarlo y reorganizar fácilmente el orden de las fichas.
 
 ![Icono Seleccionar panel](/help/assets/select-panel-icon.png)
 
@@ -118,18 +118,18 @@ Una vez seleccionada la opción **Seleccionar panel** en la barra de herramienta
 
 >[!NOTE]
 >
->El autor no puede seleccionar las fichas cuando se encuentra en el modo de **edición** . Utilice el modo de **[Previsualización](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** o la opción **[Vista como publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interactuar con las fichas como un lector del contenido publicado.
+>El autor no puede seleccionar las fichas cuando se encuentra en el modo **Editar**. Utilice el modo **[Previsualización](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** o la opción **[Vista tal como Publicada](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interactuar con las fichas como un lector del contenido publicado.
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Diálogo de diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué componentes se pueden añadir como elementos al componente de fichas, así como definir qué estilos personalizados están disponibles para el autor del contenido.
 
-### Allowed Components Tab {#allowed-components-tab}
+### Ficha Componentes permitidos {#allowed-components-tab}
 
-La ficha Componentes **** permitidos se utiliza para definir qué componentes puede agregar el autor del contenido como elementos al componente de fichas.
+La ficha **Componentes permitidos** se utiliza para definir qué componentes puede agregar el autor del contenido como elementos al componente de fichas.
 
-La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre al [definir la política y las propiedades de un Contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre cuando [define la política y las propiedades de un Contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Tabs es compatible con el sistema [de](/help/get-started/authoring.md#component-styling)estilos AEM.
+El componente Tabs admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
