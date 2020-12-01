@@ -1,19 +1,22 @@
 ---
-title: ui.testing Módulo del arquetipo del proyecto de AEM
-description: Cómo utilizar las pruebas JUnit de arquetipo de proyecto de AEM
+title: Módulo ui.testing de AEM arquetipo del proyecto
+description: Cómo usar las pruebas JUnit de arquetipo del proyecto AEM
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '130'
+ht-degree: 0%
 
 ---
 
 
-# Módulo ui.testing del arquetipo del proyecto AEM {#uitests-module}
+# ui.testing Módulo del arquetipo del proyecto AEM {#uitests-module}
 
 El proyecto contiene tres niveles de prueba:
 
-## Pruebas unitarias {#unit-tests}
+## Pruebas de unidad {#unit-tests}
 
-La prueba unitaria del módulo [](core.md) principal muestra la prueba unitaria clásica del código contenido en el paquete. Para realizar la prueba, ejecute:
+La prueba unitaria del [módulo principal](core.md) muestra las pruebas unitarias clásicas del código contenido en el paquete. Para realizar la prueba, ejecute:
 
 ```
 mvn clean test
@@ -21,7 +24,7 @@ mvn clean test
 
 ## Pruebas de integración {#integration-tests}
 
-Las pruebas de integración del lado del servidor permiten ejecutar pruebas de tipo unidad en el entorno AEM, es decir, en el servidor AEM. Para realizar la prueba, ejecute:
+Las pruebas de integración del lado del servidor permiten ejecutar pruebas de tipo unidad en el entorno de AEM, es decir, en el servidor AEM. Para realizar la prueba, ejecute:
 
 ```
 mvn clean verify -PintegrationTests
@@ -29,6 +32,6 @@ mvn clean verify -PintegrationTests
 
 ## Pruebas del lado del cliente {#client-side-tests}
 
-Las `client-side Hobbes.js` pruebas son pruebas basadas en JavaScript en el navegador que verifican el comportamiento en el navegador.
+Las pruebas `client-side Hobbes.js` son pruebas del lado del explorador basadas en JavaScript que verifican el comportamiento del lado del explorador.
 
-Para realizar la prueba, cuando visualice una página de AEM que desee probar en el navegador, abra la página en el modo **** Desarrollador abriendo el panel izquierdo y cambie a la ficha **Pruebas** , busque las pruebas **** MyName generadas y ejecútelas.
+Para realizar la prueba, cuando visualice una página AEM que desee probar en el explorador, abra la página en **modo de desarrollador** abriendo el panel izquierdo, cambie a la ficha **Pruebas** y busque las **Pruebas de MyName** generadas y ejecútelas.
