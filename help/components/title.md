@@ -4,8 +4,8 @@ description: El componente Título del componente principal es un componente de 
 translation-type: tm+mt
 source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '556'
+ht-degree: 3%
 
 ---
 
@@ -16,7 +16,7 @@ El componente Título del componente principal es un componente de encabezado de
 
 ## Uso {#usage}
 
-El componente Título está diseñado para utilizarse como título o encabezado de una sección de contenido. El autor de la plantilla puede definir los niveles de encabezado disponibles en el cuadro de diálogo [de](#design-dialog)diseño. El editor de contenido puede seleccionar los niveles de encabezados disponibles en el cuadro de diálogo [de](#edit-dialog)edición. Para mayor comodidad, también está disponible la edición in situ del texto del encabezado.
+El componente Título está diseñado para utilizarse como título o encabezado de una sección de contenido. El autor de la plantilla puede definir los niveles de encabezado disponibles en el cuadro de diálogo [diseño](#design-dialog). El editor de contenido puede seleccionar los niveles de encabezados disponibles en el cuadro de diálogo [editar](#edit-dialog). Para mayor comodidad, también está disponible la edición in situ del texto del encabezado.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -29,26 +29,26 @@ En la tabla siguiente se detallan todas las versiones compatibles del componente
 | v2 | Compatible | Compatible | Compatible |
 | [v1](v1/title-v1.md) | Compatible | Compatible | - |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte las Versiones [de los componentes](/help/versions.md)principales de documento.
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de componentes principales](/help/versions.md).
 
-## Ejemplo de salida de componente {#sample-component-output}
+## Salida de componente de muestra {#sample-component-output}
 
-Para experimentar el componente Título, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la biblioteca [](https://adobe.com/go/aem_cmp_library_title)de componentes.
+Para experimentar el componente Título, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_title).
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Título [puede encontrarse en GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
+La documentación técnica más reciente sobre el componente Título [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_title_v2).
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
+Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
 
-## Edit Dialog {#edit-dialog}
+## Editar cuadro de diálogo {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido definir el texto del título y seleccionar el nivel del encabezado.
 
 * **Título** : si está vacío, se utilizará el título de la página
-* **Tipo/Tamaño** : define el nivel de encabezado del título
+* **Tipo / Tamaño** - Define el nivel de encabezado del título
 * **Vínculo** : define el contenido al que se vinculará el título. Puede ser una ruta a una página de contenido, una dirección URL externa o un anclaje de página.
-* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [de](/help/developing/data-layer/overview.md)datos.
+* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [ de ](/help/developing/data-layer/overview.md)datos.
    * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
@@ -63,7 +63,7 @@ El editor in-situ también puede utilizarse para editar el texto del componente 
 
 ![Edición in situ del componente Título](/help/assets/title-edit-inline.png)
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Diálogo de diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir el nivel de encabezado predeterminado que tendrán los componentes de título cuando los creen los autores de contenido.
 
@@ -81,4 +81,4 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir el niv
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Título admite el sistema [de](/help/get-started/authoring.md#component-styling)estilo de AEM.
+El componente Título admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
