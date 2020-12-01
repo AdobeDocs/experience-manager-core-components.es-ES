@@ -4,25 +4,28 @@ description: El componente Texto es un componente de composición y edición de 
 index: n
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '1657'
+ht-degree: 3%
 
 ---
 
 
-# Text Component (v1) {#text-component-v}
+# Componente de texto (v1) {#text-component-v}
 
 El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
 
 ## Uso {#usage}
 
-El componente de texto ofrece un potente editor de texto enriquecido que permite una edición de texto sencilla en un editor en línea simplificado y en un formato de pantalla completa.
+El componente de texto oferta un potente editor de texto enriquecido que permite una edición de texto sencilla en un editor en línea simplificado y en un formato de pantalla completa.
 
-El cuadro de diálogo [de](#edit-dialog) edición incluye edición en línea con opciones limitadas con funcionalidad completa disponible en el cuadro de diálogo de edición a pantalla completa. Mediante el cuadro de diálogo [de](#design-dialog)diseño, se pueden configurar opciones de formato de texto como encabezados, caracteres especiales y estilos de párrafo para la plantilla del autor del contenido.
+El [cuadro de diálogo de edición](#edit-dialog) presenta la edición en línea con opciones limitadas con funcionalidad completa disponible en el cuadro de diálogo de edición a pantalla completa. Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden configurar opciones de formato de texto como encabezados, caracteres especiales y estilos de párrafo para la plantilla del autor del contenido.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
 Este documento describe la versión 1 del componente de texto, introducida originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-En la tabla siguiente se muestra la compatibilidad de la versión 1 del componente de texto.
+La siguiente tabla lista la compatibilidad de v1 del componente de texto.
 
 | Versión de AEM | Componente de texto v1 |
 |--- |--- |
@@ -33,9 +36,9 @@ En la tabla siguiente se muestra la compatibilidad de la versión 1 del componen
 >
 >Este documento describe la versión 1 del componente de texto.
 >
->Para obtener más información sobre la versión actual del componente de texto, consulte el documento Componente [de](/help/components/text.md) texto.
+>Para obtener más información sobre la versión actual del componente de texto, consulte el documento [Text Component](/help/components/text.md).
 
-## Ejemplo de salida de componente {#sample-component-output}
+## Salida de componente de muestra {#sample-component-output}
 
 El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -65,11 +68,11 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 >[!NOTE]
 >
->La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la información de [compatibilidad de los componentes principales v1](/help/versions.md) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
-## Edit Dialog {#edit-dialog}
+## Editar cuadro de diálogo {#edit-dialog}
 
-El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan el texto.
+El cuadro de diálogo de edición oferta las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan texto.
 
 ![](/help/assets/chlimage_1-52.png)
 
@@ -79,7 +82,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    Se utiliza para aplicar formato de negrita al texto seleccionado o para aplicar formato negrita al texto introducido después del cursor.
 
-   **Ctrl+B** se puede utilizar como método abreviado de teclado.
+   **Ctrl+** Bcan se puede utilizar como método abreviado de teclado.
 
 * Cursiva
 
@@ -87,7 +90,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    Se utiliza para aplicar formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor.
 
-   **Ctrl+I** se puede utilizar como método abreviado de teclado.
+   **Ctrl +** Ican se puede utilizar como método abreviado de teclado.
 
 * Subrayado
 
@@ -95,7 +98,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    Se utiliza para aplicar formato subrayado al texto seleccionado o para subrayar el texto introducido después del cursor.
 
-   **Ctrl+U** se puede utilizar como método abreviado de teclado.
+   **Ctrl+** Upuede utilizarse como método abreviado de teclado.
 
 * Subíndice
 
@@ -115,7 +118,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    Pega el texto copiado como texto sin formato sin ningún formato.
 
-   Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como vista previa antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
+   Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como previsualización antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
 
    ![](/help/assets/chlimage_1-59.png)
 
@@ -123,7 +126,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-60.png)
 
-   Al seleccionar esta opción, se abre una ventana donde se puede pegar el texto manteniendo su formato como una vista previa antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
+   Al seleccionar esta opción, se abre una ventana en la que se puede pegar el texto manteniendo su formato como previsualización antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
 
    ![](/help/assets/chlimage_1-61.png)
 
@@ -147,6 +150,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
       * Nueva ficha
       * Marco principal
       * Marco superior
+
    Toque o haga clic en la marca de verificación para aplicar el vínculo o la x para cancelar.
 
 * Desvincular
@@ -163,7 +167,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-66.png)
 
-   Escriba el texto para el cual desee buscar y toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
+   Escriba el texto para el que desea buscar y toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
 
    Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
 
@@ -215,9 +219,9 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-74.png)
 
-   Se utiliza para dar formato al texto seleccionado como una lista con viñetas o para comenzar la inserción de una lista con viñetas después del cursor.
+   Se utiliza para dar formato al texto seleccionado como una lista con viñetas o iniciar la inserción de una lista con viñetas después del cursor.
 
-   Para finalizar una lista con viñetas, toque o haga clic de nuevo en el botón **Viñeta** o introduzca dos retornos de carro.
+   Para finalizar una lista con viñetas, toque o haga clic en el botón **Viñeta** de nuevo o introduzca dos retornos de carro.
 
 * Numerado
 
@@ -225,7 +229,7 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    Se utiliza para dar formato al texto seleccionado como una lista numerada o para comenzar la inserción de una lista numerada después del cursor.
 
-   Para finalizar una lista numerada, toque o haga clic de nuevo en el botón **Numerado** o introduzca dos retornos de carro.
+   Para finalizar una lista numerada, toque o haga clic en el botón **Numerado** de nuevo o introduzca dos retornos de carro.
 
 * Anular sangría
 
@@ -249,13 +253,13 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-79.png)
 
-   * **Columnas** : el número de columnas de la tabla (obligatorio)
-   * **Filas** : el número de filas de la tabla (obligatorio)
+   * **Columnas** : el número de columnas de la tabla (requerido)
+   * **Filas** : el número de filas de la tabla (requerido)
    * **Anchura** : anchura de la tabla
    * **Altura** : altura de la tabla
-   * **Relleno** de celdas: el espacio alrededor del contenido de la celda
-   * **Espaciado** de celdas: el espacio entre celdas
-   * **Borde** : el peso de las líneas de borde de la tabla
+   * **** Relleno de celdas: el espacio alrededor del contenido de la celda
+   * **Espaciado**  de celdas: el espacio entre celdas
+   * **Borde** : peso de las líneas de borde de la tabla
    * Si para el encabezado de la tabla:
 
       * Se debe utilizar la primera fila
@@ -285,16 +289,16 @@ El cuadro de diálogo de edición ofrece las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-83.png)
 
-   Se utiliza para ver y modificar el origen HTML del texto.
+   Se utiliza para vista y modificación del origen HTML del texto.
 
-   Toque o haga clic en el icono Editar **** origen para cambiar el contenido del texto desde la vista con formato para ver el HTML sin procesar. En este modo, todas las demás opciones de formato están desactivadas. Toque o haga clic en el icono Editar **** origen de nuevo para volver a la vista con formato.
+   Toque o haga clic en el icono **Editar origen** para cambiar el contenido del texto de la vista con formato a la vista del HTML sin procesar. En este modo, todas las demás opciones de formato están desactivadas. Toque o haga clic en el icono **Editar origen** de nuevo para volver a la vista con formato.
 
    >[!CAUTION]
    >
-   >Como siempre sucede con el acceso a HTML sin procesar, hay que tener cuidado al usar la opción Editar **** origen.
+   >Como siempre con acceso a HTML sin procesar, se debe tener cuidado al utilizar la opción **Editar fuente**.
    >
    >
-   >El código HTML introducido mediante la edición **de** código fuente se analiza para detectar riesgos XSS y las secuencias de comandos insertadas se eliminan y no aparecerán en la página resultante. Sin embargo, el HTML mal formado introducido en la edición **de** origen puede dañar la plantilla de la página, lo que da como resultado un formato inesperado o que la página resultante quede inutilizable.
+   >El HTML introducido mediante **Source Edit** se analiza para detectar riesgos XSS y las secuencias de comandos insertadas se eliminan y no aparecerán en la página resultante. Sin embargo, el HTML mal formado introducido en **Source Edit** puede romper la plantilla de la página, lo que da como resultado un formato inesperado o que la página resultante no se pueda utilizar.
 
 * Formato de párrafo
 
@@ -308,7 +312,7 @@ El componente de texto también se puede editar en línea, pero debido a limitac
 
 ![](/help/assets/chlimage_1-86.png)
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Diálogo de diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué opciones de formato de texto están disponibles para los autores de contenido.
 
@@ -343,9 +347,9 @@ Las siguientes opciones de formato se pueden activar o desactivar para el compon
 
 Los estilos de párrafo se pueden activar o desactivar para el componente. Cuando se activa, se pueden definir los formatos permitidos.
 
-* Toque o haga clic en el botón **Agregar** para insertar un nuevo estilo.
+* Toque o haga clic en el botón **Añadir** para insertar un nuevo estilo.
 * Introduzca el código del estilo y una descripción que se mostrará en el cuadro de diálogo de edición.
-* Para eliminar un estilo, toque o haga clic en el botón **Eliminar** .
+* Para quitar un estilo, toque o haga clic en el botón **Eliminar**.
 * Para reorganizar el orden de los formatos, toque o haga clic y arrastre los controladores.
 
 ### Caracteres especiales {#special-characters}
@@ -354,15 +358,15 @@ Los estilos de párrafo se pueden activar o desactivar para el componente. Cuand
 
 La opción para insertar caracteres especiales se puede activar o desactivar para el componente. Cuando se activa, se pueden definir los caracteres permitidos.
 
-* Toque o haga clic en el botón **Agregar** para insertar un carácter nuevo.
+* Toque o haga clic en el botón **Añadir** para insertar un nuevo carácter.
 * Introduzca el código HTML del carácter y una descripción que se mostrará en el cuadro de diálogo de edición.
-* Para eliminar un carácter, toque o haga clic en el botón **Eliminar** .
+* Para eliminar un carácter, toque o haga clic en el botón **Eliminar**.
 * Para reorganizar el orden de los caracteres, toque o haga clic y arrastre los controladores.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de texto [puede encontrarse en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
+La documentación técnica más reciente sobre el componente de texto [se encuentra en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v1/text).
 
 Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la documentación [para desarrolladores de los componentes](/help/developing/overview.md)principales.
+Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
