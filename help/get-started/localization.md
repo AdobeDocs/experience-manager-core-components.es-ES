@@ -3,6 +3,9 @@ title: Características de localización de los componentes principales
 description: Características de localización de los componentes principales
 translation-type: tm+mt
 source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +20,7 @@ La mayoría de los sitios requieren que haya un pie de página en todas las pág
 
 Del mismo modo, un componente de navegación generalmente debe mostrarse en todas las páginas. Sin embargo, también deberá reflejar el contenido de las páginas localizadas.
 
-El uso de las funciones de localización del componente [principal de](/help/components/navigation.md) navegación y del componente [principal de fragmento de](/help/components/experience-fragment.md) experiencia junto con las plantillas [editables de AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)se convierte en una tarea sencilla. El ejemplo podría ampliarse para utilizar también el componente [de navegación por](/help/components/language-navigation.md) idiomas.
+Al utilizar las funciones de localización del [componente principal de navegación](/help/components/navigation.md) y [componente principal del fragmento de experiencia](/help/components/experience-fragment.md) junto con las [plantillas editables de AEM](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html), se convierte en una tarea sencilla. El ejemplo podría ampliarse para utilizar también el [componente de navegación de idioma](/help/components/language-navigation.md).
 
 ## La estructura de contenido {#content-structure}
 
@@ -29,7 +32,7 @@ Supongamos que su sitio se llama simplemente `my-site` y se encuentra aquí:
 /content/my-site
 ```
 
-Supongamos también que usted crea su sitio en inglés y lo ofrece también en francés. Así que si tiene una página simple llamada `my-page` se encontraría en dos ramas de localización en el árbol de contenido del sitio:
+Supongamos también que usted crea su sitio en inglés y lo oferta también en francés. Así que si tiene una página simple llamada `my-page` se encontraría en dos ramas de localización del árbol de contenido del sitio:
 
 ```
 /content
@@ -40,9 +43,9 @@ Supongamos también que usted crea su sitio en inglés y lo ofrece también en f
        \-- my-page
 ```
 
-Es en estas ramas de localización donde creará páginas de sitios adicionales.
+Es bajo estas ramas de localización donde creará páginas de sitios adicionales.
 
-Los pies de página generalmente se crean con fragmentos de experiencia, por lo que necesitará una versión en inglés y francés como las páginas. Sin embargo, los fragmentos de experiencia no son páginas, sino partes de páginas que se pueden reutilizar en todas las páginas, por lo que no viven directamente debajo `/content` del resto de las páginas. En su lugar, viven bajo su propia carpeta, pero como también deben estar localizados, su estructura debe reflejar la estructura de localización del sitio.
+Los pies de página generalmente se crean con fragmentos de experiencia, por lo que necesitará una versión en inglés y francés como las páginas. Sin embargo, los fragmentos de experiencia no son páginas, sino partes de páginas que se pueden reutilizar en todas las páginas, por lo que no residen directamente en `/content` como el resto de las páginas. En su lugar, viven bajo su propia carpeta, pero como también deben estar localizados, su estructura debe reflejar la estructura de localización del sitio.
 
 ```
 /content
@@ -64,7 +67,7 @@ Es a través de la estructura de localización reflejada que los componentes pri
 
 El componente Fragmento de experiencia es muy flexible y es adecuado para un encabezado o pie de página.
 
-Debido a que nuestro sitio web hipotético se ofrece en inglés y francés, necesitaremos crear dos fragmentos de experiencia, ambos llamados `footer` [en las ubicaciones que describimos anteriormente.](#content-structure)
+Dado que nuestro sitio web hipotético se ofrece en inglés y francés, necesitaremos crear dos fragmentos de experiencia, ambos llamados `footer` [en las ubicaciones que describimos anteriormente.](#content-structure)
 
 ![](/help/assets/screen-shot-2019-09-09-11.08.28.png)
 
@@ -82,13 +85,14 @@ A esta plantilla agregaremos los componentes básicos en los que queremos basar 
 
 * [Componente de navegación](/help/components/navigation.md)
    * El componente de navegación aparecerá en la parte superior de cada página.
-   * En el componente de navegación definimos la raíz de navegación, indicando al componente dónde comienza la estructura de navegación del sitio.
+   * En el componente de navegación definimos la raíz de navegación, indicando al componente dónde inicio la estructura de navegación del sitio.
    * En función de la raíz de navegación, el componente puede buscar automáticamente el contenido localizado correspondiente.
-* [Componente de contenedor](/help/components/container.md)
-   * Cada página contendrá un componente de contenedor editable para que los autores puedan colocar contenido adicional en la página.
+* [Componente contenedor](/help/components/container.md)
+   * Cada página contendrá un componente de Contenedor editable para que los autores puedan colocar contenido adicional en la página.
 * [Fragmento de experiencias](/help/components/experience-fragment.md)
    * Señalamos el componente Fragmento de experiencia a la ruta de fragmento en el idioma de creación del fragmento que representa el pie de página.
    * En función de la ruta de ese fragmento y de la estructura de los fragmentos de experiencia que reflejan la estructura de página localizada, el componente puede buscar automáticamente el contenido localizado correspondiente.
+
    ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Páginas {#pages}
@@ -97,11 +101,11 @@ Al realizar el trabajo duro en la configuración de la estructura y plantilla de
 
 Por ejemplo, el autor sólo tendría que agregar contenido como un componente de texto a las páginas en inglés y francés (representado en azul más abajo).
 
-El componente de navegación y el componente de fragmento de experiencia provienen de la plantilla de página y saben mostrar automáticamente el contenido correcto en función de la estructura de localización y la ubicación de la página en sí (representados en blanco a continuación).
+El componente de navegación y el componente de fragmento de experiencia provienen de la plantilla de página y saben que muestran automáticamente el contenido correcto en función de la estructura de localización y la ubicación de la página (representado en blanco a continuación).
 
 ![](/help/assets/screen-shot-2019-09-09-11.22.14.png)
 
-## Adaptarlo a todos juntos {#fitting-it-all-together}
+## Colocación de todo {#fitting-it-all-together}
 
 Esta es la imagen completa de cómo estos elementos simples pero poderosos funcionan juntos para ofrecer páginas localizadas para los autores de contenido.
 
