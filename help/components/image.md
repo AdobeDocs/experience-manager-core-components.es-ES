@@ -2,9 +2,9 @@
 title: Componente de imagen
 description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '2157'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,12 @@ El autor de la plantilla puede definir los anchos de la imagen, así como el rec
 El componente de imagen incorpora funciones interactivas sólidas listas para usar. En el nivel de plantilla de página, se puede utilizar el [cuadro de diálogo de diseño](#design-dialog) para definir los anchos predeterminados del recurso de imagen. A continuación, el componente de imagen cargará automáticamente la anchura correcta para que se muestre en función del tamaño de la ventana del navegador. A medida que se cambia el tamaño de la ventana, el componente de imagen carga dinámicamente el tamaño de imagen correcto sobre la marcha. No es necesario que los desarrolladores de componentes se preocupen por definir consultas de medios personalizadas, ya que el componente de imagen ya está optimizado para cargar el contenido.
 
 Además, el componente de imagen admite la carga diferida para aplazar la carga del recurso de imagen real hasta que esté visible en el navegador, lo que aumenta la capacidad de respuesta de las páginas.
+
+## Compatibilidad con Dynamic Media {#dynamic-media}
+
+El componente Imagen (a partir de [versión 2.13.0](/help/versions.md)) admite [recursos de Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia). [Cuando están activadas, ](#design-dialog) estas funciones oferta la capacidad de agregar recursos de imagen de Dynamic Media con una simple operación de arrastrar y soltar o a través del navegador de recursos, como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y recortes inteligentes.
+
+Las experiencias web creadas con componentes principales no pueden incluir funciones de imagen de medios dinámicos enriquecidas, potentes, robustas, de alto rendimiento y multiplataforma.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -65,9 +71,7 @@ La documentación técnica más reciente sobre el componente de imagen [se encue
 
 Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
 
->[!NOTE]
->
->A partir de la versión 2.1.0 de los componentes principales, el componente de imagen admite [microdatos de esquema.org](https://schema.org).
+El componente Imagen admite [microdatos de esquema.org](https://schema.org).
 
 ## Configurar cuadro de diálogo {#configure-dialog}
 
@@ -86,33 +90,35 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y [cuadro de diálogo
 
 ![Ficha Metadatos del cuadro de diálogo de configuración del componente de imagen](/help/assets/image-configure-metadata.png)
 
-* **La imagen es**
-decorativaCompruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto solo se aplica a imágenes decorativas.
-* **Alternativa**
-textualAlternativa textual del significado o función de la imagen, para lectores con problemas de visión.
-   * Obtener texto alternativo de DAM: cuando se selecciona, el texto alternativo de la imagen se rellena con el valor de los metadatos `dc:description` en DAM.
-
-* ****
-RótuloInformación adicional sobre la imagen, que se muestra debajo de la imagen de forma predeterminada.
-   * **Obtener rótulo de**
-DAMWa la casilla de verificación que se ha marcado, el texto del rótulo de la imagen se rellenará con el valor de la variable 
-`dc:title` metadatos en DAM.
-   * **Mostrar rótulo como**
-emergenteCuando se selecciona, el rótulo no se muestra debajo de la imagen, sino como una ventana emergente que muestran algunos exploradores al pasar el ratón por encima de la imagen.
-
-* **Vínculo**
-   * Vincule la imagen a otro recurso.
+* **Tipo**  de ajuste preestablecido: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea  **de** ajuste preestablecido de imagen o de recorte **** inteligente, y solo está disponible cuando están habilitadas las funciones de medios  [dinámicos ](#dynamic-meida) .
+   * **Ajuste preestablecido**  de imagen: cuando se selecciona  **Tipo** de ajuste preestablecido  **de** ajustes preestablecidos de imagen, el menú desplegable  **Ajustes preestablecidos de** imagen está disponible, lo que permite seleccionar entre los ajustes preestablecidos de Dynamic Media disponibles. Solo está disponible si se han definido ajustes preestablecidos para el recurso seleccionado.
+   * **Recorte**  inteligente: cuando se selecciona  **Tipo** de  **recorte inteligente preestablecido, la opción de** recorte inteligente desplegable  **** Representación está disponible, lo que permite seleccionar las representaciones disponibles del recurso seleccionado. Solo está disponible si se definen representaciones para el recurso seleccionado.
+   * **Modificadores**  de imagen: los comandos de servicio de imágenes de Dynamic Media adicionales se pueden definir aquí separados por  `&`, independientemente del tipo de  **ajuste** preestablecido seleccionado.
+* **La imagen es decorativa** : compruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto solo se aplica a imágenes decorativas.
+* **Texto**  alternativo - Alternativa textual del significado o función de la imagen, para lectores con deficiencias visuales.
+   * **Obtener texto alternativo de DAM** : cuando se selecciona, el texto alternativo de la imagen se rellena con el valor de los  `dc:description` metadatos en DAM.
+* **Rótulo** : información adicional sobre la imagen, que se muestra debajo de la imagen de forma predeterminada.
+   * **Obtener rótulo de DAM** : al activarlo, el texto del rótulo de la imagen se rellenará con el valor de los  `dc:title` metadatos en DAM.
+   * **Mostrar rótulo como elemento emergente** : al activarlo, el rótulo no se mostrará debajo de la imagen, sino como elemento emergente que muestran algunos exploradores al pasar el ratón por encima de la imagen.
+* **Vínculo** : vincule la imagen a otro recurso.
    * Utilice el cuadro de diálogo de selección para vincular a otro recurso AEM.
    * Si no se vincula a un recurso AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
-
 * **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [ de ](/help/developing/data-layer/overview.md)datos.
    * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
 
+>[!TIP]
+>
+>**El** ajuste preestablecido de  **imagen de** recorte inteligente son opciones que se excluyen mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, deberá utilizar los **modificadores de imagen** para agregar ajustes preestablecidos manualmente.
+
 ## Editar cuadro de diálogo {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor recortar, modificar el mapa de inicio y aplicar zoom a la imagen.
+
+>[!NOTE]
+>
+>Las funciones de recorte, rotación y zoom no se aplican a los recursos de Dynamic Media. Si las [características de Dynamic Media](#dynamic-media) están habilitadas, cualquier edición de este tipo en los recursos de Dynamic Media debe realizarse a través del [Cuadro de diálogo de configuración.](#configure-dialog)
 
 ![Cuadro de diálogo de edición del componente de imagen](/help/assets/image-edit.png)
 
@@ -181,36 +187,20 @@ Además, puede definir qué opciones generales de componente se desactivan o se 
 
 ![Ficha principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main.png)
 
-* **Habilitar la**
-carga diferidaDefina si la opción de carga diferida se activa automáticamente al agregar el componente de imagen a una página.
-* **La imagen es**
-decorativaDefina si la opción de imagen decorativa se activa automáticamente al agregar el componente de imagen a una página.
-* **Obtenga texto alternativo de**
-DAMDefine si la opción de recuperar el texto alternativo de DAM se activa automáticamente al agregar el componente de imagen a una página.
-* **Obtenga el rótulo de**
-DAMDefine si la opción para recuperar el rótulo de DAM se activa automáticamente al agregar el componente de imagen a una página.
-* **Mostrar rótulo como**
-elemento emergenteDefina si la opción para mostrar el rótulo de imagen como elemento emergente se activa automáticamente al agregar el componente de imagen a una página.
-* **Deshabilite UUID**
-TrackingCheck para deshabilitar el seguimiento del UUID del recurso de imagen.
-
-* ****
-AnchosDefine una lista de anchuras en píxeles para la imagen y el componente carga automáticamente la anchura más adecuada en función del tamaño del navegador.
+* **Activar las funciones**  de DM: cuando está activada, están disponibles las  [funciones de habilitar Medios ](#dynamic-media) dinámicos.
+* **Activar carga**  diferida: defina si la opción de carga diferida se activa automáticamente al agregar el componente de imagen a una página.
+* **La imagen es decorativa** : defina si la opción de imagen decorativa se activa automáticamente al agregar el componente de imagen a una página.
+* **Obtener texto alternativo de DAM**: defina si la opción para recuperar el texto alternativo de DAM se activa automáticamente al agregar el componente de imagen a una página.
+* **Obtener rótulo de DAM** : defina si la opción para recuperar el rótulo de DAM se activa automáticamente al agregar el componente de imagen a una página.
+* **Mostrar rótulo como elemento emergente** : defina si la opción para mostrar el rótulo de imagen como elemento emergente se activa automáticamente al agregar el componente de imagen a una página.
+* **Deshabilitar el seguimiento**  UUID: marque esta opción para deshabilitar el seguimiento del UUID del recurso de imagen.
+* **Anchos** : define una lista de anchuras en píxeles para la imagen y el componente carga automáticamente la anchura más adecuada en función del tamaño del navegador.
    * Toque o haga clic en el botón **Añadir** para agregar otro tamaño.
       * Use los asideros para reorganizar el orden de los tamaños.
       * Utilice el icono **Eliminar** para eliminar un ancho.
    * De forma predeterminada, la carga de imágenes se aplaza hasta que se hace visible.
       * Seleccione la opción **Deshabilitar la carga diferida** para cargar las imágenes al cargar la página.
-* **Calidad**
-JPEGfactor de calidad (en porcentaje de 0 a 100) para imágenes JPEG transformadas (por ejemplo, escaladas o recortadas).
-
->[!NOTE]
->
->La opción Calidad JPEG está disponible desde la versión 2.2.0 de los componentes principales.
-
->[!NOTE]
->
->A partir de la versión 2.2.0 de los componentes principales, el componente de imagen agrega el atributo UUID exclusivo `data-asset-id` al recurso de imagen para permitir el seguimiento y la análisis del número de vistas que reciben los recursos individuales.
+* **Calidad**  JPEG: factor de calidad (en porcentaje de 0 a 100) para imágenes JPEG transformadas (por ejemplo, escaladas o recortadas).
 
 ### Ficha Características {#features-tab}
 
@@ -262,6 +252,6 @@ El componente de imagen utiliza el servlet de imagen adaptable del componente pr
 
 >[!NOTE]
 >
->Las solicitudes condicionales mediante el encabezado `Last-Modified` son compatibles con el servlet de imagen adaptable, pero el almacenamiento en caché del encabezado `Last-Modified` [debe habilitarse en Dispatcher](https://docs.adobe.com/content/help/en/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html#caching-http-response-headers).
+>Las solicitudes condicionales mediante el encabezado `Last-Modified` son compatibles con el servlet de imagen adaptable, pero el almacenamiento en caché del encabezado `Last-Modified` [debe habilitarse en Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 >
 >[La configuración de despachante de ejemplo del Arquetipo](/help/developing/archetype/overview.md) de proyecto de AEM ya contiene esta configuración.
