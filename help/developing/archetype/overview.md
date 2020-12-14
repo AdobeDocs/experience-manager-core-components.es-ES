@@ -2,7 +2,7 @@
 title: Tipo de archivo del proyecto AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '1035'
 ht-degree: 10%
@@ -49,7 +49,7 @@ El Arquetipo de proyecto AEM es una plantilla Maven que crea un proyecto de Adob
 
 Para generar un proyecto, ajuste la línea de comandos siguiente según sus necesidades:
 
-```
+```shell
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
@@ -77,7 +77,7 @@ La dependencia de Componentes principales solo se agrega para las versiones de A
 | `groupId` |  | ID de grupo de Maven base (p. ej. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Paquete de fuentes Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Destinatario AEM versión (puede ser `cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); o `6.5.0` o `6.4.4` para [Servicios administrados de Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o in situ). |
+| `aemVersion` | `cloud` | Destinatario AEM versión (puede ser `cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); o `6.5.0`, o `6.4.4` para [Servicios administrados de Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o in situ). |
 | `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión [SDK](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de distribuidor para cloud o para AMS/in situ, según el valor de `aemVersion` (puede ser `y` o `n`). |
 | `frontendModule` | `general` | Incluye un módulo de compilación de front-end de Webpack que genera bibliotecas de cliente (puede ser `general` o `none` para sitios regulares; puede ser `angular` o `react` para una aplicación de una sola página que implemente el [Editor de SPA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
