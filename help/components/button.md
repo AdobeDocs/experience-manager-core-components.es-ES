@@ -2,7 +2,7 @@
 title: Componente de botón
 description: El componente Botón del componente principal permite la creación y visualización de un botón.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
 workflow-type: tm+mt
 source-wordcount: '438'
 ht-degree: 4%
@@ -72,4 +72,4 @@ En la ficha **Accesibilidad**, se pueden definir valores para las etiquetas [acc
 
 ### Ficha Estilos {#styles-tab}
 
-El componente Imagen admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+El componente Botón admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
