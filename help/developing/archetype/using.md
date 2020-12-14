@@ -2,7 +2,7 @@
 title: Uso del arquetipo del proyecto AEM
 description: Instrucciones de uso detalladas para el arquetipo del proyecto AEM
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: 794408e8b643de2234664e69e59e1108cf286cd7
 workflow-type: tm+mt
 source-wordcount: '2057'
 ht-degree: 1%
@@ -57,9 +57,9 @@ Para empezar, puede utilizar la [extensión Eclipse](https://docs.adobe.com/cont
 
 Por supuesto también puede invocar Maven directamente.
 
-```
+```shell
 mvn -B archetype:generate \
- -D archetypeGroupId=com.adobe.granite.archetypes \
+ -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
  -D archetypeVersion=XX \
  -D aemVersion=cloud \
@@ -132,31 +132,31 @@ El proyecto principal generado admite diferentes perfiles de implementación al 
 
 Para generar todos los módulos ejecutados en el directorio raíz del proyecto, utilice el siguiente comando Maven.
 
-```
+```shell
 mvn clean install
 ```
 
 Si tiene una instancia de AEM en ejecución, puede compilar y empaquetar todo el proyecto e implementarlo en AEM con el siguiente comando Maven.
 
-```
+```shell
 mvn clean install -PautoInstallPackage
 ```
 
 Para implementarlo en una instancia de publicación, ejecute este comando.
 
-```
+```shell
 mvn clean install -PautoInstallPackagePublish
 ```
 
 Como alternativa, para implementar en una instancia de publicación, ejecute este comando.
 
-```
+```shell
 mvn clean install -PautoInstallPackage -Daem.port=4503
 ```
 
 O bien, para implementar únicamente el paquete para el autor, ejecute este comando.
 
-```
+```shell
 mvn clean install -PautoInstallBundle
 ```
 
@@ -172,7 +172,7 @@ Estas propiedades están configuradas para implementarse en una instancia de AEM
 
 Estas propiedades se configuran para que se puedan anular al implementar en entornos de nivel superior. De este modo, los archivos POM no tienen que cambiar, pero las variables como `aem.host` y `sling.password` pueden reemplazarse mediante argumentos de línea de comandos:
 
-```
+```shell
 mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.password=productionpasswd
 ```
 
