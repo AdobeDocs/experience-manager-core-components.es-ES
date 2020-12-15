@@ -2,10 +2,10 @@
 title: Creación de front-end de arquetipo de proyecto de AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: 10090b836397af3c9428f99bba72313263f34596
 workflow-type: tm+mt
-source-wordcount: '1622'
-ht-degree: 1%
+source-wordcount: '1620'
+ht-degree: 0%
 
 ---
 
@@ -33,11 +33,11 @@ Cuando se ejecuta todo el arquetipo de proyecto de AEM usando `mvn clean install
 
 >[!TIP]
 >
->Obtenga más información sobre cómo AEM administra ClientLibs en la [documentación de desarrollo de AEM](https://docs.adobe.com/content/help/es-ES/experience-manager-65/developing/introduction/clientlibs.html), cómo [incluirlas](/help/developing/including-clientlibs.md) o vea a continuación [cómo las utiliza el módulo ui.frontender.](#clientlib-generation)
+>Obtenga más información sobre cómo AEM administra ClientLibs en la [documentación de desarrollo de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), cómo [incluirlas](/help/developing/including-clientlibs.md) o vea a continuación [cómo las utiliza el módulo ui.frontender.](#clientlib-generation)
 
 ## Información general de ClientLibs {#clientlibs}
 
-El módulo front-end está disponible mediante una [AEM ClientLib](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/clientlibs.html). Al ejecutar el script de compilación NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de compilación resultante y la transforma en un ClientLib de este tipo.
+El módulo front-end está disponible mediante una [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Al ejecutar el script de compilación NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de compilación resultante y la transforma en un ClientLib de este tipo.
 
 ClientLib constará de los siguientes archivos y directorios:
 
