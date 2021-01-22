@@ -2,9 +2,9 @@
 title: Compatibilidad de AMP con los componentes principales
 description: Los componentes principales admiten AMP - Páginas móviles aceleradas
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: a4df0c8603614cf831ffd66cbcfc1f7ef964c25b
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '558'
 ht-degree: 0%
 
 ---
@@ -63,5 +63,9 @@ La configuración de AMP de una página también se puede anular en [Propiedades
 Cuando se utiliza AMP con los componentes principales, la diferencia principal es que AMP requiere que todos los [CSS estén alineados](including-clientlibs.md#inlining) en el elemento `<head>` y optimizados.
 
 Para admitir esto, se utiliza un componente de página personalizado, que carga solo la CSS específica de AMP para los componentes presentes en la página.
+
+>[!NOTE]
+>
+>Debido a las limitaciones de diseño de AMP, Adobe no admite el uso de Cuadrícula adaptable con la versión de AMP de la página.
 
 Para obtener más detalles técnicos y requisitos, consulte la [documentación para desarrolladores de GitHub.](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
