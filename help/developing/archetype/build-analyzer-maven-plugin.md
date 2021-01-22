@@ -2,9 +2,9 @@
 title: AEM como Cloud Service SDK Build Analyzer Maven Plugin
 description: Documentación para el complemento de analizador de Maven build local
 translation-type: tm+mt
-source-git-commit: 37ec5c245d3806d98dd8a8538c81fc10154a2dfc
+source-git-commit: 42a9dcd64ed8a9c70ec0f72dac50bf88111b703b
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '470'
 ht-degree: 3%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 3%
 El AEM como Cloud Service SDK Build Analyzer Maven Plugin analiza la estructura de los distintos proyectos de paquetes de contenido.
 
 Consulte la [documentación de Maven Plugin](https://github.com/adobe/aemanalyser-maven-plugin/blob/main/aemanalyser-maven-plugin/README.md) para obtener información sobre cómo incluirla en un proyecto AEM.
+
+>[!NOTE]
+>
+>Se recomienda actualizar el proyecto de Maven para que haga referencia a la última versión del complemento que se encuentra en el repositorio central de Maven, en esta ubicación: https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
 
 A continuación se muestra una tabla que describe los analizadores que se ejecutan como parte de este paso. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
@@ -27,3 +31,4 @@ A continuación se muestra una tabla que describe los analizadores que se ejecut
 | `api-regions`<p> </p>`api-regions-check-order`<p> </p>`api-regions-dependencies`<p> </p>`api-regions-duplicates` | Estos analizadores comprueban algunos detalles relacionados con el paquete de contenido [para presentar el proceso de conversión de modelos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=en#deploying) que crea artefactos que se ajustan al Modelo de características de Sling. Cualquier error debe notificarse a la asistencia al cliente de Adobe. | Sí | Sí |
 | `api-regions-crossfeature-dups` | Valida que los paquetes OSGI del cliente no tengan declaraciones de paquete de exportación que anulen AEM como API pública de Cloud Service<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>Para solucionarlo, deje de exportar un paquete que forma parte de la API pública AEM. | Sí | Sí |
 | `repoinit` | Comprueba la sintaxis de todas las secciones de informes | Sí | Sí |
+| `bundle-nativecode` | Valida que los paquetes OSGI no instalen código nativo. | Sí | Sí |
