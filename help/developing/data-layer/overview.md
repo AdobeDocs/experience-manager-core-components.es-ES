@@ -200,17 +200,17 @@ El siguiente [evento](#events) es relevante para el esquema de recursos:
 
 ## Eventos de componentes principales {#events}
 
-Hay varios eventos que activan los componentes principales mediante la capa de datos. La mejor manera de interactuar con la capa de datos es [registrar un detector de evento](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) y *luego* realizar una acción basada en el tipo de evento y/o componente que activó el evento. Esto evitará posibles condiciones de carrera con scripts asincrónicos.
+Hay varios eventos que déclencheur de componentes principales a través de la capa de datos. La mejor manera de interactuar con la capa de datos es [registrar un detector de evento](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) y *luego* realizar una acción basada en el tipo de evento y/o componente que activó el evento. Esto evitará posibles condiciones de carrera con scripts asincrónicos.
 
 A continuación se muestran los eventos predeterminados proporcionados por AEM componentes principales:
 
-* **`cmp:click`** - Al hacer clic en un elemento en el que se puede hacer clic (un elemento que tiene un  `data-cmp-clickable` atributo), la capa de datos activa un  `cmp:click` evento.
-* **`cmp:show`** y  **`cmp:hide`** - Manipular el acordeón (expandir/contraer), el carrusel (botones siguiente/anterior) y los componentes de fichas (selección de fichas) hace que la capa de datos se active  `cmp:show` y un  `cmp:hide` evento respectivamente. También se envía un evento `cmp:show` al cargar la página y se espera que sea el primer evento.
-* **`cmp:loaded`** - Tan pronto como se rellena la capa de datos con los componentes principales de la página, la capa de datos activa un  `cmp:loaded` evento.
+* **`cmp:click`** - Al hacer clic en un elemento en el que se puede hacer clic (un elemento que tiene un  `data-cmp-clickable` atributo), la capa de datos se déclencheur en un  `cmp:click` evento.
+* **`cmp:show`** y  **`cmp:hide`** - Manipular el acordeón (expandir/contraer), el carrusel (botones siguiente/anterior) y los componentes de fichas (selección de tabuladores) hacen que la capa de datos se déclencheur  `cmp:show` y se  `cmp:hide` evento, respectivamente. También se envía un evento `cmp:show` al cargar la página y se espera que sea el primer evento.
+* **`cmp:loaded`** - Tan pronto como se rellena la capa de datos con los componentes principales de la página, la capa de datos déclencheur un  `cmp:loaded` evento.
 
 ### Eventos activados por componente {#events-components}
 
-Las siguientes tablas lista los componentes principales estándar que activan eventos junto con esos eventos.
+Las siguientes tablas lista los componentes principales estándar que déclencheur eventos junto con esos eventos.
 
 | Componente | Eventos |
 |---|---|
