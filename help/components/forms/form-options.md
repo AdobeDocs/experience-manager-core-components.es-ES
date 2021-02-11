@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Componente de opciones de formulario {#form-options-component}
 
-El componente de opciones de formulario de componente principal permite seleccionar opciones predefinidas en diversos formatos.
+El componente Opciones de formulario de componentes principales permite seleccionar opciones predefinidas en diversos formatos.
 
 ## Uso {#usage}
 
