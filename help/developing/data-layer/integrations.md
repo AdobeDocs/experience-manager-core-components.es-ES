@@ -23,7 +23,7 @@ Para agregar automáticamente un componente personalizado a la capa de datos:
 1. Defina las propiedades del modelo de componentes personalizado que debe rastrearse.
 1. Añada el atributo `data-cmp-data-layer` al HTL del componente personalizado. Por ejemplo: `data-cmp-data-layer="${mycomponent.data.json}"`.
 
-Para hacer que el activador de capa de datos sea automáticamente un evento `cmp:click` cada vez que se hace clic en un elemento específico del componente personalizado, agregue el atributo `data-cmp-clickable` al elemento que se rastreará en el componente personalizado HTL.
+Para convertir automáticamente el déclencheur de capa de datos en un evento `cmp:click` cada vez que se hace clic en un elemento específico del componente personalizado, agregue el atributo `data-cmp-clickable` al elemento que se rastreará en el componente personalizado HTL.
 
 Se puede consultar el atributo `data-cmp-data-layer-enabled` en el lado del cliente para comprobar si la capa de datos está habilitada.
 
