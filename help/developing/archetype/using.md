@@ -36,7 +36,7 @@ El arquetipo AEM está compuesto por módulos:
 * **[ui.apps](uiapps.md)**: contiene las  `/apps` y  `/etc` partes del proyecto, es decir, clientes de JS y CSS, componentes, plantillas, configuraciones específicas de runmode, así como pruebas de Hobbes.
 * **[ui.content](uicontent.md)**: contiene contenido de muestra utilizando los componentes del módulo ui.apps.
 * **[ui.testing](uitests.md)**: es un paquete Java que contiene pruebas JUnit que se ejecutan en el servidor. Este paquete no debe implementarse en producción.
-* **ui.launcher**: contiene código de pegado que implementa el paquete ui.testing (y paquetes dependientes) en el servidor y activa la ejecución remota de JUnit.
+* **ui.launcher**: contiene código de pegado que implementa el paquete ui.testing (y paquetes dependientes) en el servidor y déclencheur la ejecución remota de JUnit.
 * **[ui.front.general](uifrontend.md)**:  **(opcional)** contiene los artefactos necesarios para utilizar el módulo de compilación general basado en Webpack.
 * **[ui.front.response](uifrontend-react.md)**:  **(opcional)** contiene los artefactos requeridos al utilizar el arquetipo para crear proyectos SPA basados en React.
 * **[ui.front.angle](uifrontend-angular.md)**:  **(opcional)** contiene los artefactos necesarios al utilizar el arquetipo para crear proyectos SPA basados en Angular.
@@ -53,7 +53,7 @@ Al crear el proyecto con Maven se crean los artefactos (paquetes y paquetes OSGi
 
 ### Creación de un proyecto    {#create-project}
 
-Para empezar, puede utilizar la [extensión Eclipse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html) de &lt;a0/>AEM y seguir el Asistente para nuevo proyecto y elegir **AEM Proyecto de Módulo múltiple de muestra** para utilizar una versión liberada del arquetipo.
+Para empezar, puede utilizar la [extensión Eclipse](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/eclipse.html) de AEM y seguir el Asistente para nuevo proyecto y elegir **AEM Proyecto de Módulo múltiple de muestra** para utilizar una versión liberada del arquetipo.
 
 Por supuesto también puede invocar Maven directamente.
 
@@ -98,7 +98,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el arquet
 | `groupId` |  | ID de grupo de Maven base (p. ej. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Paquete de fuentes Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Destinatario AEM versión (puede ser `cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); o `6.5.0`, o `6.4.4` para [Servicios administrados de Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o in situ). |
+| `aemVersion` | `6.5.0` | Destinatario AEM versión (puede ser `cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); o `6.5.0` o `6.4.4` para [Servicios administrados de Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o in situ). |
 | `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión [SDK](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de distribuidor para cloud o para AMS/in situ, según el valor de `aemVersion` (puede ser `y` o `n`). |
 | `frontendModule` | `none` | Incluye un módulo de compilación de front-end de Webpack que genera bibliotecas de cliente (puede ser `general` o `none` para sitios regulares; puede ser `angular` o `react` para una aplicación de una sola página que implemente el [Editor de SPA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html)). |
