@@ -26,11 +26,11 @@ El componente de imagen incorpora funciones interactivas sólidas listas para us
 
 Además, el componente de imagen admite la carga diferida para aplazar la carga del recurso de imagen real hasta que esté visible en el navegador, lo que aumenta la capacidad de respuesta de las páginas.
 
-## Compatibilidad con Dynamic Media {#dynamic-media}
+## Soporte de Dynamic Media {#dynamic-media}
 
 El componente Imagen (a partir de [versión 2.13.0](/help/versions.md)) admite [recursos de Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia). [Cuando están activadas, ](#design-dialog) estas funciones oferta la capacidad de agregar recursos de imagen de Dynamic Media con una simple operación de arrastrar y soltar o a través del navegador de recursos, como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y recortes inteligentes.
 
-Las experiencias web creadas con componentes principales no pueden incluir funciones de imagen de medios dinámicos enriquecidas, potentes, robustas, de alto rendimiento y multiplataforma.
+Las experiencias web creadas con componentes principales no pueden ofrecer funciones de imagen Dynamic Media enriquecidas, potentes, sólidas, de alto rendimiento y multiplataforma.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -90,10 +90,10 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y [cuadro de diálogo
 
 ![Ficha Metadatos del cuadro de diálogo de configuración del componente de imagen](/help/assets/image-configure-metadata.png)
 
-* **Tipo**  de ajuste preestablecido: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea  **de** ajuste preestablecido de imagen o de recorte **** inteligente, y solo está disponible cuando están habilitadas las funciones de medios  [dinámicos ](#dynamic-meida) .
-   * **Ajuste preestablecido**  de imagen: cuando se selecciona  **Tipo** de ajuste preestablecido  **de** ajustes preestablecidos de imagen, el menú desplegable  **Ajustes preestablecidos de** imagen está disponible, lo que permite seleccionar entre los ajustes preestablecidos de Dynamic Media disponibles. Solo está disponible si se han definido ajustes preestablecidos para el recurso seleccionado.
+* **Tipo**  de ajuste preestablecido: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea  **de** ajuste preestablecido de imagen o de recorte **** inteligente, y solo está disponible cuando están activadas las funciones de  [Dynamic Media ](#dynamic-meida) .
+   * **Ajuste preestablecido**  de imagen: cuando se selecciona  **Tipo** de ajuste preestablecido de  **ajustes preestablecidos de** imagen, está disponible el menú desplegable  **Ajustes preestablecidos de** imagen, lo que permite seleccionar los ajustes preestablecidos de Dynamic Media disponibles. Solo está disponible si se han definido ajustes preestablecidos para el recurso seleccionado.
    * **Recorte**  inteligente: cuando se selecciona  **Tipo** de  **recorte inteligente preestablecido, la opción de** recorte inteligente desplegable  **** Representación está disponible, lo que permite seleccionar las representaciones disponibles del recurso seleccionado. Solo está disponible si se definen representaciones para el recurso seleccionado.
-   * **Modificadores**  de imagen: los comandos de servicio de imágenes de Dynamic Media adicionales se pueden definir aquí separados por  `&`, independientemente del tipo de  **ajuste** preestablecido seleccionado.
+   * **Modificadores**  de imagen: los comandos de servicio de imágenes adicionales de Dynamic Media se pueden definir aquí separados por  `&`, independientemente del tipo de  **ajuste** preestablecido seleccionado.
 * **La imagen es decorativa** : compruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto solo se aplica a imágenes decorativas.
 * **Texto**  alternativo - Alternativa textual del significado o función de la imagen, para lectores con deficiencias visuales.
    * **Obtener texto alternativo de DAM** : cuando se selecciona, el texto alternativo de la imagen se rellena con el valor de los  `dc:description` metadatos en DAM.
@@ -118,7 +118,7 @@ El cuadro de diálogo de edición permite al autor recortar, modificar el mapa d
 
 >[!NOTE]
 >
->Las funciones de recorte, rotación y zoom no se aplican a los recursos de Dynamic Media. Si las [características de Dynamic Media](#dynamic-media) están habilitadas, cualquier edición de este tipo en los recursos de Dynamic Media debe realizarse a través del [Cuadro de diálogo de configuración.](#configure-dialog)
+>Las funciones de recorte, rotación y zoom no se aplican a los recursos de Dynamic Media. Si las [características de Dynamic Media](#dynamic-media) están habilitadas, la edición de los recursos de Dynamic Media debe realizarse a través del [Cuadro de diálogo de configuración.](#configure-dialog)
 
 ![Cuadro de diálogo de edición del componente de imagen](/help/assets/image-edit.png)
 
@@ -187,7 +187,7 @@ Además, puede definir qué opciones generales de componente se desactivan o se 
 
 ![Ficha principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main.png)
 
-* **Activar las funciones**  de DM: cuando está activada, están disponibles las  [funciones de habilitar Medios ](#dynamic-media) dinámicos.
+* **Activar las funciones**  de DM: cuando se selecciona, las funciones de activación de  [Dynamic Media ](#dynamic-media) están disponibles.
 * **Activar carga**  diferida: defina si la opción de carga diferida se activa automáticamente al agregar el componente de imagen a una página.
 * **La imagen es decorativa** : defina si la opción de imagen decorativa se activa automáticamente al agregar el componente de imagen a una página.
 * **Obtener texto alternativo de DAM**: defina si la opción para recuperar el texto alternativo de DAM se activa automáticamente al agregar el componente de imagen a una página.
