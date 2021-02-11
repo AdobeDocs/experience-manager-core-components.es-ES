@@ -19,7 +19,7 @@ El componente Contenedor de formularios de componentes principales permite crear
 
 El componente Contenedor de formulario ha permitido crear formularios y funciones de envío de información simples mediante la compatibilidad con formularios WCM simples y el uso de una estructura anidada para permitir componentes de formulario adicionales.
 
-Al utilizar el [cuadro de diálogo de configuración](#settings-dialog) el editor de contenido puede definir qué tipo de acción desencadena el envío de formulario, dónde se debe almacenar el contenido enviado y si se debe activar un flujo de trabajo. El autor de la plantilla puede utilizar el [cuadro de diálogo de diseño](#design-dialog) para definir los componentes permitidos y sus asignaciones similares al cuadro de diálogo de diseño para el [contenedor de diseño estándar en el editor de plantillas](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html).
+Al utilizar el [cuadro de diálogo de configuración](#settings-dialog) el editor de contenido puede definir qué tipo de acción de déclencheur de envío de formulario, dónde se debe almacenar el contenido enviado y si se debe activar un flujo de trabajo. El autor de la plantilla puede utilizar el [cuadro de diálogo de diseño](#design-dialog) para definir los componentes permitidos y sus asignaciones similares al cuadro de diálogo de diseño para el [contenedor de diseño estándar en el editor de plantillas](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
