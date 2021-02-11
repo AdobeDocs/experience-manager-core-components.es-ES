@@ -12,11 +12,11 @@ ht-degree: 4%
 
 # Componente Botón de formulario {#form-button-component}
 
-El componente Botón de formulario de componente principal permite la inclusión de un botón para activar una acción en una página.
+El componente Botón de formulario de componente principal permite la inclusión de un botón para el déclencheur de una acción en una página.
 
 ## Uso {#usage}
 
-El componente Botón de formulario de componente principal permite crear un campo de botón, a menudo para activar el envío del formulario y está diseñado para utilizarse junto con el [componente de Contenedor de formulario](form-container.md).
+El componente Botón de formulario de componente principal permite crear un campo de botón, a menudo para déclencheur del envío del formulario y está diseñado para utilizarse junto con el [componente de Contenedor de formulario](form-container.md).
 
 El editor de contenido puede definir las propiedades del botón en el cuadro de diálogo [configurar](#configure-dialog).
 
