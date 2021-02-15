@@ -2,9 +2,9 @@
 title: Componente de fichas
 description: El componente Fichas permite la creación de varias fichas para organizar el contenido de una página.
 translation-type: tm+mt
-source-git-commit: 2926c51c2ab97b50b9ec4942cd5415c15a1411b6
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
@@ -133,3 +133,7 @@ La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo n
 ### Ficha Estilos {#styles-tab}
 
 El componente Tabs admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente Tabs admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
