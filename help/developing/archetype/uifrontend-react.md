@@ -2,7 +2,7 @@
 title: Diseño front-end para la SPA de reacción
 description: Una descripción del proceso de generación de front-end para los proyectos de SPA basados en React
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 0%
@@ -26,7 +26,7 @@ En el directorio del proyecto, puede ejecutar los siguientes comandos:
 
 ### inicio npm {#npm-start}
 
-```
+```shell
 npm start
 ```
 
@@ -45,7 +45,7 @@ Si está obteniendo errores relacionados con CORS, puede que desee configurar AE
 
 ### prueba npm {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ Este comando inicia el ejecutor de pruebas en el modo de reloj interactivo. Cons
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
@@ -69,7 +69,7 @@ De forma predeterminada, este proyecto utiliza la opción predeterminada de [Bro
 
 La aplicación React está configurada para utilizar la división de código [](https://webpack.js.org/guides/code-splitting) de forma predeterminada. Al crear la aplicación para producción, el código se mostrará en varios fragmentos:
 
-```
+```shell
 $ ls build/static/js
 2.5b77f553.chunk.js
 2.5b77f553.chunk.js.map
