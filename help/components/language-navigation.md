@@ -2,9 +2,9 @@
 title: Componente de navegación de idioma
 description: El componente de navegación por idiomas proporciona navegación por idioma o país para un sitio, de modo que los visitantes pueden navegar a la misma página en una configuración regional diferente.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
@@ -104,3 +104,7 @@ Además, puede establecer un **ID**. Esta opción permite controlar el identific
 * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
 
 ![Cuadro de diálogo de edición del componente de navegación de idioma](/help/assets/language-navigation-edit.png)
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente de navegación de idioma admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
