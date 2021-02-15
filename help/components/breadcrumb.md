@@ -2,9 +2,9 @@
 title: Componente de ruta de navegación
 description: El componente de ruta de navegación del componente principal es un componente de navegación que crea una ruta de navegación de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
@@ -89,3 +89,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir los va
 ### Ficha Estilos {#styles-tab}
 
 El componente de ruta de navegación es compatible con el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente de ruta de navegación admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
