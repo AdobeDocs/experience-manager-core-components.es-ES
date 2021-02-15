@@ -2,10 +2,10 @@
 title: Componente de fragmento de contenido
 description: El componente Fragmento de contenido del componente principal permite la visualización de un fragmento de contenido.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 5%
+source-wordcount: '673'
+ht-degree: 4%
 
 ---
 
@@ -52,7 +52,7 @@ Para obtener más información sobre las versiones y versiones de los componente
 
 ## Salida de componente de muestra {#sample-component-output}
 
-Para experimentar el componente Fragmento de contenido, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_cf).
+Para experimentar el componente Fragmento de contenido y ver ejemplos de sus opciones de configuración, así como los resultados HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_cf).
 
 ## Detalles técnicos {#technical-details}
 
@@ -110,3 +110,6 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir los ti
 
    * El tipo de recurso de sling que se utiliza para la cuadrícula interactiva interna
 
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente Fragmento de contenido admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
