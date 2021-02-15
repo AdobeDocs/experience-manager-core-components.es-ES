@@ -1,15 +1,19 @@
 ---
 product: Adobe Experience Manager
-git-repo: https://github.com/AdobeDocs/experience-manager-core-components.en
+description: Documentación para los componentes principales de Adobe Experience Manager
+git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.es-ES
 index: y
 solution-title: Información y asistencia para AEM
-solution-hub-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/home.html
+solution-hub-url: https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/home.html
 getting-started-title: Introducción al desarrollo para AEM
-getting-started-url: https://docs.adobe.com/content/help/en/experience-manager-cloud-service/core-concepts/home.html
+getting-started-url: https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/core-concepts/home.html
 tutorials-title: Tutoriales de AEM
-tutorials-url: https://docs.adobe.com/content/help/en/experience-manager-learn/cloud-service/overview.html
+tutorials-url: https://docs.adobe.com/content/help/es-ES/experience-manager-learn/cloud-service/overview.html
 translation-type: tm+mt
-source-git-commit: a3085d266baf32649fda528a7f4703e133d03ab7
+source-git-commit: f109463f1942349c300600acf6b94f268e8aa60e
+workflow-type: tm+mt
+source-wordcount: '147'
+ht-degree: 19%
 
 ---
 
@@ -49,4 +53,4 @@ Artículo
 * `description`
 * `index: n` (solo para versiones anteriores de componentes)
 
-Encontrará información adicional sobre los metadatos en la guía de creación [interna.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
+Encontrará información adicional sobre los metadatos en la [guía de creación interna.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
