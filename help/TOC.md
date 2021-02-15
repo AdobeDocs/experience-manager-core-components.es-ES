@@ -4,10 +4,10 @@ user-guide-title: Componentes principales AEM
 breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 translation-type: tm+mt
-source-git-commit: e32521f35f33897cd72892de393073b01ad963f1
+source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
 workflow-type: tm+mt
-source-wordcount: '206'
-ht-degree: 69%
+source-wordcount: '214'
+ht-degree: 67%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 69%
          + [Texto de formulario (v1)](components/v1/form-text-v1.md)
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](developing/overview.md)
-   + [Rutas al éxito](developing/success.md)
+   + [Rutas al éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [Tutorial para desarrolladores de WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalización de componentes principales](developing/customizing.md)
    + [Instrucciones de los componentes](developing/guidelines.md)
@@ -89,4 +89,5 @@ ht-degree: 69%
       + [Módulo ui.frontender.response](developing/archetype/uifrontend-react.md)
       + [Módulo ui.frontendo.angular](developing/archetype/uifrontend-angular.md)
       + [Módulo ui.testing](developing/archetype/uitests.md)
+      + [Módulo it.testing](developing/archetype/ittests.md)
       + [Complemento Build Analyzer Maven](developing/archetype/build-analyzer-maven-plugin.md)
