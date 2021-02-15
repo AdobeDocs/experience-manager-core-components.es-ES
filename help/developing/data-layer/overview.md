@@ -2,10 +2,10 @@
 title: Uso de la capa de datos del cliente de Adobe con los componentes principales
 description: Uso de la capa de datos del cliente de Adobe con los componentes principales
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: 57582c5c938e0f345b27785bd6fd6d5ed5454bd0
 workflow-type: tm+mt
-source-wordcount: '893'
-ht-degree: 3%
+source-wordcount: '974'
+ht-degree: 5%
 
 ---
 
@@ -41,7 +41,7 @@ Para activar manualmente la capa de datos debe crear una configuración [context
 
 1. Añada una propiedad `sling:configRef` en el nodo `jcr:content` de su sitio debajo de `/content` (por ejemplo: `/content/<mySite>/jcr:content`) y establézcalo en `/conf/<mySite>` desde el paso anterior.
 
-1. Una vez habilitada, puede comprobar la activación cargando una página del sitio fuera del editor. Inspect el origen de la página y la etiqueta `<body>` deben incluir un atributo `data-cmp-data-layer-enabled`
+1. Una vez habilitada, puede comprobar la activación cargando una página del sitio fuera del editor, por ejemplo mediante la opción **Vista tal como se publica** en el editor. Inspect el origen de la página y la etiqueta `<body>` deben incluir un atributo `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -62,6 +62,28 @@ Para activar manualmente la capa de datos debe crear una configuración [context
    ```javascript
    window.adobeDataLayer.getState();
    ```
+
+## Componentes admitidos {#supported-components}
+
+Los siguientes componentes admiten la capa de datos.
+
+* [Acordeón](/help/components/accordion.md)
+* [Ruta de navegación](/help/components/breadcrumb.md)
+* [Botón](/help/components/button.md)
+* [Carrusel](/help/components/carousel.md)
+* [Fragmento de contenido](/help/components/content-fragment-component.md)
+* [Imagen](/help/components/image.md)
+* [Navegación por idiomas](/help/components/language-navigation.md)
+* [Lista](/help/components/list.md)
+* [Navegación](/help/components/navigation.md)
+* [Página](/help/components/page.md)
+* [Barra de progreso](/help/components/progress-bar.md)
+* [Pestañas](/help/components/tabs.md)
+* [Teaser](/help/components/teaser.md)
+* [Texto](/help/components/text.md)
+* [Título](/help/components/title.md)
+
+Consulte también los [eventos activados por los componentes.](#events-components)
 
 ## Esquemas de datos de componentes principales {#data-schemas}
 
@@ -197,6 +219,34 @@ id: {
 El siguiente [evento](#events) es relevante para el esquema de recursos:
 
 * `cmp:click`
+
+### Esquema de fragmento de contenido {#content-fragment}
+
+El esquema Fragmento de contenido lo utiliza el componente [Fragmento de contenido.](/help/components/content-fragment-component.md)
+
+El esquema Fragmento de contenido se define de la siguiente manera.
+
+```javascript
+id: {
+    @type
+    repo:modifyDate
+    dc:title
+    dc:description
+    xdm:text
+    xdm:linkURL
+    parentId
+    elements            // array of the Content Fragment elements
+}
+```
+
+El esquema utilizado para el elemento Fragmento de contenido es el siguiente.
+
+```javascript
+{
+    xdm:title           // title
+    xdm:text            // text
+}
+```
 
 ## Eventos de componentes principales {#events}
 
