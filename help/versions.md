@@ -2,9 +2,9 @@
 title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica qué versiones y versiones son y cómo comprender la compatibilidad con los componentes principales y AEM.
 translation-type: tm+mt
-source-git-commit: 857c0c5f7c48c69b50df55c478511619ca8c491f
+source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1938'
 ht-degree: 22%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 22%
 
 # Versiones de componentes principales {#core-components-versions}
 
-La versión actual de los Componentes principales es 2.13.2 y es compatible con [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) y [instalaciones AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) in situ.
+La versión actual de los Componentes principales es 2.14.0 y es compatible con [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) y [instalaciones AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) locales.
 
 ## Historial de versiones y compatibilidad {#release-history-and-compatibility}
 
@@ -22,10 +22,11 @@ Las siguientes tablas ilustran la compatibilidad de las versiones de los compone
 
 ### Historial y requisitos de la versión {#release-history-requirements}
 
-La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles completos de la versión](https://github.com/adobe/aem-core-wcm-components/releases), ofrece una visión general de las versiones de los Componentes principales y su compatibilidad con las versiones de AEM y las versiones de Java.
+La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles completos de la versión](https://github.com/adobe/aem-core-wcm-components/releases), ofrece una visión general de las versiones de los Componentes principales y su compatibilidad con las versiones AEM y Java.
 
 | Versión | Descripción | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Esta versión incluye nuevas opciones para [Incrustar componente](/help/components/embed.md) e introduce la solución de marcas en el nivel [de página](/help/components/page.md), además de resolver muchos problemas. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 8 de febrero de 2021 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Se trata de una versión de parche que soluciona un problema con RTE cuando se usa en AEMaaCS | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 16 de diciembre de 2020 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Esta versión incluye nuevas funciones de Dynamic Media para el [componente de imagen.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 4 de diciembre de 2020 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Esta fue una versión de parche para 2.12.0 que incluye correcciones menores. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 11 de noviembre de 2020 |
