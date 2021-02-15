@@ -2,9 +2,9 @@
 title: Componente de texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2213'
 ht-degree: 3%
 
 ---
@@ -286,7 +286,7 @@ Toque o haga clic en el icono **Editar origen** para cambiar el contenido del te
 
 >[!NOTE]
 >
->Dado que el HTML ingresado mediante **Source Edit** se analiza para detectar riesgos XSS y cualquier secuencia de comandos y elimina automáticamente los encontrados, el contenido real que se haya mantenido puede variar de lo que se introdujo en **Source Edit**. Por este motivo, para guardar los cambios realizados con **Editar origen**, primero debe salir de **Editar origen** para vista del texto en el editor normal antes de guardarlo.
+>Dado que el HTML ingresado mediante **Source Edit** se analiza para detectar riesgos XSS y cualquier secuencia de comandos y elimina automáticamente los encontrados, el contenido real que se haya mantenido puede variar de lo que se introdujo en **Source Edit**. Por este motivo, para guardar los cambios realizados con **Edición de origen**, primero debe salir de **Edición de origen** para vista del texto en el editor normal antes de guardarlo.
 
 ### Formato de párrafo
 
@@ -369,3 +369,7 @@ La opción para insertar caracteres especiales se puede activar o desactivar par
 ## Ficha Estilos {#styles-tab}
 
 El componente Texto admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente de texto admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
