@@ -2,9 +2,9 @@
 title: Componente de navegación
 description: El componente de navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
 translation-type: tm+mt
-source-git-commit: ff943aeca0333b13e2b9aaf11f316457f001d507
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1382'
 ht-degree: 1%
 
 ---
@@ -165,3 +165,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla establecer los
 ### Ficha Estilos {#styles-tab}
 
 El componente de navegación admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente de navegación admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
