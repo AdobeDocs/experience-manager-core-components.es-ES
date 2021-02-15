@@ -2,7 +2,7 @@
 title: Creación de front-end de arquetipo de proyecto de AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 0%
@@ -141,7 +141,7 @@ Convierte entre valores de longitud, tiempo y ángulo equivalentes. Tenga en cue
    * Quita los comentarios de las reglas, selectores y declaraciones
    * Quita reglas, reglas y declaraciones duplicadas
       * Tenga en cuenta que esto solo funciona para duplicados exactos.
-   * Quita reglas vacías, consultas de medios y reglas con selectores vacíos, ya que no afectan a la salida
+   * Quita las reglas, consultas de medios y reglas vacías con selectores vacíos, ya que no afectan a la salida
    * Combina reglas adyacentes por selectores y pares de propiedades/valores superpuestos
    * Garantiza que solo un @charset esté presente en el archivo CSS y lo mueve a la parte superior del documento
    * Reemplaza la palabra clave inicial CSS con el valor real, cuando la salida resultante es menor
@@ -166,7 +166,7 @@ El proceso de compilación del módulo ui.frontender aprovecha el complemento [a
 
 La inclusión final de las bibliotecas de cliente en la página de sitios es la siguiente:
 
-```
+```html
 <HTML>
     <head>
         <link rel="stylesheet" href="clientlib-base.css" type="text/css">
