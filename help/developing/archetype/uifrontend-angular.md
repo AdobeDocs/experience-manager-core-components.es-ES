@@ -2,7 +2,7 @@
 title: Compilación front-end para SPA angulares
 description: Una descripción del proceso de construcción del front-end para proyectos de SPA basados en Angular
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 0%
@@ -45,7 +45,7 @@ Si está obteniendo errores relacionados con CORS, puede que desee configurar AE
 
 ### prueba npm {#npm-test}
 
-```
+```shell
 npm test
 ```
 
@@ -53,7 +53,7 @@ Este comando inicia el ejecutor de pruebas Karma. Consulte la [documentación an
 
 ### prueba de ejecución npm:debug {#npm-run-test-debug}
 
-```
+```shell
 npm run test:debug
 ```
 
@@ -61,7 +61,7 @@ Este comando inicia el ejecutor de pruebas Karma en modo de reloj interactivo.
 
 ### npm run build {#npm-run-build}
 
-```
+```shell
 npm run build
 ```
 
