@@ -2,9 +2,9 @@
 title: Componente de lista
 description: El componente de Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '966'
+source-wordcount: '979'
 ht-degree: 4%
 
 ---
@@ -188,3 +188,7 @@ fechaActivar la opción Mostrar fecha en el cuadro de diálogo  [Editar](#edit-d
 ### Ficha Estilos {#styles-tab}
 
 El componente Imagen admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente Lista admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
