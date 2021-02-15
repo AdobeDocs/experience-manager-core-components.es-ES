@@ -2,9 +2,9 @@
 title: Componente de título
 description: El componente Título del componente principal es un componente de encabezado de sección que incluye la edición in-situ.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '569'
 ht-degree: 3%
 
 ---
@@ -82,3 +82,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir el niv
 ### Ficha Estilos {#styles-tab}
 
 El componente Título admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente Título admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
