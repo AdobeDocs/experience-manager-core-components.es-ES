@@ -2,9 +2,9 @@
 title: Incrustar componente
 description: El componente Incrustar permite incrustar contenido externo en una página de contenido AEM.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: 601bee9df2a82255c92fcf30b8dacde70b0583dc
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,20 @@ Los desarrolladores pueden agregar procesadores de URL adicionales [siguiendo la
 
 ### Insertable {#embeddable}
 
-Las incrustaciones permiten una mayor personalización del recurso incrustado, que se puede parametrizar e incluir información adicional. Un autor puede seleccionar elementos incrustables de confianza preconfigurados y el componente se distribuye con un componente incorporado de YouTube incorporado de forma predeterminada.
+Las incrustaciones permiten una mayor personalización del recurso incrustado, que se puede parametrizar e incluir información adicional. Un autor puede seleccionar elementos incrustables de confianza preconfigurados y el componente se distribuye con un elemento incorporado de YouTube de forma predeterminada.
 
 El campo **Incrustable** define el tipo de procesador que desea utilizar. En el caso de la incrustación de YouTube, puede definir:
 
 * **ID**  de vídeo: ID de vídeo único de YouTube del recurso que desea incrustar
 * **Anchura** : anchura del vídeo incrustado
 * **Altura** : altura del vídeo incrustado
+* **Activar silencio** : este parámetro especifica si el vídeo se reproducirá silenciado de forma predeterminada. Al habilitar esto, se incrementa la posibilidad de que la reproducción automática funcione en los navegadores modernos.
+* **Activar reproducción**  automática: este parámetro especifica si el vídeo inicial se reproducirá automáticamente cuando se cargue el reproductor. Esto solo es efectivo en la instancia de publicación o cuando se utiliza la opción **Vista como Publicada** en la instancia de creación.
+* **Activar bucle** : en el caso de un solo vídeo, este parámetro especifica si el reproductor debe reproducir repetidamente el vídeo inicial. En el caso de una lista de reproducción, el reproductor reproduce toda la lista de reproducción y, a continuación, vuelve a inicios en el primer vídeo.
+* **Activar reproducción en línea (iOS)** : este parámetro controla si los vídeos se reproducen en línea (activado) o a pantalla completa (desactivado) en un reproductor de HTML5 en iOS.
+* **Videos**  relacionados sin restricciones: si esta opción está deshabilitada, los vídeos relacionados vendrán del mismo canal que el vídeo que se acaba de reproducir, de lo contrario procederán de cualquier canal.
+
+Tenga en cuenta que las opciones &quot;habilitar&quot; deben activarse a través del [Diálogo de diseño](#design-dialog) y pueden configurarse como valores predeterminados.
 
 Otros elementos incrustados oferta campos similares y pueden ser definidos por un desarrollador [siguiendo la documentación del desarrollador del componente incrustado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
@@ -102,7 +109,7 @@ El código HTML que puede introducir el autor se filtra por motivos de seguridad
 
 *En general,* todas las secuencias de comandos y  `style` los elementos, así como todos  `on*` y  `style` los atributos, se eliminarán del resultado.
 
-Sin embargo, las reglas son más complicadas porque el componente incrustado sigue el conjunto de reglas de filtrado del marco de saneamiento HTML AntiSamy de AEM global, que se puede encontrar en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponerlo para la configuración específica del proyecto, si es necesario.
+Sin embargo, las reglas son más complicadas porque el componente incrustado sigue AEM conjunto de reglas de filtrado del marco de saneamiento HTML AntiSamy, que se puede encontrar en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponerlo para la configuración específica del proyecto, si es necesario.
 
 Encontrará información adicional sobre seguridad en la [documentación para desarrolladores de AEM para instalaciones in situ](https://docs.adobe.com/content/help/en/experience-manager-65/developing/introduction/security.html), así como [AEM como instalaciones de Cloud Service.](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/security/home.html)
 
@@ -113,9 +120,26 @@ Encontrará información adicional sobre seguridad en la [documentación para de
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones disponibles para el autor del contenido que utiliza el componente Incrustar y los valores predeterminados establecidos al colocar el componente Incrustar.
 
+### Ficha Tipos incrustables {#embeddable-types-tab}
+
 ![Cuadro de diálogo de diseño del componente incrustado](/help/assets/embed-design.png)
 
 * **Deshabilitar URL** : desactiva la  **** opción URL del autor del contenido cuando se selecciona
 * **Deshabilitar incrustables** : desactiva la  **** opción Incrustar para el autor del contenido cuando se selecciona, independientemente de los procesadores incrustables que se permiten.
 * **Deshabilitar HTML** : desactiva la  **** opción HTML para el autor del contenido cuando se selecciona.
-* **Incrustaciones**  permitidas: multiselección que define qué procesadores incrustables están disponibles para el autor del contenido, siempre que la opción  **** Incrustar esté activa.
+* **Incrustables**  permitidos: multiselección que define qué procesadores incrustables están disponibles para el autor del contenido, siempre que la opción  **** Incrustar esté activa.
+
+### Ficha YouTube {#youtube-tab}
+
+![Ficha YouTube del cuadro de diálogo de diseño del componente Incrustar](/help/assets/embed-design-youtube.png)
+
+* **Permitir configuración de comportamiento**  silencioso: permite al autor del contenido configurar la  **opción Activar** silencio en el componente cuando se selecciona el tipo incrustado de YouTube
+   * **Valor predeterminado de silenciar** : establece automáticamente  **Activar** opción de silencio cuando se selecciona el tipo incrustado de YouTube
+* **Permitir configuración del comportamiento**  de reproducción automática: permite al autor del contenido configurar la opción  **Activar reproducción** automática en el componente cuando se selecciona el tipo incrustado de YouTube
+   * **Valor predeterminado de reproducción**  automática: establece automáticamente la opción  **Activar reproducción** automática cuando se selecciona el tipo incrustado de YouTube
+* **Permitir configuración de comportamiento**  de bucle: permite al autor del contenido configurar la  **opción Activar** bucle en el componente cuando se selecciona el tipo incrustado de YouTube
+   * **Valor predeterminado de bucle** : establece automáticamente  **Activar** bucle cuando se selecciona el tipo incrustado de YouTube
+* **Permitir configuración de reproducción en línea (iOS)** : permite que el autor del contenido configure la  **opción Activar reproducción en línea (iOS)** en el componente cuando se selecciona el tipo incrustado de YouTube
+   * **Valor predeterminado de reproducción en línea (iOS)** : establece automáticamente la  **opción** Activar reproducción en línea (iOS)cuando se selecciona el tipo incrustado de YouTube
+* **Permitir configuración de vídeos**  en línea: permite al autor del contenido configurar la opción  **Videos relacionados no restringidos en el** componente cuando se selecciona el tipo incrustado de YouTube
+   * **Valor predeterminado de vídeos**  relacionados sin restricciones: establece automáticamente la opción  **** Videos relacionados sin restricciones cuando se selecciona el tipo incrustado de YouTube
