@@ -2,9 +2,9 @@
 title: Componente de página
 description: El componente Página es un componente de página extensible diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '644'
 ht-degree: 2%
 
 ---
@@ -83,3 +83,7 @@ Para obtener más información sobre el uso de bibliotecas del lado del cliente,
 ### Ficha Estilos {#styles-tab}
 
 El componente Página admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente Página admite la capa de datos del [cliente de Adobe.](/help/developing/data-layer/overview.md)
