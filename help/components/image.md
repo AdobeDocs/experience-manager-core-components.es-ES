@@ -2,9 +2,9 @@
 title: Componente de imagen
 description: El componente de imagen del componente principal es una función de edición in situ del componente de imagen adaptable.
 translation-type: tm+mt
-source-git-commit: c20d02aa93cce60b583a2d22c77b08ca7eb9b765
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '2157'
+source-wordcount: '2170'
 ht-degree: 2%
 
 ---
@@ -255,3 +255,7 @@ El componente de imagen utiliza el servlet de imagen adaptable del componente pr
 >Las solicitudes condicionales mediante el encabezado `Last-Modified` son compatibles con el servlet de imagen adaptable, pero el almacenamiento en caché del encabezado `Last-Modified` [debe habilitarse en Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=en#caching-http-response-headers).
 >
 >[La configuración de despachante de ejemplo del Arquetipo](/help/developing/archetype/overview.md) de proyecto de AEM ya contiene esta configuración.
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente Imagen admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
