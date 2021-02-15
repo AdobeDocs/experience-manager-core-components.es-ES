@@ -1,10 +1,10 @@
 ---
 title: Módulo ui.testing de AEM arquetipo del proyecto
-description: Cómo usar las pruebas JUnit de arquetipo del proyecto AEM
+description: Cómo utilizar las pruebas de IU de arquetipo de proyecto AEM
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '130'
+source-wordcount: '112'
 ht-degree: 0%
 
 ---
@@ -14,24 +14,22 @@ ht-degree: 0%
 
 El proyecto contiene tres niveles de prueba:
 
-## Pruebas de unidad {#unit-tests}
+* [Pruebas unitarias](core.md#unit-tests)
+* [Pruebas de integración](ittests.md)
+* Pruebas de la interfaz de usuario
 
-La prueba unitaria del [módulo principal](core.md) muestra las pruebas unitarias clásicas del código contenido en el paquete. Para realizar la prueba, ejecute:
+En este artículo se describen las pruebas de interfaz de usuario disponibles como parte del módulo ui.testing.
 
-```
-mvn clean test
-```
+## Ejecutando pruebas de IU {#running-tests}
 
-## Pruebas de integración {#integration-tests}
+Para realizar la prueba, ejecute:
 
-Las pruebas de integración del lado del servidor permiten ejecutar pruebas de tipo unidad en el entorno de AEM, es decir, en el servidor AEM. Para realizar la prueba, ejecute:
-
-```
-mvn clean verify -PintegrationTests
+```shell
+mvn verify -Pui-tests-local-execution
 ```
 
-## Pruebas del lado del cliente {#client-side-tests}
+Después de la ejecución, los informes y registros están disponibles en la carpeta `target/reports`.
 
-Las pruebas `client-side Hobbes.js` son pruebas del lado del explorador basadas en JavaScript que verifican el comportamiento del lado del explorador.
+## Opciones adicionales {#additional-options}
 
-Para realizar la prueba, cuando visualice una página AEM que desee probar en el explorador, abra la página en **modo de desarrollador** abriendo el panel izquierdo, cambie a la ficha **Pruebas** y busque las **Pruebas de MyName** generadas y ejecútelas.
+Las pruebas de interfaz de usuario se pueden ejecutar con muchas opciones diferentes, incluso para realizar pruebas sin encabezado con un navegador local y como imagen de Docker. Consulte el archivo [README.md del módulo ui.testing](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/ui.tests) para obtener más información.
