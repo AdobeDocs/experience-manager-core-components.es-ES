@@ -2,10 +2,10 @@
 title: Componente de botón
 description: El componente Botón del componente principal permite la creación y visualización de un botón.
 translation-type: tm+mt
-source-git-commit: df42f9e3fa26cbb26aa44688e26e5c9a7de4752e
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 4%
+source-wordcount: '451'
+ht-degree: 3%
 
 ---
 
@@ -73,3 +73,7 @@ En la ficha **Accesibilidad**, se pueden definir valores para las etiquetas [acc
 ### Ficha Estilos {#styles-tab}
 
 El componente Botón admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente Botón admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
