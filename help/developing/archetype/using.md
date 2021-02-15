@@ -2,9 +2,9 @@
 title: Uso del arquetipo del proyecto AEM
 description: Instrucciones de uso detalladas para el arquetipo del proyecto AEM
 translation-type: tm+mt
-source-git-commit: 10090b836397af3c9428f99bba72313263f34596
+source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
 workflow-type: tm+mt
-source-wordcount: '2055'
+source-wordcount: '2064'
 ht-degree: 1%
 
 ---
@@ -33,13 +33,16 @@ El arquetipo del proyecto hace que sea fácil empezar a desarrollar en AEM. Pued
 El arquetipo AEM está compuesto por módulos:
 
 * **[núcleo](core.md)**: es un paquete Java que contiene toda la funcionalidad básica, como servicios OSGi, oyentes y Planificadoras, así como código Java relacionado con componentes, como servlets y filtros de solicitud.
-* **[ui.apps](uiapps.md)**: contiene las  `/apps` y  `/etc` partes del proyecto, es decir, clientes de JS y CSS, componentes, plantillas, configuraciones específicas de runmode, así como pruebas de Hobbes.
+* **[it.testing](ittests.md)**: son pruebas de integración basadas en Java.
+* **[ui.apps](uiapps.md)**: contiene las  `/apps` y  `/etc` partes del proyecto, es decir, clientes JS y CSS, componentes y plantillas.
 * **[ui.content](uicontent.md)**: contiene contenido de muestra utilizando los componentes del módulo ui.apps.
-* **[ui.testing](uitests.md)**: es un paquete Java que contiene pruebas JUnit que se ejecutan en el servidor. Este paquete no debe implementarse en producción.
-* **ui.launcher**: contiene código de pegado que implementa el paquete ui.testing (y paquetes dependientes) en el servidor y déclencheur la ejecución remota de JUnit.
+* **ui.config**: contiene configuraciones OSGi específicas del modo de ejecución para el proyecto.
 * **[ui.front.general](uifrontend.md)**:  **(opcional)** contiene los artefactos necesarios para utilizar el módulo de compilación general basado en Webpack.
 * **[ui.front.response](uifrontend-react.md)**:  **(opcional)** contiene los artefactos requeridos al utilizar el arquetipo para crear proyectos SPA basados en React.
 * **[ui.front.angle](uifrontend-angular.md)**:  **(opcional)** contiene los artefactos necesarios al utilizar el arquetipo para crear proyectos SPA basados en Angular.
+* **[ui.testing](uitests.md)**: contiene pruebas de IU basadas en selenio.
+* **all**: es un paquete de contenido único que incluye todos los módulos compilados (paquetes y paquetes de contenido), incluidas las dependencias de los proveedores.
+* **analizar**: ejecuta la análisis en el proyecto, que proporciona una validación adicional para su implementación en AEM como Cloud Service.
 
 ![](/help/assets/archetype-structure.png)
 
@@ -98,7 +101,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el arquet
 | `groupId` |  | ID de grupo de Maven base (p. ej. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Paquete de fuentes Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `6.5.0` | Destinatario AEM versión (puede ser `cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); o `6.5.0` o `6.4.4` para [Servicios administrados de Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o in situ). |
+| `aemVersion` | `6.5.0` | Destinatario AEM versión (puede ser `cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); o `6.5.0`, o `6.4.4` para [Servicios administrados de Adobe](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o in situ). |
 | `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión [SDK](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de distribuidor para cloud o para AMS/in situ, según el valor de `aemVersion` (puede ser `y` o `n`). |
 | `frontendModule` | `none` | Incluye un módulo de compilación de front-end de Webpack que genera bibliotecas de cliente (puede ser `general` o `none` para sitios regulares; puede ser `angular` o `react` para una aplicación de una sola página que implemente el [Editor de SPA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/introduction.html)). |
