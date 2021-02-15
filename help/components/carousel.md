@@ -2,9 +2,9 @@
 title: Componente de carrusel
 description: El componente Carrusel permite al autor del contenido presentar contenido en un carrusel rotatorio.
 translation-type: tm+mt
-source-git-commit: c186e9ec3944d785ab0376769cf7f2307049a809
+source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
@@ -128,3 +128,7 @@ La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo n
 ### Ficha Estilos {#styles-tab}
 
 El componente Carrusel es compatible con el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+
+## Capa de datos del cliente de Adobe {#data-layer}
+
+El componente Carrusel admite la capa de datos del cliente de Adobe [](/help/developing/data-layer/overview.md).
