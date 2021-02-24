@@ -2,9 +2,9 @@
 title: Componente de página
 description: El componente Página es un componente de página extensible diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 translation-type: tm+mt
-source-git-commit: d3ebcea5fa1523c1a986841cd3d1a64e16e85f6d
+source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '691'
 ht-degree: 2%
 
 ---
@@ -16,9 +16,13 @@ El componente Página es un componente de página extensible diseñado para trab
 
 ## Uso {#usage}
 
-El componente de página forma la base de todas las páginas diseñadas con los componentes principales, así como plantillas editables. Mediante el uso del componente de página, los encabezados, los pies de página y la estructura de la página se pueden definir como una plantilla con los demás componentes principales.
+El componente Página forma la base de todas las páginas diseñadas con los componentes principales, así como plantillas editables. Mediante el uso del componente Página, los encabezados, pies de página y la estructura de la página se pueden definir como una plantilla con los demás componentes principales.
 
-Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden definir bibliotecas personalizadas del lado del cliente para la página. A diferencia de otros componentes que tienen un cuadro de diálogo de edición al que se puede acceder directamente desde el componente, dado que el componente es la propia página, el [cuadro de diálogo de edición](#edit-dialog) del componente de página es la ventana de propiedades de página.
+Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden definir bibliotecas personalizadas del lado del cliente para la página. A diferencia de otros componentes que tienen un cuadro de diálogo de edición al que se puede acceder directamente desde el componente, dado que el componente Página es la propia página, el [cuadro de diálogo de edición](#edit-dialog) del componente Página es la ventana de propiedades de la página.
+
+## Compatibilidad con aplicaciones Web progresivas {#pwa-support}
+
+La versión 2.15.0 de los componentes principales introdujo la compatibilidad con AEM funciones integradas [de aplicaciones Web progresivas (PWA)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) en el componente Página. Con una configuración simple a nivel del sitio, ¡convierta su experiencia AEM en un PWA!
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
