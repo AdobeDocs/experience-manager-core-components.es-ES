@@ -2,10 +2,10 @@
 title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica qué versiones y versiones son y cómo comprender la compatibilidad con los componentes principales y AEM.
 translation-type: tm+mt
-source-git-commit: defc6f2cf4cac817577f3e74372da5e420a45ead
+source-git-commit: 0f188a1d380e29674c8c8c6a6c9e773e0276743f
 workflow-type: tm+mt
-source-wordcount: '1938'
-ht-degree: 22%
+source-wordcount: '1971'
+ht-degree: 21%
 
 ---
 
@@ -26,7 +26,8 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles comp
 
 | Versión | Descripción | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Esta versión incluye nuevas opciones para [Incrustar componente](/help/components/embed.md) e introduce la solución de marcas en el nivel [de página](/help/components/page.md), además de resolver muchos problemas. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 8 de febrero de 2021 |
+| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Esta versión incluye compatibilidad con aplicaciones web progresivas en el [componente de página](/help/components/page.md) y admite la versión 2.0.0 de la [capa de datos de Adobe.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 23 de febrero de 2021 |
+| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Esta versión incluye nuevas opciones para [Incrustar componente](/help/components/embed.md) e introduce la solución de marcas en el nivel [de página](/help/components/page.md), además de resolver muchos problemas. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 9 de febrero de 2021 |
 | [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Se trata de una versión de parche que soluciona un problema con RTE cuando se usa en AEMaaCS | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 16 de diciembre de 2020 |
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Esta versión incluye nuevas funciones de Dynamic Media para el [componente de imagen.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 4 de diciembre de 2020 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Esta fue una versión de parche para 2.12.0 que incluye correcciones menores. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 11 de noviembre de 2020 |
