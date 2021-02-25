@@ -2,9 +2,9 @@
 title: Componente de página
 description: El componente Página es un componente de página extensible diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 translation-type: tm+mt
-source-git-commit: 2748fea0aca82b1262585b3f8c191f61607f7735
+source-git-commit: f4a45b2af87e5a5f0396b335c65856ce821455c9
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '683'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden definir b
 
 ## Compatibilidad con aplicaciones Web progresivas {#pwa-support}
 
-La versión 2.15.0 de los componentes principales introdujo la compatibilidad con AEM funciones integradas [de aplicaciones Web progresivas (PWA)](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) en el componente Página. Con una configuración simple a nivel del sitio, ¡convierta su experiencia AEM en un PWA!
+La versión 2.15.0 de los componentes principales incorpora la compatibilidad con AEM como funciones integradas de PWA (aplicaciones web progresivas) de Cloud Service. Con una configuración simple a nivel del sitio, ¡convierta su experiencia AEM en un PWA!
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
