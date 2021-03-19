@@ -1,11 +1,12 @@
 ---
 title: Componente de título (v1)
-description: El componente Título del componente principal es un componente de encabezado de sección que incluye la edición in-situ.
+description: El componente Título de componente principal es un componente de encabezado de sección que incluye la edición in situ.
 index: n
+role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '342'
 ht-degree: 2%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 2%
 
 # Componente de título (v1) {#title-component-v}
 
-El componente Título del componente principal es un componente de encabezado de sección que incluye la edición in-situ.
+El componente Título de componente principal es un componente de encabezado de sección que incluye la edición in situ.
 
 ## Uso {#usage}
 
 El componente Título está diseñado para utilizarse como título o encabezado de una sección de contenido.
 
-El autor de la plantilla puede definir los niveles de encabezado disponibles en el cuadro de diálogo [diseño](#design-dialog). El editor de contenido puede seleccionar los niveles de encabezados disponibles en el cuadro de diálogo [editar](#edit-dialog). Para mayor comodidad, también está disponible la edición in situ del texto del encabezado.
+El autor de la plantilla puede definir los niveles de encabezado disponibles en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede seleccionar entre los niveles de encabezados disponibles en el [cuadro de diálogo de edición](#edit-dialog). Para mayor comodidad, también está disponible la edición in situ simple del texto del encabezado.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 1 del componente Título, introducida originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
+Este documento describe la versión 1 del componente Título, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-La siguiente tabla lista la compatibilidad de v1 del componente Título.
+La siguiente tabla enumera la compatibilidad de v1 del componente Título.
 
 | Versión de AEM | Componente de título v1 |
 |--- |--- |
@@ -38,7 +39,7 @@ La siguiente tabla lista la compatibilidad de v1 del componente Título.
 >
 >Para obtener más información sobre la versión actual del componente Título, consulte el documento [Componente de título](/help/components/title.md).
 
-## Salida de componente de muestra {#sample-component-output}
+## Salida de componente de ejemplo {#sample-component-output}
 
 El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -71,15 +72,15 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 ## Editar cuadro de diálogo {#edit-dialog}
 
-El cuadro de diálogo de edición permite al autor del contenido definir el texto del título y seleccionar el nivel del encabezado.
+El cuadro de diálogo de edición permite al autor del contenido definir el texto del título, así como seleccionar el nivel de encabezado.
 
 >[!NOTE]
 >
->Un valor vacío para el título hará que se muestre el título de la página.
+>Si el título está vacío, se mostrará el título de la página.
 
 ![](/help/assets/chlimage_1-91.png)
 
-El editor in-situ también puede utilizarse para editar el texto del componente de título.
+El editor in situ también se puede utilizar para editar el texto del componente de título.
 
 ![](/help/assets/chlimage_1-37.png)
 
@@ -95,4 +96,4 @@ La documentación técnica más reciente sobre el componente Título [se encuent
 
 Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
+Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
