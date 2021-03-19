@@ -1,51 +1,52 @@
 ---
 title: Componente de botón de formulario
 description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
+role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
 translation-type: tm+mt
-source-git-commit: 4813748bcfa83ce7c73e81d4e4d445ecc8215d26
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '417'
 ht-degree: 4%
 
 ---
 
 
-# Componente Botón de formulario {#form-button-component}
+# Componente de botón de formulario {#form-button-component}
 
-El componente Botón de formulario de componente principal permite la inclusión de un botón para el déclencheur de una acción en una página.
+El componente Botón de formulario del componente principal permite la inclusión de un botón para almacenar en déclencheur una acción en una página.
 
 ## Uso {#usage}
 
-El componente Botón de formulario de componente principal permite crear un campo de botón, a menudo para déclencheur del envío del formulario y está diseñado para utilizarse junto con el [componente de Contenedor de formulario](form-container.md).
+El componente Botón de formulario de componente principal permite crear un campo de botón, a menudo para almacenar en déclencheur el envío del formulario y está pensado para utilizarse junto con el [componente Contenedor de formulario](form-container.md).
 
-El editor de contenido puede definir las propiedades del botón en el cuadro de diálogo [configurar](#configure-dialog).
+El editor de contenido puede definir las propiedades del botón en el [cuadro de diálogo de configuración](#configure-dialog).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Botón de formulario es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
+La versión actual del componente Botón del formulario es v2, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018 y se describe en este documento.
 
-En la tabla siguiente se detallan todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
+La siguiente tabla detalla todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
 | v2 | Compatible | Compatible | Compatible |
 | [v1](/help/components/v1/form-button-v1.md) | Compatible | Compatible | - |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de componentes principales](/help/versions.md).
+Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
-## Salida de componente de muestra {#sample-component-output}
+## Salida de componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente Botón de formulario y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_form_button).
+Para obtener información sobre el componente Botón del formulario, así como ejemplos de sus opciones de configuración, así como sobre la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_form_button).
 
 ### Detalles técnicos {#technical-details}
 
 La documentación técnica más reciente sobre el componente Botón de formulario [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_form_button_v2).
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
+Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar cuadro de diálogo {#configure-dialog}
+## Configurar diálogo {#configure-dialog}
 
-El cuadro de diálogo de configuración permite al autor del contenido definir los parámetros del botón.
+El cuadro de diálogo configurar permite que el autor del contenido defina los parámetros del botón.
 
 ### Ficha Propiedades {#properties-tab}
 
@@ -56,20 +57,20 @@ El cuadro de diálogo de configuración permite al autor del contenido definir l
    * **Botón**
    * **Enviar**
 
-* **Título** : el texto que se muestra en el botón
+* **Título** : texto que se muestra en el botón
 
    * Si no se proporciona ninguno, el valor predeterminado es el tipo de botón
 
-* **Nombre** : el nombre del botón, que se envía con los datos del formulario
-* **Valor** : el valor del botón, que se envía con los datos del formulario
+* **Nombre** : el nombre del botón que se envía con los datos del formulario.
+* **Valor** : el valor del botón que se envía con los datos del formulario.
 
-* **ID** : Esta opción permite controlar el identificador único del componente en el HTML y en la capa [ de ](/help/developing/data-layer/overview.md)datos.
-   * Si se deja en blanco, se genera automáticamente una ID única para usted y se puede encontrar inspeccionando la página resultante.
+* **ID** : esta opción permite controlar el identificador único del componente en el HTML y en la capa de  [datos](/help/developing/data-layer/overview.md).
+   * Si se deja en blanco, automáticamente se genera un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
-   * Cambiar el ID puede tener un impacto en el seguimiento de CSS, JS y de la capa de datos.
+   * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
 ## Diálogo de diseño {#design-dialog}
 
-### Ficha Estilos {#styles-tab}
+### Pestaña Estilos {#styles-tab}
 
-El componente Botón de formulario admite el sistema de estilo AEM [](/help/get-started/authoring.md#component-styling).
+El componente Botón de formulario es compatible con el sistema de estilos [AEM](/help/get-started/authoring.md#component-styling).
