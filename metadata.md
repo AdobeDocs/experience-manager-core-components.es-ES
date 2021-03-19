@@ -1,19 +1,15 @@
 ---
-product: Adobe Experience Manager
-description: Documentación para los componentes principales de Adobe Experience Manager
+product: adobe experience manager
+solution: Experience Manager Sites
+type: Documentación
+description: Documentación de los componentes principales de Adobe Experience Manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.es-ES
 index: y
-solution-title: Información y asistencia para AEM
-solution-hub-url: https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/home.html
-getting-started-title: Introducción al desarrollo para AEM
-getting-started-url: https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/core-concepts/home.html
-tutorials-title: Tutoriales de AEM
-tutorials-url: https://docs.adobe.com/content/help/es-ES/experience-manager-learn/cloud-service/overview.html
 translation-type: tm+mt
-source-git-commit: f109463f1942349c300600acf6b94f268e8aa60e
+source-git-commit: 290423c39b925ea8cf4077f31a76ecf01167f344
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 19%
+source-wordcount: '113'
+ht-degree: 6%
 
 ---
 
@@ -26,9 +22,9 @@ Los metadatos en el sistema de creación de GitHub son jerárquicos y se definen
 1. ToC
 1. Artículo
 
-Los metadatos definidos en el archivo metadata.md se aplican a toda la repo, pero se pueden anular en los niveles de ToC y de artículo. Cualquier anulación de los metadatos debe realizarse en el nivel más bajo posible.
+Los metadatos definidos en el archivo metadata.md se aplican a todo el repositorio, pero se pueden sobrescribir en los niveles de ToC y de artículo. Cualquier anulación de los metadatos debe realizarse en el nivel más bajo posible.
 
-Los metadatos de la repo experience-manager-core-components.en son los mínimos requeridos.
+Los metadatos del repositorio experience-manager-core-components.en son los mínimos requeridos.
 
 metadata.md
 
