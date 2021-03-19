@@ -1,35 +1,37 @@
 ---
-title: Módulo ui.apps del arquetipo del proyecto AEM
-description: Módulo ui.apps del arquetipo del proyecto AEM
+title: Módulo ui.apps del tipo de archivo del proyecto AEM
+description: Módulo ui.apps del tipo de archivo del proyecto AEM
+feature: Componentes principales, AEM tipo de archivo del proyecto
+role: Arquitecto, Desarrollador, Administrador
 translation-type: tm+mt
-source-git-commit: a427c2ade8cca69de8e2b59fc3afb4405342909c
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '335'
+source-wordcount: '343'
 ht-degree: 0%
 
 ---
 
 
-# Módulo ui.apps del arquetipo del proyecto AEM {#uiapps-module}
+# Módulo ui.apps del tipo de archivo del proyecto AEM {#uiapps-module}
 
-El módulo muven ui.apps (`<src-directory>/<project>/ui.apps`) incluye todo el código de procesamiento necesario para el sitio debajo de `/apps`. Esto incluye CSS/JS que se almacenarán en un formato AEM llamado [clientlibs.](uifrontend.md#clientlibs) Esto también incluye secuencias de comandos HTML para procesar HTML dinámico. Puede pensar en el módulo ui.apps como un mapa de la estructura del JCR, pero en un formato que se puede almacenar en un sistema de archivos y transferir al control de código fuente.
+El módulo ui.apps maven (`<src-directory>/<project>/ui.apps`) incluye todo el código de renderización necesario para el sitio debajo de `/apps`. Esto incluye CSS/JS que se almacenarán en un formato AEM llamado [clientlibs.](uifrontend.md#clientlibs) Esto también incluye secuencias de comandos HTL para procesar HTML dinámico. Puede pensar en el módulo ui.apps como un mapa de la estructura en el JCR pero en un formato que se puede almacenar en un sistema de archivos y comprometerse con el control de código fuente.
 
-El complemento Apache Jackrabbit FileVault Package se utiliza para compilar el contenido del módulo ui.apps en un paquete AEM que se puede implementar en AEM. Las configuraciones globales del complemento se definen en el archivo pom.xml principal.
+El complemento Apache Jackrabbit FileVault Package se utiliza para compilar el contenido del módulo ui.apps en un paquete AEM que se puede implementar en AEM. Las configuraciones globales para el complemento se definen en el pom.xml principal.
 
 ## POM principal {#parent-pom}
 
-[El POM](/help/developing/archetype/using.md#parent-pom) (`<src>/<project>/pom.xml`) principal incluye  `<plugin>` secciones que definen diversas configuraciones para los complementos utilizados en el proyecto. Esto incluye una configuración para el `filterSource` para el complemento de paquete Jackrabbit FileVault. El `filterSource` señala la ubicación del archivo `filter.xml` que se utiliza para definir las rutas jcr incluidas en el paquete.
+[El POM](/help/developing/archetype/using.md#parent-pom)  principal (`<src>/<project>/pom.xml`) incluye  `<plugin>` secciones que definen varias configuraciones para los complementos utilizados en el proyecto. Esto incluye una configuración para el `filterSource` para el complemento de paquete Jackrabbit FileVault. El `filterSource` señala a la ubicación del archivo `filter.xml` que se utiliza para definir las rutas jcr que se incluyen en el paquete.
 
 Además del complemento de paquete Jackrabbit FileVault es una definición del complemento de paquete de contenido que se utiliza para insertar el paquete en AEM. Tenga en cuenta que se utilizan variables para `aem.host`, `aem.port`, `vault.user` y `vault.password` que corresponden a las propiedades globales definidas en el mismo POM principal.
 
 ## ui.apps/pom.xml {#uiapps-pom}
 
-La pom ui.apps (`<src>/<project>/ui.apps/pom.xml`) proporciona las etiquetas `embedded` para `filevault-package-maven-plugin`. Las etiquetas `embedded` incluyen el paquete principal compilado como parte del paquete ui.apps y dónde se instalará.
+El pom ui.apps (`<src>/<project>/ui.apps/pom.xml`) proporciona las etiquetas `embedded` para `filevault-package-maven-plugin`. Las etiquetas `embedded` incluyen el paquete principal compilado como parte del paquete ui.apps y dónde se instalará.
 
-Observe que los paquetes core.wcm.components.all y core.wcm.components.samples se incluyen como un subpaquete. Esto implementará el paquete de componentes principales junto con el código WKND cada vez.
+Observe que los paquetes core.wcm.components.all y core.wcm.components.example se incluyen como subpaquete. Esto implementará el paquete de componentes principales junto con el código WKND cada vez.
 
-Los archivos core.wcm.components.all y core.wcm.components.samples se incluyen como dependencias en la lista de dependencias. Sin embargo, como práctica recomendada, las versiones para dependencias se omiten aquí y se administran en el [archivo pom principal](/help/developing/archetype/using.md#core-components).
+Los ejemplos core.wcm.components.all y core.wcm.components.components se incluyen como dependencias en la lista de dependencias. Sin embargo, como práctica recomendada, las versiones para dependencias se omiten aquí y se administran en el [archivo pom principal](/help/developing/archetype/using.md#core-components).
 
 ## filter.xml {#filter}
 
-El archivo `filter.xml` del módulo ui.apps se encuentra en `<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml` y contiene las rutas que se incluirán e instalarán con el paquete ui.apps.
+El archivo `filter.xml` para el módulo ui.apps se encuentra en `<src>/<project>/ui.apps/src/main/content/META-INF/vault/filter.xml` y contiene las rutas que se incluirán e instalarán con el paquete ui.apps.
