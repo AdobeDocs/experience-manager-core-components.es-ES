@@ -1,10 +1,12 @@
 ---
 title: Ampliación de la capa de datos del cliente de Adobe
 description: La capa de datos del cliente de Adobe se puede ampliar siguiendo algunos patrones básicos
+feature: Componentes principales, capa de datos del cliente de Adobe
+role: Arquitecto, Desarrollador, Administrador
 translation-type: tm+mt
-source-git-commit: 1ada05d5089ccef95d41d47468776654e397f31d
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '285'
 ht-degree: 0%
 
 ---
@@ -18,14 +20,14 @@ Para incluir estos campos en la capa de datos proporcionada por los componentes 
 
 ## Ejemplo: Componente de título {#example}
 
-Un componente principal como el [componente Título](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) extiende [Componente](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java), que tiene un método `getData` que de manera predeterminada devuelve [`ComponentData`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
+Un componente principal como [Title component](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) extiende [Component](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/Title.java) que tiene un método `getData` que de forma predeterminada devuelve [`ComponentData`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/models/datalayer/ComponentData.java)
 
-`ComponentData` serializa los campos predefinidos que el componente puede implementar, como  `getDataLayerLinkUrl` y  `getDataLayerTitle` para el  [`TitleImpl`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
+`ComponentData` serializa los campos predefinidos que el componente puede implementar, como  `getDataLayerLinkUrl` y  `getDataLayerTitle` para  [`TitleImpl`.](https://github.com/adobe/aem-core-wcm-components/blob/master/bundles/core/src/main/java/com/adobe/cq/wcm/core/components/internal/models/v1/TitleImpl.java)
 
 Por lo tanto, el modelo Sling personalizado puede tener un método `getData` que devuelve un objeto que se extiende `ComponentData` para devolver más campos.
 
-Al hacer esto, se agregará un atributo `data-cmp-data-layer` al elemento HTML del componente con el JSON de los datos que se rellenarán en la capa de datos. En este punto, puede implementar secuencias de comandos que escuchen estos datos o eventos relacionados.
+Al hacerlo, agregará un atributo `data-cmp-data-layer` al elemento HTML de su componente con el JSON de los datos que se rellenarán en la capa de datos. En este punto, puede implementar secuencias de comandos que escuchen estos datos o eventos relacionados.
 
 >[!TIP]
 >
->Para explorar más a fondo la flexibilidad de la capa de datos, consulte las opciones de integración, incluida la forma de habilitar la capa de datos para los componentes personalizados.
+>Para explorar más en profundidad la flexibilidad de la capa de datos, revise las opciones de integración, incluido cómo habilitar la capa de datos para los componentes personalizados.
