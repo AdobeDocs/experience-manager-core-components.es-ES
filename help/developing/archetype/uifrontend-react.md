@@ -1,30 +1,32 @@
 ---
-title: Diseño front-end para la SPA de reacción
-description: Una descripción del proceso de generación de front-end para los proyectos de SPA basados en React
+title: Compilación front-end para React SPA
+description: Descripción del proceso de compilación del front-end para proyectos de SPA basados en React
+feature: Componentes principales, AEM tipo de archivo del proyecto
+role: Arquitecto, Desarrollador, Administrador
 translation-type: tm+mt
-source-git-commit: 9d737b31efc8c346775ea5296f7599295af07cf1
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
 
 
-# Compilación de front-end para la SPA de reacción {#frontend-react}
+# Compilación front-end para React SPA {#frontend-react}
 
-Este documento explica los detalles del proyecto creado al utilizar el arquetipo para crear una aplicación de una sola página (SPA) basada en el marco de React. Es decir, cuando establece la opción `frontendModule` en `react`.
+Este documento explica los detalles del proyecto creado al utilizar el tipo de archivo para crear una aplicación de una sola página (SPA) basada en el marco de React. Es decir, cuando se establece la opción `frontendModule` en `react`.
 
 ## Información general {#overview}
 
-Este proyecto se ha arrancado con [create-response-app](https://github.com/facebook/create-react-app).
+Este proyecto se arrancó con [create-react-app](https://github.com/facebook/create-react-app).
 
-Esta aplicación está diseñada para consumir el modelo AEM de un sitio. Generará automáticamente el diseño mediante los componentes auxiliares del paquete [@adobe/cq-response-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components).
+Esta aplicación está diseñada para consumir el modelo AEM de un sitio. Generará automáticamente el diseño utilizando los componentes de ayuda del paquete [@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components) .
 
 ## Secuencias de comandos {#scripts}
 
 En el directorio del proyecto, puede ejecutar los siguientes comandos:
 
-### inicio npm {#npm-start}
+### inicio de npm {#npm-start}
 
 ```shell
 npm start
@@ -32,12 +34,12 @@ npm start
 
 Este comando ejecuta la aplicación en modo de desarrollo mediante el proxy del modelo JSON desde una instancia de AEM local que se ejecuta en http://localhost:4502. Esto supone que todo el proyecto se ha implementado para AEM al menos una vez (`mvn clean install -PautoInstallPackage` en la raíz del proyecto).
 
-Después de ejecutar `npm start` en el directorio [ui.front](uifrontend.md), la aplicación se abrirá automáticamente en el explorador (en la ruta `http://localhost:3000/content/<appId>/<country>/<language>/home.html`). Si realiza modificaciones, la página se volverá a cargar.
+Después de ejecutar `npm start` en el directorio [ui.frontend](uifrontend.md) , la aplicación se abrirá automáticamente en el explorador (en la ruta `http://localhost:3000/content/<appId>/<country>/<language>/home.html`). Si realiza ediciones, la página se volverá a cargar.
 
-Si está obteniendo errores relacionados con CORS, puede que desee configurar AEM de la siguiente manera:
+Si está obteniendo errores relacionados con CORS, es posible que desee configurar AEM de la siguiente manera:
 
-1. Vaya a Configuration Manager (http://localhost:4502/system/console/configMgr)
-1. Abra la configuración de la &quot;Política de uso compartido de recursos entre Orígenes de Adobe Granite&quot;
+1. Vaya al Administrador de configuración (http://localhost:4502/system/console/configMgr)
+1. Abra la configuración de &quot;Política de uso compartido de recursos de origen cruzado de Adobe Granite&quot;
 1. Cree una nueva configuración con los siguientes valores adicionales:
    * Orígenes permitidos: http://localhost:3000
    * Encabezados admitidos: Autorización
@@ -49,25 +51,25 @@ Si está obteniendo errores relacionados con CORS, puede que desee configurar AE
 npm test
 ```
 
-Este comando inicia el ejecutor de pruebas en el modo de reloj interactivo. Consulte la [documentación de Reacción sobre la ejecución de pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para obtener más información.
+Este comando inicia el ejecutor de prueba en el modo de reloj interactivo. Consulte la [documentación de React sobre la ejecución de pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para obtener más información.
 
-### npm run build {#npm-run-build}
+### compilación npm run {#npm-run-build}
 
 ```shell
 npm run build
 ```
 
-Este comando crea la aplicación para producción en la carpeta de compilación. Agrupa Reaccione en modo de producción y optimiza la compilación para obtener el mejor rendimiento. Consulte la [documentación de Reacción sobre la implementación](https://facebook.github.io/create-react-app/docs/deployment) para obtener más información.
+Este comando crea la aplicación para producción en la carpeta de compilación. Agrupa React en modo de producción y optimiza la compilación para obtener el mejor rendimiento. Consulte la [documentación de React sobre la implementación](https://facebook.github.io/create-react-app/docs/deployment) para obtener más información.
 
-Además, se genera un AEM ClientLib desde la aplicación mediante el paquete [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator).
+Además, se genera un AEM ClientLib desde la aplicación utilizando el paquete [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator).
 
 ## Compatibilidad con exploradores {#browser-support}
 
-De forma predeterminada, este proyecto utiliza la opción predeterminada de [Browserslist](https://github.com/browserslist/browserslist) para identificar los exploradores de destinatario. Además, incluye polirellenos para las características de idioma moderno que admiten exploradores más antiguos (por ejemplo, Internet Explorer 11). Si la compatibilidad con estos exploradores no es un requisito, se pueden eliminar las importaciones y dependencias de relleno múltiple.
+De forma predeterminada, este proyecto utiliza la opción predeterminada [Browserslist](https://github.com/browserslist/browserslist) para identificar los navegadores de destino. Además, incluye polirellenos para las funciones de lenguaje moderno que admiten navegadores más antiguos (por ejemplo, Internet Explorer 11). Si la compatibilidad con estos exploradores no es un requisito, se pueden eliminar las dependencias y las importaciones de polyfill.
 
 ## División de código {#code-splitting}
 
-La aplicación React está configurada para utilizar la división de código [](https://webpack.js.org/guides/code-splitting) de forma predeterminada. Al crear la aplicación para producción, el código se mostrará en varios fragmentos:
+La aplicación React está configurada para utilizar [división de código](https://webpack.js.org/guides/code-splitting) de forma predeterminada. Al crear la aplicación para producción, el código se muestra en varios fragmentos:
 
 ```shell
 $ ls build/static/js
@@ -79,8 +81,8 @@ runtime~main.a8a9905a.js
 runtime~main.a8a9905a.js.map
 ```
 
-La carga de fragmentos solo cuando son necesarios puede mejorar significativamente el rendimiento de la aplicación.
+Cargar fragmentos solo cuando son necesarios puede mejorar significativamente el rendimiento de la aplicación.
 
-Para que esta función funcione con AEM, la aplicación debe poder identificar qué archivos JS y CSS deben solicitarse desde el HTML generado por AEM. Esto se puede lograr utilizando la clave &quot;entrypoints&quot; en el archivo asset-manifest.json. El archivo se analiza en clientlib.config.js y solo los archivos de punto de entrada se incluyen en ClientLib. Los archivos restantes se colocan en el directorio de recursos de ClientLib y se solicitarán de forma dinámica y, por tanto, solo se cargarán cuando realmente se necesiten.
+Para que esta función funcione con AEM, la aplicación debe poder identificar qué archivos JS y CSS se deben solicitar al HTML generado por AEM. Esto se puede lograr utilizando la clave &quot;entrypoints&quot; en el archivo asset-manifest.json . El archivo se analiza en clientlib.config.js y solo los archivos de punto de entrada se incluyen en ClientLib. Los archivos restantes se colocan en el directorio de recursos de ClientLib y se solicitan de forma dinámica y, por lo tanto, solo se cargan cuando realmente son necesarios.
 
-Consulte la [documentación general del módulo ui.frontender](uifrontend.md#clientlibs) para obtener más información sobre cómo AEM ClientLibs se utilizan en el arquetipo del proyecto.
+Consulte la [documentación general del módulo ui.frontend](uifrontend.md#clientlibs) para obtener más información sobre cómo AEM el tipo de archivo del proyecto utiliza las bibliotecas de cliente.
