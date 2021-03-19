@@ -1,47 +1,48 @@
 ---
 title: Desarrollo de componentes principales
-description: Los componentes principales proporcionan componentes básicos robustos y ampliables que oferta las funciones enriquecidas, el envío continuo, el control de versiones de componentes, la implementación moderna, el marcado magro y la exportación de contenido JSON.
+description: Los componentes principales proporcionan componentes básicos sólidos y ampliables que ofrecen funciones enriquecidas, envío continuo, versiones de componentes, implementación moderna, marcado ligero y exportación de contenido JSON.
+role: Arquitecto, Desarrollador, Administrador
 translation-type: tm+mt
-source-git-commit: d2e69e5657ed32cc0579579df49ee083212b9333
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 14%
+source-wordcount: '1445'
+ht-degree: 15%
 
 ---
 
 
 # Desarrollo de componentes principales {#developing-core-components}
 
-## ¿Cuándo utilizar los componentes principales? {#when-to-use-the-core-components}
+## ¿Cuándo se deben utilizar los componentes principales? {#when-to-use-the-core-components}
 
 Como los componentes principales son completamente nuevos y ofrecen varios beneficios, se recomienda utilizarlos en los nuevos proyectos de AEM. En los proyectos existentes, la migración debería ser parte de un esfuerzo de proyecto aún mayor; por ejemplo, para realizar un cambio en la marca o la refactorización total.
 
-Por lo tanto, Adobe formula las siguientes recomendaciones:
+Por lo tanto, Adobe ofrece las siguientes recomendaciones:
 
 * **Nuevos**
-proyectosLos nuevos proyectos siempre deben intentar utilizar los componentes principales. Si los componentes principales no pueden utilizarse directamente o [extendidos](customizing.md) para satisfacer los requisitos del proyecto, cree un componente personalizado siguiendo la arquitectura de componentes establecida en los componentes principales. Salvo cuando no sea posible, evite utilizar los [componentes de base](/help/versions.md#foundation-component-support).
-* **Proyectos**
-existentesLa recomendación se mantiene usando los componentes [ de ](/help/versions.md#foundation-component-support)base, a menos que se planifique una refactorización de sitios o componentes.\
-   Dado que la mayoría de los proyectos existentes los utilizan muy ampliamente, los componentes básicos [seguirán recibiendo apoyo.](/help/versions.md#foundation-component-support)
+proyectosLos nuevos proyectos siempre deben intentar utilizar los componentes principales. Si los componentes principales no se pueden utilizar directamente o [ampliados](customizing.md) para satisfacer los requisitos del proyecto, cree un componente personalizado siguiendo la arquitectura de componentes establecida en los componentes principales. Salvo que no sea posible, evite utilizar los [componentes de base](/help/versions.md#foundation-component-support).
+* **La recomendación**
+Proyectos existentes se mantiene usando los componentes  [base](/help/versions.md#foundation-component-support), a menos que se planifique una refactorización de sitios o componentes.\
+   Como la mayoría de los proyectos existentes los utilizan muy ampliamente, los componentes de base [seguirán siendo compatibles.](/help/versions.md#foundation-component-support)
 * **Nuevos**
-componentes personalizadosEvaluar si un componente  [principal existente puede personalizarse](customizing.md).\
-   De lo contrario, se recomienda crear un nuevo componente personalizado siguiendo las [Directrices de componentes](guidelines.md).
+componentes personalizadosEvalúe si un componente  [principal existente se puede personalizar](customizing.md).\
+   Si no es así, se recomienda crear un nuevo componente personalizado siguiendo las [Directrices de componentes](guidelines.md).
 * **Componentes personalizados existentes**
-Si los componentes funcionan correctamente, manténgalos tal como están.
+Si los componentes funcionan según lo esperado, manténgalos tal cual.
 \
    Si no es así, consulte &quot;Nuevos componentes personalizados&quot; más arriba.
 
-## Cómo lograr el éxito con los componentes principales {#how-to-succeed}
+## Cómo realizar el éxito con los componentes principales {#how-to-succeed}
 
-Los componentes principales son potentes, flexibles y fáciles de usar y personalizar. [Si sigue algunas ](success.md) directrices clave, se asegurará de que el proyecto con los componentes principales sea un éxito.
+Los componentes principales son potentes, flexibles y fáciles de usar y personalizar. [Seguir algunas ](success.md) directrices clave garantizará que el proyecto con los componentes principales sea un éxito.
 
 ## Migración a los componentes principales
 
-Cualquier nuevo proyecto debe implementarse con los componentes principales. Sin embargo, los proyectos existentes normalmente tendrán una amplia implementación de los componentes de base.
+Cualquier nuevo proyecto debe implementarse con los componentes principales. Sin embargo, los proyectos existentes normalmente tendrán amplias implementaciones de los componentes de base.
 
-Un esfuerzo mayor en un proyecto existente (por ejemplo, un rediseño de marca o una refactorización general) a menudo oferta la posibilidad de migrar a los componentes principales. Para facilitar esta migración, el Adobe ha proporcionado una serie de instrumentos de migración para fomentar la adopción de los componentes principales y la tecnología de AEM más reciente.
+Un esfuerzo mayor en un proyecto existente (por ejemplo, un cambio de marca o una refactorización general) a menudo ofrece la oportunidad de migrar a los componentes principales. Para facilitar esta migración, el Adobe ha proporcionado una serie de herramientas de migración que fomentan la adopción de los componentes principales y de la tecnología de AEM más reciente.
 
-[Las AEM ](http://opensource.adobe.com/aem-modernize-tools/) Herramientas de Modernización permiten la conversión sencilla de:
+[Las AEM ](http://opensource.adobe.com/aem-modernize-tools/) herramientas de modernización permiten la conversión sencilla de:
 
 * Plantillas estáticas a plantillas editables.
 * Diseño de las configuraciones para políticas.
@@ -52,84 +53,84 @@ Para obtener más información sobre el uso de estas herramientas, [consulte su 
 
 >[!NOTE]
 >
->Las herramientas de moderación de AEM son un esfuerzo comunitario y no están respaldadas ni garantizadas por el Adobe.
+>Las AEM Herramientas de modernización son un esfuerzo de la comunidad y no son compatibles ni están garantizadas por el Adobe.
 
 ## Compatibilidad con componentes principales {#core-component-support}
 
 Los componentes principales son parte integral de AEM y se admiten tal cual bajo los mismos términos y condiciones en los que se admitirían si fueran parte del inicio rápido.
 
-Al igual que otras funciones de producto AEM, la regla general es: Los componentes se anuncian primero como obsoletos y los primeros se eliminan para la siguiente versión de AEM. Esto proporciona a los clientes al menos un ciclo de lanzamiento para pasar a la nueva versión del componente, antes de dejar de ofrecer soporte.
+Al igual que otras funciones AEM producto, la regla general es: Los componentes se anuncian primero como obsoletos y los primeros se eliminan en la siguiente versión de AEM. Esto proporciona a los clientes al menos un ciclo de versiones para pasar a la nueva versión del componente antes de dejar de ofrecer asistencia.
 
 La versión de cada componente señala claramente las versiones de AEM que admite. Cuando una versión de AEM deja de ser compatible, también lo deja de ser el componente principal de esa versión de AEM.
 
-Para obtener más información sobre la compatibilidad con las personalizaciones de componentes, consulte la página [Personalización de componentes principales](customizing.md).
+Para obtener más información sobre la compatibilidad de la personalización de componentes, consulte la página [Personalización de componentes principales](customizing.md).
 
 
 ## Capacidades técnicas {#technical-capabilities}
 
-La siguiente tabla ofrece una visión general de las diferencias entre los componentes principales y los componentes básicos.
+En la tabla siguiente se ofrece una descripción general de las diferencias entre los componentes principales y los componentes básicos.
 
-Para obtener más información acerca de sus capacidades de creación y las opciones para preconfigurarlas, [consulte la página de creación sobre ellas](/help/get-started/authoring.md).
+Para obtener más información sobre sus capacidades de creación y las opciones para preconfigurarlas, [consulte la página de creación sobre ellas](/help/get-started/authoring.md).
 
 | **Capacidad** | **Componente principal** | **Componente de base** |
 |-----|---|---|
-| Implementación lógica | JPO de Java con anotaciones de [Modelos de Sling](https://sling.apache.org/documentation/bundles/models.html) | Código JSP |
-| Definición de marca | [Sintaxis del lenguaje](https://docs.adobe.com/content/help/es-ES/experience-manager-htl/using/overview.html)  de plantilla HTML (HTL) | Código JSP |
+| Implementación lógica | POJO de Java con anotaciones de [Modelos de Sling](https://sling.apache.org/documentation/bundles/models.html) | Código JSP |
+| Definición de marca | [Sintaxis del lenguaje de plantilla HTML](https://docs.adobe.com/content/help/es-ES/experience-manager-htl/using/overview.html)  (HTL) | Código JSP |
 | Saneamiento XSS | Automatizado por HTL | Principalmente manual |
-| Nombres de clases CSS | Convención de nombres estandarizada basada en la notación de [Modificador de elementos de bloque](https://getbem.com/) (BEM) (a partir de la versión 2.0.0) | Esquemas personalizados |
-| Definición de cuadro de diálogo | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + IU clásica |
-| Salida JSON | [Modelos Sling Exporter con serialización Jackson](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling predeterminado |
-| Versiones | [Para el modelo y el HTL](guidelines.md) | Ninguna |
-| Pruebas | Pruebas de unidad + Pruebas de integración | Pruebas de integración |
-| Entrega | [Vía GitHub público](https://github.com/adobe/aem-core-wcm-components) | Vía Quickstart |
+| Asignación de nombres a clases CSS | Convenciones de nomenclatura estandarizadas basadas en la notación [Modificador de elementos de bloque](https://getbem.com/) (BEM) (a partir de la versión 2.0.0) | Esquemas personalizados |
+| Definición del cuadro de diálogo | [Coral 3](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/reference-materials/coral-ui/coralui3/index.html) | Coral 2 + IU clásica |
+| Salida JSON | [Exportador de modelos Sling con serialización Jackson](https://sling.apache.org/documentation/bundles/models.html#exporter-framework-since-130) | Servlet Sling predeterminado |
+| Versiones | [Para el modelo y HTL](guidelines.md) | Ninguna |
+| Pruebas | Pruebas de unidad + pruebas de integración | Pruebas de integración |
+| Entrega | [A través de GitHub público](https://github.com/adobe/aem-core-wcm-components) | Mediante Quickstart |
 | Licencia | [Licencia de Apache](https://www.apache.org/licenses/LICENSE-2.0) | Adobe propietario |
 | Contribución | Mediante solicitud de extracción | No es posible |
-| Accesibilidad | Compatible con el [estándar WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Sólo cumple parcialmente con el [estándar WCAG 2.0 AA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accesibilidad | Compatible con el [WCAG 2.0 AA estándar](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Sólo parcialmente compatible con el [WCAG 2.0 AA estándar](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Lista de componentes {#component-list}
 
-La siguiente tabla lista los componentes principales disponibles, vinculándolos a su API, e indica qué componentes de base reemplazan.
+En la tabla siguiente se enumeran los componentes principales disponibles, enlazándolos a su API, e indican los componentes de base que reemplazan.
 
-| Componente principal | Descripción | Componente(s) base(s) sustituido(s) |
+| Componente principal | Descripción | Componentes de base reemplazados |
 |---|---|---|
 | [Página](https://adobe.com/go/aem_cmp_tech_page_v2) | Página adaptable que trabaja con el editor de plantillas | `/libs/foundation/components/page /libs/wcm/foundation/components/page` |
-| [Ruta de navegación](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | Navegación por la jerarquía de páginas | `/libs/foundation/components/breadcrumb` |
+| [Ruta de navegación](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2) | Navegación por jerarquías de página | `/libs/foundation/components/breadcrumb` |
 | [Título](https://adobe.com/go/aem_cmp_tech_title_v2) | Título H1-H6 | `/libs/foundation/components/title /libs/wcm/foundation/components/title` |
 | [Texto](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | Texto enriquecido | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
-| [Imagen](https://adobe.com/go/aem_cmp_tech_image_v2) | Carga inteligente y diferida del tamaño de representación óptimo | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
+| [Imagen](https://adobe.com/go/aem_cmp_tech_image_v2) | Carga inteligente y lenta de un tamaño de representación óptimo | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
 | [Lista](https://adobe.com/go/aem_cmp_tech_list_v2) | Lista de páginas | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [Compartir en redes sociales](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget de uso compartido de Facebook y Pinterest | `-` |
-| [Contenedor del formulario](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Sistema de párrafos de formularios interactivos | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
+| [Compartir en redes sociales](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget para compartir Pinterest y Facebook | `-` |
+| [Contenedor del formulario](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Sistema de párrafos de formulario adaptable | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
 | [Texto de formulario](https://adobe.com/go/aem_cmp_tech_form_text_v2) | Campo de entrada de texto | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
 | [Opciones de formulario](https://adobe.com/go/aem_cmp_tech_form_options_v2) | Campo de entrada de varias opciones | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
 | [Formulario oculto](https://adobe.com/go/aem_cmp_tech_form_hidden_v2) | Campo de entrada oculto | `/libs/foundation/components/form/hidden` |
 | [Botón de formulario](https://adobe.com/go/aem_cmp_tech_form_button_v2) | Botón Enviar o personalizado | `/libs/foundation/components/form/submit` |
-| [Navegación](https://adobe.com/go/aem_cmp_tech_navigation_v1) | Un componente de navegación del sitio que lista la jerarquía de páginas anidada | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
-| [Navegación por idiomas](https://adobe.com/go/aem_cmp_tech_langnav_v1) | Un mezclador de idiomas y países que lista la estructura de idiomas global | `-` |
+| [Navegación](https://adobe.com/go/aem_cmp_tech_navigation_v1) | Componente de navegación del sitio que enumera la jerarquía de páginas anidada | `/libs/foundation/components/topnav /libs/foundation/components/mobiletopnav` |
+| [Navegación por idiomas](https://adobe.com/go/aem_cmp_tech_langnav_v1) | Alternador de idioma y país que enumera la estructura de idioma global | `-` |
 | [Búsqueda rápida](https://adobe.com/go/aem_cmp_tech_search_v1) | Componente de búsqueda que muestra los resultados como sugerencias in situ en un menú desplegable | `/libs/foundation/components/search` |
-| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | Permite al autor del contenido crear fácilmente un teaser para añadir contenido mediante una imagen, un título o texto enriquecido y vincularlo a contenido u otras acciones | `-` |
-| [Pestañas](https://adobe.com/go/aem_cmp_tech_tabs_v1) | Permite al autor del contenido organizar el contenido de la página en varias fichas | `-` |
-| [Carrusel](https://adobe.com/go/aem_cmp_tech_carousel_v1) | Permite al autor del contenido organizar el contenido en un carrusel de diapositivas rotatorio | `/libs/foundation/components/carousel` |
+| [Teaser](https://adobe.com/go/aem_cmp_tech_teaser_v1) | Permite al autor del contenido crear fácilmente un teaser para añadir contenido mediante una imagen, un título o texto enriquecido y vincular con otro contenido u otras acciones | `-` |
+| [Pestañas](https://adobe.com/go/aem_cmp_tech_tabs_v1) | Permite al autor del contenido organizar el contenido de la página en varias pestañas | `-` |
+| [Carrusel](https://adobe.com/go/aem_cmp_tech_carousel_v1) | Permite al autor de contenido organizar el contenido en un carrusel giratorio de diapositivas | `/libs/foundation/components/carousel` |
 | [Fragmento de contenido](https://adobe.com/go/aem_cmp_tech_cf_v1) | Permite la visualización de un fragmento de contenido | `-` |
 | [Lista de fragmentos de contenido](https://adobe.com/go/aem_cmp_tech_cflist_v1) | Permite mostrar una lista de fragmentos de contenido | `-` |
 | [Separador](https://adobe.com/go/aem_cmp_tech_separator_v1) | Separa el contenido de una página | `-` |
 | [Acordeón](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organizar paneles de contenido en un acordeón contraíble | `-` |
 | [Contenedor](https://adobe.com/go/aem_cmp_tech_container_v1) | Organización de componentes dentro de un contenedor | `-` |
 | [Botón](https://adobe.com/go/aem_cmp_tech_button_v1) | Creación de un botón en una página | `-` |
-| [Descargar](https://adobe.com/go/aem_cmp_tech_download_v1) | Añadir un recurso descargable en una página | `-` |
-| [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1) | Añadir un fragmento de experiencia en una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incrustar un recurso externo dentro de una página | - |
+| [Descargar](https://adobe.com/go/aem_cmp_tech_download_v1) | Agregar un recurso descargable a una página | `-` |
+| [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1) | Añadir un fragmento de experiencia a una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incrustar un recurso externo en una página | - |
 | [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Proporcionar una representación visual del progreso hacia un objetivo | - |
 | [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1) | Presenta un documento PDF en una página | - |
 
 ### Próximos componentes {#upcoming-components}
 
-Para obtener una visión general de la próxima hoja de ruta del componente principal, consulte la wiki del proyecto [en GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
+Para obtener una descripción general de la próxima hoja de ruta del componente principal, consulte la [wiki del proyecto en GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Actualización de los componentes principales {#upgrade-of-core-components}
 
-Una ventaja de los componentes con versiones es que permite separar la migración a una nueva versión de AEM de la migración a las nuevas versiones de componentes. Además, si hay nuevas versiones de componentes disponibles, permite la migración individual de cada componente a la nueva versión.
+Una ventaja de los componentes con versiones es que permite separar la migración a una nueva versión AEM de la migración a las nuevas versiones de los componentes. Además, si hay nuevas versiones de componentes disponibles, permite la migración individual de cada componente a la nueva versión.
 
-Las migraciones a una nueva versión de AEM no afectarán al funcionamiento de los componentes principales, siempre que sus versiones también admitan la nueva versión de AEM a la que se está migrando. Las personalizaciones realizadas en los componentes principales tampoco deben verse afectadas, siempre y cuando no utilicen API que hayan estado [obsoletas o eliminadas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Las migraciones a una nueva versión de AEM no afectarán al funcionamiento de los componentes principales, siempre que sus versiones también admitan la nueva versión de AEM a la que se va a migrar. Las personalizaciones realizadas en los componentes principales tampoco deben verse afectadas, siempre que no utilicen API que hayan sido [obsoletas o eliminadas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
-Las migraciones a nuevas versiones de los componentes principales tampoco afectarán al funcionamiento del componente, pero es posible que se introduzcan nuevas funciones a los autores de páginas, lo que puede requerir cierta configuración por parte de un editor de plantillas, en caso de que no se desee el comportamiento predeterminado. Sin embargo, es posible que sea necesario adaptar las personalizaciones para obtener más información, consulte la página [Personalización de componentes principales](customizing.md#upgrade-compatibility-of-customizations).
+Las migraciones a nuevas versiones de los componentes principales tampoco afectarán al funcionamiento del componente, pero podrían introducirse nuevas funciones a los autores de páginas, que podrían requerir cierta configuración por parte de un editor de plantillas, en caso de que no se desee el comportamiento predeterminado. Sin embargo, es posible que haya que adaptar las personalizaciones; para obtener más información, consulte la página [Personalización de componentes principales](customizing.md#upgrade-compatibility-of-customizations) .
