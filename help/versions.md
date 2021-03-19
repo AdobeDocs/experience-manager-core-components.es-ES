@@ -1,10 +1,11 @@
 ---
 title: Versiones de componentes principales
-description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica qué versiones y versiones son y cómo comprender la compatibilidad con los componentes principales y AEM.
+description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y versiones y cómo comprender la compatibilidad con los componentes principales y AEM.
+role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
 translation-type: tm+mt
-source-git-commit: 3c5749d6660af1ad94f4911f261951e0369fa139
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1976'
 ht-degree: 21%
 
 ---
@@ -12,49 +13,49 @@ ht-degree: 21%
 
 # Versiones de componentes principales {#core-components-versions}
 
-La versión actual de los Componentes principales es 2.15.0 y es compatible con [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) y [instalaciones AEM](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html) locales.
+La versión actual de los componentes principales es 2.15.0 y es compatible con [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) y [instalaciones AEM locales](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html).
 
 ## Historial de versiones y compatibilidad {#release-history-and-compatibility}
 
-Los componentes principales están diseñados para ser flexibles y compatibles con todas las versiones AEM compatibles. Debido a esto, una versión de los componentes puede contener varias versiones del mismo componente.
+Los componentes principales están diseñados para ser flexibles y compatibles con todas las versiones de AEM compatibles. Debido a esto, una versión de los componentes puede contener varias versiones del mismo componente.
 
-Las siguientes tablas ilustran la compatibilidad de las versiones de los componentes principales junto con las versiones de los componentes en las que se incluyen.
+En las tablas siguientes se ilustra la compatibilidad de las versiones de los componentes principales junto con las versiones de los componentes en las que se incluyen.
 
-### Historial y requisitos de la versión {#release-history-requirements}
+### Historial de versiones y requisitos {#release-history-requirements}
 
-La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles completos de la versión](https://github.com/adobe/aem-core-wcm-components/releases), ofrece una visión general de las versiones de los Componentes principales y su compatibilidad con las versiones AEM y Java.
+La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de versión completos](https://github.com/adobe/aem-core-wcm-components/releases), ofrece una visión general de las versiones de los componentes principales y su compatibilidad con las versiones de AEM y las versiones de Java.
 
-| Versión | Descripción | AEM 6.4   | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
+| Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2.15.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Esta versión incluye compatibilidad con aplicaciones web progresivas en el [componente de página](/help/components/page.md) y admite la versión 2.0.0 de la [capa de datos de Adobe.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 23 de febrero de 2021 |
-| [2.14.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Esta versión incluye nuevas opciones para [Incrustar componente](/help/components/embed.md) e introduce la solución de marcas en el nivel [de página](/help/components/page.md), además de resolver muchos problemas. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 9 de febrero de 2021 |
-| [2.13.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Se trata de una versión de parche que soluciona un problema con RTE cuando se usa en AEMaaCS | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 16 de diciembre de 2020 |
-| [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Esta versión incluye nuevas funciones de Dynamic Media para el [componente de imagen.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 4 de diciembre de 2020 |
-| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Esta fue una versión de parche para 2.12.0 que incluye correcciones menores. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 11 de noviembre de 2020 |
-| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Esta fue una versión de parche para 2.12.0 que corrige un error importante en el [Componente de imagen.](/help/components/image.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 5 de noviembre de 2020 |
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Esta versión introdujo [un nuevo controlador de formularios POST;](/help/components/forms/form-container.md#post-data) la capacidad de incluir etiquetas CSS, Javascript y metadatos [personalizados mediante configuración según el contexto;](/help/developing/including-clientlibs.md#context-aware-loading) y una utilidad `DataLayerBuilder` para [simplificar la integración de capas de datos en componentes personalizados.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 29 de octubre de 2020 |
-| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versión introdujo la compatibilidad con [AMP.](/help/developing/amp.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 20 de julio de 2020 |
+| [2,15,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.15.0) | Esta versión incluye compatibilidad con aplicaciones web progresivas en el [Componente de página](/help/components/page.md) y admite la versión 2.0.0 de la [Capa de datos de Adobe.](/help/developing/data-layer/overview.md) | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 23 de febrero de 2021 |
+| [2,14,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.14.0) | Esta versión incluye nuevas opciones para el [Componente incrustado](/help/components/embed.md) e introduce la Configuración de marca en el nivel [página](/help/components/page.md), además de abordar muchos problemas. | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 9 de febrero de 2021 |
+| [2,13,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.2) | Esta fue una versión de parche que solucionaba un problema con RTE cuando se utilizaba en AEMaaCS | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 16 de diciembre de 2020 |
+| [2,13,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Esta versión incluye nuevas funciones de Dynamic Media para el [Componente de imagen.](/help/components/image.md) | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 4 de diciembre de 2020 |
+| [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Este fue un lanzamiento de parche para la versión 2.12.0 que incluye correcciones menores. | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 11 de noviembre de 2020 |
+| [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Este fue un lanzamiento de parche para 2.12.0 que corrige un error importante en el [Componente de imagen.](/help/components/image.md) | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 5 de noviembre de 2020 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Esta versión introdujo [un nuevo controlador de formulario de POST;](/help/components/forms/form-container.md#post-data) la capacidad de incluir etiquetas CSS, Javascript y de metadatos [personalizadas mediante la configuración de reconocimiento de contexto;](/help/developing/including-clientlibs.md#context-aware-loading) y una utilidad `DataLayerBuilder` para [simplificar la integración de la capa de datos en los componentes personalizados.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 29 de octubre de 2020 |
+| [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versión introdujo el [soporte AMP.](/help/developing/amp.md) | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 20 de julio de 2020 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Esta versión introdujo el componente [Visor de PDF.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | Continua | 8, 11 | 17 de junio de 2020 |
-| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Esta versión habilitó la integración con la [capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md) e introdujo el componente [barra de progreso.](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | Continua | 8, 11 | 29 de mayo de 2020 |
-| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Esta versión se centra en correcciones con pequeñas mejoras. | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 5 de diciembre de 2019 |
-| [2.7.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Esta versión introdujo el nuevo [componente incrustado.](/help/components/embed.md) | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 25 de septiembre de 2019 |
-| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versión introdujo el nuevo [componente Fragmento de experiencias.](/help/components/experience-fragment.md) | 6.4.4.0+ | 6.5.0.0+ | Continua | 8, 11 | 6 de septiembre de 2019 |
-| [2.5.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Esta versión presenta los nuevos [componentes de acordeón,](/help/components/accordion.md) [botón,](/help/components/button.md) [Contenedor,](/help/components/container.md) y [Descargar.](/help/components/download.md) | 6.4.2.0+ | 6.5.0.0+ | Continua | 8, 11 | 25 de junio de 2019 |
-| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Esta versión presenta el [Componente de Lista de fragmento de contenido.](/help/components/content-fragment-list.md) | 6.4.2.0+ | 6.5.0.0+ | Continua | 8, 11 | 7 de mayo de 2019 |
-| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Esta versión se centró en refinamientos de la [Biblioteca de componentes,](https://aemcomponents.dev) pero también contiene algunas mejoras de funciones para el [Componente separador.](/help/components/separator.md) | 6.4.2.0+ | 6.5.0.0+ | Continua | 8 | 14 de marzo de 2019 |
-| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Esta versión se centra en la [biblioteca de componentes](https://aemcomponents.dev), así como en la introducción del nuevo [componente separador,](/help/components/separator.md), pero también contiene algunas mejoras de funciones para el [componente de imagen.](/help/components/image.md) | 6.4.2.0+ | - | - | 8 | 11 de febrero de 2019 |
-| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Esta versión se centra principalmente en la corrección de errores, pero también contiene algunas mejoras de funciones para el [componente Carrusel.](/help/components/carousel.md) | 6.4.2.0+ | - | - | 8 | 27 de noviembre de 2018 |
-| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | En esta versión se introdujeron el [Componente de fichas](/help/components/tabs.md) y el [Componente de carrusel](/help/components/carousel.md), así como mejoras en el [Componente de imagen,](/help/components/image.md) [Componente de página,](/help/components/page.md) y [Componente de título](/help/components/title.md) y seguimiento mejorado. | 6.4.2.0+ | - | - | 8 | 16 de octubre de 2018 |
-| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Esta versión introdujo el [componente Teaser](/help/components/teaser.md) junto con mejoras en el [componente de imagen](/help/components/image.md) y numerosas correcciones de errores. | 6.4.2.0+ | - | - | 8 | 13 de julio de 2018 |
-| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Esta fue una versión de corrección de errores. | 6.4.0.0+ | - | - | 8 | 12 de junio de 2018 |
-| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Esta versión ha añadido mejoras en el equipo, correcciones de errores y pequeñas mejoras, incluida la compatibilidad con el cambio de imagen en el [componente de imagen.](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 11 de abril de 2018 |
-| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Esta versión se centra principalmente en las mejoras en la parte inferior del capó, las correcciones de errores y algunas mejoras menores en el [Componente de imagen,](/help/components/image.md) [Componente de página,](/help/components/page.md) y [Componente de fragmento de contenido.](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 7 de marzo de 2018 |
-| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | Esta versión introdujo el [componente de navegación,](/help/components/navigation.md) [componente de navegación de idioma,](/help/components/language-navigation.md) y el [componente de búsqueda rápida](/help/components/quick-search.md) e implementó el [sistema de estilo](/help/get-started/authoring.md#component-styling) para todos los componentes. | 6.4.0.0+ | - | - | 8 | 16 de enero de 2018 |
-| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Esta versión implementa la exportación de JSON en todos los componentes e introduce el [Componente de fragmento de contenido.](/help/components/content-fragment-component.md) | 6.4.0.0+ | - | - | 8 | 10 de octubre de 2017 |
-| [1.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Esta versión agrega varias correcciones para el [componente de imagen.](/help/components/image.md) | 6.4.0.0+ | - | - | 8 | 4 de agosto de 2017 |
-| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Esta versión agrega correcciones para el [Componente de página,](/help/components/page.md) [Componente de imagen,](/help/components/image.md) y varias correcciones y mejoras globales. | 6.4.0.0+ | - | - | 8 | 26 de abril de 2017 |
-| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Esta versión agrega correcciones para imágenes GIF animadas en [Componente de imagen.](/help/components/image.md) | 6.4.0.0+ | - | - | 7 | 22 de marzo de 2017 |
-| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Versión inicial de los componentes principales. | 6.4.0.0+ | - | - | 7 | 20 de marzo de 2017 |
+| [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Esta versión habilitó la integración con la [capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md) e introdujo el componente [barra de progreso.](/help/components/progress-bar.md) | 6.4.8.0+ | Más de 6.5.4.0 | Continua | 8, 11 | 29 de mayo de 2020 |
+| [2.8.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.8.0) | Esta versión se ha centrado en correcciones con pequeñas mejoras. | Más de 6.4.4.0 | Más de 6.5.0.0 | Continua | 8, 11 | 5 de diciembre de 2019 |
+| [2,7,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.7.0) | Esta versión introdujo el nuevo [componente incrustado.](/help/components/embed.md) | Más de 6.4.4.0 | Más de 6.5.0.0 | Continua | 8, 11 | 25 de septiembre de 2019 |
+| [2.6.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.6.0) | Esta versión introdujo el nuevo [componente Fragmento de experiencia.](/help/components/experience-fragment.md) | Más de 6.4.4.0 | Más de 6.5.0.0 | Continua | 8, 11 | 6 de septiembre de 2019 |
+| [2,5,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.5.0) | Esta versión presenta los nuevos [Acordeón,](/help/components/accordion.md) [Botón,](/help/components/button.md) [Contenedor,](/help/components/container.md) y [Descargar componentes.](/help/components/download.md) | Más de 6.4.2.0 | Más de 6.5.0.0 | Continua | 8, 11 | 25 de junio de 2019 |
+| [2.4.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.4.0) | Esta versión introdujo el [componente de lista de fragmentos de contenido.](/help/components/content-fragment-list.md) | Más de 6.4.2.0 | Más de 6.5.0.0 | Continua | 8, 11 | 7 de mayo de 2019 |
+| [2.3.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.2) | Esta versión se centró en los refinamientos de la [Biblioteca de componentes,](https://aemcomponents.dev) pero también contiene algunas mejoras en las características del [Componente separador.](/help/components/separator.md) | Más de 6.4.2.0 | Más de 6.5.0.0 | Continua | 8 | 14 de marzo de 2019 |
+| [2.3.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.3.0) | Esta versión se centró en la [Biblioteca de componentes](https://aemcomponents.dev) e introdujo el nuevo [Componente separador,](/help/components/separator.md), pero también contiene algunas mejoras de características para el [Componente de imagen.](/help/components/image.md) | Más de 6.4.2.0 | - | - | 8 | 11 de febrero de 2019 |
+| [2.2.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.2) | Esta versión se ha centrado principalmente en la corrección de errores, pero también contiene algunas mejoras en las funciones del [Componente de carrusel.](/help/components/carousel.md) | Más de 6.4.2.0 | - | - | 8 | 27 de noviembre de 2018 |
+| [2.2.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.2.0) | Esta versión incorpora el [Componente de fichas](/help/components/tabs.md) y el [Componente de carrusel](/help/components/carousel.md), así como mejoras en el [Componente de imagen,](/help/components/image.md) [Componente de página,](/help/components/page.md) y el [Componente de título](/help/components/title.md) y seguimiento mejorado. | Más de 6.4.2.0 | - | - | 8 | 16 de octubre de 2018 |
+| [2.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.1.0) | Esta versión introdujo el [componente teaser](/help/components/teaser.md) junto con mejoras en el [componente de imagen](/help/components/image.md) y numerosas correcciones de errores. | Más de 6.4.2.0 | - | - | 8 | 13 de julio de 2018 |
+| [2.0.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.8) | Esta fue una versión de corrección de errores. | Más de 6.4.0.0 | - | - | 8 | 12 de junio de 2018 |
+| [2.0.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.6) | Esta versión ha añadido mejoras, correcciones de errores y pequeñas mejoras, incluida la compatibilidad con la inversión de imágenes en el [Componente de imagen.](/help/components/image.md) | Más de 6.4.0.0 | - | - | 8 | 11 de abril de 2018 |
+| [2.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.4) | Esta versión se centró principalmente en las mejoras en la parte inferior del capó, las correcciones de errores y algunas mejoras menores en el [Componente de imagen,](/help/components/image.md) [Componente de página,](/help/components/page.md) y [Componente de fragmento de contenido.](/help/components/content-fragment-component.md) | Más de 6.4.0.0 | - | - | 8 | 7 de marzo de 2018 |
+| [2.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.0.0) | En esta versión se presentaron el [componente de navegación,](/help/components/navigation.md) [componente de navegación de idioma,](/help/components/language-navigation.md) y el [componente de búsqueda rápida](/help/components/quick-search.md) y se implementó el [sistema de estilos](/help/get-started/authoring.md#component-styling) para todos los componentes. | Más de 6.4.0.0 | - | - | 8 | 16 de enero de 2018 |
+| [1.1.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.1.0) | Esta versión implementa la exportación de JSON en todos los componentes e introduce el [Componente de fragmento de contenido.](/help/components/content-fragment-component.md) | Más de 6.4.0.0 | - | - | 8 | 10 de octubre de 2017 |
+| [1,0,6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.6) | Esta versión agrega varias correcciones para el [Componente de imagen.](/help/components/image.md) | Más de 6.4.0.0 | - | - | 8 | 4 de agosto de 2017 |
+| [1.0.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.4) | Esta versión agrega correcciones para el [Componente de página,](/help/components/page.md) [Componente de imagen,](/help/components/image.md) y varias correcciones y mejoras globales. | Más de 6.4.0.0 | - | - | 8 | 26 de abril de 2017 |
+| [1.0.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.all-1.0.2) | Esta versión agrega correcciones para imágenes GIF animadas en [Componente de imagen.](/help/components/image.md) | Más de 6.4.0.0 | - | - | 7 | 22 de marzo de 2017 |
+| [1.0.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-1.0.0) | Versión inicial de los componentes principales. | Más de 6.4.0.0 | - | - | 7 | 20 de marzo de 2017 |
 
 >[!NOTE]
 >
@@ -62,13 +63,13 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles comp
 
 >[!TIP]
 >
->Al igual que con AEM, Adobe recomienda que los desarrolladores utilicen la [versión más reciente y las versiones de los Componentes principales](https://github.com/adobe/aem-core-wcm-components/releases/latest) disponibles que sean compatibles con la versión de AEM que están ejecutando para beneficiarse de las correcciones y características más actualizadas.
+>Al igual que con AEM, Adobe recomienda que los desarrolladores utilicen la [última versión y las versiones de los componentes principales](https://github.com/adobe/aem-core-wcm-components/releases/latest) disponibles que son compatibles con la versión de AEM que están ejecutando para beneficiarse de las correcciones y funciones más actualizadas.
 
 ### Versiones y versiones de componentes {#component-versions-and-releases}
 
-La siguiente tabla detalla las versiones de los componentes que contiene cada versión de los componentes principales.
+En la siguiente tabla se detallan las versiones de qué componentes se incluyen en qué versiones de los componentes principales.
 
-|  | Versión 1.0.0 - 1.0.6 | Versión 1.1.0 | Versión 2.0.0 - 2.0.8 | Versión 2.1.0 | Versión 2.2.0-2.2.0 | Versión 2.3.0-2.3.2 | Versión 2.4.0 | Versión 2.5.0 | Versión 2.6.0 | Versión 2.7.0-2.8.0 | Versión 2.9.0+ |
+|  | Versión 1.0.0: 1.0.6 | Versión 1.1.0 | Versión 2.0.0: 2.0.8 | Versión 2.1.0 | Versión 2.2.0-2.2.0 | Versión 2.3.0-2.3.2 | Versión 2.4.0 | Versión 2.5.0 | Versión 2.6.0 | Versión 2.7.0-2.8.0 | Versión 2.9.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | **[Página](components/page.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
 | **[Título](components/title.md)** | v1 | v1 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 | v1, v2 |
@@ -101,25 +102,25 @@ La siguiente tabla detalla las versiones de los componentes que contiene cada ve
 
 ## Versiones y versiones {#versions-and-releases}
 
-Los componentes principales se distribuyen a través de GitHub. Esto permite a Adobe agregar más rápidamente funcionalidad a los componentes y también permitir la entrada de la comunidad fuera del ciclo de publicación de AEM.
+Los componentes principales se distribuyen a través de GitHub. Esto permite que el Adobe agregue más rápidamente funcionalidad a los componentes y también permite la entrada de la comunidad fuera del ciclo de versiones de AEM.
 
-Los componentes principales están disponibles con versiones AEM definidas con las que son compatibles. Esto significa que una versión AEM puede admitir varias versiones o versiones de los componentes principales. Esto proporciona más flexibilidad que los antiguos componentes de base, que estaban vinculados a una versión específica de AEM.
+Los componentes principales están disponibles con versiones de AEM definidas con las que son compatibles. Esto significa que una versión AEM puede admitir varias versiones o versiones de los componentes principales. Esto proporciona más flexibilidad que los componentes de base anteriores, que estaban vinculados a una versión específica de AEM.
 
 ### Versiones {#versions}
 
-La iteración principal de los componentes principales son las **versiones**. Cada componente tiene una versión. Las versiones se indican con **v** anexado con un entero positivo distinto de cero, como v1 y v2. Las versiones solo se incrementan para los cambios que no son compatibles con versiones anteriores, lo que normalmente sucede con la introducción de nuevas funciones y funcionalidades.
+La iteración principal de los componentes principales son las **versiones**. Cada componente tiene una versión. Las versiones se identifican con **v** anexado con un entero positivo distinto de cero, como v1 y v2. Las versiones solo se incrementan para los cambios que no son compatibles con versiones anteriores, como suele ocurrir con la introducción de nuevas funciones y funcionalidades.
 
-Los desarrolladores y administradores pueden reconocer versiones de los componentes principales por un número en sus rutas de tipo de recurso y en los nombres de clase Java completos de sus implementaciones. Este número de versión representa una versión principal definida por [directrices semánticas de versiones](https://semver.org/).
+Los desarrolladores y administradores pueden reconocer versiones de los componentes principales mediante una serie de rutas de tipo de recurso y en los nombres de clase Java completos de sus implementaciones. Este número de versión representa una versión principal tal como se define en [semánticas versioning guides](https://semver.org/).
 
 Para obtener más información sobre las versiones de componentes principales, consulte la [documentación para desarrolladores de los componentes principales](developing/guidelines.md).
 
 ### Versiones {#releases}
 
-Los componentes principales están disponibles mediante **versiones** y [representan los artefactos publicados reales disponibles en GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Las versiones se indican con un número decimal del formato X.Y.Z y recopilan todos los componentes principales juntos como un paquete de entrega.
+Los componentes principales están disponibles a través de las **versiones** y [representan los artefactos publicados reales disponibles en GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Las versiones se marcan con un número decimal del formato X.Y.Z y recopilan todos los componentes principales juntos como un paquete entregable.
 
-* **Las** versiones principales pueden introducir nuevas versiones de componentes existentes junto con componentes completamente nuevos, así como correcciones de errores estándar. Esto se representa mediante un incremento en el componente X del número de versión.
-* **Las** versiones importantes pueden introducir nuevas funciones a las versiones existentes de los componentes, junto con correcciones de errores. Esto se representa mediante un incremento en el componente Y del número de versión.
-* **Las** versiones secundarias solo contienen correcciones de errores. Esto se representa mediante un incremento en el componente Z del número de versión.
+* **Las principales** versiones pueden introducir nuevas versiones de los componentes existentes junto con componentes completamente nuevos, así como correcciones de errores estándar. Esto se representa mediante un incremento en el componente X del número de versión.
+* **Las** versiones importantes pueden introducir nuevas funciones a las versiones existentes de los componentes, junto con la corrección de errores. Esto se representa mediante un incremento en el componente Y del número de versión.
+* **Las** versiones menores solo contienen correcciones de errores. Esto se representa mediante un incremento en el componente Z del número de versión.
 
 >[!NOTE]
 >
@@ -144,6 +145,6 @@ Para obtener más detalles sobre la compatibilidad de la personalización de com
 
 ## Compatibilidad con componentes de base {#foundation-component-support}
 
-El énfasis del Adobe en el desarrollo se ha desplazado a los componentes principales y se seguirán añadiendo nuevas funciones.
+El énfasis de Adobe en el desarrollo ha cambiado a los componentes principales y se seguirán añadiendo nuevas funciones.
 
-[Casi todos los componentes de base han quedado obsoletos con AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html) y solo se tendrán en cuenta correcciones de errores importantes para los componentes de base a partir de ahora.
+[Casi todos los componentes de base han quedado obsoletos con AEM 6.5](https://docs.adobe.com/content/help/en/experience-manager-65/authoring/siteandpage/default-components-foundation.html)  y solo se tendrán en cuenta las correcciones de errores importantes en los componentes de base a partir de ahora.
