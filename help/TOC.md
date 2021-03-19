@@ -3,8 +3,9 @@ sub-product: AEM Core Components
 user-guide-title: Componentes principales AEM
 breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
+feature-set: Experience Manager Sites
 translation-type: tm+mt
-source-git-commit: f4bed5d9d0f5387259d083fe46220208347052b3
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
 source-wordcount: '214'
 ht-degree: 67%
@@ -15,7 +16,7 @@ ht-degree: 67%
 # Ayuda de los componentes principales de AEM {#using}
 
 + [Introducción a los componentes principales](introduction.md)
-+ [Rutas al éxito](developing/success.md)
++ [Rutas para alcanzar el éxito](developing/success.md)
 + [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library)
 + [Versiones de componentes principales](versions.md)
 + Introducción {#get-started}
@@ -68,7 +69,7 @@ ht-degree: 67%
          + [Texto de formulario (v1)](components/v1/form-text-v1.md)
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](developing/overview.md)
-   + [Rutas al éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
+   + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
    + [Tutorial para desarrolladores de WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalización de componentes principales](developing/customizing.md)
    + [Instrucciones de los componentes](developing/guidelines.md)
@@ -76,18 +77,18 @@ ht-degree: 67%
    + [Configuraciones según el contexto](developing/context-aware-configs.md)
    + [Inclusión de bibliotecas de cliente](developing/including-clientlibs.md)
    + Capa de datos del cliente de Adobe {#data-layer}
-      + [Información general sobre la capa de datos](developing/data-layer/overview.md)
+      + [Descripción general de la capa de datos](developing/data-layer/overview.md)
       + [Integraciones con la capa de datos](developing/data-layer/integrations.md)
       + [Ampliación de la capa de datos](developing/data-layer/extending.md)
    + Tipo de archivo del proyecto AEM {#archetype}
-      + [Información general de arquetipos](developing/archetype/overview.md)
-      + [Uso del arquetipo](developing/archetype/using.md)
+      + [Información general de tipo de archivo](developing/archetype/overview.md)
+      + [Uso del tipo de archivo](developing/archetype/using.md)
       + [Módulo principal](developing/archetype/core.md)
       + [Módulo ui.apps](developing/archetype/uiapps.md)
       + [Módulo ui.content](developing/archetype/uicontent.md)
-      + [Módulo ui.frontender.general](developing/archetype/uifrontend.md)
-      + [Módulo ui.frontender.response](developing/archetype/uifrontend-react.md)
-      + [Módulo ui.frontendr.angular](developing/archetype/uifrontend-angular.md)
+      + [ui.frontend.general Module](developing/archetype/uifrontend.md)
+      + [Módulo ui.frontend.react](developing/archetype/uifrontend-react.md)
+      + [Módulo ui.frontend.angular](developing/archetype/uifrontend-angular.md)
       + [Módulo ui.testing](developing/archetype/uitests.md)
       + [Módulo it.testing](developing/archetype/ittests.md)
-      + [Complemento Build Analyzer Maven](developing/archetype/build-analyzer-maven-plugin.md)
+      + [Complemento Maven de Build Analyzer](developing/archetype/build-analyzer-maven-plugin.md)
