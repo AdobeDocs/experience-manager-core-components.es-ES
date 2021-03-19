@@ -1,10 +1,12 @@
 ---
 title: Tipo de archivo del proyecto AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
+feature: Componentes principales, AEM tipo de archivo del proyecto
+role: Arquitecto, Desarrollador, Administrador
 translation-type: tm+mt
-source-git-commit: 4ea3f1da41d9dd63707135c9eb9466c31d3dbe51
+source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1043'
 ht-degree: 10%
 
 ---
