@@ -1,11 +1,12 @@
 ---
 title: Componente de texto (v1)
-description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
+description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
 index: n
+role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
 translation-type: tm+mt
-source-git-commit: 93a7ba6b8a972d111fb723cb40b0380cea9b5a9a
+source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1662'
 ht-degree: 3%
 
 ---
@@ -13,19 +14,19 @@ ht-degree: 3%
 
 # Componente de texto (v1) {#text-component-v}
 
-El componente Texto es un componente de composición y edición de texto enriquecido que incluye edición in-situ.
+El componente Texto es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
 
 ## Uso {#usage}
 
-El componente de texto oferta un potente editor de texto enriquecido que permite una edición de texto sencilla en un editor en línea simplificado y en un formato de pantalla completa.
+El componente Texto ofrece un editor de texto enriquecido robusto que permite editar texto fácilmente en un editor en línea simplificado, así como en un formato de pantalla completa.
 
-El [cuadro de diálogo de edición](#edit-dialog) presenta la edición en línea con opciones limitadas con funcionalidad completa disponible en el cuadro de diálogo de edición a pantalla completa. Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden configurar opciones de formato de texto como encabezados, caracteres especiales y estilos de párrafo para la plantilla del autor del contenido.
+El [cuadro de diálogo de edición](#edit-dialog) incluye edición en línea con opciones limitadas con funcionalidad completa disponible en el cuadro de diálogo de edición en pantalla completa. Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden configurar opciones de formato de texto como encabezados, caracteres especiales y estilos de párrafo para la plantilla del autor del contenido.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 1 del componente de texto, introducida originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
+Este documento describe la versión 1 del componente de texto, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-La siguiente tabla lista la compatibilidad de v1 del componente de texto.
+La siguiente tabla enumera la compatibilidad de v1 del componente de texto.
 
 | Versión de AEM | Componente de texto v1 |
 |--- |--- |
@@ -36,9 +37,9 @@ La siguiente tabla lista la compatibilidad de v1 del componente de texto.
 >
 >Este documento describe la versión 1 del componente de texto.
 >
->Para obtener más información sobre la versión actual del componente de texto, consulte el documento [Text Component](/help/components/text.md).
+>Para obtener más información sobre la versión actual del componente de texto, consulte el documento [Componente de texto](/help/components/text.md).
 
-## Salida de componente de muestra {#sample-component-output}
+## Salida de componente de ejemplo {#sample-component-output}
 
 El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
 
@@ -72,7 +73,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 ## Editar cuadro de diálogo {#edit-dialog}
 
-El cuadro de diálogo de edición oferta las herramientas de formato de texto enriquecido estándar que un usuario espera que compongan texto.
+El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que un usuario esperaría para componer texto.
 
 ![](/help/assets/chlimage_1-52.png)
 
@@ -80,7 +81,7 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-53.png)
 
-   Se utiliza para aplicar formato de negrita al texto seleccionado o para aplicar formato negrita al texto introducido después del cursor.
+   Se utiliza para aplicar formato de negrita al texto seleccionado o para dar formato negrita al texto introducido después del cursor.
 
    **Ctrl+** Bcan se puede utilizar como método abreviado de teclado.
 
@@ -88,9 +89,9 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-54.png)
 
-   Se utiliza para aplicar formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor.
+   Se utiliza para aplicar formato en cursiva al texto seleccionado o para aplicar cursiva al texto introducido después del cursor.
 
-   **Ctrl +** Ican se puede utilizar como método abreviado de teclado.
+   **Ctrl+** Ipuede utilizarse como método abreviado de teclado.
 
 * Subrayado
 
@@ -110,15 +111,15 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-57.png)
 
-   Se utiliza para dar formato al texto seleccionado o al texto introducido después del cursor como superíndice.
+   Se utiliza para dar formato de superíndice al texto seleccionado o al texto introducido después del cursor.
 
 * Pegar como texto
 
    ![](/help/assets/chlimage_1-58.png)
 
-   Pega el texto copiado como texto sin formato sin ningún formato.
+   Pega cualquier texto copiado como texto sin formato sin formato.
 
-   Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como previsualización antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
+   Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como vista previa antes de insertarlo en el texto. Acepte pulsando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
 
    ![](/help/assets/chlimage_1-59.png)
 
@@ -126,7 +127,7 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-60.png)
 
-   Al seleccionar esta opción, se abre una ventana en la que se puede pegar el texto manteniendo su formato como previsualización antes de insertarlo en el texto. Acepte tocando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
+   Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar manteniendo su formato como vista previa antes de insertarlo en el texto. Acepte pulsando o haciendo clic en la marca de verificación y cancele la acción tocando o haciendo clic en la x.
 
    ![](/help/assets/chlimage_1-61.png)
 
@@ -134,7 +135,7 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-62.png)
 
-   Utilice esta opción para convertir el texto seleccionado en un hipervínculo o modificar un vínculo ya definido. Esta opción solo está activa cuando el texto ya está seleccionado y abre una ventana con opciones adicionales para configurar el vínculo.
+   Utilice esta opción para convertir el texto seleccionado en un hipervínculo o modificar un vínculo ya definido. Esta opción solo está activa cuando ya se ha seleccionado texto y abre una ventana con opciones adicionales para configurar el vínculo.
 
    ![](/help/assets/chlimage_1-63.png)
 
@@ -143,7 +144,7 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
       * Utilice el cuadro de diálogo Abrir selección para elegir una ruta en AEM
       * Si el vínculo no está dentro de AEM, introduzca la dirección URL absoluta (las rutas no absolutas se interpretan como relativas a AEM)
    * Escriba un texto descriptivo alternativo para el vínculo
-   * Seleccionar comportamiento de vínculo
+   * Seleccionar el comportamiento del vínculo
 
       * Destino
       * Misma ficha
@@ -157,25 +158,25 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-64.png)
 
-   Utilice esta opción para eliminar un vínculo ya aplicado al texto seleccionado. Esta opción solo está activa cuando ya se ha seleccionado un vínculo.
+   Utilice esta opción para quitar un vínculo ya aplicado al texto seleccionado. Esta opción solo está activa cuando ya se ha seleccionado un vínculo.
 
 * Buscar
 
    ![](/help/assets/chlimage_1-65.png)
 
-   Utilice esta opción para buscar en el texto ocurrencias de una cadena de texto especificada. Al seleccionar esta opción se abre una ventana para especificar las opciones de búsqueda.
+   Utilice esta opción para buscar en el texto ocurrencias de una cadena de texto especificada. Al seleccionar esta opción, se abre una ventana para especificar las opciones de búsqueda.
 
    ![](/help/assets/chlimage_1-66.png)
 
-   Escriba el texto para el que desea buscar y toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
+   Escriba el texto que desee buscar y toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
 
-   Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
+   Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Match Case** antes de iniciar la búsqueda.
 
-   Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de búsqueda se atenúa. Toque o haga clic en el botón **Buscar** de nuevo en el cuadro de diálogo atenuado para buscar la siguiente incidencia.
+   Si se encuentra una coincidencia, esta se resalta y el cuadro de diálogo de búsqueda se atenúa. Toque o haga clic de nuevo en el botón **Find** del cuadro de diálogo tenue para buscar la siguiente aparición.
 
    ![](/help/assets/chlimage_1-67.png)
 
-   Si no se encuentran más incidencias, se mostrará un mensaje y la búsqueda se reiniciará desde el principio del texto.
+   Si no se encuentran más ocurrencias, se mostrará un mensaje y la búsqueda se reiniciará desde el principio del texto.
 
    ![](/help/assets/chlimage_1-68.png)
 
@@ -183,17 +184,17 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-69.png)
 
-   Utilice esta opción para buscar en el texto ocurrencias de una cadena de texto especificada y reemplazar las coincidencias por otra cadena. Al seleccionar esta opción se abre una ventana para especificar las opciones de búsqueda y reemplazo.
+   Utilice esta opción para buscar en el texto ocurrencias de una cadena de texto especificada y reemplazar las coincidencias por otra cadena. Al seleccionar esta opción, se abre una ventana para especificar las opciones de búsqueda y reemplazo.
 
    ![](/help/assets/chlimage_1-70.png)
 
-   Escriba el texto para el que desea buscar, así como el texto con el que debe reemplazarse.
+   Introduzca el texto para el que desea buscar, así como el texto con el que debe reemplazarse.
 
    Toque o haga clic en **Buscar** para comenzar la búsqueda. Toque o haga clic en la x para cancelar.
 
-   Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
+   Si desea hacer una coincidencia exacta según el caso, seleccione la opción **Match Case** antes de iniciar la búsqueda.
 
-   Si se encuentra una coincidencia, ésta se resalta y el cuadro de diálogo de búsqueda se atenúa. Vuelva a hacer clic en el botón **Buscar** del cuadro de diálogo atenuado para buscar la siguiente incidencia o seleccione el botón **Reemplazar** para reemplazar el texto resaltado y coincidente. Tenga en cuenta que el botón **Reemplazar** solo está activo una vez que se ha realizado una coincidencia.
+   Si se encuentra una coincidencia, esta se resalta y el cuadro de diálogo de búsqueda se atenúa. Vuelva a hacer clic en el botón **Buscar** del cuadro de diálogo tenue para buscar la siguiente aparición o seleccione el botón **Reemplazar** para reemplazar el texto resaltado y coincidente. Tenga en cuenta que el botón **Replace** solo está activo una vez que se ha realizado una coincidencia.
 
    Seleccione **Reemplazar todo** para reemplazar todas las apariciones del texto a la vez.
 
@@ -219,15 +220,15 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-74.png)
 
-   Se utiliza para dar formato al texto seleccionado como una lista con viñetas o iniciar la inserción de una lista con viñetas después del cursor.
+   Se utiliza para dar formato al texto seleccionado como una lista con viñetas o comenzar la inserción de una lista con viñetas después del cursor.
 
-   Para finalizar una lista con viñetas, toque o haga clic en el botón **Viñeta** de nuevo o introduzca dos retornos de carro.
+   Para finalizar una lista con viñetas, toque o haga clic en el botón **Bullet** de nuevo o introduzca dos retornos de carro.
 
 * Numerado
 
    ![](/help/assets/chlimage_1-75.png)
 
-   Se utiliza para dar formato al texto seleccionado como una lista numerada o para comenzar la inserción de una lista numerada después del cursor.
+   Se utiliza para dar formato al texto seleccionado como una lista numerada o comenzar la inserción de una lista numerada después del cursor.
 
    Para finalizar una lista numerada, toque o haga clic en el botón **Numerado** de nuevo o introduzca dos retornos de carro.
 
@@ -237,7 +238,7 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    Se utiliza para reducir el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
 
-   Solo se activa si el texto o la posición seleccionados del cursor ya están sangrados.
+   Solo activa si el texto o la posición seleccionados del cursor ya tienen sangría.
 
 * Sangría
 
@@ -249,62 +250,62 @@ El cuadro de diálogo de edición oferta las herramientas de formato de texto en
 
    ![](/help/assets/chlimage_1-78.png)
 
-   Se utiliza para insertar una tabla en el texto. Al seleccionar esta opción se abre una ventana para especificar los detalles de la tabla.
+   Se utiliza para insertar una tabla en el texto. Al seleccionar esta opción, se abre una ventana para especificar los detalles de la tabla.
 
    ![](/help/assets/chlimage_1-79.png)
 
-   * **Columnas** : el número de columnas de la tabla (requerido)
-   * **Filas** : el número de filas de la tabla (requerido)
-   * **Anchura** : anchura de la tabla
+   * **Columnas** : el número de columnas de la tabla (obligatorio)
+   * **Filas** : el número de filas de la tabla (obligatorio).
+   * **Anchura** : Ancho de la tabla
    * **Altura** : altura de la tabla
-   * **** Relleno de celdas: el espacio alrededor del contenido de la celda
-   * **Espaciado**  de celdas: el espacio entre celdas
-   * **Borde** : peso de las líneas de borde de la tabla
+   * **Margen de** celdas: el espacio alrededor del contenido de la celda
+   * **Espaciado de celdas** : el espacio entre celdas
+   * **Borde** : el peso de las líneas de borde de la tabla.
    * Si para el encabezado de la tabla:
 
-      * Se debe utilizar la primera fila
-      * Debe utilizarse la primera columna
-      * Debe utilizarse la primera fila y la primera columna
-      * O bien, no se debe utilizar ningún encabezado.
-   * **Rótulo** : el rótulo de la tabla
+      * La primera fila debe usarse
+      * La primera columna debe usarse
+      * La primera fila y la primera columna deben usarse
+      * O no se debe utilizar ningún encabezado.
+   * **Rótulo** : el rótulo de la tabla.
 
 
 * Revisar ortografía
 
    ![](/help/assets/chlimage_1-80.png)
 
-   Se utiliza para revisar la ortografía del contenido del texto. Los posibles errores ortográficos se ven subrayados con líneas rojas rotas rotas.
+   Se utiliza para revisar la ortografía del contenido del texto. Los posibles errores ortográficos se subrayan con líneas rojas rotas y rotas.
 
 * Caracteres especiales
 
    ![](/help/assets/chlimage_1-81.png)
 
-   Se utiliza para insertar caracteres especiales en el texto. Al seleccionar esta opción, se abre una ventana donde se muestran los caracteres disponibles.
+   Se utiliza para insertar caracteres especiales en el texto. Al seleccionar esta opción, se abre una ventana en la que se muestran los caracteres disponibles.
 
    ![](/help/assets/chlimage_1-82.png)
 
-   Toque o haga clic en el carácter que desee para insertarlo en el texto después del cursor. Se pueden insertar varios caracteres. Toque o haga clic en la x para cerrar la ventana de selección.
+   Toque o haga clic en el carácter deseado para insertarlo en el texto después del cursor. Se pueden insertar varios caracteres. Toque o haga clic en la x para cerrar la ventana de selección.
 
 * Modificar código fuente
 
    ![](/help/assets/chlimage_1-83.png)
 
-   Se utiliza para vista y modificación del origen HTML del texto.
+   Se utiliza para ver y modificar el origen HTML del texto.
 
-   Toque o haga clic en el icono **Editar origen** para cambiar el contenido del texto de la vista con formato a la vista del HTML sin procesar. En este modo, todas las demás opciones de formato están desactivadas. Toque o haga clic en el icono **Editar origen** de nuevo para volver a la vista con formato.
+   Toque o haga clic en el icono **Source Edit** para cambiar el contenido del texto desde la vista con formato para ver el HTML sin procesar. En este modo, todas las demás opciones de formato están desactivadas. Toque o haga clic en el icono **Source Edit** de nuevo para volver a la vista con formato.
 
    >[!CAUTION]
    >
-   >Como siempre con acceso a HTML sin procesar, se debe tener cuidado al utilizar la opción **Editar fuente**.
+   >Como siempre con acceso a HTML sin procesar, se debe tener cuidado al utilizar la opción **Source Edit**.
    >
    >
-   >El HTML introducido mediante **Source Edit** se analiza para detectar riesgos XSS y las secuencias de comandos insertadas se eliminan y no aparecerán en la página resultante. Sin embargo, el HTML mal formado introducido en **Source Edit** puede romper la plantilla de la página, lo que da como resultado un formato inesperado o que la página resultante no se pueda utilizar.
+   >El HTML introducido mediante **Source Edit** se analiza para detectar riesgos XSS y todos los scripts insertados se eliminan y no aparecen en la página resultante. Sin embargo, el HTML mal formado introducido en **Source Edit** puede romper la plantilla de la página, lo que da como resultado un formato inesperado o que la página resultante quede inutilizable.
 
 * Formato de párrafo
 
    ![](/help/assets/chlimage_1-84.png)
 
-   Se utiliza para aplicar formato de párrafo al texto seleccionado o al texto insertado después del cursor. Al seleccionar estas opciones se abre una lista desplegable desde la que se selecciona el formato de párrafo.
+   Se utiliza para aplicar formato de párrafo al texto seleccionado o al texto insertado después del cursor. Al seleccionar esta opción, se abre una lista desplegable en la que se selecciona el formato de párrafo.
 
    ![](/help/assets/chlimage_1-85.png)
 
@@ -323,10 +324,10 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir qué o
 Las siguientes funciones se pueden activar o desactivar para el componente.
 
 * Pegar texto sin formato
-* Pasado de la palabra
+* Pasado desde la palabra
 * Buscar y reemplazar
 * Corrector ortográfico
-* Edición de código fuente
+* Edición de origen
 
 ### Formato {#formatting}
 
@@ -347,10 +348,10 @@ Las siguientes opciones de formato se pueden activar o desactivar para el compon
 
 Los estilos de párrafo se pueden activar o desactivar para el componente. Cuando se activa, se pueden definir los formatos permitidos.
 
-* Toque o haga clic en el botón **Añadir** para insertar un nuevo estilo.
-* Introduzca el código del estilo y una descripción que se mostrará en el cuadro de diálogo de edición.
+* Toque o haga clic en el botón **Add** para insertar un nuevo estilo.
+* Introduzca el código del estilo y una descripción que se mostrarán en el cuadro de diálogo de edición.
 * Para quitar un estilo, toque o haga clic en el botón **Eliminar**.
-* Para reorganizar el orden de los formatos, toque o haga clic y arrastre los controladores.
+* Para reorganizar el orden de los formatos, toque o haga clic en y arrastre los controladores.
 
 ### Caracteres especiales {#special-characters}
 
@@ -358,10 +359,10 @@ Los estilos de párrafo se pueden activar o desactivar para el componente. Cuand
 
 La opción para insertar caracteres especiales se puede activar o desactivar para el componente. Cuando se activa, se pueden definir los caracteres permitidos.
 
-* Toque o haga clic en el botón **Añadir** para insertar un nuevo carácter.
-* Introduzca el código HTML del carácter y una descripción que se mostrará en el cuadro de diálogo de edición.
-* Para eliminar un carácter, toque o haga clic en el botón **Eliminar**.
-* Para reorganizar el orden de los caracteres, toque o haga clic y arrastre los controladores.
+* Toque o haga clic en el botón **Add** para insertar un carácter nuevo.
+* Introduzca el código HTML del carácter y una descripción que se mostrarán en el cuadro de diálogo de edición.
+* Para quitar un carácter, toque o haga clic en el botón **Eliminar**.
+* Para reorganizar el orden de los caracteres, toque o haga clic en y arrastre los controladores.
 
 ## Detalles técnicos {#technical-details}
 
@@ -369,4 +370,4 @@ La documentación técnica más reciente sobre el componente de texto [se encuen
 
 Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
-Encontrará más detalles sobre el desarrollo de los componentes principales en la [documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
+Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
