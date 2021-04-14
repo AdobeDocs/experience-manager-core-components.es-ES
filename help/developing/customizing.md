@@ -1,15 +1,15 @@
 ---
 title: Personalización de componentes principales
 description: Los componentes principales implementan varios patrones que permiten una fácil personalización, desde el estilo simple hasta la reutilización avanzada de la funcionalidad.
-role: Arquitecto, Desarrollador, Administrador
+role: Architect, Developer, Administrator
+exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1106'
 ht-degree: 4%
 
 ---
-
 
 # Personalización de componentes principales{#customizing-core-components}
 
@@ -105,7 +105,7 @@ Para obtener más información sobre el patrón de delegación, consulte el art�
 
 A veces, el estilo avanzado requiere una estructura de marcado diferente del componente.
 
-Esto se puede hacer fácilmente copiando los archivos HTL que necesitan modificarse del componente principal al componente proxy.
+Esto se puede hacer fácilmente copiando los archivos HTL que necesitan modificarse del componente principal al componente proxy [.](guidelines.md#proxy-component-pattern)
 
 Siguiendo de nuevo el ejemplo del componente de ruta de exploración principal, para personalizar su salida de marcado, el archivo `breadcrumb.html` tendría que copiarse en el componente específico del sitio que tiene un `sling:resourceSuperTypes` que apunta al componente de ruta de exploración principal.
 
