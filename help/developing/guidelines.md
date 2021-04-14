@@ -1,15 +1,15 @@
 ---
 title: Instrucciones de los componentes
 description: Los componentes principales siguen patrones de implementación modernos que son bastante diferentes de los componentes de base.
-role: Arquitecto, Desarrollador, Administrador
+role: Architect, Developer, Administrator
+exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1272'
 ht-degree: 2%
 
 ---
-
 
 # Instrucciones de los componentes {#component-guidelines}
 
@@ -52,6 +52,10 @@ Para que los componentes sean lo más reutilizables posible, se les deben propor
 Dado que cada recurso de contenido tiene una propiedad `sling:resourceType` que hace referencia al componente para representarlo, normalmente es recomendable tener estas propiedades que apunten a componentes específicos del sitio, en lugar de apuntar a componentes que comparten varios sitios. Esto ofrecerá más flexibilidad y evitará la refactorización de contenido si un sitio necesita un comportamiento diferente para un componente, ya que esta personalización se puede lograr en el componente específico del sitio y no afectará a los otros sitios.
 
 Sin embargo, para que los componentes específicos del proyecto no dupliquen ningún código, cada uno debe hacer referencia al componente principal compartido con la propiedad `sling:resourceSuperType` . Estos componentes específicos del proyecto que en su mayoría solo hacen referencia a componentes principales se denominan &quot;componentes proxy&quot;. Los componentes proxy pueden estar completamente vacíos si heredan completamente la funcionalidad o si pueden redefinir algunos aspectos del componente.
+
+>[!TIP]
+>
+>Consulte [Uso de componentes principales](/help/get-started/using.md#create-proxy-components) para obtener más información sobre cómo crear componentes proxy.
 
 ### Versiones de componentes {#component-versioning}
 
