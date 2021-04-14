@@ -1,15 +1,15 @@
 ---
 title: Introducción a los componentes principales
 description: 'Los componentes principales proporcionan componentes básicos sólidos y ampliables, basados en las últimas tecnologías y prácticas recomendadas. '
-role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 26%
+source-wordcount: '936'
+ht-degree: 25%
 
 ---
-
 
 # Introducción a los componentes principales{#core-components-introduction}
 
@@ -118,3 +118,9 @@ Para conocer los requisitos de las versiones anteriores de los componentes princ
 Los componentes principales requieren el uso de [plantillas editables](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html) y no admiten la IU clásica ni plantillas estáticas. Si es necesario, consulte las [AEM Herramientas de modernización](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) para actualizar el proyecto con estas funciones de AEM modernas.
 
 Para configurar su entorno de desarrollo local, consulte [esta descripción general para AEM as a Cloud Service SDK](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) o este documento [para versiones anteriores de AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+
+>[!TIP]
+>
+>Los componentes principales forman parte automáticamente de AEM como Cloud Service y siempre tiene la última versión de los componentes principales.
+>
+>Consulte el documento [Uso de componentes principales](/help/get-started/using.md) para obtener más información sobre cómo empezar a utilizar los componentes principales tanto en AEMaaCS como en las instalaciones.
