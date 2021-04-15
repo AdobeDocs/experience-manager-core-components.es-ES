@@ -1,15 +1,15 @@
 ---
 title: Componente de búsqueda rápida
 description: El componente Búsqueda rápida proporciona funciones de búsqueda en un sitio web y presenta resultados de búsqueda para que los visitantes puedan buscar en el sitio y filtrar los resultados.
-role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
+role: Architect, Developer, Administrator, Business Practitioner
+exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 2%
+source-wordcount: '614'
+ht-degree: 1%
 
 ---
-
 
 # Componente de búsqueda rápida {#quick-search-component}
 
@@ -54,6 +54,10 @@ El cuadro de diálogo de edición permite que el autor del contenido defina dón
    * Si se deja en blanco, automáticamente se genera un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
+
+>[!NOTE]
+>
+>Si la **Raíz de búsqueda** no está configurada o no se puede resolver, la Búsqueda rápida toma como valor predeterminado la búsqueda debajo de la página actual.
 
 ## Diálogo de diseño {#design-dialog}
 
