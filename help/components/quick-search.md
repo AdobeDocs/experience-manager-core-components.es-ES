@@ -4,7 +4,7 @@ description: El componente Búsqueda rápida proporciona funciones de búsqueda 
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 translation-type: tm+mt
-source-git-commit: 72b8864a5dca24b938cecd808ab4cdededb1abec
+source-git-commit: 6eff0c8584605e034fc6516416783715fce10095
 workflow-type: tm+mt
 source-wordcount: '614'
 ht-degree: 1%
@@ -50,7 +50,7 @@ El cuadro de diálogo de edición permite que el autor del contenido defina dón
 ![Cuadro de diálogo de edición del componente de búsqueda rápida](/help/assets/quick-search-edit.png)
 
 **Raíz de búsqueda** : página raíz desde la que se inicia la búsqueda. La raíz de búsqueda puede ser un modelo maestro, un idioma maestro o una página normal.
-* **ID** : esta opción permite controlar el identificador único del componente en el HTML y en la capa de  [datos](/help/developing/data-layer/overview.md).
+* **ID** : esta opción permite controlar el identificador único del componente en el HTML y en la capa de  [datos.](/help/developing/data-layer/overview.md)
    * Si se deja en blanco, automáticamente se genera un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
