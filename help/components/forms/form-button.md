@@ -1,7 +1,7 @@
 ---
 title: Componente de botón de formulario
 description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
-role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

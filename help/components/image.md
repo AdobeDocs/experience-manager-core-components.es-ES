@@ -1,7 +1,7 @@
 ---
 title: Componente de imagen
 description: El componente de imagen del componente principal es una función de componente de imagen adaptable que se edita in situ.
-role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

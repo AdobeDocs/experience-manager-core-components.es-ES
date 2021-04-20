@@ -1,8 +1,8 @@
 ---
 title: Módulo it.testing de AEM tipo de archivo del proyecto
 description: Cómo utilizar las pruebas de integración de tipo de archivo del proyecto AEM
-feature: Componentes principales, AEM tipo de archivo del proyecto
-role: Arquitecto, Desarrollador, Administrador
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

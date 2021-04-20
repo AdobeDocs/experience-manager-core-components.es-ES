@@ -1,7 +1,7 @@
 ---
 title: Descargar componente
 description: El componente de descarga de componentes principales permite crear una opción de descarga en una página.
-role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

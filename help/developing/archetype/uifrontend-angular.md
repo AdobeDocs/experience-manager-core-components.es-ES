@@ -1,8 +1,8 @@
 ---
 title: Compilación front-end para SPA de Angular
 description: Descripción del proceso de compilación del front-end para proyectos de SPA basados en Angular
-feature: Componentes principales, AEM tipo de archivo del proyecto
-role: Arquitecto, Desarrollador, Administrador
+feature: Core Components, AEM Project Archetype
+role: Architect, Developer, Administrator
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

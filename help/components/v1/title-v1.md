@@ -2,7 +2,7 @@
 title: Componente de título (v1)
 description: El componente Título de componente principal es un componente de encabezado de sección que incluye la edición in situ.
 index: n
-role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt

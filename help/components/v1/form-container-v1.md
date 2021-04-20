@@ -2,7 +2,7 @@
 title: Componente contenedor de formulario (v1)
 description: El componente Contenedor de formulario de componente principal permite la creación de formularios de envío simples.
 index: n
-role: Arquitecto, Desarrollador, Administrador, Profesional Empresarial
+role: Architect, Developer, Administrator, Business Practitioner
 translation-type: tm+mt
 source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
 workflow-type: tm+mt
