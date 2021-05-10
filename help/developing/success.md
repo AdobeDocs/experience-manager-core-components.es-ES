@@ -2,14 +2,14 @@
 title: Rutas de éxito con los componentes principales
 description: Corrección al implementar el proyecto con los componentes principales
 role: Architect, Developer, Administrator, Business Practitioner
+exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 13%
+source-wordcount: '564'
+ht-degree: 14%
 
 ---
-
 
 # Rutas para el éxito con los componentes principales {#paths-to-success}
 
@@ -41,7 +41,7 @@ Haga referencia a la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_li
 
 ### Usar el kit de IU para Adobe XD {#ui-kit}
 
-Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el [kit de interfaz de usuario para Adobe XD](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/assets/overview/AEM_UI-kit_Wireframe.xd) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
+Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el [kit de interfaz de usuario para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
 
 ## No pase por alto las funciones potentes {#powerful-features}
 
@@ -59,4 +59,4 @@ Si un creador desea reutilizar partes (un fragmento de una experiencia) de una p
 
 ### El componente Incrustar {#embed-component}
 
-[El ](/help/components/embed.md) componente incrustado no solo permite incluir simplemente recursos externos como contenido de vídeo de YouTube, sino que también se puede ampliar para que quepa contenido específico para las necesidades de un proyecto.
+[El ](/help/components/embed.md) componente incrustado no solo permite la inclusión sencilla de recursos externos como contenido de vídeo de YouTube, sino que también se puede ampliar para que quepa contenido específico para las necesidades de un proyecto.
