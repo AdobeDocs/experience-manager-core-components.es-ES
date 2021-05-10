@@ -1,16 +1,16 @@
 ---
 title: Tipo de archivo del proyecto AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
-feature: Core Components, AEM Project Archetype
+feature: Componentes principales, AEM tipo de archivo del proyecto
 role: Architect, Developer, Administrator
+exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 translation-type: tm+mt
-source-git-commit: 0e737fc766225e00c6d9f5a4c2240e05b49a9a62
+source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1040'
 ht-degree: 10%
 
 ---
-
 
 # Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
@@ -55,7 +55,7 @@ Para generar un proyecto, ajuste la siguiente línea de comandos según sus nece
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=26 \
+ -D archetypeVersion=27 \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
@@ -97,7 +97,7 @@ La dependencia de componentes principales solo se agrega para versiones de aem q
 
 | Tipo de archivo | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-26) | Continua | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | Continua | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
 
 Configure su entorno de desarrollo local para [AEM como SDK de Cloud Service](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) o para [versiones anteriores de AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
