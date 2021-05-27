@@ -1,16 +1,15 @@
 ---
 title: Complemento Maven de AEM as a Cloud Service SDK Build Analyzer
 description: Documentación del complemento analizador de compilación local de Maven
-feature: Core Components, AEM Project Archetype
+feature: Componentes principales, AEM tipo de archivo del proyecto
 role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+exl-id: de26b310-a294-42d6-a0db-91f6036a328c
+source-git-commit: de1bb63dc965e6674652bc3e61b515f8f045c6bc
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 3%
+source-wordcount: '510'
+ht-degree: 4%
 
 ---
-
 
 # AEM as a Cloud Service SDK Build Analyzer Maven Plugin {#maven-analyzer-plugin}
 
@@ -21,6 +20,8 @@ Consulte la [documentación de Maven Plugin](https://github.com/adobe/aemanalyse
 >[!NOTE]
 >
 >Se recomienda actualizar el proyecto Maven para que haga referencia a la última versión del complemento que se encuentra en el repositorio central de Maven, en esta ubicación: https://repo1.maven.org/maven2/com/adobe/aem/aemanalyser-maven-plugin/
+
+El complemento utiliza el SDK disponible más reciente que el configurado en el proyecto.
 
 A continuación se muestra una tabla que describe los analizadores que se ejecutan como parte de este paso. <!-- Note that some are executed in the local SDK, while others are only executed during the Cloud Manager pipeline deployment. -->
 
@@ -34,3 +35,6 @@ A continuación se muestra una tabla que describe los analizadores que se ejecut
 | `api-regions-crossfeature-dups` | Valida que los paquetes OSGI del cliente no tengan declaraciones de paquete de exportación que anulen AEM como API pública de un Cloud Service<p> </p>`[WARNING] org.acme:mybundle:0.0.1-SNAPSHOT: Package overlap found between region global and bundle org.acme:mybundle:0.0.1.SNAPSHOT which comes from feature: [org.acme:myproject.analyse:slingosgifeature:0.0.1-SNAPSHOT]. Both export package: com.day.util`<p> </p>Para solucionarlo, deje de exportar un paquete que forme parte de la API pública AEM. | Sí | Sí |
 | `repoinit` | Comprueba la sintaxis de todas las secciones de informes | Sí | Sí |
 | `bundle-nativecode` | Valida que los paquetes OSGI no instalen código nativo. | Sí | Sí |
+| `configuration-api` | Valida configuraciones importantes de OSGi. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Sí | Sí |
+| `region-deprecated-api` | Comprueba si se utiliza [api obsoleta](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
+
