@@ -4,11 +4,10 @@ description: Una plantilla de proyecto para aplicaciones basadas en AEM
 feature: Componentes principales, AEM tipo de archivo del proyecto
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-translation-type: tm+mt
-source-git-commit: 32679158dd71c361f01904b4462a6ec8b33d305c
+source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 10%
+source-wordcount: '1111'
+ht-degree: 9%
 
 ---
 
@@ -18,7 +17,7 @@ El tipo de archivo del proyecto de AEM es una plantilla de Maven que crea un pro
 
 >[!TIP]
 >
->El último tipo de archivo del proyecto de AEM [se encuentra en GitHub](https://github.com/adobe/aem-project-archetype).
+>El último tipo de archivo del proyecto AEM [se encuentra en GitHub.](https://github.com/adobe/aem-project-archetype)
 
 ## Medios {#resources}
 
@@ -47,7 +46,7 @@ El tipo de archivo del proyecto de AEM es una plantilla de Maven que crea un pro
 * **Código de ejemplo:** cierre la compra del componente HelloWorld y de los modelos, servlets, filtros y programadores de ejemplo.
 * **Abrir fuente:** si algo no funciona como debería, ¡ [](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) contribuya con las mejoras!
 
-## Uso
+## Uso {#usage}
 
 Para generar un proyecto, ajuste la siguiente línea de comandos según sus necesidades:
 
@@ -69,10 +68,10 @@ La dependencia de componentes principales solo se agrega para versiones de aem q
 * Ajuste `groupId="com.mysite"` para definir el groupId de Maven y el Paquete de origen de Java.
 * Busque la lista de propiedades disponibles para ver si hay más que desee ajustar.
 
-## Propiedades disponibles
+## Propiedades disponibles {#available-properties}
 
 | Nombre | Predeterminado | Descripción |
---------------------------|----------------|--------------------
+|---------------------------|----------------|--------------------|
 | `appTitle` |  | El título de la aplicación se utilizará para el título del sitio web y los grupos de componentes (p. ej. `"My Site"`). |
 | `appId` |  | Nombre técnico, se utilizará para nombres de componentes, configuración y carpetas de contenido, así como nombres de bibliotecas de cliente (p. ej. `"mysite"`). |
 | `artifactId` | *`${appId}`* | ID del artefacto de Maven base (p. ej. `"mysite"`). |
@@ -92,21 +91,25 @@ La dependencia de componentes principales solo se agrega para versiones de aem q
 | `commerceEndpoint` |  | Necesario solo para CIF. Punto final opcional del servicio GraphQL del sistema de comercio que se va a utilizar (p. ej. `https://hostname.com/grapql`). |
 | `datalayer` | `y` | Active la integración con [Adobe Client Data Layer](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Habilite la compatibilidad con [AMP](/help/developing/amp.md) para plantillas de proyecto generadas. |
+| `enableDynamicMedia` | `n` | Habilita los componentes básicos de Dynamic Media en la configuración de directivas de proyecto y activa las funciones de Dynamic Media en la política del componente de imagen principal. |
+| `enableSSR` | `n` | Opción para habilitar SSR para el proyecto front-end |
 
-## Requisitos del sistema
+## Requisitos del sistema {#requirements}
 
-| Tipo de archivo | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
-|---------|---------|---------|---------|---------|---------|
-| [26](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-27) | Continua | 6.5.5.0+ | 6.4.8.1+ | 8, 11 | 3.3.9+ |
+| Tipo de archivo | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
+|---------|---------|---------|---------|---------|
+| [28](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-28) | Continua | Más de 6.5.7.0 | 8, 11 | 3.3.9+ |
 
 Configure su entorno de desarrollo local para [AEM como SDK de Cloud Service](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) o para [versiones anteriores de AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
-### Problemas conocidos
+### Problemas conocidos {#known-issues}
 
 Cuando se ejecuta en Windows y genera la configuración de Dispatcher, debe estar ejecutando un símbolo del sistema elevado o el Subsistema de Windows para Linux (consulte [#329](https://github.com/adobe/aem-project-archetype/issues/329)).
 
 Al ejecutar el tipo de archivo en modo interactivo (sin el parámetro `-B`), las propiedades con valores predeterminados no se pueden cambiar, a menos que se descarte la confirmación final, que después repite las preguntas incluyendo las propiedades con valores predeterminados en las preguntas (consulte
 [ARCHETYPE-308](https://issues.apache.org/jira/browse/ARCHETYPE-308) para más detalles).
+
+No se puede usar este tipo de archivo en Eclipse al iniciar un nuevo proyecto con `File -> New -> Maven Project`, ya que el script de generación posterior `archetype-post-generate.groovy` no se ejecutará debido a un problema con [Eclipse.](https://bugs.eclipse.org/bugs/show_bug.cgi?id=514993) La solución es usar la línea de comandos anterior y luego usar Eclipse  `File -> Import -> Existing Maven Project`.
 
 ## Lectura adicional {#further-reading}
 
