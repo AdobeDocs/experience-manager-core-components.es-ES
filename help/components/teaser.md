@@ -1,15 +1,14 @@
 ---
 title: Componente teaser
 description: El componente teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '775'
 ht-degree: 2%
 
 ---
-
 
 # Componente teaser {#teaser-component}
 
@@ -41,7 +40,7 @@ La documentación técnica más reciente sobre el componente Teaser [se encuentr
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El autor del contenido puede utilizar el cuadro de diálogo de configuración para definir las propiedades del teaser individual. También existe un [cuadro de diálogo de edición](#edit-dialog) para modificar la imagen de teaser si se selecciona una.
 
@@ -79,11 +78,11 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
 * **Vínculo** : vínculo aplicado al teaser. Utilice el navegador de rutas para seleccionar el destino del vínculo.
 * **Habilitar la llamada a acción** : cuando está marcada esta opción, habilita la definición de la llamada a acción. El primer vínculo de llamada a acción de la lista se utiliza como vínculo para otros elementos de teaser.
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image.md). Por lo tanto, el [cuadro de diálogo de edición](image.md#edit-dialog del componente de imagen está disponible para que el autor del contenido manipule la imagen de teaser.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones de teaser que tiene el autor de contenido al utilizar este componente.
 
