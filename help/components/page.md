@@ -1,15 +1,14 @@
 ---
 title: Componente de página
 description: El componente de página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: fa8ead438093681071b6b6f8ccfbba523f6d3bee
+role: Architect, Developer, Admin, User
+exl-id: 2503e067-abed-427d-8a54-8b79e3451487
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '691'
 ht-degree: 3%
 
 ---
-
 
 # Componente de página{#page-component}
 
@@ -21,7 +20,7 @@ El componente de página forma la base de todas las páginas diseñadas con los 
 
 Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden definir bibliotecas personalizadas del lado del cliente para la página. A diferencia de otros componentes que tienen un cuadro de diálogo de edición accesible directamente desde el componente, ya que el componente de página es la propia página, el [cuadro de diálogo de edición](#edit-dialog) del componente de página es la ventana de propiedades de página.
 
-## Compatibilidad con aplicaciones web progresivas {#pwa-support}
+## Compatibilidad progresiva con aplicaciones web {#pwa-support}
 
 La versión 2.15.0 de los componentes principales introdujo la compatibilidad con AEM como las funciones integradas [Progressive Web Apps (PWA) de un Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Con una configuración simple a nivel de sitio, convierta su experiencia AEM en un PWA!
 
@@ -44,11 +43,11 @@ La documentación técnica más reciente sobre el componente de página [se encu
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 Dado que el componente representa la página completa, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana [Propiedades de página](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 Dado que el componente representa la página completa, se accede al cuadro de diálogo de diseño a través de **Información de página -> Política de página** al editar la plantilla de página.
 
