@@ -2,17 +2,16 @@
 title: Componente de texto del formulario (v1)
 description: El componente Texto del formulario del componente principal permite introducir el texto del formulario para enviarlo.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: d6fbc596-cb42-4478-8a3c-aa5aead3be0a
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '491'
 ht-degree: 8%
 
 ---
 
-
-# Componente de texto de formulario (v1) {#form-text-component-v}
+# Componente de texto del formulario (v1) {#form-text-component-v}
 
 El componente Texto del formulario del componente principal permite introducir el texto del formulario para enviarlo.
 
@@ -91,7 +90,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 >
 >La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el tipo de texto que se va a introducir, así como los valores predeterminados y las etiquetas.
 
@@ -135,7 +134,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 * **Requerido** : si está seleccionado, el usuario debe rellenar un valor antes de enviar el formulario
 * **Convertir en solo lectura** : si está seleccionado, el usuario no puede modificar el valor del campo
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente Texto de formulario.
 
