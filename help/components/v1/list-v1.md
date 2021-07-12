@@ -2,15 +2,14 @@
 title: Componente de lista (v1)
 description: El componente Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '854'
 ht-degree: 4%
 
 ---
-
 
 # Componente de lista (v1) {#list-component-v}
 
@@ -137,7 +136,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 >
 >La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido configurar la lista y los elementos de la lista.
 
@@ -147,7 +146,7 @@ La lista se puede crear de diferentes maneras.
 
 * [Páginas secundarias](#child-pages)
 * [Lista fija](#fixed-list)
-* [Buscar](#search-list)
+* [Búsqueda  ](#search-list)
 * [Etiquetas](#tags)
 
 Independientemente de cómo se cree la lista, hay [Opciones de ordenación](#sort-options) que siempre se pueden configurar.
@@ -179,7 +178,7 @@ Toque o haga clic en el botón **Add** para insertar un nuevo elemento en la lis
 * Utilice el control de arrastre para reorganizar los elementos de la lista.
 * Utilice el icono de la papelera para eliminar elementos de la lista.
 
-#### Búsqueda {#search-list}
+#### Búsqueda   {#search-list}
 
 La lista se puede crear utilizando los resultados de una búsqueda de contenido AEM.
 
@@ -233,7 +232,7 @@ descripciónMostrar descripciones del elemento de vínculo
 * **Mostrar**
 fechaMostrar fecha de modificación del elemento de vínculo
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué tipos de listas se deben permitir a los autores de contenido, así como la configuración de elementos disponible.
 
