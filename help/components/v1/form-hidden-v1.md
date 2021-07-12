@@ -2,15 +2,14 @@
 title: Componente oculto de formulario (v1)
 description: El componente Formulario oculto de componente principal permite la visualización de un campo oculto.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 8e30dac0-5b4b-4fc7-af99-5791c98c90bf
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '335'
 ht-degree: 2%
 
 ---
-
 
 # Componente oculto de formulario (v1) {#form-hidden-component-v}
 
@@ -83,7 +82,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 >
 >La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md#release-history-and-compatibility) para obtener más información.
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo configurar permite al autor del contenido definir los parámetros del campo oculto.
 
@@ -93,7 +92,7 @@ El cuadro de diálogo configurar permite al autor del contenido definir los par�
 * **Valor** : el valor del campo que se envía con los datos del formulario.
 * **Identificador** : el identificador debe ser único en la página y se puede utilizar para enlazar secuencias de comandos a este campo de formulario
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente Formulario oculto.
 
