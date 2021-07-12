@@ -1,15 +1,14 @@
 ---
 title: Componente contenedor
 description: El componente Contenedor de componentes principales permite crear un contenedor para varios componentes adicionales en una página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '797'
+source-wordcount: '792'
 ht-degree: 2%
 
 ---
-
 
 # Componente contenedor{#container-component}
 
@@ -44,7 +43,7 @@ La documentación técnica más reciente sobre el componente de contenedor [se e
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el elemento contenedor y cómo se comportará y aparecerá para un visitante de la página.
 
@@ -60,7 +59,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite que el autor de la plantilla defina las opciones disponibles para el autor de contenido que utiliza el componente de contenedor.
 
