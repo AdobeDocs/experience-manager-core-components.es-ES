@@ -1,17 +1,16 @@
 ---
 title: Componente de navegación por idiomas
 description: El componente de navegación por idioma proporciona un idioma o navegación por país para un sitio, de modo que los visitantes pueden navegar a la misma página en una configuración regional diferente.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '846'
 ht-degree: 2%
 
 ---
 
-
-# Componente de navegación de idioma{#language-navigation-component}
+# Componente de navegación por idiomas{#language-navigation-component}
 
 El componente de navegación de idioma proporciona un idioma o navegación por país para un sitio, de modo que los visitantes pueden navegar a la misma página en una configuración regional diferente.
 
@@ -46,7 +45,7 @@ La documentación técnica más reciente sobre el componente de navegación de i
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de edición permite definir la raíz de navegación del sitio global, así como la profundidad en la estructura que debe ir la navegación.
 
@@ -94,7 +93,7 @@ Independientemente de la página que esté viendo un usuario, el componente Nave
 
 El componente de navegación de idioma es compatible con el sistema de estilos [AEM](/help/get-started/authoring.md#component-styling).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 Normalmente, el componente de navegación de idioma solo necesita agregarse y configurarse en las plantillas de página de un sitio. Sin embargo, si es necesario añadir el componente de Navegación de idioma a una página de contenido individual, el cuadro de diálogo de edición permite a un autor de contenido configurar los mismos valores que se describen en el [cuadro de diálogo de diseño](#design-dialog).
 
