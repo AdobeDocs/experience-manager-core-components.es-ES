@@ -1,15 +1,14 @@
 ---
 title: Componente de título
 description: El componente Título de componente principal es un componente de encabezado de sección que incluye la edición in situ.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 393af72c-549f-4609-afb0-2712f827b549
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '569'
 ht-degree: 3%
 
 ---
-
 
 # Componente de título{#title-component}
 
@@ -42,7 +41,7 @@ La documentación técnica más reciente sobre el componente Título [se encuent
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido definir el texto del título, así como seleccionar el nivel de encabezado.
 
@@ -64,11 +63,11 @@ El editor in situ también se puede utilizar para editar el texto del componente
 
 ![Edición in situ del componente Título](/help/assets/title-edit-inline.png)
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir el nivel de encabezado predeterminado que tendrán los componentes de título cuando los creen los autores de contenido.
 
-### Pestaña Tamaños {#sizes-tab}
+### Ficha Tamaños {#sizes-tab}
 
 ![Cuadro de diálogo de diseño del componente Título](/help/assets/title-design.png)
 
