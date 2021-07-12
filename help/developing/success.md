@@ -1,21 +1,20 @@
 ---
 title: Rutas de éxito con los componentes principales
 description: Corrección al implementar el proyecto con los componentes principales
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-translation-type: tm+mt
-source-git-commit: 056c5bc15ac9e669c3bf6d5da7f060d6eef02608
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '564'
 ht-degree: 14%
 
 ---
 
-# Rutas para el éxito con los componentes principales {#paths-to-success}
+# Rutas de éxito con los componentes principales {#paths-to-success}
 
 Los componentes principales son potentes, flexibles y fáciles de usar y personalizar. Seguir algunas directrices clave como se describe en este documento garantizará que el proyecto con los componentes principales sea un éxito.
 
-## Dos rutas para el éxito {#two-paths}
+## Dos rutas para alcanzar el éxito {#two-paths}
 
 Existen dos enfoques básicos para la aplicación de los componentes básicos, que pueden dar lugar al éxito pero tienen sus propios compromisos que deben considerarse proyecto por proyecto.
 
@@ -39,11 +38,11 @@ En lugar de tener en cuenta únicamente los componentes principales en la fase d
 
 Haga referencia a la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library) que ya se encuentra en la fase de diseño. Los componentes principales son potentes y flexibles y pueden llevarle lejos como punto de partida. Añada únicamente componentes personalizados cuando exista una necesidad empresarial real que realmente no se pueda lograr razonablemente con un componente principal.
 
-### Usar el kit de IU para Adobe XD {#ui-kit}
+### Uso del kit de IU para Adobe XD {#ui-kit}
 
 Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el [kit de interfaz de usuario para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
 
-## No pase por alto las funciones potentes {#powerful-features}
+## No pasa por alto las potentes funciones {#powerful-features}
 
 Las características de AEM y los componentes principales pueden ser muy potentes, pero también muy sutiles y las posibilidades de determinadas funciones podrían no ser inmediatamente aparentes para un diseñador.
 
@@ -57,6 +56,6 @@ Junto con el exportador JSON actualizado, los fragmentos de contenido estructura
 
 Si un creador desea reutilizar partes (un fragmento de una experiencia) de una página. Sin [fragmentos de experiencias,](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html) el autor tendría que copiar y pegar ese fragmento. Crear y mantener estas experiencias de copia y pegado es un proceso laborioso y es posible que el usuario cometa errores. Los fragmentos de experiencias eliminan la necesidad de copiar y pegar.
 
-### El componente Incrustar {#embed-component}
+### El componente Insertar {#embed-component}
 
 [El ](/help/components/embed.md) componente incrustado no solo permite la inclusión sencilla de recursos externos como contenido de vídeo de YouTube, sino que también se puede ampliar para que quepa contenido específico para las necesidades de un proyecto.
