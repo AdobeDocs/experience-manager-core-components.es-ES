@@ -1,16 +1,15 @@
 ---
 title: Integraciones y la capa de datos del cliente de Adobe
 description: Descubra cómo la capa de datos del cliente de Adobe se puede integrar con sus componentes personalizados y cómo las integraciones con Adobe Analytics y Adobe Target pueden ayudarle a obtener perspectivas en su sitio web
-feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principales, capa de datos del cliente de Adobe
+role: Architect, Developer, Admin
+exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '422'
 ht-degree: 0%
 
 ---
-
 
 # Integraciones con la capa de datos del cliente de Adobe {#integrations}
 
@@ -37,7 +36,7 @@ Se puede consultar el atributo `data-cmp-data-layer-enabled` en el lado del clie
 
 Junto con Adobe Analytics y Adobe Target, la capa de datos del cliente de Adobe se convierte en la base de un conjunto de herramientas muy potente y flexible para obtener información sobre sus experiencias digitales. Los siguientes tutoriales le guían a través de integraciones de ejemplo.
 
-### Recopilar datos de página con Adobe Analytics {#collect-page-data}
+### Recopilación de datos de página con Adobe Analytics {#collect-page-data}
 
 Aprenda a utilizar las funciones integradas de la capa de datos del cliente de Adobe con AEM componentes principales para recopilar datos sobre una página en Adobe Experience Manager Sites. Experience Platform Launch y la extensión de Adobe Analytics se utilizarán para crear reglas para enviar datos de página a Adobe Analytics.
 
