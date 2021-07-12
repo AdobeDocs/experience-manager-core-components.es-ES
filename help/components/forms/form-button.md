@@ -1,15 +1,14 @@
 ---
 title: Componente de botón de formulario
 description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '412'
 ht-degree: 4%
 
 ---
-
 
 # Componente de botón de formulario {#form-button-component}
 
@@ -44,7 +43,7 @@ La documentación técnica más reciente sobre el componente Botón de formulari
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo configurar permite que el autor del contenido defina los parámetros del botón.
 
@@ -69,7 +68,7 @@ El cuadro de diálogo configurar permite que el autor del contenido defina los p
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 ### Pestaña Estilos {#styles-tab}
 
