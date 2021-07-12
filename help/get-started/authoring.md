@@ -1,15 +1,14 @@
 ---
 title: Crear con componentes principales
 description: En AEM, los componentes son los elementos estructurales que constituyen el contenido de las páginas creadas. Los componentes principales ofrecen funciones flexibles y personalizables de creación.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '769'
+source-wordcount: '764'
 ht-degree: 8%
 
 ---
-
 
 # Crear con componentes principales
 
