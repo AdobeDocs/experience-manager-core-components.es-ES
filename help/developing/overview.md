@@ -1,10 +1,9 @@
 ---
 title: Desarrollo de componentes principales
 description: Los componentes principales proporcionan componentes básicos sólidos y ampliables que ofrecen funciones enriquecidas, envío continuo, versiones de componentes, implementación moderna, marcado ligero y exportación de contenido JSON.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-translation-type: tm+mt
-source-git-commit: b01fdc7ab6b4d4bb4200d28aaa3706c58ccdea9f
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1591'
 ht-degree: 14%
@@ -32,7 +31,7 @@ Si los componentes funcionan según lo esperado, manténgalos tal cual.
 \
    Si no es así, consulte &quot;Nuevos componentes personalizados&quot; más arriba.
 
-## Cómo realizar el éxito con los componentes principales {#how-to-succeed}
+## Cómo realizar correctamente con los componentes principales {#how-to-succeed}
 
 Los componentes principales son potentes, flexibles y fáciles de usar y personalizar. [Seguir algunas ](success.md) directrices clave garantizará que el proyecto con los componentes principales sea un éxito.
 
@@ -57,7 +56,7 @@ Para obtener más información sobre el uso de estas herramientas, [consulte su 
 >
 >Las AEM Herramientas de modernización son un esfuerzo de la comunidad y no son compatibles ni están garantizadas por el Adobe.
 
-## Migración a través de Mover a AEM como Cloud Service {#via-aemaacs}
+## Migración mediante Mover a AEM como Cloud Service {#via-aemaacs}
 
 Como AEM como Cloud Service viene con la última versión de los componentes principales automáticamente, cuando se desplaza de una instalación de AEM local, deberá eliminar cualquier dependencia de los componentes principales del archivo `pom.xml` de proyectos.
 
@@ -74,7 +73,7 @@ Al igual que cualquier otro proyecto de AEMaaCS, también deberá añadir una de
 
 Consulte el documento [AEM Estructura del proyecto](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html) para obtener más información sobre los proyectos de AEMaaCS.
 
-## Compatibilidad con componentes principales {#core-component-support}
+## Compatibilidad con los componentes principales {#core-component-support}
 
 Los componentes principales son parte integral de AEM y se admiten tal cual bajo los mismos términos y condiciones en los que se admitirían si fueran parte del inicio rápido.
 
@@ -118,7 +117,7 @@ En la tabla siguiente se enumeran los componentes principales disponibles, enlaz
 | [Texto](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/text/v2/text) | Texto enriquecido | `/libs/foundation/components/text /libs/foundation/components/table /libs/wcm/foundation/components/text` |
 | [Imagen](https://adobe.com/go/aem_cmp_tech_image_v2) | Carga inteligente y lenta de un tamaño de representación óptimo | `/libs/foundation/components/image /libs/foundation/components/adaptiveimage /libs/foundation/components/logo /libs/foundation/components/mobileimage  /libs/foundation/components/mobilelogo /libs/wcm/foundation/components/image` |
 | [Lista](https://adobe.com/go/aem_cmp_tech_list_v2) | Lista de páginas | `/libs/foundation/components/list /libs/foundation/components/mobilelist /libs/wcm/foundation/components/list` |
-| [Compartir en redes sociales](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget para compartir Pinterest y Facebook | `-` |
+| [Compartir en redes sociales](https://adobe.com/go/aem_cmp_tech_sharing_v1) | Widget para compartir facebook y Pinterest | `-` |
 | [Contenedor del formulario](https://adobe.com/go/aem_cmp_tech_form_container_v2) | Sistema de párrafos de formulario adaptable | `/libs/foundation/components/form/start /libs/foundation/components/form/end` |
 | [Texto de formulario](https://adobe.com/go/aem_cmp_tech_form_text_v2) | Campo de entrada de texto | `/libs/foundation/components/form/text /libs/foundation/components/form/password` |
 | [Opciones de formulario](https://adobe.com/go/aem_cmp_tech_form_options_v2) | Campo de entrada de varias opciones | `/libs/foundation/components/form/checkbox /libs/foundation/components/form/radio /libs/foundation/components/form/dropdown` |
@@ -146,7 +145,7 @@ En la tabla siguiente se enumeran los componentes principales disponibles, enlaz
 
 Para obtener una descripción general de la próxima hoja de ruta del componente principal, consulte la [wiki del proyecto en GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
-## Actualización de los componentes principales {#upgrade-of-core-components}
+## Actualización de componentes principales {#upgrade-of-core-components}
 
 Una ventaja de los componentes con versiones es que permite separar la migración a una nueva versión AEM de la migración a las nuevas versiones de los componentes. Además, si hay nuevas versiones de componentes disponibles, permite la migración individual de cada componente a la nueva versión.
 
