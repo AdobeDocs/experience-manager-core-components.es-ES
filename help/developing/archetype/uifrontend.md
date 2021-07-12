@@ -1,22 +1,21 @@
 ---
 title: Creación del front-end de tipo de archivo del proyecto de AEM
 description: Una plantilla de proyecto para aplicaciones basadas en AEM
-feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principales, AEM tipo de archivo del proyecto
+role: Architect, Developer, Admin
+exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
-
 
 # Módulo ui.frontend del tipo de archivo del proyecto AEM {#uifrontend-module}
 
 El tipo de archivo del proyecto de AEM incluye un mecanismo de compilación del front-end opcional basado en Webpack. Por lo tanto, el módulo ui.frontend se convierte en la ubicación central de todos los recursos front-end del proyecto, incluidos los archivos JavaScript y CSS. Para aprovechar plenamente esta útil y flexible función, es importante comprender cómo encaja el desarrollo front-end en un proyecto AEM.
 
-## AEM Proyectos y desarrollo front-end {#aem-and-front-end-development}
+## Proyectos AEM y desarrollo front-end {#aem-and-front-end-development}
 
 En términos muy simplificados, AEM proyectos se pueden considerar como dos partes separadas pero relacionadas:
 
@@ -37,7 +36,7 @@ Cuando se ejecuta todo el tipo de archivo del proyecto de AEM utilizando `mvn cl
 >
 >Obtenga más información sobre cómo AEM gestiona las bibliotecas de cliente en la [AEM documentación de desarrollo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html), cómo [incluirlas](/help/developing/including-clientlibs.md) o vea a continuación [cómo las utiliza el módulo ui.frontend.](#clientlib-generation)
 
-## Información general de ClientLibs {#clientlibs}
+## Información general sobre las bibliotecas de cliente {#clientlibs}
 
 El módulo de front-end está disponible mediante un [AEM ClientLib](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Al ejecutar el script de compilación de NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de compilación resultante y la transforma en un ClientLib de este tipo.
 
@@ -68,7 +67,7 @@ En este flujo, un desarrollador de AEM puede realizar los pasos uno y dos y tran
 >
 >También se puede aprovechar la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library) para capturar muestras de la salida de marcado de cada componente para que funcionen a nivel de componente en lugar de a nivel de página.
 
-### Uso de Storybook {#using-storybook}
+### Uso de un libro de historias {#using-storybook}
 
 Al utilizar [Storybook](https://storybook.js.org) puede realizar un desarrollo del front-end atómico más amplio. Aunque Storybook no está incluido en el tipo de archivo del proyecto AEM, puede instalarlo y almacenar los artefactos de Storybook dentro del módulo ui.frontend . Cuando estén listos para realizar pruebas en AEM, se pueden implementar como bibliotecas de cliente ejecutando `npm run dev`.
 
@@ -155,7 +154,7 @@ Convierte entre valores de longitud, tiempo y ángulo equivalentes. Tenga en cue
 >
 >La opción de compilación de front-end utiliza archivos de configuración de webpack solo para desarrollo y de solo prod que comparten un archivo de configuración común. De este modo, la configuración de desarrollo y producción se puede modificar de forma independiente.
 
-### Generación de la biblioteca de cliente {#clientlib-generation}
+### Generación de bibliotecas de clientes {#clientlib-generation}
 
 El proceso de creación del módulo ui.frontend aprovecha el complemento [aem-clientlib-generator](https://www.npmjs.com/package/aem-clientlib-generator) para mover el CSS compilado, JS y cualquier recurso al módulo ui.apps. La configuración de aem-clientlib-generator se define en `clientlib.config.js`. Se generan las siguientes bibliotecas de cliente:
 
