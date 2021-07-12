@@ -1,10 +1,9 @@
 ---
 title: Personalización de componentes principales
 description: Los componentes principales implementan varios patrones que permiten una fácil personalización, desde el estilo simple hasta la reutilización avanzada de la funcionalidad.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-translation-type: tm+mt
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 4%
