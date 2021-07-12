@@ -1,10 +1,9 @@
 ---
 title: Uso de componentes principales
 description: '"Para poner en marcha los componentes principales en su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes de las plantillas".'
-role: Architect, Developer, Administrator, Business Practitioner
+role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-translation-type: tm+mt
-source-git-commit: 45a17fe42146516f351f897e85a4a48dcf3aadab
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 2%
@@ -47,7 +46,7 @@ Algunos puntos que se deben tener en cuenta al utilizar los componentes principa
 * Si el proyecto anteriormente incluía los componentes principales en `/apps`, [es posible que tenga que ajustar el proyecto.](/help/developing/overview.md#via-aemaacs)
 * Aunque los componentes principales se encuentran ahora en `/libs`, no se recomienda crear ninguna superposición de la misma ruta en `/apps`. [En su lugar, se debe utilizar el ](/help/developing/guidelines.md#proxy-component-pattern) patrón de componentes proxy si es necesario personalizar cualquier aspecto de los componentes.
 
-### AEM 6.5 y anterior {#aem-65}
+### AEM 6.5 y anteriores {#aem-65}
 
 Los componentes principales no forman parte del inicio rápido al iniciarse en el modo de producción (sin contenido de muestra). Por lo tanto, el primer paso es [descargar el último paquete de contenido publicado desde GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalarlo en sus entornos AEM.
 
