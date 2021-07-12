@@ -2,17 +2,16 @@
 title: Componente Opciones de formulario (v1)
 description: El componente de opciones del formulario de componentes principales permite seleccionar entre las opciones predefinidas en distintos formatos.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '476'
 ht-degree: 3%
 
 ---
 
-
-# Componente de opciones de formulario (v1) {#form-options-component-v}
+# Componente Opciones de formulario (v1) {#form-options-component-v}
 
 El componente de opciones del formulario de componentes principales permite seleccionar entre las opciones predefinidas en distintos formatos.
 
@@ -113,7 +112,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 >
 >La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el tipo de opciones que se deben presentar, las etiquetas y las opciones disponibles.
 
@@ -144,7 +143,7 @@ TiposPresentación de las opciones
          * **Fuente de datos:**  tipo de recurso de la fuente de datos
 * **Mensaje de ayuda** : una sugerencia para el usuario sobre lo que se puede introducir en el campo
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente Opciones de formulario.
 
