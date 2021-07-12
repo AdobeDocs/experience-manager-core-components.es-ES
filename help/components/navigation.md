@@ -1,15 +1,14 @@
 ---
 title: Componente de navegación
 description: El componente de navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1382'
 ht-degree: 1%
 
 ---
-
 
 # Componente de navegación{#navigation-component}
 
@@ -23,7 +22,7 @@ El componente de navegación puede detectar automáticamente la estructura globa
 
 El [cuadro de diálogo de edición](#edit-dialog) permite que el autor del contenido defina la página raíz de navegación junto con la profundidad de navegación. El [cuadro de diálogo de diseño](#design-dialog) permite que el autor de la plantilla defina los valores predeterminados para la raíz y profundidad de navegación.
 
-## Soporte de estructura de sitio localizada {#localized-site-structure}
+## Compatibilidad con la estructura del sitio localizada {#localized-site-structure}
 
 Los sitios web se proporcionan a menudo en varios idiomas para diferentes regiones. Normalmente, cada página localizada contiene un elemento de navegación que se incluye como parte de la plantilla de página. El componente de navegación le permite colocarlo una vez en una plantilla para todas las páginas del sitio y, a continuación, se adaptará automáticamente para cada página localizada en función de la estructura del sitio globalizada.
 
@@ -115,7 +114,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 >
 >A partir de la versión 2.1.0 de los componentes principales, el componente de navegación admite [microdatos de schema.org](https://schema.org).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 En el cuadro de diálogo de edición, el autor del contenido puede definir la página raíz para la navegación y la profundidad de la estructura de navegación.
 
@@ -145,7 +144,7 @@ En la pestaña **Accesibilidad**, se pueden configurar valores para las etiqueta
 
 * **Etiqueta** : Valor de un atributo de etiqueta ARIA para el componente
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla establecer los valores predeterminados para la página raíz de navegación y la profundidad de navegación que se presentan a los autores de contenido.
 
