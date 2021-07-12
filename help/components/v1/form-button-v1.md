@@ -2,17 +2,16 @@
 title: Componente Botón del formulario (v1)
 description: El componente Formulario oculto de componente principal permite incluir un campo oculto en un formulario.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '342'
 ht-degree: 3%
 
 ---
 
-
-# Componente de botón de formulario (v1) {#form-button-component-v}
+# Componente Botón del formulario (v1) {#form-button-component-v}
 
 El componente Botón de formulario de componente principal permite la inclusión de un campo de botón en un formulario para el déclencheur de una acción.
 
@@ -87,7 +86,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 >
 >La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo configurar permite que el autor del contenido defina los parámetros del botón.
 
@@ -103,7 +102,7 @@ El cuadro de diálogo configurar permite que el autor del contenido defina los p
 * **Nombre** : el nombre del botón que se envía con los datos del formulario.
 * **Valor** : el valor del botón que se envía con los datos del formulario.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente Botón del formulario.
 
