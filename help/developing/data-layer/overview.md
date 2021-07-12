@@ -1,16 +1,15 @@
 ---
 title: Uso de la capa de datos del cliente de Adobe con los componentes principales
 description: Uso de la capa de datos del cliente de Adobe con los componentes principales
-feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principales, capa de datos del cliente de Adobe
+role: Architect, Developer, Admin
+exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '980'
 ht-degree: 5%
 
 ---
-
 
 # Uso de la capa de datos del cliente de Adobe con los componentes principales {#data-layer-core-components}
 
@@ -202,7 +201,7 @@ El siguiente [evento](#events) es relevante para el esquema de imagen:
 
 * `cmp:click`
 
-### Esquema de recursos {#asset}
+### Esquema de recurso {#asset}
 
 El esquema de Asset se utiliza dentro del componente [Image.](/help/components/image.md)
 
@@ -260,7 +259,7 @@ A continuación se muestran los eventos predeterminados proporcionados por AEM c
 * **`cmp:show`** y  **`cmp:hide`** : la manipulación del acordeón (expandir/contraer), el carrusel (botones siguientes/anteriores) y los componentes de pestañas (selección de tabulaciones) hace que la capa de datos se déclencheur  `cmp:show` y se produzca un  `cmp:hide` evento, respectivamente. También se envía un evento `cmp:show` al cargar la página y se espera que sea el primer evento.
 * **`cmp:loaded`** : Tan pronto como se rellena la capa de datos con los componentes principales en la página, la capa de datos déclencheur un  `cmp:loaded` evento.
 
-### Eventos activados por el componente {#events-components}
+### Eventos activados por componente {#events-components}
 
 En las tablas siguientes se enumeran los componentes principales estándar que generan déclencheur en eventos junto con esos eventos.
 
@@ -276,7 +275,7 @@ En las tablas siguientes se enumeran los componentes principales estándar que g
 | [Pestañas](/help/components/tabs.md) | `cmp:show` y `cmp:hide` |
 | [Teaser](/help/components/teaser.md) | `cmp:click` |
 
-### Información de ruta de evento {#event-path-info}
+### Información de la ruta del evento {#event-path-info}
 
 Cada evento de capa de datos activado por un componente principal de AEM incluirá una carga útil con el siguiente objeto JSON:
 
