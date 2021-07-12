@@ -1,15 +1,14 @@
 ---
 title: Componente de fragmento de contenido
 description: El componente Fragmento de contenido del componente principal permite la visualización de un fragmento de contenido.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '673'
 ht-degree: 7%
 
 ---
-
 
 # Componente de fragmento de contenido{#content-fragment-component}
 
@@ -61,7 +60,7 @@ La documentación técnica más reciente sobre el componente de fragmento de con
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir qué fragmento de contenido y qué elementos de ese fragmento se incluyen.
 
@@ -101,7 +100,7 @@ Esta pestaña no está disponible cuando el modo **Multiple Elements** está sel
 * **Párrafos** : permite seleccionar todos los párrafos o un intervalo
 * **Gestionar encabezado como sus propios párrafos**
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite que el autor de la plantilla defina los tipos de recurso utilizados para gestionar imágenes de medios mixtos y cuadrículas adaptables.
 
