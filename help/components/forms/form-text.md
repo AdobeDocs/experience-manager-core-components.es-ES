@@ -1,15 +1,14 @@
 ---
 title: Componente de texto de formulario
 description: El componente Texto del formulario del componente principal permite introducir el texto del formulario para enviarlo.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: e8fa3881-51fb-4726-9654-8f93acfb7464
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '577'
 ht-degree: 7%
 
 ---
-
 
 # Componente de texto de formulario{#form-text-component}
 
@@ -42,7 +41,7 @@ La documentación técnica más reciente sobre el componente de texto del formul
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el tipo de texto que se va a introducir, así como los valores predeterminados y las etiquetas.
 
@@ -86,7 +85,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
    * **Mensaje obligatorio** : Mensaje mostrado como información sobre herramientas si el campo se deja vacío
 * **Convertir en solo lectura** : si está seleccionado, el usuario no puede modificar el valor del campo
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 ### Pestaña Estilos {#styles-tab}
 
