@@ -1,15 +1,14 @@
 ---
 title: Componente de fragmento de experiencia
 description: El componente Fragmento de experiencia permite al autor del contenido añadir una variación de fragmento de experiencia a una página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
-
 
 # Componente de fragmento de experiencia{#experience-fragment-component}
 
@@ -22,7 +21,7 @@ El componente de fragmento de experiencia del componente principal permite al au
 * Las propiedades del componente se pueden definir en el [cuadro de diálogo de configuración](#configure-dialog).
 * Los valores predeterminados del componente al agregarlo a una página se pueden definir en el [cuadro de diálogo de diseño](#design-dialog).
 
-## Soporte de estructura de sitio localizada {#localized-site-structure}
+## Compatibilidad con la estructura del sitio localizada {#localized-site-structure}
 
 El componente Fragmento de experiencia se adapta a las estructuras de sitio localizadas y representa el fragmento de experiencia adecuado en función de la localización de la página. Para ello, el fragmento de experiencia debe cumplir las siguientes condiciones.
 
@@ -113,7 +112,7 @@ La documentación técnica más reciente sobre el componente de fragmento de exp
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido seleccionar la variación del fragmento de experiencia que se debe representar en la página.
 
@@ -129,7 +128,7 @@ También puede definir un **ID**. Esta opción permite controlar el identificado
 * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
 * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones disponibles para el autor de contenido que utiliza el componente Fragmento de experiencia y los valores predeterminados establecidos al colocar el componente Fragmento de experiencia.
 
