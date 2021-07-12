@@ -3,7 +3,7 @@ title: Introducción a los componentes principales
 description: 'Los componentes principales proporcionan componentes básicos sólidos y ampliables, basados en las últimas tecnologías y prácticas recomendadas. '
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: cc1fc14e1ca9125a24c13ac68716951ef790afea
+source-git-commit: 85904d334091f1b9345023a84e8f12abeeb54692
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 25%
@@ -84,7 +84,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 * [Pestañas](components/tabs.md)
 * [Acordeón](components/accordion.md)
 
-### Componentes de formulario{#form-components}
+### Componentes de formulario {#form-components}
 
 * [Contenedor del formulario](components/forms/form-container.md)
 * [Texto de formulario](components/forms/form-text.md)
@@ -106,7 +106,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 | Componentes principales | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2,17,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Continua | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2,17,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Continua | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
