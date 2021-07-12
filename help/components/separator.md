@@ -1,15 +1,14 @@
 ---
 title: Componente de separador
 description: El componente separador crea un salto entre los componentes de una página
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '304'
 ht-degree: 5%
 
 ---
-
 
 # Componente de separador {#separator-component}
 
@@ -39,7 +38,7 @@ La documentación técnica más reciente sobre el componente separador [se encue
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 ![Cuadro de diálogo de edición del componente separador](/help/assets/separator-edit.png)
 
@@ -48,7 +47,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir los estilos aplicados al componente separador.
 
