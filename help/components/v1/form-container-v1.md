@@ -2,17 +2,16 @@
 title: Componente contenedor de formulario (v1)
 description: El componente Contenedor de formulario de componente principal permite la creación de formularios de envío simples.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1e34219f-fa82-494e-82e2-1b4d63d37fea
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '638'
 ht-degree: 3%
 
 ---
 
-
-# Componente contenedor de formularios (v1) {#form-container-component-v1}
+# Componente contenedor de formulario (v1) {#form-container-component-v1}
 
 El componente Contenedor de formulario de componente principal permite la creación de formularios de envío simples.
 
@@ -39,7 +38,7 @@ En la tabla siguiente se muestra la compatibilidad de v1 del componente Contened
 >
 >Para obtener más información sobre la versión actual del componente contenedor de formularios, consulte el documento [Componente contenedor de formularios](/help/components/forms/form-container.md).
 
-## Diálogo de configuración {#settings-dialog}
+## Cuadro de diálogo Configuración {#settings-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir qué acciones se realizan cuando se envía el componente.
 
@@ -103,7 +102,7 @@ Se redirigirá al usuario a la página especificada tras completar el envío del
 * Si la página de agradecimiento no está en AEM, especifique la dirección URL absoluta. Las direcciones URL no absolutas se interpretarán en relación con AEM.
 * Deje en blanco para volver a mostrar el formulario después del envío.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite que el autor de la plantilla defina los componentes permitidos y sus asignaciones para el contenedor de forma similar al cuadro de diálogo de diseño para el [contenedor de diseño estándar en el editor de plantillas](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html#main-pars_title_1754153843).
 
