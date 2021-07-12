@@ -1,15 +1,14 @@
 ---
 title: Configuraciones según el contexto y componentes principales de Sling
 description: Los componentes principales aprovechan las configuraciones según el contexto de Sling para determinadas funciones
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '200'
 ht-degree: 0%
 
 ---
-
 
 # Configuraciones según el contexto y componentes principales de Sling {#sling-context-aware-configurations}
 
