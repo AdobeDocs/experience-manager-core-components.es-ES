@@ -1,17 +1,16 @@
 ---
 title: Componente Acordeón
 description: El componente Acordeón de componentes principales permite crear una colección de paneles organizados en un acordeón de una página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1067'
 ht-degree: 1%
 
 ---
 
-
-# Componente de acordeón{#accordion-component}
+# Componente Acordeón{#accordion-component}
 
 El componente Acordeón de componentes principales permite crear una colección de paneles organizados en un acordeón de una página.
 
@@ -59,7 +58,7 @@ La documentación técnica más reciente sobre el componente Acordeón [se encue
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el elemento de acordeón, sus paneles y cómo se comportará y aparecerá para un visitante de la página.
 
@@ -91,7 +90,7 @@ Utilice el botón **Add** para abrir el selector de componentes y elegir qué co
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Seleccionar el panel emergente {#select-panel-popover}
+## Seleccionar panel emergente {#select-panel-popover}
 
 El autor del contenido puede utilizar la opción **Seleccionar panel** de la barra de herramientas de componentes para cambiar a un panel diferente para editarlo, así como para reorganizar fácilmente el orden de los paneles dentro del acordeón.
 
@@ -106,7 +105,7 @@ Una vez seleccionada la opción **Seleccionar panel** en la barra de herramienta
 * Al tocar o hacer clic en una entrada de la lista desplegable, cambia la vista del editor a ese panel.
 * Los paneles se pueden reorganizar en su lugar mediante los controles de arrastre.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones disponibles para el autor de contenido que utiliza el componente de acordeón y los valores predeterminados establecidos al colocar el componente de acordeón.
 
