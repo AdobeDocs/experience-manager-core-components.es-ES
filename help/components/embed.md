@@ -1,15 +1,14 @@
 ---
 title: Incrustar componente
 description: El componente incrustado permite incrustar contenido externo en una página de contenido AEM.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1346'
+source-wordcount: '1341'
 ht-degree: 2%
 
 ---
-
 
 # Incrustar componente{#embed-component}
 
@@ -44,7 +43,7 @@ La documentación técnica más reciente sobre el componente incrustado [se encu
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo configurar permite al autor del contenido definir el recurso externo que se va a incrustar en la página. Primero elija qué tipo de recurso debe incrustar:
 
@@ -64,7 +63,7 @@ La incrustación más sencilla es la URL. Simplemente pegue la dirección URL de
 
 El componente incrustado se envía con procesadores para los siguientes tipos de recursos:
 
-* Recursos que cumplen con el [oEmbed standard](https://oembed.com/) incluyendo anuncios de Facebook, Instagram, SoundCloud, Twitter y YouTube
+* Recursos que cumplen con el [oEmbed standard](https://oembed.com/), incluidos Facebook Post, Instagram, SoundCloud, Twitter y YouTube
 * Pinterest
 
 Los desarrolladores pueden agregar procesadores de URL adicionales [siguiendo la documentación para desarrolladores del componente incrustado.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
@@ -75,7 +74,7 @@ Los desarrolladores pueden agregar procesadores de URL adicionales [siguiendo la
 
 Las incrustaciones permiten una mayor personalización del recurso incrustado, que se puede parametrizar e incluir información adicional. Un autor puede seleccionar entre incrustaciones de confianza preconfiguradas y el componente se envía con una incrustación de YouTube lista para usar.
 
-El campo **Incrustable** define el tipo de procesador que desea utilizar. En el caso de la incrustación de YouTube, puede definir:
+El campo **Incrustable** define el tipo de procesador que desea utilizar. En el caso de YouTube incrustado, puede definir:
 
 * **ID de vídeo** : el ID de vídeo exclusivo de YouTube del recurso que desea incrustar.
 * **Anchura** : la anchura del vídeo incrustado
@@ -117,7 +116,7 @@ Puede encontrar información de seguridad adicional en la [AEM documentación pa
 >[!NOTE]
 >Aunque las reglas del marco de saneamiento AntiSamy se pueden configurar superponiendo `/libs/cq/xssprotection/config.xml`, estos cambios afectan a todo el comportamiento de HTL y JSP y no solo al componente principal incrustado.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones disponibles para el autor de contenido que utiliza el componente incrustado y los valores predeterminados establecidos al colocar el componente incrustado.
 
@@ -130,17 +129,17 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir las op
 * **Desactivar HTML** : deshabilita la opción  **** HTML para el autor de contenido cuando está seleccionada.
 * **Incrustables permitidos** : permite seleccionar varios procesadores que definen qué procesadores incrustables están disponibles para el autor de contenido, siempre que la opción  **** Incrustar esté activa.
 
-### Pestaña de YouTube {#youtube-tab}
+### Ficha YouTube {#youtube-tab}
 
 ![Ficha YouTube del cuadro de diálogo de diseño del componente incrustado](/help/assets/embed-design-youtube.png)
 
 * **Permitir configuración del comportamiento silencioso** : permite al autor de contenido configurar la opción  **Habilitar** silenciamiento en el componente cuando se selecciona el tipo incrustado de YouTube
-   * **Valor predeterminado de Silenciar** : establece automáticamente  **Enable** Muteoption cuando se selecciona el tipo incrustado de YouTube
+   * **Valor predeterminado de silenciar** : establece automáticamente  **Enable** Silteoption cuando se selecciona el tipo incrustado de YouTube
 * **Permitir configuración del comportamiento de reproducción automática** : permite al autor de contenido configurar la opción  **Habilitar reproducción** automática en el componente cuando se selecciona el tipo incrustado de YouTube
    * **Valor predeterminado de reproducción automática** : establece automáticamente la opción  **Habilitar reproducción** automática cuando se selecciona el tipo incrustado de YouTube
-* **Permitir configuración del comportamiento de bucle** : permite al autor de contenido configurar el  **botón Activar** bucle en el componente cuando se selecciona el tipo incrustado de YouTube
-   * **Valor predeterminado de bucle** : establece automáticamente  **Habilitar** bucle cuando se selecciona el tipo incrustado de YouTube
+* **Permitir configuración del comportamiento del bucle** : permite al autor de contenido configurar el  **Enable** Lopotion en el componente cuando se selecciona el tipo incrustado de YouTube
+   * **Valor predeterminado de bucle** : establece automáticamente  **Enable** Lopotion cuando se selecciona el tipo incrustado de YouTube
 * **Permitir configuración de reproducción en línea (iOS)** : permite al autor de contenido configurar la opción  **Habilitar reproducción en línea (iOS)**  en el componente cuando se selecciona el tipo incrustado de YouTube
    * **Valor predeterminado de reproducción en línea (iOS)** : establece automáticamente la opción  **Habilitar reproducción en línea (iOS)**  cuando se selecciona el tipo incrustado de YouTube
-* **Permitir configuración de vídeos en línea** : permite al autor de contenido configurar la opción  **Vídeos relacionados** sin restricciones en el componente cuando se selecciona el tipo incrustado de YouTube
-   * **Valor predeterminado de vídeos**  relacionados no restringidos: establece automáticamente la opción  **Vídeo relacionado no restringido** cuando se selecciona el tipo incrustado de YouTube
+* **Permitir configuración de vídeos**  en línea: permite al autor de contenido configurar la opción  **Vídeos relacionados** sin restricciones en el componente cuando se selecciona el tipo incrustado de YouTube
+   * **Valor predeterminado de vídeos**  relacionados no restringidos: establece automáticamente la opción  **Vídeos relacionados no restringidos** cuando se selecciona el tipo incrustado de YouTube
