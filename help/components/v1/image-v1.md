@@ -2,15 +2,14 @@
 title: Componente de imagen (v1)
 description: El componente de imagen del componente principal es una función de componente de imagen adaptable que se edita in situ.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1234'
+source-wordcount: '1229'
 ht-degree: 3%
 
 ---
-
 
 # Componente de imagen (v1) {#image-component-v}
 
@@ -76,7 +75,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 >
 >La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 Además del [cuadro de diálogo de edición](#edit-dialog) y [cuadro de diálogo de diseño](#design-dialog) estándar, el componente de imagen ofrece un cuadro de diálogo de configuración en el que la propia imagen se define junto con su descripción y propiedades básicas.
 
@@ -97,7 +96,7 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y [cuadro de diálogo
 * **Pie de ilustración** : la información adicional sobre la imagen que se muestra debajo de la imagen es predeterminada.
 * **Mostrar rótulo como elemento emergente** : si se selecciona, el rótulo no se muestra debajo de la imagen, sino como una ventana emergente que muestran algunos exploradores al pasar el ratón por encima de la imagen.
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido recortar, modificar el mapa de lanzamiento y ampliar la imagen.
 
@@ -178,7 +177,7 @@ El editor in situ también se puede utilizar para modificar la imagen. Debido a 
 >
 >Las operaciones de edición de imágenes (recortar, voltear, rotar) no son compatibles con las imágenes GIF. Los cambios que se hagan en el modo de edición a los GIF no se mantendrán.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir las cargas de recorte, carga y rotación que tiene el autor del contenido al utilizar este componente.
 
