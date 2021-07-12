@@ -1,15 +1,14 @@
 ---
 title: Compatibilidad con AMP para los componentes principales
 description: Los componentes principales admiten AMP - Accelerated Mobile Pages
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '558'
 ht-degree: 1%
 
 ---
-
 
 # Compatibilidad con AMP para los componentes principales {#amp-support}
 
@@ -40,7 +39,7 @@ Aunque la compatibilidad con AMP ofrece un bueno nivel de flexibilidad, para emp
 1. [Habilite la ](#enabling-amp) compatibilidad con AMP en el nivel de plantilla o en sus páginas individuales.
 1. [Implemente ](#css-requirements) CSS en línea según sea necesario.
 
-### Habilitación de AMP para páginas {#enabling-amp}
+### Habilitar AMP para páginas {#enabling-amp}
 
 Para habilitar la AMP para una página, el **modo AMP** debe estar seleccionado en la [Política de página.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
 
