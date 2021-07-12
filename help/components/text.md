@@ -1,15 +1,14 @@
 ---
 title: Componente de texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2213'
 ht-degree: 4%
 
 ---
-
 
 # Componente de texto{#text-component}
 
@@ -44,7 +43,7 @@ La documentación técnica más reciente sobre el componente de texto [se encuen
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## El componente Texto y el editor de texto enriquecido {#the-text-component-and-the-rich-text-editor}
+## El componente de texto y el editor de texto enriquecido {#the-text-component-and-the-rich-text-editor}
 
 El componente Texto de componentes principales aprovecha el Editor de texto enriquecido AEM (RTE). RTE proporciona a los autores de contenido una amplia gama de funciones para editar su contenido de texto. El RTE es muy flexible en su configuración y ofrece una serie de opciones. Puede encontrar más información sobre cómo se puede configurar el RTE en los artículos [Configurar el editor de texto enriquecido](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html) y [Configurar los complementos del editor de texto enriquecido](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
@@ -54,7 +53,7 @@ El resto de este artículo muestra la configuración estándar del componente de
 >
 >En el componente Texto solo están disponibles las opciones activadas por las [configuraciones de interfaz de usuario de RTE](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) en .
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que un usuario esperaría para componer texto.
 
@@ -311,7 +310,7 @@ Esta opción permite controlar el identificador único del componente en el HTML
 * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
 * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué opciones de formato de texto están disponibles para los autores de contenido.
 
