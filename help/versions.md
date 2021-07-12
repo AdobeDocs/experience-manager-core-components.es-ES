@@ -3,7 +3,7 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y versiones y cómo comprender la compatibilidad con los componentes principales y AEM.
 role: Architect, Developer, Administrator, Business Practitioner
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 85904d334091f1b9345023a84e8f12abeeb54692
+source-git-commit: 535e60115d7163b94185113a354c19cb03c402e4
 workflow-type: tm+mt
 source-wordcount: '2174'
 ht-degree: 20%
@@ -26,7 +26,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2,17,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Esta versión del parche incluye una corrección para la [capa de datos](/help/developing/data-layer/overview.md) que no funciona con AEMaaCS. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 2 de julio de 2021 |
+| [2,17,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Esta versión del parche incluye una corrección para la [capa de datos](/help/developing/data-layer/overview.md) que no funciona con AEMaaCS. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 8 de julio de 2021 |
 | [2,17,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Esta versión incluye previsualizaciones técnicas de muchas versiones de componentes nuevas que admiten funciones de controlador de vínculos, así como una previsualización técnica de una función de imagen destacada para el [Componente de página.](/help/components/page.md) También se incluyen varias correcciones de errores. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 16 de junio de 2021 |
 | [2,16,4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Este es un lanzamiento de parche para solucionar un problema con el nuevo controlador de vínculos. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 19 de mayo de 2021 |
 | [2,16,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Este fue un lanzamiento de parches que principalmente solucionaba un problema con el nuevo controlador de vínculos y añadía una mejora para admitir aplicaciones de varias páginas para [PWA.](/help/components/page.md#pwa-support) | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 15 de mayo de 2021 |
