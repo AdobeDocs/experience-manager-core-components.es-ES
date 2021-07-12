@@ -1,15 +1,14 @@
 ---
 title: Componente Opciones de formulario
 description: El componente de opciones del formulario de componentes principales permite seleccionar entre las opciones predefinidas en distintos formatos.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 8a74bd37-9b12-4fa6-bff2-53e337b16251
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '545'
 ht-degree: 3%
 
 ---
-
 
 # Componente Opciones de formulario {#form-options-component}
 
@@ -44,7 +43,7 @@ La documentación técnica más reciente sobre el componente de opciones de form
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el tipo de opciones que se deben presentar, las etiquetas y las opciones disponibles.
 
@@ -75,7 +74,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 ### Pestaña Estilos {#styles-tab}
 
