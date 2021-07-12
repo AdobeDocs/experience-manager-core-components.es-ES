@@ -1,21 +1,20 @@
 ---
 title: Funciones de localización de los componentes principales
 description: Funciones de localización de los componentes principales
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
 
-
-# Características de localización de los componentes principales {#localization-features-of-the-core-components}
+# Funciones de localización de los componentes principales {#localization-features-of-the-core-components}
 
 Muchos sitios web requieren que el contenido se entregue en un formato localizado en varios idiomas y regiones geográficas. Los componentes principales seleccionados presentan una resolución de referencia inteligente para que sea sencillo crear una plantilla unificada para todo el contenido localizado que se adapte automáticamente en función de la estructura del sitio localizado.
 
-## Ejemplo: Página localizada con Navegación y Pies de página {#example}
+## Ejemplo: Página localizada con navegación y pies de página {#example}
 
 La mayoría de los sitios requieren que un pie de página esté presente en todas las páginas. Por lo general, estos pies de página son coherentes en todo el contenido de la página. Sin embargo, para una página de contenido localizada, es necesario mostrar una versión localizada de ese encabezado o pie de página.
 
@@ -106,7 +105,7 @@ El componente de navegación y el componente de fragmento de experiencia provien
 
 ![](/help/assets/screen-shot-2019-09-09-11.22.14.png)
 
-## Agrupación de todo {#fitting-it-all-together}
+## Encuadernación {#fitting-it-all-together}
 
 A continuación se muestra una imagen completa de cómo estos elementos simples pero potentes trabajan juntos para ofrecer páginas localizadas para los autores de contenido.
 
