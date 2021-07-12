@@ -4,9 +4,9 @@ description: Una plantilla de proyecto para aplicaciones basadas en AEM
 feature: Componentes principales, AEM tipo de archivo del proyecto
 role: Architect, Developer, Administrator
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8b3f98d5087ddca6928950daf2db1eb7728fa44e
+source-git-commit: b5ad1c874d5f6d6781c2d0b0cc992b278c91211b
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1118'
 ht-degree: 9%
 
 ---
@@ -54,12 +54,13 @@ Para generar un proyecto, ajuste la siguiente línea de comandos según sus nece
 mvn -B archetype:generate \
  -D archetypeGroupId=com.adobe.aem \
  -D archetypeArtifactId=aem-project-archetype \
- -D archetypeVersion=27 \
+ -D archetypeVersion=XX \
  -D appTitle="My Site" \
  -D appId="mysite" \
  -D groupId="com.mysite" \
 ```
 
+* Sustituya `XX` por el último número de versión del [tipo de archivo.](#requirements)
 * Configure `aemVersion=cloud` para [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html);\
    Configure `aemVersion=6.5.0` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o local.
 La dependencia de componentes principales solo se agrega para versiones de aem que no sean de nube, ya que los componentes principales se proporcionan como OOTB para AEM como Cloud Service.
