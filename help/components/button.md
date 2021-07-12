@@ -1,15 +1,14 @@
 ---
 title: Componente de botón
 description: El componente Botón del componente principal permite la creación y visualización de un botón.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '451'
 ht-degree: 3%
 
 ---
-
 
 # Componente de botón{#button-component}
 
@@ -44,7 +43,7 @@ La documentación técnica más reciente sobre el componente Button [se encuentr
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el botón y cómo se comportará y aparecerá para un visitante de la página.
 
@@ -69,7 +68,7 @@ En la pestaña **Accesibilidad**, se pueden configurar valores para las etiqueta
 
 * **Etiqueta** : Valor de un atributo de etiqueta ARIA para el componente
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 ### Pestaña Estilos {#styles-tab}
 
