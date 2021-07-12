@@ -1,15 +1,14 @@
 ---
 title: Componente de imagen
 description: El componente de imagen del componente principal es una función de componente de imagen adaptable que se edita in situ.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2170'
 ht-degree: 2%
 
 ---
-
 
 # Componente de imagen{#image-component}
 
@@ -27,7 +26,7 @@ El componente de imagen incluye funciones adaptables sólidas listas para usar. 
 
 Además, el componente de imagen admite la carga diferida para aplazar la carga del recurso de imagen real hasta que sea visible en el explorador, lo que aumenta la capacidad de respuesta de las páginas.
 
-## Soporte de Dynamic Media {#dynamic-media}
+## Asistencia de Dynamic Media {#dynamic-media}
 
 El componente Imagen (a partir de [versión 2.13.0](/help/versions.md)) admite [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=en#dynamicmedia) recursos. [Cuando está habilitada, ](#design-dialog)  estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el navegador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
@@ -46,7 +45,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
-## Soporte de SVG {#svg-support}
+## Compatibilidad con SVG {#svg-support}
 
 Los gráficos vectoriales escalables (SVG) son compatibles con el componente de imagen.
 
@@ -74,7 +73,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 El componente Imagen admite [schema.org microdata](https://schema.org).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 Además del [cuadro de diálogo de edición](#edit-dialog) y [cuadro de diálogo de diseño](#design-dialog) estándar, el componente de imagen ofrece un cuadro de diálogo de configuración en el que la propia imagen se define junto con su descripción y propiedades básicas.
 
@@ -113,7 +112,7 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y [cuadro de diálogo
 >
 >**El** ajuste preestablecido de  **imagen de** recorte inteligente es una opción que se excluye mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, el autor deberá utilizar los **Modificadores de imagen** para añadir ajustes preestablecidos manualmente.
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido recortar, modificar el mapa de lanzamiento y ampliar la imagen.
 
@@ -176,11 +175,11 @@ El editor in situ también se puede utilizar para modificar la imagen. Debido a 
 >
 >Las operaciones de edición de imágenes (recortar, voltear, rotar) no son compatibles con las imágenes GIF. Los cambios que se hagan en el modo de edición a los GIF no se mantendrán.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones de recorte, carga, rotación y carga que tiene el autor del contenido al utilizar este componente.
 
-### Pestaña principal {#main-tab}
+### Pestaña Principal {#main-tab}
 
 En la pestaña **Main** puede definir una lista de anchuras en píxeles para la imagen y el componente cargará automáticamente la anchura más adecuada en función del tamaño del explorador. Esta es una parte importante de las [funciones adaptables](#responsive-features) del componente de imagen.
 
