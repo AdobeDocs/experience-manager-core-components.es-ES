@@ -1,10 +1,9 @@
 ---
 title: Instrucciones de los componentes
 description: Los componentes principales siguen patrones de implementación modernos que son bastante diferentes de los componentes de base.
-role: Architect, Developer, Administrator
+role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-translation-type: tm+mt
-source-git-commit: b5b77f21cbeaa46622cef85f3bbaa549f17f1a06
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
 source-wordcount: '1272'
 ht-degree: 2%
@@ -17,7 +16,7 @@ Los [componentes principales](overview.md) siguen patrones de implementación mo
 
 En esta página se explican estos patrones y cuándo utilizarlos para crear sus propios componentes legibles. La primera sección [Patrones generales de componentes](#general-component-patterns) se aplica a cualquier tipo de componente, mientras que la segunda sección [Patrones de componentes reutilizables](#reusable-component-patterns) se aplica a componentes que se van a reutilizar en sitios o proyectos, como los componentes principales, por ejemplo.
 
-## Patrones generales de componentes {#general-component-patterns}
+## Patrones de componentes generales {#general-component-patterns}
 
 Las directrices de esta sección se recomiendan para cualquier tipo de componente, independientemente de si el componente es específico de un solo proyecto o de si el componente debe reutilizarse ampliamente en sitios o proyectos.
 
@@ -84,7 +83,7 @@ Cuando se combina con el [Patrón de componentes proxy](#proxy-component-pattern
 1. Un sitio puede redefinir la implementación de un modelo de Sling registrándolo en el tipo de recurso del componente proxy, sin tener que preocuparse por el archivo HTL, que aún puede apuntar a la interfaz.
 1. Un sitio puede redefinir el marcado HTL de un componente, sin tener que preocuparse por la lógica de implementación a la que debería apuntar.
 
-## Uniéndolo todo {#putting-it-all-together}
+## Uniendo todo {#putting-it-all-together}
 
 A continuación se ofrece una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de los componentes, para evitar que el recurso de contenido contenga ningún número de versión. A continuación, muestra cómo utiliza el archivo `title.html` [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/overview.html) del componente en la interfaz del modelo, mientras que la implementación se une a la versión específica del componente mediante anotaciones del [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
 
