@@ -1,15 +1,14 @@
 ---
 title: Componente Contenedor de formulario
 description: El componente Contenedor de formulario de componente principal permite la creación de formularios de envío simples.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '956'
 ht-degree: 2%
 
 ---
-
 
 # Componente Contenedor de formulario {#form-container-component}
 
@@ -48,7 +47,7 @@ La documentación técnica más reciente sobre el componente [del contenedor de 
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir qué acciones se realizan cuando se envía el componente.
 
@@ -60,7 +59,7 @@ Según el **Tipo de acción** seleccionado, cambiarán las opciones disponibles 
 
 Independientemente del tipo, existen [configuraciones generales](#general-settings) que se aplican a cada acción.
 
-### Publicar datos de formulario {#post-data}
+### Datos de formulario de anuncio {#post-data}
 
 Cuando se envía el formulario, el tipo de acción de datos del formulario de anuncio pasa los datos enviados a un tercero como JSON para su procesamiento.
 
@@ -118,7 +117,7 @@ Independientemente del tipo de acción seleccionado, siempre se puede definir un
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite que el autor de la plantilla defina los componentes permitidos y sus asignaciones para el contenedor de forma similar al cuadro de diálogo de diseño para el [contenedor de diseño estándar en el editor de plantillas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
