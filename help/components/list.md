@@ -1,15 +1,14 @@
 ---
 title: Componente de lista
 description: El componente Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '984'
+source-wordcount: '979'
 ht-degree: 4%
 
 ---
-
 
 # Componente de lista{#list-component}
 
@@ -42,17 +41,17 @@ La documentación técnica más reciente sobre el componente de lista [se encuen
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido configurar la lista y los elementos de la lista.
 
-### Pestaña Configuración de lista {#list-settings-tab}
+### Ficha Configuración de lista {#list-settings-tab}
 
 La lista se puede crear de diferentes maneras.
 
 * [Páginas secundarias](#child-pages)
 * [Lista fija](#fixed-list)
-* [Buscar](#search-options)
+* [Búsqueda  ](#search-options)
 * [Etiquetas](#tags)
 
 Independientemente de cómo se cree la lista, hay [Opciones de ordenación e ID](#sort-options) que siempre se pueden configurar.
@@ -86,7 +85,7 @@ Toque o haga clic en el botón **Add** para insertar un nuevo elemento en la lis
 * Utilice el control de arrastre para reorganizar los elementos de la lista.
 * Utilice el icono de la papelera para eliminar elementos de la lista.
 
-#### Búsqueda {#search-options}
+#### Búsqueda   {#search-options}
 
 La lista se puede crear utilizando los resultados de una búsqueda de contenido AEM.
 
@@ -139,7 +138,7 @@ elementosNúmero máximo de elementos mostrados en la lista.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-### Pestaña Configuración de elementos {#item-settings-tab}
+### Ficha Configuración de elemento {#item-settings-tab}
 
 Con la ficha Configuración de elementos , se puede configurar el formato de los elementos de la lista.
 
@@ -152,7 +151,7 @@ descripciónMostrar descripciones del elemento de vínculo
 * **Mostrar**
 fechaMostrar fecha de modificación del elemento de vínculo
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué tipos de listas se deben permitir a los autores de contenido, así como la configuración de elementos disponible.
 
