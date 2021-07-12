@@ -1,15 +1,14 @@
 ---
 title: Componente de ruta de exploración
 description: El componente de ruta de exploración del componente principal es un componente de navegación que crea una ruta de exploración de vínculos en función de la ubicación de la página en la jerarquía de contenido.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '722'
 ht-degree: 2%
 
 ---
-
 
 # Componente de ruta de exploración{#breadcrumb-component}
 
@@ -48,7 +47,7 @@ La documentación técnica más reciente sobre el componente de ruta de explorac
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido suprimir las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
 
@@ -68,11 +67,11 @@ El cuadro de diálogo de edición permite al autor del contenido suprimir las p�
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir cuáles son los valores predeterminados para que las opciones supriman las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debería mostrar.
 
-### Pestaña principal {#main-tab}
+### Pestaña Principal {#main-tab}
 
 ![](/help/assets/breadcrumb-design.png)
 
