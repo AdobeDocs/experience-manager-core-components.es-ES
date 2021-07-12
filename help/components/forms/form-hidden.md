@@ -1,15 +1,14 @@
 ---
 title: Componente oculto de formulario
 description: El componente Formulario oculto de componente principal permite la visualización de un campo oculto.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '428'
 ht-degree: 3%
 
 ---
-
 
 # Componente oculto de formulario{#form-hidden-component}
 
@@ -44,7 +43,7 @@ La documentación técnica más reciente sobre el componente oculto de formulari
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo configurar permite al autor del contenido definir los parámetros del campo oculto.
 
@@ -61,7 +60,7 @@ Dado que el componente Oculto del formulario normalmente no tiene atributos visi
 
 ![Ejemplo de componente oculto de formulario](/help/assets/form-hidden-example.png)
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 ### Pestaña Estilos {#styles-tab}
 
