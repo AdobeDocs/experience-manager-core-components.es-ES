@@ -1,15 +1,14 @@
 ---
 title: Componente de lista de fragmentos de contenido
 description: El componente Lista de fragmentos de contenido de componentes principales permite mostrar una lista de fragmentos de contenido.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '762'
 ht-degree: 5%
 
 ---
-
 
 # Componente de lista de fragmentos de contenido{#content-fragment-list-component}
 
@@ -44,7 +43,7 @@ La documentación técnica más reciente sobre el componente de lista de fragmen
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo configurar permite al autor del contenido definir qué fragmentos de contenido forman la lista y los elementos de esos fragmentos que se van a incluir.
 
@@ -87,6 +86,6 @@ De forma predeterminada, todos los elementos del Modelo de fragmento de contenid
    * Toque o haga clic en el botón **Delete** para eliminar un elemento seleccionado.
    * Arrastre el control **Order** para reorganizar el orden de los elementos.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir los estilos aplicados al componente de lista de fragmentos de contenido.
