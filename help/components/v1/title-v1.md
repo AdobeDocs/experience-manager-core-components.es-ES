@@ -2,15 +2,14 @@
 title: Componente de título (v1)
 description: El componente Título de componente principal es un componente de encabezado de sección que incluye la edición in situ.
 index: n
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '337'
 ht-degree: 2%
 
 ---
-
 
 # Componente de título (v1) {#title-component-v}
 
@@ -70,7 +69,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 >
 >La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido definir el texto del título, así como seleccionar el nivel de encabezado.
 
@@ -84,7 +83,7 @@ El editor in situ también se puede utilizar para editar el texto del componente
 
 ![](/help/assets/chlimage_1-37.png)
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir el nivel de encabezado predeterminado que tendrán los componentes de título cuando los creen los autores de contenido.
 
