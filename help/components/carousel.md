@@ -1,17 +1,16 @@
 ---
 title: Componente carrusel
 description: El componente Carrusel permite al autor del contenido presentar el contenido en un carrusel giratorio.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1125'
 ht-degree: 1%
 
 ---
 
-
-# Componente de carrusel{#carousel-component}
+# Componente carrusel{#carousel-component}
 
 El componente de carrusel de componentes principales permite al autor del contenido presentar el contenido en un carrusel navegable.
 
@@ -43,7 +42,7 @@ La documentación técnica más reciente sobre el componente Carrusel [se encuen
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido añadir, cambiar el nombre y reorganizar diapositivas, así como definir la configuración de transición automática.
 
@@ -106,7 +105,7 @@ Una vez seleccionada la opción **Seleccionar panel** en la barra de herramienta
 * Al tocar o hacer clic en una entrada de la lista desplegable, cambia la vista del editor a esa diapositiva.
 * La diapositiva se puede reordenar en su lugar mediante los controles de arrastre.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué componentes se pueden añadir como diapositivas al componente de carrusel, así como definir los valores predeterminados de transición automática y qué estilos personalizados están disponibles para el autor del contenido.
 
