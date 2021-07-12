@@ -1,17 +1,16 @@
 ---
 title: Componente de visualizador de PDF
 description: El componente visualizador de PDF permite la visualización de un documento PDF.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '705'
 ht-degree: 3%
 
 ---
 
-
-# Componente de visor de PDF {#pdf-viewer-component}
+# Componente de visualizador de PDF {#pdf-viewer-component}
 
 El componente Core Component PDF Viewer permite la inclusión de un documento PDF en una página.
 
@@ -45,7 +44,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 >
 >El componente visualizador de PDF aprovecha las API de servicios de documentos del [Adobe](https://www.adobe.io/apis/documentcloud/dcsdk.html) y requiere que el administrador configure una [configuración según el contexto](/help/developing/context-aware-configs.md) para utilizar estos servicios. Consulte la documentación técnica del componente para obtener [detalles sobre esta configuración.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 
-## Configurar diálogo {#configure-dialog}
+## Configurar cuadro de diálogo {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el visor y cómo se comportará y aparecerá para un visitante de la página.
 
@@ -55,7 +54,7 @@ La ficha Configuración permite al autor definir qué PDF se debe mostrar. La ru
 
 ![Ficha Configuración del cuadro de diálogo de edición del componente Visor de PDF](/help/assets/pdf-viewer-edit-configuration.png)
 
-### Pestaña Personalizar {#customize-tab}
+### Ficha Personalizar {#customize-tab}
 
 La pestaña Personalizar permite al autor definir las opciones disponibles en el visor para el lector y cómo se debe presentar el visor.
 
@@ -107,6 +106,6 @@ Todas las páginas PDF procesadas en línea dentro de una página web. Esto es m
 * **Descargar PDF** : Cuando está activado, se muestra el botón de descarga.
 * **Imprimir PDF** : cuando está activado, se muestra el botón de impresión.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente visualizador de PDF.
