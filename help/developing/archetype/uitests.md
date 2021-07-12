@@ -1,18 +1,17 @@
 ---
 title: ui.testing Módulo de AEM tipo de archivo del proyecto
 description: Cómo usar las pruebas de interfaz de usuario del tipo de archivo del proyecto AEM
-feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principales, AEM tipo de archivo del proyecto
+role: Architect, Developer, Admin
+exl-id: eb3c9b34-f10e-410f-bcf3-34f94f124c7c
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '120'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
 
-
-# ui.testing Módulo del tipo de archivo del proyecto AEM {#uitests-module}
+# Módulo ui.testing del tipo de archivo del proyecto AEM {#uitests-module}
 
 El proyecto contiene tres niveles de prueba:
 
@@ -22,7 +21,7 @@ El proyecto contiene tres niveles de prueba:
 
 Este artículo describe las pruebas de IU disponibles como parte del módulo ui.testing .
 
-## Ejecución de pruebas de IU {#running-tests}
+## Ejecución de pruebas de interfaz de usuario {#running-tests}
 
 Para probar, ejecute:
 
