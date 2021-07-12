@@ -1,16 +1,15 @@
 ---
 title: Compilación front-end para React SPA
 description: Descripción del proceso de compilación del front-end para proyectos de SPA basados en React
-feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+feature: Componentes principales, AEM tipo de archivo del proyecto
+role: Architect, Developer, Admin
+exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '520'
+source-wordcount: '517'
 ht-degree: 0%
 
 ---
-
 
 # Compilación front-end para React SPA {#frontend-react}
 
@@ -53,7 +52,7 @@ npm test
 
 Este comando inicia el ejecutor de prueba en el modo de reloj interactivo. Consulte la [documentación de React sobre la ejecución de pruebas](https://facebook.github.io/create-react-app/docs/running-tests) para obtener más información.
 
-### compilación npm run {#npm-run-build}
+### compilación de ejecución de npm {#npm-run-build}
 
 ```shell
 npm run build
@@ -63,7 +62,7 @@ Este comando crea la aplicación para producción en la carpeta de compilación.
 
 Además, se genera un AEM ClientLib desde la aplicación utilizando el paquete [aem-clientlib-generator](https://github.com/wcm-io-frontend/aem-clientlib-generator).
 
-## Compatibilidad con exploradores {#browser-support}
+## Compatibilidad con navegadores {#browser-support}
 
 De forma predeterminada, este proyecto utiliza la opción predeterminada [Browserslist](https://github.com/browserslist/browserslist) para identificar los navegadores de destino. Además, incluye polirellenos para las funciones de lenguaje moderno que admiten navegadores más antiguos (por ejemplo, Internet Explorer 11). Si la compatibilidad con estos exploradores no es un requisito, se pueden eliminar las dependencias y las importaciones de polyfill.
 
