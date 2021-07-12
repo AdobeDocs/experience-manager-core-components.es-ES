@@ -1,15 +1,14 @@
 ---
 title: Componente Pestañas
 description: El componente Pestañas permite crear varias fichas para organizar el contenido de una página.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin, User
+exl-id: 0031c5f3-447c-4932-898f-2f453801e492
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1040'
 ht-degree: 2%
 
 ---
-
 
 # Componente Pestañas {#tabs-component}
 
@@ -63,7 +62,7 @@ La documentación técnica más reciente sobre el componente Tabs [se encuentra 
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 El cuadro de diálogo de edición permite al autor del contenido crear, cambiar el nombre y reorganizar fichas, así como definir la pestaña activa.
 
@@ -121,7 +120,7 @@ Una vez seleccionada la opción **Seleccionar panel** en la barra de herramienta
 >
 >El autor no puede seleccionar las fichas cuando se encuentra en modo **Edit**. Utilice el modo **[Preview](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode)** o la opción **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interactuar con las pestañas como lector del contenido publicado.
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué componentes se pueden añadir como elementos al componente de pestañas, así como definir qué estilos personalizados están disponibles para el autor del contenido.
 
