@@ -1,15 +1,14 @@
 ---
 title: Inclusión de bibliotecas de cliente
 description: Existen varias formas de incluir bibliotecas de cliente según el caso de uso.
-role: Architect, Developer, Administrator
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+role: Architect, Developer, Admin
+exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '394'
 ht-degree: 3%
 
 ---
-
 
 # Inclusión de bibliotecas de cliente {#including-client-libraries}
 
@@ -91,7 +90,7 @@ Atributos CSS `link` que se pueden pasar a `jsAndCssIncludes` y `cssIncludes`:
 * `onload`: cadena
 * `crossorigin`: cadena
 
-## Inclinación {#inlining}
+## Introducción {#inlining}
 
 En algunos casos, ya sea para la optimización o para correo electrónico o [AMP,](amp.md) puede ser necesario integrar el CSS o JS en la salida del HTML.
 
@@ -113,7 +112,7 @@ Del mismo modo, para insertar el JS, se puede utilizar `jsInline` , en cuyo caso
 </script>
 ```
 
-## Cargando CSS y JavaScript con contexto {#context-aware-loading}
+## Carga de JavaScript y CSS según el contexto {#context-aware-loading}
 
 El [Componente de página](/help/components/page.md) también admite la carga de etiquetas CSS, JavaScript o meta definidas por el desarrollador y según el contexto.
 
