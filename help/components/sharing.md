@@ -1,19 +1,18 @@
 ---
 title: Componente de uso compartido en redes sociales
-description: El componente principal de uso compartido en medios sociales es un widget de uso compartido de Pinterest y Facebook.
-role: Architect, Developer, Administrator, Business Practitioner
-translation-type: tm+mt
-source-git-commit: d01a7576518ccf9f0effd12dfd8198854c6cd55c
+description: El componente principal de uso compartido en medios sociales es una utilidad de uso compartido de Facebook y Pinterest.
+role: Architect, Developer, Admin, User
+exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
+source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '427'
 ht-degree: 7%
 
 ---
 
+# Componente de uso compartido en redes sociales{#social-sharing-component}
 
-# Componente de uso compartido en medios sociales{#social-sharing-component}
-
-El componente principal de uso compartido en medios sociales es un widget de uso compartido de Pinterest y Facebook.
+El componente principal de uso compartido en medios sociales es una utilidad de uso compartido de Facebook y Pinterest.
 
 ## Uso {#usage}
 
@@ -43,7 +42,7 @@ La documentación técnica más reciente sobre el componente de uso compartido [
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Editar cuadro de diálogo {#edit-dialog}
+## Cuadro de diálogo Editar {#edit-dialog}
 
 ![Cuadro de diálogo de edición del componente de uso compartido](/help/assets/sharing-edit.png)
 
@@ -54,6 +53,6 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe estar habilitado en el nivel de página. Por lo tanto, para el autor del contenido, hay opciones de edición adicionales disponibles para el componente de uso compartido a través de la pestaña de uso compartido [propiedades de página](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
-## Diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe estar habilitado en el nivel de página. Por lo tanto, para el autor de la plantilla, las opciones de diseño para el componente de uso compartido están disponibles a través de las [propiedades de página inicial](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html).
