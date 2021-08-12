@@ -3,16 +3,16 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y versiones y cómo comprender la compatibilidad con los componentes principales y AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: cc8c3275bf251b4c390ee66588f34bac7c0ec218
 workflow-type: tm+mt
-source-wordcount: '2174'
+source-wordcount: '2233'
 ht-degree: 20%
 
 ---
 
 # Versiones de componentes principales {#core-components-versions}
 
-La versión actual de los componentes principales es 2.17.2 y es compatible con [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) y [instalaciones AEM locales](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html).
+La versión actual de los componentes principales es 2.17.8 y es compatible con [AEM como Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html) y [instalaciones AEM locales](https://docs.adobe.com/content/help/en/experience-manager-65/user-guide/home.html).
 
 ## Historial y compatibilidad de la versión {#release-history-and-compatibility}
 
@@ -26,7 +26,9 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2,17,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Esta versión del parche incluye una corrección para la [capa de datos](/help/developing/data-layer/overview.md) que no funciona con AEMaaCS. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 8 de julio de 2021 |
+| [2,17,8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Esta versión del parche Es una versión del parche para corregir un cambio incompatible con versiones anteriores que se introdujo anteriormente. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 2 de agosto de 2021 |
+| [2,17,6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Esta versión de parches es compatible con los mapas del sitio para las páginas e incluye varias mejoras de accesibilidad. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 29 de julio de 2021 |
+| [2,17,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Esta versión del parche incluye una corrección para la [capa de datos](/help/developing/data-layer/overview.md) que no funciona con AEMaaCS. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 8 de julio de 2021 |
 | [2,17,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.0) | Esta versión incluye previsualizaciones técnicas de muchas versiones de componentes nuevas que admiten funciones de controlador de vínculos, así como una previsualización técnica de una función de imagen destacada para el [Componente de página.](/help/components/page.md) También se incluyen varias correcciones de errores. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 16 de junio de 2021 |
 | [2,16,4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.4) | Este es un lanzamiento de parche para solucionar un problema con el nuevo controlador de vínculos. | 6.4.8.1+ * | 6.5.5.0+ * | Continua | 8, 11 | 19 de mayo de 2021 |
 | [2,16,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.16.2) | Este fue un lanzamiento de parches que principalmente solucionaba un problema con el nuevo controlador de vínculos y añadía una mejora para admitir aplicaciones de varias páginas para [PWA.](/help/components/page.md#pwa-support) | 6.4.8.1+ * | Más de 6.5.5.0 * | Continua | 8, 11 | 15 de mayo de 2021 |
