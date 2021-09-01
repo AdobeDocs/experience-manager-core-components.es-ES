@@ -3,9 +3,9 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 5271174f5c325a9793dc155c763054752c7308b8
+source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
 workflow-type: tm+mt
-source-wordcount: '2275'
+source-wordcount: '2279'
 ht-degree: 97%
 
 ---
@@ -26,7 +26,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Este parche mejora los componentes [List](/help/components/list.md) y [Navigation](/help/components/navigation.md) para mostrar la URL externa para los destinos de redireccionamiento, habilita la herencia de imágenes de página para el componente [Teaser](/help/components/teaser.md) y contiene correcciones de errores adicionales. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 31 de agosto de 2021 |
+| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Este parche mejora los componentes [List](/help/components/list.md) y [Navigation](/help/components/navigation.md) para mostrar la URL externa para los destinos de redireccionamiento, habilita la herencia de imágenes de página para la próxima versión 2 del componente [Teaser](/help/components/teaser.md) y contiene correcciones de errores adicionales. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 31 de agosto de 2021 |
 | [2,17,8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Esta versión del parche Es una versión del parche para corregir un cambio incompatible con versiones anteriores que se introdujo anteriormente. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 2 de agosto de 2021 |
 | [2,17,6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.6) | Esta versión de parches es compatible con los mapas del sitio para las páginas e incluye varias mejoras de accesibilidad. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 29 de julio de 2021 |
 | [2.17.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.2) | Esta versión del parche incluye una corrección para la [capa de datos](/help/developing/data-layer/overview.md) que no funciona con AEMaaCS. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 8 de julio de 2021 |
