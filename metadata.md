@@ -1,28 +1,27 @@
 ---
 product: adobe experience manager
-solution: Experience Manager Sites
+solution: Experience Manager, Experience Manager Sites
 type: Documentation
 description: Documentación de los componentes principales de Adobe Experience Manager
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-core-components.es-ES
 index: y
-translation-type: tm+mt
-source-git-commit: 290423c39b925ea8cf4077f31a76ecf01167f344
+source-git-commit: 3897e37ed1e24c4a045b7f6cc716b5cabdd7cf9f
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Metadatos para uso interno
 
-Los metadatos en el sistema de creación de GitHub son jerárquicos y se definen con los siguientes niveles crecientes de precedentes.
+Los metadatos del sistema de creación de GitHub son jerárquicos y se definen con los siguientes niveles crecientes de precedentes.
 
 1. metadata.md
-1. ToC
+1. TDC
 1. Artículo
 
-Los metadatos definidos en el archivo metadata.md se aplican a todo el repositorio, pero se pueden sobrescribir en los niveles de ToC y de artículo. Cualquier anulación de los metadatos debe realizarse en el nivel más bajo posible.
+Los metadatos definidos en el archivo metadata.md se aplican a todo el repositorio, pero se pueden sobrescribir en los niveles de TDC y de artículo. Cualquier anulación de los metadatos debe realizarse en el nivel más bajo posible.
 
 Los metadatos del repositorio experience-manager-core-components.en son los mínimos requeridos.
 
@@ -38,7 +37,7 @@ metadata.md
 * `tutorials-title`
 * `tutorials-url`
 
-ToCs
+TDC
 
 * `sub-product`
 * `user-guide-title`
@@ -49,4 +48,4 @@ Artículo
 * `description`
 * `index: n` (solo para versiones anteriores de componentes)
 
-Encontrará información adicional sobre los metadatos en la [guía de creación interna.](https://docs.adobe.com/help/en/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
+Encontrará información adicional sobre los metadatos en la [guía de creación interna.](https://docs.adobe.com/help/es/collaborative-doc-instructions/collaboration-guide/markdown/metadata.html#solution-metadata)
