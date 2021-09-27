@@ -1,91 +1,91 @@
 ---
-title: Componente de lista de fragmentos de contenido
-description: El componente Lista de fragmentos de contenido de componentes principales permite mostrar una lista de fragmentos de contenido.
+title: Componente Lista de fragmentos de contenido
+description: El componente principal Lista de fragmentos de contenido permite mostrar una lista de fragmentos de contenido.
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '762'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
-# Componente de lista de fragmentos de contenido{#content-fragment-list-component}
+# Componente Lista de fragmentos de contenido{#content-fragment-list-component}
 
-El componente Lista de fragmentos de contenido de componentes principales permite mostrar una lista de [fragmentos de contenido](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
+El componente principal Lista de fragmentos de contenido permite mostrar una lista de [fragmentos de contenido](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
 ## Uso {#usage}
 
-El componente de lista de fragmentos de contenido del componente principal permite incluir una lista de [fragmentos de contenido](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) en una página basada en un modelo de fragmento de contenido. Esto puede resultar especialmente útil para crear [contenido sin encabezado](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que otras aplicaciones pueden consumir fácilmente.
+El componente principal Lista de fragmentos de contenido permite incluir una lista de [fragmentos de contenido](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) en una página basada en un modelo de fragmento de contenido. Esto puede resultar especialmente útil para crear [contenido sin encabezado](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que otras aplicaciones pueden consumir fácilmente.
 
 * La lista y sus propiedades se pueden seleccionar en el [cuadro de diálogo de configuración](#configure-dialog).
 * Los estilos se pueden aplicar al componente en el [cuadro de diálogo de diseño](#design-dialog).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de fragmento de contenido es v1, que se introdujo con la versión 2.4.0 de los componentes principales en mayo de 2019 y se describe en este documento.
+La versión actual del componente Fragmento de contenido es la versión 1, que se introdujo con la versión 2.4.0 de los componentes principales en mayo de 2019 y se describe en este documento.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
+La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión 1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
-## Salida de componente de ejemplo {#sample-component-output}
+## Salida del componente de ejemplo {#sample-component-output}
 
-Para obtener información sobre el componente de lista de fragmentos de contenido, así como ejemplos de sus opciones de configuración, así como sobre la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_cflist).
+Para obtener información sobre el componente Lista de fragmentos de contenido, así como ejemplos de sus opciones de configuración, así como sobre la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_cflist_es).
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de lista de fragmentos de contenido [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1).
+La documentación técnica más reciente sobre el componente Lista de fragmentos de contenido [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_cflist_v1_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar cuadro de diálogo {#configure-dialog}
+## Cuadro de diálogo de configuración {#configure-dialog}
 
-El cuadro de diálogo configurar permite al autor del contenido definir qué fragmentos de contenido forman la lista y los elementos de esos fragmentos que se van a incluir.
+El cuadro de diálogo de configuración permite al autor del contenido definir qué fragmentos de contenido forman la lista y los elementos de esos fragmentos que se van a incluir.
 
-### Ficha Propiedades
+### Pestaña Propiedades
 
-La pestaña **Properties** define qué fragmentos de contenido se incluyen en la lista. Se basa principalmente en un modelo de fragmento de contenido seleccionado, pero hay otras opciones de filtro disponibles.
+La pestaña **Propiedades** define qué fragmentos de contenido se incluyen en la lista. Se basa principalmente en un modelo de fragmento de contenido seleccionado, pero hay otras opciones de filtro disponibles.
 
-![Ficha Propiedades del cuadro de diálogo de edición del componente Lista de fragmentos de contenido](/help/assets/content-fragment-list-properties.png)
+![Pestaña Propiedades del cuadro de diálogo de edición del componente Lista de fragmentos de contenido](/help/assets/content-fragment-list-properties.png)
 
-* **Modelo** : ruta al modelo de fragmento de contenido en el que se basa la lista.
-   * De forma predeterminada, todos los fragmentos de contenido del modelo definido como **Model Path** se incluyen en la lista.
-* **Ruta principal** : ruta principal desde la que se debe crear la lista.
-   * Los fragmentos de contenido basados en la **Ruta del modelo** seleccionada se filtrarán a los de la **Ruta principal** especificada.
-      * Toque o haga clic en el botón **Abrir cuadro de diálogo de selección** situado en la parte derecha del campo para especificar la ruta.
-* **Etiquetas** : en la lista solo se incluirán los fragmentos de contenido con las etiquetas especificadas.
-   * Toque o haga clic en el botón **Abrir cuadro de diálogo de selección** situado en la parte derecha del campo para especificar las etiquetas.
-   * Toque o haga clic en la X situada junto a las etiquetas seleccionadas para eliminarlas.
-* **Ordenar por** : Campo del modelo de fragmento de contenido mediante el cual se ordenará la lista
+* **Modelo**: ruta al modelo de fragmento de contenido en el que se basa la lista.
+   * De forma predeterminada, todos los fragmentos de contenido del modelo definido como **Ruta de modelo** se incluyen en la lista.
+* **Ruta principal**: ruta principal desde la que se debe crear la lista.
+   * Los fragmentos de contenido basados en la **Ruta de modelo** seleccionada se filtrarán a los de la **Ruta principal** especificada.
+      * Pulse o haga clic en el botón **Abrir cuadro de diálogo de selección** situado en la parte derecha del campo para especificar la ruta.
+* **Etiquetas**: en la lista solo se incluirán los fragmentos de contenido con las etiquetas especificadas.
+   * Pulse o haga clic en el botón **Abrir cuadro de diálogo de selección** situado en la parte derecha del campo para especificar las etiquetas.
+   * Pulse o haga clic en la X situada junto a las etiquetas seleccionadas para eliminarlas.
+* **Ordenar por**: campo del modelo de fragmento de contenido mediante el cual se ordenará la lista
    * Solo se pueden seleccionar los campos de texto (numéricos, de fecha y hora).
-* **Orden** : orden en que se ordenará la lista por campo  **Ordenar** por campo
+* **Orden**: orden que seguirá la lista con el campo **Ordenar por**
    * Ascendente o descendente
-* **Máximo de elementos** : número máximo de elementos que se mostrarán en la lista
-   * Ningún valor devolverá todos los elementos.
-* **ID** : esta opción permite controlar el identificador único del componente en el HTML y en la capa de  [datos](/help/developing/data-layer/overview.md).
-   * Si se deja en blanco, automáticamente se genera un ID único que se puede encontrar inspeccionando la página resultante.
+* **Máximo de elementos**: número máximo de elementos que se mostrarán en la lista
+   * Si no hay ningún valor, se devolverán todos los elementos.
+* **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
+   * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
-   * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
+   * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
 >[!NOTE]
->Las opciones **Ordenar por**, **Ordenar por** y **Máx. elementos** se introdujeron con la versión 2.7.0 de los componentes principales.
+>Las opciones **Ordenar por**, **Orden** y **Máximo de elementos** se introdujeron con la versión 2.7.0 de Componentes principales.
 
-### Ficha Elementos
+### Pestaña Elementos
 
-De forma predeterminada, todos los elementos del Modelo de fragmento de contenido se incluyen en la lista (a menos que estén limitados por el campo **Max Items** ). La pestaña **Elements** permite especificar solo elementos específicos para incluir.
+De forma predeterminada, todos los elementos del Modelo de fragmento de contenido se incluyen en la lista (a menos que estén limitados por el campo **Máximo de elementos**). La pestaña **Elementos** permite especificar los elementos específicos que se quieren incluir.
 
-![Ficha Elementos del cuadro de diálogo de edición del componente Lista de fragmentos de contenido](/help/assets/content-fragment-list-elements.png)
+![Pestaña Elementos del cuadro de diálogo de edición del componente Lista de fragmentos de contenido](/help/assets/content-fragment-list-elements.png)
 
-* **Elementos** : solo aparecen los elementos de los fragmentos de contenido de la lista especificada.
-   * Toque o haga clic en el botón **Add** para añadir un nuevo elemento.
-   * Toque o haga clic en el botón **Delete** para eliminar un elemento seleccionado.
-   * Arrastre el control **Order** para reorganizar el orden de los elementos.
+* **Elementos**: solo aparecen los elementos de los fragmentos de contenido de la lista especificada.
+   * Pulse o haga clic en el botón **Añadir** para agregar un nuevo elemento.
+   * Pulse o haga clic en el botón **Eliminar** para eliminar un elemento seleccionado.
+   * Arrastre el control **Ordenar** para reorganizar el orden de los elementos.
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite al autor de la plantilla definir los estilos aplicados al componente de lista de fragmentos de contenido.
+El cuadro de diálogo de diseño permite al autor de la plantilla definir los estilos aplicados al componente Lista de fragmentos de contenido.
