@@ -5,9 +5,9 @@ feature: Componentes principales, capa de datos del cliente de Adobe
 role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '422'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Para añadir automáticamente un componente personalizado a la capa de datos:
 1. Defina las propiedades del modelo de componentes personalizado del que debe realizarse un seguimiento.
 1. Añada el atributo `data-cmp-data-layer` al componente personalizado HTL. Por ejemplo, `data-cmp-data-layer="${mycomponent.data.json}"`.
 
-Para convertir automáticamente el déclencheur de capa de datos en un evento `cmp:click` cada vez que se hace clic en un elemento específico del componente personalizado, agregue el atributo `data-cmp-clickable` al elemento al que se va a realizar el seguimiento en el componente personalizado HTL.
+Para convertir automáticamente el activador de la capa de datos en un evento `cmp:click` cada vez que se hace clic en un elemento específico del componente personalizado, agregue el atributo `data-cmp-clickable` al elemento al que se va a realizar el seguimiento en el componente personalizado HTL.
 
 Se puede consultar el atributo `data-cmp-data-layer-enabled` en el lado del cliente para comprobar si la capa de datos está habilitada.
 
@@ -38,12 +38,12 @@ Junto con Adobe Analytics y Adobe Target, la capa de datos del cliente de Adobe 
 
 ### Recopilación de datos de página con Adobe Analytics {#collect-page-data}
 
-Aprenda a utilizar las funciones integradas de la capa de datos del cliente de Adobe con AEM componentes principales para recopilar datos sobre una página en Adobe Experience Manager Sites. Experience Platform Launch y la extensión de Adobe Analytics se utilizarán para crear reglas para enviar datos de página a Adobe Analytics.
+Aprenda a utilizar las funciones integradas de la capa de datos del cliente de Adobe con los componentes principales de AEM para recopilar datos sobre una página en Adobe Experience Manager Sites. Experience Platform Launch y la extensión de Adobe Analytics se utilizarán para crear reglas para enviar datos de página a Adobe Analytics.
 
-[Vea el tutorial aquí.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
+[Vea el tutorial aquí.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=es)
 
 ### Seguimiento de componentes en los que se hizo clic con Adobe Analytics {#track-clicked-components}
 
-Utilice la capa de datos del cliente de Adobe impulsada por eventos con componentes principales AEM para rastrear clics de componentes específicos en un sitio de Adobe Experience Manager. Obtenga información sobre cómo utilizar las reglas en Experience Platform Launch para detectar eventos de clic, filtrar por componente y enviar los datos a un Adobe Analytics con una señalización de seguimiento de vínculos.
+Utilice la capa de datos del cliente de Adobe impulsada por eventos con componentes principales de AEM para rastrear clics de componentes específicos en un sitio de Adobe Experience Manager. Obtenga información sobre cómo utilizar las reglas en Experience Platform Launch para detectar eventos de clic, filtrar por componente y enviar los datos a un Adobe Analytics con una señalización de seguimiento de vínculos.
 
-[Vea el tutorial aquí.](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)
+[Vea el tutorial aquí.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=es)
