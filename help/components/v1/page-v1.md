@@ -1,50 +1,50 @@
 ---
-title: Componente de página (v1)
-description: El componente de página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
+title: Componente Página (versión 1)
+description: El componente Página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 522f32f0-fc06-4ca0-ada2-61bdbc8761e0
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '490'
-ht-degree: 2%
+ht-degree: 100%
 
 ---
 
-# Componente de página (v1) {#page-component-v}
+# Componente Página (versión 1) {#page-component-v}
 
-El componente de página es un componente de página ampliable diseñado para trabajar con el [editor de plantillas](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/templates.html) y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
+El componente Página es un componente de página ampliable diseñado para trabajar con el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/siteandpage/templates.html?lang=es) y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 
 ## Uso {#usage}
 
-El componente de página forma la base de todas las páginas diseñadas con los componentes principales, así como las plantillas editables. Mediante el uso del componente de página, los encabezados, los pies de página y la estructura de la página se pueden definir como una plantilla que utilice los demás componentes principales.
+El componente Página forma la base de todas las páginas diseñadas con los componentes principales, así como las plantillas editables. Mediante el uso del componente Página, los encabezados, los pies de página y la estructura de la página se pueden definir como una plantilla que utilice los demás componentes principales.
 
-Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden definir bibliotecas personalizadas del lado del cliente para la página. A diferencia de otros componentes que tienen un cuadro de diálogo de edición accesible directamente desde el componente, ya que el componente es la propia página, el [cuadro de diálogo de edición](#edit-dialog) del componente de página es la ventana de propiedades de página.
+Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden definir bibliotecas personalizadas del lado del cliente para la página. A diferencia de otros componentes que tienen un cuadro de diálogo de edición accesible directamente desde el componente, ya que el componente es la propia página, el [cuadro de diálogo de edición](#edit-dialog) del componente Página es la ventana de propiedades de página.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 1 del componente de página, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
+Este documento describe la versión 1 del componente Página, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-La siguiente tabla enumera la compatibilidad de v1 del componente de página.
+La siguiente tabla enumera la compatibilidad de v1 del componente Página.
 
-| Versión de AEM | Componente de página v1 |
+| Versión de AEM | Componente Página (versión 1) |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente de página.
+>Este documento describe la versión 1 del componente Página.
 >
->Para obtener más información sobre la versión actual del componente de página, consulte el documento [Componente de página](/help/components/page.md).
+>Para obtener más información sobre la versión actual del componente Página, consulte el documento [Componente Página](/help/components/page.md).
 
 >[!NOTE]
 >
->La versión 1 del componente de página no admite la redirección de páginas. Utilice la [versión actual del componente de página](/help/components/page.md) para la compatibilidad con la redirección de páginas.
+>La versión 1 del componente Página no admite la redirección de páginas. Utilice la [versión actual del componente Página](/help/components/page.md) para admitir la redirección de páginas.
 
-## Salida de componente de ejemplo {#sample-component-output}
+## Salida del componente de ejemplo {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail.html?lang=es).
 
 ### Captura de pantalla {#screenshot}
 
@@ -678,13 +678,13 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 >[!NOTE]
 >
->La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales (versión 1)](/help/versions.md) para obtener más información.
 
-## Cuadro de diálogo Editar {#edit-dialog}
+## Cuadro de diálogo de edición {#edit-dialog}
 
-Dado que el componente representa la página completa, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana [Propiedades de página](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/editing-page-properties.html).
+Dado que el componente representa la página completa, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana [Propiedades de página](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/editing-page-properties.html?lang=es).
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Cuadro de diálogo de diseño {#design-dialog}
 
 Dado que el componente representa la página completa, se accede al cuadro de diálogo de diseño a través de **Información de página -> Diseño de página**.
 
@@ -692,11 +692,11 @@ Dado que el componente representa la página completa, se accede al cuadro de di
 
 Mediante la ventana Diseño de página, puede definir las bibliotecas del lado del cliente que deben cargarse con la página.
 
-* Para agregar un nuevo campo, toque o haga clic en el botón **Add** situado debajo de los campos.
-* Para quitar un campo, toque o haga clic en el icono de la papelera que hay junto al campo que se va a eliminar.
-* Para reorganizar el orden de carga, toque o haga clic en y arrastre el controlador situado junto al campo que desee mover.
+* Para agregar un nuevo campo, toque o haga clic en el botón **Añadir** situado debajo de los campos.
+* Para quitar un campo, pulse el icono de la papelera que hay junto al campo que se va a eliminar o haga clic en él.
+* Para reorganizar el orden de carga, arrastre el controlador situado junto al campo que desee mover.
 
-Para obtener más información sobre el uso de bibliotecas del lado del cliente, consulte [Uso de bibliotecas del lado del cliente](https://helpx.adobe.com/experience-manager/6-3/sites/developing/using/clientlibs.html).
+Para obtener más información sobre el uso de bibliotecas del lado del cliente, consulte [Uso de bibliotecas del lado del cliente](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=es).
 
 ![](/help/assets/chlimage_1-95.png)
 
