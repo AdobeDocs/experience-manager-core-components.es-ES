@@ -1,23 +1,23 @@
 ---
-title: Componente de lista (v1)
-description: El componente Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
+title: Componente Lista (versión 1)
+description: El componente principal Lista permite crear fácilmente listas dinámicas y estáticas.
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '854'
-ht-degree: 4%
+ht-degree: 100%
 
 ---
 
-# Componente de lista (v1) {#list-component-v}
+# Componente Lista (versión 1) {#list-component-v}
 
-El componente Lista de componentes principales permite crear fácilmente listas dinámicas y estáticas.
+El componente principal Lista permite crear fácilmente listas dinámicas y estáticas.
 
 ## Uso {#usage}
 
-El componente Lista se puede utilizar para crear, por ejemplo, una lista dinámica de páginas secundarias o una lista estática de elementos definidos arbitrariamente.
+El componente Lista se puede utilizar para crear, por ejemplo, una lista dinámica de páginas secundarias o una estática de elementos definidos arbitrariamente.
 
 El autor de la plantilla puede definir el tipo de listas disponibles y las opciones de formato en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede seleccionar entre los tipos de lista disponibles y cómo dar formato a los elementos de la lista en el [cuadro de diálogo de edición](#edit-dialog).
 
@@ -25,9 +25,9 @@ El autor de la plantilla puede definir el tipo de listas disponibles y las opcio
 
 Este documento describe la versión 1 del componente Lista, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-La siguiente tabla enumera la compatibilidad de v1 del componente de lista.
+La siguiente tabla enumera la compatibilidad de la versión 1 del componente Lista.
 
-| Versión de AEM | Componente de lista v1 |
+| Versión de AEM | Versión 1 del componente Lista |
 |--- |--- |
 | 6.3 | Compatible |
 | 6.4 | Compatible |
@@ -36,11 +36,11 @@ La siguiente tabla enumera la compatibilidad de v1 del componente de lista.
 >
 >Este documento describe la versión 1 del componente Lista.
 >
->Para obtener más información sobre la versión actual del componente de lista, consulte el documento [Componente de lista](/help/components/list.md).
+>Para obtener más información sobre la versión actual del componente Lista, consulte el documento [Componente Lista](/help/components/list.md).
 
-## Salida de componente de ejemplo {#sample-component-output}
+## Salida del componente de ejemplo {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail.html?lang=es).
 
 ### Captura de pantalla {#screenshot}
 
@@ -134,60 +134,60 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 >[!NOTE]
 >
->La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales (versión 1)](/help/versions.md) para obtener más información.
 
-## Cuadro de diálogo Editar {#edit-dialog}
+## Cuadro de diálogo de edición {#edit-dialog}
 
-El cuadro de diálogo de edición permite al autor del contenido configurar la lista y los elementos de la lista.
+El cuadro de diálogo de edición permite al autor del contenido configurar la lista y sus elementos.
 
 ### Ajustes de la lista {#list-settings}
 
-La lista se puede crear de diferentes maneras.
+La lista se puede generar de diferentes maneras.
 
 * [Páginas secundarias](#child-pages)
 * [Lista fija](#fixed-list)
-* [Búsqueda  ](#search-list)
+* [Búsqueda](#search-list)
 * [Etiquetas](#tags)
 
-Independientemente de cómo se cree la lista, hay [Opciones de ordenación](#sort-options) que siempre se pueden configurar.
+Independientemente de cómo se genere la lista, hay [Opciones de clasificación](#sort-options) que siempre se pueden configurar.
 
 ![](/help/assets/chlimage_1-38.png)
 
-Según la forma en que el autor del contenido elija crear la lista, cambiarán las opciones de configuración adicionales.
+Según la forma en la que el autor del contenido elija crear la lista, las opciones de configuración adicionales cambiarán.
 
 #### Páginas secundarias {#child-pages}
 
-La lista se puede crear a partir de las páginas secundarias de la página actual u otra página.
+La lista se puede crear a partir de las páginas secundarias de la página actual o de otra página.
 
 ![](/help/assets/chlimage_1-39.png)
 
 * **Página principal**
    * La página cuyas páginas secundarias deben aparecer en la lista
-   * Dejar en blanco para usar la página actual
-* **Profundidad-secundaria** : cuántos niveles inferiores de la jerarquía se deben usar
+   * Déjelo en blanco para utilizar la página actual
+* **Profundidad-secundaria**: cuántos niveles inferiores de la jerarquía se deben usar
 
 #### Lista fija {#fixed-list}
 
-La lista se puede crear con una lista fija de elementos.
+La lista se puede crear mediante una lista fija de elementos.
 
 ![](/help/assets/chlimage_1-40.png)
 
-Toque o haga clic en el botón **Add** para insertar un nuevo elemento en la lista.
+Pulse o haga clic en el botón **Añadir** para insertar un nuevo elemento en la lista.
 
-* Escriba texto para el elemento en la lista o utilice el **Cuadro de diálogo de selección** para elegir un elemento de AEM.
-* Utilice el control de arrastre para reorganizar los elementos de la lista.
+* Escriba texto para el elemento de la lista o utilice el **Cuadro de diálogo de selección** para elegir un elemento de AEM.
+* Utilice el controlador de arrastre para reorganizar los elementos de la lista.
 * Utilice el icono de la papelera para eliminar elementos de la lista.
 
-#### Búsqueda   {#search-list}
+#### Búsqueda {#search-list}
 
-La lista se puede crear utilizando los resultados de una búsqueda de contenido AEM.
+La lista se puede crear utilizando los resultados de una búsqueda de contenido de AEM.
 
 ![](/help/assets/chlimage_1-41.png)
 
-* **Consulta de búsqueda** : La cadena para la que se ejecutará una búsqueda de texto completo para generar los elementos de la lista.
-* **Buscar en** : donde se debe ejecutar la búsqueda
+* **Consulta de búsqueda**: cadena para la que se ejecutará una búsqueda de texto completo para generar los elementos de la lista.
+* **Buscar en**: donde se debe ejecutar la búsqueda
    * Utilice el **Cuadro de diálogo de selección** para elegir la ubicación en AEM
-   * Usar la página actual si se deja en blanco
+   * Si se deja en blanco se usará la página actual
 
 #### Etiquetas {#tags}
 
@@ -195,72 +195,72 @@ La lista se puede crear utilizando páginas que coincidan con determinadas etiqu
 
 ![](/help/assets/chlimage_1-42.png)
 
-* **Página principal** : donde debería comenzar la coincidencia de etiquetas
+* **Página principal**: donde se debería iniciar la coincidencia de etiquetas
    * Utilice el **Cuadro de diálogo de selección** para elegir la ubicación en AEM
-   * Usar la página actual si se deja en blanco
-* **Etiquetas** : Qué etiquetas deben coincidir
-   * Utilice el cuadro de diálogo **Browse** para seleccionar las etiquetas
-* **Coincidencia** : defina qué tipo de coincidencia debe clasificar una página para incluirla en la lista
+   * Si se deja en blanco se usará la página actual
+* **Etiquetas**: qué etiquetas deben coincidir
+   * Utilice el cuadro de diálogo **Examinar** para seleccionar las etiquetas
+* **Coincidencia**: definir qué tipo de coincidencia debe condicionar a una página para incluirla en la lista
    * **cualquier etiqueta**
    * **todas las etiquetas**
 
 #### Opciones de ordenación {#sort-options}
 
-Independientemente de cómo elija crear la lista, hay ciertas opciones de clasificación que siempre se pueden definir.
+Independientemente de cómo elija generar la lista, hay ciertas opciones de clasificación que siempre se pueden definir.
 
 ![](/help/assets/chlimage_1-43.png)
 
-* **Ordenar por** : Cómo se deben ordenar los elementos
+* **Ordenar por**: cómo se deben ordenar los elementos
    * **Título**
    * **Fecha de la última modificación**
-* **Orden** : orden en el que se deben ordenar los elementos.
+* **Orden**: orden en el que se deben ordenar los elementos.
    * **ascendente**
    * **descendente**
-* **Máximo de elementos** : número máximo de elementos mostrados en la lista.
-   * Deje vacío para devolver todos los elementos.
+* **Artículos máximos**: número máximo de elementos mostrados en la lista.
+   * Déjelo vacío para ver todos los elementos.
 
-### Ajustes del elemento {#item-settings}
+### Configuración del elemento {#item-settings}
 
 Con la pestaña **Configuración de elementos**, se puede configurar el formato de los elementos de la lista.
 
 ![](/help/assets/chlimage_1-44.png)
 
-* **Vincular**
-elementosVincular elementos a la página correspondiente
-* **Mostrar**
-descripciónMostrar descripciones del elemento de vínculo
-* **Mostrar**
-fechaMostrar fecha de modificación del elemento de vínculo
+* **Vincular elementos**
+Vincular elementos a la página correspondiente
+* **Mostrar descripción**
+Mostrar descripciones del elemento de vínculo
+* **Mostrar fecha**
+Mostrar fecha de modificación del elemento vinculado
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Cuadro de diálogo de diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué tipos de listas se deben permitir a los autores de contenido, así como la configuración de elementos disponible.
 
 ### Ajustes de la lista {#list-settings-1}
 
-En la pestaña **Configuración de lista**, se puede definir el formato de fecha y qué tipo de listas deben estar disponibles en el componente para los autores de contenido.
+En la pestaña **Configuración de la lista**, se puede definir el formato de fecha y qué tipo de listas deben estar disponibles en el componente para los autores de contenido.
 
 ![](/help/assets/chlimage_1-45.png)
 
-* **Formato de fecha** : formato que se utilizará para la visualización de la fecha de la última modificación.
-* **Deshabilitar elementos secundarios** : desactive el tipo de lista de elementos secundarios en el componente
-* **Deshabilitar estático** : desactive el tipo de lista estática en el componente
-* **Desactivar búsqueda** : desactive el tipo de lista de búsqueda en el componente
-* **Desactivar etiquetas** : Desactivar el tipo de lista de etiquetas en el componente
+* **Formato de fecha**: formato que se usará para visualizar la fecha de la última modificación
+* **Deshabilitar elementos secundarios**: deshabilitar la lista de elementos secundarios en el componente
+* **Deshabilitar estático**: deshabilitar la lista estática en el componente
+* **Deshanilitar búsqueda**: deshabilitar la lista de búsqueda en el componente
+* **Deshabilitar etiquetas**: deshabilitar la lista de etiquetas en el componente
 
-### Ajustes del elemento {#item-settings-1}
+### Configuración del elemento {#item-settings-1}
 
 En la pestaña **Configuración de elementos**, se pueden definir las opciones de formato para los elementos de lista individuales que deben estar disponibles en el componente para los autores de contenido.
 
 ![](/help/assets/chlimage_1-46.png)
 
-* **Elementos de vínculo** : opción Habilitar elementos de vínculo en el cuadro de diálogo de  [edición](#edit-dialog)
-* **Mostrar descripciones** : active la opción Mostrar descripciones en el cuadro de diálogo de  [edición](#edit-dialog)
-* **Mostrar fecha** : opción Habilitar fecha en el cuadro de diálogo de  [edición](#edit-dialog)
+* **Elementos de vínculo**: habilitar la opción de elementos de vínculo en el [cuadro de diálogo de edición](#edit-dialog)
+* **Mostrar descripciones**: activar la opción de mostrar descripciones en el [cuadro de diálogo de edición](#edit-dialog)
+* **Mostrar fecha**: habilitar la opción de fecha en el [cuadro de diálogo de edición](#edit-dialog)
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de lista [se encuentra en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
+La documentación técnica más reciente sobre el componente Lista [se encuentra en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/list/v1/list).
 
 Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
