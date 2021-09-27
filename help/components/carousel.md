@@ -1,16 +1,16 @@
 ---
-title: Componente carrusel
+title: Componente Carrusel
 description: El componente Carrusel permite al autor del contenido presentar el contenido en un carrusel giratorio.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1125'
-ht-degree: 1%
+ht-degree: 100%
 
 ---
 
-# Componente carrusel{#carousel-component}
+# Componente Carrusel{#carousel-component}
 
 El componente de carrusel de componentes principales permite al autor del contenido presentar el contenido en un carrusel navegable.
 
@@ -18,76 +18,76 @@ El componente de carrusel de componentes principales permite al autor del conten
 
 Con el componente Carrusel, el autor del contenido organizará el contenido en un carrusel giratorio de diapositivas.
 
-El [cuadro de diálogo de edición](#edit-dialog) permite al autor de contenido crear, asignar nombres y ordenar varias diapositivas, así como habilitar la transición automática con demora. Con el [cuadro de diálogo de diseño](#design-dialog), el autor de la plantilla puede definir qué componentes se pueden agregar al carrusel, habilitar o deshabilitar las transiciones automáticas y personalizar los estilos.
+El [cuadro de diálogo de edición](#edit-dialog) permite al autor de contenido crear, asignar nombres y ordenar varias diapositivas, así como habilitar la transición automática con retraso. Con el [cuadro de diálogo de diseño](#design-dialog), el autor de la plantilla puede definir qué componentes se pueden agregar al carrusel, habilitar o deshabilitar las transiciones automáticas y personalizar los estilos.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Carrusel es v1, que se introdujo con la versión 2.2.0 de los componentes principales en octubre de 2018 y se describe en este documento.
+La versión actual del componente Carrusel es la versión 1, que se introdujo con la versión 2.2.0 de los componentes principales en octubre de 2018 y se describe en este documento.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
+La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión 1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
-## Salida de componente de ejemplo {#sample-component-output}
+## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente Carrusel, así como ver ejemplos de sus opciones de configuración, así como HTML y salida JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_carousel).
+Para experimentar el componente Carrusel, ver ejemplos de sus opciones de configuración y HTML y salida JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_carousel_es).
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Carrusel [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1).
+La documentación técnica más reciente sobre el componente Carrusel [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Cuadro de diálogo Editar {#edit-dialog}
+## Cuadro de diálogo de edición {#edit-dialog}
 
-El cuadro de diálogo de edición permite al autor del contenido añadir, cambiar el nombre y reorganizar diapositivas, así como definir la configuración de transición automática.
+El cuadro de diálogo de edición permite al autor del contenido añadir, cambiar el nombre y reorganizar las diapositivas, así como definir la configuración de transición automática.
 
-### Ficha Elementos {#items-tab}
+### Pestaña Elementos {#items-tab}
 
-![Ficha Elementos del cuadro de diálogo de edición del componente Carrusel](/help/assets/carousel-edit-items.png)
+![Pestaña Elementos del cuadro de diálogo de edición del componente Carrusel](/help/assets/carousel-edit-items.png)
 
-Utilice el botón **Add** para abrir el selector de componentes y elegir qué componente añadir como pestaña. Una vez añadida, se añade una entrada a la lista, que contiene las columnas siguientes:
+Utilice el botón **Añadir** para abrir el selector de componentes y elegir qué componente añadir como pestaña. Una vez añadida, se añade una entrada a la lista, que contiene las siguientes columnas:
 
-* **Icono** : el icono del tipo de componente de la pestaña para facilitar la identificación en la lista. Pase el ratón por encima para ver el nombre completo del componente como información sobre herramientas.
-* **Descripción** : La descripción utilizada como texto de la pestaña, de forma predeterminada, es el nombre del componente seleccionado para la pestaña.
-* **Eliminar** : toque o haga clic para eliminar la ficha del componente de pestañas.
-* **Reordenar** : toque o haga clic y arrastre para ordenar las pestañas.
+* **Icono**: el icono del tipo de componente de la pestaña para facilitar la identificación en la lista. Pase el ratón por encima para ver el nombre completo del componente como información sobre herramientas.
+* **Descripción**: la descripción utilizada como texto de la pestaña, de forma predeterminada, es el nombre del componente seleccionado para la pestaña.
+* **Eliminar**: toque o haga clic para eliminar la pestaña del componente de pestañas.
+* **Reordenar**: toque o haga clic y arrastre para ordenar las pestañas.
 
 >[!TIP]
 >
->Si la ventanilla móvil de la página se reduce para que el cuadro de diálogo de edición pase a estar en pantalla completa, el botón **Add** se ocultará. Los componentes se pueden añadir al componente de carrusel arrastrando [desde el navegador de componentes y soltando en el componente de carrusel en el editor de páginas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Si la ventana móvil de la página se reduce para que el cuadro de diálogo de edición pase a estar en pantalla completa, el botón **Añadir** se ocultará. Los componentes se pueden añadir al componente de carrusel [arrastrando desde el explorador de componentes y soltando en el componente de carrusel en el editor de páginas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
 
-### Ficha Propiedades {#properties-tab}
+### Pestaña Propiedades {#properties-tab}
 
-![Ficha Propiedades del cuadro de diálogo de edición del componente Carrusel](/help/assets/carousel-edit-properties.png)
+![Pestaña Propiedades del cuadro de diálogo de edición del componente Carrusel](/help/assets/carousel-edit-properties.png)
 
-En la pestaña **Properties**, el autor del contenido puede configurar las diapositivas para la transición automática.
+En la pestaña **Propiedades**, el autor del contenido puede configurar la transición automática de las diapositivas.
 
-* **Transición automática de diapositivas** : cuando esté activo, el componente avanzará automáticamente a la siguiente diapositiva después de un retraso especificado.
-* **Retraso de transición** : cuando se selecciona Automáticamente diapositivas de transición, este valor se utiliza para definir el retardo entre transiciones (en milisegundos).
-* **Deshabilitar la pausa automática al pasar el cursor** : cuando se selecciona la  **diapositiva de transición** automática, la transición de carrusel se pausa automáticamente cada vez que el cursor pasa el ratón sobre el carrusel. Seleccione esta opción para que la transición no se detenga.
-* **ID** : esta opción permite controlar el identificador único del componente en el HTML y en la capa de  [datos](/help/developing/data-layer/overview.md).
-   * Si se deja en blanco, automáticamente se genera un ID único que se puede encontrar inspeccionando la página resultante.
+* **Transición automática de diapositivas**: cuando esté activo, el componente avanzará automáticamente a la siguiente diapositiva después de un retraso especificado.
+* **Retraso de transición**: cuando se selecciona la transición automática de diapositivas, este valor se utiliza para definir el retardo entre transiciones (en milisegundos).
+* **Deshabilitar la pausa automática al pasar el cursor**: cuando se selecciona la **transición automática de diapositivas**, la transición de carrusel se pausa automáticamente cada vez que el cursor pasa el ratón sobre el carrusel. Seleccione esta opción para que la transición no se detenga.
+* **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
+   * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
-   * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
+   * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
 >[!NOTE]
 >
->Los controles avanzados de diapositivas no están activados en el modo **Edit**. Utilice el modo [**Preview**](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) o la opción **[View as Published](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interactuar con el carrusel como haría un lector del contenido publicado.
+>Los controles avanzados de diapositivas no están activados en el modo **Editar**. Utilice el modo [**Vista previa**](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) o la opción **[Ver como publicado](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interactuar con el carrusel como lo haría un lector del contenido publicado.
 >
->La función de avance automático no está habilitada cuando se encuentra en modo **Editar**. Utilice la opción **[Ver como aparece publicado](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para ver la función de avance automático como lo haría un lector del contenido publicado.
+>La función de avance automático no está habilitada cuando se encuentra en modo **Editar**. Utilice la opción **[Ver como publicado](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para ver la función de avance automático como lo haría un lector del contenido publicado.
 
 ### Pestaña Accesibilidad {#accessibility-tab}
 
 ![Pestaña Accesibilidad del cuadro de diálogo de edición del componente Carrusel](/help/assets/carousel-edit-accessibility.png)
 
-En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas [ARIA accesibilidad](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
+En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
-* **Etiqueta** : Valor de un atributo de etiqueta ARIA para el componente
+* **Etiqueta**: valor de un atributo de etiqueta ARIA para el componente
 
 ## Seleccionar panel {#select-panel}
 
@@ -98,36 +98,36 @@ El autor del contenido puede utilizar la opción **Seleccionar panel** de la bar
 Una vez seleccionada la opción **Seleccionar panel** en la barra de herramientas de componentes, las diapositivas configuradas se muestran como una lista desplegable.
 
 * La lista se ordena según la disposición asignada de las diapositivas y se refleja en la numeración.
-* El tipo de componente de la diapositiva se muestra primero, seguido de la descripción de la diapositiva en fuente más ligera.
+* El tipo de componente de la diapositiva se muestra primero, seguido de la descripción de la diapositiva con la fuente más clara.
 
-![Seleccione el panel](/help/assets/select-panel-popover.png)
+![Seleccionar el panel](/help/assets/select-panel-popover.png)
 
 * Al tocar o hacer clic en una entrada de la lista desplegable, cambia la vista del editor a esa diapositiva.
-* La diapositiva se puede reordenar en su lugar mediante los controles de arrastre.
+* La diapositiva se puede reordenar mediante los controladores de arrastre.
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Cuadro de diálogo de diseño {#design-dialog}
 
 El cuadro de diálogo de diseño permite al autor de la plantilla definir qué componentes se pueden añadir como diapositivas al componente de carrusel, así como definir los valores predeterminados de transición automática y qué estilos personalizados están disponibles para el autor del contenido.
 
-### Ficha Propiedades {#properties-tab-1}
+### Pestaña Propiedades {#properties-tab-1}
 
-La pestaña **Properties** se utiliza para definir la configuración predeterminada de las transiciones de diapositivas cuando un autor de contenido añade el componente de carrusel a una página.
+La pestaña **Propiedades** se utiliza para definir la configuración predeterminada de las transiciones de diapositivas cuando un autor de contenido añade el componente de carrusel a una página.
 
-![Cuadro de diálogo Diseño del componente Carrusel](/help/assets/carousel-design.png)
+![Cuadro de diálogo de diseño del componente Carrusel](/help/assets/carousel-design.png)
 
-* **Diapositivas de transición automática** : define si, de forma predeterminada, la opción para avanzar automáticamente el carrusel a la siguiente diapositiva está activada cuando el autor de contenido añade el componente de carrusel a una página.
-* **Retraso de transición** : define el valor predeterminado del retraso de transición entre diapositivas (en milisegundos) cuando un autor de contenido añade el componente de carrusel a una página.
-* **Deshabilitar la pausa automática al pasar el cursor** : Define si, de forma predeterminada, la opción para desactivar la pausa automática de la diapositiva está habilitada cuando el autor de contenido selecciona  **Automáticamente la** diapositiva de transición.
+* **Diapositivas de transición automática**: define si, de forma predeterminada, la opción para avanzar automáticamente el carrusel a la siguiente diapositiva está activada cuando el autor de contenido añade el componente de carrusel a una página.
+* **Retraso de transición**: define el valor predeterminado del retraso de la transición entre diapositivas (en milisegundos) cuando un autor de contenido añade el componente de carrusel a una página.
+* **Deshabilitar la pausa automática al pasar el cursor**: define si, de forma predeterminada, la opción para deshabilitar la pausa automática de la diapositiva está habilitada cuando el autor de contenido selecciona la **Transición automática de las diapositivas**.
 
 ### Pestaña Componentes permitidos {#allowed-components-tab}
 
-La pestaña **Componentes permitidos** se utiliza para definir qué componentes el autor de contenido puede añadir como diapositivas al componente de carrusel.
+La pestaña **Componentes permitidos** se utiliza para definir qué componentes puede añadir el autor de contenido como diapositivas al componente de carrusel.
 
-La ficha Componentes permitidos funciona del mismo modo que la ficha del mismo nombre cuando [define la política y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/sites/authoring/features/templates.html)
+La pestaña Componentes permitidos funciona del mismo modo que la del mismo nombre cuando [define la directiva y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Pestaña Estilos {#styles-tab}
 
-El componente Carrusel es compatible con el sistema de estilos [AEM](/help/get-started/authoring.md#component-styling).
+El componente Carrusel es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ## Capa de datos del cliente de Adobe {#data-layer}
 
