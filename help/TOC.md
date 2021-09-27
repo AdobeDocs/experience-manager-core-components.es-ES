@@ -1,14 +1,13 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: Componentes principales AEM
+user-guide-title: AEM Core Components
 breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
-translation-type: tm+mt
 source-git-commit: 15aa2145a4872a9e9c46e639f42f212363823d75
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 67%
 
 + [Introducción a los componentes principales](introduction.md)
 + [Rutas para alcanzar el éxito](developing/success.md)
-+ [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library)
++ [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_es)
 + [Versiones de componentes principales](versions.md)
 + Introducción {#get-started}
    + [Crear con componentes principales](get-started/authoring.md)
@@ -48,20 +47,20 @@ ht-degree: 67%
    + [Pestañas](components/tabs.md)
    + [Teaser](components/teaser.md)
    + [Título](components/title.md)
-   + Componentes de formulario{#forms}
-      + [Botón del formulario](components/forms/form-button.md)
+   + Componentes de formulario {#forms}
+      + [Botón de formulario](components/forms/form-button.md)
       + [Contenedor del formulario](components/forms/form-container.md)
       + [Formulario oculto](components/forms/form-hidden.md)
       + [Opciones de formulario](components/forms/form-options.md)
       + [Texto de formulario](components/forms/form-text.md)
-   + Componentes (v1){#v1-components}
+   + Componentes (v1) {#v1-components}
       + [Ruta de navegación (v1)](components/v1/breadcrumb-v1.md)
       + [Imagen (v1)](components/v1/image-v1.md)
       + [Lista (v1)](components/v1/list-v1.md)
       + [Página (v1)](components/v1/page-v1.md)
       + [Texto (v1)](components/v1/text-v1.md)
       + [Título (v1)](components/v1/title-v1.md)
-      + Componentes de formulario (v1){#v1-forms}
+      + Componentes de formulario (v1) {#v1-forms}
          + [Botón del formulario (v1)](components/v1/form-button-v1.md)
          + [Contenedor de formulario (v1)](components/v1/form-container-v1.md)
          + [Formulario oculto (v1)](components/v1/form-hidden-v1.md)
@@ -69,15 +68,15 @@ ht-degree: 67%
          + [Texto de formulario (v1)](components/v1/form-text-v1.md)
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](developing/overview.md)
-   + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html)
-   + [Tutorial para desarrolladores de WKND](https://docs.adobe.com/content/help/en/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
+   + [Tutorial para desarrolladores de WKND](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalización de componentes principales](developing/customizing.md)
    + [Instrucciones de los componentes](developing/guidelines.md)
    + [Compatibilidad con AMP](developing/amp.md)
    + [Configuraciones según el contexto](developing/context-aware-configs.md)
    + [Inclusión de bibliotecas de cliente](developing/including-clientlibs.md)
    + Capa de datos del cliente de Adobe {#data-layer}
-      + [Descripción general de la capa de datos](developing/data-layer/overview.md)
+      + [Información general de la capa de datos](developing/data-layer/overview.md)
       + [Integraciones con la capa de datos](developing/data-layer/integrations.md)
       + [Ampliación de la capa de datos](developing/data-layer/extending.md)
    + Tipo de archivo del proyecto AEM {#archetype}
@@ -86,7 +85,7 @@ ht-degree: 67%
       + [Módulo principal](developing/archetype/core.md)
       + [Módulo ui.apps](developing/archetype/uiapps.md)
       + [Módulo ui.content](developing/archetype/uicontent.md)
-      + [ui.frontend.general Module](developing/archetype/uifrontend.md)
+      + [Módulo ui.frontend.general](developing/archetype/uifrontend.md)
       + [Módulo ui.frontend.react](developing/archetype/uifrontend-react.md)
       + [Módulo ui.frontend.angular](developing/archetype/uifrontend-angular.md)
       + [Módulo ui.testing](developing/archetype/uitests.md)
