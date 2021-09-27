@@ -1,46 +1,46 @@
 ---
-title: Componente Opciones de formulario (v1)
-description: El componente de opciones del formulario de componentes principales permite seleccionar entre las opciones predefinidas en distintos formatos.
+title: Componente Opciones de formulario (versión 1)
+description: El componente principal Opciones de formulario permite seleccionar entre las opciones predefinidas en distintos formatos.
 index: n
 role: Architect, Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '476'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Componente Opciones de formulario (v1) {#form-options-component-v}
+# Componente Opciones de formulario (versión 1) {#form-options-component-v}
 
-El componente de opciones del formulario de componentes principales permite seleccionar entre las opciones predefinidas en distintos formatos.
+El componente principal Opciones de formulario permite seleccionar entre las opciones predefinidas en distintos formatos.
 
 ## Uso {#usage}
 
-El componente Opciones del formulario del componente principal permite enviar diferentes tipos de opciones presentadas de diferentes maneras y está diseñado para utilizarse junto con el [componente del contenedor de formulario](form-container-v1.md).
+El componente principal Opciones de formulario permite enviar diferentes tipos de opciones presentadas de diferentes maneras y está diseñado para utilizarse junto con el [componente Contenedor de formulario](form-container-v1.md).
 
-El editor de contenido puede definir la presentación de las opciones, etiquetas y opciones individuales en el cuadro de diálogo [configurar](#configure-dialog).
+El editor de contenido puede definir la presentación de las opciones, etiquetas y opciones individuales en el [cuadro de diálogo de configuración](#configure-dialog).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 1 del componente de opciones de formulario, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
+Este documento describe la versión 1 del componente Opciones de formulario, introducido originalmente con la versión 1.0.0 de los componentes principales con AEM 6.3.
 
-En la tabla siguiente se muestra la compatibilidad de v1 del componente Opciones de formulario.
+En la tabla siguiente se muestra la compatibilidad de la versión 1 del componente Opciones de formulario.
 
 | Versión del componente | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
-| v2 | Compatible | Compatible |
-| v1 | Compatible | Compatible |
+| Versión 2 | Compatible | Compatible |
+| Versión 1 | Compatible | Compatible |
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente de opciones de formulario.
+>Este documento describe la versión 1 del componente Opciones de formulario.
 >
->Para obtener más información sobre la versión actual del componente de opciones de formulario, consulte el documento [Componente de opciones de formulario](/help/components/forms/form-options.md).
+>Para obtener más información sobre la versión actual del componente Opciones de formulario, consulte el documento [Componente Opciones de formulario](/help/components/forms/form-options.md).
 
-## Salida de componente de ejemplo {#sample-component-output}
+## Salida del componente de ejemplo {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experience-manager/6-4/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail.html?lang=es).
 
 ### Captura de pantalla {#screenshot}
 
@@ -110,46 +110,46 @@ El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/experie
 
 >[!NOTE]
 >
->La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales v1](/help/versions.md) para obtener más información.
+>La exportación de JSON desde los componentes principales requiere la versión 1.1.0 de los componentes principales. Consulte la [información de compatibilidad para los componentes principales (versión 1)](/help/versions.md) para obtener más información.
 
-## Configurar cuadro de diálogo {#configure-dialog}
+## Cuadro de diálogo de configuración {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el tipo de opciones que se deben presentar, las etiquetas y las opciones disponibles.
 
 ![](/help/assets/chlimage_1-90.png)
 
-* ****
-TiposPresentación de las opciones
+* **Tipos**
+Presentación de las opciones
 
    * **Casillas de verificación**
    * **Botones de radio**
    * **Lista desplegable**
    * **Lista desplegable de selección múltiple**
 
-* **Título** : el título que se mostrará como etiqueta para las opciones
-* **Nombre** : el nombre del campo enviado con los datos del formulario.
-* **Origen** : donde se definen las opciones
+* **Título**: el título que se mostrará como etiqueta para las opciones
+* **Nombre**: el nombre del campo, que se envía con los datos del formulario
+* **Origen**: donde se definen las opciones
 
-   * **Local** : se define dentro del componente
-      * Toque o haga clic en el botón **Add** para añadir un valor, **Delete** para eliminarlo
-      * **Valor** : el valor guardado cuando se selecciona esa opción cuando se envía el formulario
-      * **Texto** : etiqueta de la opción que se muestra en el formulario.
-      * **Activo** : la opción se marca como seleccionada cuando se carga el formulario
-      * **Deshabilitada** : la opción no se puede seleccionar pero se sigue mostrando
-      * **Lista** : se utiliza una lista estática definida en otra parte de AEM para la opción
-         * **Lista** : la ruta de la lista estática de AEM
+   * **Local**: se define dentro del componente
+      * Pulse o haga clic en el botón **Añadir** para añadir un valor y en **Eliminar** para eliminarlo
+      * **Valor**: el valor guardado cuando se selecciona esa opción cuando se envía el formulario
+      * **Texto**: etiqueta de la opción que se muestra en el formulario.
+      * **Activo**: la opción se marca como seleccionada cuando se carga el formulario
+      * **Desactivado**: la opción no se puede seleccionar pero se sigue mostrando
+      * **Lista**: se utiliza una lista estática definida en otra parte de AEM para la opción
+         * **Lista**: la ruta de la lista estática de AEM
             * Utilice el botón Examinar para localizar el recurso de la lista
-      * **Fuente de datos** : se utiliza una fuente de datos para las opciones
-         * **Fuente de datos:**  tipo de recurso de la fuente de datos
-* **Mensaje de ayuda** : una sugerencia para el usuario sobre lo que se puede introducir en el campo
+      * **Fuente de datos**: se utiliza una fuente de datos para las opciones
+         * **Fuente de datos**: tipo de recurso de la fuente de datos
+* **Mensaje de ayuda**: una sugerencia al usuario sobre lo que se puede introducir en el campo
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Cuadro de diálogo de diseño {#design-dialog}
 
 No hay ningún cuadro de diálogo de diseño para el componente Opciones de formulario.
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de opciones de formulario [se encuentra en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
+La documentación técnica más reciente sobre el componente Opciones de formulario [se encuentra en GitHub](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/options/v1/options).
 
 Todo el proyecto de componentes principales se puede descargar desde GitHub.
 
