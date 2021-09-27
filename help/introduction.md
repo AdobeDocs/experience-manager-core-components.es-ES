@@ -23,16 +23,16 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 * **[Repositorio de componentes principales de GitHub: ](https://github.com/adobe/aem-core-wcm-components)** para obtener detalles del desarrollador de cada componente y descarga de proyecto.
 * Introducción:
    * **[Éxito con los componentes principales:](/help/developing/success.md)** instrucciones que se deben tener en cuenta mucho antes del inicio de cualquier proyecto que vaya a utilizar los componentes principales.
-   * **[Tutorial de WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)** tutorial de dos días para crear un nuevo sitio.
+   * **[Tutorial de WKND:](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)** tutorial de dos días para crear un nuevo sitio.
    * **[Tutorial Summit:](https://expleague.azureedge.net/labs/L767/index.html)** un tutorial de dos horas para construir un nuevo sitio (de un laboratorio en la US Summit 2019).
-   * **[Seminario web de Gems:](https://helpx.adobe.com/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** visita guiada por los componentes principales (grabada en diciembre de 2018).
+   * **[Seminario web de Gems:](https://helpx.adobe.com/es/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** visita guiada por los componentes principales (grabada en diciembre de 2018).
 
 ## Características {#features}
 
 |  |  |
 |---|---|
 | Listo para la producción | Los componentes principales son 28 componentes sólidos que se han probado, utilizado ampliamente y que funcionan bien. |
-| Preparado para la nube | Ya sea en [AEM como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es), en [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea, simplemente funcionan. |
+| Preparado para la nube | Ya sea en [AEM como Cloud Service](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/landing/home.html), en [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea, simplemente funcionan. |
 | Versátil | Los componentes representan conceptos genéricos con los que los autores pueden ensamblar casi cualquier diseño. |
 | Configurable | Las [directivas de contenido](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html#content-policies) a nivel de plantilla definen qué características pueden utilizar o no los autores de la página. |
 | Rastreable | La [integración de capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md) permite el seguimiento de todos los aspectos de la experiencia del visitante. |
@@ -94,7 +94,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 >[!NOTE]
 >
->Los componentes principales no están disponibles para los autores de manera inmediata, ya que el [grupo de desarrollo debe integrarlos primero en su entorno](get-started/using.md). Una vez integrados, pueden ponerse a disposición de los usuarios y preconfigurarse mediante el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es).
+>Los componentes principales no están disponibles para los autores de manera inmediata, ya que el [grupo de desarrollo debe integrarlos primero en su entorno](get-started/using.md). Una vez integrados, pueden ponerse a disposición de los usuarios y preconfigurarse mediante el [editor de plantillas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
@@ -116,7 +116,7 @@ Para conocer los requisitos de las versiones anteriores de los componentes princ
 
 Los componentes principales requieren el uso de [plantillas editables](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/page-authoring/template-editor-feature-video-use.html?lang=es) y no admiten la interfaz de usuario clásica ni plantillas estáticas. Si es necesario, consulte las [Herramientas de modernización de AEM](https://opensource.adobe.com/aem-modernize-tools/pages/tools.html) para actualizar el proyecto con estas funciones modernas de AEM.
 
-Para configurar su entorno de desarrollo local, consulte [esta descripción general de AEM Cloud Service SDK](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) o este documento [para versiones anteriores de AEM](https://docs.adobe.com/content/help/en/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
+Para configurar su entorno de desarrollo local, consulte [esta descripción general de AEM Cloud Service SDK](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html) o este documento [para versiones anteriores de AEM](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html).
 
 >[!TIP]
 >

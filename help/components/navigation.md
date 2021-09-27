@@ -114,11 +114,11 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente de navegación, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_navigation).
+Para experimentar el componente de navegación, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_navigation_es).
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de navegación [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1).
+La documentación técnica más reciente sobre el componente de navegación [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_navigation_v1_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

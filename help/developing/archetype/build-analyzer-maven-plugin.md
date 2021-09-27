@@ -36,7 +36,7 @@ A continuación se muestra una tabla que describe los analizadores que se ejecut
 | `repoinit` | Comprueba la sintaxis de todas las secciones de repoinit | Sí | Sí |
 | `bundle-nativecode` | Valida que los paquetes OSGI no instalen código nativo. | Sí | Sí |
 | `configuration-api` | Valida configuraciones importantes de OSGi. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Sí | Sí |
-| `region-deprecated-api` | Comprueba si se utiliza una [API obsoleta](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
+| `region-deprecated-api` | Comprueba si se utiliza una [API obsoleta](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=es) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
 | `artifact-rules` | Valida dependencias como paquetes y paquetes de contenido para evitar problemas conocidos en artefactos.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
 
 ## Problemas conocidos
