@@ -1,78 +1,78 @@
 ---
-title: Componente de botón
-description: El componente Botón del componente principal permite la creación y visualización de un botón.
+title: Componente Botón
+description: El componente principal Botón permite crear y visualizar un botón.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '451'
-ht-degree: 3%
+ht-degree: 100%
 
 ---
 
-# Componente de botón{#button-component}
+# Componente Botón{#button-component}
 
-El componente Botón del componente principal permite la configuración y visualización de un elemento de botón en una página.
+El componente principal Botón permite configurar y mostrar un elemento de botón en una página.
 
 ## Uso {#usage}
 
-El componente Botón del componente principal permite la inclusión de un botón en una página.
+El componente principal Botón permite incluir un botón en una página.
 
 * Las propiedades del botón se pueden seleccionar en el [cuadro de diálogo de configuración](#configure-dialog).
 * Los estilos del componente Botón se pueden definir en el [cuadro de diálogo de diseño](#design-dialog).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Botón es v1, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019 y se describe en este documento.
+La versión actual del componente Botón es la versión 1, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019 y se describe en este documento.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
+La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| v1 | Compatible | Compatible | Compatible |
+| Versión 1 | Compatible | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
-## Salida de componente de ejemplo {#sample-component-output}
+## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente Botón, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_button).
+Para experimentar el componente Botón, así como ver ejemplos de sus opciones de configuración, además de la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_button).
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Button [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
+La documentación técnica más reciente sobre el componente Botón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_button_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
-## Configurar cuadro de diálogo {#configure-dialog}
+## Cuadro de diálogo de configuración {#configure-dialog}
 
 El cuadro de diálogo de configuración permite al autor del contenido definir el botón y cómo se comportará y aparecerá para un visitante de la página.
 
-### Ficha Propiedades {#properties-tab}
+### Pestaña Propiedades {#properties-tab}
 
-![Ficha Propiedades del cuadro de diálogo de edición del componente Botón](/help/assets/button-edit-properties.png)
+![Pestaña Propiedades del cuadro de diálogo de edición del componente Botón](/help/assets/button-edit-properties.png)
 
-* **Texto** : el texto que se mostrará en el botón.
-* **Vínculo** : vínculo a una página de contenido dentro de AEM, un recurso externo o un anclaje
+* **Texto**: Texto que se muestra en el botón
+* **Vínculo**: vínculo a una página de contenido dentro de AEM, un recurso externo o un anclaje
    * Utilice el **Cuadro de diálogo de selección** para elegir una ruta dentro de AEM.
-* **Icono**  - Identificador para mostrar un icono en el botón
-* **ID** : esta opción permite controlar el identificador único del componente en el HTML y en la capa de  [datos](/help/developing/data-layer/overview.md).
-   * Si se deja en blanco, automáticamente se genera un ID único que se puede encontrar inspeccionando la página resultante.
+* **Icono**: Identificador de iconos para mostrar un icono en el botón
+* **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
+   * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
-   * Cambiar el ID puede afectar al seguimiento de CSS, JS y capa de datos.
+   * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
 ### Pestaña Accesibilidad {#accessibility-tab}
 
 ![Pestaña Accesibilidad del cuadro de diálogo de edición del componente Botón](/help/assets/button-edit-accessibility.png)
 
-En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas [ARIA accesibilidad](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
+En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
-* **Etiqueta** : Valor de un atributo de etiqueta ARIA para el componente
+* **Etiqueta**: Valor de un atributo de etiqueta ARIA para el componente
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Cuadro de diálogo de diseño {#design-dialog}
 
 ### Pestaña Estilos {#styles-tab}
 
-El componente Botón es compatible con el sistema de estilos [AEM](/help/get-started/authoring.md#component-styling).
+El componente Botón es compatible con el sistema de estilos de [AEM](/help/get-started/authoring.md#component-styling).
 
 ## Capa de datos del cliente de Adobe {#data-layer}
 
