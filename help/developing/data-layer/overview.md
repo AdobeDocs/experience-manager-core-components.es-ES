@@ -5,9 +5,9 @@ feature: Componentes principales, capa de datos del cliente de Adobe
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '980'
-ht-degree: 5%
+ht-degree: 100%
 
 ---
 
@@ -27,14 +27,14 @@ Al igual que los componentes principales, el código de la capa de datos del cli
 
 ## Instalación y activación {#installation-activation}
 
-A partir de la versión 2.9.0 de los componentes principales, la capa de datos se distribuye con los componentes principales como una biblioteca de cliente AEM y no es necesario realizar ninguna instalación. Todos los proyectos generados por el [AEM tipo de archivo del proyecto v. 24+](/help/developing/archetype/overview.md) incluyen una capa de datos activada de forma predeterminada.
+A partir de la versión 2.9.0 de los componentes principales, la capa de datos se distribuye con los componentes principales como una biblioteca de cliente de AEM y no es necesario realizar ninguna instalación. Todos los proyectos generados por el [tipo de archivo del proyecto de AEM versión 24+](/help/developing/archetype/overview.md) incluyen una capa de datos activada de forma predeterminada.
 
-Para activar manualmente la capa de datos debe crear una [configuración de reconocimiento de contexto](/help/developing/context-aware-configs.md) para ella:
+Para activar manualmente la capa de datos debe crear una [configuración de reconocimiento de contexto](/help/developing/context-aware-configs.md) para ello:
 
-1. Cree la siguiente estructura debajo de la carpeta `/conf/<mySite>` , donde `<mySite>` es el nombre del proyecto del sitio:
+1. Cree la siguiente estructura debajo de la carpeta `/conf/<mySite>`, donde `<mySite>` es el nombre del proyecto del sitio:
    * `/conf/<mySite>/sling:configs/com.adobe.cq.wcm.core.components.internal.DataLayerConfig`
    * Donde cada nodo tiene un `jcr:primaryType` establecido en `nt:unstructured`.
-1. Agregue una propiedad booleana llamada `enabled` y configúrela en `true`.
+1. Agregue una propiedad boolean llamada `enabled` y configúrela en `true`.
 
    ![Ubicación de DataLayerConfig en el sitio de referencia WKND](/help/assets/datalayer-contextaware-sling-config.png)
 
@@ -42,7 +42,7 @@ Para activar manualmente la capa de datos debe crear una [configuración de reco
 
 1. Agregue una propiedad `sling:configRef` al nodo `jcr:content` del sitio debajo de `/content` (p. ej. `/content/<mySite>/jcr:content`) y configúrelo en `/conf/<mySite>` desde el paso anterior.
 
-1. Una vez habilitada, puede verificar la activación cargando una página del sitio fuera del editor, por ejemplo, utilizando la opción **Ver como publicado** en el editor. Inspect el origen de la página y la etiqueta `<body>` deben incluir un atributo `data-cmp-data-layer-enabled`
+1. Una vez habilitada, puede comprobar la activación cargando una página del sitio fuera del editor, por ejemplo, utilizando la opción **Ver como publicado** en el editor. Inspeccione el origen de la página y la etiqueta `<body>` deben incluir un atributo `data-cmp-data-layer-enabled`
 
    ```html
    <body class="page basicpage" id="page-id" data-cmp-data-layer-enabled>
@@ -58,13 +58,13 @@ Para activar manualmente la capa de datos debe crear una [configuración de reco
        </script>
    ```
 
-1. También puede abrir las herramientas para desarrolladores del explorador y, en la consola, el objeto JavaScript `adobeDataLayer` debería estar disponible. Introduzca el siguiente comando para obtener el estado de la capa de datos de su página actual:
+1. También puede abrir las herramientas para desarrolladores del explorador y el objeto JavaScript `adobeDataLayer` debería estar disponible en la consola. Introduzca el siguiente comando para obtener el estado de la capa de datos de su página actual:
 
    ```javascript
    window.adobeDataLayer.getState();
    ```
 
-## Componentes admitidos {#supported-components}
+## Componentes compatibles {#supported-components}
 
 Los siguientes componentes son compatibles con la capa de datos.
 
@@ -90,9 +90,9 @@ Consulte también los [eventos activados por los componentes.](#events-component
 
 A continuación se muestra una lista de esquemas que los componentes principales utilizan con la capa de datos.
 
-### Esquema de elemento de componente/contenedor {#item}
+### Esquema de componente/elemento del contenedor {#item}
 
-El esquema Componente/Elemento de contenedor se utiliza en los siguientes componentes:
+El esquema de componente/elemento de contenedor se utiliza en los siguientes componentes:
 
 * [Ruta de navegación](/help/components/breadcrumb.md)
 * [Botón](/help/components/button.md)
@@ -103,7 +103,7 @@ El esquema Componente/Elemento de contenedor se utiliza en los siguientes compon
 * [Texto](/help/components/text.md)
 * [Título](/help/components/title.md)
 
-El esquema Componente/Elemento contenedor se define de la siguiente manera.
+El esquema de componente/elemento del contenedor se define de la siguiente manera.
 
 ```javascript
 id: {                   // component ID
@@ -117,7 +117,7 @@ id: {                   // component ID
 }
 ```
 
-El siguiente [evento](#events) es relevante para el esquema del elemento componente/contenedor:
+El siguiente [evento](#events) es relevante para el esquema de componente/elemento del contenedor:
 
 * `cmp:click`
 
@@ -127,7 +127,7 @@ El esquema de página se utiliza en el siguiente componente:
 
 * [Página](/help/components/page.md)
 
-El esquema Page se define de la siguiente manera.
+El esquema de página se define de la siguiente manera.
 
 ```javascript
 id: {
@@ -145,17 +145,17 @@ id: {
 }
 ```
 
-Un evento `cmp:show` se activa al cargar la página. Este evento se envía desde JavaScript en línea justo debajo de la etiqueta `<body>` de apertura, lo que lo convierte en el primer evento de la cola de eventos de la capa de datos.
+Un evento `cmp:show` se activa al cargar la página. Este evento se envía desde JavaScript en línea justo debajo de la etiqueta de apertura `<body>`, lo que lo convierte en el primer evento de la cola de eventos de la capa de datos.
 
-### Esquema de contenedor {#container}
+### Esquema del contenedor {#container}
 
-Los siguientes componentes utilizan el esquema de contenedor :
+Los siguientes componentes utilizan el esquema del contenedor:
 
 * [Acordeón](/help/components/accordion.md)
 * [Pestañas](/help/components/tabs.md)
 * [Carrusel](/help/components/carousel.md)
 
-El esquema Container se define de la siguiente manera.
+El esquema del contenedor se define de la siguiente manera.
 
 ```javascript
 id: {
@@ -178,11 +178,11 @@ Los siguientes [eventos](#events) son relevantes para el esquema del contenedor:
 
 ### Esquema de imagen {#image}
 
-El esquema Image se utiliza en el siguiente componente:
+El esquema de imagen se utiliza en el siguiente componente:
 
 * [Imagen](/help/components/image.md)
 
-El esquema Image se define de la siguiente manera.
+El esquema de imagen se define de la siguiente manera.
 
 ```javascript
 id: {
@@ -201,11 +201,11 @@ El siguiente [evento](#events) es relevante para el esquema de imagen:
 
 * `cmp:click`
 
-### Esquema de recurso {#asset}
+### Esquema de recursos {#asset}
 
-El esquema de Asset se utiliza dentro del componente [Image.](/help/components/image.md)
+El esquema de recursos se utiliza dentro del [componente de imagen.](/help/components/image.md)
 
-El esquema de Asset se define de la siguiente manera.
+El esquema de recursos se define de la siguiente manera.
 
 ```javascript
 id: {
@@ -251,17 +251,17 @@ El esquema utilizado para el elemento Fragmento de contenido es el siguiente.
 
 ## Eventos de componentes principales {#events}
 
-Hay varios eventos en los que los componentes principales se déclencheur a través de la capa de datos. La práctica recomendada para interactuar con la capa de datos es [registrar un detector de eventos](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) y *luego* realizar una acción según el tipo de evento o el componente que activó el evento. Esto evitará posibles condiciones de carrera con scripts asincrónicos.
+Hay varios eventos en los que los componentes principales se activan a través de la capa de datos. La práctica recomendada para interactuar con la capa de datos es [registrar un detector de eventos](https://github.com/adobe/adobe-client-data-layer/wiki#addeventlistener) y *luego* realizar una acción según el tipo de evento o el componente que activó el evento. Esto evitará posibles problemas de especie con scripts asincrónicos.
 
-A continuación se muestran los eventos predeterminados proporcionados por AEM componentes principales:
+A continuación se muestran los eventos predeterminados ofrecidos por los componentes principales de AEM:
 
-* **`cmp:click`** : al hacer clic en un elemento en el que se puede hacer clic (un elemento que tiene un  `data-cmp-clickable` atributo ), la capa de datos se déclencheur en un  `cmp:click` evento.
-* **`cmp:show`** y  **`cmp:hide`** : la manipulación del acordeón (expandir/contraer), el carrusel (botones siguientes/anteriores) y los componentes de pestañas (selección de tabulaciones) hace que la capa de datos se déclencheur  `cmp:show` y se produzca un  `cmp:hide` evento, respectivamente. También se envía un evento `cmp:show` al cargar la página y se espera que sea el primer evento.
-* **`cmp:loaded`** : Tan pronto como se rellena la capa de datos con los componentes principales en la página, la capa de datos déclencheur un  `cmp:loaded` evento.
+* **`cmp:click`**: al hacer clic en un elemento activo (un elemento que tiene un atributo `data-cmp-clickable`), la capa de datos activa un evento `cmp:click`.
+* **`cmp:show`** y **`cmp:hide`**: la manipulación del acordeón (expandir/contraer), el carrusel (botones de siguiente/anterior) y los componentes de pestañas (selección de pestañas) hace que la capa de datos active `cmp:show` y se produzca un evento `cmp:hide`, respectivamente. También se envía un evento `cmp:show` al cargar la página y se espera que sea el primer evento.
+* **`cmp:loaded`**: Cuando se rellene la capa de datos con los componentes principales de la página, la capa de datos activará un evento `cmp:loaded`.
 
-### Eventos activados por componente {#events-components}
+### Eventos activados por el componente {#events-components}
 
-En las tablas siguientes se enumeran los componentes principales estándar que generan déclencheur en eventos junto con esos eventos.
+En las siguientes tablas se enumeran los componentes principales estándar que activan eventos junto con esos eventos.
 
 | Componente | Evento(s) |
 |---|---|
@@ -285,7 +285,7 @@ eventInfo: {
 }
 ```
 
-Donde `<component-path>` es la ruta JSON al componente en la capa de datos que activó el evento.  El valor, disponible a través de `event.eventInfo.path`, es importante ya que se puede utilizar como parámetro de `adobeDataLayer.getState(<component-path>)` que recupera el estado actual del componente que activó el evento, lo que permite que el código personalizado acceda a datos adicionales y los añada a la capa de datos.
+Donde `<component-path>` es la ruta JSON al componente de la capa de datos que activó el evento.  El valor, disponible a través de `event.eventInfo.path`, es importante ya que se puede utilizar como parámetro de `adobeDataLayer.getState(<component-path>)` que recupera el estado actual del componente que activó el evento, lo que permite que el código personalizado acceda a datos adicionales y los añada a la capa de datos.
 
 Por ejemplo:
 
@@ -306,7 +306,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutorial
 
-¿Quiere explorar la capa de datos y los componentes principales con más detalle? [Consulte este tutorial](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html) práctico.
+¿Quiere explorar la capa de datos y los componentes principales con más detalle? [Consulte este tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=es).
 
 >[!TIP]
 >
