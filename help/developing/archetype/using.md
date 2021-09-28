@@ -1,13 +1,13 @@
 ---
 title: Uso del tipo de archivo del proyecto de AEM
 description: Instrucciones de uso detalladas para el tipo de archivo del proyecto de AEM
-feature: Componentes principales, tipo de archivo del proyecto AEM
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2147'
-ht-degree: 100%
+source-git-commit: 69be45e2aa80753789fa19b12374b8e15eb6a394
+workflow-type: tm+mt
+source-wordcount: '2209'
+ht-degree: 96%
 
 ---
 
@@ -80,7 +80,7 @@ mvn -B archetype:generate \
 La dependencia de componentes principales solo se agrega para versiones de AEM que no sean en la nube, ya que los componentes principales se proporcionan como OOTB para AEM Cloud Service.
 * Ajuste `appTitle="My Site"` para definir el título del sitio web y los grupos de componentes.
 * Ajuste `appId="mysite"` para definir los nombres de Maven artifactId, los componentes, la configuración y las carpetas de contenido, así como los nombres de las bibliotecas de cliente.
-* Ajuste `groupId="com.mysite"` para definir el groupId de Maven y el Paquete de origen de Java.
+* Ajuste `groupId="com.mysite"` para definir el groupId de Maven y el paquete de origen de Java.
 * Busque la lista de propiedades disponibles para ver si hay más que desee ajustar.
 
 >[!NOTE]
@@ -101,7 +101,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el tipo d
 | `groupId` |  | ID del grupo base de Maven (p. ej. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Paquete de origen de Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/landing/home.html); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
+| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/landing/home.html); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
 | `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión de [SDK](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de Dispatcher para la nube o para AMS/en línea, según el valor de `aemVersion` (puede ser `y` o `n`). |
 | `frontendModule` | `general` | Incluye un módulo de versión de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implementa el [Editor SPA](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
@@ -116,6 +116,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el tipo d
 | `amp` | `n` | Habilite la compatibilidad con [AMP](/help/developing/amp.md) para plantillas de proyecto generadas. |
 | `enableDynamicMedia` | `n` | Habilita los componentes básicos de Dynamic Media en la configuración de directivas de proyecto y activa las funciones de Dynamic Media en la directiva del componente de imagen principal. |
 | `enableSSR` | `n` | Opción para habilitar SSR para el proyecto front-end |
+| `precompiledScripts` | `n` | Opción para [precompilar](/help/developing/archetype/precompiled-bundled-scripts.md) los scripts del lado del servidor de `ui.apps` y adjuntarlos a la compilación como un artefacto de paquete secundario en el proyecto `ui.apps`. `aemVersion` debe establecerse en  `cloud`. |
 
 >[!NOTE]
 >
@@ -137,6 +138,7 @@ El proyecto Maven generado admite distintos perfiles de implementación al ejecu
 | `autoInstallSinglePackage` | Instale el paquete de contenido `all` con el complemento content-package-maven-plugin en el administrador de paquetes a la instancia de autor predeterminada en localhost, puerto 4502. El nombre de host y el puerto se pueden cambiar con las propiedades definidas por el usuario `aem.host` y `aem.port`. |
 | `autoInstallSinglePackagePublish` | Instale el paquete de contenido `all` con el complemento content-package-maven-plugin en el administrador de paquetes para publicar la instancia predeterminada en localhost, puerto 4503. El nombre de host y el puerto se pueden cambiar con las propiedades definidas por el usuario `aem.host` y `aem.port`. |
 | `integrationTests` | Ejecuta las pruebas de integración proporcionadas en la instancia de AEM (solo para la fase `verify`) |
+| `precompiledScripts` | Se define automáticamente cuando el proyecto se generó con la propiedad `precompiledScripts` establecida en `y`. El perfil está activo de forma predeterminada y genera un paquete OSGi dentro de `ui.apps` con los scripts precompilados, que se incluirán en el paquete de contenido `all`. El perfil se puede deshabilitar con `-DskipScriptPrecompilation=true`. |
 
 ### Creación e instalación {#building-and-installing}
 
