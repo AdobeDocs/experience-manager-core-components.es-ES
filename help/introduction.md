@@ -3,7 +3,7 @@ title: Introducción a los componentes principales
 description: 'Los componentes principales se introdujeron para proporcionar componentes básicos sólidos y ampliables, basados en las últimas tecnologías y prácticas recomendadas. '
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
+source-git-commit: 35d29c28672f53812de4a348c9f75f6766b2a7e7
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 90%
@@ -106,7 +106,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 | Componentes principales | AEM as a Cloud Service | AEM 6.5 | AEM 6.4 | Java SE | Maven |
 |---------|---------|---------|---------|---------|---------|
-| [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Continua | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
+| [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Continua | 6.5.6.0+ * | 6.4.8.4+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
