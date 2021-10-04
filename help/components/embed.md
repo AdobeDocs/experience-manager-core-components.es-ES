@@ -3,10 +3,10 @@ title: Incrustar componente
 description: El componente incrustado permite incrustar contenido externo en una página de contenido de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1341'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '1337'
+ht-degree: 99%
 
 ---
 
@@ -111,7 +111,7 @@ El marcado HTML que puede introducir el autor se filtra con fines de seguridad p
 
 Sin embargo, las reglas son más complicadas porque el componente Incrustar sigue el conjunto de reglas de filtrado del marco global de saneamiento HTML AntiSamy de AEM, que se puede encontrar en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponer esta configuración para un proyecto específico si fuera necesario.
 
-Puede encontrar información de seguridad adicional en la [documentación para desarrolladores para instalaciones en línea de AEM](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=es), así como [instalaciones de AEM Cloud Service.](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/security/home.html)
+Puede encontrar información de seguridad adicional en la [documentación para desarrolladores para instalaciones en línea de AEM](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html), así como [instalaciones de AEM Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
 
 >[!NOTE]
 >Aunque las reglas del marco de saneamiento AntiSamy se pueden configurar superponiendo `/libs/cq/xssprotection/config.xml`, estos cambios afectarán a todo el comportamiento de HTL y JSP y no solo al componente principal incrustado.

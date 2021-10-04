@@ -1,13 +1,13 @@
 ---
 title: Integraciones y la capa de datos del cliente de Adobe
 description: Descubra cómo la capa de datos del cliente de Adobe se puede integrar con sus componentes personalizados y cómo las integraciones con Adobe Analytics y Adobe Target pueden ayudarle a obtener perspectivas en su sitio web
-feature: Componentes principales, capa de datos del cliente de Adobe
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '422'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 96%
 
 ---
 
@@ -40,10 +40,10 @@ Junto con Adobe Analytics y Adobe Target, la capa de datos del cliente de Adobe 
 
 Aprenda a utilizar las funciones integradas de la capa de datos del cliente de Adobe con los componentes principales de AEM para recopilar datos sobre una página en Adobe Experience Manager Sites. Experience Platform Launch y la extensión de Adobe Analytics se utilizarán para crear reglas para enviar datos de página a Adobe Analytics.
 
-[Vea el tutorial aquí.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html?lang=es)
+[Vea el tutorial aquí.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/collect-data-analytics.html)
 
 ### Seguimiento de componentes en los que se hizo clic con Adobe Analytics {#track-clicked-components}
 
 Utilice la capa de datos del cliente de Adobe impulsada por eventos con componentes principales de AEM para rastrear clics de componentes específicos en un sitio de Adobe Experience Manager. Obtenga información sobre cómo utilizar las reglas en Experience Platform Launch para detectar eventos de clic, filtrar por componente y enviar los datos a un Adobe Analytics con una señalización de seguimiento de vínculos.
 
-[Vea el tutorial aquí.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html?lang=es)
+[Vea el tutorial aquí.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/analytics/track-clicked-component.html)

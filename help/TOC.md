@@ -4,10 +4,10 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 7bff1282bdd05b98e7ce33ab0e1a1be7080bb209
+source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 98%
+source-wordcount: '212'
+ht-degree: 95%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 98%
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](developing/overview.md)
    + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
-   + [Tutorial para desarrolladores de WKND](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Tutorial para desarrolladores de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
    + [Personalización de componentes principales](developing/customizing.md)
    + [Instrucciones de los componentes](developing/guidelines.md)
    + [Compatibilidad con AMP](developing/amp.md)

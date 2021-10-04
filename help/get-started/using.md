@@ -3,10 +3,10 @@ title: Uso de componentes principales
 description: '"Para poner en marcha los componentes principales en su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes de las plantillas".'
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '977'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '969'
+ht-degree: 96%
 
 ---
 
@@ -22,7 +22,7 @@ Para ponerse en marcha con los componentes principales de su propio proyecto, ha
 >[!TIP]
 >
 >Para obtener instrucciones más amplias sobre cómo empezar desde cero con la configuración del proyecto, los componentes principales, las plantillas editables, las bibliotecas de clientes y el desarrollo de componentes, el siguiente tutorial de varias partes puede ser de interés:\
->[Introducción a AEM Sites: Tutorial de WKND](https://docs.adobe.com/content/help/es-ES/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+>[Introducción a AEM Sites: Tutorial de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
 
 >[!TIP]
 >
@@ -50,7 +50,7 @@ Algunos puntos que se deben tener en cuenta al utilizar los componentes principa
 
 Los componentes principales no forman parte del inicio rápido al iniciarse en el modo de producción (sin contenido de ejemplo). Por lo tanto, el primer paso es [descargar el último paquete de contenido publicado desde GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalarlo en sus entornos de AEM.
 
-Existen varias formas de automatizar esto, pero la forma más sencilla de instalar rápidamente un paquete de contenido en una instancia es mediante el uso del Administrador de paquetes; consulte [Instalar paquetes](https://docs.adobe.com/content/help/es-ES/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Además, una vez que también tenga una instancia de publicación en ejecución, deberá replicar ese paquete al editor; consulte [Duplicación de paquetes](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=es#replicating-packages).
+Existen varias formas de automatizar esto, pero la forma más sencilla de instalar rápidamente un paquete de contenido en una instancia es mediante el uso del Administrador de paquetes; consulte [Instalar paquetes](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#installing-packages). Además, una vez que también tenga una instancia de publicación en ejecución, deberá replicar ese paquete al editor; consulte [Duplicación de paquetes](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html#replicating-packages).
 
 ## Crear componentes proxy {#create-proxy-components}
 
@@ -105,7 +105,7 @@ Asegúrese de que los componentes proxy y las bibliotecas de clientes se hayan i
 
 ## Permitir los componentes {#allow-the-components}
 
-Los siguientes pasos se realizan en el [Editor de plantillas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Los siguientes pasos se realizan en el [Editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 1. En el Editor de plantillas, seleccione el contenedor de diseño y abra su directiva.
 1. En la lista de componentes permitidos, seleccione los componentes proxy creados anteriormente, que deberían aparecer en el grupo de componentes asignado a ellos. Una vez finalizado, aplique los cambios.

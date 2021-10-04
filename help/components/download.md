@@ -3,10 +3,10 @@ title: Componente Descarga
 description: El componente principal Descarga permite crear una opción de descarga en una página.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '687'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 97%
 
 ---
 
@@ -54,9 +54,9 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 La selección de un recurso de descarga es muy similar a la funcionalidad del [Componente Imagen](image.md) y, del mismo modo, aprovecha AEM DAM.
 
 * **Recurso de descarga**
-   * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
+   * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
    * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
-   * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.
+   * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) en el editor de recursos.
 
 ### Pestaña Propiedades {#properties-tab}
 

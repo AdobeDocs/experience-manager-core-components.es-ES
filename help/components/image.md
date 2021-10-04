@@ -3,10 +3,10 @@ title: Componente Imagen
 description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '2170'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '2162'
+ht-degree: 98%
 
 ---
 
@@ -59,7 +59,7 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 >[!CAUTION]
 >
->La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superiores junto con el [Service Pack 2](https://docs.adobe.com/content/help/es-ES/experience-manager-64/release-notes/sp-release-notes.html) para AEM 6.4 o superior para admitir las [funciones del editor de imágenes](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/image-editor.html) dentro de AEM.
+>La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superiores junto con el [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=es) para AEM 6.4 o superior para admitir las [funciones del editor de imágenes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) dentro de AEM.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -82,9 +82,9 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y del [cuadro de diá
 ![Pestaña de recursos del cuadro de diálogo de configuración del componente de imagen](/help/assets/image-configure-asset.png)
 
 * **Recurso de imagen**
-   * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
+   * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
    * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
-   * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.
+   * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html) en el editor de recursos.
 
 ### Pestaña de metadatos {#metadata-tab}
 

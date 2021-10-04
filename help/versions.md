@@ -3,16 +3,16 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: fdca922ff637dc905fc90e80a1018c214a38e8c8
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '2279'
-ht-degree: 97%
+source-wordcount: '2273'
+ht-degree: 96%
 
 ---
 
 # Versiones de componentes principales {#core-components-versions}
 
-La versión actual de los componentes principales es 2.17.8 y es compatible con [AEM Cloud Service](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/landing/home.html) y con las [instalaciones de AEM en línea](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
+La versión actual de los componentes principales es 2.17.10 y es compatible con [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html) y con las [instalaciones de AEM en línea](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html).
 
 ## Historial y compatibilidad de la versión {#release-history-and-compatibility}
 
@@ -155,4 +155,4 @@ Para obtener más detalles sobre la compatibilidad de la personalización de com
 
 El énfasis de Adobe en el desarrollo ha cambiado los componentes principales y se seguirán añadiendo nuevas funciones.
 
-[Casi todos los componentes de base han quedado obsoletos con AEM 6.5](https://docs.adobe.com/content/help/es-ES/experience-manager-65/authoring/siteandpage/default-components-foundation.html) y solo se tendrán en cuenta las correcciones de errores importantes en los componentes de base a partir de ahora.
+[Casi todos los componentes de base han quedado obsoletos con AEM 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) y solo se tendrán en cuenta las correcciones de errores importantes en los componentes de base a partir de ahora.

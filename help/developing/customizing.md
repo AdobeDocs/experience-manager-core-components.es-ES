@@ -3,10 +3,10 @@ title: Personalización de componentes principales
 description: Los Componentes principales implementan varios patrones que facilitan la personalización, desde un estilo sencillo hasta la reutilización avanzada de funcionalidades.
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1106'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 98%
 
 ---
 
@@ -122,7 +122,7 @@ Por ejemplo, observe el archivo HTL del componente de ruta de exploración princ
 .cmp-breadcrumb a {}
 ```
 
-Además, cada uno de los componentes principales aprovecha la función de AEM [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=es) que permite a los autores de plantillas definir nombres de clase CSS adicionales que los autores de la página pueden aplicar al componente. Esto permite definir para cada plantilla una lista de estilos de componente permitidos y si uno de ellos debe aplicarse de forma predeterminada a todos los componentes de ese tipo.
+Además, cada uno de los componentes principales aprovecha la función de AEM [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html) que permite a los autores de plantillas definir nombres de clase CSS adicionales que los autores de la página pueden aplicar al componente. Esto permite definir para cada plantilla una lista de estilos de componente permitidos y si uno de ellos debe aplicarse de forma predeterminada a todos los componentes de ese tipo.
 
 ## Compatibilidad de la actualización de las personalizaciones {#upgrade-compatibility-of-customizations}
 
@@ -132,7 +132,7 @@ Se pueden realizar tres tipos diferentes de actualizaciones:
 * actualizar los componentes principales a una nueva versión secundaria
 * actualizar los componentes principales a una versión principal
 
-Por lo general, actualizar AEM a una nueva versión no afectará a los componentes principales ni a las personalizaciones realizadas, siempre que las versiones de los componentes también admitan la nueva versión de AEM a la que se está migrando y que las personalizaciones no utilicen API [obsoletas o eliminadas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Por lo general, actualizar AEM a una nueva versión no afectará a los componentes principales ni a las personalizaciones realizadas, siempre que las versiones de los componentes también admitan la nueva versión de AEM a la que se está migrando y que las personalizaciones no utilicen API [obsoletas o eliminadas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 La actualización de los componentes principales sin cambiar a una versión principal más reciente no debería afectar a las personalizaciones, siempre y cuando se utilicen los patrones de personalización descritos en esta página.
 
@@ -152,7 +152,7 @@ Al igual que para cualquier componente de AEM, hay que tener en cuenta varias co
 
 1. **Vea las funciones obsoletas y eliminadas.**
 
-   Con cada versión de AEM nueva a la que se actualiza, asegúrese de que todas las API utilizadas sigan actualizadas, teniendo en cuenta la página [Funciones obsoletas y eliminadas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+   Con cada versión de AEM nueva a la que se actualiza, asegúrese de que todas las API utilizadas sigan actualizadas, teniendo en cuenta la página [Funciones obsoletas y eliminadas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
 
 Consulte también la sección [Compatibilidad con componentes principales](overview.md#core-component-support).
 

@@ -3,10 +3,10 @@ title: Instrucciones de los componentes
 description: Los componentes principales siguen patrones de implementación modernos que son bastante diferentes de los componentes de base.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1272'
-ht-degree: 100%
+source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -30,7 +30,7 @@ Para ir más lejos, si los componentes se reutilizan en sitios o proyectos, cons
 
 ### Separación de preocupaciones {#separation-of-concerns}
 
-Normalmente se recomienda mantener la lógica (o el modelo) de un componente separado de la plantilla (o vista) de marcado. Existen varias formas de conseguirlo, pero la recomendada es utilizar [Modelos Sling](https://sling.apache.org/documentation/bundles/models.html) para la lógica y el [Lenguaje de plantilla HTML](https://docs.adobe.com/content/help/es-ES/experience-manager-htl/using/overview.html) (HTL) para el marcado, como también lo hacen los componentes principales.
+Normalmente se recomienda mantener la lógica (o el modelo) de un componente separado de la plantilla (o vista) de marcado. Existen varias formas de conseguirlo, pero la recomendada es utilizar [Modelos Sling](https://sling.apache.org/documentation/bundles/models.html) para la lógica y el [Lenguaje de plantilla HTML](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) (HTL) para el marcado, como también lo hacen los componentes principales.
 
 Los modelos Sling son un conjunto de anotaciones Java para acceder fácilmente a las variables necesarias desde los POJO y, por lo tanto, ofrecen una forma sencilla, potente y eficaz de implementar la lógica Java para los componentes.
 
@@ -42,7 +42,7 @@ Las directrices de esta sección se pueden utilizar también para cualquier tipo
 
 ### Capacidades preconfigurables {#pre-configurable-capabilities}
 
-Además del cuadro de diálogo de edición que utilizan los autores de páginas, los componentes también pueden tener un cuadro de diálogo de diseño para que los autores de plantillas los preconfiguren. El [Editor de plantillas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html) permite configurar todas estas preconfiguraciones, que se denominan &quot;Directivas&quot;.
+Además del cuadro de diálogo de edición que utilizan los autores de páginas, los componentes también pueden tener un cuadro de diálogo de diseño para que los autores de plantillas los preconfiguren. El [Editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) permite configurar todas estas preconfiguraciones, que se denominan &quot;Directivas&quot;.
 
 Para que los componentes sean lo más reutilizables posible, se les deben proporcionar opciones significativas para preconfigurarlos. Esto permitirá habilitar o deshabilitar las características de los componentes para que coincidan con las necesidades específicas de distintos sitios.
 
@@ -85,11 +85,11 @@ Cuando se combina con el [Patrón de componentes proxy](#proxy-component-pattern
 
 ## En resumen {#putting-it-all-together}
 
-A continuación se ofrece una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de los componentes, para evitar que el recurso de contenido contenga ningún número de versión. A continuación, muestra cómo utiliza el archivo `title.html` [HTL](https://docs.adobe.com/content/help/es-ES/experience-manager-htl/using/overview.html) del componente en la interfaz del modelo, mientras que la implementación se une a la versión específica del componente mediante anotaciones del [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
+A continuación se ofrece una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de los componentes, para evitar que el recurso de contenido contenga ningún número de versión. A continuación, muestra cómo utiliza el archivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) del componente en la interfaz del modelo, mientras que la implementación se une a la versión específica del componente mediante anotaciones del [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Información general de enlace de recursos](/help/assets/chlimage_1-32.png)
 
-A continuación se muestra otra descripción general, que no muestra los detalles del la implementación POJO, pero revela cómo se hace referencia a las [plantillas y directivas](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/implementing/components-templates/templates.html) asociadas.
+A continuación se muestra otra descripción general, que no muestra los detalles del la implementación POJO, pero revela cómo se hace referencia a las [plantillas y directivas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/templates.html) asociadas.
 
 La propiedad `cq:allowedTemplates` indica qué plantillas se pueden utilizar para un sitio y la `cq:template` indica a cada página qué es la plantilla asociada. Cada plantilla consta de las siguientes tres partes:
 

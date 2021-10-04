@@ -3,16 +3,16 @@ title: Componente Página
 description: El componente Página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '691'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '687'
+ht-degree: 97%
 
 ---
 
 # Componente Página{#page-component}
 
-El componente Página es un componente de página ampliable diseñado para trabajar con el [editor de plantillas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html) y permite ensamblar el encabezado/pie de página y los componentes de estructura con el editor de plantillas.
+El componente Página es un componente de página ampliable diseñado para trabajar con el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) y permite ensamblar el encabezado/pie de página y los componentes de estructura con el editor de plantillas.
 
 ## Uso {#usage}
 
@@ -22,7 +22,7 @@ Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden definir b
 
 ## Compatibilidad con la aplicación web progresiva {#pwa-support}
 
-La versión 2.15.0 de los componentes principales introdujo la compatibilidad con las [aplicaciones web progresivas (PWA) de AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=es) Con una configuración simple a nivel de sitio, convierta su experiencia AEM en una PWA.
+La versión 2.15.0 de los componentes principales introdujo la compatibilidad con las [aplicaciones web progresivas (PWA) de AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html) Con una configuración simple a nivel de sitio, convierta su experiencia AEM en una PWA.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -45,7 +45,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
-Dado que el componente representa la página completa, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana [Propiedades de página](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
+Dado que el componente representa la página completa, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana [Propiedades de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

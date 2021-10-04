@@ -3,10 +3,10 @@ title: Componente del contenedor de formularios
 description: El componente principal Contenedor de formularios permite crear formularios de envío simples.
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '956'
-ht-degree: 100%
+source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
+workflow-type: tm+mt
+source-wordcount: '950'
+ht-degree: 97%
 
 ---
 
@@ -18,11 +18,11 @@ El componente principal Contenedor de formularios permite crear formularios de e
 
 El Componente del contenedor de formularios permite crear formularios y funciones de envío de información sencillos mediante la compatibilidad de formularios WCM simples y el uso de una estructura anidada para permitir componentes de formulario adicionales.
 
-Al utilizar el [cuadro de diálogo de configuración](#configure-dialog) el editor de contenido puede definir la acción desencadenada por el envío del formulario, la URL que debe administrar el envío y si se debe activar un flujo de trabajo. El autor de la plantilla puede utilizar el [cuadro de diálogo de diseño](#design-dialog) para definir los componentes permitidos y las asignaciones similares a él para el [contenedor de diseño estándar en el editor de plantillas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html).
+Al utilizar el [cuadro de diálogo de configuración](#configure-dialog) el editor de contenido puede definir la acción desencadenada por el envío del formulario, la URL que debe administrar el envío y si se debe activar un flujo de trabajo. El autor de la plantilla puede utilizar el [cuadro de diálogo de diseño](#design-dialog) para definir los componentes permitidos y las asignaciones similares a él para el [contenedor de diseño estándar en el editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 >[!NOTE]
 >
->Los componentes principales del componente del contenedor de formularios solo admite el uso de otros componentes principales de componentes de formularios (botón, texto, oculto, etc.). No se admite el uso de componentes de formularios de [componentes de fundación](https://docs.adobe.com/content/help/es-ES/experience-manager-65/authoring/siteandpage/default-components-foundation.html) dentro del contenedor de formularios de componentes principales (y viceversa).
+>Los componentes principales del componente del contenedor de formularios solo admite el uso de otros componentes principales de componentes de formularios (botón, texto, oculto, etc.). No se admite el uso de componentes de formularios de [componentes de fundación](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/siteandpage/default-components-foundation.html) dentro del contenedor de formularios de componentes principales (y viceversa).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -119,7 +119,7 @@ Independientemente del tipo de acción seleccionado, siempre se puede definir un
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite que el autor de la plantilla defina los componentes permitidos y sus asignaciones para el contenedor de forma similar al cuadro de diálogo de diseño para el [contenedor de diseño estándar en el editor de plantillas](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html).
+El cuadro de diálogo de diseño permite que el autor de la plantilla defina los componentes permitidos y sus asignaciones para el contenedor de forma similar al cuadro de diálogo de diseño para el [contenedor de diseño estándar en el editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Pestaña Estilos {#styles-tab}
 

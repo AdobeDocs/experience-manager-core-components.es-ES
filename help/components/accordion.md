@@ -3,10 +3,10 @@ title: Componente Acordeón
 description: El componente Acordeón de componentes principales permite crear una colección de paneles organizados en un acordeón de una página.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1067'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '1063'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +28,7 @@ El acordeón y los [componentes de pestañas](tabs.md) admiten la vinculación d
 
 Para ello:
 
-1. Visualice la página con el componente utilizando la opción **[Ver como publicado](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** en el editor de páginas.
+1. Visualice la página con el componente utilizando la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** en el editor de páginas.
 1. Inspeccione el contenido de la página e identifique el ID del panel.
    * Por ejemplo `id="accordion-86196c94d3-item-ca319dbb0b"`
 1. El ID se convierte en el anclaje que puede anexar a la URL mediante un hash (`#`).
@@ -120,7 +120,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir las op
 
 La pestaña **Componentes permitidos** se utiliza para definir qué componentes el autor de contenido puede añadir como elementos a los paneles del componente de acordeón.
 
-La pestaña Componentes permitidos funciona del mismo modo que la del mismo nombre cuando [define la directiva y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
+La pestaña Componentes permitidos funciona del mismo modo que la del mismo nombre cuando [define la directiva y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
 
 ### Pestaña Estilos {#styles-tab}
 

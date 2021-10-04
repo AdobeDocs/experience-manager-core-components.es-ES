@@ -3,10 +3,10 @@ title: Componente Contenedor
 description: El componente principal Contenedor permite crear un contenedor para varios componentes adicionales en una página.
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '792'
-ht-degree: 100%
+source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 96%
 
 ---
 
@@ -51,7 +51,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 
 * **Diseño**: esta opción define el comportamiento o el comportamiento de diseño del componente Contenedor.
    * **Simple**: define un contenedor como una simple colección de componentes.
-   * **Cuadrícula interactiva**: define un contenedor como un diseño interactivo de [AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=es)
+   * **Cuadrícula interactiva**: define un contenedor como un diseño interactivo de [AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
 * **Color de fondo**: se puede definir como valores RGB de forma libre o utilizando el selector de color, [según la configuración](#background-tab)
 * **Imagen de fondo**: define un color de fondo para el contenedor, [según la configuración](#background-tab)
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
@@ -67,11 +67,11 @@ El cuadro de diálogo de diseño permite que el autor de la plantilla defina las
 
 La pestaña **Componentes permitidos** se utiliza para definir qué componentes puede agregar el autor del contenido como elementos al componente Contenedor.
 
-La pestaña Componentes permitidos funciona del mismo modo que la del mismo nombre cuando [define la directiva y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html)
+La pestaña Componentes permitidos funciona del mismo modo que la del mismo nombre cuando [define la directiva y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
 
 ### Pestaña Componentes predeterminados {#default-components-tab}
 
-La pestaña Componentes predeterminados se utiliza para definir qué componente se añade al componente cuando se coloca un tipo de recurso en particular en el contenedor, de forma similar a [cómo se definen los componentes predeterminados en la plantilla de página](https://docs.adobe.com/content/help/es-ES/experience-manager-cloud-service/sites/authoring/features/templates.html).
+La pestaña Componentes predeterminados se utiliza para definir qué componente se añade al componente cuando se coloca un tipo de recurso en particular en el contenedor, de forma similar a [cómo se definen los componentes predeterminados en la plantilla de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
 
 ### Pestaña Configuración interactiva {#responsive-settings-tab}
 
