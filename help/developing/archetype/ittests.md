@@ -1,12 +1,12 @@
 ---
 title: Módulo de it.tests del tipo de archivo del proyecto AEM
 description: Utilización de las pruebas de integración de tipo de archivo del proyecto AEM
-feature: Componentes principales, tipo de archivo del proyecto AEM
+feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 0abc0265-3a3f-4323-97e6-3af0c62299ef
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '80'
+source-wordcount: '75'
 ht-degree: 100%
 
 ---
