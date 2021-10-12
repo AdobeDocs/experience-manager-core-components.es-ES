@@ -49,7 +49,7 @@ Según el **Tipo de acción** seleccionado, cambiarán las opciones disponibles 
 * [Correo](#mail)
 * [Almacenar contenido](#store-content)
 * [Enviar pedido](#submit-order)
-* [Actualizar orden](#update-order)
+* [Actualizar pedido](#update-order)
 
 Independientemente del tipo, existen [configuraciones generales](#general-settings) que se aplican a cada acción.
 
@@ -60,8 +60,8 @@ Cuando se envía el formulario, el tipo de acción de correo envía un correo el
 ![](/help/assets/chlimage_1-1.png)
 
 * **Asunto**: el asunto del correo electrónico que se enviará junto con el formulario
-* **De**: la dirección de correo electrónico de origen desde la que se enviará el formulario
-* **Para**: las direcciones de los destinatarios que recibirán un correo electrónico al enviar el formulario
+* **Desde**: la dirección de correo electrónico de origen desde la que se enviará el formulario
+* **Hasta**: las direcciones de los destinatarios que recibirán un correo electrónico al enviar el formulario
    * Pulse o haga clic en el botón **Añadir** para añadir direcciones adicionales
    * Pulse o haga clic en el botón **Eliminar** para eliminar una dirección de correo electrónico
 * **CC**: las direcciones de los destinatarios que recibirán una copia del correo electrónico enviado al enviar el formulario.
@@ -84,7 +84,7 @@ Cuando se envía el formulario, se envía la solicitud.
 
 ![](/help/assets/chlimage_1-3.png)
 
-### Actualizar orden {#update-order}
+### Actualizar pedido {#update-order}
 
 Cuando se envía el formulario, se actualiza la solicitud.
 
