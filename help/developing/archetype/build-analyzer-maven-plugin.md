@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: db33866f0a9e87e34eaaa061d308438c6f5bebb4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '605'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -37,13 +37,13 @@ A continuación se muestra una tabla que describe los analizadores que se ejecut
 | `bundle-nativecode` | Valida que los paquetes OSGI no instalen código nativo. | Sí | Sí |
 | `configuration-api` | Valida configuraciones importantes de OSGi. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Sí | Sí |
 | `region-deprecated-api` | Comprueba si se utiliza una [API obsoleta](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=es) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
-| `artifact-rules` | Valida dependencias como paquetes y paquetes de contenido para evitar problemas conocidos en artefactos.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
+| `artifact-rules` | Valida dependencias como paquetes y paquetes de contenido para evitar problemas conocidos con artefactos.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
 
 ## Problemas conocidos
 
-A continuación se muestra una lista de problemas conocidos al utilizar el complemento Maven de Build Analyzer.
+A continuación, se muestra una lista de problemas conocidos al utilizar el complemento Maven de Build Analyzer.
 
-### No se pudo ejecutar el complemento Maven del analizador de compilación en el SDK local
+### No se ha podido ejecutar el complemento Maven de Build Analyzer en el SDK local
 
 Cuando se utiliza el SDK local con una versión del complemento Maven de Build Analyzer inferior a `1.1.2`, la ejecución del complemento puede provocar el siguiente error. En este caso, actualice el proyecto a la última versión del complemento.
 
@@ -51,7 +51,7 @@ Cuando se utiliza el SDK local con una versión del complemento Maven de Build A
 [ERROR] Failed to execute goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse (default-analyse) on project mysite.analyse: Execution default-analyse of goal com.adobe.aem:aemanalyser-maven-plugin:1.1.0:analyse failed: arraycopy: source index -1 out of bounds for char[65536] -> [Help 1]
 ```
 
-Si utilizó el tipo de archivo del proyecto AEM para configurar el proyecto, asegúrese de ajustar la propiedad en el Maven `pom.xml` raíz como se muestra a continuación.
+Si ha utilizado el tipo de archivo del proyecto de AEM para configurar el proyecto, asegúrese de ajustar la propiedad en el Maven raíz `pom.xml` como se muestra a continuación.
 
 ```xml
    ...
