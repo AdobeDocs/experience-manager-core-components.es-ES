@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Componente Botón{#button-component}
+# Componente Botón {#button-component}
 
 El componente principal Botón permite configurar y mostrar un elemento de botón en una página.
 
