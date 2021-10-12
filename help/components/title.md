@@ -46,7 +46,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 El cuadro de diálogo de edición permite al autor del contenido definir el texto del título, así como seleccionar el nivel de encabezado.
 
 * **Título**: si está vacío, se utilizará el título de la página
-* **Tipo/tamaño**: define el nivel de encabezado del título
+* **Tipo / Tamaño**: define el nivel de encabezado del título
 * **Vínculo**: define el contenido al que se vinculará el título. Puede ser una ruta a una página de contenido, una URL externa o un anclaje de página.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
@@ -71,9 +71,9 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir el niv
 
 ![Cuadro de diálogo de diseño del componente Título](/help/assets/title-design.png)
 
-* **Tipos/tamaños permitidos para autores**: habilite o deshabilite los tipos de encabezados que estarán disponibles para los autores de contenido cuando usen el componente Título.
+* **Tipos permitidos/tamaños para autores**: habilite o deshabilite los tipos de encabezados que estarán disponibles para los autores de contenido cuando usen el componente Título.
 * **Tipo/tamaño predeterminado**: defina el tipo de encabezado que se asignará automáticamente cuando un autor de contenido añada el componente Título a una página.
-* **Deshabilitar vínculo**: desactive la compatibilidad con vínculos en el componente de título para impedir que los autores de contenido se vinculen desde títulos.
+* **Deshabilitar el vínculo**: desactive la compatibilidad con vínculos en el componente de título para impedir que los autores de contenido se vinculen desde títulos.
 
 >[!NOTE]
 >
