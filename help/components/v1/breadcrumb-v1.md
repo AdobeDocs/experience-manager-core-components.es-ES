@@ -92,12 +92,12 @@ El cuadro de diálogo de edición permite al autor del contenido suprimir las p�
 
 ![](/help/assets/chlimage_1-34.png)
 
-* **Nivel de navegación para comenzar**: en qué punto de la jerarquía debe comenzar a avanzar el componente Ruta de exploración hasta la página actual. Por ejemplo, en We.Retail:
+* **Navegación: nivel inicial**: en qué punto de la jerarquía debe comenzar a avanzar el componente Ruta de exploración hasta la página actual. Por ejemplo, en We.Retail:
 
    * 1 empieza en `/content/we-retail`
    * 2 empieza en `/content/we-retail/<country>`
 
-* **Mostrar ocultas**: muestra las páginas marcadas como ocultas en la ruta de exploración (de forma predeterminada, no se mostrarán)
+* **Mostrar ocultos**: muestra las páginas marcadas como ocultas en la ruta de exploración (de forma predeterminada, no se mostrarán)
 * **Ocultar actual**: elimine la página actual en la ruta de exploración (de forma predeterminada se mostrará)
 
 ## Cuadro de diálogo de diseño {#design-dialog}
@@ -106,8 +106,8 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir cuále
 
 ![](/help/assets/chlimage_1-35.png)
 
-* **Nivel de navegación para comenzar**: define el valor predeterminado para el lugar en la jerarquía en el que el componente Ruta de exploración debe comenzar a avanzar hasta la página actual cuando se agrega el componente Ruta de exploración a una página.
-* **Mostrar ocultas**: define el valor predeterminado de la opción **Mostrar ocultas** cuando se agrega el componente de la ruta de exploración a una página.
+* **Navegación: nivel inicial**: define el valor predeterminado para el lugar en la jerarquía en el que el componente Ruta de exploración debe comenzar a avanzar hasta la página actual cuando se agrega el componente Ruta de exploración a una página.
+* **Mostrar ocultos**: define el valor predeterminado de la opción **Mostrar ocultas** cuando se agrega el componente de la ruta de exploración a una página.
 
    * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
 
