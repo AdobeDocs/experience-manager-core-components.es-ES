@@ -4,9 +4,9 @@ description: El componente principal Lista permite crear fácilmente listas din�
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1064'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ El componente Lista se puede utilizar para crear, por ejemplo, una lista dinámi
 
 ## Redirecciones en listas {#redirects}
 
-Cuando una página tiene un objetivo de redirección (independientemente de si apunta a una dirección URL externa o a otra página AEM), entonces una lista que contiene vínculos a ese punto directamente a la dirección URL del destino de redirección.
+Cuando una página tiene un objetivo de redirección (independientemente de si apunta a una dirección URL externa o a otra página de AEM), cualquier lista que contenga vínculos hacia ahí apunta directamente a la dirección URL del destino de redirección.
 
 ### Ejemplo {#redirect-example}
 
 * Cree una página A que redirija a la página B.
 * Cree una página C que redirija a `https://aemcomponents.dev`
 * En una página D, inserte un componente de lista que contenga las páginas A y C
-* Los vínculos respectivos que se generan luego apuntan directamente a la página B y `https://aemcomponents.dev`
+* Los vínculos respectivos que se generan apuntan directamente a la página B y `https://aemcomponents.dev`
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
