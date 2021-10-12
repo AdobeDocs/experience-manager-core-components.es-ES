@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Componente Formulario oculto{#form-hidden-component}
+# Componente Formulario oculto {#form-hidden-component}
 
 El componente principal Formulario oculto permite ver un campo oculto.
 
