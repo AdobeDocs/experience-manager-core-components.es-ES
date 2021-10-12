@@ -10,7 +10,7 @@ ht-degree: 100%
 
 ---
 
-# Componente Texto de formulario{#form-text-component}
+# Componente Texto de formulario {#form-text-component}
 
 El componente principal Texto de formulario permite introducir el texto del formulario para enviarlo.
 
@@ -53,14 +53,14 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
    * **Texto**
    * **Área de texto**
    * **Correo electrónico**
-   * **Tel.**
+   * **Tel**
    * **Fecha**
    * **Número**
    * **Contraseña**
 * **Líneas de texto**: número de líneas que se mostrarán en el área de texto (solo se muestran cuando **Restricción** se establezca en **Área de texto**)
 * **Etiqueta**: la etiqueta que se mostrará para el campo.
 * **Ocultar la etiqueta para que no se muestre**: necesario si la etiqueta es necesaria solo para fines de accesibilidad y no proporciona información visual adicional sobre el campo
-* **Nombre del elemento**: el nombre del campo, que se envía con los datos del formulario
+* **Nombre elemento**: el nombre del campo, que se envía con los datos del formulario
 * **Valor**: valor predeterminado que se rellena previamente en el campo
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
@@ -72,7 +72,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 ![Pestaña Acerca de](/help/assets/form-text-edit-about.png)
 
 * **Mensaje de ayuda**: una sugerencia al usuario sobre lo que se puede introducir en el campo
-* **Mostrar mensaje de ayuda como marcador de posición**: si desea mostrar el mensaje de ayuda dentro de la entrada del formulario cuando está vacía y no seleccionada
+* **Mostrar el mensaje de ayuda como marcador de posición**: si desea mostrar el mensaje de ayuda dentro de la entrada del formulario cuando está vacía y no seleccionada
 
 ### Pestaña Restricciones {#constraints-tab}
 
@@ -81,9 +81,9 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 * **Mensaje de restricción**
    * El mensaje se muestra como información cuando se envía el formulario si el valor no valida el tipo elegido
    * No se muestra para los tipos de restricción **Texto** y **Área de texto**
-* **Necesario**: si se selecciona, el usuario debe rellenar un valor antes de enviar el formulario
+* **Obligatorio**: si se selecciona, el usuario debe rellenar un valor antes de enviar el formulario
    * **Mensaje obligatorio**: mensaje mostrado como información sobre herramientas si el campo se deja vacío
-* **Convertir en solo lectura**: si está seleccionado, el usuario no puede modificar el valor del campo
+* **Hacer de solo lectura**: si está seleccionado, el usuario no puede modificar el valor del campo
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
