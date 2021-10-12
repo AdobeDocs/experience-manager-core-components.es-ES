@@ -4,9 +4,9 @@ description: El componente Navegación permite a los usuarios navegar fácilment
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: eea159ad494150c3f132166d48f624605eb92e64
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1469'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -90,14 +90,14 @@ A continuación, el componente de navegación procesará el menú basado en la e
 
 ## Redirecciones en navegación {#redirects}
 
-Cuando una página tiene un objetivo de redirección (independientemente de si apunta a una dirección URL externa o a otra página AEM), un componente de navegación que contiene vínculos a ese punto directamente a la dirección URL del destino de redirección.
+Cuando una página tiene un objetivo de redirección (independientemente de si apunta a una dirección URL externa o a otra página de AEM), cualquier componente de navegación que contenga vínculos hacia ahí apunta directamente a la dirección URL del destino de redirección.
 
 ### Ejemplo {#redirect-example}
 
 * Cree una página A que redirija a la página B.
 * Cree una página C que redirija a `https://aemcomponents.dev`
-* En una página D, inserte un componente de navegación o que contenga las páginas A y C
-* Los vínculos respectivos que se generan luego apuntan directamente a la página B y `https://aemcomponents.dev`
+* En una página D, inserte un componente de navegación que contenga las páginas A y C
+* Los vínculos respectivos que se generan apuntan directamente a la página B y `https://aemcomponents.dev`
 
 
 ## Versión y compatibilidad {#version-and-compatibility}
