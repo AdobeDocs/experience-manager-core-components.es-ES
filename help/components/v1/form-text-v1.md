@@ -103,7 +103,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
    * **Texto**
    * **Área de texto**
    * **Correo electrónico**
-   * **Tel.**
+   * **Tel**
    * **Fecha**
    * **Número**
    * **Contraseña**
@@ -112,7 +112,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 
 * **Etiqueta**: la etiqueta que se mostrará para el campo.
 * **Ocultar la etiqueta para que no se muestre**: necesario si la etiqueta es necesaria solo para fines de accesibilidad y no proporciona información visual adicional sobre el campo
-* **Nombre del elemento**: el nombre del campo, que se envía con los datos del formulario
+* **Nombre elemento**: el nombre del campo, que se envía con los datos del formulario
 * **Valor**: valor predeterminado que se rellena previamente en el campo
 
 ### Acerca de {#about}
@@ -120,7 +120,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 ![](/help/assets/chlimage_1-24.png)
 
 * **Mensaje de ayuda**: una sugerencia al usuario sobre lo que se puede introducir en el campo
-* **Mostrar mensaje de ayuda como marcador de posición**: si desea mostrar el mensaje de ayuda dentro de la entrada del formulario cuando está vacía y no seleccionada
+* **Mostrar el mensaje de ayuda como marcador de posición**: si desea mostrar el mensaje de ayuda dentro de la entrada del formulario cuando está vacía y no seleccionada
 
 ### Restricciones {#constraints}
 
@@ -131,8 +131,8 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
    * El mensaje se muestra como información cuando se envía el formulario si el valor no valida el tipo elegido
    * No se muestra para los tipos de restricción **Texto** y **Área de texto**
 
-* **Necesario**: si se selecciona, el usuario debe rellenar un valor antes de enviar el formulario
-* **Convertir en solo lectura**: si está seleccionado, el usuario no puede modificar el valor del campo
+* **Obligatorio**: si se selecciona, el usuario debe rellenar un valor antes de enviar el formulario
+* **Hacer de solo lectura**: si está seleccionado, el usuario no puede modificar el valor del campo
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
