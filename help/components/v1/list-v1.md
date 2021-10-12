@@ -184,7 +184,7 @@ La lista se puede crear utilizando los resultados de una búsqueda de contenido 
 
 ![](/help/assets/chlimage_1-41.png)
 
-* **Consulta de búsqueda**: cadena para la que se ejecutará una búsqueda de texto completo para generar los elementos de la lista.
+* **Consulta de búsqueda**: cadena para la que se ejecutará una búsqueda de texto completo para generar los elementos de la lista
 * **Buscar en**: donde se debe ejecutar la búsqueda
    * Utilice el **Cuadro de diálogo de selección** para elegir la ubicación en AEM
    * Si se deja en blanco se usará la página actual
