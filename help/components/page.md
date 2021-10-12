@@ -10,7 +10,7 @@ ht-degree: 97%
 
 ---
 
-# Componente Página{#page-component}
+# Componente Página {#page-component}
 
 El componente Página es un componente de página ampliable diseñado para trabajar con el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) y permite ensamblar el encabezado/pie de página y los componentes de estructura con el editor de plantillas.
 
@@ -68,7 +68,7 @@ Con la ventana Diseño de página, puede definir las bibliotecas de cliente que 
 
 * **Biblioteca de cliente de recursos web**: categoría de la biblioteca de cliente que se usa para publicar recursos web, como los iconos favoritos.
 
-* **Pasar al selector de elementos de contenido principal**: se utiliza como función de accesibilidad para saltar directamente al contenido principal de la página
+* **Saltar al selector de elementos de contenido principal**: se utiliza como función de accesibilidad para saltar directamente al contenido principal de la página
 
 ![Cuadro de diálogo de diseño de componente de página](/help/assets/page-design.png)
 

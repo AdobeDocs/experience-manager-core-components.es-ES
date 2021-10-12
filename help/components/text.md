@@ -340,7 +340,7 @@ Las siguientes funciones se pueden activar o desactivar para el componente.
 Las siguientes opciones de formato se pueden activar o desactivar para el componente.
 
 * Tabla
-* Listas (viñeta, número, menos sangría, más sangría).
+* Listas (viñeta, número, menos sangría, más sangría)
 * Alineación (izquierda, derecha, centrado)
 * Negrita, cursiva, subrayado
 * Vinculación (y desvinculación)

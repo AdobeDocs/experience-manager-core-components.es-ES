@@ -1,5 +1,5 @@
 ---
-title: Componente Descarga
+title: 'Componente Descarga '
 description: El componente principal Descarga permite crear una opción de descarga en una página.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
@@ -10,7 +10,7 @@ ht-degree: 97%
 
 ---
 
-# Componente Descarga{#download-component}
+# Componente Descarga {#download-component}
 
 El componente principal Descarga permite crear una opción de descarga en una página.
 
@@ -63,12 +63,12 @@ La selección de un recurso de descarga es muy similar a la funcionalidad del [C
 ![Pestaña Propiedades del cuadro de diálogo de edición del componente Descarga](/help/assets/download-edit-properties.png)
 
 * **Título**: se muestra como un titular para el elemento de descarga
-   * **Obtener título del recurso DAM**: cuando se selecciona, el título se rellena automáticamente con el título del recurso DAM.
+   * **Obtener el título del recurso DAM**: cuando se selecciona, el título se rellena automáticamente con el título del recurso DAM.
 * **Descripción**: se muestra como un subtitular descriptivo del elemento de descarga
-   * **Obtener descripción del recurso DAM**: cuando se selecciona, la descripción se rellena automáticamente con la descripción del recurso DAM.
+   * **Obtener la descripción del recurso DAM**: cuando se selecciona, la descripción se rellena automáticamente con la descripción del recurso DAM.
 * **Texto de acción**: se muestra como texto de acción para el elemento de descarga
    * Este campo es necesario al cargar un recurso desde el sistema de archivos.
-   * **Mostrar en línea**: al seleccionarlo, el **texto de acción** proporcionado se mostrará en línea.
+   * **Mostrar elementos incorporados**: al seleccionarlo, el **texto de acción** proporcionado se mostrará en línea.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
@@ -82,15 +82,15 @@ El cuadro de diálogo de diseño permite que el autor de la plantilla defina las
 
 ![Cuadro de diálogo Diseño del componente Descarga](/help/assets/download-design.png)
 
-* **Permitir carga desde el sistema de archivos**: permite al autor del contenido cargar un recurso desde su sistema de archivos local como recurso de descarga.
+* **Permitir la carga desde el sistema de archivos**: permite al autor del contenido cargar un recurso desde su sistema de archivos local como recurso de descarga.
    * El valor predeterminado no está seleccionado.
 * **Tipo de título**: el elemento HTML utilizado para el título del componente Descarga.
    * Si no se selecciona ningún valor, el valor predeterminado es H3.
-* **Mostrar tamaño de archivo**: cuando se selecciona, el tamaño de archivo del recurso se muestra en el componente Descarga.
+* **Mostrar el tamaño de archivo**: cuando se selecciona, el tamaño de archivo del recurso se muestra en el componente Descarga.
    * El valor predeterminado está seleccionado.
-* **Formato del archivo de visualización**: cuando se selecciona, el formato de archivo del recurso se muestra en el componente Descarga.
+* **Mostrar el formato de archivo**: cuando se selecciona, el formato de archivo del recurso se muestra en el componente Descarga.
    * El valor predeterminado está seleccionado.
-* **Mostrar nombre de archivo**: al seleccionarlo, el nombre de archivo del recurso se mostrará en el componente Descarga.
+* **Mostrar el nombre de archivo**: al seleccionarlo, el nombre de archivo del recurso se mostrará en el componente Descarga.
    * El valor predeterminado está seleccionado.
 
 ### Pestaña Estilos {#styles-tab}

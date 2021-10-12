@@ -76,7 +76,7 @@ Las incrustaciones permiten una mayor personalización del recurso incrustado, q
 
 El campo **Incrustable** define el tipo de procesador que desea utilizar. En el caso de YouTube incrustable, puede definir:
 
-* **ID de vídeo**: el ID exclusivo del vídeo de YouTube del recurso que desea incrustar.
+* **ID de vídeo**: el ID exclusivo del vídeo de YouTube del recurso que desea incrustar
 * **Anchura**: la anchura del vídeo incrustado
 * **Altura**: altura del vídeo incrustado
 * **Habilitar silenciar**: este parámetro especifica si el vídeo se reproducirá silenciado de forma predeterminada. Habilitar esto aumenta las posibilidades de que la reproducción automática funcione en exploradores modernos.

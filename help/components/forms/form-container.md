@@ -65,7 +65,7 @@ Cuando se envía el formulario, el tipo de acción de publicación de datos de f
 
 ![Opciones de publicar datos de formulario en el cuadro de diálogo de edición del componente del contenedor de formularios](/help/assets/form-container-edit-post.png)
 
-* **Punto de conexión**: el servicio HTTPS completo que procesará los datos.
+* **Punto de conexión**: el servicio HTTPS completo que procesará los datos
 * **Mensaje de error**: mensaje que se muestra si el envío no se ha realizado correctamente
 
 >[!TIP]
@@ -78,8 +78,8 @@ Cuando se envía el formulario, el tipo de acción de correo envía un correo el
 ![Opciones de correo en el cuadro de diálogo de edición del componente del contenedor de formularios](/help/assets/form-container-edit-mail.png)
 
 * **Asunto**: el asunto del correo electrónico que se enviará junto con el formulario
-* **De**: la dirección de correo electrónico de origen desde la que se enviará el formulario
-* **Para**: las direcciones de los destinatarios que recibirán un correo electrónico al enviar el formulario
+* **Desde**: la dirección de correo electrónico de origen desde la que se enviará el formulario
+* **Hasta**: las direcciones de los destinatarios que recibirán un correo electrónico al enviar el formulario
    * Pulse o haga clic en el botón **Añadir** para añadir direcciones adicionales
    * Pulse o haga clic en el botón **Eliminar** para eliminar una dirección de correo electrónico
 * **CC**: las direcciones de los destinatarios que recibirán una copia del correo electrónico enviado al enviar el formulario.

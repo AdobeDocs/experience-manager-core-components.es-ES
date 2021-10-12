@@ -18,7 +18,7 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 
 ## Medios {#resources}
 
-* **[Biblioteca de componentes:](https://www.adobe.com/go/aem_cmp_library)** una colección de ejemplos para ver los componentes en sus distintas configuraciones.
+* **[Biblioteca de componentes:](https://www.adobe.com/go/aem_cmp_library_es)** una colección de ejemplos para ver los componentes en sus distintas configuraciones.
 * **Documentación de componentes (este documento):** para desarrolladores y autores, con detalles sobre cada componente.
 * **[Repositorio de componentes principales de GitHub: ](https://github.com/adobe/aem-core-wcm-components)** para obtener detalles del desarrollador de cada componente y descarga de proyecto.
 * Introducción:

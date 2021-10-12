@@ -10,7 +10,7 @@ ht-degree: 96%
 
 ---
 
-# Componente Fragmento de contenido{#content-fragment-component}
+# Componente Fragmento de contenido {#content-fragment-component}
 
 El componente principal Fragmento de contenido permite ver un [fragmento de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
 
