@@ -1,12 +1,12 @@
 ---
 title: Ampliación de la capa de datos del cliente de Adobe
 description: La capa de datos del cliente de Adobe se puede ampliar siguiendo algunos patrones básicos
-feature: Componentes principales, capa de datos del cliente de Adobe
+feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: f3d5555b-4f08-49de-ab0f-dc0fb04aadf8
 source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
 workflow-type: ht
-source-wordcount: '282'
+source-wordcount: '276'
 ht-degree: 100%
 
 ---
