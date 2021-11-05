@@ -4,9 +4,9 @@ description: Los componentes principales proporcionan componentes básicos sóli
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +103,7 @@ Para obtener más información sobre sus capacidades de creación y las opciones
 | Entrega | [A través de GitHub público](https://github.com/adobe/aem-core-wcm-components) | Mediante Quickstart |
 | Licencia | [Licencia de Apache](https://www.apache.org/licenses/LICENSE-2.0) | Propietario de Adobe |
 | Contribución | Mediante solicitud de extracción | No es posible |
-| Accesibilidad | Totalmente compatible con el [WCAG 2.0 AA estándar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) | Sólo parcialmente compatible con el [WCAG 2.0 AA estándar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
+| Accesibilidad | Totalmente compatible con el [WCAG 2.0 AA estándar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=es) | Sólo parcialmente compatible con el [WCAG 2.0 AA estándar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=es) |
 
 ## Lista de componentes {#component-list}
 
@@ -149,6 +149,6 @@ Para obtener una descripción general de la próxima hoja de ruta del componente
 
 Una ventaja de los componentes con versiones es que permite separar la migración a una nueva versión de AEM de la migración a las nuevas versiones de los componentes. Además, si hay versiones de componentes nuevas disponibles, permite la migración individual de cada componente a la nueva versión.
 
-Las migraciones a una nueva versión de AEM no afectarán al funcionamiento de los componentes principales, siempre que sus versiones también admitan la nueva versión de AEM a la que se va a migrar. Las personalizaciones realizadas en los componentes principales tampoco deben verse afectadas, siempre que no utilicen API [obsoletas o eliminadas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html).
+Las migraciones a una nueva versión de AEM no afectarán al funcionamiento de los componentes principales, siempre que sus versiones también admitan la nueva versión de AEM a la que se va a migrar. Las personalizaciones realizadas en los componentes principales tampoco deben verse afectadas, siempre que no utilicen API [obsoletas o eliminadas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-removed-features.html?lang=es).
 
 Las migraciones a nuevas versiones de los componentes principales tampoco afectarán al funcionamiento del componente, pero podrían introducirse nuevas funciones a los autores de páginas, que podrían requerir cierta configuración por parte de un editor de plantillas, en caso de que no se desee el comportamiento predeterminado. Sin embargo, es posible que haya que adaptar las personalizaciones; para obtener más información, consulte la página [Personalización de componentes principales](customizing.md#upgrade-compatibility-of-customizations).
