@@ -4,9 +4,9 @@ description: El componente incrustado permite incrustar contenido externo en una
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1337'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -101,17 +101,17 @@ Puede agregar HTML de forma libre a la página mediante el componente Incrustar.
 ![Cuadro de diálogo de edición del componente incrustado para la dirección HTML](/help/assets/embed-html.png)
 
 >[!NOTE]
->Las etiquetas no seguras, como las secuencias de comandos, se filtrarán del HTML introducido y no se procesarán en la página resultante.
+>Las etiquetas no seguras, como los scripts, se filtrarán del HTML introducido y no se procesarán en la página resultante.
 
 #### Seguridad {#security}
 
 El marcado HTML que puede introducir el autor se filtra con fines de seguridad para evitar ataques de scripts entre sitios que podrían, por ejemplo, permitir a los autores obtener derechos administrativos.
 
-*En general,* todas las secuencias de comandos y elementos`style`, así como todos los `on*` y atributos `style` se eliminarán de la salida.
+*En general,* todos los scripts y elementos`style`, así como todos los `on*` y atributos `style` se eliminarán de la salida.
 
 Sin embargo, las reglas son más complicadas porque el componente Incrustar sigue el conjunto de reglas de filtrado del marco global de saneamiento HTML AntiSamy de AEM, que se puede encontrar en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponer esta configuración para un proyecto específico si fuera necesario.
 
-Puede encontrar información de seguridad adicional en la [documentación para desarrolladores para instalaciones en línea de AEM](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html), así como [instalaciones de AEM Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html)
+Puede encontrar información de seguridad adicional en la [documentación para desarrolladores para instalaciones en línea de AEM](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=es), así como [instalaciones de AEM Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=es)
 
 >[!NOTE]
 >Aunque las reglas del marco de saneamiento AntiSamy se pueden configurar superponiendo `/libs/cq/xssprotection/config.xml`, estos cambios afectarán a todo el comportamiento de HTL y JSP y no solo al componente principal incrustado.
