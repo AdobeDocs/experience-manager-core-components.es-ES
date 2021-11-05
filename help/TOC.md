@@ -5,9 +5,9 @@ breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 04adfb00ca5908714e611f8b5de6cd2b6d127a37
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '212'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 95%
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](developing/overview.md)
    + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
-   + [Tutorial para desarrolladores de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+   + [Tutorial para desarrolladores de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)
    + [Personalización de componentes principales](developing/customizing.md)
    + [Instrucciones de los componentes](developing/guidelines.md)
    + [Compatibilidad con AMP](developing/amp.md)
