@@ -4,9 +4,9 @@ description: Los componentes principales aprovechan las configuraciones según e
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '198'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Las configuraciones según el contexto son una [función de Sling](https://sling
 
 El sitio puede necesitar diferentes configuraciones para diferentes regiones del sitio, por ejemplo, donde algunos parámetros pueden compartirse y requieren herencia para contextos anidados y valores de reserva globales. AEM aprovecha las configuraciones según el contexto de Sling, que permiten esta posibilidad.
 
-Para obtener más información sobre las configuraciones en AEM, consulte la [documentación de configuraciones y el explorador de configuración.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html)
+Para obtener más información sobre las configuraciones en AEM, consulte la [documentación de configuraciones y el explorador de configuración.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/configurations.html?lang=es)
 
 ## Uso en los componentes principales {#core-components}
 
