@@ -4,9 +4,9 @@ description: Los componentes principales siguen patrones de implementación mode
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1264'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Las directrices de esta sección se pueden utilizar también para cualquier tipo
 
 ### Capacidades preconfigurables {#pre-configurable-capabilities}
 
-Además del cuadro de diálogo de edición que utilizan los autores de páginas, los componentes también pueden tener un cuadro de diálogo de diseño para que los autores de plantillas los preconfiguren. El [Editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) permite configurar todas estas preconfiguraciones, que se denominan &quot;Directivas&quot;.
+Además del cuadro de diálogo de edición que utilizan los autores de páginas, los componentes también pueden tener un cuadro de diálogo de diseño para que los autores de plantillas los preconfiguren. El [Editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es) permite configurar todas estas preconfiguraciones, que se denominan &quot;Directivas&quot;.
 
 Para que los componentes sean lo más reutilizables posible, se les deben proporcionar opciones significativas para preconfigurarlos. Esto permitirá habilitar o deshabilitar las características de los componentes para que coincidan con las necesidades específicas de distintos sitios.
 
@@ -85,7 +85,7 @@ Cuando se combina con el [Patrón de componentes proxy](#proxy-component-pattern
 
 ## En resumen {#putting-it-all-together}
 
-A continuación se ofrece una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de los componentes, para evitar que el recurso de contenido contenga ningún número de versión. A continuación, muestra cómo utiliza el archivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) del componente en la interfaz del modelo, mientras que la implementación se une a la versión específica del componente mediante anotaciones del [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
+A continuación se ofrece una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de los componentes, para evitar que el recurso de contenido contenga ningún número de versión. A continuación, muestra cómo utiliza el archivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) del componente en la interfaz del modelo, mientras que la implementación se une a la versión específica del componente mediante anotaciones del [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Información general de enlace de recursos](/help/assets/chlimage_1-32.png)
 
