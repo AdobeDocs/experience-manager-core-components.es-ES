@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2193'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Por supuesto, hay muchos elementos que entran en un proyecto de AEM correcto, pe
 
 El tipo de archivo del proyecto facilita el inicio del desarrollo en AEM. Puede realizar sus primeros pasos de varias formas.
 
-* Tutorial de WKND: para obtener una buena introducción al desarrollo en AEM, incluido cómo aprovechar el tipo de archivo, consulte el [Introducción a AEM Sites: Tutorial de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html) para ver un ejemplo práctico que le guíe a través del uso del tipo de archivo para implementar un proyecto simple.
+* Tutorial de WKND: para obtener una buena introducción al desarrollo en AEM, incluido cómo aprovechar el tipo de archivo, consulte el [Introducción a AEM Sites: Tutorial de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es) para ver un ejemplo práctico que le guíe a través del uso del tipo de archivo para implementar un proyecto simple.
 * Tutorial de eventos WKND: si está especialmente interesado en el desarrollo de aplicaciones de una sola página (SPA) en AEM, asegúrese de consultar el [tutorial de eventos WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es).
 * Descargue y empiece por su cuenta. Puede descargar fácilmente el tipo de archivo del proyecto actual en GitHub y crear su primer proyecto [siguiendo los sencillos pasos que se indican a continuación](#how-to-use-the-archetype).
 
@@ -75,7 +75,7 @@ mvn -B archetype:generate \
 ```
 
 * Establezca `XX` en el [número de versión](https://github.com/adobe/aem-project-archetype/blob/master/VERSIONS.md) del último tipo de archivo del proyecto de AEM.
-* Configure `aemVersion=cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html);\
+* Configure `aemVersion=cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es);\
    Configure `aemVersion=6.5.0` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea.
 La dependencia de componentes principales solo se agrega para versiones de AEM que no sean en la nube, ya que los componentes principales se proporcionan como OOTB para AEM Cloud Service.
 * Ajuste `appTitle="My Site"` para definir el título del sitio web y los grupos de componentes.
@@ -101,8 +101,8 @@ Las siguientes propiedades están disponibles al crear un proyecto con el tipo d
 | `groupId` |  | ID del grupo base de Maven (p. ej. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Paquete de origen de Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
-| `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión de [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
+| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
+| `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión de [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de Dispatcher para la nube o para AMS/en línea, según el valor de `aemVersion` (puede ser `y` o `n`). |
 | `frontendModule` | `general` | Incluye un módulo de versión de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implementa el [Editor SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
 | `language` | `en` | Código de idioma (ISO 639-1) desde el que se crea la estructura de contenido (p. ej. `en`, `deu`). |
@@ -116,7 +116,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el tipo d
 | `amp` | `n` | Habilite la compatibilidad con [AMP](/help/developing/amp.md) para plantillas de proyecto generadas. |
 | `enableDynamicMedia` | `n` | Habilita los componentes básicos de Dynamic Media en la configuración de directivas de proyecto y activa las funciones de Dynamic Media en la directiva del componente de imagen principal. |
 | `enableSSR` | `n` | Opción para habilitar SSR para el proyecto front-end |
-| `precompiledScripts` | `n` | Opción para [precompilar](/help/developing/archetype/precompiled-bundled-scripts.md) los scripts del lado del servidor de `ui.apps` y adjuntarlos a la compilación como un artefacto de paquete secundario en el proyecto `ui.apps`. `aemVersion` debe establecerse en  `cloud`. |
+| `precompiledScripts` | `n` | Opción para [precompilar](/help/developing/archetype/precompiled-bundled-scripts.md) los scripts del lado del servidor de `ui.apps` y adjuntarlos a la versión como un artefacto de paquete secundario en el proyecto `ui.apps`. `aemVersion` debe establecerse en `cloud`. |
 
 >[!NOTE]
 >
@@ -138,7 +138,7 @@ El proyecto Maven generado admite distintos perfiles de implementación al ejecu
 | `autoInstallSinglePackage` | Instale el paquete de contenido `all` con el complemento content-package-maven-plugin en el administrador de paquetes a la instancia de autor predeterminada en localhost, puerto 4502. El nombre de host y el puerto se pueden cambiar con las propiedades definidas por el usuario `aem.host` y `aem.port`. |
 | `autoInstallSinglePackagePublish` | Instale el paquete de contenido `all` con el complemento content-package-maven-plugin en el administrador de paquetes para publicar la instancia predeterminada en localhost, puerto 4503. El nombre de host y el puerto se pueden cambiar con las propiedades definidas por el usuario `aem.host` y `aem.port`. |
 | `integrationTests` | Ejecuta las pruebas de integración proporcionadas en la instancia de AEM (solo para la fase `verify`) |
-| `precompiledScripts` | Se define automáticamente cuando el proyecto se generó con la propiedad `precompiledScripts` establecida en `y`. El perfil está activo de forma predeterminada y genera un paquete OSGi dentro de `ui.apps` con los scripts precompilados, que se incluirán en el paquete de contenido `all`. El perfil se puede deshabilitar con `-DskipScriptPrecompilation=true`. |
+| `precompiledScripts` | Se define automáticamente cuando el proyecto se generó con la propiedad `precompiledScripts` establecida en `y`. El perfil está activo de forma predeterminada y genera un paquete OSGi en `ui.apps` con los scripts precompilados, que se incluirán en el paquete de contenido `all`. El perfil se puede deshabilitar con `-DskipScriptPrecompilation=true`. |
 
 ### Creación e instalación {#building-and-installing}
 
@@ -198,7 +198,7 @@ La sección `<dependencyManagement>` del POM principal define todas las dependen
 
 #### Uber-Jar {#uber-jar}
 
-Una de las dependencias clave es el [AEM Java API Jar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html). Esto incluirá todas las API de AEM con solo una entrada de dependencia para la versión de AEM.
+Una de las dependencias clave es el [jar de la API de Java de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es). Esto incluirá todas las API de AEM con solo una entrada de dependencia para la versión de AEM.
 
 >[!NOTE]
 >
@@ -208,7 +208,7 @@ Una de las dependencias clave es el [AEM Java API Jar](https://experienceleague.
 
 El tipo de archivo del proyecto de AEM, por supuesto, aprovecha los componentes principales.
 
-Los componentes principales se instalan automáticamente en AEM en el modo de ejecución predeterminado y se utilizan en el sitio WKND de muestra. En un [modo de ejecución de producción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html#runmodes) (`nosamplecontent`), los componentes principales no están disponibles.
+Los componentes principales se instalan automáticamente en AEM en el modo de ejecución predeterminado y se utilizan en el sitio WKND de muestra. En un [modo de ejecución de producción](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/overview.html?lang=es#runmodes) (`nosamplecontent`), los componentes principales no están disponibles.
 
 Por lo tanto, para aprovechar los componentes principales en todas las implementaciones, se recomienda incluirlos como parte del proyecto de Maven.
 
@@ -232,7 +232,7 @@ Existen tres niveles de prueba en el proyecto y, como son diferentes tipos de pr
    * `mvn clean verify -PintegrationTests`
 * Pruebas Hobbes.js del lado del cliente: estas son pruebas del lado del explorador basadas en JavaScript que verifican el comportamiento del lado del explorador. Para iniciar la prueba:
    1. Cargue AEM en el explorador como lo haría para crear una página.
-   1. Abra la página en el [modo de desarrollador](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html)
+   1. Abra la página en el [modo de desarrollador](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developer-tools/developer-mode.html?lang=es)
    1. Abra el panel izquierdo y cambie a la pestaña **Pruebas**.
    1. Busque las **Pruebas MyName** generadas y ejecútelas.
 
@@ -241,6 +241,6 @@ Existen tres niveles de prueba en el proyecto y, como son diferentes tipos de pr
 Ha creado e instalado el tipo de archivo del proyecto de AEM. ¿Y ahora qué? El tipo de archivo es pequeño, pero consiste en muchos ejemplos de potentes funciones de AEM configuradas según las mejores prácticas recomendadas. Utilice estos indicadores para indicar cómo puede aprovechar estas funciones en su proyecto. Para cualquier proyecto, probablemente necesite:
 
 * [Personalizar componentes ampliando los componentes principales existentes](/help/developing/customizing.md)
-* [Agregar plantillas adicionales](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
-* [Adaptar la estructura de localización](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html)
+* [Agregar plantillas adicionales](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es)
+* [Adaptar la estructura de localización](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/translation/preparation.html?lang=es)
 * [Obtenga más información sobre el módulo de compilación del front-end](uifrontend.md)
