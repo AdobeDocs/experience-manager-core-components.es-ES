@@ -4,9 +4,9 @@ description: Implementar el proyecto con los componentes principales con éxito
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '560'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,13 +48,13 @@ Las funciones de AEM y los componentes principales pueden ser muy completas, per
 
 ### Fragmentos de contenido {#content-fragments}
 
-Los [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html) permiten crear contenido neutro con respecto al canal, así como variaciones (posiblemente específicas del canal). Después se pueden usar estos fragmentos, y sus variaciones, al crear páginas de contenido.
+Los [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/content-fragments.html?lang=es) permiten crear contenido neutro con respecto al canal, así como variaciones (posiblemente específicas del canal). Después se pueden usar estos fragmentos, y sus variaciones, al crear páginas de contenido.
 
 Junto con el exportador JSON actualizado, los fragmentos de contenido estructurados también se pueden utilizar para distribuir contenidos de AEM mediante servicios de contenido a canales en lugar de páginas de AEM.
 
 ### Plantillas de fragmento de experiencia {#experience-fragment-templates}
 
-Si un creador desea reutilizar partes (un fragmento de una experiencia) de una página. Sin [fragmentos de experiencias](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html), el creador tendría que copiar y pegar ese fragmento. Crear y mantener estas experiencias de copia y pegado es un proceso laborioso y es posible que el usuario cometa errores. Los fragmentos de experiencias eliminan la necesidad de copiar y pegar.
+Si un creador desea reutilizar partes (un fragmento de una experiencia) de una página. Sin [fragmentos de experiencias](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html?lang=es), el creador tendría que copiar y pegar ese fragmento. Crear y mantener estas experiencias de copia y pegado es un proceso laborioso y es posible que el usuario cometa errores. Los fragmentos de experiencias eliminan la necesidad de copiar y pegar.
 
 ### El componente Insertar {#embed-component}
 
