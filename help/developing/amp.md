@@ -4,9 +4,9 @@ description: 'Los componentes principales admiten AMP: Accelerated Mobile Pages'
 role: Architect, Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
 source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '554'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Aunque la compatibilidad con AMP ofrece un buen nivel de flexibilidad, para empe
 
 ### Habilitar AMP para páginas {#enabling-amp}
 
-Para habilitar la AMP para una página, el **modo AMP** debe estar seleccionado en la [Política de la página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-page-policy-template-author-developer)
+Para habilitar la AMP para una página, el **modo AMP** debe estar seleccionado en la [Política de la página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es#editing-a-template-page-policy-template-author-developer)
 
 ![Opciones de política de la página de AMP](/help/assets/amp-policy.png)
 
@@ -49,7 +49,7 @@ Para habilitar la AMP para una página, el **modo AMP** debe estar seleccionado 
 * **AMP emparejado**: la página se entrega como AMP, así como HTML.
 * **Solo AMP**: la página se entrega como AMP solamente.
 
-La configuración de AMP para una página también se puede sobrescribir en [Propiedades de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html) para una página individual.
+La configuración de AMP para una página también se puede sobrescribir en [Propiedades de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=es) para una página individual.
 
 ![Propiedades de página de AMP](/help/assets/amp-page-properties.png)
 
