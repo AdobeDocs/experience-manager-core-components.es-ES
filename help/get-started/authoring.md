@@ -4,9 +4,9 @@ description: En AEM, los componentes son los elementos estructurales que constit
 role: Architect, Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '742'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,35 +18,35 @@ Los componentes principales ofrecen funciones flexibles y personalizables de cre
 
 Para utilizar los componentes principales y ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_es).
 
-Para obtener una introducción más detallada y orientada al desarrollador para implementar los componentes principales en un proyecto AEM mediante el [Tipo de archivo del proyecto AEM](/help/developing/archetype/overview.md), consulte el [tutorial de WKND.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html)
+Para obtener una introducción más detallada y orientada al desarrollador para implementar los componentes principales en un proyecto AEM mediante el [Tipo de archivo del proyecto AEM](/help/developing/archetype/overview.md), consulte el [tutorial de WKND.](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)
 
 >[!NOTE]
 >
->Los componentes principales no están disponibles para los autores de manera inmediata, ya que el [grupo de desarrollo debe integrarlos primero en su entorno](/help/get-started/using.md). Una vez integrados, pueden ponerse a disposición de los usuarios y preconfigurarse mediante el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+>Los componentes principales no están disponibles para los autores de manera inmediata, ya que el [grupo de desarrollo debe integrarlos primero en su entorno](/help/get-started/using.md). Una vez integrados, pueden ponerse a disposición de los usuarios y preconfigurarse mediante el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es).
 
 >[!CAUTION]
 >
->Los componentes principales [requieren AEM 6.4 o superior](/help/versions.md) y requieren el uso de [plantillas editables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html). No funcionan con la IU clásica ni con plantillas estáticas.
+>Los componentes principales [requieren AEM 6.4 o superior](/help/versions.md) y requieren el uso de [plantillas editables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es). No funcionan con la IU clásica ni con plantillas estáticas.
 
 ## Crear con componentes principales {#authoring-with-core-components}
 
 Como autor, notará que los componentes principales ofrecen varias ventajas, como las siguientes:
 
-* Son fáciles de usar y se integran bien con el [editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html)
+* Son fáciles de usar y se integran bien con el [editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es)
 
-* Funcionalidades enriquecidas con funciones para dar cabida a muchos casos de uso, como se puede ver en el [sitio de referencia de WKND](https://wknd.site) así como en la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library)
+* Funcionalidades enriquecidas con funciones para dar cabida a muchos casos de uso, como se puede ver en el [sitio de referencia de WKND](https://wknd.site) así como en la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_es)
 
-* [Preconfigurable](#pre-configuring-core-components) para definir qué funciones están disponibles para los autores de páginas a través del [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+* [Preconfigurable](#pre-configuring-core-components) para definir qué funciones están disponibles para los autores de páginas a través del [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es)
 
-* Han sido creados según las [directrices de accesibilidad](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html)
+* Han sido creados según las [directrices de accesibilidad](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=es)
 
-* Permiten un [diseño interactivo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html)
+* Permiten un [diseño interactivo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/responsive-layout.html?lang=es)
 
 * Creado para conseguir una [localización fácil](localization.md)
 
-Los componentes están disponibles en la pestaña **Componentes** del panel lateral del editor de páginas al [editar una página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html).
+Los componentes están disponibles en la pestaña **Componentes** del panel lateral del editor de páginas al [editar una página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es).
 
-Los componentes se agrupan según categorías denominadas grupos de componentes para organizar y filtrar fácilmente los componentes. El nombre del grupo de componentes se muestra con el componente en el [navegador de componentes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html) y también es posible filtrar por grupo para encontrar fácilmente el componente correcto.
+Los componentes se agrupan según categorías denominadas grupos de componentes para organizar y filtrar fácilmente los componentes. El nombre del grupo de componentes se muestra con el componente en el [navegador de componentes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es) y también es posible filtrar por grupo para encontrar fácilmente el componente correcto.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ La configuración de componentes de base era tarea de un desarrollador. Sin emba
 
 Por ejemplo, si un componente de imagen no debe permitir la carga de imágenes desde el sistema de archivos, o si un componente Texto solo debe permitir cierto formato de párrafo, estas funciones se pueden activar o desactivar con un simple clic.
 
-Consulte [Creación de plantillas de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html) para obtener más información.
+Consulte [Creación de plantillas de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es) para obtener más información.
 
 ### Editar y diseñar cuadros de diálogo {#edit-and-design-dialogs}
 
@@ -78,7 +78,7 @@ Los estilos de la mayoría de los componentes principales se pueden definir con 
 * Un autor de plantillas puede definir qué estilos están disponibles para un componente en particular en el cuadro de diálogo de diseño de ese componente.
 * El autor del contenido puede elegir qué estilos aplicar al añadir el componente y al crear contenido.
 
-Para obtener más información, consulte la documentación de [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html).
+Para obtener más información, consulte la documentación de [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=es).
 
 ## Medios del desarrollador {#developer-resources}
 
