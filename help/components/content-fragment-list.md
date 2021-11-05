@@ -4,19 +4,19 @@ description: El componente principal Lista de fragmentos de contenido permite mo
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '758'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Componente Lista de fragmentos de contenido{#content-fragment-list-component}
 
-El componente principal Lista de fragmentos de contenido permite mostrar una lista de [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html).
+El componente principal Lista de fragmentos de contenido permite mostrar una lista de [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=es).
 
 ## Uso {#usage}
 
-El componente principal Lista de fragmentos de contenido permite incluir una lista de [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) en una página basada en un modelo de fragmento de contenido. Esto puede resultar especialmente útil para crear [contenido sin encabezado](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que otras aplicaciones pueden consumir fácilmente.
+El componente principal Lista de fragmentos de contenido permite incluir una lista de [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=es) en una página basada en un modelo de fragmento de contenido. Esto puede resultar especialmente útil para crear [contenido sin encabezado](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que otras aplicaciones pueden consumir fácilmente.
 
 * La lista y sus propiedades se pueden seleccionar en el [cuadro de diálogo de configuración](#configure-dialog).
 * Los estilos se pueden aplicar al componente en el [cuadro de diálogo de diseño](#design-dialog).
