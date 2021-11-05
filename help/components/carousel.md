@@ -4,9 +4,9 @@ description: El componente Carrusel permite al autor del contenido presentar el 
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1115'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Utilice el botón **Añadir** para abrir el selector de componentes y elegir qu�
 
 >[!TIP]
 >
->Si la ventana móvil de la página se reduce para que el cuadro de diálogo de edición pase a estar en pantalla completa, el botón **Añadir** se ocultará. Los componentes se pueden añadir al componente de carrusel [arrastrando desde el explorador de componentes y soltando en el componente de carrusel en el editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#inserting-a-component-from-the-components-browser).
+>Si la ventana móvil de la página se reduce para que el cuadro de diálogo de edición pase a estar en pantalla completa, el botón **Añadir** se ocultará. Los componentes se pueden añadir al componente de carrusel [arrastrando desde el explorador de componentes y soltando en el componente de carrusel en el editor de páginas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#inserting-a-component-from-the-components-browser).
 
 ### Pestaña Propiedades {#properties-tab}
 
@@ -77,9 +77,9 @@ En la pestaña **Propiedades**, el autor del contenido puede configurar la trans
 
 >[!NOTE]
 >
->Los controles avanzados de diapositivas no están activados en el modo **Editar**. Utilice el modo [**Vista previa**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#preview-mode) o la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para interactuar con el carrusel como lo haría un lector del contenido publicado.
+>Los controles avanzados de diapositivas no están activados en el modo **Editar**. Utilice el modo [**Vista previa**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#preview-mode) o la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#view-as-published)** para interactuar con el carrusel como lo haría un lector del contenido publicado.
 >
->La función de avance automático no está habilitada cuando se encuentra en modo **Editar**. Utilice la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html#view-as-published)** para ver la función de avance automático como lo haría un lector del contenido publicado.
+>La función de avance automático no está habilitada cuando se encuentra en modo **Editar**. Utilice la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#view-as-published)** para ver la función de avance automático como lo haría un lector del contenido publicado.
 
 ### Pestaña Accesibilidad {#accessibility-tab}
 
@@ -123,7 +123,7 @@ La pestaña **Propiedades** se utiliza para definir la configuración predetermi
 
 La pestaña **Componentes permitidos** se utiliza para definir qué componentes puede añadir el autor de contenido como diapositivas al componente de carrusel.
 
-La pestaña Componentes permitidos funciona del mismo modo que la del mismo nombre cuando [define la directiva y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+La pestaña Componentes permitidos funciona del mismo modo que la del mismo nombre cuando [define la directiva y las propiedades de un contenedor de diseño en el Editor de plantillas.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es)
 
 ### Pestaña Estilos {#styles-tab}
 
