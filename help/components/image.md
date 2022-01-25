@@ -4,13 +4,13 @@ description: El componente principal Imagen es una función del componente de im
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: c48f332ac97ef96d0cb59f2b64e3f726f9a90307
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2270'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# Componente Imagen{#image-component}
+# Componente Imagen {#image-component}
 
 El componente de imagen del componente principal es un componente de imagen adaptable que incluye la edición in situ.
 
@@ -28,7 +28,7 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 
 >[!TIP]
 >
->Consulte la sección [Servlet de imagen adaptable](#adaptive-image-servlet) para obtener más información técnica sobre estas funciones y sugerencias para optimizar la selección de representaciones.
+>Consulte la sección [Adaptive Image Servlet](#adaptive-image-servlet) para obtener más información técnica sobre estas funciones y sugerencias para optimizar la selección de representaciones.
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
@@ -103,7 +103,7 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y del [cuadro de diá
    * **Obtener texto alternativo de DAM**: cuando se selecciona, el texto alternativo de la imagen se rellena con el valor de los metadatos `dc:description` en DAM.
 * **Pie de ilustración**: información adicional sobre la imagen que se muestra debajo de la imagen de forma predeterminada.
    * **Obtener pie de ilustración de DAM**: cuando se marca, el texto del pie de la imagen se rellena con el valor de los metadatos `dc:title` de DAM.
-   * **Mostrar pie de ilustración como elemento emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el ratón por encima de la imagen.
+   * **Mostrar pie de ilustración como ventana emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el ratón por encima de la imagen.
 * **Vínculo**: vincule la imagen a otro recurso.
    * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.
    * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
@@ -191,14 +191,14 @@ Además, puede definir qué opciones generales de componentes se desactivan o se
 
 ![Pestaña principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main.png)
 
-* **Habilitar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
-* **Habilitar carga diferida**: defina si la opción de carga diferida se habilita automáticamente al añadir el componente de imagen a una página.
+* **Activar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
+* **Habilitar la carga a medida**: defina si la opción de carga diferida se habilita automáticamente al añadir el componente de imagen a una página.
 * **La imagen es decorativa**: defina si la opción de imagen decorativa se habilita automáticamente al añadir el componente de imagen a una página.
 * **Obtener texto alternativo de DAM**: defina si la opción para recuperar el texto alternativo de DAM se habilita automáticamente al añadir el componente de imagen a una página.
 * **Obtener pie de ilustración de DAM**: defina si la opción para recuperar el pie de ilustración de DAM se habilita automáticamente al añadir el componente de imagen a una página.
-* **Mostrar el pie de ilustración como elemento emergente**: defina si la opción para mostrar el pie de ilustración como elemento emergente se habilita automáticamente al agregar el componente de imagen a una página.
-* **Deshabilitar el seguimiento UUID**: márquelo para deshabilitar el seguimiento del UUID del recurso de imagen.
-* **Anchura**: define una lista de anchuras en píxeles para la imagen y el componente y carga automáticamente la anchura más adecuada en función del tamaño del explorador.
+* **Mostrar pie de ilustración como ventana emergente**: defina si la opción para mostrar el pie de ilustración como elemento emergente se habilita automáticamente al agregar el componente de imagen a una página.
+* **Deshabilitar el seguimiento de UUID**: márquelo para deshabilitar el seguimiento del UUID del recurso de imagen.
+* **Anchuras**: define una lista de anchuras en píxeles para la imagen y el componente y carga automáticamente la anchura más adecuada en función del tamaño del explorador.
    * Pulse o haga clic en el botón **Añadir** para añadir otro tamaño.
       * Utilice los asideros para reorganizar el orden de los tamaños.
       * Utilice el icono **Eliminar** para eliminar una anchura.
@@ -218,7 +218,7 @@ En la pestaña **Características** puede definir qué opciones están disponibl
 
    ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-source.png)
 
-   Seleccione la opción **Permitir carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
+   Seleccione la opción **Permitir la carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
 
 * Orientación
 
@@ -239,7 +239,7 @@ Utilice esta opción para permitir que el autor de contenido utilice las opcione
 
    ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-cropping.png)
 
-   Seleccione la opción **Permitir recorte** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
+   Seleccione la opción **Activar recortar** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
    * Haga clic en **Añadir** para añadir una relación de aspecto de recorte predefinida.
    * Introduzca un nombre descriptivo que se mostrará en la lista desplegable **Iniciar recorte**.
    * Introduzca la relación numérica del aspecto.
@@ -260,7 +260,7 @@ El componente de imagen utiliza el servlet de imagen adaptable del componente pr
 
 ### Optimización de la selección de representaciones {#optimizing-rendition-selection}
 
-El servlet de imagen adaptable intentará elegir la mejor representación para el tamaño y tipo de imagen solicitado. Se recomienda que las representaciones DAM y los anchos permitidos de los componentes de imagen se definan de forma sincronizada, de modo que el Servlet de imagen adaptable realice el menor procesamiento posible.
+Adaptive Image Servlet intentará elegir la mejor representación para el tamaño y tipo de imagen solicitado. Se recomienda que las representaciones DAM y los anchos permitidos de los componentes de imagen se definan de forma sincronizada, de modo que Adaptive Image Servlet realice el menor procesamiento posible.
 
 Esto mejorará el rendimiento y evitará que la biblioteca de procesamiento de imágenes subyacente no procese correctamente algunas imágenes.
 
