@@ -1,16 +1,16 @@
 ---
-title: 'Componente Descarga '
+title: Descargar componente (v1)
 description: El componente principal Descarga permite crear una opción de descarga en una página.
 role: Architect, Developer, Admin, User
-exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 87%
+source-wordcount: '644'
+ht-degree: 93%
 
 ---
 
-# Componente Descarga {#download-component}
+
+# Componente Descarga  (Versión 1) {#download-component}
 
 El componente principal Descarga permite crear una opción de descarga en una página.
 
@@ -23,16 +23,13 @@ El componente Descarga de componentes principales permite incluir una opción de
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de descarga es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+Este documento describe la versión 1 del componente de descarga, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
-
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 2 | - | Compatible | Compatible |
-| [Versión 1](v1/download.md) | Compatible | Compatible | Compatible |
-
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento describe la versión 1 del componente de descarga.
+>
+>Para obtener más información sobre la versión actual del componente de descarga, consulte la [Descargar componente](/help/components/download.md) documento.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -52,7 +49,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 
 ### Pestaña Recurso {#asset-tab}
 
-La selección de un recurso de descarga es muy similar a la funcionalidad del [Componente Imagen](image.md) y, del mismo modo, aprovecha AEM DAM.
+La selección de un recurso de descarga es muy similar a la funcionalidad del [Componente Imagen](image-v1.md) y, del mismo modo, aprovecha AEM DAM.
 
 * **Recurso de descarga**
    * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
@@ -74,16 +71,6 @@ La selección de un recurso de descarga es muy similar a la funcionalidad del [C
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
-
-### Pestaña Estilos {#styles-tab-edit}
-
-![Pestaña Estilos del cuadro de diálogo de edición de Descargar componente](/help/assets/download-edit-styles.png)
-
-El componente Descargar es compatible con el AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
-
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

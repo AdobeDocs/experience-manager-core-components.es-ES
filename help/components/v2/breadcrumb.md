@@ -1,16 +1,16 @@
 ---
-title: Componente Ruta de exploración
+title: Componente Ruta de exploración (Versión 2)
 description: El componente principal Ruta de exploración es un componente de navegación que crea una ruta de exploración de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 role: Architect, Developer, Admin, User
-exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 88%
+source-wordcount: '680'
+ht-degree: 97%
 
 ---
 
-# Componente Ruta de exploración{#breadcrumb-component}
+
+# Componente Ruta de exploración (Versión 2) {#breadcrumb-component}
 
 El componente principal Ruta de exploración es un componente de navegación que crea una ruta de exploración de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 
@@ -22,17 +22,13 @@ Las opciones disponibles, como el nivel de navegación predeterminado y la capac
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de ruta de exploración es v3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+Este documento describe la versión 2 del componente de ruta de exploración, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
-
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- | --- |--- |---|
-| Versión 3 | - | Compatible | Compatible |
-| [Versión 2](v2/breadcrumb.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/breadcrumb-v1.md) | Compatible | Compatible | - |
-
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento describe la versión 2 del componente Ruta de exploración.
+>
+>Para obtener más información sobre la versión actual del componente Ruta de exploración, consulte el documento [Componente Ruta de exploración](/help/components/breadcrumb.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -52,8 +48,6 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 El cuadro de diálogo de edición permite al autor del contenido suprimir las páginas ocultas y activas en las rutas de exploración, así como la profundidad en la jerarquía que debe mostrar.
 
-## Pestaña Propiedades {#properties-tab}
-
 ![Cuadro de diálogo de edición del componente Ruta de exploración](/help/assets/breadcrumb-edit.png)
 
 * **Nivel de inicio de navegación**: punto de la jerarquía en el que el componente Ruta de exploración debe comenzar a desplazarse hacia abajo hasta la página actual. Por ejemplo:
@@ -64,21 +58,11 @@ El cuadro de diálogo de edición permite al autor del contenido suprimir las p�
 
 * **Mostrar elementos de navegación ocultos**: mostrar páginas marcadas como ocultas en la ruta de exploración (de forma predeterminada, no se mostrarán)
 * **Ocultar página actual**: elimine la página actual en la ruta de exploración (de forma predeterminada se mostrará).
-* **Deshabilitar sombreado**: si la página en la jerarquía es una redirección, se mostrará el nombre de la página de redirección en lugar del destino. Consulte [Compatibilidad con estructuras de sitios sombreadas](navigation.md#shadow-structure) del componente Navegación para obtener más información.
+* **Deshabilitar sombreado**: si la página en la jerarquía es una redirección, se mostrará el nombre de la página de redirección en lugar del destino. Consulte [Compatibilidad con estructuras de sitios sombreadas](../v1/navigation.md#shadow-structure) del componente Navegación para obtener más información.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
-
-### Pestaña Estilos {#styles-tab-edit}
-
-![Pestaña Estilos del cuadro de diálogo de edición del componente Lista de ruta de exploración](/help/assets/breadcrumb-edit-styles.png)
-
-El componente Ruta de exploración es compatible con el sistema de estilos de [AEM.](/help/get-started/authoring.md#component-styling).
-
-Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
-
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

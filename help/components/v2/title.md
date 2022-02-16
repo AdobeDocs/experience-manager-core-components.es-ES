@@ -1,16 +1,16 @@
 ---
-title: Componente Título
+title: Componente Título (Versión 2)
 description: El componente principal Título es un componente de encabezado de sección que incluye la edición in situ.
 role: Architect, Developer, Admin, User
-exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 83%
+source-wordcount: '527'
+ht-degree: 94%
 
 ---
 
-# Componente Título{#title-component}
+
+# Componente Título (versión 2) {#title-component}
 
 El componente principal Título es un componente de encabezado de sección que incluye la edición in situ.
 
@@ -20,17 +20,13 @@ El componente Título está diseñado para utilizarse como título o encabezado 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Título es v3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+Este documento describe la versión 2 del componente Título , que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
-
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| Versión 3 | - | Compatible | Compatible |
-| [Versión 2](v2/title.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/title-v1.md) | Compatible | Compatible | - |
-
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento describe la versión 2 del componente Título.
+>
+>Para obtener más información sobre la versión actual del componente Título, consulte el documento [Componente Ttítulo](/help/components/title.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -49,7 +45,6 @@ El cuadro de diálogo de edición permite al autor del contenido definir el text
 * **Título**: si está vacío, se utilizará el título de la página
 * **Tipo / Tamaño**: define el nivel de encabezado del título
 * **Vínculo**: define el contenido al que se vinculará el título. Puede ser una ruta a una página de contenido, una URL externa o un anclaje de página.
-* **Abrir vínculo en una pestaña nueva** - Cuando está activado, el vínculo se abre en una nueva pestaña del explorador.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
@@ -57,19 +52,13 @@ El cuadro de diálogo de edición permite al autor del contenido definir el text
 
 ![Cuadro de diálogo de edición del componente Título](/help/assets/title-edit.png)
 
+>[!NOTE]
+>
+>La capacidad para definir un vínculo para el título se introdujo en la versión 2.2.0 de los componentes principales.
+
 El editor in situ también se puede utilizar para editar el texto del componente de título.
 
 ![Edición in situ del componente Título](/help/assets/title-edit-inline.png)
-
-### Pestaña Estilos {#styles-tab-edit}
-
-El componente Título es compatible con el sistema de estilos de [AEM.](/help/get-started/authoring.md#component-styling).
-
-Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
-
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
-
-![Pestaña Estilos del cuadro de diálogo de edición del componente Título](/help/assets/title-edit-styles.png)
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
@@ -82,6 +71,10 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir el niv
 * **Tipos permitidos/tamaños para autores**: habilite o deshabilite los tipos de encabezados que estarán disponibles para los autores de contenido cuando usen el componente Título.
 * **Tipo/tamaño predeterminado**: defina el tipo de encabezado que se asignará automáticamente cuando un autor de contenido añada el componente Título a una página.
 * **Deshabilitar el vínculo**: desactive la compatibilidad con vínculos en el componente de título para impedir que los autores de contenido se vinculen desde títulos.
+
+>[!NOTE]
+>
+>La capacidad para definir un vínculo para el título se introdujo en la versión 2.2.0 de los componentes principales.
 
 ### Pestaña Estilos {#styles-tab}
 

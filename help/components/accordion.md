@@ -3,10 +3,10 @@ title: Componente Acordeón
 description: El componente Acordeón de componentes principales permite crear una colección de paneles organizados en un acordeón de una página.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '1063'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '1067'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,28 @@ El componente Acordeón del componente principal permite la creación de una col
 * El orden de los paneles del acordeón se puede definir en el cuadro de diálogo de configuración, así como en la [ventana emergente del panel de selección](#select-panel-popover).
 * Los valores predeterminados del componente Acordeón al agregarlo a una página se pueden definir en la [ventana emergente del cuadro de diálogo de diseño](#design-dialog).
 
+## Versión y compatibilidad {#version-and-compatibility}
+
+La versión actual del componente Acordeón es la versión 1, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019 y se describe en este documento.
+
+La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
+
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
+|--- |--- |---|---|
+| Versión 1 | Compatible con<br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+
+Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+
+## Salida del componente de ejemplo {#sample-component-output}
+
+Para experimentar el componente Acordeón, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_accordion_es).
+
+## Detalles técnicos {#technical-details}
+
+La documentación técnica más reciente sobre el componente Acordeón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
+
+Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+
 ## Vinculación profunda a un panel {#deep-linking}
 
 El acordeón y los [componentes de pestañas](tabs.md) admiten la vinculación directa a un panel dentro del componente.
@@ -35,28 +57,6 @@ Para ello:
    * Por ejemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Si se desplaza a la dirección URL con el ID de panel como anclaje, el explorador se desplazará directamente al componente en cuestión y mostrará el panel especificado. Si el panel está configurado para no expandirse de forma predeterminada, se expandirá automáticamente.
-
-## Versión y compatibilidad {#version-and-compatibility}
-
-La versión actual del componente Acordeón es la versión 1, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019 y se describe en este documento.
-
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
-
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible | Compatible | Compatible |
-
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
-
-## Salida del componente de ejemplo {#sample-component-output}
-
-Para experimentar el componente Acordeón, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_accordion_es).
-
-## Detalles técnicos {#technical-details}
-
-La documentación técnica más reciente sobre el componente Acordeón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
-
-Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 

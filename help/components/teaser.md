@@ -3,10 +3,10 @@ title: Componente Teaser
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: d435e82d5950336c66997399829e3baf23f170c0
-workflow-type: ht
-source-wordcount: '771'
-ht-degree: 100%
+source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+workflow-type: tm+mt
+source-wordcount: '999'
+ht-degree: 69%
 
 ---
 
@@ -22,13 +22,14 @@ El autor de la plantilla puede utilizar el [cuadro de diálogo de diseño](#desi
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Teaser es la versión 1, que se introdujo con la versión 2.1.0 de los componentes principales en julio de 2018 y se describe en este documento.
+La versión actual del componente Teaser es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | Compatible | Compatible |
+| Versión 2 | - | Compatible | Compatible |
+| [Versión 1](v1/teaser.md) | Compatible | Compatible | Compatible |
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -44,20 +45,18 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 El autor del contenido puede utilizar el cuadro de diálogo de configuración para definir las propiedades del teaser individual. También existe un [cuadro de diálogo de edición](#edit-dialog) para modificar la imagen de teaser si se selecciona una.
 
-### Imagen {#image}
+### Ficha Vínculos {#links-tab}
 
-![Pestaña de imagen del cuadro de diálogo de edición del componente Teaser](/help/assets/teaser-edit-image.png)
+![Ficha Vínculos del cuadro de diálogo de edición del componente teaser](/help/assets/teaser-edit-links.png)
 
-* **Recurso de imagen**
-   * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
-   * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
-   * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.
+El título, la descripción y la imagen del teaser se pueden heredar de la página vinculada o de la página vinculada en la primera llamada a la acción. Si no se especifica ni un vínculo ni una llamada a la acción, el título, la descripción y la imagen se heredarán de la página actual.
 
->[!NOTE]
->
->Actualmente, las [funciones de Dynamic Media](image.md#dynamic-media) no están disponibles en el componente Teaser.
+* **Vínculo** : este archivo vincula a una página de contenido, una URL externa o un anclaje de página.
+* **Abrir vínculo en una pestaña nueva** - Si está activado, el vínculo se abre en una nueva pestaña del explorador.
+* **Llamada a acción** : esta opción permite la vinculación a varios destinos.
+   * La página vinculada en la primera llamada a la acción se utiliza al heredar el título, la descripción o la imagen del teaser.
 
-### Texto {#text}
+### Ficha Texto {#text-tab}
 
 ![Pestaña de texto del cuadro de diálogo de edición del componente Teaser](/help/assets/teaser-edit-text.png)
 
@@ -71,12 +70,31 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
-### Vínculos y acciones {#links-actions}
+### Pestaña Recurso {#asset-tab}
 
-![Pestaña vincular del cuadro de diálogo de edición del componente Teaser](/help/assets/teaser-edit-link.png)
+![Pestaña de imagen del cuadro de diálogo de edición del componente Teaser](/help/assets/teaser-edit-image.png)
 
-* **Vínculo**: vínculo aplicado al teaser. Utilice el navegador de rutas para seleccionar el destino del vínculo.
-* **Habilitar llamadas a la acción**: cuando está marcada esta opción, habilita la definición de la llamada a acción. El primer vínculo de llamada a la acción de la lista se utiliza como vínculo para otros elementos de teaser.
+* **Heredar imagen destacada de la página** - Utilice la imagen definida en las propiedades de página de la página vinculada o la página actual si no se encuentra ninguna.
+* **Recurso de imagen** - Coloque un recurso desde la variable [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o toque el **navegar** para cargar desde un sistema de archivos local.
+   * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
+   * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.
+* **Texto alternativo para accesibilidad** - Este campo le permite definir una descripción de la imagen para los usuarios con deficiencias visuales.
+   * **Heredar texto alternativo de la página** - Esta opción utiliza la descripción alternativa del valor de recurso vinculado del `dc:description` metadatos en DAM o de la página actual si no hay ningún recurso vinculado.
+* **No proporcionar un texto alternativo** - Esta opción marca la imagen que tecnologías de asistencia ignoran, como lectores de pantalla, en casos en los que la imagen es puramente decorativa o no transmite información adicional a la página.
+
+>[!NOTE]
+>
+>Actualmente, las [funciones de Dynamic Media](image.md#dynamic-media) no están disponibles en el componente Teaser.
+
+### Pestaña Estilos {#styles-tab-edit}
+
+![Pestaña Estilos del cuadro de diálogo de edición del componente Lista de teaser](/help/assets/teaser-edit-styles.png)
+
+El componente Teaser es compatible con el sistema de estilos de [AEM.](/help/get-started/authoring.md#component-styling).
+
+Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
+
+Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
@@ -97,10 +115,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir las op
    * **Ocultar título**: oculta la opción **Título** para autores de contenido
       * Cuando se selecciona, el **Tipo de título** está oculto
    * **Ocultar descripción**: oculta la opción **Descripción** para autores de contenido
-* **Tipo de título**: define la etiqueta H que se utilizará en el título del teaser.
-* **Vínculos**
-   * **No vincular la imagen**: cuando se selecciona, la imagen de teaser no se vincula
-   * **No vincular el título**: cuando se selecciona, el título del teaser no se vincula
+* **Tipo de título predeterminado** - Define la etiqueta H que utilizará el título del teaser.
 * **Delegado de imágenes**: visualización informativa que indica a qué componente delega el teaser la administración de las imágenes.
 
 ### Pestaña Estilos {#styles-tab}

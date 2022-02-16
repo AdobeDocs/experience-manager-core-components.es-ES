@@ -3,10 +3,10 @@ title: Componente Formulario oculto
 description: El componente principal Formulario oculto permite ver un campo oculto.
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '428'
-ht-degree: 100%
+source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
+workflow-type: tm+mt
+source-wordcount: '432'
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| Versión 2 | Compatible | Compatible | Compatible |
+| Versión 2 | Compatible con<br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
 | [Versión 1](/help/components/v1/form-hidden-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).

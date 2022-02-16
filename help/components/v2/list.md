@@ -1,16 +1,16 @@
 ---
-title: Componente Lista
+title: Componente Lista (Versión 2)
 description: El componente principal Lista permite crear fácilmente listas dinámicas y estáticas.
 role: Architect, Developer, Admin, User
-exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 88%
+source-wordcount: '1022'
+ht-degree: 98%
 
 ---
 
-# Componente Lista{#list-component}
+
+# Componente Lista (Versión 2) {#list-component}
 
 El componente principal Lista permite crear fácilmente listas dinámicas y estáticas.
 
@@ -20,17 +20,13 @@ El componente Lista se puede utilizar para crear, por ejemplo, una lista dinámi
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de lista es v3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+Este documento describe la versión 1 del componente Lista, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
-
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| Versión 3 | - | Compatible | Compatible |
-| [Versión 2](v2/list.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/list-v1.md) | Compatible | Compatible | - |
-
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento describe la versión 2 del componente Lista.
+>
+>Para obtener más información sobre la versión actual del componente Lista, consulte el documento [Componente Lista](/help/components/list.md).
 
 ## Redirecciones en listas {#redirects}
 
@@ -156,20 +152,12 @@ Con la pestaña Configuración de elementos, se puede configurar el formato de l
 
 ![Configuración del elemento](/help/assets/list-edit-items.png)
 
-* **Vincular elementos** - Vincular elementos a la página correspondiente
-* **Mostrar descripción** - Mostrar descripciones del elemento de vínculo
-* **Mostrar fecha** - Mostrar la fecha de modificación del elemento de vínculo
-* **Mostrar como teaser** - Cuando está marcado, el elemento se muestra como teaser
-
-### Pestaña Estilos {#styles-tab-edit}
-
-El componente Lista es compatible con el AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
-
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
-
-![Pestaña Estilos del cuadro de diálogo de edición de Componente de lista](/help/assets/list-edit-styles.png)
+* **Vincular elementos**
+Vincular elementos a la página correspondiente
+* **Mostrar descripción**
+Mostrar descripciones del elemento de vínculo
+* **Mostrar fecha**
+Mostrar fecha de modificación del elemento vinculado
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

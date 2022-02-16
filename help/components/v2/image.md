@@ -1,16 +1,16 @@
 ---
-title: Componente Imagen
+title: Componente Imagen (Versión 2)
 description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
 role: Architect, Developer, Admin, User
-exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 77%
+source-wordcount: '2228'
+ht-degree: 99%
 
 ---
 
-# Componente Imagen {#image-component}
+
+# Componente Imagen  (Versión 2) {#image-component}
 
 El componente de imagen del componente principal es un componente de imagen adaptable que incluye la edición in situ.
 
@@ -18,21 +18,17 @@ El componente de imagen del componente principal es un componente de imagen adap
 
 El componente de imagen presenta una selección de imágenes adaptativa y un comportamiento interactivo con carga diferida para el visitante de la página, así como una ubicación y un recorte sencillos de la imagen para el autor del contenido.
 
-El autor de la plantilla puede definir los anchos de la imagen y la configuración adicional en la [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede cargar o seleccionar recursos en la variable [configure .](#configure-dialog)
+El autor de la plantilla puede definir los anchos de la imagen, así como el recorte y la configuración adicional en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede cargar o seleccionar recursos en el [cuadro de diálogo de configuración](#configure-dialog) y recortar la imagen en el [cuadro de diálogo de edición](#edit-dialog). Para una mayor comodidad, también está disponible una modificación simple in situ de la imagen.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de imagen es v3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+Este documento describe la versión 2 del componente de imagen, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
-
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| Versión 3 | - | Compatible | Compatible |
-| [Versión 2](v2/image.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/image-v1.md) | Compatible | Compatible | - |
-
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento describe la versión 1 del componente de imagen.
+>
+>Para obtener más información sobre la versión actual del componente de imagen, consulte el documento [Componente de imagen](/help/components/image.md).
 
 ## Funciones adaptables {#responsive-features}
 
@@ -46,7 +42,7 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
-El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
+El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
 Las experiencias web creadas con los componentes principales no pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
@@ -62,7 +58,7 @@ Los gráficos vectoriales escalables (SVG) son compatibles con el componente de 
 
 Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG original. Se llama a través de `<img src=“path-to-component”>`. Esto evita que el explorador ejecute cualquier script incrustado en el archivo SVG.
 
->[!NOTE]
+>[!CAUTION]
 >
 >La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superiores junto con el [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=es) para AEM 6.4 o superior para admitir las [funciones del editor de imágenes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) dentro de AEM.
 
@@ -80,24 +76,16 @@ El componente de imagen admite [microdatos schema.org](https://schema.org).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-El componente de imagen ofrece un cuadro de diálogo de configuración en el que la propia imagen se define junto con su descripción y propiedades básicas.
+Además del [cuadro de diálogo de edición](#edit-dialog) y del [cuadro de diálogo de diseño](#design-dialog) estándar, el componente de imagen ofrece un cuadro de diálogo de configuración en el que la propia imagen se define junto con su descripción y propiedades básicas.
 
 ### Pestaña Recurso {#asset-tab}
 
 ![Pestaña de recursos del cuadro de diálogo de configuración del componente de imagen](/help/assets/image-configure-asset.png)
 
-* **Heredar imagen destacada de la página** - Esta opción utiliza la variable [imagen destacada de la página vinculada](page.md) o la imagen destacada de la página actual si la imagen no está vinculada.
-
-* **Texto alternativo para accesibilidad** - Este campo le permite definir una descripción de la imagen para los usuarios con deficiencias visuales.
-
-   * **Heredar texto alternativo de la página** - Esta opción utiliza la descripción alternativa del valor de recurso vinculado del `dc:description` metadatos en DAM o de la página actual si no hay ningún recurso vinculado.
-
 * **Recurso de imagen**
    * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
    * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
    * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.
-
-* **No proporcionar un texto alternativo** - Esta opción marca la imagen que tecnologías de asistencia ignoran, como lectores de pantalla, en casos en los que la imagen es puramente decorativa o no transmite información adicional a la página.
 
 ### Pestaña de metadatos {#metadata-tab}
 
@@ -107,13 +95,15 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
    * **Ajuste preestablecido de imagen**: cuando se selecciona **Tipo de ajuste preestablecido** de **ajustes de imagen preestablecidos**, está disponible la opción desplegable **Ajustes de imagen preestablecidos**, que permite seleccionar entre los ajustes preestablecidos disponibles de Dynamic Media. Esto solo está disponible si se han definido ajustes preestablecidos para el recurso seleccionado.
    * **Recorte inteligente**: cuando se selecciona **Tipos de ajustes preestablecidos** de **recorte inteligente**, está disponible la lista desplegable **Representación**, que permite seleccionar entre las representaciones disponibles del recurso seleccionado. Esto solo está disponible si las representaciones están definidas para el recurso seleccionado.
    * **Modificadores de imagen**: los comandos de servidor de imágenes adicionales de Dynamic Media se pueden definir aquí separados por `&`, independientemente de los **tipos de ajustes preestablecidos** seleccionados.
+* **La imagen es decorativa**: compruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto solo se aplica a imágenes decorativas.
+* **Texto alternativo**: texto alternativo del significado o la función de la imagen, para usuarios con problemas de visión.
+   * **Obtener texto alternativo de DAM**: cuando se selecciona, el texto alternativo de la imagen se rellena con el valor de los metadatos `dc:description` en DAM.
 * **Pie de ilustración**: información adicional sobre la imagen que se muestra debajo de la imagen de forma predeterminada.
    * **Obtener pie de ilustración de DAM**: cuando se marca, el texto del pie de la imagen se rellena con el valor de los metadatos `dc:title` de DAM.
    * **Mostrar pie de ilustración como ventana emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el ratón por encima de la imagen.
 * **Vínculo**: vincule la imagen a otro recurso.
    * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.
    * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
-   * **Abrir vínculo en una pestaña nueva** - Esta opción abre el vínculo en una nueva ventana del explorador.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
@@ -123,34 +113,88 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
 >
 >El **recorte inteligente** y los **ajustes preestablecidos de imagen** son opciones que se excluyen mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, el autor deberá utilizar los **Modificadores de imagen** para añadir ajustes preestablecidos manualmente.
 
-### Pestaña Estilos {#styles-tab-edit}
+## Cuadro de diálogo de edición {#edit-dialog}
 
-![Pestaña Estilos del cuadro de diálogo de edición del componente de imagen](/help/assets/image-configure-styles.png)
+El cuadro de diálogo de edición permite al autor del contenido recortar, modificar el mapa de lanzamiento y ampliar la imagen.
 
-El componente de imagen es compatible con el AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+>[!NOTE]
+>
+>Las funciones de recorte, rotación y zoom no se aplican a los recursos de Dynamic Media. Si las [características de Dynamic Media](#dynamic-media) están habilitadas, cualquier edición de los recursos de Dynamic Media debe realizarse a través del [Cuadro de diálogo de configuración.](#configure-dialog)
 
-Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
+![Cuadro de diálogo de edición del componente de imagen](/help/assets/image-edit.png)
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+* Iniciar recorte
+
+   ![Iniciar icono de recorte](/help/assets/image-start-crop.png)
+
+   Al seleccionar esta opción, se abrirá una lista desplegable para las proporciones de recorte predefinidas.
+
+   * Elija la opción **Mano alzada** para definir su propio recorte.
+   * Elija la opción **Quitar recorte** para mostrar el recurso original.
+
+   Una vez seleccionada una opción de recorte, utilice los controladores azules para cambiar el tamaño del recorte en la imagen.
+
+   ![Opciones de recorte](/help/assets/image-crop-options.png)
+
+* Girar a la derecha
+
+   ![Icono Rotar a la derecha](/help/assets/image-rotate-right.png)
+
+   Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
+
+* Voltear horizontalmente
+
+   ![Icono Voltear horizontalmente](/help/assets/image-flip-horizontal.png)
+
+   Utilice esta opción para voltear la imagen horizontalmente o girar la imagen 180° a lo largo del eje y.
+
+* Voltear verticalmente
+
+   ![Icono Voltear verticalmente](/help/assets/image-flip-vertical.png)
+
+   Utilice esta opción para voltear la imagen verticalmente o girar la imagen 180° a lo largo del eje x.
+
+* Restablecer zoom
+
+   ![Icono Restablecer zoom](/help/assets/image-reset-zoom.png)
+
+   Si la imagen ya se ha ampliado, utilice esta opción para restablecer el nivel de zoom.
+
+* Abrir deslizador del zoom
+
+   ![Icono del deslizador del zoom abierto](/help/assets/image-zoom.png)
+
+   Utilice esta opción para mostrar un control deslizante para controlar el nivel de zoom de la imagen.
+
+   ![Control deslizador del zoom](/help/assets/image-zoom-slider.png)
+
+El editor in situ también se puede utilizar para modificar la imagen. Debido a las limitaciones de espacio, solo las opciones básicas están disponibles en línea. Para obtener opciones de edición completas, utilice el modo de pantalla completa.
+
+![Opciones de edición in situ de imágenes](/help/assets/image-in-place-edit.png)
+
+>[!NOTE]
+>
+>Las operaciones de edición de imágenes (recortar, voltear, girar) no son compatibles con las imágenes GIF. Los cambios que se hagan en el modo de edición a los GIF no se mantendrán.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
+El cuadro de diálogo de diseño permite al autor de la plantilla definir las opciones de recorte, carga y rotación que tiene el autor del contenido al utilizar este componente.
+
+### Pestaña Principal {#main-tab}
+
+En la pestaña **Principal** puede definir una lista de anchuras en píxeles para la imagen y el componente cargará automáticamente la anchura más adecuada en función del tamaño del explorador. Esta es una parte importante de las [funciones adaptables](#responsive-features) del componente de imagen.
+
+Además, puede definir qué opciones generales de componentes se desactivan o se desactivan automáticamente cuando el autor agregue el componente a una página.
+
 ![Pestaña principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main.png)
 
-* **Habilitar características de DM** - Cuando está marcado, [Funciones de Dynamic Media](#dynamic-media) están disponibles.
-   * Esta opción solo aparece cuando Dynamic Media está habilitado en el entorno .
-* **Desactivación de la carga diferida** - Cuando se selecciona, el componente carga previamente todas las imágenes sin carga diferida.
+* **Activar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
+* **Habilitar la carga a medida**: defina si la opción de carga diferida se habilita automáticamente al añadir el componente de imagen a una página.
 * **La imagen es decorativa**: defina si la opción de imagen decorativa se habilita automáticamente al añadir el componente de imagen a una página.
 * **Obtener texto alternativo de DAM**: defina si la opción para recuperar el texto alternativo de DAM se habilita automáticamente al añadir el componente de imagen a una página.
 * **Obtener pie de ilustración de DAM**: defina si la opción para recuperar el pie de ilustración de DAM se habilita automáticamente al añadir el componente de imagen a una página.
 * **Mostrar pie de ilustración como ventana emergente**: defina si la opción para mostrar el pie de ilustración como elemento emergente se habilita automáticamente al agregar el componente de imagen a una página.
-* **Cambiar el ancho** - Este valor se utiliza para cambiar el tamaño del ancho de las imágenes base que son activos DAM.
-   * Se conservará la relación de aspecto de las imágenes.
-   * Si el valor es mayor que el ancho real de la imagen, este valor no tendrá ningún efecto.
-   * Este valor no afecta a las imágenes SVG.
-
-Puede definir una lista de anchuras en píxeles para la imagen y el componente cargará automáticamente la anchura más adecuada en función del tamaño del explorador. Esta es una parte importante de las [funciones adaptables](#responsive-features) del componente de imagen.
-
+* **Deshabilitar el seguimiento de UUID**: márquelo para deshabilitar el seguimiento del UUID del recurso de imagen.
 * **Anchuras**: define una lista de anchuras en píxeles para la imagen y el componente y carga automáticamente la anchura más adecuada en función del tamaño del explorador.
    * Pulse o haga clic en el botón **Añadir** para añadir otro tamaño.
       * Utilice los asideros para reorganizar el orden de los tamaños.
@@ -163,7 +207,47 @@ Puede definir una lista de anchuras en píxeles para la imagen y el componente c
 >
 >Consulte la sección [Servlet de imagen adaptable](#adaptive-image-servlet) para obtener más información técnica sobre sus funciones y sugerencias para optimizar la selección de representaciones definiendo cuidadosamente sus anchos.
 
-### Pestaña Estilos {#styles-tab}
+### Pestaña Características {#features-tab}
+
+En la pestaña **Características** puede definir qué opciones están disponibles para los autores de contenido al utilizar el componente, incluidas las opciones de carga, orientación y recorte.
+
+* Origen
+
+   ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-source.png)
+
+   Seleccione la opción **Permitir la carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
+
+* Orientación
+
+   ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-orientation.png)
+
+* **Rotar**
+Utilice esta opción para permitir que el autor de contenido utilice la opción de 
+**Girar a la derecha**.
+* **Voltear**
+Utilice esta opción para permitir que el autor de contenido utilice las opciones 
+**Voltear horizontalmente** y **voltear verticalmente**.
+
+   >[!CAUTION]
+   >
+   >La opción **Voltear** está desactivada de forma predeterminada. Al activarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
+
+* Recortar
+
+   ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-cropping.png)
+
+   Seleccione la opción **Activar recortar** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
+   * Haga clic en **Añadir** para añadir una relación de aspecto de recorte predefinida.
+   * Introduzca un nombre descriptivo que se mostrará en la lista desplegable **Iniciar recorte**.
+   * Introduzca la relación numérica del aspecto.
+   * Utilice los controles de arrastre para reorganizar el orden de las relaciones de aspecto
+   * Utilice el icono de la papelera para eliminar una relación de aspecto.
+
+   >[!CAUTION]
+   >
+   >Tenga en cuenta que, en AEM, las relaciones de aspecto de recorte se definen como **altura/anchura**. Esto es distinto de la definición convencional de anchura/altura y se realiza por motivos de compatibilidad con sistemas anteriores. Los autores de contenido no notarán ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la propia relación.
+
+### Pestaña Estilos {#styles-tab-1}
 
 El componente Imagen es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 

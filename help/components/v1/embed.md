@@ -1,16 +1,16 @@
 ---
-title: Incrustar componente
+title: Componente incrustado (v1)
 description: El componente incrustado permite incrustar contenido externo en una página de contenido de AEM.
 role: Architect, Developer, Admin, User
-exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 92%
+source-wordcount: '1298'
+ht-degree: 96%
 
 ---
 
-# Incrustar componente {#embed-component}
+
+# Incrustar componente (Versión 1) {#embed-component}
 
 El componente de incrustación de componentes principales permite incrustar contenido externo en una página de contenido de AEM.
 
@@ -23,16 +23,13 @@ El componente incrustado de componente principal permite que el autor de conteni
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente incrustado es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+Este documento describe la versión 1 del componente incrustado, que se introdujo con la versión 2.7.0 de los componentes principales en septiembre de 2019.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
-
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 2 | - | Compatible | Compatible |
-| [Versión 1](v1/embed.md) | Compatible | Compatible | Compatible |
-
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento describe la versión 1 del componente incrustado.
+>
+>Para obtener más información sobre la versión actual del componente incrustado, consulte la [Incrustar componente](/help/components/embed.md) documento.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -46,23 +43,19 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-El cuadro de diálogo de configuración permite al autor del contenido definir el recurso externo que se va a incrustar en la página.
-
-### Pestaña Propiedades {#properties-tab}
-
-Primero elija qué tipo de recurso debe incrustar:
+El cuadro de diálogo de configuración permite al autor del contenido definir el recurso externo que se va a incrustar en la página. Primero elija qué tipo de recurso debe incrustar:
 
 * [URL](#url)
 * [Incrustable](#embeddable)
 * [HTML](#html)
 
-Para cada tipo de incrustable, puede definir una **ID**. Esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos](/help/developing/data-layer/overview.md).
+Para cada tipo de incrustable, puede definir un **ID**. Esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos](/help/developing/data-layer/overview.md).
 
 * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
 * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
 * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
-#### URL {#url}
+### URL {#url}
 
 La incrustación más sencilla es la URL. Simplemente pegue la dirección URL del recurso que desea incrustar en el campo **URL**. El componente intentará acceder al recurso y, si uno de los procesadores lo puede representar, se mostrará un mensaje de confirmación debajo del campo **URL**. Si no es así, el campo se marcará con un error.
 
@@ -75,7 +68,7 @@ Los desarrolladores pueden agregar procesadores de URL adicionales [siguiendo la
 
 ![Cuadro de diálogo de edición del componente incrustado para la dirección URL](/help/assets/embed-url.png)
 
-#### Incrustable {#embeddable}
+### Incrustable {#embeddable}
 
 Las incrustaciones permiten una mayor personalización del recurso incrustado, que se puede parametrizar e incluir información adicional. Un autor puede elegir entre incrustaciones de confianza preconfiguradas y el componente se enviará con una incrustación de YouTube lista para usar.
 
@@ -90,15 +83,16 @@ El campo **Incrustable** define el tipo de procesador que desea utilizar. En el 
 * **Habilitar la reproducción en línea (iOS)**: este parámetro controla si los vídeos se reproducen en línea (activado) o a pantalla completa (desactivado) en un reproductor HTML5 en iOS.
 * **Vídeos relacionados sin restricciones**: si esta opción está desactivada, los vídeos relacionados provendrán del mismo canal que el vídeo que acaba de reproducirse; de lo contrario, provendrán de cualquier canal.
 
+Tenga en cuenta que las opciones de &quot;habilitar&quot; deben activarse a través del [Cuadro de diálogo de diseño](#design-dialog) y pueden establecerse como valores predeterminados.
+
 Otros incrustables ofrecerían campos similares y los puede definir un desarrollador [siguiendo la documentación para desarrolladores de componentes incrustados.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/embed/v1/embed#extending-the-embed-component)
 
 ![Cuadro de diálogo de edición del componente incrustado para incrustables](/help/assets/embed-embeddable.png)
 
 >[!NOTE]
->
 >Los incrustables deben habilitarse en el nivel de plantilla mediante el [Cuadro de diálogo de diseño](#design-dialog) para que estén disponibles para el autor de la página.
 
-#### HTML {#html}
+### HTML {#html}
 
 Puede agregar HTML de forma libre a la página mediante el componente Incrustar.
 
@@ -107,29 +101,18 @@ Puede agregar HTML de forma libre a la página mediante el componente Incrustar.
 >[!NOTE]
 >Las etiquetas no seguras, como los scripts, se filtrarán del HTML introducido y no se procesarán en la página resultante.
 
-##### Seguridad {#security}
+#### Seguridad {#security}
 
 El marcado HTML que puede introducir el autor se filtra con fines de seguridad para evitar ataques de scripts entre sitios que podrían, por ejemplo, permitir a los autores obtener derechos administrativos.
 
-En general, todos los scripts y elementos`style`, así como todos los `on*` y atributos `style` se eliminarán de la salida.
+*En general,* todos los scripts y elementos`style`, así como todos los `on*` y atributos `style` se eliminarán de la salida.
 
 Sin embargo, las reglas son más complicadas porque el componente Incrustar sigue el conjunto de reglas de filtrado del marco global de saneamiento HTML AntiSamy de AEM, que se puede encontrar en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponer esta configuración para un proyecto específico si fuera necesario.
 
 Puede encontrar información de seguridad adicional en la [documentación para desarrolladores para instalaciones en línea de AEM](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/security.html?lang=es), así como [instalaciones de AEM Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/home.html?lang=es)
 
 >[!NOTE]
->
 >Aunque las reglas del marco de saneamiento AntiSamy se pueden configurar superponiendo `/libs/cq/xssprotection/config.xml`, estos cambios afectarán a todo el comportamiento de HTL y JSP y no solo al componente principal incrustado.
-
-### Pestaña Estilos {#styles-tab-edit}
-
-![Pestaña Estilos del cuadro de diálogo de edición de Insertar componente](/help/assets/embed-styles.png)
-
-El componente Insertar es compatible con la AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
-
-Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
-
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

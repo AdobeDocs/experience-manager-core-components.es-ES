@@ -1,16 +1,16 @@
 ---
-title: Componente Navegación de idioma
+title: Componente Navegación de idioma (Versión 1)
 description: El componente Navegación de idioma proporciona un idioma o navegación por país para un sitio, de modo que los visitantes pueden navegar a la misma página en una configuración regional diferente.
 role: Architect, Developer, Admin, User
-exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
-source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
+source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 84%
+source-wordcount: '810'
+ht-degree: 94%
 
 ---
 
-# Componente Navegación de idioma{#language-navigation-component}
+
+# Componente Navegación de idioma (Versión 1) {#language-navigation-component}
 
 El componente Navegación de idioma proporciona un idioma o navegación por país para un sitio, de modo que los visitantes pueden navegar a la misma página en una configuración regional diferente.
 
@@ -25,16 +25,13 @@ El [cuadro de diálogo de edición](#edit-dialog) permite definir la raíz de na
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de navegación por idiomas es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+Este documento describe la versión 1 del componente de navegación de idioma, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
-La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
-
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| Versión 2 | - | Compatible | Compatible |
-| [Versión 1](v1/language-navigation.md) | Compatible | Compatible | Compatible |
-
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+>[!CAUTION]
+>
+>Este documento describe la versión 1 del componente de navegación de idioma.
+>
+>Para obtener más información sobre la versión actual del componente de navegación de idioma, consulte la [Componente de navegación por idiomas](/help/components/language-navigation.md) documento.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -48,7 +45,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite definir la raíz de navegación del sitio global, así como la profundidad en la estructura que debe ir la navegación.
+El cuadro de diálogo de edición permite definir la raíz de navegación del sitio global, así como la profundidad en la estructura que debe ir la navegación.
 
 Normalmente, estas configuraciones solo deben realizarse en el nivel de plantilla de página. Sin embargo, se pueden cambiar a nivel de página mediante el [cuadro de diálogo de edición](#edit-dialog).
 
@@ -96,9 +93,7 @@ El componente Navegación de idioma es compatible con el sistema de estilos de [
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
-### Pestaña Propiedades {#properties-tab-edit}
-
-Normalmente, el componente Navegación de idioma solo necesita agregarse y configurarse en las plantillas de página de un sitio. Sin embargo, si es necesario añadir el componente Navegación de idioma a una página de contenido individual, el cuadro de diálogo de edición permite a un autor de contenido configurar los mismos valores que se describen en el [cuadro de diálogo de diseño](#design-dialog)
+Normalmente, el componente Navegación de idioma solo necesita agregarse y configurarse en las plantillas de página de un sitio. Sin embargo, si es necesario añadir el componente Navegación de idioma a una página de contenido individual, el cuadro de diálogo de edición permite a un autor de contenido configurar los mismos valores que se describen en el [cuadro de diálogo de diseño](#design-dialog).
 
 Además, puede establecer un **ID**. Esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos](/help/developing/data-layer/overview.md).
 
@@ -107,22 +102,6 @@ Además, puede establecer un **ID**. Esta opción permite controlar el identific
 * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
 ![Cuadro de diálogo de edición del componente Navegación de idioma](/help/assets/language-navigation-edit.png)
-
-### Pestaña Accesibilidad {#accessibility-tab}
-
-* **Etiqueta** : esta opción debe definirse si hay más de un idioma de navegación en la página para establecer el atributo de etiqueta aria del componente.
-
-![Ficha Accesibilidad de navegación por idiomas](/help/assets/language-navigation-edit-accessibility.png)
-
-### Pestaña Estilos {#styles-tab-edit}
-
-El componente Navegación de idioma es compatible con el sistema de estilos de [AEM.](/help/get-started/authoring.md#component-styling).
-
-Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
-
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
-
-![Pestaña Estilos del cuadro de diálogo de edición del componente de navegación de idioma](/help/assets/language-navigation-edit-styles.png)
 
 ## Capa de datos del cliente de Adobe {#data-layer}
 
