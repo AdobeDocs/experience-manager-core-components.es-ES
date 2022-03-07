@@ -4,9 +4,9 @@ description: El componente principal Botón permite crear y visualizar un botón
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '542'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ El componente principal Botón permite incluir un botón en una página.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Botón es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente Botón es la versión 2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -55,7 +55,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 * **Texto**: Texto que se muestra en el botón
 * **Vínculo**: vínculo a una página de contenido dentro de AEM, un recurso externo o un anclaje
    * Utilice el **Cuadro de diálogo de selección** para elegir una ruta dentro de AEM.
-* **Abrir vínculo en una pestaña nueva** - Si se selecciona, el vínculo se abre en una nueva pestaña del explorador.
+* **Abrir en ficha nueva**: si se selecciona, el vínculo se abre en una nueva pestaña del explorador.
 * **Icono**: Identificador de iconos para mostrar un icono en el botón
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
@@ -74,11 +74,11 @@ En la pestaña **Accesibilidad**, se pueden configurar valores para las etiqueta
 
 ![Pestaña Estilos del cuadro de diálogo de edición del componente Botón](/help/assets/button-edit-styles.png)
 
-El componente Botón es compatible con el sistema de estilos de [AEM.](/help/get-started/authoring.md#component-styling).
+El componente Botón es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
