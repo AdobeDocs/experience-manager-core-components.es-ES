@@ -3,9 +3,9 @@ title: Componente teaser (v1)
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '748'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -26,9 +26,9 @@ Este documento describe la versión 1 del componente Teaser, que se introdujo co
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente teaser.
+>Este documento describe la versión 1 del componente Teaser.
 >
->Para obtener más información sobre la versión actual del componente Teaser, consulte la [Componente teaser](/help/components/teaser.md) documento.
+>Para obtener más información sobre la versión actual del componente Teaser, consulte el documento [Componente Teaser](/help/components/teaser.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -63,9 +63,9 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
 
 * **Pretítulo**: el pretítulo se mostrará antes del título del teaser.
 * **Título**: texto que se mostrará como el titular del teaser.
-   * **Obtener título de la página vinculada**: cuando se activa, el título se rellena con el título de la página vinculada.
+   * **Obtener el título de la página vinculada**: cuando se activa, el título se rellena con el título de la página vinculada.
 * **Descripción**: define una descripción para mostrarla como el subencabezado del teaser.
-   * **Obtener descripción de la página vinculada**: cuando está marcada, la descripción se rellena con la descripción de la página vinculada.
+   * **Obtener la descripción de la página vinculada**: cuando está marcada, la descripción se rellena con la descripción de la página vinculada.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
@@ -80,7 +80,7 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
-El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image-v1.md). Por lo tanto, la variable [cuadro de diálogo editar](image-v1.md#edit-dialog del componente de imagen está disponible para el autor de contenido para manipular la imagen de teaser.
+El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image-v1.md). Por lo tanto, el [cuadro de diálogo de edición](image-v1.md#edit-dialog) del componente de imagen está disponible para que el autor del contenido manipule la imagen de Teaser.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
@@ -91,7 +91,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir las op
 ![Cuadro de diálogo de diseño del componente Teaser](/help/assets/teaser-design.png)
 
 * **Llamadas a la acción**
-   * **Deshabilitar llamadas a la acción**: oculta la opción **Llamadas a la acción** para autores de contenido
+   * **Deshabilitar las llamadas a la acción**: oculta la opción **Llamadas a la acción** para autores de contenido
 * **Elementos**
    * **Ocultar pretítulo**: oculta la opción **Pretítulo** para autores de contenido
    * **Ocultar título**: oculta la opción **Título** para autores de contenido
