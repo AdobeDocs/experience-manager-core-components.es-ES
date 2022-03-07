@@ -3,9 +3,9 @@ title: Componente Título (Versión 2)
 description: El componente principal Título es un componente de encabezado de sección que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ El componente Título está diseñado para utilizarse como título o encabezado 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 2 del componente Título , que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
+Este documento describe la versión 2 del componente Título, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
 >[!CAUTION]
 >
