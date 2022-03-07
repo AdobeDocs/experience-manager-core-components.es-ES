@@ -4,9 +4,9 @@ description: El componente Fragmento de experiencia permite al autor del conteni
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '893'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ El componente principal Fragmento de experiencia permite al autor del contenido 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de fragmento de experiencia es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente de Fragmento de experiencia es la versión 2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -133,11 +133,11 @@ También puede definir un **ID**. Esta opción permite controlar el identificado
 
 ![Pestaña Estilos del cuadro de diálogo de edición del componente Fragmento de experiencia](/help/assets/experience-fragment-edit-styles.png)
 
-El componente Fragmento de experiencia es compatible con el sistema de estilos [AEM.](/help/get-started/authoring.md#component-styling).
+El componente Fragmento de experiencia es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
