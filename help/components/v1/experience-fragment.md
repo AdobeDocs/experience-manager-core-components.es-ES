@@ -3,9 +3,9 @@ title: Componente Fragmento de experiencia (Versión 1)
 description: El componente Fragmento de experiencia permite al autor del contenido añadir una variación de fragmento de experiencia a una página.
 role: Architect, Developer, Admin, User
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Este documento describe la versión 1 del componente Fragmento de experiencia, q
 >
 >Este documento describe la versión 1 del componente Fragmento de experiencia.
 >
->Para obtener más información sobre la versión actual del componente de fragmento de experiencia, consulte la [Componente de fragmento de experiencia](/help/components/experience-fragment.md) documento.
+>Para obtener más información sobre la versión actual del componente Fragmento de experiencia, consulte el documento [Componente Fragmento de experiencia](/help/components/experience-fragment.md).
 
 ## Compatibilidad con la estructura del sitio localizada {#localized-site-structure}
 
