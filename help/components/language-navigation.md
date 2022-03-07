@@ -4,9 +4,9 @@ description: El componente Navegación de idioma proporciona un idioma o navegac
 role: Architect, Developer, Admin, User
 exl-id: 10b218b4-c439-4a0f-a46f-0b15d78b0360
 source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '957'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ El [cuadro de diálogo de edición](#edit-dialog) permite definir la raíz de na
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de navegación por idiomas es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente Navegación de idioma es la versión 2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -110,17 +110,17 @@ Además, puede establecer un **ID**. Esta opción permite controlar el identific
 
 ### Pestaña Accesibilidad {#accessibility-tab}
 
-* **Etiqueta** : esta opción debe definirse si hay más de un idioma de navegación en la página para establecer el atributo de etiqueta aria del componente.
+* **Etiqueta**: esta opción debe definirse si hay más de un idioma de navegación en la página para establecer el atributo de etiqueta aria del componente.
 
-![Ficha Accesibilidad de navegación por idiomas](/help/assets/language-navigation-edit-accessibility.png)
+![Pestaña Accesibilidad de navegación por idiomas](/help/assets/language-navigation-edit-accessibility.png)
 
 ### Pestaña Estilos {#styles-tab-edit}
 
-El componente Navegación de idioma es compatible con el sistema de estilos de [AEM.](/help/get-started/authoring.md#component-styling).
+El componente Navegación de idioma es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ![Pestaña Estilos del cuadro de diálogo de edición del componente de navegación de idioma](/help/assets/language-navigation-edit-styles.png)
 
