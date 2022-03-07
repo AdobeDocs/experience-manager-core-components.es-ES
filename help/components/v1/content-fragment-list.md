@@ -3,9 +3,9 @@ title: Componente Lista de fragmentos de contenido (Versión 1)
 description: El componente principal Lista de fragmentos de contenido permite mostrar una lista de fragmentos de contenido.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '725'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ El componente principal Lista de fragmentos de contenido permite mostrar una lis
 
 ## Uso {#usage}
 
-El componente principal Lista de fragmentos de contenido permite incluir una lista de [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) en una página basada en un modelo de fragmento de contenido. Esto puede resultar especialmente útil para crear [contenido sin encabezado](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que otras aplicaciones pueden consumir fácilmente.
+El componente principal Lista de fragmentos de contenido permite incluir una lista de [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=es) en una página basada en un modelo de fragmento de contenido. Esto puede resultar especialmente útil para crear [contenido sin encabezado](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que otras aplicaciones pueden consumir fácilmente.
 
 * La lista y sus propiedades se pueden seleccionar en el [cuadro de diálogo de configuración](#configure-dialog).
 * Los estilos se pueden aplicar al componente en el [cuadro de diálogo de diseño](#design-dialog).
@@ -27,9 +27,9 @@ El documento describe la versión 1 del componente Fragmento de contenido, que s
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente Lista de fragmentos de contenido.
+>Este documento describe la versión 1 del componente Lista de fragmento de contenido.
 >
->Para obtener más información sobre la versión actual del componente de lista de fragmentos de contenido, consulte la [Componente de lista de fragmentos de contenido](/help/components/content-fragment-list.md) documento.
+>Para obtener más información sobre la versión actual del componente Lista de fragmento de contenido, consulte el documento [componente Lista de fragmento de contenido](/help/components/content-fragment-list.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
