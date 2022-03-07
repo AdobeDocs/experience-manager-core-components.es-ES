@@ -4,9 +4,9 @@ description: El componente principal Ruta de exploración es un componente de na
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Las opciones disponibles, como el nivel de navegación predeterminado y la capac
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de ruta de exploración es v3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente Ruta de exploración es la versión 3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -74,11 +74,11 @@ El cuadro de diálogo de edición permite al autor del contenido suprimir las p�
 
 ![Pestaña Estilos del cuadro de diálogo de edición del componente Lista de ruta de exploración](/help/assets/breadcrumb-edit-styles.png)
 
-El componente Ruta de exploración es compatible con el sistema de estilos de [AEM.](/help/get-started/authoring.md#component-styling).
+El componente Ruta de exploración es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
