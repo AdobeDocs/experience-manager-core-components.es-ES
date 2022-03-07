@@ -4,9 +4,9 @@ description: 'Los componentes principales se introdujeron para proporcionar comp
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 01f57b2d547d2c1ab87b552522375a0a07496a23
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -104,9 +104,9 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 ## Requisitos del sistema {#system-requirements}
 
-| Componentes principales Edición | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
+| Componentes principales Versión | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
 |---------|---------|---------|---------|---------|
-| [2,18,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Continua | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | Continua | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
