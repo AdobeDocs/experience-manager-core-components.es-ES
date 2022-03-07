@@ -3,9 +3,9 @@ title: Componente Página (Versión 2)
 description: El componente Página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '645'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden definir b
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 2 del componente de página, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
+Este documento describe la versión 2 del componente Página, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
 >[!CAUTION]
 >
