@@ -4,9 +4,9 @@ description: El componente principal Lista de fragmentos de contenido permite mo
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '831'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -16,14 +16,14 @@ El componente principal Lista de fragmentos de contenido permite mostrar una lis
 
 ## Uso {#usage}
 
-El componente principal Lista de fragmentos de contenido permite incluir una lista de [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html) en una página basada en un modelo de fragmento de contenido. Esto puede resultar especialmente útil para crear [contenido sin encabezado](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que otras aplicaciones pueden consumir fácilmente.
+El componente principal Lista de fragmentos de contenido permite incluir una lista de [fragmentos de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=es) en una página basada en un modelo de fragmento de contenido. Esto puede resultar especialmente útil para crear [contenido sin encabezado](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/user-guide.html?topic=/experience-manager/6-5/sites/developing/morehelp/headless.ug.js) que otras aplicaciones pueden consumir fácilmente.
 
 * La lista y sus propiedades se pueden seleccionar en el [cuadro de diálogo de configuración](#configure-dialog).
 * Los estilos se pueden aplicar al componente en el [cuadro de diálogo de diseño](#design-dialog).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de fragmento de contenido es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente Fragmento de contenido es la versión 2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -91,14 +91,14 @@ De forma predeterminada, todos los elementos del Modelo de fragmento de contenid
 
 ![Pestaña Estilos del cuadro de diálogo de edición del componente Lista de fragmentos de contenido](/help/assets/content-fragment-list-styles.png)
 
-El componente Lista de fragmentos de contenido es compatible con el AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+El componente Lista de fragmentos de contenido es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
 ### Pestaña Estilos {#styles-tab}
 
-El componente Lista de fragmentos de contenido es compatible con el AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+El componente Lista de fragmentos de contenido es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
