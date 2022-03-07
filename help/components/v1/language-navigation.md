@@ -3,9 +3,9 @@ title: Componente Navegación de idioma (Versión 1)
 description: El componente Navegación de idioma proporciona un idioma o navegación por país para un sitio, de modo que los visitantes pueden navegar a la misma página en una configuración regional diferente.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -29,9 +29,9 @@ Este documento describe la versión 1 del componente de navegación de idioma, q
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente de navegación de idioma.
+>Este documento describe la versión 1 del componente Navegación de idioma.
 >
->Para obtener más información sobre la versión actual del componente de navegación de idioma, consulte la [Componente de navegación por idiomas](/help/components/language-navigation.md) documento.
+>Para obtener más información sobre la versión actual del componente Navegación de idioma, consulte el documento [Componente Navegación de idioma](/help/components/language-navigation.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
