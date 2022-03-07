@@ -3,9 +3,9 @@ title: Componente Navegación (Versión 1)
 description: El componente Navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1430'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ Este documento describe la versión 1 del componente de navegación, que se intr
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente de navegación.
+>Este documento describe la versión 1 del componente Navegación.
 >
->Para obtener más información sobre la versión actual del componente de navegación, consulte la [Componente de navegación](/help/components/navigation.md) documento.
+>Para obtener más información sobre la versión actual del componente Navegación, consulte el documento [Componente Navegación](/help/components/navigation.md).
 
 ## Compatibilidad con la estructura del sitio localizada {#localized-site-structure}
 
