@@ -4,9 +4,9 @@ description: El componente incrustado permite incrustar contenido externo en una
 role: Architect, Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 source-git-commit: 28409185f2e46a30fa588b3f92b83b2fa05de96d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1395'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ El componente incrustado de componente principal permite que el autor de conteni
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente incrustado es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente incrustado es la versión 2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -56,7 +56,7 @@ Primero elija qué tipo de recurso debe incrustar:
 * [Incrustable](#embeddable)
 * [HTML](#html)
 
-Para cada tipo de incrustable, puede definir una **ID**. Esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos](/help/developing/data-layer/overview.md).
+Para cada tipo de incrustable, puede definir un **ID**. Esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos](/help/developing/data-layer/overview.md).
 
 * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
 * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
@@ -111,7 +111,7 @@ Puede agregar HTML de forma libre a la página mediante el componente Incrustar.
 
 El marcado HTML que puede introducir el autor se filtra con fines de seguridad para evitar ataques de scripts entre sitios que podrían, por ejemplo, permitir a los autores obtener derechos administrativos.
 
-En general, todos los scripts y elementos`style`, así como todos los `on*` y atributos `style` se eliminarán de la salida.
+En general, todos los scripts y elementos `style`, así como todos los `on*` y atributos `style` se eliminarán de la salida.
 
 Sin embargo, las reglas son más complicadas porque el componente Incrustar sigue el conjunto de reglas de filtrado del marco global de saneamiento HTML AntiSamy de AEM, que se puede encontrar en `/libs/cq/xssprotection/config.xml`. Un desarrollador puede superponer esta configuración para un proyecto específico si fuera necesario.
 
@@ -123,13 +123,13 @@ Puede encontrar información de seguridad adicional en la [documentación para d
 
 ### Pestaña Estilos {#styles-tab-edit}
 
-![Pestaña Estilos del cuadro de diálogo de edición de Insertar componente](/help/assets/embed-styles.png)
+![Pestaña Propiedades del cuadro de diálogo de edición del componente Incrustado](/help/assets/embed-styles.png)
 
-El componente Insertar es compatible con la AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+El componente Incrustado es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
