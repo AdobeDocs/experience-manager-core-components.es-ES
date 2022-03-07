@@ -4,9 +4,9 @@ description: El componente Navegación permite a los usuarios navegar fácilment
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ El [cuadro de diálogo de edición](#edit-dialog) permite que el autor del conte
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de navegación es v2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente de navegación es la versión 2, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -158,13 +158,13 @@ En la pestaña **Accesibilidad**, se pueden configurar valores para las etiqueta
 
 ### Pestaña Estilos {#styles-tab-edit}
 
-El componente de navegación es compatible con el AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+El componente de navegación es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
-![Pestaña Estilos del cuadro de diálogo de edición del componente de navegación](/help/assets/navigation-edit-styles.png)
+![Pestaña Propiedades del cuadro de diálogo de edición del componente Navegación](/help/assets/navigation-edit-styles.png)
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
