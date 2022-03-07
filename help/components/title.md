@@ -4,9 +4,9 @@ description: El componente principal Título es un componente de encabezado de s
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '626'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ El componente Título está diseñado para utilizarse como título o encabezado 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Título es v3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente Título es la versión 3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -49,7 +49,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir el text
 * **Título**: si está vacío, se utilizará el título de la página
 * **Tipo / Tamaño**: define el nivel de encabezado del título
 * **Vínculo**: define el contenido al que se vinculará el título. Puede ser una ruta a una página de contenido, una URL externa o un anclaje de página.
-* **Abrir vínculo en una pestaña nueva** - Cuando está activado, el vínculo se abre en una nueva pestaña del explorador.
+* **Abrir en ficha nueva**: cuando está activado, el vínculo se abre en una nueva pestaña del explorador.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
@@ -63,11 +63,11 @@ El editor in situ también se puede utilizar para editar el texto del componente
 
 ### Pestaña Estilos {#styles-tab-edit}
 
-El componente Título es compatible con el sistema de estilos de [AEM.](/help/get-started/authoring.md#component-styling).
+El componente Título es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
 ![Pestaña Estilos del cuadro de diálogo de edición del componente Título](/help/assets/title-edit-styles.png)
 
