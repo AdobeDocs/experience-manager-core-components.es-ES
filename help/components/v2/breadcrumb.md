@@ -3,9 +3,9 @@ title: Componente Ruta de exploración (Versión 2)
 description: El componente principal Ruta de exploración es un componente de navegación que crea una ruta de exploración de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '680'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Las opciones disponibles, como el nivel de navegación predeterminado y la capac
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 2 del componente de ruta de exploración, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
+Este documento describe la versión 2 del componente Ruta de exploración, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
 >[!CAUTION]
 >
