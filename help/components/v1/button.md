@@ -3,9 +3,9 @@ title: Componente Botón (Versión 1)
 description: El componente principal Botón permite crear y visualizar un botón.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '412'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ El documento describe la versión 1 del componente Botón, que se introdujo con 
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente Botón.
+>Este documento describe la versión 1 del componente botón.
 >
->Para obtener más información sobre la versión actual del componente Botón, consulte la [Componente de botón](/help/components/button.md) documento.
+>Para obtener más información sobre la versión actual del componente Botón, consulte el documento [Componente Botón](/help/components/button.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
