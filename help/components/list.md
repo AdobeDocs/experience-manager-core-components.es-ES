@@ -4,9 +4,9 @@ description: El componente principal Lista permite crear fácilmente listas din�
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1151'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ El componente Lista se puede utilizar para crear, por ejemplo, una lista dinámi
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de lista es v3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
+La versión actual del componente Lista es la versión 3, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -156,20 +156,20 @@ Con la pestaña Configuración de elementos, se puede configurar el formato de l
 
 ![Configuración del elemento](/help/assets/list-edit-items.png)
 
-* **Vincular elementos** - Vincular elementos a la página correspondiente
-* **Mostrar descripción** - Mostrar descripciones del elemento de vínculo
-* **Mostrar fecha** - Mostrar la fecha de modificación del elemento de vínculo
-* **Mostrar como teaser** - Cuando está marcado, el elemento se muestra como teaser
+* **Vincular elementos**: vincular elementos a la página correspondiente
+* **Mostrar descripción**: mostrar descripciones del elemento de vínculo
+* **Mostrar fecha**: mostrar fecha de modificación del elemento vinculado
+* **Mostrar como teaser**: cuando está marcado, el elemento se muestra como teaser
 
 ### Pestaña Estilos {#styles-tab-edit}
 
-El componente Lista es compatible con el AEM [Sistema de estilos.](/help/get-started/authoring.md#component-styling).
+El componente Lista es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 Utilice la lista desplegable para seleccionar los estilos que desea aplicar al componente. Las selecciones realizadas en el cuadro de diálogo de edición tienen el mismo efecto que las seleccionadas en la barra de herramientas de componentes.
 
-Los estilos deben configurarse para este componente en la variable [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
+Los estilos deben configurarse para este componente en el [cuadro de diálogo de diseño](#design-dialog) para que el menú desplegable esté disponible.
 
-![Pestaña Estilos del cuadro de diálogo de edición de Componente de lista](/help/assets/list-edit-styles.png)
+![Pestaña Propiedades del cuadro de diálogo de edición del componente Lista](/help/assets/list-edit-styles.png)
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
