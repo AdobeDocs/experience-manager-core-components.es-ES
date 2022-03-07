@@ -3,9 +3,9 @@ title: Componente Imagen (Versión 2)
 description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
 role: Architect, Developer, Admin, User
 source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2228'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ El autor de la plantilla puede definir los anchos de la imagen, así como el rec
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 2 del componente de imagen, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
+Este documento describe la versión 2 del componente de Imagen, que se introdujo con la versión 2.0.0 de los componentes principales en enero de 2018.
 
 >[!CAUTION]
 >
@@ -200,7 +200,7 @@ Además, puede definir qué opciones generales de componentes se desactivan o se
       * Utilice los asideros para reorganizar el orden de los tamaños.
       * Utilice el icono **Eliminar** para eliminar una anchura.
    * De forma predeterminada, la carga de imágenes se aplazará hasta que se vuelva visible.
-      * Seleccione la opción **Deshabilitar la carga lenta** para cargar las imágenes al cargar la página.
+      * Seleccione la opción **Deshabilitar la carga a medida** para cargar las imágenes al cargar la página.
 * **Calidad JPEG**: el factor de calidad (indicado en porcentajes de 0 a 100) para imágenes JPEG transformadas (por ejemplo, escaladas o recortadas).
 
 >[!TIP]
