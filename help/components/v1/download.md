@@ -3,9 +3,9 @@ title: Descargar componente (v1)
 description: El componente principal Descarga permite crear una opción de descarga en una página.
 role: Architect, Developer, Admin, User
 source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '644'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -23,13 +23,13 @@ El componente Descarga de componentes principales permite incluir una opción de
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 1 del componente de descarga, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019.
+Este documento describe la versión 1 del componente Descarga, que se introdujo con la versión 2.5.0 de los componentes principales en junio de 2019.
 
 >[!CAUTION]
 >
->Este documento describe la versión 1 del componente de descarga.
+>Este documento describe la versión 1 del componente Descarga.
 >
->Para obtener más información sobre la versión actual del componente de descarga, consulte la [Descargar componente](/help/components/download.md) documento.
+>Para obtener más información sobre la versión actual del componente Descarga, consulte el documento [Componente Descarga](/help/components/download.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
