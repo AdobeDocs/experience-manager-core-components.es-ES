@@ -6,13 +6,13 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
 workflow-type: tm+mt
 source-wordcount: '2389'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # Versiones de componentes principales {#core-components-versions}
 
-La versión actual de los componentes principales es 2.18.0, y es compatible con [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) y con las [instalaciones de AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
+La versión actual de los componentes principales es 2.18.0, y es compatible con [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) y con las instalaciones de [AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
 
 ## Historial y compatibilidad de la versión {#release-history-and-compatibility}
 
@@ -26,8 +26,8 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2,18,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | En esta versión principal de los componentes principales se ha introducido un nuevo controlador de vínculos en las nuevas versiones de varios componentes, así como muchas mejoras de accesibilidad y correcciones de errores. | - | 6.5.10.0+ * | Continua | 8, 11 | 16 de febrero de 2022 |
-| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Este es un parche. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 13 de diciembre de 2021 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | En esta versión principal de los componentes principales se ha introducido un nuevo controlador de vínculos en las nuevas versiones de varios componentes, así como muchas mejoras de accesibilidad y correcciones de errores. | - | 6.5.10.0+ * | Continua | 8, 11 | 16 de febrero de 2022 |
+| [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta es una versión de parche. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 13 de diciembre de 2021 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta es una versión de parche que corrige una regresión introducida con la versión anterior. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 1 de octubre de 2021 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Este parche mejora los componentes [Lista](/help/components/list.md) y [Navegación](/help/components/navigation.md) para mostrar la URL externa para los destinos de redireccionamiento, habilita la herencia de imágenes de página para la próxima versión 2 del componente [Teaser](/help/components/teaser.md), y contiene correcciones de errores adicionales. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 31 de agosto de 2021 |
 | [2.17.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.8) | Esta es una versión del parche que corrige un cambio incompatible con versiones anteriores que se introdujo anteriormente. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 2 de agosto de 2021 |
@@ -82,11 +82,11 @@ En la siguiente tabla se detallan las versiones de qué componentes se incluyen 
 
 |  | Versión 1.0.0: 1.0.6 | Versión 1.1.0 | Versión 2.0.0: 2.0.8 | Versión 2.1.0 | Versión 2.2.0-2.2.0 | Versión 2.3.0-2.3.2 | Versión 2.4.0 | Versión 2.5.0 | Versión 2.6.0 | Versión 2.7.0-2.8.0 | Versión 2.9.0-2.17.14 | Versión 2.18.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[Página](components/page.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, Versión 3 |
-| **[Título](components/title.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, Versión 3 |
-| **[Imagen](components/image.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, Versión 3 |
-| **[Lista](components/list.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, Versión 3 |
-| **[Ruta de navegación](components/breadcrumb.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, Versión 3 |
+| **[Página](components/page.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, versión 3 |
+| **[Título](components/title.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, versión 3 |
+| **[Imagen](components/image.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, versión 3 |
+| **[Lista](components/list.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, versión 3 |
+| **[Ruta de navegación](components/breadcrumb.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2, versión 3 |
 | **[Compartir en redes sociales](components/sharing.md)** | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
 | **[Contenedor del formulario](components/forms/form-container.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
 | **[Texto de formulario](components/forms/form-text.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
@@ -127,11 +127,11 @@ Para obtener más información sobre las versiones de componentes principales, c
 
 ### Publicaciones {#releases}
 
-Los componentes principales están disponibles a través de las **versiones** y [representan los artefactos publicados reales disponibles en GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Las versiones se marcan con un número decimal del formato `X.Y.Z` y recopile todos los componentes principales juntos como un paquete entregable.
+Los componentes principales están disponibles a través de las **versiones** y [representan los artefactos publicados reales disponibles en GitHub](https://github.com/adobe/aem-core-wcm-components/releases). Las versiones se marcan con un número decimal del formato `X.Y.Z` y recopilan todos los componentes principales juntos como un paquete de entrega.
 
-* **Versiones principales** introducción de componentes completamente nuevos, mejoras en la versión existente de componentes, así como correcciones de errores estándar. Esto se representa mediante un incremento en la variable `X` del número de versión.
-* **Versiones menores** introduzca nuevos componentes, nuevas funciones para las versiones existentes de componentes, así como correcciones de errores. Esto se representa mediante un incremento en la variable `Y` del número de versión.
-* **Versiones de parches** contiene solo correcciones de errores. Esto se representa mediante un incremento en la variable `Z` del número de versión.
+* Las **Versiones principales** introducen componentes completamente nuevos, mejoras en la versión existente de componentes, así como correcciones de errores estándar. Esto se representa mediante un incremento en el componente `X` del número de versión.
+* Las **Versiones menores** introducen nuevos componentes, nuevas funcionalidades para las versiones existentes de componentes, así como correcciones de errores. Esto se representa mediante un incremento en el componente `Y` del número de versión.
+* Las **versiones de parche** solo contienen las correcciones de errores. Esto se representa mediante un incremento en el componente `Z` del número de versión.
 
 >[!NOTE]
 >
@@ -141,7 +141,7 @@ Los componentes principales están disponibles a través de las **versiones** y 
 
 ## Compatibilidad con componentes principales {#core-components-support}
 
-Los componentes principales son parte integral de AEM y se admiten en los mismos términos y condiciones que si se hubieran entregado como parte del inicio rápido.
+Los componentes principales son parte integral de AEM y se admiten tal cual bajo los mismos términos y condiciones en los que se admitirían si fueran parte del inicio rápido.
 
 Al igual que sucede con otras funciones del producto, la regla general de la fecha de vencimiento es:
 
