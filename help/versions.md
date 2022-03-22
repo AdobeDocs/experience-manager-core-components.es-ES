@@ -3,10 +3,10 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
+source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 100%
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,9 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | En esta versión principal de los componentes principales se ha introducido un nuevo controlador de vínculos en las nuevas versiones de varios componentes, así como muchas mejoras de accesibilidad y correcciones de errores. | - | 6.5.10.0+ * | Continua | 8, 11 | 16 de febrero de 2022 |
+| [2,18,8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Esta versión corrige un problema para AEMaaCS. | - | 6.5.10.0+ * | Continua | 8, 11 | 17 de marzo de 2022 |
+| [2,18,6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Esta es una versión de parche. | - | Más de 6.5.10.0 * | Continua | 8, 11 | 3 de marzo de 2022 |
+| [2.18.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.0) | En esta versión principal de los componentes principales se ha introducido un nuevo controlador de vínculos en las nuevas versiones de varios componentes, así como muchas mejoras de accesibilidad y correcciones de errores. | - | Más de 6.5.10.0 * | Continua | 8, 11 | 16 de febrero de 2022 |
 | [2.17.14](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta es una versión de parche. | 6.4.8.4+ * | 6.5.6.0+ * | Continua | 8, 11 | 13 de diciembre de 2021 |
 | [2.17.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.12) | Esta es una versión de parche que corrige una regresión introducida con la versión anterior. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 1 de octubre de 2021 |
 | [2.17.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.17.10) | Este parche mejora los componentes [Lista](/help/components/list.md) y [Navegación](/help/components/navigation.md) para mostrar la URL externa para los destinos de redireccionamiento, habilita la herencia de imágenes de página para la próxima versión 2 del componente [Teaser](/help/components/teaser.md), y contiene correcciones de errores adicionales. | 6.4.8.4+ * | Más de 6.5.6.0 * | Continua | 8, 11 | 31 de agosto de 2021 |
