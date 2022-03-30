@@ -5,7 +5,7 @@ breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 4f5ab401aee70b979217738dce4f1a72de940ae9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '242'
 ht-degree: 100%
 
@@ -60,12 +60,12 @@ ht-degree: 100%
       + [Descargar (v1)](components/v1/download.md)
       + [Incrustado (v1)](components/v1/embed.md)
       + [Fragmento de experiencia (v1)](components/v1/experience-fragment.md)
-      + [Imagen (versión 1)](components/v1/image-v1.md)
-      + [Navegación por idiomas (versión 1)](components/v1/language-navigation.md)
-      + [Lista (versión 1)](components/v1/list-v1.md)
-      + [Navegación (versión 1)](components/v1/navigation.md)
-      + [Página (versión 1)](components/v1/page-v1.md)
-      + [Teaser (versión 1)](components/v1/teaser.md)
+      + [Imagen (v1)](components/v1/image-v1.md)
+      + [Navegación por idiomas (v1)](components/v1/language-navigation.md)
+      + [Lista (v1)](components/v1/list-v1.md)
+      + [Navegación (v1)](components/v1/navigation.md)
+      + [Página (v1)](components/v1/page-v1.md)
+      + [Teaser (v1)](components/v1/teaser.md)
       + [Texto (v1)](components/v1/text-v1.md)
       + [Título (v1)](components/v1/title-v1.md)
       + Componentes de formulario (v1) {#v1-forms}
@@ -74,12 +74,12 @@ ht-degree: 100%
          + [Formulario oculto (v1)](components/v1/form-hidden-v1.md)
          + [Opciones de formulario (v1)](components/v1/form-options-v1.md)
          + [Texto de formulario (v1)](components/v1/form-text-v1.md)
-   + Componentes (versión 2) {#v2-components}
-      + [Ruta de exploración (versión 2)](components/v2/breadcrumb.md)
-      + [Imagen (versión 2)](components/v2/image.md)
-      + [Lista (versión 2)](components/v2/list.md)
-      + [Página (versión 2)](components/v2/page.md)
-      + [Título (versión 2)](components/v2/title.md)
+   + Componentes (v2) {#v2-components}
+      + [Ruta de exploración (v2)](components/v2/breadcrumb.md)
+      + [Imagen (v2)](components/v2/image.md)
+      + [Lista (v2)](components/v2/list.md)
+      + [Página (v2)](components/v2/page.md)
+      + [Título (v2)](components/v2/title.md)
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](developing/overview.md)
    + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
