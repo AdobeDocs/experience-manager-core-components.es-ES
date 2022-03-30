@@ -2,13 +2,13 @@
 title: Componente Imagen (Versión 2)
 description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
-source-wordcount: '2228'
-ht-degree: 100%
+exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
+source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
+workflow-type: tm+mt
+source-wordcount: '2231'
+ht-degree: 99%
 
 ---
-
 
 # Componente Imagen  (Versión 2) {#image-component}
 
@@ -60,7 +60,7 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 >[!CAUTION]
 >
->La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superiores junto con el [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=es) para AEM 6.4 o superior para admitir las [funciones del editor de imágenes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/components-templates/image-editor.html) dentro de AEM.
+>La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superiores junto con el [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=es) para AEM 6.4 o superior para admitir las [funciones del editor de imágenes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) dentro de AEM.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 

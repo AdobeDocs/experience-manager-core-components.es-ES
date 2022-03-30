@@ -4,10 +4,10 @@ description: Instrucciones de uso detalladas para el tipo de archivo del proyect
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 017790c5a0e53ba6203a5c3d5ddebcce9c00cb01
-workflow-type: ht
-source-wordcount: '2193'
-ht-degree: 100%
+source-git-commit: 06a620980c9cda02d1190747b12b929498fb79c2
+workflow-type: tm+mt
+source-wordcount: '2194'
+ht-degree: 99%
 
 ---
 
@@ -101,10 +101,10 @@ Las siguientes propiedades están disponibles al crear un proyecto con el tipo d
 | `groupId` |  | ID del grupo base de Maven (p. ej. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Paquete de origen de Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
+| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
 | `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión de [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de Dispatcher para la nube o para AMS/en línea, según el valor de `aemVersion` (puede ser `y` o `n`). |
-| `frontendModule` | `general` | Incluye un módulo de versión de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implementa el [Editor SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
+| `frontendModule` | `general` | Incluye un módulo de versión de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implementa el [Editor SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)). |
 | `language` | `en` | Código de idioma (ISO 639-1) desde el que se crea la estructura de contenido (p. ej. `en`, `deu`). |
 | `country` | `us` | Código de país (ISO 3166-1) desde el que crear la estructura de contenido (p. ej. `US`). |
 | `singleCountry` | `y` | Incluye una estructura de contenido maestra de idioma (puede ser `y` o `n`). |
@@ -198,7 +198,7 @@ La sección `<dependencyManagement>` del POM principal define todas las dependen
 
 #### Uber-Jar {#uber-jar}
 
-Una de las dependencias clave es el [jar de la API de Java de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es). Esto incluirá todas las API de AEM con solo una entrada de dependencia para la versión de AEM.
+Una de las dependencias clave es el [jar de la API de Java de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html). Esto incluirá todas las API de AEM con solo una entrada de dependencia para la versión de AEM.
 
 >[!NOTE]
 >

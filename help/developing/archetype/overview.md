@@ -4,10 +4,10 @@ description: Una plantilla de proyecto para aplicaciones basadas en AEM
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 3407b5d086dca4ba18eeaf2e57b648923a4557b4
+source-git-commit: a4ed30ad613efab89f10788a41a5dee8d663bf6c
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 100%
+source-wordcount: '1150'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ El tipo de archivo del proyecto de AEM es una plantilla de Maven que crea un pro
 * **Encabezado y pie de página:** reúna y localícelos sin código, utilizando las [funciones de localización de los componentes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html).
 * **Sistema de estilos:** evite crear componentes personalizados al permitir que los autores [les apliquen estilos diferentes](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html?lang=es).
 * **Compilación front-end:** los desarrolladores de front-end pueden [burlar las páginas de AEM](uifrontend.md#webpack-dev-server) y [crear bibliotecas de cliente](uifrontend.md) con Webpack, TypeScript y SASS.
-* **Preparado para aplicaciones web:** para sitios que utilizan el [React](uifrontend-react.md) o [Angular](uifrontend-angular.md), utilice el [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/developing.html) para mantener [la autoría en el contexto de la aplicación](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
+* **Preparado para aplicaciones web:** para sitios que utilizan el [React](uifrontend-react.md) o [Angular](uifrontend-angular.md), utilice el [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html) para mantener [la autoría en el contexto de la aplicación](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html).
 * **Comercio habilitado:** para proyectos que desean integrar [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=es) con soluciones de comercio como [Magento](https://magento.com/) utilizando [componentes principales de comercio](https://github.com/adobe/aem-core-cif-components).
 * **Código de ejemplo:** cierre la compra del componente HelloWorld y de los modelos, servlets, filtros y programadores de ejemplo.
 * **Abrir fuente:** si algo no funciona como debería, [contribuya con sus mejoras](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md).
@@ -82,7 +82,7 @@ La dependencia de componentes principales solo se agrega para versiones de AEM q
 | `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
 | `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión de [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de Dispatcher para la nube o para AMS/en línea, según el valor de `aemVersion` (puede ser `y` o `n`). |
-| `frontendModule` | `general` | Incluye un módulo de versión de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implementa el [Editor SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/headless/spa/editor-overview.html)). |
+| `frontendModule` | `general` | Incluye un módulo de versión de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implementa el [Editor SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html)). |
 | `language` | `en` | Código de idioma (ISO 639-1) desde el que se crea la estructura de contenido (p. ej. `en`, `deu`). |
 | `country` | `us` | Código de país (ISO 3166-1) desde el que crear la estructura de contenido (p. ej. `US`). |
 | `singleCountry` | `y` | Incluye una estructura de contenido maestra de idioma (puede ser `y` o `n`). |
