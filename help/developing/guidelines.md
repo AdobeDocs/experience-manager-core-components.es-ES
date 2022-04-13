@@ -4,9 +4,9 @@ description: Los componentes principales siguen patrones de implementación mode
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: ee18626280f74a51a799f16d6bf3f5b0be9cd6b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1267'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -85,11 +85,11 @@ Cuando se combina con el [Patrón de componentes proxy](#proxy-component-pattern
 
 ## En resumen {#putting-it-all-together}
 
-A continuación se ofrece una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de los componentes, para evitar que el recurso de contenido contenga ningún número de versión. A continuación, muestra cómo utiliza el archivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html) del componente en la interfaz del modelo, mientras que la implementación se une a la versión específica del componente mediante anotaciones del [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
+A continuación se ofrece una descripción general de toda la estructura de enlace de tipo de recurso, tomando como ejemplo el componente principal de título. Muestra cómo un componente proxy específico del sitio permite resolver el control de versiones de los componentes, para evitar que el recurso de contenido contenga ningún número de versión. A continuación, muestra cómo utiliza el archivo `title.html` [HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) del componente en la interfaz del modelo, mientras que la implementación se une a la versión específica del componente mediante anotaciones del [Modelo Sling](https://sling.apache.org/documentation/bundles/models.html).
 
 ![Información general de enlace de recursos](/help/assets/chlimage_1-32.png)
 
-A continuación se muestra otra descripción general, que no muestra los detalles del la implementación POJO, pero revela cómo se hace referencia a las [plantillas y directivas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html) asociadas.
+A continuación se muestra otra descripción general, que no muestra los detalles del la implementación POJO, pero revela cómo se hace referencia a las [plantillas y directivas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=es) asociadas.
 
 La propiedad `cq:allowedTemplates` indica qué plantillas se pueden utilizar para un sitio y la `cq:template` indica a cada página qué es la plantilla asociada. Cada plantilla consta de las siguientes tres partes:
 
