@@ -4,9 +4,9 @@ description: El componente principal Imagen es una función del componente de im
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 1a02aea6cda2bb1f70ab97d7a439e2c8e64add52
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1799'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -64,7 +64,7 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 >[!NOTE]
 >
->La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superiores junto con el [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=es) para AEM 6.4 o superior para admitir las [funciones del editor de imágenes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html) dentro de AEM.
+>La compatibilidad con SVG requiere la versión 2.1.0 de los componentes principales o superiores junto con el [Service Pack 2](https://experienceleague.adobe.com/docs/experience-manager-64/release-notes/sp-release-notes.html?lang=es) para AEM 6.4 o superior para admitir las [funciones del editor de imágenes](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/image-editor.html?lang=es) dentro de AEM.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
