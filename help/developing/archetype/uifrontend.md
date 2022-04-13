@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 99132b49-bd06-4ac2-9348-12c0dfdfe8b2
 source-git-commit: 0e8082b0c5db1f2efc7db51f13123b5264a3a608
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1621'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Puesto que estos dos procesos de desarrollo se centran en diferentes partes del 
 
 Sin embargo, cualquier proyecto resultante debe utilizar los resultados de ambos esfuerzos de desarrollo, es decir, tanto del back-end como el front-end.
 
-La ejecución de `npm run dev` inicia el proceso de versión del front-end que recopila los archivos JavaScript y CSS almacenados en el módulo ui.frontend y produce dos bibliotecas de cliente minimizadas o ClientLibs denominadas `clientlib-site` y `clientlib-dependencies` y las deposita en el módulo ui.apps. ClientLibs se pueden implementar para AEM y le permiten almacenar el código del lado del cliente en el repositorio.
+La ejecución de `npm run dev` inicia el proceso de versión del front-end que recopila los archivos JavaScript y CSS almacenados en el módulo ui.frontend y produce dos bibliotecas de cliente minimizadas o ClientLibs denominadas `clientlib-site` y `clientlib-dependencies`, y las deposita en el módulo ui.apps. ClientLibs se pueden implementar para AEM y le permiten almacenar el código del lado del cliente en el repositorio.
 
 Cuando se ejecuta todo el tipo de archivo del proyecto de AEM utilizando `mvn clean install -PautoInstallPackage`, todos los artefactos del proyecto, incluido ClientLibs, se insertan en la instancia de AEM.
 
@@ -38,7 +38,7 @@ Cuando se ejecuta todo el tipo de archivo del proyecto de AEM utilizando `mvn cl
 
 ## Información general sobre las bibliotecas de cliente {#clientlibs}
 
-El módulo de front-end está disponible mediante un [ClientLib de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html). Al ejecutar el script de versión de NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de versión resultante y la transforma en un ClientLib de este tipo.
+El módulo de front-end está disponible mediante un [ClientLib de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/full-stack/clientlibs.html?lang=es). Al ejecutar el script de versión de NPM, la aplicación se crea y el paquete aem-clientlib-generator toma la salida de versión resultante y la transforma en un ClientLib de este tipo.
 
 El ClientLib constará de los siguientes archivos y directorios:
 
@@ -163,7 +163,7 @@ El proceso de creación del módulo ui.frontend aprovecha el complemento [aem-cl
 
 ### Incluir bibliotecas de cliente en páginas {#clientlib-inclusion}
 
-`clientlib-site` y `clientlib-dependencies` las categorías se incluyen en las páginas a través de la [configuración de la directiva de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#template-definitions) como parte de la plantilla predeterminada. Para ver la directiva, edite **Plantilla de página de contenido > Información de página > Directiva de página**.
+`clientlib-site` y `clientlib-dependencies` las categorías se incluyen en las páginas a través de la [configuración de la directiva de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=es#template-definitions) como parte de la plantilla predeterminada. Para ver la directiva, edite **Plantilla de página de contenido > Información de página > Directiva de página**.
 
 La inclusión final de las bibliotecas de cliente en la página de sitios es la siguiente:
 
