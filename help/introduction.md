@@ -6,7 +6,7 @@ exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: fce9b5b2693acf96724c4c6e9872012fda7d36d9
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,14 +34,14 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 | Listo para la producción | Los componentes principales son 28 componentes sólidos que se han probado, utilizado ampliamente y que funcionan bien. |
 | Preparado para la nube | Ya sea en [AEM como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es), en [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea, simplemente funcionan. |
 | Versátil | Los componentes representan conceptos genéricos con los que los autores pueden ensamblar casi cualquier diseño. |
-| Configurable | Las [directivas de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html#content-policies) a nivel de plantilla definen qué características pueden utilizar o no los autores de la página. |
+| Configurable | Las [directivas de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=es#content-policies) a nivel de plantilla definen qué características pueden utilizar o no los autores de la página. |
 | Rastreable | La [integración de capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md) permite el seguimiento de todos los aspectos de la experiencia del visitante. |
 | Accesible | Cumplen el estándar [WCAG 2.1](https://www.w3.org/TR/WCAG21/), proporcionan etiquetas de tipo ARIA y admiten la navegación con teclado ([problemas conocidos](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Compatible con SEO | La salida de HTML es semántica y proporciona anotaciones de microdatos de tipo [schema.org](https://schema.org). |
 | Preparado para la aplicación web | La [salida JSON optimizada](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=es) permite el procesamiento en el lado del cliente, con la posibilidad de [editar en contexto](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es). |
 | Compatibilidad con AMP | Los componentes tienen [compatibilidad integrada con el estándar AMP,](/help/developing/amp.md) lo que acelera las experiencias móviles. |
 | Kit de diseño | Un [kit de interfaz de usuario para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) permite a los diseñadores crear mallas metálicas que luego pueden [dar forma según sea necesario](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
-| Configurable | Los componentes implementan el [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html) y el marcado sigue la [nomenclatura de BEM CSS](http://getbem.com/). |
+| Configurable | Los componentes implementan el [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=es) y el marcado sigue la [nomenclatura de BEM CSS](http://getbem.com/). |
 | Personalizable | Varios patrones permiten [una fácil personalización](developing/customizing.md), desde ajustar el HTML a una reutilización avanzada de la funcionalidad. |
 | Versiones | La [directiva de versiones](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garantiza que los componentes principales no romperán el sitio al mejorar las cosas que puedan afectarle. |
 | Localizable | La resolución de referencia inteligente permite a ciertos componentes buscar y [procesar automáticamente el contenido localizado correspondiente](get-started/localization.md). |
@@ -94,7 +94,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 >[!NOTE]
 >
->Los componentes principales no están disponibles para los autores de manera inmediata, ya que el [grupo de desarrollo debe integrarlos primero en su entorno](get-started/using.md). Una vez integrados, pueden ponerse a disposición de los usuarios y preconfigurarse mediante el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+>Los componentes principales no están disponibles para los autores de manera inmediata, ya que el [grupo de desarrollo debe integrarlos primero en su entorno](get-started/using.md). Una vez integrados, pueden ponerse a disposición de los usuarios y preconfigurarse mediante el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es).
 
 >[!NOTE]
 >
@@ -104,7 +104,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 ## Requisitos del sistema {#system-requirements}
 
-| Componentes principales Versión | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
+| Componentes principales  Edición | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
 |---------|---------|---------|---------|---------|
 | [2,19,0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Continua | 6.5.10.0+ * | 8, 11 | 3.3.9+ |
 
