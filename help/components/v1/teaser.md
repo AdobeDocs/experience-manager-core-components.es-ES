@@ -2,13 +2,13 @@
 title: Componente teaser (v1)
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
 role: Architect, Developer, Admin, User
-source-git-commit: f8aa86d58ba71ede3c3cd867c45aafff06923325
-workflow-type: ht
-source-wordcount: '748'
-ht-degree: 100%
+exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
+source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
+workflow-type: tm+mt
+source-wordcount: '745'
+ht-degree: 97%
 
 ---
-
 
 # Componente Teaser (Versión 1) {#teaser-component}
 
@@ -80,7 +80,7 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
-El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image-v1.md). Por lo tanto, el [cuadro de diálogo de edición](image-v1.md#edit-dialog) del componente de imagen está disponible para que el autor del contenido manipule la imagen de Teaser.
+El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image-v1.md). Por lo tanto, la variable [cuadro de diálogo editar](image-v1.md#edit-dialog) del componente Imagen está disponible para el autor de contenido para manipular la imagen de teaser.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
