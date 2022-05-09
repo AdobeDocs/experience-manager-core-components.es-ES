@@ -7,7 +7,7 @@ exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: 98d8fac2a626a1f89ef1b109aa8cba27abf8203a
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ A continuación se muestra una tabla que describe los analizadores que se ejecut
 | `configuration-api` | Valida configuraciones importantes de OSGi. <p> </p> `Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Configuration is not allowed (com.mysite:mysite.all:1.0.0-SNAPSHOT\|com.mysite:mysite.ui.config:1.0.0-SNAPSHOT)` | Sí | Sí |
 | `region-deprecated-api` | Comprueba si se utiliza una [API obsoleta](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/release-notes/deprecated-apis.html?lang=es) <p> </p>`[WARNING] com.mysite:mysite.core:1.0.0-SNAPSHOT: Usage of deprecated package found : org.apache.sling.settings : Avoid these features at runtime: run modes, file system access (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
 | `artifact-rules` | Valida dependencias como paquetes y paquetes de contenido para evitar problemas conocidos con artefactos.<p> </p>`[WARNING] [artifact-rules] com.adobe.acs:acs-aem-commons-bundle:5.0.4: Use at least version 5.0.10 (com.mysite:mysite.all:1.0.0-SNAPSHOT)` | Sí | Sí |
-| `content-package-validation` | Ejecuta los validadores de filevault. De forma predeterminada, jackrabbit-docviewparser está habilitado, lo que comprueba la sintaxis de contenido bien formada de xml dentro de los paquetes que se instalarán durante la implementación.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Para solucionarlo, compruebe si hay problemas xml en el archivo denominado por el analizador. | Sí | Sí |
+| `content-package-validation` | Ejecuta los validadores de filevault. De forma predeterminada, jackrabbit-docviewparser está habilitado, así que comprueba la sintaxis de contenido bien formada del xml en los paquetes que se instalarán durante la implementación.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Como solución, compruebe si hay problemas con xml en el archivo denominado por el analizador. | Sí | Sí |
 
 {style=&quot;table-layout:auto&quot;}
 
