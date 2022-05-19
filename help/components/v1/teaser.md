@@ -4,9 +4,9 @@ description: El componente Teaser puede mostrar una imagen, un título, texto en
 role: Architect, Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
 source-git-commit: 84e09fa64b3a7ae40ff3ff1a04ea1c7504db29d2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '745'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -76,11 +76,11 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
 ![Pestaña vincular del cuadro de diálogo de edición del componente Teaser](/help/assets/teaser-edit-link.png)
 
 * **Vínculo**: vínculo aplicado al teaser. Utilice el navegador de rutas para seleccionar el destino del vínculo.
-* **Habilitar llamadas a la acción**: cuando está marcada esta opción, habilita la definición de la llamada a acción. El primer vínculo de llamada a la acción de la lista se utiliza como vínculo para otros elementos de teaser.
+* **Habilitar las llamadas a acción**: cuando está marcada esta opción, habilita la definición de la llamada a acción. El primer vínculo de llamada a la acción de la lista se utiliza como vínculo para otros elementos de teaser.
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
-El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image-v1.md). Por lo tanto, la variable [cuadro de diálogo editar](image-v1.md#edit-dialog) del componente Imagen está disponible para el autor de contenido para manipular la imagen de teaser.
+El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image-v1.md). Por lo tanto, el [cuadro de diálogo de edición](image-v1.md#edit-dialog) del componente de imagen está disponible para que el autor del contenido manipule la imagen de Teaser.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
