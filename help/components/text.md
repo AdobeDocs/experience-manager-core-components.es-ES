@@ -3,8 +3,8 @@ title: Componente Texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+source-git-commit: c041439e31a7da62739b6d5130c52dea36662a0c
+workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 2 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+| Versión 2 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
 | [Versión 1](v1/text-v1.md) | Compatible | Compatible | - |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
@@ -51,7 +51,7 @@ El resto de este artículo muestra la configuración estándar del componente Te
 
 >[!NOTE]
 >
->En el componente Texto solo están disponibles las opciones activadas por las [configuraciones de interfaz de usuario de RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=es).
+>En el componente Texto solo están disponibles las opciones activadas por las [configuraciones de interfaz de usuario de RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
@@ -226,7 +226,7 @@ Solo se activará si el texto o la posición seleccionados del cursor ya tienen 
 
 ### Sangría
 
-![Icono de sangría](/help/assets/text-outdent.png)
+![Icono de sangría](/help/assets/text-indent.png)
 
 Se utiliza para aumentar el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
 
@@ -260,7 +260,7 @@ La altura de la tabla
 
 Se utiliza para revisar la ortografía del contenido del texto. Los posibles errores ortográficos se subrayarán con líneas rojas y rotas.
 
-Para obtener más información sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica, consulte el documento [Configurar los complementos del editor de texto enriquecido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=es).
+Para obtener más información sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica, consulte el documento [Configurar los complementos del editor de texto enriquecido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
 
 ### Caracteres especiales {#special-characters}
 
