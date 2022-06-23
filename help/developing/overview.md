@@ -4,7 +4,7 @@ description: Los componentes principales proporcionan componentes básicos sóli
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1559'
 ht-degree: 100%
 
@@ -103,7 +103,7 @@ Para obtener más información sobre sus capacidades de creación y las opciones
 | Entrega | [A través de GitHub público](https://github.com/adobe/aem-core-wcm-components) | Mediante Quickstart |
 | Licencia | [Licencia de Apache](https://www.apache.org/licenses/LICENSE-2.0) | Propietario de Adobe |
 | Contribución | Mediante solicitud de extracción | No es posible |
-| Accesibilidad | Totalmente compatible con el [WCAG 2.0 AA estándar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=es) | Sólo parcialmente compatible con el [WCAG 2.0 AA estándar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=es) |
+| Accesibilidad | Totalmente compatible con el [WCAG 2.0 AA estándar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html?lang=es) | Sólo parcialmente compatible con el [WCAG 2.0 AA estándar](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/accessible-content.html) |
 
 ## Lista de componentes {#component-list}
 
