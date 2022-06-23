@@ -3,9 +3,9 @@ title: Desarrollo de componentes principales
 description: Los componentes principales proporcionan componentes básicos sólidos y ampliables que ofrecen funciones enriquecidas, envío continuo, versiones de componentes, implementación moderna, marcado ligero y exportación de contenido JSON.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: faf73c70a4bff387bed2f8cf6e48c39e597e51c7
 workflow-type: ht
-source-wordcount: '1583'
+source-wordcount: '1559'
 ht-degree: 100%
 
 ---
@@ -140,10 +140,6 @@ En la siguiente tabla se enumeran los componentes principales disponibles, enlaz
 | [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incrustar un recurso externo en una página | - |
 | [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Proporcionar una representación visual del progreso hacia un objetivo | - |
 | [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_es) | Presenta un documento PDF en una página | - |
-
-### Próximos componentes {#upcoming-components}
-
-Para obtener una descripción general de la próxima hoja de ruta del componente principal, consulte la [wiki del proyecto en GitHub](https://github.com/adobe/aem-core-wcm-components/wiki/home).
 
 ## Actualización de los componentes principales {#upgrade-of-core-components}
 
