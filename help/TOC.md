@@ -4,10 +4,10 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
-source-git-commit: d67fe6776bac26e5060d1e83feb4c078c0a45295
+source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 100%
+source-wordcount: '255'
+ht-degree: 97%
 
 ---
 
@@ -91,6 +91,8 @@ ht-degree: 100%
    + [Compatibilidad con AMP](developing/amp.md)
    + [Configuraciones según el contexto](developing/context-aware-configs.md)
    + [Inclusión de bibliotecas de cliente](developing/including-clientlibs.md)
+   + [El servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md)
+   + [Entrega de imágenes optimizada para la Web](/help/developing/web-optimized-image-delivery.md)
    + Capa de datos del cliente de Adobe {#data-layer}
       + [Información general de la capa de datos](developing/data-layer/overview.md)
       + [Integraciones con la capa de datos](developing/data-layer/integrations.md)

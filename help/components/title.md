@@ -3,9 +3,9 @@ title: Componente Título
 description: El componente principal Título es un componente de encabezado de sección que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '626'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '627'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 |---|---|---|---|
 | Versión 3 | - | Compatible | Compatible |
 | [Versión 2](v2/title.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/title-v1.md) | Compatible | Compatible | - |
+| [Versión 1](v1/title-v1.md) | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

@@ -3,9 +3,9 @@ title: Componente Página
 description: El componente Página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dbc1ba9ae0f9caa3bc52a7a5e08899c457813003
-workflow-type: ht
-source-wordcount: '715'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 |---|---|---|---|
 | Versión 3 | - | Compatible | Compatible |
 | [Versión 2](v2/page.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/page-v1.md) | Compatible | Compatible | - |
+| [Versión 1](v1/page-v1.md) | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

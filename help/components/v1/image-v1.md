@@ -4,10 +4,10 @@ description: El componente principal Imagen es una función del componente de im
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
-source-wordcount: '1229'
-ht-degree: 100%
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+workflow-type: tm+mt
+source-wordcount: '1323'
+ht-degree: 92%
 
 ---
 
@@ -194,9 +194,17 @@ Pulse o haga clic en el botón Añadir para añadir otro tamaño.
 
 De forma predeterminada, la carga de imágenes se aplazará hasta que se vuelva visible. Seleccione la opción **Deshabilitar la carga lenta** para cargar las imágenes al cargar la página.
 
+* **Habilitar imágenes optimizadas para web** - Cuando se marca, la variable [servicio de entrega de imágenes optimizado para la web](/help/developing/web-optimized-image-delivery.md) entregará imágenes en formato WebP, reduciendo el tamaño de las imágenes en un 25% de media.
+   * Esta opción solo está disponible en AEMaaCS.
+   * Cuando está desactivada o el servicio de entrega de imágenes optimizado para la web no está disponible, la variable [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) se utiliza.
+
 ### Características {#features}
 
 En la pestaña **Características** puede definir qué opciones están disponibles para los autores de contenido al utilizar el componente, incluidas las opciones de carga, orientación y recorte.
+
+* **Habilitar imágenes optimizadas para web** - cuando se selecciona, el servicio de entrega de imágenes optimizado para la web ofrece imágenes en formato WebP, lo que reduce el tamaño de las imágenes en un 25% como promedio.
+   * Esta opción solo está disponible en AEMaaCS.
+   * Cuando está desactivada o el servicio de entrega de imágenes optimizado para la web no está disponible, la variable [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) se utiliza.
 
 * Origen
 

@@ -3,9 +3,9 @@ title: Componente Ruta de exploración
 description: El componente principal Ruta de exploración es un componente de navegación que crea una ruta de exploración de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '800'
+source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+workflow-type: tm+mt
+source-wordcount: '801'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 |--- | --- |--- |---|
 | Versión 3 | - | Compatible | Compatible |
 | [Versión 2](v2/breadcrumb.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/breadcrumb-v1.md) | Compatible | Compatible | - |
+| [Versión 1](v1/breadcrumb-v1.md) | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

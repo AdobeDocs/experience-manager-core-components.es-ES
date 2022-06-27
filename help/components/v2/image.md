@@ -3,10 +3,10 @@ title: Componente Imagen  (Versión 2)
 description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: c64cdbf3779318c9cf018658d43684946de9c15b
-workflow-type: ht
-source-wordcount: '2231'
-ht-degree: 100%
+source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+workflow-type: tm+mt
+source-wordcount: '2092'
+ht-degree: 96%
 
 ---
 
@@ -36,10 +36,6 @@ El componente de imagen incluye funciones adaptables sólidas listas para usar. 
 
 Además, el componente de imagen admite la carga diferida para aplazar la carga del recurso de imagen real hasta que sea visible en el explorador, lo que aumenta la capacidad de respuesta de las páginas.
 
->[!TIP]
->
->Consulte la sección [Adaptive Image Servlet](#adaptive-image-servlet) para obtener más información técnica sobre estas funciones y sugerencias para optimizar la selección de representaciones.
-
 ## Asistencia de Dynamic Media {#dynamic-media}
 
 El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
@@ -51,7 +47,7 @@ Las experiencias web creadas con los componentes principales no pueden ofrecer f
 Los gráficos vectoriales escalables (SVG) son compatibles con el componente de imagen.
 
 * Se admiten las funciones de arrastrar y soltar un recurso SVG desde DAM y de cargar un archivo SVG cargado desde un sistema de archivos local.
-* El servlet de imagen adaptable transmite el archivo SVG original en flujo (las transformaciones se omiten).
+* El archivo del SVG original se transmite (las transformaciones se omiten).
 * Para una imagen SVG, las &quot;imágenes inteligentes&quot; y los &quot;tamaños inteligentes&quot; se establecen en una matriz vacía en el modelo de imagen.
 
 ### Seguridad {#security}
@@ -186,9 +182,12 @@ En la pestaña **Principal** puede definir una lista de anchuras en píxeles par
 
 Además, puede definir qué opciones generales de componentes se desactivan o se desactivan automáticamente cuando el autor agregue el componente a una página.
 
-![Pestaña principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main.png)
+![Pestaña principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main-v2.png)
 
 * **Activar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
+* **Habilitar imágenes optimizadas para web** - Cuando se marca, la variable [servicio de entrega de imágenes optimizado para la web](/help/developing/web-optimized-image-delivery.md) entregará imágenes en formato WebP, reduciendo el tamaño de las imágenes en un 25% de media.
+   * Esta opción solo está disponible en AEMaaCS.
+   * Cuando está desactivada o el servicio de entrega de imágenes optimizado para la web no está disponible, la variable [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) se utiliza.
 * **Habilitar la carga a medida**: defina si la opción de carga diferida se habilita automáticamente al añadir el componente de imagen a una página.
 * **La imagen es decorativa**: defina si la opción de imagen decorativa se habilita automáticamente al añadir el componente de imagen a una página.
 * **Obtener texto alternativo de DAM**: defina si la opción para recuperar el texto alternativo de DAM se habilita automáticamente al añadir el componente de imagen a una página.
@@ -205,7 +204,7 @@ Además, puede definir qué opciones generales de componentes se desactivan o se
 
 >[!TIP]
 >
->Consulte la sección [Servlet de imagen adaptable](#adaptive-image-servlet) para obtener más información técnica sobre sus funciones y sugerencias para optimizar la selección de representaciones definiendo cuidadosamente sus anchos.
+>Consulte el documento [Servlet de imagen adaptable](#adaptive-image-servlet) para obtener sugerencias para optimizar la selección de representaciones definiendo cuidadosamente los anchos.
 
 ### Pestaña Características {#features-tab}
 
@@ -250,22 +249,6 @@ Utilice esta opción para permitir que el autor de contenido utilice las opcione
 ### Pestaña Estilos {#styles-tab-1}
 
 El componente Imagen es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
-
-## Servlet de imagen adaptable {#adaptive-image-servlet}
-
-El componente de imagen utiliza el servlet de imagen adaptable del componente principal. [El servlet de imagen adaptable](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) es responsable del procesamiento y la transmisión de imágenes y los desarrolladores pueden aprovecharlo en sus [personalizaciones de los componentes principales](/help/developing/customizing.md).
-
-### Optimización de la selección de representaciones {#optimizing-rendition-selection}
-
-Adaptive Image Servlet intentará elegir la mejor representación para el tamaño y tipo de imagen solicitado. Se recomienda que las representaciones DAM y los anchos permitidos de los componentes de imagen se definan de forma sincronizada, de modo que Adaptive Image Servlet realice el menor procesamiento posible.
-
-Esto mejorará el rendimiento y evitará que la biblioteca de procesamiento de imágenes subyacente no procese correctamente algunas imágenes.
-
->[!NOTE]
->
->Las solicitudes condicionales a través del encabezado `Last-Modified` son compatibles con el servlet de imagen adaptable, pero el almacenamiento en caché del encabezado `Last-Modified` [debe habilitarse en Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=es#caching-http-response-headers).
->
->La configuración de Dispatcher de ejemplo [del tipo de archivo del proyecto de AEM](/help/developing/archetype/overview.md) ya contiene esta configuración.
 
 ## Capa de datos del cliente de Adobe {#data-layer}
 

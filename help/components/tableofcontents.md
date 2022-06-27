@@ -2,10 +2,11 @@
 title: Componente Tabla de contenido
 description: El componente Tabla de contenido crea un ToC basado en los títulos del contenido de la página, lo que permite a los lectores navegar rápidamente por la página.
 role: Architect, Developer, Admin, User
-source-git-commit: 52c63ecb014e5d4fda4d166d92e8efb3163633ba
+exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
+source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 23%
+source-wordcount: '759'
+ht-degree: 22%
 
 ---
 
@@ -15,7 +16,11 @@ El componente Tabla de contenido crea un ToC basado en los títulos del contenid
 
 ## Uso {#usage}
 
-El componente Tabla de contenido ofrece a los visitantes del sitio la capacidad de navegar rápidamente por el contenido de la página a través de una tabla de contenido generada en función de los títulos del contenido de las páginas.
+El componente Tabla de contenido ofrece a los visitantes del sitio la capacidad de navegar rápidamente por el contenido de su página a través de un ToC generado de forma eficiente en función de los títulos del contenido de las páginas.
+
+* El ToC se genera en el servidor.
+* Dispatcher lo almacena completamente en caché para una entrega rápida.
+* Funciona con todos los componentes de la página, no solo con los componentes principales.
 
 La variable [cuadro de diálogo editar](#edit-dialog) permite al autor del contenido definir el rango de títulos que se van a utilizar en el ToC. Al usar la variable [cuadro de diálogo de diseño](#design-dialog), el autor de la plantilla puede establecer el valor predeterminado para los títulos cuando un autor de contenido agrega un componente de tabla de contenido a una página, así como restringir los títulos incluidos en el objeto ToC en función de los nombres de clase.
 
