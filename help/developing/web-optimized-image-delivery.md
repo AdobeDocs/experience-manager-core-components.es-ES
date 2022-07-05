@@ -2,13 +2,13 @@
 title: Entrega de imágenes optimizada para la Web
 description: Descubra cómo los componentes principales pueden aprovechar las funciones de entrega de imágenes optimizadas para web de AEM as a Cloud Service para ofrecer imágenes de forma más eficaz.
 role: Architect, Developer, Admin, User
-source-git-commit: 20436ffb5d6a6346738be1e6f5e6e2e8a68e76c9
+exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
+source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1169'
 ht-degree: 0%
 
 ---
-
 
 # Entrega de imágenes optimizada para la Web {#web-optimized-image-delivery}
 
@@ -16,13 +16,13 @@ Descubra cómo los componentes principales pueden aprovechar las funciones de en
 
 >[!NOTE]
 >
->El servicio de entrega de imágenes optimizado para la web es una función de prelanzamiento, con la versión de junio de 2022 de AEM as a Cloud Service con GA prevista para julio.
+>El servicio de entrega de imágenes optimizado para la web es una función de prelanzamiento con la versión de junio de 2022 de AEM as a Cloud Service con GA prevista para julio.
 >
 >Para obtener más información sobre las funciones de la versión preliminar de AEMaaCS, consulte el documento [Canal de prelanzamiento de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es)
 
 ##  Información general {#overview}
 
-La función de entrega de imágenes optimizada para la web de AEM as a Cloud Service ofrece recursos de imagen desde DAM en [formato WebP.](https://developers.google.com/speed/webp) WebP puede reducir el tamaño de descarga de una imagen en aproximadamente un 25% en promedio, lo que resulta en una carga de página más rápida.
+La función de entrega de imágenes optimizada para la web de AEM as a Cloud Service ofrece recursos de imagen de DAM en [formato WebP.](https://developers.google.com/speed/webp) WebP puede reducir el tamaño de descarga de una imagen en aproximadamente un 25% en promedio, lo que resulta en una carga de página más rápida.
 
 La activación de la entrega de imágenes optimizada para la web en los componentes principales es sencilla y, como todos los navegadores comunes admiten WebP, la experiencia es transparente para el usuario final. La única diferencia que notarán es que el contenido se carga más rápido!
 
@@ -122,6 +122,6 @@ Consulte la sección anterior [Activación de la entrega de imágenes optimizada
 
 No, esto nunca debería suceder.
 
-* En el HTML, el marcado no cambia al habilitar imágenes optimizadas para web, solo cambia el valor del atributo SCR del elemento de imagen.
+* En el HTML, el marcado no cambia al habilitar imágenes optimizadas para web, solo cambia el valor del atributo SRC del elemento de imagen.
 * Cuando el nuevo servicio de imagen no esté disponible o no pueda procesar la imagen deseada, la URL generada [alternativa al servlet de imagen adaptable.](#fallback)
 * Las reglas de Dispatcher pueden bloquear el servicio de imagen optimizado para la web y [debe comprobarse al activar la función.](#activating)
