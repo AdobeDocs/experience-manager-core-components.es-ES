@@ -4,7 +4,7 @@ description: El componente principal Contenedor de formularios permite crear for
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '955'
 ht-degree: 100%
 
@@ -119,7 +119,7 @@ Independientemente del tipo de acción seleccionado, siempre se puede definir un
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño permite que el autor de la plantilla defina los componentes permitidos y sus asignaciones para el contenedor de forma similar al cuadro de diálogo de diseño para el [contenedor de diseño estándar en el editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
+El cuadro de diálogo de diseño permite que el autor de la plantilla defina los componentes permitidos y sus asignaciones para el contenedor de forma similar al cuadro de diálogo de diseño para el [contenedor de diseño estándar en el editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es).
 
 ### Pestaña Estilos {#styles-tab}
 
