@@ -6,7 +6,7 @@ exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 35b9c0d32d402e3f5466ccc1021094de5c7a750e
 workflow-type: tm+mt
 source-wordcount: '2686'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -30,8 +30,8 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 | — | — | — | — | — | — | — |
 | [2,20,4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.4) | Esta versión del parche corrige un problema con la nueva [Componente Tabla de contenido.](/help/components/tableofcontents.md) | - | Más de 6.5.13.0 * | Continua | 8, 11 | 29 de junio de 2022 |
 | — | — | — | — | — | — | — |
-| [2,20,2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | Esta es una versión de parche que corrige un problema en el nuevo AEMaaCS [servicio de entrega de recursos optimizado para la web.](/help/developing/web-optimized-image-delivery.md) | - | Más de 6.5.13.0 * | Continua | 8, 11 | 20 de junio de 2022 |
-| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Esta versión agrega un nuevo [Componente Tabla de contenido](/help/components/tableofcontents.md), agrega compatibilidad con AEMaaCS [servicio de entrega de recursos optimizado para la web,](/help/developing/web-optimized-image-delivery.md) e incluye correcciones de errores. | - | Más de 6.5.13.0 * | Continua | 8, 11 | 9 de junio de 2022 |
+| [2.20.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.2) | Esta es una versión de parche que corrige un problema en el nuevo [servicio de entrega de recursos optimizado para la web](/help/developing/web-optimized-image-delivery.md) de AEMaaCS. | - | Más de 6.5.13.0 * | Continua | 8, 11 | 20 de junio de 2022 |
+| [2.20.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.0) | Esta versión añade un nuevo [Componente en la Tabla de contenidos](/help/components/tableofcontents.md), agrega compatibilidad con el [servicio de entrega de recursos optimizado para la web de AEMaaCS](/help/developing/web-optimized-image-delivery.md) e incluye correcciones de errores. | - | Más de 6.5.13.0 * | Continua | 8, 11 | 9 de junio de 2022 |
 | [2.19.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.19.0) | Esta versión agrega una nueva versión al [Componente Búsqueda](/help/components/quick-search.md) y las funciones de [Componente Botón](/help/components/button.md), así como muchas mejoras de accesibilidad y correcciones de errores. | - | 6.5.10.0+ * | Continua | 8, 11 | 7 de abril de 2022 |
 | [2.18.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.8) | Esta versión corrige un problema para AEMaaCS. | - | Más de 6.5.10.0 * | Continua | 8, 11 | 17 de marzo de 2022 |
 | [2.18.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.18.6) | Esta es una versión de parche. | - | Más de 6.5.10.0 * | Continua | 8, 11 | 3 de marzo de 2022 |
@@ -102,7 +102,7 @@ En la siguiente tabla se detallan las versiones de qué componentes se incluyen 
 | **[Opciones de formulario](components/forms/form-options.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
 | **[Formulario oculto](components/forms/form-hidden.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
 | **[Botón de formulario](components/forms/form-button.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Fragmento de contenido](components/content-fragment-component.md)** |  | Simulador para pruebas | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Fragmento de contenido](components/content-fragment-component.md)** |  | Zona protegida | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
 | **[Navegación](components/navigation.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
 | **[Navegación por idiomas](components/language-navigation.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
 | **[Búsqueda rápida](components/quick-search.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 |
