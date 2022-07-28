@@ -4,9 +4,9 @@ description: El componente Tabla de contenido crea una TDC basada en los título
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '759'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -16,10 +16,10 @@ El componente Tabla de contenido crea una TDC basada en los títulos del conteni
 
 ## Uso {#usage}
 
-El componente Tabla de contenido ofrece a los visitantes del sitio la capacidad de navegar rápidamente por el contenido de su página a través de un ToC generado de forma eficiente en función de los títulos del contenido de las páginas.
+El componente Tabla de contenido ofrece a los visitantes del sitio la capacidad de navegar rápidamente por el contenido de la página a través de una TDC generada de forma eficiente en función de los títulos del contenido de las páginas.
 
-* El ToC se genera en el servidor.
-* Dispatcher lo almacena completamente en caché para una entrega rápida.
+* La TDC se genera en el servidor.
+* Dispatcher la almacena completamente en caché para una entrega rápida.
 * Funciona con todos los componentes de la página, no solo con los componentes principales.
 
 El [cuadro de diálogo de edición](#edit-dialog) permite al autor del contenido definir los intervalos de títulos que se usan en la TDC. Al usar el [cuadro de diálogo de diseño](#design-dialog), el autor de la plantilla puede establecer el valor predeterminado para los títulos cuando un autor de contenido añade un componente Tabla de contenido a una página, así como restringir los títulos incluidos en la TDC en función de los nombres de clase.
@@ -54,7 +54,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir los int
 
 **Tipo de lista**: esta opción define si la lista debe ser una lista con viñetas o numerada.
 * **Nivel inicial del título**: esta opción define el nivel más alto de títulos que debe representar el componente Tabla de contenido.
-* **Nivel de detención del título**: esta opción define el nivel más bajo de títulos que debe representar el componente Tabla de contenido.
+* **Nivel de detención de título**: esta opción define el nivel más bajo de títulos que debe representar el componente Tabla de contenido.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
@@ -69,13 +69,13 @@ Con el cuadro de diálogo de diseño, el autor de la plantilla puede establecer 
 ![Cuadro de diálogo de diseño del componente Búsqueda rápida](/help/assets/tableofcontents-design.png)
 
 * **Restringir tipo de lista**: esta opción define el tipo de lista que generará el componente. Al seleccionar esta opción, se restringe la capacidad del autor de contenido para elegir un tipo de lista diferente.
-* **Restringir el nivel inicial**: esta opción define el nivel de título más alto que el autor de contenido puede seleccionar para definir la TDC.
+* **Restringir el nivel de inicio**: esta opción define el nivel de título más alto que el autor de contenido puede seleccionar para definir la TDC.
 * **Restringir el nivel de detención**: esta opción define el nivel de título más bajo que el autor de contenido puede seleccionar para definir la TDC.
 * **Incluir nombres de clase**: si esta opción está definida, el componente Tabla de contenido solo considerará los títulos con los nombres de clase especificados o contenidos dentro de elementos de los nombres de clase especificados.
-   * Toque o haga clic en el icono **Agregar** para añadir uno o más nombres de clase.
+   * Toque o haga clic en el icono **Añadir** para añadir uno o más nombres de clase.
    * Toque o haga clic en el botón **Eliminar** junto al nombre de una clase para eliminarla.
-* **Ignorar nombres de clase**: si se define esta opción, el componente Tabla de contenido ignorará los títulos con los nombres de clase especificados o contenidos dentro de elementos de los nombres de clase especificados.
-   * Toque o haga clic en el botón **Agregar** para añadir uno o más nombres de clase.
+* **Omitir nombres de clase**: si se define esta opción, el componente Tabla de contenido ignorará los títulos con los nombres de clase especificados o contenidos dentro de elementos de los nombres de clase especificados.
+   * Toque o haga clic en el botón **Añadir** para añadir uno o más nombres de clase.
    * Toque o haga clic en el botón **Eliminar** junto al nombre de una clase para eliminarla.
 
 ### Pestaña Estilos {#styles-tab}
