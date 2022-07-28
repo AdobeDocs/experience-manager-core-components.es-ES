@@ -4,9 +4,9 @@ description: El componente principal Imagen es una función del componente de im
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 2af48e397e47916760656cde8b0295b2f75cb0a6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1662'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -51,8 +51,8 @@ Las experiencias web creadas con los componentes principales pueden ofrecer func
 Los gráficos vectoriales escalables (SVG) son compatibles con el componente de imagen.
 
 * Se admiten las funciones de arrastrar y soltar un recurso SVG desde DAM y de cargar un archivo SVG cargado desde un sistema de archivos local.
-* El archivo del SVG original se transmite (las transformaciones se omiten).
-* Para una imagen de SVG, las &quot;imágenes inteligentes&quot; y los &quot;tamaños inteligentes&quot; se establecen en una matriz vacía en el modelo de imagen.
+* El archivo SVG original se transmite (las transformaciones se omiten).
+* Para una imagen SVG, las “imágenes inteligentes” y los “tamaños inteligentes” se establecen en una matriz vacía en el modelo de imagen.
 
 ### Seguridad {#security}
 
@@ -137,9 +137,9 @@ Los estilos deben configurarse para este componente en el [cuadro de diálogo de
 
 * **Habilitar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
    * Esta opción solo aparece cuando Dynamic Media está habilitado en el entorno.
-* **Habilitar imágenes optimizadas para web** - Cuando está marcado, [el servicio de entrega de imágenes optimizado para la web](/help/developing/web-optimized-image-delivery.md) entregará imágenes en formato WebP, reduciendo el tamaño de las imágenes en un 25% de media.
+* **Habilitar imágenes optimizadas para web**: cuando se selecciona, el [servicio de entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md) ofrece las imágenes en formato WebP, lo que reduce su tamaño en un 25 % como promedio.
    * Esta opción solo está disponible en AEMaaCS.
-   * Cuando está desactivada o el servicio de entrega de imágenes optimizado para la web no está disponible, la variable [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) se utiliza.
+   * Cuando está desmarcada o el servicio de entrega de imágenes optimizadas para la web no está disponible, se utiliza el [servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md).
 * **Deshabilitar la carga a medida**: cuando se selecciona, el componente carga previamente todas las imágenes sin carga diferida.
 * **La imagen es decorativa**: defina si la opción de imagen decorativa se habilita automáticamente al añadir el componente de imagen a una página.
 * **Obtener texto alternativo de DAM**: defina si la opción para recuperar el texto alternativo de DAM se habilita automáticamente al añadir el componente de imagen a una página.
@@ -162,7 +162,7 @@ Puede definir una lista de anchuras en píxeles para la imagen y el componente c
 
 >[!TIP]
 >
->Consulte el documento [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) para obtener sugerencias para optimizar la selección de representaciones definiendo cuidadosamente los anchos.
+>Consulte el documento [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) para obtener sugerencias y optimizar la selección de representaciones definiendo cuidadosamente las anchuras.
 
 ### Pestaña Estilos {#styles-tab}
 
