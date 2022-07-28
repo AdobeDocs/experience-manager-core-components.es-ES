@@ -3,7 +3,7 @@ title: Entrega de imágenes optimizada para la Web
 description: Descubra cómo los componentes principales pueden aprovechar las funciones de entrega de imágenes optimizadas para web de AEM as a Cloud Service para ofrecer imágenes de forma más eficaz.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: df0ae972ca698e809a5cb8a5ad2d41ad89c2db8e
+source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Descubra cómo los componentes principales pueden aprovechar las funciones de en
 >
 >Para obtener más información sobre las funciones de la versión preliminar de AEMaaCS, consulte el documento [Canal de prelanzamiento de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es)
 
-##  Información general {#overview}
+## Información general {#overview}
 
 La función de entrega de imágenes optimizada para la web de AEM as a Cloud Service ofrece recursos de imagen de DAM en [formato WebP.](https://developers.google.com/speed/webp) WebP puede reducir el tamaño de descarga de una imagen en aproximadamente un 25% en promedio, lo que resulta en una carga de página más rápida.
 
