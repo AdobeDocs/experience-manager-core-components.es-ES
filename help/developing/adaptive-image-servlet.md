@@ -1,27 +1,27 @@
 ---
 title: Servlet de imagen adaptable
-description: Descubra cómo los componentes principales utilizan el servlet de imagen adaptable para la entrega de imágenes y cómo puede optimizar su uso.
+description: Descubra cómo los componentes principales utilizan el servlet de imagen adaptable para la entrega de imágenes y cómo puede optimizarlo.
 role: Architect, Developer, Admin, User
-source-git-commit: 3ff1343ab4ef7a52f910984a0bcd8fc4201441bf
-workflow-type: tm+mt
+exl-id: d9199d51-6f09-4000-9525-afc30474437e
+source-git-commit: dd07fa714a23759d43ca491232674d88bc7bf88e
+workflow-type: ht
 source-wordcount: '254'
-ht-degree: 58%
+ht-degree: 100%
 
 ---
 
-
 # Servlet de imagen adaptable {#adaptive-image-servlet}
 
-Descubra cómo los componentes principales utilizan el servlet de imagen adaptable para la entrega de imágenes y cómo puede optimizar su uso.
+Descubra cómo los componentes principales utilizan el servlet de imagen adaptable para la entrega de imágenes y cómo puede optimizarlo.
 
-## ¿El servicio de imagen adaptable o el envío de imágenes optimizadas para la web? {#options}
+## ¿Servicio de imagen adaptable o entrega de imágenes optimizadas para la web? {#options}
 
-El componente principal de imagen puede utilizar dos métodos para enviar imágenes.
+El componente principal de imagen puede utilizar dos métodos para entregar imágenes.
 
-* El Servlet de imagen adaptable es el predeterminado.
-* [Entrega de imágenes optimizada para la web](/help/developing/web-optimized-image-delivery.md) está disponible para AEMaaCS y reduce el tamaño de descarga en un 25 % en promedio.
+* El servlet de imagen adaptable es el predeterminado.
+* [Entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md) está disponible para AEMaaCS y reduce el tamaño de descarga en un 25 % de media.
 
-Este documento describe el Servlet de imagen adaptable predeterminado.
+Este documento describe el servlet de imagen adaptable predeterminado.
 
 ## Información general {#overview}
 
