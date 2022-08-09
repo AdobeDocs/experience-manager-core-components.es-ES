@@ -3,22 +3,16 @@ title: Entrega de imágenes optimizadas para la web
 description: Descubra cómo los componentes principales pueden aprovechar las funciones de entrega de imágenes optimizadas para la web de AEM as a Cloud Service para ofrecer imágenes de forma más eficaz.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: a134c2593593efef4df7b01e3a870e03e9860640
+source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 100%
+source-wordcount: '1118'
+ht-degree: 98%
 
 ---
 
 # Entrega de imágenes optimizadas para la web {#web-optimized-image-delivery}
 
 Descubra cómo los componentes principales pueden aprovechar las funciones de entrega de imágenes optimizadas para la web de AEM as a Cloud Service para ofrecer imágenes de forma más eficaz.
-
->[!NOTE]
->
->El servicio de entrega de imágenes optimizadas para la web es una funcionalidad de prelanzamiento con la versión de junio de 2022 de AEM as a Cloud Service, con el ensamblado general previsto para julio.
->
->Para obtener más información acerca de las funciones de la versión preliminar de AEMaaCS, consulte el documento [Canal de prelanzamiento de Adobe Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es)
 
 ## Información general {#overview}
 
@@ -66,7 +60,7 @@ Al igual que habilitar la entrega de imágenes optimizadas para la web no afecta
 
 ## Preguntas más frecuentes {#faq}
 
-### ¿Por qué no existe esa opción para habilitar imágenes optimizadas para la web en mi entorno? {#missing-option}
+### ¿Por qué no hay opción para habilitar imágenes optimizadas para la web en mi entorno? {#missing-option}
 
 La funcionalidad solo está disponible en AEM as a Cloud Service. Al ejecutar AEM localmente o en las instalaciones, el componente de imagen [vuelve](#fallback) a utilizar el servlet de imagen adaptable.
 
