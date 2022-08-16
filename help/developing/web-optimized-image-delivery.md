@@ -6,7 +6,7 @@ exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
 workflow-type: tm+mt
 source-wordcount: '1118'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Al igual que habilitar la entrega de imágenes optimizadas para la web no afecta
 
 ## Preguntas más frecuentes {#faq}
 
-### ¿Por qué no hay opción para habilitar imágenes optimizadas para la web en mi entorno? {#missing-option}
+### ¿Por qué no existe ninguna opción para habilitar imágenes optimizadas para la web en mi entorno? {#missing-option}
 
 La funcionalidad solo está disponible en AEM as a Cloud Service. Al ejecutar AEM localmente o en las instalaciones, el componente de imagen [vuelve](#fallback) a utilizar el servlet de imagen adaptable.
 
