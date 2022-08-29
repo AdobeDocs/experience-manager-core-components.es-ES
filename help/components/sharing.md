@@ -3,16 +3,20 @@ title: 'Componente Compartir en redes sociales '
 description: El componente principal Compartir en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '423'
-ht-degree: 100%
+source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Componente Compartir en redes sociales {#social-sharing-component}
 
 El componente principal Compartir en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
+
+>[!NOTE]
+>
+>El componente Uso compartido en medios sociales se ha depreciado con los componentes principales [versión 2.18.0.](/help/versions.md)
 
 ## Uso {#usage}
 
@@ -28,7 +32,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente y las 
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+| Versión 1 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible, obsoleto | Compatible, obsoleto |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -51,8 +55,8 @@ Puede encontrar más información sobre el desarrollo de componentes principales
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
-Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe estar habilitado en el nivel de página. Por lo tanto, para el autor del contenido, hay opciones de edición adicionales disponibles para el componente Compartir en redes sociales a través de la pestaña de uso compartido [propiedades de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=es).
+Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe estar habilitado en el nivel de página. Por lo tanto, para el autor del contenido, hay opciones de edición adicionales disponibles para el componente Compartir en redes sociales a través de la pestaña de uso compartido [propiedades de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html).
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe estar habilitado en el nivel de página. Por lo tanto, para el autor de la plantilla, las opciones de diseño para el componente Compartir en redes sociales están disponibles a través de las [propiedades de página inicial](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es).
+Dado que el uso compartido requiere encabezados de página especiales, cualquier uso compartido debe estar habilitado en el nivel de página. Por lo tanto, para el autor de la plantilla, las opciones de diseño para el componente Compartir en redes sociales están disponibles a través de las [propiedades de página inicial](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html).
