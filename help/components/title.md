@@ -3,8 +3,8 @@ title: Componente Título
 description: El componente principal Título es un componente de encabezado de sección que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
 
@@ -38,7 +38,7 @@ Para experimentar el componente Título, así como ver ejemplos de sus opciones 
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Título [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_title_v2_es).
+La documentación técnica más reciente sobre el componente Título [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_title_v3_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

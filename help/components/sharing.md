@@ -3,10 +3,10 @@ title: 'Componente Compartir en redes sociales '
 description: El componente principal Compartir en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 12fef6732ba53beeb7b3354335005f459321da96
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '400'
+ht-degree: 96%
 
 ---
 
@@ -35,10 +35,6 @@ La siguiente tabla detalla todas las versiones compatibles del componente y las 
 | Versión 1 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible, obsoleto | Compatible, obsoleto |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
-
-## Salida del componente de ejemplo {#sample-component-output}
-
-Para experimentar el componente Compartir en redes sociales, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_sharing_es).
 
 ### Detalles técnicos {#technical-details}
 

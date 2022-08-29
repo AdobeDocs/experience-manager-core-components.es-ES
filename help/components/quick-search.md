@@ -3,10 +3,10 @@ title: Componente Búsqueda rápida
 description: El componente Búsqueda rápida proporciona funciones de búsqueda en un sitio web y presenta resultados de búsqueda para que los visitantes puedan buscar en el sitio y filtrar los resultados.
 role: Architect, Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
-source-git-commit: c5db61a3f812fd47eedd1543585ef25d1fc0dc1c
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '621'
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 >
 >La protección del componente de búsqueda o de cualquier aplicación basada en AEM contra ataques DOS debe implementarse en un nivel superior, por ejemplo utilizando `mod_security` en Dispatcher.
 
-La documentación técnica más reciente sobre el componente Búsqueda rápida [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_search_v1_es).
+La documentación técnica más reciente sobre el componente Búsqueda rápida [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

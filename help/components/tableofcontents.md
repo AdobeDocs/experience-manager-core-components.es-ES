@@ -3,9 +3,9 @@ title: Componente Tabla de contenido
 description: El componente Tabla de contenido crea una TDC basada en los títulos del contenido de la página, lo que permite a los lectores navegar rápidamente por ella.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 394a8b968d7bcde7e766ed719c5914ec5cb60744
-workflow-type: ht
-source-wordcount: '759'
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
+source-wordcount: '722'
 ht-degree: 100%
 
 ---
@@ -35,10 +35,6 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 | Versión 1 | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
-
-## Salida del componente de ejemplo {#sample-component-output}
-
-Para descubrir el componente Tabla de contenido, así como ver ejemplos de sus opciones de configuración, además de la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_tableofcontents).
 
 ### Detalles técnicos {#technical-details}
 

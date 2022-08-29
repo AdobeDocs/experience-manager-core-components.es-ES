@@ -3,8 +3,8 @@ title: Componente Ruta de exploración
 description: El componente principal Ruta de exploración es un componente de navegación que crea una ruta de exploración de vínculos en función de la ubicación de la página en la jerarquía de contenido.
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ Para experimentar el componente Ruta de exploración, así como ver ejemplos de 
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Ruta de exploración [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v2_es).
+La documentación técnica más reciente sobre el componente Ruta de exploración [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_breadcrumb_v3_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

@@ -3,8 +3,8 @@ title: Componente Imagen
 description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
+source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+workflow-type: tm+mt
 source-wordcount: '1687'
 ht-degree: 100%
 
@@ -72,7 +72,7 @@ Para experimentar el componente de imagen y ver ejemplos de sus opciones de conf
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente de imagen [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_image_v2_es).
+La documentación técnica más reciente sobre el componente de imagen [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_image_v3_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
