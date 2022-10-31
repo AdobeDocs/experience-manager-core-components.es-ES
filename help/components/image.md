@@ -1,22 +1,22 @@
 ---
 title: Componente Imagen
-description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
+description: El componente de imagen del componente principal es un componente de imagen adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
-workflow-type: ht
-source-wordcount: '1687'
-ht-degree: 100%
+source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
+workflow-type: tm+mt
+source-wordcount: '1678'
+ht-degree: 97%
 
 ---
 
 # Componente Imagen {#image-component}
 
-El componente de imagen del componente principal es un componente de imagen adaptable que incluye la edición in situ.
+El componente de imagen del componente principal es un componente de imagen adaptable.
 
 ## Uso {#usage}
 
-El componente de imagen presenta una selección de imágenes adaptativa y un comportamiento interactivo con carga diferida para el visitante de la página, así como una ubicación y un recorte sencillos de la imagen para el autor del contenido.
+El componente Imagen presenta una selección de imágenes adaptativa y un comportamiento interactivo con carga diferida para el visitante de la página, así como una ubicación de imágenes sencilla para el autor del contenido.
 
 El autor de la plantilla puede definir las anchuras de la imagen y la configuración adicional en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede cargar o seleccionar activos en el [cuadro de diálogo de configuración.](#configure-dialog)
 
