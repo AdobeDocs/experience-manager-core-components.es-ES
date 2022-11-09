@@ -4,10 +4,10 @@ description: Descripción del proceso de compilación del front-end para proyect
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: dd8ef13a-9686-47a9-b6af-e486ff10c4d8
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
-workflow-type: ht
+source-git-commit: 0eea0cd65063c739e5b405b0380b73962a858e48
+workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Este documento explica los detalles del proyecto creado al utilizar el tipo de a
 
 Este proyecto se arrancó con [create-react-app](https://github.com/facebook/create-react-app).
 
-Esta aplicación está diseñada para consumir el modelo AEM de un sitio. Generará automáticamente el diseño utilizando los componentes de ayuda del paquete [@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/cq-react-editable-components).
+Esta aplicación está diseñada para consumir el modelo AEM de un sitio. Generará automáticamente el diseño utilizando los componentes de ayuda del paquete [@adobe/cq-react-editable-components](https://www.npmjs.com/package/@adobe/aem-react-editable-components).
 
 ## Scripts {#scripts}
 
