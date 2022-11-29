@@ -3,10 +3,10 @@ title: Introducción a los componentes principales
 description: Obtenga soluciones a problemas con los componentes principales y permita que otros creen elementos dentro de AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 
 |  |  |
 |---|---|
-| Listo para la producción | Los componentes principales son 30 componentes sólidos que se han probado, utilizado ampliamente y que funcionan bien. |
+| Listo para la producción | Los componentes principales son 30 componentes WCM sólidos que se han probado, utilizado ampliamente y que funcionan bien. |
 | Preparado para la nube | Ya sea en [AEM como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es), en [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea, simplemente funcionan. |
 | Versátil | Los componentes representan conceptos genéricos con los que los autores pueden ensamblar casi cualquier diseño. |
 | Configurable | Las [directivas de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=es#content-policies) a nivel de plantilla definen qué características pueden utilizar o no los autores de la página. |
@@ -47,7 +47,7 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 | Localizable | La resolución de referencia inteligente permite a ciertos componentes buscar y [procesar automáticamente el contenido localizado correspondiente](get-started/localization.md). |
 | Abrir origen | Si algo no funciona como debería, [contribuya con sus mejoras](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md) |
 
-## Los componentes {#the-components}
+## Los componentes WCM {#the-wcm-components}
 
 La versión actual de los componentes principales contiene los siguientes componentes:
 
@@ -124,3 +124,9 @@ Para configurar el entorno de desarrollo local, consulte [esta descripción gene
 >Los componentes principales forman parte automáticamente de AEM Cloud Service y siempre tendrá la última versión de los componentes principales.
 >
 >Consulte el documento [Uso de componentes principales](/help/get-started/using.md) para obtener más información sobre cómo empezar a utilizar los componentes principales tanto en AEMaaCS como en línea.
+
+## Otros componentes {#other-components}
+
+Hay componentes adicionales disponibles para AEM autores, que se basan en los componentes principales.
+
+* [Los componentes principales de correo electrónico](/help/email/introduction.md) : descubra los componentes principales creados sobre ellos específicamente para utilizarlos con Adobe Campaign.
