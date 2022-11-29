@@ -2,11 +2,10 @@
 title: Uso de los componentes principales de correo electrónico
 description: Obtenga información sobre la instalación, configuración y uso básicos de los componentes principales de correo electrónico.
 role: Architect, Developer, Admin, User
-hidefromtoc: true
-index: false
-source-git-commit: 8bebe3ca036557f3f7c6b8ec0e65d6d104d5ffae
+exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
+source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '653'
 ht-degree: 4%
 
 ---
@@ -22,7 +21,7 @@ Los componentes principales de correo electrónico se pueden usar con AEM 6.5. C
 
 ### Instalar componentes principales {#core-components}
 
-Los componentes principales de correo electrónico se crean en los componentes principales de AEM. Como los componentes principales no se envían con AEM, primero debe instalar los componentes principales de AEM antes de instalar los componentes principales de correo electrónico.
+Los componentes principales de correo electrónico se crean en los componentes principales de AEM. Como los componentes principales no se envían con AEM 6.5, primero debe instalar los componentes principales de AEM antes de instalar los componentes principales de correo electrónico.
 
 Consulte la sección [Descargar e instalar](/help/get-started/using.md#download-and-install) del documento Uso de componentes principales para obtener más información sobre cómo instalar los componentes principales.
 
@@ -68,7 +67,7 @@ Para que Adobe Campaign pueda procesar correos electrónicos basados en los comp
 
 Una vez instalados los componentes de correo electrónico y configurada la integración con Adobe Campaign, puede utilizar los componentes de correo electrónico para crear contenido de correo electrónico en AEM y, a continuación, enviar ese contenido a los destinatarios mediante Adobe Campaign. A continuación se ofrece una descripción general del flujo de trabajo.
 
-| Etapa | Descripción | Solución |
+| Paso | Descripción | Solución |
 |---|---|---|
 | 1 | Los autores crean una estructura jerárquica libre de carpetas y contenido de correo electrónico como páginas. | AEM |
 | 2 | Al usar la variable [editor de plantillas,](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es) los autores configuran un encabezado y/o pie de página de correo electrónico que se compartiría entre todas las páginas de correo electrónico resultantes de esta plantilla de página. | AEM |
@@ -80,6 +79,4 @@ Una vez instalados los componentes de correo electrónico y configurada la integ
 
 Para ver un ejemplo de la creación de contenido de correo electrónico en AEM y la entrega en Adobe Campaign, consulte los siguientes recursos.
 
-* AEM as a Cloud Service: [Creación de boletines de campaña con AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/campaign/creating-newsletters.html)
 * AEM 6.5: [Uso de Adobe Campaign Classic y Adobe Campaign Standard](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/aem-adobe-campaign/campaign.html)
-
