@@ -1,30 +1,30 @@
 ---
-title: Componente de texto de correo electrónico
+title: Componente Texto de correo electrónico
 description: El componente Texto de correo electrónico es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: 4aa192f6-8314-40e7-8732-c6626d647986
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2328'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
 
-# Componente de texto de correo electrónico {#email-text-component}
+# Componente Texto de correo electrónico {#email-text-component}
 
 El componente Texto de correo electrónico es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
 
 ## Uso {#usage}
 
-El componente Texto de correo electrónico ofrece un editor de texto enriquecido robusto que permite editar texto fácilmente en un editor en línea simplificado, así como en un formato de pantalla completa.
+El componente Texto de correo electrónico ofrece un editor de texto enriquecido robusto que permite editar texto fácilmente en un editor en línea simplificado, así como en formato de pantalla completa.
 
 * El [cuadro de diálogo de edición](#edit-dialog) incluye la edición en línea con opciones limitadas con la funcionalidad completa disponible en el cuadro de diálogo de edición en pantalla completa.
-* Al usar la variable [diálogo de diseño,](#design-dialog) las opciones de formato de texto, como encabezados, caracteres especiales y estilos de párrafo, se pueden configurar para la plantilla del autor del contenido.
+* Mediante el [cuadro de diálogo de diseño](#design-dialog), se pueden configurar opciones de formato de texto como encabezados, caracteres especiales y estilos de párrafo para la plantilla del autor del contenido.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente de texto de correo electrónico es v1, que se introdujo con la versión X de los componentes principales de correo electrónico en octubre de 2022 y se describe en este documento.
+La versión actual del componente Texto de correo electrónico es la versión 1, que se introdujo con la versión X de los componentes principales de correo electrónico en octubre de 2022 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
@@ -32,7 +32,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 |---|---|---|
 | Versión 1 | Compatible | Compatible |
 
-Para obtener más información sobre las versiones y versiones de los componentes principales, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
+Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -40,19 +40,19 @@ Para experimentar el componente Texto y ver ejemplos de sus opciones de configur
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Texto de correo electrónico [se puede encontrar en GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
+La documentación técnica más reciente acerca del componente Texto de correo electrónico [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_email_text_v1).
 
-Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## El componente Texto de correo electrónico y el editor de texto enriquecido {#the-text-component-and-the-rich-text-editor}
 
-El componente Texto de correo electrónico aprovecha el Editor de texto enriquecido AEM (RTE). El RTE proporciona a los autores de contenido una amplia gama de funciones para editar su contenido de texto. El RTE es flexible en su configuración y ofrece una serie de opciones. Puede encontrar más información sobre cómo se puede configurar el RTE en los artículos [Configurar el editor de texto enriquecido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=es) y [Configurar los complementos del editor de texto enriquecido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=es).
+El componente Texto de correo electrónico aprovecha el Editor de texto enriquecido de AEM (RTE). El RTE proporciona a los autores de contenido una amplia gama de funcionalidades para editar su contenido de texto. El RTE es flexible en su configuración y ofrece una serie de opciones. Puede encontrar más información sobre cómo se puede configurar el RTE en los artículos [Configurar el editor de texto enriquecido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/rich-text-editor.html?lang=es) y [Configurar los complementos del editor de texto enriquecido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=es).
 
-El resto de este documento muestra la configuración estándar del componente de texto de correo electrónico con la configuración RTE predeterminada.
+El resto de este documento muestra la configuración estándar del componente Texto de correo electrónico con la configuración del RTE predeterminada.
 
 >[!NOTE]
 >
->Solo las opciones habilitadas por [Configuraciones de la interfaz de usuario del RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html) están disponibles en el componente Texto de correo electrónico .
+>En el componente Texto de correo electrónico solo están disponibles las opciones activadas por las [configuraciones de IU del RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=es).
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
@@ -60,7 +60,7 @@ El resto de este documento muestra la configuración estándar del componente de
 
 ### Opciones de formato {#options}
 
-El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que el usuario esperaría que compongan el texto.
+El cuadro de diálogo de edición ofrece las herramientas de formato de texto enriquecido estándar que esperaría un usuario para redactar textos.
 
 #### Negrita
 
@@ -104,7 +104,7 @@ Se utiliza para dar formato de superíndice al texto seleccionado o al texto int
 
 Pega cualquier texto copiado como texto sin formato.
 
-Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato sin formato como vista previa antes de insertarlo en el texto. Acepte pulsando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
+Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar como texto sin formato como vista previa antes de insertarlo en el texto. Acepte pulsando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
 
 ![Pegar como ejemplo de texto](/help/assets/text-paste-text-example.png)
 
@@ -112,7 +112,7 @@ Al seleccionar esta opción, se abre una ventana en la que el texto se puede peg
 
 ![Pegar desde el icono de Word](/help/assets/text-paste-word.png)
 
-Al seleccionar esta opción, se abre una ventana en la que el texto se puede pegar manteniendo su formato como vista previa antes de insertarlo en el texto. Acepte pulsando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
+Al seleccionar esta opción, se abrirá una ventana en la que el texto se puede pegar manteniendo su formato como vista previa antes de insertarlo en el texto. Acepte pulsando o haciendo clic en la marca de verificación, cancele la acción tocando o haciendo clic en la x.
 
 ![Pegar desde el ejemplo de Word](/help/assets/text-paste-word-example.png)
 
@@ -125,7 +125,7 @@ Utilice esta opción para convertir el texto seleccionado en un hipervínculo o 
 ![Ejemplo de hipervínculo](/help/assets/text-hyperlink-example.png)
 
 * Especifique la ruta
-   * Utilice la variable **Abrir selección** para elegir una ruta en AEM
+   * Utilice el cuadro de diálogo **Abrir selección** para elegir una ruta en AEM
    * Si el vínculo no está dentro de AEM, introduzca la dirección URL absoluta
       * Las rutas no absolutas se interpretan como relativas a AEM
 * Escriba un texto descriptivo alternativo para el vínculo
@@ -144,7 +144,7 @@ Pulse o haga clic en la marca de verificación para aplicar el vínculo o la x p
 
 Utilice esta opción para quitar un vínculo ya aplicado al texto seleccionado. Esta opción solo está activa cuando ya se ha seleccionado un vínculo.
 
-#### Ancla {#anchor}
+#### Anclaje {#anchor}
 
 ![Icono de anclaje](/help/email/assets/anchor.png)
 
@@ -182,13 +182,13 @@ Introduzca el texto para que quiera buscar, así como el texto con el que debe r
 * Si desea buscar una coincidencia exacta teniendo en cuenta las minúsculas y las mayúsculas, seleccione la opción **Coincidir minúsculas y mayúsculas** antes de iniciar la búsqueda.
 * Seleccione **Reemplazar todo** para reemplazar todas las apariciones del texto a la vez.
 
-Si se encuentra una coincidencia, esta se resaltará y el cuadro de diálogo de búsqueda se atenuará. Vuelva a hacer clic en el botón **Buscar** del cuadro de diálogo atenuado para buscar la siguiente ocurrencia o seleccione el botón **Reemplazar** para reemplazar el texto resaltado y coincidente. La variable **Reemplazar** solo está activo una vez que se ha realizado una coincidencia.
+Si se encuentra una coincidencia, esta se resaltará y el cuadro de diálogo de búsqueda se atenuará. Vuelva a hacer clic en el botón **Buscar** del cuadro de diálogo atenuado para buscar la siguiente ocurrencia o seleccione el botón **Reemplazar** para reemplazar el texto resaltado y coincidente. El botón **Reemplazar** solo estará activo una vez que se haya encontrado una coincidencia.
 
 El cuadro de diálogo buscar y reemplazar se volverá transparente cuando se haga clic en buscar y se volverá opaco cuando se haga clic en reemplazar. Esto permitirá al autor revisar el texto que reemplazará.
 
 >[!NOTE]
 >
->Al utilizar la funcionalidad de reemplazo, la cadena que se va a reemplazar debe introducirse al mismo tiempo que la cadena que se va a encontrar. Sin embargo, puede hacer clic en Buscar para buscar la cadena antes de reemplazarla. Si se introduce la cadena de reemplazo después de hacer clic en Buscar, la búsqueda se restablecerá al principio del texto.
+>Al utilizar la funcionalidad de reemplazo, la cadena que se va a reemplazar debe introducirse al mismo tiempo que la cadena que se busca. Sin embargo, puede hacer clic en Buscar para buscar la cadena antes de reemplazarla. Si se introduce la cadena de reemplazo después de hacer clic en Buscar, la búsqueda se restablecerá al principio del texto.
 
 #### Deshacer
 
@@ -200,7 +200,7 @@ Se utiliza para deshacer la última edición en el editor de texto enriquecido.
 
 ![Icono Rehacer](/help/email/assets/redo.png)
 
-Se utiliza para deshacer una edición deshecha utilizando el icono Deshacer .
+Se utiliza para deshacer una edición revertida mediante el icono Deshacer.
 
 #### Alinear texto a la izquierda
 
@@ -276,7 +276,7 @@ La altura de la tabla
 
 #### Imagen
 
-![Icono de imagen](/help/email/assets/image-icon.png)
+![Icono Imagen](/help/email/assets/image-icon.png)
 
 Se utiliza para alinear una imagen insertada.
 
@@ -286,7 +286,7 @@ Se utiliza para alinear una imagen insertada.
 
 Se utiliza para revisar la ortografía del contenido del texto. Los posibles errores ortográficos se subrayarán con líneas rojas y rotas.
 
-Para obtener más información sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica, consulte el documento [Configurar los complementos del editor de texto enriquecido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html).
+Para obtener más información sobre la revisión ortográfica y la personalización de los diccionarios de revisión ortográfica, consulte el documento [Configurar los complementos del editor de texto enriquecido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=es).
 
 #### Caracteres especiales {#special-characters}
 
@@ -320,37 +320,37 @@ Pulse o haga clic en el icono **Modificar código fuente** para cambiar el conte
 
 ![Icono de formato de párrafo](/help/assets/text-paragraph.png)
 
-Se utiliza para aplicar formato de párrafo al texto seleccionado o al texto insertado después del cursor. Al seleccionar esta opción, se abre una lista desplegable en la que se selecciona el formato de párrafo.
+Se utiliza para aplicar formato de párrafo al texto seleccionado o al texto insertado después del cursor. Al seleccionar esta opción, se abrirá una lista desplegable en la que se selecciona el formato de párrafo.
 
 ![Ejemplo de formato de párrafo](/help/assets/text-paragraph-example.png)
 
-#### Seleccione la variable de campaña de Adobe.
+#### Seleccione la variable de Adobe Campaign.
 
-![Icono Seleccionar variable de Adobe Campaign](/help/email/assets/select-adobe-campaign-variable-icon.png)
+![Icono Seleccionar la variable de Adobe Campaign](/help/email/assets/select-adobe-campaign-variable-icon.png)
 
-Abre el [Seleccione la variable Adobe Campaign](/help/email/campaign-variables.md) para insertar contenido dinámico desde Adobe Campaign.
+Abre el diálogo [Seleccionar la variable de Adobe Campaign](/help/email/campaign-variables.md) para insertar contenido dinámico desde Adobe Campaign.
 
 ### Edición en línea {#in-line-editing}
 
 El componente de texto también se puede editar en línea. Para editar en línea, seleccione el componente Texto de correo electrónico en la página de contenido.
 
-![Componente Seleccionar texto de correo electrónico](/help/email/assets/email-text-select-component.png)
+![Seleccionar el componente Texto de correo electrónico](/help/email/assets/email-text-select-component.png)
 
-A continuación, toque o haga clic en el botón **Editar** en la barra de herramientas que aparece sobre el componente. La barra de herramientas cambia para mostrar opciones de formato de texto limitadas (incluido el acceso a la variable **Seleccione la variable Adobe Campaign** ) y puede editar el texto en línea.
+A continuación, toque o haga clic en el icono **Editar** en la barra de herramientas que aparece sobre el componente. La barra de herramientas cambia para mostrar opciones de formato de texto limitadas (incluido el acceso a la opción **Seleccionar la variable de Adobe Campaign**) y puede editar el texto en línea.
 
 ![Ejemplo de edición en línea](/help/email/assets/email-text-edit-inline-example.png)
 
-Toque o haga clic en la marca de verificación de la barra de herramientas para guardar los cambios o en la X para descartarla.
+Toque o haga clic en la marca de verificación de la barra de herramientas para guardar los cambios o en la X para descartarlos.
 
 Debido a restricciones de espacio, no todas las opciones de formato están disponibles en línea. Para ver todas las opciones, cambie al modo de pantalla completa.
 
 ### Configuración de un ID {#setting-id}
 
-Esta opción permite controlar el identificador único del componente en el HTML.
+Esta opción permite controlar el identificador único del componente en el HTM.
 
 * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
 * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
-* Cambiar el ID puede afectar a CSS.
+* Cambiar el ID puede afectar al CSS.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
@@ -358,7 +358,7 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir qué o
 
 ### Pestaña Plugins {#plugins-tab}
 
-La variable **Complementos** se utiliza para habilitar y deshabilitar varias opciones de formato de texto disponibles para los autores de contenido.
+La pestaña **Plugins** se utiliza para habilitar y deshabilitar varias opciones de formato de texto disponibles para los autores de contenido.
 
 ### Características {#features}
 
@@ -395,7 +395,7 @@ Los estilos de párrafo se pueden activar o desactivar para el componente. Cuand
 
 * Pulse o haga clic en el botón **Añadir** para insertar un nuevo estilo.
 * Introduzca el código del estilo y una descripción que se mostrarán en el cuadro de diálogo de edición.
-* Para quitar un estilo, toque o haga clic en el botón **Eliminar** botón.
+* Para quitar un estilo, toque o haga clic en el botón **Eliminar**.
 * Para reorganizar el orden de los formatos, toque o haga clic y arrastre los controladores.
 
 ### Caracteres especiales {#configuring-special-characters}
@@ -406,9 +406,9 @@ La opción para insertar caracteres especiales se puede activar o desactivar par
 
 * Pulse o haga clic en el botón **Añadir** para insertar un carácter nuevo.
 * Introduzca el código HTML del carácter y una descripción que se mostrarán en el cuadro de diálogo de edición.
-* Para eliminar un carácter, toque o haga clic en el botón **Eliminar** botón.
+* Para quitar un carácter, toque o haga clic en el botón **Eliminar**.
 * Para reorganizar el orden de los caracteres, toque o haga clic y arrastre los controladores.
 
 ## Pestaña Estilos {#styles-tab}
 
-El componente Texto de correo electrónico admite el AEM [sistema de estilos](/help/get-started/authoring.md#component-styling).
+El componente Texto de correo electrónico es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
