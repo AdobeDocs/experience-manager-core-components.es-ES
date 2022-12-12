@@ -4,8 +4,8 @@ description: El componente Segmentación de correo electrónico
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
-source-wordcount: '0'
+workflow-type: tm+mt
+source-wordcount: '1171'
 ht-degree: 100%
 
 ---
@@ -138,7 +138,7 @@ Toque o haga clic en el botón **Añadir** para crear nuevas condiciones.
 
 * **Nombre de la condición del segmento**: una descripción de la condición
 * **Condición del segmento**: la condición que debe cumplirse, en función de las variables de personalización de Adobe Campaign
-   * [Consulte aquí los recursos de personalización de Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=es)
+   * [Consulte aquí los recursos de personalización de Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?)
    * [Consulte aquí los recursos de personalización de Adobe Campaign Classic.](https://experienceleague.adobe.com/docs/
 * **Eliminar**: toque o haga clic para quitar la condición
 * **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de las condiciones

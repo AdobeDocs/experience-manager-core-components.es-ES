@@ -6,8 +6,8 @@ user-guide-description: Utilice los componentes principales ampliables para que 
 feature-set: Experience Manager Sites
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '282'
+ht-degree: 98%
 
 ---
 

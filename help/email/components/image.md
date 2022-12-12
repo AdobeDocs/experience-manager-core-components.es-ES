@@ -4,7 +4,7 @@ description: El componente Imagen de correo electrónico es un componente de ima
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1683'
 ht-degree: 100%
 
