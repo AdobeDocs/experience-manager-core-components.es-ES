@@ -1,22 +1,22 @@
 ---
 title: Componente Imagen
-description: El componente de imagen del componente principal es un componente de imagen adaptable.
+description: El componente principal Imagen es un componente de imagen adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: f0971db66cbbf8221c12cedf108eee3bca8a527a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1678'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # Componente Imagen {#image-component}
 
-El componente de imagen del componente principal es un componente de imagen adaptable.
+El componente principal Imagen es un componente de imagen adaptable.
 
 ## Uso {#usage}
 
-El componente Imagen presenta una selección de imágenes adaptativa y un comportamiento interactivo con carga diferida para el visitante de la página, así como una ubicación de imágenes sencilla para el autor del contenido.
+El componente Imagen presenta una selección de imágenes adaptativas y un comportamiento adaptable con carga diferida para el visitante de la página, así como una ubicación sencilla de la imagen para el autor del contenido.
 
 El autor de la plantilla puede definir las anchuras de la imagen y la configuración adicional en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede cargar o seleccionar activos en el [cuadro de diálogo de configuración.](#configure-dialog)
 
@@ -139,7 +139,7 @@ Los estilos deben configurarse para este componente en el [cuadro de diálogo de
 
 ![Pestaña principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main.png)
 
-* **Habilitar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
+* **Activar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
    * Esta opción solo aparece cuando Dynamic Media está habilitado en el entorno.
 * **Habilitar imágenes optimizadas para web**: cuando se selecciona, el [servicio de entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md) ofrece las imágenes en formato WebP, lo que reduce su tamaño en un 25 % como promedio.
    * Esta opción solo está disponible en AEMaaCS.
