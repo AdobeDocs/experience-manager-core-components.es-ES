@@ -5,9 +5,9 @@ breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '282'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
    + [Crear con componentes principales](get-started/authoring.md)
    + [Uso de componentes principales](get-started/using.md)
    + [Funciones de localización](get-started/localization.md)
-+ Los componentes WCM {#wcm-components}
++ Los componentes de gestión de contenidos web (WCM) {#wcm-components}
    + [Acordeón](components/accordion.md)
    + [Ruta de navegación](components/breadcrumb.md)
    + [Botón](components/button.md)
