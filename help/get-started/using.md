@@ -3,10 +3,10 @@ title: Uso de componentes principales
 description: '"Para poner en marcha los componentes principales en su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes de las plantillas".'
 role: Architect, Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
-workflow-type: ht
-source-wordcount: '969'
-ht-degree: 100%
+source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+workflow-type: tm+mt
+source-wordcount: '1008'
+ht-degree: 96%
 
 ---
 
@@ -45,6 +45,8 @@ Algunos puntos que se deben tener en cuenta al utilizar los componentes principa
    * En una próxima versión, volver a incluir los componentes principales producirá un error en la compilación de la canalización.
 * Si el proyecto anteriormente incluía los componentes principales en `/apps`, [es posible que tenga que ajustar el proyecto.](/help/developing/overview.md#via-aemaacs)
 * Aunque los componentes principales se encuentran ahora en `/libs`, no se recomienda crear ninguna superposición de la misma ruta en `/apps`. En lugar de eso, se debe utilizar el [patrón de componentes proxy](/help/developing/guidelines.md#proxy-component-pattern) si fuera necesario personalizar cualquier aspecto de los componentes.
+* Para que el [Componente Tabla de contenido](/help/components/tableofcontents.md) para procesar su contenido, es necesario configurar un filtro en OSGi.
+   * [Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para obtener más información.
 
 ### AEM 6.5 y anteriores {#aem-65}
 
