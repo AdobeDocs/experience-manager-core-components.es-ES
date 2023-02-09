@@ -4,10 +4,10 @@ user-guide-title: AEM Core Components
 breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 5431b57727ca5b9518cb80f620cffd0c31ef2f2d
-workflow-type: ht
-source-wordcount: '282'
-ht-degree: 100%
+source-git-commit: 534b4f0f8a298772de0f2f899dd4cfbaa3db4e74
+workflow-type: tm+mt
+source-wordcount: '360'
+ht-degree: 79%
 
 ---
 
@@ -98,6 +98,30 @@ ht-degree: 100%
       + [Fragmento de experiencias](/help/email/components/experience-fragment.md)
       + [Fragmento de contenido](/help/email/components/content-fragment.md)
       + [Segmentación](/help/email/components/segmentation.md)
++ Formularios adaptables {#adaptive-forms}
+   + [Introducción](/help/adaptive-forms/introduction.md)
+   + Componentes adaptables de Forms {#adaptive-forms-components}
+      + [Acordeón de Forms adaptable](/help/adaptive-forms/components/accordion.md)
+      + [Botón Forms adaptable](/help/adaptive-forms/components/button.md)
+      + [Grupo de casillas de verificación de Forms adaptable](/help/adaptive-forms/components/checkbox-group.md)
+      + [Selector de fechas de Forms adaptable](/help/adaptive-forms/components/date-picker.md)
+      + [Lista desplegable de Forms adaptable](/help/adaptive-forms/components/drop-down.md)
+      + [Entrada de correo electrónico adaptable de Forms](/help/adaptive-forms/components/email-input.md)
+      + [Archivos adjuntos de Forms adaptables](/help/adaptive-forms/components/file-attachment.md)
+      + [Pestañas horizontales de Forms adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [Imagen adaptable de Forms](/help/adaptive-forms/components/image.md)
+      + [Entrada de número Forms adaptable](/help/adaptive-forms/components/number-input.md)
+      + [Panel de Forms adaptable](/help/adaptive-forms/components/panel-container.md)
+      + [Botón de opción de Forms adaptable](/help/adaptive-forms/components/radio-button.md)
+      + [Botón para restablecer Forms adaptable](/help/adaptive-forms/components/reset-button.md)
+      + [Botón de envío Forms adaptable](/help/adaptive-forms/components/submit-button.md)
+      + [Entrada de teléfono de Forms adaptable](/help/adaptive-forms/components/telephone-input.md)
+      + [Texto de Forms adaptable](/help/adaptive-forms/components/text.md)
+      + [Cuadro de texto de Forms adaptable](/help/adaptive-forms/components/text-input.md)
+      + [Título de Forms adaptable](/help/adaptive-forms/components/title.md)
+      + [Diseño del asistente de Forms adaptable](/help/adaptive-forms/components/wizard.md)
+      + [Encabezado](/help/adaptive-forms/components/header.md)
+      + [Pie de página](/help/adaptive-forms/components/footer.md)
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](developing/overview.md)
    + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
