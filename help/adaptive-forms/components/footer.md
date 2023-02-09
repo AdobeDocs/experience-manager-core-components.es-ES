@@ -2,9 +2,9 @@
 title: 'Componente principal adaptable de Forms: pie de página'
 description: Uso o personalización del componente principal del pie de página adaptable de Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 9a8b8661554eea2f669f17bee89f97165bcb58db
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '749'
 ht-degree: 19%
 
 ---
@@ -36,9 +36,11 @@ Existen varias razones por las que resulta beneficioso incluir un componente de 
 
 El componente principal del pie de página de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 
@@ -60,52 +62,49 @@ Puede personalizar fácilmente la experiencia del pie de página para los visita
 * **Cuadro de diálogo Editar**
 El cuadro de diálogo de edición proporciona herramientas de formato de texto enriquecido estándar que permiten al usuario crear texto para el pie de página.
 
-   * **Negrita** - Esta opción aplica formato de negrita al texto seleccionado o formato negrita al texto introducido después del cursor. `Ctrl+B` es un atajo de teclado.
+* **Negrita** - Esta opción aplica formato de negrita al texto seleccionado o formato negrita al texto introducido después del cursor. `Ctrl+B` es un atajo de teclado.
 
-   * **Cursiva** - Esta opción aplica formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor. `Ctrl+I` es un atajo de teclado.
+* **Cursiva** - Esta opción aplica formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor. `Ctrl+I` es un atajo de teclado.
 
-   * **Viñeta**
-
-      ![Opciones de viñeta](/help/adaptive-forms/assets/footer_bullet.png)
-
-      * **Icono de viñeta** - Formatea el texto seleccionado como una lista con viñetas o comienza la inserción de una lista con viñetas después del cursor. Para finalizar una lista con viñetas, toque o haga clic en el botón Viñeta de nuevo o introduzca dos retornos de carro.
-
-      * **Icono de lista numerada** - Da formato al texto seleccionado como una lista numerada o comienza la inserción de una lista numerada después del cursor. Para finalizar una lista numerada, toque o haga clic en el botón Numeración de nuevo o introduzca dos retornos de carro.
-
-      * **Icono de anular la selección** - Reduce el nivel de sangría del texto o texto seleccionado tras el cursor. Solo se activará si el texto o la posición seleccionados del cursor ya tienen sangría.
-
-      * **Icono de sangría** - Aumenta el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
-   * **Hipervínculo**
-
-      ![Opciones de hipervínculo](/help/adaptive-forms/assets/footer_link.png)
+![Opciones de viñeta](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-      * **Ruta** - Introduzca la ruta
-         1. Utilice el cuadro de diálogo Abrir selección para elegir una ruta en AEM.
-         1. Si el vínculo no está dentro de AEM, introduzca la dirección URL absoluta.
-         1. Las rutas no absolutas se interpretan como relativas a AEM.
-      * **Texto alternativo** - Introduzca un texto descriptivo alternativo para el vínculo.
+* **Viñeta**
 
-      * **Target** - Seleccione el comportamiento del vínculo
-         * Destino
-         * Misma pestaña
-         * Nueva pestaña
-         * Marco principal
-         * Marco superior
+   * **Icono de viñeta** - Formatea el texto seleccionado como una lista con viñetas o comienza la inserción de una lista con viñetas después del cursor. Para finalizar una lista con viñetas, toque o haga clic en el botón Viñeta de nuevo o introduzca dos retornos de carro.
+
+   * **Icono de lista numerada** - Da formato al texto seleccionado como una lista numerada o comienza la inserción de una lista numerada después del cursor. Para finalizar una lista numerada, toque o haga clic en el botón Numeración de nuevo o introduzca dos retornos de carro.
+
+   * **Icono de anular la selección** - Reduce el nivel de sangría del texto o texto seleccionado tras el cursor. Solo se activará si el texto o la posición seleccionados del cursor ya tienen sangría.
+
+   * **Icono de sangría** - Aumenta el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
+
+![Opciones de hipervínculo](/help/adaptive-forms/assets/footer_link.png)
+
+* **Hipervínculo**
+
+   * **Ruta** - Introduzca la ruta
+      1. Utilice el cuadro de diálogo Abrir selección para elegir una ruta en AEM.
+      1. Si el vínculo no está dentro de AEM, introduzca la dirección URL absoluta.
+      1. Las rutas no absolutas se interpretan como relativas a AEM.
+   * **Texto alternativo** - Introduzca un texto descriptivo alternativo para el vínculo.
+
+   * **Target** - Seleccione el comportamiento del vínculo
+      * Destino
+      * Misma pestaña
+      * Nueva pestaña
+      * Marco principal
+      * Marco superior
    * **Icono Desvincular** - Esta opción elimina un vínculo ya aplicado al texto seleccionado. Esta opción solo está activa si el vínculo ya está seleccionado.
 
    * **Icono de formato de párrafo** - Esta opción le permite aplicar formato de párrafo al texto seleccionado. También le ayuda a dar formato al texto insertado después del cursor. Define el nivel de encabezado del título.
 
 
 
-* **ID**
-Esta opción permite controlar el identificador único del componente en el HTML y en la capa de datos.
+* **ID**: Esta opción permite controlar el identificador único del componente en el HTML y en la capa de datos.
 
    * Si se deja en blanco, se genera automáticamente un ID único * y se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
-
-## Cuadro de diálogo de diseño {#design-dialog}
-
 
 

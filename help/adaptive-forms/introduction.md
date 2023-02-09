@@ -2,10 +2,10 @@
 title: Introducción a los componentes principales AEM adaptables de Forms
 description: Cree experiencias de inscripción atractivas (formularios) con la flexibilidad de los componentes principales de Forms adaptables y suministre dicha flexibilidad con la potencia de Adobe Experience Manager.
 role: Architect, Developer, Admin, User
-source-git-commit: 781cf351ef52cbb56ff33c2674c8af591c81a30e
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1069'
-ht-degree: 13%
+source-wordcount: '1202'
+ht-degree: 12%
 
 ---
 
@@ -18,15 +18,11 @@ Con los componentes principales de Forms adaptable en Adobe Experience Manager, 
 
 En Adobe Experience Manager (AEM), los componentes son los componentes básicos que se utilizan para crear páginas y formularios. Proporcionan una forma sencilla y potente para que los autores creen y gestionen el contenido, a la vez que proporcionan a los desarrolladores la flexibilidad y la extensibilidad necesarias para crear componentes personalizados.
 
-Los componentes principales son un conjunto de componentes WCM estandarizados y pregenerados diseñados para acelerar el tiempo de desarrollo y reducir los costes de mantenimiento de los sitios web. Estos componentes incluyen campos de texto, imágenes, vídeos, etc. Están diseñadas para ser flexibles y pueden personalizarse fácilmente según las necesidades específicas de un sitio web.
+Las herramientas están diseñadas para acelerar el tiempo de desarrollo y reducir los costes de mantenimiento de sitios web y formularios, ser flexibles y se pueden personalizar fácilmente para adaptarse a las necesidades específicas de un sitio web y un formulario.
 
 Los componentes principales también están diseñados para ser interactivos y admiten una amplia gama de dispositivos, incluidos escritorios, tabletas y teléfonos inteligentes. También se adhieren a los últimos estándares web y prácticas recomendadas, convirtiéndolos en una solución sólida y fiable para crear contenido web.
 
-Además, los componentes principales están diseñados para funcionar sin problemas con otras partes de AEM, lo que permite a los autores y desarrolladores crear formularios más interactivos y atractivos con menos esfuerzo y menos tiempo.
-
 En general, los componentes principales son una herramienta esencial para crear y administrar el contenido web en AEM, lo que proporciona una solución potente y flexible que puede ayudar a reducir el tiempo de desarrollo y los costes de mantenimiento, al tiempo que proporciona una buena experiencia de usuario a los visitantes del sitio web.
-
-En Adobe Experience Manager, los componentes son los elementos estructurales que constituyen el contenido de las páginas y los formularios que se crean. Los componentes siempre han sido un elemento fundamental de la experiencia AEM, lo que hace que la creación de páginas y formularios sea sencilla pero eficaz para el autor y el desarrollo de componentes sea flexible y extensible para el desarrollador. Los componentes principales son un conjunto de componentes estandarizados de Administración de contenido web (WCM) para acelerar el tiempo de desarrollo y reducir el coste de mantenimiento de los sitios web.
 
 ## Componentes principales adaptables de Forms
 
@@ -54,19 +50,33 @@ Además, como estos componentes son de código abierto, los desarrolladores pued
 
 ## Ventajas {#benefits}
 
-Las experiencias de captura de datos son cruciales para la generación de posibles clientes y la inscripción, y los componentes principales de Forms adaptables proporcionan una solución potente para la creación de formularios optimizados para la captura de datos. Algunas de las razones para utilizar los componentes principales para crear estas experiencias son:
+Las experiencias de captura de datos son cruciales para la generación de posibles clientes y la inscripción, y los componentes principales de Forms adaptables proporcionan una solución potente para la creación de formularios optimizados para la captura de datos. Algunas de las razones para utilizar los componentes principales para crear estas experiencias sobre los componentes básicos:
 
-* **Personalización**: Los componentes principales de Forms adaptables permiten a los desarrolladores personalizar fácilmente el aspecto y el comportamiento de los componentes del formulario, como los campos de texto, las casillas de verificación y los menús desplegables, para satisfacer los requisitos específicos.
+* **Disponibilidad en GitHub y documentación completa**: Los AEM componentes principales adaptables de Forms son de código abierto y están disponibles en GitHub, además de una documentación exhaustiva. Esto facilita a los desarrolladores la comprensión de los componentes y de cómo funcionan, así como la contribución a su desarrollo. El sitio web aemcomponents.dev también es un recurso valioso, donde los desarrolladores pueden ver los componentes en acción y acceder a la documentación detallada.
+
+* **Modelo BEM para estilo**: Los componentes principales siguen el modelo de estilo de BEM (Modificador de elementos de bloque), que es una metodología establecida y ampliamente utilizada para organizar CSS. Esto facilita a los desarrolladores comprender cómo se organizan los estilos y cómo modificarlos para adaptarlos a sus necesidades específicas.
+
+* **Sin dependencia en bibliotecas de terceros**: Una de las ventajas de los componentes principales es que no dependen de las bibliotecas JavaScript de terceros, incluidas JQuery y Underscore. Esto hace que los componentes sean más rápidos y livianos, así como más fáciles de integrar en una implementación de AEM existente.
+
+* **Céntrese en el rendimiento y la accesibilidad**: Los componentes principales se crean teniendo en cuenta el rendimiento y la accesibilidad, lo que se refleja en sus altas puntuaciones de faro de Google y vitales web. Esto facilita a los desarrolladores la creación de páginas web accesibles y de alto rendimiento, que es cada vez más importante en el panorama digital actual.
+
+* **Componentes de formulario en plantillas y temas de Sites 30**: Los componentes principales son compatibles con los componentes de formulario de la plantilla y los temas de Sites 30, lo que facilita a los desarrolladores la creación y personalización de formularios dentro de AEM.
+
+* **Es más fácil aplicar estilo**: Los componentes principales son más fáciles de diseñar que sus equivalentes de componentes básicos. El proceso de creación del tema es similar al de Sitios, con la capacidad de heredar el mismo tema/CSS de la página principal Sitios. Además, el modelo BEM para estilo facilita la comprensión y modificación de los estilos.
 
 * **Accesibilidad**: Los componentes principales de Forms adaptables admiten normas y directrices de accesibilidad, como  [WCAG 2.1 estándar](https://www.w3.org/TR/WCAG21/), para garantizar que las personas con discapacidades puedan utilizar los formularios, incluidos los que utilizan tecnologías de asistencia, como lectores de pantalla.
 
-* **Formularios coherentes**: Mediante los componentes principales de Forms adaptable, los desarrolladores pueden crear formularios con un aspecto y una presentación coherentes, lo que facilita a los usuarios la comprensión y la finalización de los formularios, lo que aumenta la participación y mejora la experiencia del usuario.
+* **Alineación con AEM Sites**: Los componentes principales están diseñados para estar más alineados con AEM Sites, lo que facilita a los usuarios de Sites su adopción y uso sin tener que aprender nada nuevo. Los componentes utilizan la misma canalización front-end que Sitios, lo que facilita el estilo y la modificación de su aspecto. Además, los siguientes puntos ilustran esta alineación:
 
-* **Editor WYSIWYG**: AEM Forms proporciona una interfaz fácil de usar y facilita el uso del editor WYSIWYG para utilizar estos componentes para crear un formulario adaptable. Permite a los autores de formularios crear y editar formularios sin necesidad de saber cómo codificarlos. También incluye un editor de reglas visual que le ayuda a crear acciones basadas en reglas fácilmente e implementar lógica compleja para automatizar el comportamiento del formulario sin tener que escribir código.
+   * **Experiencia de creación en línea con el editor de páginas**: Los componentes principales tienen una experiencia de creación que está en línea con el editor de sitios, con cuadros de diálogo y otras experiencias similares al editor de páginas. Esto facilita a los usuarios de Sitios la creación y administración de formularios dentro del contexto familiar del editor de Sitios.
 
-* **Lógica condicional**: Los componentes principales de Forms adaptables admiten el uso de la lógica condicional, lo que significa que el aspecto o el comportamiento de los componentes del formulario se pueden cambiar en función de los valores introducidos por el usuario. Por ejemplo, ciertos campos pueden ocultarse o hacerse obligatorios en función de la selección realizada en otros campos.
+   * **Edición de formularios en línea en el editor Sitios**: Los componentes principales permiten la edición de formularios en línea dentro del editor de sitios, evitando la necesidad de cambiar de un editor a otro. Esto optimiza la experiencia de creación y facilita la creación y administración de formularios.
 
-* **Validación de datos**: Los componentes principales de Forms adaptables proporcionan capacidades de validación de datos integradas, lo que permite a los desarrolladores garantizar que los datos introducidos por el usuario cumplen criterios específicos, como longitudes mínimas y máximas, valores requeridos y formatos específicos.
+   * **Heredación de funciones de Sites en Forms**: Forms creado dentro de una página Sitios hereda las mismas funciones que Sitios. Esto proporciona una experiencia perfecta e integrada para la creación y administración de formularios en el contexto de AEM Sites
+
+   <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+
+
 
 ## Requisitos  {#requirements}
 

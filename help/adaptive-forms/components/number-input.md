@@ -2,7 +2,7 @@
 title: 'Componente principal de Forms adaptable: entrada de número'
 description: Uso o personalización del componente principal de entrada del número de Forms adaptable.
 role: Architect, Developer, Admin, User
-source-git-commit: 6ea000f9259e9478ee3c0923ac35af7814e184d9
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1780'
 ht-degree: 1%
@@ -39,9 +39,11 @@ Existen varias razones por las que resulta beneficioso incluir un componente de 
 
 El componente principal de la entrada Número de Forms adaptable se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad de AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 
@@ -93,6 +95,7 @@ Puede personalizar fácilmente la experiencia de entrada de números para los vi
 * **Excluir valor mínimo** - Seleccione esta casilla de verificación si no desea el valor mínimo especificado en la variable **Número menor/número más pequeño** que se incluirá en el rango de valores &#x200B; que se introducirá en el campo de formulario.
 
 * **Número más alto/Número más grande** - Utilice esta opción para seleccionar el número máximo permitido que se debe introducir en el campo de formulario. Si el número es bueno al especificado en **Número más alto/Número más grande** se introduce en el campo de formulario, aparece el mensaje de error.
+
 * **Máximo mensaje de error** - Esta opción le permite introducir un mensaje de error que se muestra cuando el usuario introduce un valor bueno que el especificado en **Número más alto/Número más grande** .
 
 * **Excluir valor máximo** - Seleccione esta casilla de verificación si no desea el valor máximo especificado en la variable **Número más alto/Número más grande** para incluir en el rango de valores que se van a introducir en el campo de formulario.

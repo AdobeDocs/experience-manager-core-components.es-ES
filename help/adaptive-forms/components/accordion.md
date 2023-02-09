@@ -2,9 +2,9 @@
 title: Acordeón de formulario adaptable
 description: Utilice el acordeón para organizar y simplificar un formulario largo o complejo dividiéndolo en secciones más pequeñas y manejables.
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1768'
 ht-degree: 3%
 
 ---
@@ -40,9 +40,11 @@ El cuadro de diálogo de configuración, la ventana emergente del panel de selec
 
 El componente principal del acordeón de Forms adaptable se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 
@@ -101,7 +103,16 @@ El botón Add permite seleccionar un componente para agregarlo como panel en la 
 
 ![Ficha Accesibilidad](/help/adaptive-forms/assets/accordion_accessibility.png)
 
+En el **Accesibilidad** , los valores se establecen para [Accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) etiquetas para el componente. Hay varias opciones disponibles para usar el texto del lector de pantalla:
+
 * **Texto para lectores de pantalla** - El texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para ser leído por tecnologías de asistencia, como lectores de pantalla, utilizadas por personas con deficiencias visuales. Este texto proporciona una descripción en audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrece una comprensión completa del campo del formulario y de sus requisitos.
+
+
+   * **Texto personalizado**: Seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado . Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+   * **Descripción**: Seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
+   * **Título**: Seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+   * **Nombre**: Seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
+   * **Ninguna**: Seleccione esta opción si no desea agregar para etiquetas de accesibilidad de ARIA.
 
 <!--
 

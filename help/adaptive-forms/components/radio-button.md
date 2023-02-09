@@ -2,7 +2,7 @@
 title: 'Componente principal de Forms adaptable: botón de radio'
 description: Uso o personalización del componente principal del botón de radio de Forms adaptable.
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1645'
 ht-degree: 1%
@@ -44,9 +44,11 @@ Existen varias razones para utilizar botones de opción en un formulario, entre 
 
 El componente principal del botón de radio adaptable de Forms se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 
@@ -80,6 +82,7 @@ Puede personalizar fácilmente la experiencia con el botón de radio para los vi
 * **Referencia de enlace** - Una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados del origen de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar el origen de datos con los datos introducidos en el formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona una experiencia de usuario perfecta para recopilar y administrar datos.
 
 * **Tipo de datos del valor enviado** - Esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si la variable **tipo de datos del valor enviado** está configurado como `Number` y se agregan datos de cadena a **Valor de datos** &#x200B; de &#x200B; en el **Opciones** , la pantalla muestra un `Value type mismatch` mensaje de error.
+
 * **Opciones predeterminadas** - Esta opción le permite agregar valores predeterminados que están preseleccionados cuando se carga el formulario. Si la variable **tipo de datos del valor enviado** está configurado como `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un `Value type mismatch` mensaje de error.
 
 * **Opciones de visualización** - Esta opción se utiliza para definir la alineación visual de los botones de radio en un formulario adaptable. Las dos opciones admitidas son:
@@ -128,3 +131,4 @@ El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS 
 **Clases CSS predeterminadas**: Puede proporcionar una clase CSS predeterminada para el componente principal del botón de radio adaptable de Forms.
 
 **Estilos permitidos**: Puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado &quot;texto en negrita&quot; y proporcionar la clase CSS &quot;font-weight: negrita&quot;. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de Forms adaptable. Para aplicar un estilo, en el editor de Forms adaptable, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en el **Estilos** lista desplegable. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la ficha Estilos y guarde los cambios.
+

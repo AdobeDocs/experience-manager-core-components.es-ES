@@ -2,10 +2,10 @@
 title: 'Componente principal de Forms adaptable: contenedor de panel'
 description: Uso o personalización del componente principal del contenedor del panel adaptable de Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 77ff7425be1e591b8f5b973a344d7def8191c033
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 2%
+source-wordcount: '1216'
+ht-degree: 1%
 
 ---
 
@@ -38,9 +38,11 @@ Existen varias razones para utilizar un panel en un formulario, entre ellas:
 
 El componente principal del contenedor del panel adaptable de Forms se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 
@@ -92,7 +94,6 @@ Puede personalizar fácilmente la experiencia del contenedor del panel para los 
 
 * **función de HTML para que anuncie el lector de pantalla** - La función de HTML es un atributo utilizado para especificar el propósito de un elemento HTML para tecnologías de asistencia, como lectores de pantalla. El atributo de función se utiliza para proporcionar un contexto y un significado semántico adicionales a un elemento, lo que facilita a los lectores de pantalla la interpretación y el anuncio del contenido al usuario. Por ejemplo, en AEM Forms, la etiqueta de un campo de formulario puede tener la función &quot;etiqueta&quot; y su campo de entrada puede tener la función &quot;cuadro de texto&quot;. Esto ayuda al lector de pantalla a comprender la relación entre la etiqueta y el campo de entrada, y a anunciarla correctamente al usuario.
 
-## Cuadro de diálogo de diseño {#design-dialog}
 
 
 

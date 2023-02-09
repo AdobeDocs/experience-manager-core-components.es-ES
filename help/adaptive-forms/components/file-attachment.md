@@ -2,7 +2,7 @@
 title: 'Componente principal de Forms adaptable: archivo adjunto'
 description: Uso o personalización del componente principal del archivo adjunto de Forms adaptable.
 role: Architect, Developer, Admin, User
-source-git-commit: 1e6460d318f4f9a5dfdcbb81723da01b51b72f3f
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1482'
 ht-degree: 1%
@@ -37,9 +37,11 @@ Existen varias razones por las que resulta beneficioso incluir un componente de 
 
 El componente principal de los archivos adjuntos adaptables de Forms se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 

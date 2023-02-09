@@ -2,9 +2,9 @@
 title: 'Componente principal de Forms adaptable: contenedor de formularios'
 description: Agregar un formulario adaptable a una página web.
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '698'
 ht-degree: 3%
 
 ---
@@ -41,9 +41,11 @@ Existen varias razones por las que se puede agregar un formulario a un sitio web
 
 El componente principal del contenedor de Forms adaptable se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 
@@ -72,6 +74,7 @@ Puede personalizar fácilmente la experiencia del contenedor de formularios para
 ![Ficha Envío](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 Los usuarios pueden configurar distintas acciones para los envíos de formularios adaptables.
+
 * **Dirección URL/ruta de redireccionamiento** : esta opción permite al usuario configurar una página para cada formulario, a la que se redirige a los usuarios después de enviar un formulario adaptable. Haga clic aquí para obtener más información sobre [configuración de páginas de redireccionamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html).
 
 ![Mostrar ficha Mensaje](/help/adaptive-forms/assets/formconatiner_showmessage.png)
@@ -80,7 +83,6 @@ Los usuarios pueden configurar distintas acciones para los envíos de formulario
 
 * **Enviar acción** - Se activa una acción de envío cuando un usuario hace clic en el botón Enviar de un formulario adaptable. Los usuarios pueden seleccionar Enviar acciones en la lista desplegable que se admiten de forma predeterminada. Obtenga información sobre cómo [configurar una acción de envío en la ficha Envío](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html#supporting-custom-functions-in-validation-expressions-br).
 
-## Cuadro de diálogo de diseño {#design-dialog}
 
 
 

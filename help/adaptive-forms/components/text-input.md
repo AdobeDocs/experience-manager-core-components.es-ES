@@ -2,7 +2,7 @@
 title: 'Componente principal de Forms adaptable: entrada de texto (cuadro de texto) '
 description: Uso o personalización del componente principal de entrada de texto adaptable de Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '1727'
 ht-degree: 1%
@@ -34,9 +34,11 @@ Existen varias razones para utilizar el componente de entrada de texto en un for
 
 El componente principal de entrada de texto de Forms adaptable se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 
@@ -61,13 +63,21 @@ Puede personalizar fácilmente la experiencia de entrada de texto para los visit
 * **Ocultar título** - Seleccione la opción para ocultar el título del componente.
 
 * **Texto del marcador de posición** : el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
+
 * **Referencia de enlace** - Una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados del origen de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar el origen de datos con los datos introducidos en el formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona una experiencia de usuario perfecta para recopilar y administrar datos.
+
 * **Ocultar componente** : seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
+
 * **Deshabilitar componente** - Seleccione la opción para desactivar el componente. El componente deshabilitado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no puede modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+
 * **Solo lectura** - Seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no puede modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+
 * **Valor predeterminado** - Esta opción le permite agregar un valor predeterminado en un campo de formulario. El texto desaparece cuando el usuario empieza a escribir en el campo. If **Componente desactivado** o **Componente de solo lectura** está seleccionado, el valor predeterminado se muestra en la pantalla . Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento del envío del formulario.
+
 * **Permitir líneas múltiples** - Esta opción permite al usuario introducir varias líneas en un campo de formulario.
+
 * **Permitir texto enriquecido** - El cuadro de diálogo de edición proporciona herramientas de formato de texto enriquecido estándar que permiten al usuario dar formato al texto.
+
 * **Atributo de relleno automático** - La opción Rellenar automáticamente rellena los campos del formulario según un patrón o texto introducido previamente. Cuando el usuario empieza a escribir texto en el campo de formulario, las sugerencias aparecen en una lista desplegable desde la que puede seleccionar la opción adecuada.
 
 ### Ficha Validación {#validation-tab}
@@ -89,7 +99,9 @@ Puede personalizar fácilmente la experiencia de entrada de texto para los visit
 * **Mensaje de error de caracteres mínimos** - El **Mensaje de error de caracteres mínimos** El cuadro de diálogo le permite agregar un mensaje de error personalizado si introduce caracteres menores que el valor especificado en la variable **Número mínimo de caracteres** .
 
 La variable **Patrón de validación** permite introducir un patrón para validar el texto introducido. En caso de que el texto no se valide con el valor introducido en **Patrón** , el mensaje de error aparece en pantalla.
+
 * **Patrón** - Esta opción le permite introducir los patrones de verificación permitidos para el texto. También se permiten expresiones regulares.
+
 * **Mensaje de error** - Esta opción le permite introducir un mensaje que se muestra en la pantalla si el texto introducido no se valida con el valor introducido en la variable **Patrón** option
 
 ### Ficha Contenido de ayuda {#help-content-tab}

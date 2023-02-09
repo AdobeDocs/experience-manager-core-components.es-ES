@@ -2,7 +2,7 @@
 title: 'Componente principal de Forms adaptable: título '
 description: Uso o personalización del componente principal del título adaptable de Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 0e4fb8454b7ef84eb5b1b73b01c982a2f9c12381
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 15%
@@ -40,9 +40,11 @@ En general, el título de un formulario es un aspecto importante de la experienc
 
 El componente principal del título de Forms adaptable se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 

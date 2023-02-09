@@ -2,9 +2,9 @@
 title: 'Componente principal de Forms adaptable: encabezado'
 description: Uso o personalización del componente principal del encabezado adaptable de Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 7f680eac1da61b55f9d90db6c0842421d03ac1dc
+source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 7%
 
 ---
@@ -34,10 +34,11 @@ Un componente Encabezado de un formulario adaptable es una sección de la parte 
 
 El componente principal del encabezado adaptable de Forms se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
+|  |  |
+|---|---|
 | Versión del componente | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 1 | Compatible  con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
-
+| --- | --- |
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
 Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
 
 
@@ -80,6 +81,5 @@ Esta parte del encabezado contiene el título y la imagen del encabezado.
 
 Esta sección permite introducir el texto que se incluirá en el encabezado.
 
-## Cuadro de diálogo de diseño {#design-dialog}
 
 
