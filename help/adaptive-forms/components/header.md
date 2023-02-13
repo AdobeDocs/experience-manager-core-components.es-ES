@@ -2,7 +2,7 @@
 title: 'Componente principal de Forms adaptable: encabezado'
 description: Uso o personalización del componente principal del encabezado adaptable de Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: 86fa434d884b24b8d4b231c6108f5e6151a89813
+source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 7%
