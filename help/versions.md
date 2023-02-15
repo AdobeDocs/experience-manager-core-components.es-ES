@@ -3,16 +3,16 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 6fd0fd045846da0d8e6f9c4753d172a9af101ba2
-workflow-type: ht
-source-wordcount: '2780'
-ht-degree: 100%
+source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+workflow-type: tm+mt
+source-wordcount: '2874'
+ht-degree: 99%
 
 ---
 
 # Versiones de componentes principales {#core-components-versions}
 
-La versión actual de los componentes principales es 2.20.6, y es compatible con [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) y con las instalaciones de [AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
+La versión actual de los componentes principales es 2.22.0, y es compatible con [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) y con las instalaciones de [AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
 
 ## Historial y compatibilidad de la versión {#release-history-and-compatibility}
 
@@ -26,6 +26,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Esta versión presenta una nueva versión de [Componente de lista](/help/components/list.md) junto con mejoras en la [Teaser](/help/components/teaser.md) y la actualización del [Visor de PDF.](/help/components/pdf-viewer.md) | - | 6.5.14.0+ * | Continua | 8, 11 | 9 de febrero de 2023 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Este lanzamiento de parche soluciona un problema con los [Componentes de teaser](/help/components/teaser.md) de las versiones 1 y 2. | - | 6.5.13.0+ * | Continua | 8, 11 | 12 de septiembre de 2022 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Esta versión incluye una serie de mejoras, incluida la publicación de la API de LinkHandler, mejoras en el [componente de imagen](/help/components/image.md) y en la [capa de datos,](/help/developing/data-layer/overview.md) así como mejoras en los componentes de varios paneles. | - | 6.5.13.0+ * | Continua | 8, 11 | 12 de septiembre de 2022 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | Esta versión corrige un problema en la entrega de imágenes SVG a través de AdaptiveImageServlet. | - | 6.5.13.0+ * | Continua | 8, 11 | 4 de agosto de 2022 |
@@ -90,37 +91,37 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 En la siguiente tabla se detallan las versiones de qué componentes se incluyen en qué versiones de los componentes principales.
 
-|  | Versión 1.0.0: 1.0.6 | Versión 1.1.0 | Versión 2.0.0: 2.0.8 | Versión 2.1.0 | Versión 2.2.0-2.2.0 | Versión 2.3.0-2.3.2 | Versión 2.4.0 | Versión 2.5.0 | Versión 2.6.0 | Versión 2.7.0-2.8.0 | Versión 2.9.0-2.17.14 | Versión 2.18.0 | Versión 2.19.0 | Versión 2.20.0+ |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| **[Página](components/page.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
-| **[Título](components/title.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
-| **[Imagen](components/image.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
-| **[Lista](components/list.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
-| **[Ruta de navegación](components/breadcrumb.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
-| **[Compartir en medios sociales](components/sharing.md)** | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 obsoleta | Versión 1 obsoleta | Versión 1 obsoleta |
-| **[Contenedor del formulario](components/forms/form-container.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Texto de formulario](components/forms/form-text.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Opciones de formulario](components/forms/form-options.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Formulario oculto](components/forms/form-hidden.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Botón de formulario](components/forms/form-button.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Fragmento de contenido](components/content-fragment-component.md)** |  | Zona protegida | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Navegación](components/navigation.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Navegación por idiomas](components/language-navigation.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Búsqueda rápida](components/quick-search.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Teaser](components/teaser.md)** |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Pestañas](components/tabs.md)** |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
-| **[Carrusel](components/carousel.md)** |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
-| **[Separador](components/separator.md)** |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
-| **[Lista de fragmentos de contenido](components/content-fragment-list.md)** |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Acordeón](components/accordion.md)** |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
-| **[Botón](components/button.md)** |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Contenedor](components/container.md)** |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
-| **[Descargar](components/download.md)** |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Fragmento de experiencias](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Incrustar](components/embed.md)** |  |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
-| **[Barra de progreso](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
-| **[Visualizador de PDF](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
-| **[Tabla de contenido](components/tableofcontents.md)** |  |  |  |  |  |  |  |  |  |  |  |  |  | Versión 1 |
+|  | Versión 1.0.0: 1.0.6 | Versión 1.1.0 | Versión 2.0.0: 2.0.8 | Versión 2.1.0 | Versión 2.2.0-2.2.0 | Versión 2.3.0-2.3.2 | Versión 2.4.0 | Versión 2.5.0 | Versión 2.6.0 | Versión 2.7.0-2.8.0 | Versión 2.9.0-2.17.14 | Versión 2.18.0 | Versión 2.19.0 | Versión 2.20.0-2.21.2 | Versión 2.2.0+ |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| **[Página](components/page.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
+| **[Título](components/title.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
+| **[Imagen](components/image.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
+| **[Lista](components/list.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3, Versión 4 |
+| **[Ruta de navegación](components/breadcrumb.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
+| **[Compartir en medios sociales](components/sharing.md)** | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 obsoleta | Versión 1 obsoleta | Versión 1 obsoleta | Versión 1 obsoleta |
+| **[Contenedor del formulario](components/forms/form-container.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Texto de formulario](components/forms/form-text.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Opciones de formulario](components/forms/form-options.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Formulario oculto](components/forms/form-hidden.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Botón de formulario](components/forms/form-button.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Fragmento de contenido](components/content-fragment-component.md)** |  | Zona protegida | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Navegación](components/navigation.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Navegación por idiomas](components/language-navigation.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Búsqueda rápida](components/quick-search.md)** |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Teaser](components/teaser.md)** |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Pestañas](components/tabs.md)** |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
+| **[Carrusel](components/carousel.md)** |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
+| **[Separador](components/separator.md)** |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
+| **[Lista de fragmentos de contenido](components/content-fragment-list.md)** |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Acordeón](components/accordion.md)** |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
+| **[Botón](components/button.md)** |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Contenedor](components/container.md)** |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
+| **[Descargar](components/download.md)** |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Fragmento de experiencias](components/experience-fragment.md)** |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Incrustar](components/embed.md)** |  |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
+| **[Barra de progreso](components/progress-bar.md)** |  |  |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
+| **[Visualizador de PDF](components/pdf-viewer.md)** |  |  |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 |
+| **[Tabla de contenido](components/tableofcontents.md)** |  |  |  |  |  |  |  |  |  |  |  |  |  | Versión 1 | Versión 1 |
 
 ## Versiones y publicaciones {#versions-and-releases}
 
