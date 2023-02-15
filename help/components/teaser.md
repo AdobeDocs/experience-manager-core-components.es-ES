@@ -3,9 +3,9 @@ title: Componente Teaser
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
-workflow-type: ht
-source-wordcount: '999'
+source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
+workflow-type: tm+mt
+source-wordcount: '988'
 ht-degree: 100%
 
 ---
@@ -81,10 +81,6 @@ El título, la descripción y la imagen del teaser se pueden heredar de la pági
 * **Texto alternativo para fines de accesibilidad**: este campo le permite definir una descripción de la imagen para los usuarios con discapacidades visuales.
    * **Heredar texto alternativo de la página**: esta opción utiliza la descripción alternativa del valor de recurso vinculado de los `dc:description` metadatos en DAM o de la página actual si no hay ningún recurso vinculado.
 * **No proporcionar texto alternativo**: esta opción marca la imagen para que sea ignorada por las tecnologías de asistencia, como lectores de pantalla, en casos en los que la imagen es puramente decorativa o no transmite información adicional a la página.
-
->[!NOTE]
->
->Actualmente, las [funciones de Dynamic Media](image.md#dynamic-media) no están disponibles en el componente Teaser.
 
 ### Pestaña Estilos {#styles-tab-edit}
 
