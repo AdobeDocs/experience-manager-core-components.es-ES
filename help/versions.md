@@ -3,9 +3,9 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
+source-git-commit: 94c7783b861d6e793092d79da67a78120aa80fdc
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2873'
 ht-degree: 99%
 
 ---
@@ -26,7 +26,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Esta versión presenta una nueva versión de [Componente de lista](/help/components/list.md) junto con mejoras en la [Teaser](/help/components/teaser.md) y la actualización del [Visor de PDF.](/help/components/pdf-viewer.md) | - | 6.5.14.0+ * | Continua | 8, 11 | 9 de febrero de 2023 |
+| [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Esta versión presenta una nueva versión de [Componente Lista](/help/components/list.md) junto con mejoras en la [Teaser](/help/components/teaser.md) y la actualización del [Visor de PDF](/help/components/pdf-viewer.md) y [Carrusel](/help/components/carousel.md) | - | 6.5.14.0+ * | Continua | 8, 11 | 9 de febrero de 2023 |
 | [2.21.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.2) | Este lanzamiento de parche soluciona un problema con los [Componentes de teaser](/help/components/teaser.md) de las versiones 1 y 2. | - | 6.5.13.0+ * | Continua | 8, 11 | 12 de septiembre de 2022 |
 | [2.21.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.21.0) | Esta versión incluye una serie de mejoras, incluida la publicación de la API de LinkHandler, mejoras en el [componente de imagen](/help/components/image.md) y en la [capa de datos,](/help/developing/data-layer/overview.md) así como mejoras en los componentes de varios paneles. | - | 6.5.13.0+ * | Continua | 8, 11 | 12 de septiembre de 2022 |
 | [2.20.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.20.8) | Esta versión corrige un problema en la entrega de imágenes SVG a través de AdaptiveImageServlet. | - | 6.5.13.0+ * | Continua | 8, 11 | 4 de agosto de 2022 |
@@ -91,7 +91,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 En la siguiente tabla se detallan las versiones de qué componentes se incluyen en qué versiones de los componentes principales.
 
-|  | Versión 1.0.0: 1.0.6 | Versión 1.1.0 | Versión 2.0.0: 2.0.8 | Versión 2.1.0 | Versión 2.2.0-2.2.0 | Versión 2.3.0-2.3.2 | Versión 2.4.0 | Versión 2.5.0 | Versión 2.6.0 | Versión 2.7.0-2.8.0 | Versión 2.9.0-2.17.14 | Versión 2.18.0 | Versión 2.19.0 | Versión 2.20.0-2.21.2 | Versión 2.2.0+ |
+|  | Versión 1.0.0: 1.0.6 | Versión 1.1.0 | Versión 2.0.0: 2.0.8 | Versión 2.1.0 | Versión 2.2.0-2.2.0 | Versión 2.3.0-2.3.2 | Versión 2.4.0 | Versión 2.5.0 | Versión 2.6.0 | Versión 2.7.0-2.8.0 | Versión 2.9.0-2.17.14 | Versión 2.18.0 | Versión 2.19.0 | Versión 2.20.0-2.21.2 | Versión 2.22.0+ |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | **[Página](components/page.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
 | **[Título](components/title.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |

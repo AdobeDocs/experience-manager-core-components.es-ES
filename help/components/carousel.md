@@ -3,10 +3,10 @@ title: Componente Carrusel
 description: El componente Carrusel permite al autor del contenido presentar el contenido en un carrusel giratorio.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
-source-wordcount: '1119'
-ht-degree: 100%
+source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+workflow-type: tm+mt
+source-wordcount: '1312'
+ht-degree: 88%
 
 ---
 
@@ -28,7 +28,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+| Versión 1 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -41,6 +41,20 @@ Para experimentar el componente Carrusel, ver ejemplos de sus opciones de config
 La documentación técnica más reciente sobre el componente Carrusel [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_carousel_v1_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+
+## Vinculación profunda a un panel {#deep-linking}
+
+El carrusel, [Fichas,](tabs.md) y [Componentes de acordeón](accordion.md) admite la vinculación directa a un panel dentro del componente.
+
+Para ello:
+
+1. Visualice la página con el componente utilizando la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#view-as-published)** en el editor de páginas.
+1. Inspeccione el contenido de la página e identifique el ID del panel.
+   * Por ejemplo `id="carousel-bfe4fa6647-item-47f1a7ca67-tabpanel"`
+1. El ID se convierte en el anclaje que puede anexar a la URL mediante un hash (`#`).
+   * Por ejemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
+
+Si se desplaza a la dirección URL con el ID de panel como anclaje, el explorador se desplazará directamente al componente en cuestión y mostrará el panel especificado. Si el panel está configurado para no mostrarse de forma predeterminada, se desplazará a automáticamente.
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
@@ -67,6 +81,7 @@ Utilice el botón **Añadir** para abrir el selector de componentes y elegir qu�
 
 En la pestaña **Propiedades**, el autor del contenido puede configurar la transición automática de las diapositivas.
 
+* **Elemento activo**: el autor del contenido puede definir qué pestaña está activa cuando se carga la página.
 * **Transición automática de diapositivas**: cuando esté activo, el componente avanzará automáticamente a la siguiente diapositiva después de un retraso especificado.
 * **Retraso de transición**: cuando se selecciona la transición automática de diapositivas, este valor se utiliza para definir el retardo entre transiciones (en milisegundos).
 * **Deshabilitar la pausa automática al pasar el cursor**: cuando se selecciona la **transición automática de diapositivas**, la transición de carrusel se pausa automáticamente cada vez que el cursor pasa el ratón sobre el carrusel. Seleccione esta opción para que la transición no se detenga.
@@ -87,7 +102,13 @@ En la pestaña **Propiedades**, el autor del contenido puede configurar la trans
 
 En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
-* **Etiqueta**: valor de un atributo de etiqueta ARIA para el componente
+* **Etiqueta** : valor de un atributo aria-label para el carrusel, el cual describe el contenido del carrusel
+* **Anterior** : valor de un atributo aria-label para la etiqueta de botón anterior de la navegación del carrusel
+* **Siguiente** : valor de un atributo aria-label para la etiqueta de botón siguiente de la navegación del carrusel
+* **Reproducir** : valor de un atributo aria-label para la etiqueta del botón de reproducción de la navegación del carrusel
+* **Pausar** : valor de un atributo aria-label para la etiqueta del botón de pausa de la navegación del carrusel
+* **Tablist** : valor de un atributo aria-label para la etiqueta de lista de elementos de la navegación del carrusel
+* **Establecer la etiqueta aria del elemento en su título** : Si se selecciona, esta opción establece automáticamente el título de los elementos de carrusel en su descripción de aria-label.
 
 ## Seleccionar panel {#select-panel}
 
@@ -116,8 +137,7 @@ La pestaña **Propiedades** se utiliza para definir la configuración predetermi
 ![Cuadro de diálogo de diseño del componente Carrusel](/help/assets/carousel-design.png)
 
 * **Diapositivas de transición automática**: define si, de forma predeterminada, la opción para avanzar automáticamente el carrusel a la siguiente diapositiva está activada cuando el autor de contenido añade el componente de carrusel a una página.
-* **Retraso de transición**: define el valor predeterminado del retraso de la transición entre diapositivas (en milisegundos) cuando un autor de contenido añade el componente de carrusel a una página.
-* **Deshabilitar la pausa automática al pasar el cursor**: define si, de forma predeterminada, la opción para deshabilitar la pausa automática de la diapositiva está habilitada cuando el autor de contenido selecciona la **Transición automática de las diapositivas**.
+* **Anteponer elementos de control** : cuando se selecciona, los elementos de control se colocan delante de los elementos del carrusel para mejorar la accesibilidad.
 
 ### Pestaña Componentes permitidos {#allowed-components-tab}
 
