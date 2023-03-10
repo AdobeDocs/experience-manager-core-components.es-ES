@@ -4,10 +4,10 @@ description: Instrucciones de uso detalladas para el tipo de archivo del proyect
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: 06a620980c9cda02d1190747b12b929498fb79c2
-workflow-type: ht
-source-wordcount: '2194'
-ht-degree: 100%
+source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
+workflow-type: tm+mt
+source-wordcount: '2198'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ La dependencia de componentes principales solo se agrega para versiones de AEM q
 >
 >Se recomienda añadir el perfil `adobe-public` al archivo Maven `settings.xml` para añadir automáticamente repo.adobe.com al proceso de compilación de Maven.
 >
->Un ejemplo de POM [se puede encontrar aquí](https://helpx.adobe.com/es/experience-manager/kb/SetUpTheAdobeMavenRepository.html).
+>Un ejemplo de POM [se puede encontrar aquí](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=en).
 
 ### Propiedades {#properties}
 
