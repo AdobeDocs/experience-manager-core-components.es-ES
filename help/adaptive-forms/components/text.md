@@ -1,14 +1,14 @@
 ---
-title: 'Componente principal de Forms adaptable: texto '
+title: 'Componente principal de Forms adaptable: texto'
 description: Uso o personalización del componente principal de texto de Forms adaptable.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '790'
-ht-degree: 3%
+source-wordcount: '812'
+ht-degree: 2%
 
 ---
-
 
 # Texto {#text-adaptive-forms-core-component}
 
@@ -34,15 +34,13 @@ Hay varias razones para utilizar texto en un formulario:
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de texto de Forms adaptable se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal del acordeón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-|  |  |
-|---|---|
-| Versión del componente | AEM as a Cloud Service |
-| --- | --- |
-| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
+|---|---|---|
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
 
-Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
+Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/adaptive-forms/version.md) documento.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -69,11 +67,12 @@ Puede personalizar fácilmente la experiencia de texto para los visitantes con e
 
 El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS para el componente Texto.
 
-
 ### Pestaña Estilos {#styles-tab}
 
-El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS de un componente. El componente principal de texto de Forms adaptable es compatible con el AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+La pestaña se utiliza para definir y administrar los estilos CSS de un componente. El componente principal de texto de Forms adaptable es compatible con el AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
 
-**Clases CSS predeterminadas**: Puede proporcionar una clase CSS predeterminada para el componente principal de texto de Forms adaptable.
+![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/reset_designdialog.png)
 
-**Estilos permitidos**: Puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado &quot;texto en negrita&quot; y proporcionar la clase CSS &quot;font-weight: negrita&quot;. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de Forms adaptable. Para aplicar un estilo, en el editor de Forms adaptable, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en el **Estilos** lista desplegable. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la ficha Estilos y guarde los cambios.
+* **Clases CSS predeterminadas**: Puede proporcionar una clase CSS predeterminada para el componente principal de texto de Forms adaptable.
+
+* **Estilos permitidos**: Puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado &quot;texto en negrita&quot; y proporcionar la clase CSS &quot;font-weight: negrita&quot;. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de Forms adaptable. Para aplicar un estilo, en el editor de Forms adaptable, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en el **Estilos** lista desplegable. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la ficha Estilos y guarde los cambios.

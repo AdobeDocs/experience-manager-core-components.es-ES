@@ -2,13 +2,13 @@
 title: 'Componente principal de Forms adaptable: entrada de número'
 description: Uso o personalización del componente principal de entrada del número de Forms adaptable.
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1780'
+source-wordcount: '1798'
 ht-degree: 1%
 
 ---
-
 
 # Entrada de número {#number-input-adaptive-forms-core-component}
 
@@ -16,7 +16,7 @@ Un componente Entrada de número de un formulario adaptable es un tipo de campo 
 
 También se puede utilizar con atributos como min, max, step, value, etc. Estos atributos se pueden utilizar para establecer los valores mínimo y máximo permitidos en el campo, el intervalo de paso para incrementar o reducir el número y el valor predeterminado del campo.
 
-Este componente se puede utilizar para recopilar datos numéricos como edad, cantidad, etc. y también se pueden utilizar para realizar operaciones matemáticas como adición y resta. Este componente también se puede utilizar para validar los datos numéricos introducidos por el usuario.
+Este componente se puede utilizar para recopilar datos numéricos como edad, cantidad, etc. También se puede utilizar para realizar operaciones matemáticas como la suma y la resta. Este componente también se puede utilizar para validar los datos numéricos introducidos por el usuario.
 
 Para la accesibilidad, es importante especificar &quot;etiqueta&quot; que describa el propósito del campo de entrada de número y qué tipo de entrada se espera.
 
@@ -28,24 +28,22 @@ Para la accesibilidad, es importante especificar &quot;etiqueta&quot; que descri
 
 Existen varias razones por las que resulta beneficioso incluir un componente de entrada numérico en un formulario adaptable, entre ellas:
 
-* **Operaciones matemáticas**: Los campos numéricos pueden utilizarse para realizar operaciones matemáticas como adición, resta, multiplicación y división.
+* **Operaciones matemáticas**: Los campos numéricos se pueden utilizar para realizar operaciones matemáticas como adición, resta, multiplicación y división.
 
-* **Intervalo de datos**: Los campos numéricos pueden utilizarse para establecer un rango de valores válidos mediante el uso de los atributos min, max y step.
+* **Intervalo de datos**: Los campos numéricos pueden utilizarse para establecer un rango de valores válidos mediante los atributos min, max y step.
 
 * **Contenido dinámico**: El componente numérico se puede utilizar para mostrar datos dinámicos basados en los campos del formulario.
 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de la entrada Número de Forms adaptable se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad de AEM y los vínculos a la documentación correspondiente:
+El componente principal del acordeón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-|  |  |
-|---|---|
-| Versión del componente | AEM as a Cloud Service |
-| --- | --- |
-| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
+|---|---|---|
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
 
-Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
+Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/adaptive-forms/version.md) documento.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -114,14 +112,13 @@ Puede personalizar fácilmente la experiencia de entrada de números para los vi
 
 ![Ficha Accesibilidad](/help/adaptive-forms/assets/numberinput_accessibility.png)
 
-* **Texto para lectores de pantalla** - El texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para ser leído por tecnologías de asistencia, como lectores de pantalla, utilizadas por personas con deficiencias visuales. Este texto proporciona una descripción en audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrece una comprensión completa del campo del formulario y de sus requisitos.
+**Texto para lectores de pantalla** - El texto para lectores de pantalla se refiere a texto adicional que está pensado para ser leído por tecnologías de asistencia, como lectores de pantalla, utilizadas por personas con deficiencias visuales. Este texto proporciona una descripción en audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrece una comprensión completa del campo del formulario y de sus requisitos.
 
 ### Ficha Formatos {#formats-tab}
 
 ![Ficha Accesibilidad](/help/adaptive-forms/assets/numberinput_formattab.png)
 
-
-* **Formato de visualización** - Esta opción le permite seleccionar la opción de diferentes formatos numéricos enteros para mostrar. Cuando el usuario selecciona cualquier opción del **Tipo** menú desplegable, la variable **Formato** se vuelve visible en el panel. Puede elegir un formato específico en el que se muestren los números al usuario.
+* **Formato de visualización** - Esta opción le permite seleccionar la opción de diferentes formatos numéricos-enteros para la visualización. Cuando el usuario selecciona cualquier opción del **Tipo** menú desplegable, la variable **Formato** se vuelve visible en el panel. Puede elegir un formato específico en el que se muestren los números al usuario.
 
 * **Número de dígitos antes del separador decimal (1234.000)** - Utilice esta opción para especificar el número de dígitos que se mostrarán antes del punto decimal.
 
@@ -131,15 +128,18 @@ Puede personalizar fácilmente la experiencia de entrada de números para los vi
 
 El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS para el componente de entrada Número.
 
-
 ### Pestaña Estilos {#styles-tab}
 
-El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS de un componente. El componente principal de entrada de Número de Forms adaptable es compatible con el AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+La pestaña se utiliza para definir y administrar los estilos CSS de un componente. El componente principal de entrada de Número de Forms adaptable es compatible con el AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+
+![Styletab](/help/adaptive-forms/assets/datepicker_styletab.png)
 
 **Clases CSS predeterminadas**: Puede proporcionar una clase CSS predeterminada para el componente principal de entrada del número de Forms adaptable.
 
-**Estilos permitidos**: Puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado &quot;texto en negrita&quot; y proporcionar la clase CSS &quot;font-weight: negrita&quot;. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de Forms adaptable. Para aplicar un estilo, en el editor de Forms adaptable, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en el **Estilos** lista desplegable. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la ficha Estilos y guarde los cambios.
+**Estilos permitidos**: Puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado &quot;texto en negrita&quot; y proporcionar la clase CSS &quot;font-weight: negrita&quot;. Puede utilizar o aplicar estos estilos a un formulario adaptable en Forms adaptable . Para aplicar un estilo, en el editor de Forms adaptable, seleccione el componente al que desee aplicar el editor del estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en el **Estilos** lista desplegable. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la ficha Estilos y guarde los cambios.
 
 ### Ficha Formatos {#format-tab}
 
 La pestaña format permite especificar formatos de número predeterminados y personalizados.
+![Ficha Diseño](/help/adaptive-forms/assets/emailinput_designformattab.png)
+

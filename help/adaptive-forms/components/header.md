@@ -2,13 +2,13 @@
 title: 'Componente principal de Forms adaptable: encabezado'
 description: Uso o personalización del componente principal del encabezado adaptable de Forms.
 role: Architect, Developer, Admin, User
-source-git-commit: b378fbd5695f82b8fc9de3a2d53a8387099ae33b
+exl-id: aa18def9-0bec-4475-8dde-213860621ef5
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 7%
+source-wordcount: '675'
+ht-degree: 6%
 
 ---
-
 
 # Encabezado {#header-adaptive-forms-core-component}
 
@@ -32,14 +32,13 @@ Un componente Encabezado de un formulario adaptable es una sección de la parte 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del encabezado adaptable de Forms se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal del acordeón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-|  |  |
-|---|---|
-| Versión del componente | AEM as a Cloud Service |
-| --- | --- |
-| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
-Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
+|---|---|---|
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
+
+Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/adaptive-forms/version.md) documento.
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -80,6 +79,4 @@ Esta parte del encabezado contiene el título y la imagen del encabezado.
 ### Ficha Texto {#text-tab}
 
 Esta sección permite introducir el texto que se incluirá en el encabezado.
-
-
 

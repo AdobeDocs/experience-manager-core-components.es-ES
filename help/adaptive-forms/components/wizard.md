@@ -1,14 +1,14 @@
 ---
-title: 'Componente principal adaptable de Forms: asistente '
+title: Componente principal de Forms adaptable - Asistente
 description: Uso o personalización del componente principal del asistente de Forms adaptable.
 role: Architect, Developer, Admin, User
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
+source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
-source-wordcount: '1681'
-ht-degree: 1%
+source-wordcount: '1847'
+ht-degree: 2%
 
 ---
-
 
 # Asistente {#wizard-adaptive-forms-core-component}
 
@@ -51,13 +51,11 @@ En general, una presentación del asistente puede hacer que el proceso de cumpli
 
 El componente principal de diseño del asistente de Forms adaptable se lanzó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-|  |  |
-|---|---|
-| Versión del componente | AEM as a Cloud Service |
-| --- | --- |
-| Versión 1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posterior | Compatible | Compatible |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
+|---|---|---|
+| Versión 1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
 
-Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/versions.md) documento.
+Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/adaptive-forms/version.md) documento.
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -124,11 +122,38 @@ Esto ayuda a que el proceso de creación y personalización de formularios sea m
 
 La variable **Componentes permitidos** permite que el editor de plantillas defina los componentes que se pueden agregar como elementos a los paneles en el componente Asistente del editor de Forms adaptable.
 
+![Pestañas Componentes permitidos](/help/adaptive-forms/assets/panel_allowedcomponent.png)
+
+### Pestaña Componentes predeterminados {#default-component-tab}
+
+Esta pestaña permite al editor de plantillas asignar los componentes que se pueden añadir como elementos a los paneles en el componente del asistente en el editor de Forms adaptable.
+
+![Componente predeterminado del panel](/help/adaptive-forms/assets/panel_defaultcomponent.png)
+
+### Configuración interactiva {#responsive-settings}
+
+Esta pestaña permite que el editor de plantillas defina el número de columnas que se mostrarán en la cuadrícula interactiva.
+
+![Cuadrícula interactiva](/help/adaptive-forms/assets/panel_responsivesettings.png)
+
+### Pestaña Configuración de contenedor {#container-setting-tab}
+
+La pestaña de configuración del contenedor permite establecer la posición de los componentes en el editor de Forms adaptable.
+
+![Configuración del contenedor](/help/adaptive-forms/assets/panel_settings.png)
+
+* **Diseño**: El diseño Simple mantiene todo fijo en el lugar, mientras que la Cuadrícula interactiva le permite cambiar la posición de los componentes para adaptarlos a sus necesidades.
+* **Deshabilitar diseño**: También puede desactivar la selección de diseño en el cuadro de diálogo de edición seleccionando la opción **Deshabilitar diseño** casilla de verificación.
+* **Habilitar imagen de fondo**: Esta pestaña permite establecer la imagen de fondo y el color en el editor de plantillas.
+* **Habilitar color de fondo**: Esta pestaña permite establecer el color de fondo en el editor de plantillas.
+
 ### Pestaña Estilos {#styles-tab}
 
-El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS de un componente. El componente principal del Asistente para Forms adaptable es compatible con el AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+La pestaña se utiliza para definir y administrar los estilos CSS de un componente. El componente principal del Asistente para Forms adaptable es compatible con el AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
 
-**Clases CSS predeterminadas**: Puede proporcionar una clase CSS predeterminada para el componente Asistente.
+![Ficha Estilo](/help/adaptive-forms/assets/panel_style.png)
 
-**Estilos permitidos**: Puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado &quot;texto en negrita&quot; y proporcionar la clase CSS &quot;font-weight: negrita&quot;. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de Forms adaptable. Para aplicar un estilo, en el editor de Forms adaptable, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en el **Estilos** lista desplegable. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la ficha Estilos y guarde los cambios.
+* **Clases CSS predeterminadas**: Puede proporcionar una clase CSS predeterminada para el componente Asistente.
+
+* **Estilos permitidos**: Puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado &quot;texto en negrita&quot; y proporcionar la clase CSS &quot;font-weight: negrita&quot;. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de Forms adaptable. Para aplicar un estilo, en el editor de Forms adaptable, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en el **Estilos** lista desplegable. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la ficha Estilos y guarde los cambios.
 
