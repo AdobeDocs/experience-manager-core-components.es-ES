@@ -1,26 +1,26 @@
 ---
 title: Componente Lista (versión 3)
-description: El componente Lista de componentes principales (v3) permite crear fácilmente listas dinámicas y estáticas.
+description: El componente principal de lista (versión 3) permite crear fácilmente listas dinámicas y estáticas.
 role: Architect, Developer, Admin, User
-source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: tm+mt
+exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
+source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+workflow-type: ht
 source-wordcount: '1176'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
-
 # Componente Lista (versión 3) {#list-component}
 
-El componente Lista de componentes principales (v3) permite crear fácilmente listas dinámicas y estáticas.
+El componente principal de lista (versión 3) permite crear fácilmente listas dinámicas y estáticas.
 
 ## Uso {#usage}
 
-El componente Lista (v3) se puede utilizar para crear, por ejemplo, una lista dinámica de páginas secundarias o una lista estática de elementos definidos arbitrariamente. El autor de la plantilla puede definir el tipo de listas disponibles y las opciones de formato en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede seleccionar entre los tipos de lista disponibles y cómo dar formato a los elementos de la lista en el [cuadro de diálogo de edición](#edit-dialog).
+El componente de lista (versión 3) se puede utilizar para crear, por ejemplo, una lista dinámica de páginas secundarias o una estática de elementos definidos arbitrariamente. El autor de la plantilla puede definir el tipo de listas disponibles y las opciones de formato en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede seleccionar entre los tipos de lista disponibles y cómo dar formato a los elementos de la lista en el [cuadro de diálogo de edición](#edit-dialog).
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-Este documento describe la versión 3 del componente Lista, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022.
+Este documento describe la versión 3 del componente de lista, que se introdujo con la versión 2.18.0 de los componentes principales en febrero de 2022.
 
 >[!CAUTION]
 >
