@@ -5,7 +5,7 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 0d004c90e789f23ff9e121fbd8ae11df9c9748b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1192'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ El tipo de archivo del proyecto de AEM es una plantilla de Maven que crea un pro
 
 * **Práctica recomendada:** inicie su sitio con todas las prácticas recomendadas más recientes de Adobe.
 * **Código bajo:** edite sus plantillas, cree contenido, implemente su CSS y el sitio estará listo para su publicación.
-* **Preparado para la nube:** si lo desea, utilice [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) para publicarlo en pocos días y facilitar la escalabilidad y el mantenimiento.
+* **Preparado para la nube:** si lo desea, utilice [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) para publicarlo en pocos días y facilitar la escalabilidad y el mantenimiento.
 * **Dispatcher:** un proyecto se completa solamente con una [configuración de Dispatcher ](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/dispatcher.html?lang=es)que garantice la velocidad y la seguridad.
 * **Varios sitios:** si es necesario, el tipo de archivo genera la estructura de contenido para una [configuración de varios idiomas y regiones](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/administering/reusing-content/msm/overview.html?lang=es).
 * **Componentes principales:** los autores pueden crear casi cualquier diseño con nuestro versátil [conjunto de componentes estandarizados](/help/introduction.md).
@@ -61,9 +61,9 @@ mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate \
 ```
 
 * Sustituya `XX` por el último número de versión del [tipo de archivo.](#requirements)
-* Configure `aemVersion=cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es);\
+* Configure `aemVersion=cloud` para [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es);\
    Configure `aemVersion=6.5.0` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea.
-La dependencia de componentes principales solo se agrega para versiones de AEM que no sean en la nube, ya que los componentes principales se proporcionan como OOTB para AEM Cloud Service.
+La dependencia de componentes principales solo se agrega para versiones de AEM que no sean en la nube, ya que los componentes principales se proporcionan como OOTB para AEM as a Cloud Service.
 * Ajuste `appTitle="My Site"` para definir el título del sitio web y los grupos de componentes.
 * Ajuste `appId="mysite"` para definir los nombres de Maven artifactId, los componentes, la configuración y las carpetas de contenido, así como los nombres de las bibliotecas de cliente.
 * Ajuste `groupId="com.mysite"` para definir el groupId de Maven y el paquete de origen de Java.
@@ -79,7 +79,7 @@ La dependencia de componentes principales solo se agrega para versiones de AEM q
 | `groupId` |  | ID del grupo base de Maven (p. ej. `"com.mysite"`). Este valor debe ser un [nombre de paquete Java válido](https://docs.oracle.com/javase/specs/jls/se6/html/packages.html#7.7). |
 | `package` | *`${groupId}`* | Paquete de origen de Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
+| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
 | `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión de [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de Dispatcher para la nube o para AMS/en línea, según el valor de `aemVersion` (puede ser `y` o `n`). |
 | `frontendModule` | `general` | Incluye un módulo de versión de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implementa el [Editor SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html?lang=es)). |
@@ -106,7 +106,7 @@ La dependencia de componentes principales solo se agrega para versiones de AEM q
 |---------|---------|---------|---------|---------|
 | [40](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-40) | Continua | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
-Configure su entorno de desarrollo local para [AEM Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=es) o para [versiones anteriores de AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=es).
+Configure su entorno de desarrollo local para [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=es) o para [versiones anteriores de AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=es).
 
 ### Problemas conocidos {#known-issues}
 
