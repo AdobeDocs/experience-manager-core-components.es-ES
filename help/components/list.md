@@ -4,9 +4,9 @@ description: El componente principal Lista permite crear fácilmente listas din�
 role: Architect, Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: af908d77b30b7642b553f38c217136cfd5603108
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1208'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -94,14 +94,14 @@ La lista se puede crear mediante una lista fija de elementos.
 
 Pulse o haga clic en el botón **Añadir** para insertar un nuevo elemento en la lista.
 
-* En el **Vínculo** introduzca
+* En el campo **Vínculo** escriba
    * Una dirección URL completa
    * Una dirección URL relativa para el contenido de AEM existente
-      * Puede usar la variable **Cuadro de diálogo Selección** para elegir un elemento de AEM.
-* En el **Texto** , introduzca el texto que se mostrará para el vínculo en la lista.
+      * Puede usar el **cuadro de diálogo Selección** para elegir un elemento de AEM.
+* En el campo **Texto**, escriba el texto que se mostrará para el vínculo en la lista.
 * Marque la casilla de verificación si el vínculo debe abrirse en una nueva pestaña del explorador
 
-Una vez creado más de un elemento para la lista, puede organizar la lista.
+Una vez creado más de un elemento para la lista, puede organizarla.
 
 * Utilice el controlador de arrastre para reorganizar los elementos de la lista.
 * Utilice el icono de la papelera para eliminar elementos de la lista.
