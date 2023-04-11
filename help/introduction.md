@@ -20,7 +20,7 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 
 * **[Biblioteca de componentes:](https://www.adobe.com/go/aem_cmp_library_es)** una colección de ejemplos para ver los componentes en sus distintas configuraciones.
 * **Documentación de componentes (este documento):** para desarrolladores y autores, con detalles sobre cada componente.
-* **[Repositorio de componentes principales de GitHub: ](https://github.com/adobe/aem-core-wcm-components)** para obtener detalles del desarrollador de cada componente y descarga de proyecto.
+* **[Repositorio de componentes principales de GitHub:](https://github.com/adobe/aem-core-wcm-components)** para obtener detalles del desarrollador de cada componente y descarga de proyecto.
 * Introducción:
    * **[Éxito con los componentes principales:](/help/developing/success.md)** instrucciones que se deben tener en cuenta mucho antes del inicio de cualquier proyecto que vaya a utilizar los componentes principales.
    * **[Tutorial de WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)** tutorial de dos días para crear un nuevo sitio.
@@ -32,7 +32,7 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 |  |  |
 |---|---|
 | Listo para la producción | Los componentes básicos son 30 componentes de WCM robustos, bien probados, ampliamente utilizados y con un buen rendimiento. |
-| Preparado para la nube | Ya sea en [AEM como Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es), en [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea, simplemente funcionan. |
+| Preparado para la nube | Ya sea en [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es), en [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea, simplemente funcionan. |
 | Versátil | Los componentes representan conceptos genéricos con los que los autores pueden ensamblar casi cualquier diseño. |
 | Configurable | Las [directivas de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=es#content-policies) a nivel de plantilla definen qué características pueden utilizar o no los autores de la página. |
 | Rastreable | La [integración de capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md) permite el seguimiento de todos los aspectos de la experiencia del visitante. |
@@ -105,7 +105,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 ## Requisitos del sistema {#system-requirements}
 
-| Componentes principales   Edición | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
+| Componentes principales  Edición | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
 |---------|---------|---------|---------|---------|
 | [2.22.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.0) | Continua | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
 
@@ -121,7 +121,7 @@ Para configurar su entorno de desarrollo local, consulte [esta descripción gene
 
 >[!TIP]
 >
->Los componentes principales forman parte automáticamente de AEM Cloud Service y siempre tendrá la última versión de los componentes principales.
+>Los componentes principales forman parte automáticamente de AEM as a Cloud Service y siempre tendrá la última versión de los componentes principales.
 >
 >Consulte el documento [Uso de componentes principales](/help/get-started/using.md) para obtener más información sobre cómo empezar a utilizar los componentes principales tanto en AEMaaCS como en línea.
 

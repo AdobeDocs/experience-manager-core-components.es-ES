@@ -1,30 +1,30 @@
 ---
-title: 'Componente principal de Forms adaptable: botón Enviar'
-description: Uso o personalización del componente principal del botón de envío adaptable de Forms.
+title: 'Componente principal de formularios adaptables: botón Enviar'
+description: Uso o personalización del componente principal de botón Enviar de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 2%
+ht-degree: 94%
 
 ---
 
 # Botón Enviar {#submit-button}
 
-Un botón Enviar de un formulario adaptable es un botón que permite a los usuarios enviar los datos del formulario a un servidor para su procesamiento. Cuando se hace clic en el botón de envío, los datos del formulario se envían al servidor, donde se pueden almacenar, procesar o utilizar para varios fines, como enviar un correo electrónico o actualizar una base de datos.
+El botón Enviar de un formulario adaptable es el que permite a los usuarios enviar los datos del formulario al servidor para su procesamiento. Cuando se hace clic en el botón de envío, los datos del formulario se envían al servidor, donde se pueden almacenar, procesar o utilizar para varios fines, como mandar un correo electrónico o actualizar una base de datos.
 
-El botón Enviar suele ser el último paso del proceso de cumplimentación de formularios y se utiliza para iniciar el proceso de envío de los datos del formulario al servidor.
+El botón Enviar suele ser el último paso del proceso de cumplimentación de formularios y se usa para iniciar el proceso de envío de los datos del formulario al servidor.
 
 ## Uso {#reasons-to-use-submit-button}
 
-Los motivos para utilizar un botón de envío en un formulario adaptable son:
+Los motivos para usar el botón de envío en un formulario adaptable son los siguientes:
 
-* **Envío de datos**: El botón de envío es el mecanismo principal para enviar datos de formulario a un servidor para su procesamiento.
+* **Envío de datos**: el botón de envío es el mecanismo principal para enviar datos de formulario a un servidor para su procesamiento.
 
-* **Experiencia del usuario mejorada**: Un botón de envío bien diseñado puede mejorar la experiencia del usuario al proporcionar comentarios claros sobre el proceso de envío del formulario e indicar cuándo se ha enviado correctamente.
+* **Experiencia del usuario mejorada**: el botón de envío bien diseñado puede mejorar la experiencia del usuario al proporcionar comentarios claros sobre el proceso de envío del formulario e indicar cuándo se ha enviado correctamente.
 
-* **Validación de datos**: El botón de envío se puede utilizar para almacenar en déclencheur las comprobaciones de validación de datos, lo que garantiza que los datos del formulario sean completos y precisos antes de enviarse al servidor.
+* **Validación de datos**: el botón de envío se puede utilizar para activar comprobaciones de validación de datos, asegurando que los datos del formulario están completos y son correctos antes de enviarse al servidor.
 
 
 ## Versión y compatibilidad {#version-and-compatibility}
@@ -33,9 +33,9 @@ El componente principal del acordeón de Forms adaptable se publicó en febrero 
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
 |---|---|---|
-| Versión 1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
+| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
 
-Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/adaptive-forms/version.md) documento.
+Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
@@ -43,53 +43,53 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal del botón de envío adaptable de Forms en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de botón Enviar de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/button/v1/button). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia del botón Enviar para los visitantes con el cuadro de diálogo Configurar . También puede definir las opciones del botón Enviar con facilidad para que el usuario tenga una experiencia óptima.
+Puede personalizar fácilmente la experiencia del botón Enviar para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones del botón Enviar con facilidad para una experiencia del usuario perfecta.
 
-### Ficha básica {#basic-tab}
+### Pestaña Básicos {#basic-tab}
 
-![Ficha básica](/help/adaptive-forms/assets/button_basictab.png)
+![Pestaña Básicos](/help/adaptive-forms/assets/button_basictab.png)
 
-* **Nombre** - Puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
+* **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
-* **Título** : con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+* **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 
-* **Referencia de enlace** - Una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados del origen de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar el origen de datos con los datos introducidos en el formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona una experiencia de usuario perfecta para recopilar y administrar datos.
+* **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 
-* **Ocultar componente** : seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
-* **Deshabilitar componente** - Seleccione la opción para desactivar el componente. El componente deshabilitado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no puede modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
-* **Solo lectura** - Seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no puede modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+* **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
+* **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+* **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
-### Ficha Contenido de ayuda {#help-content}
+### Pestaña Contenido de ayuda {#help-content}
 
-![Ficha Contenido de ayuda](/help/adaptive-forms/assets/button_helptab.png)
+![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/button_helptab.png)
 
-* **Descripción breve** : una breve descripción es una breve explicación de texto que proporciona información adicional o aclaración sobre el propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben introducir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la variable **Mostrar siempre una descripción breve** para mostrarlo debajo del componente.
+* **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-* **Mostrar siempre una descripción breve** - Active la opción para mostrar la breve descripción debajo del componente.
+* **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
 
-* **Texto de ayuda** - El texto de ayuda hace referencia a información o directrices adicionales que se proporcionan al usuario para ayudarles a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
+* **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
 ### Accesibilidad {#accessibility}
 
-![Ficha Accesibilidad](/help/adaptive-forms/assets/button_accessibilitytab.png)
+![Pestaña Accesibilidad](/help/adaptive-forms/assets/button_accessibilitytab.png)
 
-**Texto para lectores de pantalla** - El texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para ser leído por tecnologías de asistencia, como lectores de pantalla, utilizadas por personas con deficiencias visuales. Este texto proporciona una descripción en audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrece una comprensión completa del campo del formulario y de sus requisitos.
+**Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS para el componente de botón Enviar.
+El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS para el componente del botón Enviar.
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar los estilos CSS de un componente. El componente principal del botón de envío adaptable de Forms es compatible con el AEM [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+La pestaña se utiliza para definir y administrar los estilos CSS de un componente. El componente principal del botón Enviar de Formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/reset_designdialog.png)
 
 
-* **Clases CSS predeterminadas**: Puede proporcionar una clase CSS predeterminada para el componente principal del botón de envío adaptable de Forms.
+* **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal del botón Enviar de Formularios adaptables.
 
-* **Estilos permitidos**: Puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado &quot;texto en negrita&quot; y proporcionar la clase CSS &quot;font-weight: negrita&quot;. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de Forms adaptable. Para aplicar un estilo, en el editor de Forms adaptable, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en el **Estilos** lista desplegable. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la ficha Estilos y guarde los cambios.
+* **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.

@@ -1,18 +1,18 @@
 ---
-title: 'Componente principal de Forms adaptable: encabezado'
-description: Uso o personalización del componente principal del encabezado adaptable de Forms.
+title: 'Componente principal de formularios adaptables: encabezado'
+description: Uso o personalización del componente principal de encabezado de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
 workflow-type: tm+mt
 source-wordcount: '675'
-ht-degree: 6%
+ht-degree: 92%
 
 ---
 
 # Encabezado {#header-adaptive-forms-core-component}
 
-Un componente Encabezado de un formulario adaptable es una sección de la parte superior del formulario que generalmente incluye el título, el logotipo o el nombre del formulario. El encabezado también puede incluir otra información, como una breve descripción de la finalidad del formulario, el nombre de la organización que lo creó o información de contacto para obtener ayuda con el formulario. El encabezado se utiliza para proporcionar a los usuarios una descripción general del formulario y proporcionar contexto para la información que están a punto de rellenar. Se utiliza para ayudar a los usuarios a comprender el propósito del formulario y cómo rellenarlo correctamente.
+El componente Encabezado de un Formulario adaptable es una sección de la parte superior del formulario que generalmente incluye el título, el logotipo o el nombre del formulario. El encabezado también puede incluir otras informaciones, como una breve descripción de la finalidad del formulario, el nombre de la organización que lo ha creado o la información de contacto para obtener ayuda. El encabezado se utiliza para proporcionar a los usuarios una descripción general del formulario y contexto para la información que están a punto de ingresar. Se utiliza para ayudar a los usuarios a conocer la finalidad del formulario y cómo rellenarlo correctamente.
 
 **Ejemplo**
 
@@ -20,15 +20,15 @@ Un componente Encabezado de un formulario adaptable es una sección de la parte 
 
 ## Uso {#reasons-to-use-header}
 
-* **Marcas**: Se puede utilizar un encabezado para mostrar el logotipo o el nombre de la organización que creó el formulario, lo que ayuda a establecer el reconocimiento y la credibilidad de la marca.
+* **Personalización de marca**: se puede utilizar un encabezado para mostrar el logotipo o el nombre de la organización que ha creado el formulario, lo que ayuda a establecer el reconocimiento y la credibilidad de la marca.
 
-* **Contexto**: Un encabezado puede proporcionar una breve descripción del propósito del formulario, lo que ayuda a los usuarios a comprender el contexto en el que se utiliza el formulario.
+* **Contexto**: un encabezado puede proporcionar una breve descripción de la finalidad del formulario, lo que ayuda a los usuarios a comprender el contexto en el que se utiliza el formulario.
 
-* **Navegación**: Un encabezado puede incluir vínculos o botones que permiten a los usuarios navegar a otras partes del sitio web o aplicación.
+* **Navegación**: un encabezado puede incluir vínculos o botones que permiten a los usuarios navegar a otras partes del sitio web o aplicación.
 
-* **Información**: Un encabezado puede incluir información de contacto o vínculos a recursos de ayuda, lo que facilita a los usuarios la asistencia si la necesitan.
+* **Información**: un encabezado puede incluir información de contacto o vínculos a recursos de ayuda, lo que facilita la obtención de asistencia, en caso de que la necesiten.
 
-* **Experiencia del usuario**: Se puede utilizar un encabezado para facilitar el uso del formulario, ya que proporciona una forma clara e intuitiva de que los usuarios accedan a los campos del formulario y los rellenen.
+* **Experiencia del usuario**: se puede utilizar un encabezado para facilitar el uso del formulario, proporcionando una forma clara e intuitiva de que los usuarios accedan a los campos del formulario y los rellenen.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -36,9 +36,9 @@ El componente principal del acordeón de Forms adaptable se publicó en febrero 
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
 |---|---|---|
-| Versión 1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
+| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
 
-Para obtener información sobre las versiones y versiones de los componentes principales, consulte la [Versiones de componentes principales](/help/adaptive-forms/version.md) documento.
+Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
 
 <!-- ## Sample Component Output {#sample-component-output}
@@ -48,35 +48,35 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal del encabezado adaptable de Forms en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de encabezado de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageheader/v1/pageheader). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia del encabezado para los visitantes con el cuadro de diálogo Configurar . También puede definir las opciones de encabezado con facilidad para que la experiencia de usuario sea perfecta.
+Puede personalizar fácilmente la experiencia del encabezado para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de encabezado con facilidad para que la experiencia del usuario sea óptima.
 
 ### Pestaña Imagen {#image-tab}
 
 Esta parte del encabezado contiene el título y la imagen del encabezado.
 
-![Ficha de imágenes](/help/adaptive-forms/assets/header_image.png)
+![Pestaña Imágenes](/help/adaptive-forms/assets/header_image.png)
 
-* **Recurso de imagen** : esta opción permite soltar un recurso como una imagen arrastrando y soltando el ratón. También puede cargar un archivo desde un sistema de archivos local utilizando la variable **Examinar** botón. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen:
-   * **Editar** - Toque o haga clic **Editar** para administrar las representaciones del recurso en el Editor de recursos.
-   * **Borrar** - Toque o haga clic **Borrar** para anular la selección de la imagen seleccionada actualmente.
-   * **Seleccionar** - Toque o haga clic **Seleccionar**  para seleccionar otra imagen de la carpeta Recursos.
+* **Recurso de imagen**: esta opción permite soltar un recurso como una imagen arrastrando y soltando con el ratón. También puede cargar un archivo desde un sistema de archivos local utilizando el botón **Examinar**. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen:
+   * **Editar**: pulse o haga clic en **Editar** para administrar las representaciones del recurso en el Editor de recursos.
+   * **Borrar**: pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
+   * **Elegir**: pulse o haga clic en **Elegir**  para seleccionar otra imagen de la carpeta Recursos.
 
-* **Título** - Esta opción se utiliza para añadir el encabezado al encabezado. El texto predefinido se incluye en el cuadro de diálogo y el usuario puede modificarlo.
-* **Vincular a** - Puede vincular el encabezado a la carpeta mediante la función **Examinar** icono.
-* **Descripción** - Una descripción es una breve explicación de texto que proporciona información adicional o aclaración sobre el propósito de una imagen específica.
-* **Tamaño (px)** - Ayuda a ajustar la longitud y anchura de la imagen aumentando o disminuyendo los píxeles.
+* **Título**: esta opción se utiliza para añadir el título al encabezado. El texto predefinido se incluye en el cuadro de diálogo y el usuario lo puede modificar.
+* **Vincular a**: puede vincular el encabezado a la carpeta mediante el icono de **Examinar**.
+* **Descripción**: una descripción es una breve explicación de texto que proporciona información adicional o aclaración sobre la finalidad de una imagen específica.
+* **Tamaño (px)**: ayuda a ajustar la longitud y anchura de la imagen aumentando o disminuyendo los píxeles.
 
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **Texto alternativo** - Esta opción se utiliza para introducir el texto que proporciona una alternativa textual corta y descriptiva para la imagen, que describe la imagen para usuarios con problemas de visión.
+* **Texto alternativo**: esta opción se utiliza para introducir el texto que proporciona una alternativa de texto breve y descriptivo de la imagen, que describe la imagen para las personas con discapacidad visual.
 
 * **La imagen es decorativa**: compruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto solo se aplica a imágenes decorativas.
 
-### Ficha Texto {#text-tab}
+### Pestaña Texto {#text-tab}
 
 Esta sección permite introducir el texto que se incluirá en el encabezado.
 
