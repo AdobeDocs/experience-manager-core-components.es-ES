@@ -1,13 +1,13 @@
 ---
 sub-product: AEM Core Components
-user-guide-title: AEM Core Components
+user-guide-title: Componentes principales de AEM
 breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
-source-git-commit: 279b96734bc8621b98b828fa80ebe693dc7904e0
+source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 79%
+source-wordcount: '369'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 79%
    + [Barra de progreso](components/progress-bar.md)
    + [Búsqueda rápida](components/quick-search.md)
    + [Separador](components/separator.md)
-   + [Compartir en redes sociales](components/sharing.md)
+   + [Compartir en medios sociales](components/sharing.md)
    + [Tabla de contenido](components/tableofcontents.md)
    + [Texto](components/text.md)
    + [Pestañas](components/tabs.md)
@@ -82,8 +82,8 @@ ht-degree: 79%
       + [Lista (v2)](components/v2/list.md)
       + [Página (v2)](components/v2/page.md)
       + [Título (v2)](components/v2/title.md)
-   + Componentes (v3) {#v3-components}
-      + [Lista (v3)](components/v3/list.md)
+   + Componentes (versión 3) {#v3-components}
+      + [Lista (versión 3)](components/v3/list.md)
 + Componentes de correo electrónico {#email}
    + [Introducción](/help/email/introduction.md)
    + [Uso de los componentes principales de correo electrónico](/help/email/using.md)
@@ -103,26 +103,27 @@ ht-degree: 79%
 + Formularios adaptables {#adaptive-forms}
    + [Introducción](/help/adaptive-forms/introduction.md)
    + [Historial de versiones](/help/adaptive-forms/version.md)
-   + Componentes adaptables de Forms {#adaptive-forms-components}
-      + [Acordeón de Forms adaptable](/help/adaptive-forms/components/accordion.md)
-      + [Botón Forms adaptable](/help/adaptive-forms/components/button.md)
-      + [Grupo de casillas de verificación de Forms adaptable](/help/adaptive-forms/components/checkbox-group.md)
-      + [Selector de fechas de Forms adaptable](/help/adaptive-forms/components/date-picker.md)
-      + [Lista desplegable de Forms adaptable](/help/adaptive-forms/components/drop-down.md)
-      + [Entrada de correo electrónico adaptable de Forms](/help/adaptive-forms/components/email-input.md)
-      + [Archivos adjuntos de Forms adaptables](/help/adaptive-forms/components/file-attachment.md)
-      + [Pestañas horizontales de Forms adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
-      + [Imagen adaptable de Forms](/help/adaptive-forms/components/image.md)
-      + [Entrada de número Forms adaptable](/help/adaptive-forms/components/number-input.md)
-      + [Panel de Forms adaptable](/help/adaptive-forms/components/panel-container.md)
-      + [Botón de opción de Forms adaptable](/help/adaptive-forms/components/radio-button.md)
-      + [Botón para restablecer Forms adaptable](/help/adaptive-forms/components/reset-button.md)
-      + [Botón de envío Forms adaptable](/help/adaptive-forms/components/submit-button.md)
-      + [Entrada de teléfono de Forms adaptable](/help/adaptive-forms/components/telephone-input.md)
-      + [Texto de Forms adaptable](/help/adaptive-forms/components/text.md)
-      + [Cuadro de texto de Forms adaptable](/help/adaptive-forms/components/text-input.md)
-      + [Título de Forms adaptable](/help/adaptive-forms/components/title.md)
-      + [Diseño del asistente de Forms adaptable](/help/adaptive-forms/components/wizard.md)
+   + Componentes de Formularios adaptables {#adaptive-forms-components}
+      + [Acordeón de Formularios adaptables](/help/adaptive-forms/components/accordion.md)
+      + [Botón de Formularios adaptables](/help/adaptive-forms/components/button.md)
+      + [Grupo de casillas de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox-group.md)
+      + [Contenedor de Forms adaptable](/help/adaptive-forms/components/form-container.md)
+      + [Selector de fecha de Formularios adaptables](/help/adaptive-forms/components/date-picker.md)
+      + [Lista desplegable de Formularios adaptables](/help/adaptive-forms/components/drop-down.md)
+      + [Entrada de correo electrónico de Formularios adaptables](/help/adaptive-forms/components/email-input.md)
+      + [Archivos adjuntos de Formularios adaptables](/help/adaptive-forms/components/file-attachment.md)
+      + [Pestañas horizontales de Formularios adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [Imagen de Formularios adaptables](/help/adaptive-forms/components/image.md)
+      + [Entrada de número de Formularios adaptables](/help/adaptive-forms/components/number-input.md)
+      + [Panel de Formularios adaptables](/help/adaptive-forms/components/panel-container.md)
+      + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)
+      + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
+      + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
+      + [Entrada de teléfono de Formularios adaptables](/help/adaptive-forms/components/telephone-input.md)
+      + [Texto de Formularios adaptables](/help/adaptive-forms/components/text.md)
+      + [Cuadro de texto de Formularios adaptables](/help/adaptive-forms/components/text-input.md)
+      + [Título de Formularios adaptables](/help/adaptive-forms/components/title.md)
+      + [Diseño del asistente de Formularios adaptables](/help/adaptive-forms/components/wizard.md)
       + [Encabezado](/help/adaptive-forms/components/header.md)
       + [Pie de página](/help/adaptive-forms/components/footer.md)
 + Desarrollo de {#developing}
