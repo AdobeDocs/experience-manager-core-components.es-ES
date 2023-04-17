@@ -3,10 +3,10 @@ title: Introducción a los componentes principales de formularios adaptables de 
 description: Cree experiencias de inscripción atractivas (formularios) con la flexibilidad de los componentes principales de formularios adaptables y suministre dicha flexibilidad con la potencia de Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 0dec0b1e1d5303a8351d16f748f064a49128cbb3
-workflow-type: ht
-source-wordcount: '1028'
-ht-degree: 100%
+source-git-commit: 7afcc06e5932d8eeb4a4c45f52c653222f142daa
+workflow-type: tm+mt
+source-wordcount: '1168'
+ht-degree: 90%
 
 ---
 
@@ -90,32 +90,41 @@ Los componentes principales de formularios adaptables tienen los siguientes requ
 
 | AEM | Complementos para AEM Forms | Componentes principales |
 |---|---|---|
-| AEM as a Cloud Service | Forms: inscripción digital | [Versión 2.20.8](/help/versions.md)+ |
+| AEM as a Cloud Service | Forms: inscripción digital | [Versión 2.20.8](version.md)+ |
+| AEM 6.5 | Complemento de Forms | [Versión 1.1.12](version.md)+ |
+
+## Configuración y creación de un formulario adaptable basado en componentes principales
+
+**AEM Forms as a Cloud Service**: Cuando crea un nuevo programa as a Cloud Service de AEM Forms, los componentes principales de Forms adaptable ya están habilitados para su entorno. Si tiene un entorno de formularios as a Cloud Service basado en el Arquetipo 39 o anterior, [Habilite los componentes principales de formularios adaptables para su entorno](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+
+Al habilitar los componentes principales para su entorno, la plantilla y la temática de lienzo **Formularios adaptables (componente principal)** se añaden a su entorno. Si la versión del SDK de AEM anterior a 2023.02.0, [asegúrese de que tiene `prerelease` indicador habilitado en su entorno](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) ya que los componentes principales de Forms adaptables formaban parte de la versión preliminar anterior a la versión 2023.02.0.
+
+Para utilizar el asistente de Forms adaptable y el editor de formularios adaptables para crear un formulario adaptable, consulte Crear un formulario adaptable ([Componentes principales](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es?)).
 
 
 ## Componentes principales de formularios adaptables {#components}
 
-Puede utilizar el [Editor de formularios adaptables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es) para crear formularios adaptables basados en los componentes principales. La versión actual de los componentes principales de formularios adaptables contiene los siguientes componentes:
+La versión actual de los componentes principales de formularios adaptables contiene los siguientes componentes:
 
-* Acordeón
-* Botón
-* Casilla de verificación Grupo
-* Selector de fecha
-* Lista desplegable
-* Entrada de correo electrónico
-* Contenedor del formulario
-* Archivo adjunto
-* Pie de página
-* Encabezado
-* Pestañas horizontales
-* Imagen
-* Entrada de número
-* Contenedor de panel
-* Botón de opción
-* Botón Restablecer
-* Botón Enviar
-* Entrada de teléfono
-* Entrada de texto
-* Texto
-* Título
-* Asistente
+* [Acordeón](/help/adaptive-forms/components/accordion.md)
+* [Botón](/help/adaptive-forms/components/button.md)
+* [Casilla de verificación Grupo](/help/adaptive-forms/components/checkbox-group.md)
+* [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
+* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
+* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
+* [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
+* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
+* [Pie de página](/help/adaptive-forms/components/footer.md)
+* [Encabezado](/help/adaptive-forms/components/header.md)
+* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
+* [Imagen](/help/adaptive-forms/components/image.md)
+* [Entrada de número](/help/adaptive-forms/components/number-input.md)
+* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
+* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
+* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
+* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
+* [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
+* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
+* [Texto](/help/adaptive-forms/components/text.md)
+* [Título](/help/adaptive-forms/components/title.md)
+* [Asistente](/help/adaptive-forms/components/wizard.md)
