@@ -3,9 +3,9 @@ title: Componente Imagen de correo electrónico
 description: El componente Imagen de correo electrónico es un componente de imagen adaptable que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1645'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| Versión 1 | Compatible | Compatible |
+| Versión 1 | Compatible  | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales de correo electrónico](/help/email/versions.md).
 
@@ -61,10 +61,6 @@ Los gráficos vectoriales escalables (SVG) son compatibles con el componente Ima
 ### Seguridad {#security}
 
 Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG original. Se llama a través de `<img src=“path-to-component”>`. Esto evita que el explorador ejecute cualquier script incrustado en el archivo SVG.
-
-## Salida del componente de ejemplo {#sample-component-output}
-
-Para experimentar con el componente Imagen de correo electrónico y ver ejemplos de sus opciones de configuración, además de la salida HTML y JSON, visite la [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_email_image)
 
 ### Detalles técnicos {#technical-details}
 

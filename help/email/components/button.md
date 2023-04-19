@@ -3,9 +3,9 @@ title: Componente Botón de correo electrónico
 description: El componente Botón de correo electrónico permite la configuración y visualización de un elemento de botón en el contenido.
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '525'
 ht-degree: 100%
 
 ---
@@ -30,13 +30,9 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| Versión 1 | Compatible | Compatible |
+| Versión 1 | Compatible  | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
-
-## Salida del componente de ejemplo {#sample-component-output}
-
-Para experimentar con el componente Botón de correo electrónico, así como ver ejemplos de sus opciones de configuración, además de la salida HTML y JSON, visite la [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_email_button)
 
 ## Detalles técnicos {#technical-details}
 

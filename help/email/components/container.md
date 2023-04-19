@@ -3,9 +3,9 @@ title: Componente Contenedor de correo electrónico
 description: El componente Contenedor de correo electrónico permite crear un contenedor para varios componentes adicionales en el contenido del correo electrónico.
 role: Architect, Developer, Admin, User
 exl-id: 3b271e95-0093-4cb1-bb83-8446ba12a821
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '797'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,9 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| Versión 1 | Compatible | Compatible |
+| Versión 1 | Compatible  | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales de correo electrónico, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
-
-## Salida del componente de ejemplo {#sample-component-output}
-
-Para experimentar el componente Contenedor de correo electrónico, así como ejemplos de sus opciones de configuración y sobre HTML y la salida JSON, visite la [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_email_container)
 
 ## Detalles técnicos {#technical-details}
 
@@ -85,7 +81,7 @@ La pestaña **Componentes permitidos** funciona del mismo modo que la del mismo 
 
 ### Pestaña Componentes predeterminados {#default-components-tab}
 
-La pestaña **Componentes predeterminados** se utiliza para definir qué componente se añade al componente cuando se coloca un tipo de recurso en particular en el contenedor, de forma similar a [cómo se definen los componentes predeterminados en la plantilla de página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html)
+La pestaña **Componentes predeterminados** se utiliza para definir qué componente se añade al componente cuando se coloca un tipo de recurso en particular en el contenedor, de forma similar a [cómo se definen los componentes predeterminados en la plantilla de página.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es)
 
 ### Pestaña Configuración de contenedor {#container-settings-tab}
 
