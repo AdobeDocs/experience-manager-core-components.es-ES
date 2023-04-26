@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de pestañas horizo
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1609'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Las razones más comunes para utilizar pestañas horizontales en un Formulario a
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del acordeón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de acordeón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
+| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
@@ -78,7 +78,7 @@ El botón **Agregar** permite seleccionar un componente para añadirlo como un p
 
 * **Icono**: el icono identifica el componente del panel en la lista. Puede pasar el ratón sobre el icono para ver el nombre completo del componente como información sobre herramientas.
 * **Descripción**: la descripción utilizada como texto del panel. De forma predeterminada, el nombre del componente seleccionado para el panel.
-* **Eliminar** - Toque o haga clic para eliminar el panel del componente de ficha horizontal.
+* **Eliminar**: toque o haga clic para eliminar el panel del componente de pestañas horizontales.
 * **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de los paneles.
 
 ### Pestaña Contenido de ayuda {#help-content}
@@ -101,10 +101,10 @@ El botón **Agregar** permite seleccionar un componente para añadirlo como un p
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente Forms adaptable, puede establecer lo siguiente:
+El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente de formularios adaptables, puede establecer lo siguiente:
 
-* Componentes principales que un creador de formularios puede agregar a las fichas horizontales del editor de Forms adaptable
-* Nombres simples para estilos (clases CSS) que se pueden aplicar en el cuadro de diálogo de propiedades del componente de pestañas horizontales en el editor de Forms adaptable.
+* Los componentes principales que un creador de formularios puede añadir a las pestañas horizontales del editor de formularios adaptables.
+* Nombres simples para estilos (clases CSS) que pueden aplicarse en el cuadro de diálogo de propiedades del componente de pestañas horizontales en el editor de formularios adaptables.
 
 Esto ayuda a que el proceso de creación y personalización de formularios sea más sencillo y eficaz.
 
@@ -116,9 +116,9 @@ La pestaña **Componentes permitidos** permite que el editor de plantillas defin
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar los estilos CSS de un componente. El componente principal de las pestañas horizontales de formularios adaptable es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de las pestañas horizontales de formularios adaptable es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
-![Ficha Estilo](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
+![Pestaña Estilo](/help/adaptive-forms/assets/horizontaltabs_designstyletab.png)
 
 * **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de las pestañas horizontales de formularios adaptable.
 
