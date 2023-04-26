@@ -4,9 +4,9 @@ description: El componente Acordeón de componentes principales permite crear un
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1068'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 ## Vinculación profunda a un panel {#deep-linking}
 
-El Acordeón, [Carrusel,](carousel.md) y [Componentes de pestañas](tabs.md) admite la vinculación directa a un panel dentro del componente.
+Los componentes Carrusel, [Pestañas](tabs.md) y [Acordeón](carousel.md) admiten el enlace directo a un panel dentro del componente.
 
 Para ello:
 
