@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
 source-git-commit: ca61d71a2644465e74249058157d8dea2aa71352
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2198'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -87,7 +87,7 @@ La dependencia de componentes principales solo se agrega para versiones de AEM q
 >
 >Se recomienda añadir el perfil `adobe-public` al archivo Maven `settings.xml` para añadir automáticamente repo.adobe.com al proceso de compilación de Maven.
 >
->Un ejemplo de POM [se puede encontrar aquí](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=en).
+>Un ejemplo de POM [se puede encontrar aquí](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17454.html?lang=es).
 
 ### Propiedades {#properties}
 
@@ -101,7 +101,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el tipo d
 | `groupId` |  | ID del grupo base de Maven (p. ej. `"com.mysite"`). |
 | `package` | *`${groupId}`* | Paquete de origen de Java (p. ej. `"com.mysite"`). |
 | `version` | `1.0-SNAPSHOT` | Versión del proyecto (p. ej. `1.0-SNAPSHOT`). |
-| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
+| `aemVersion` | `cloud` | Versión de AEM de destino (puede ser `cloud` para [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es); o `6.5.0` o `6.4.4` para [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea). |
 | `sdkVersion` | `latest` | Cuando `aemVersion=cloud` se puede especificar una versión de [SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es) (p. ej. `2020.02.2265.20200217T222518Z-200130`). |
 | `includeDispatcherConfig` | `y` | Incluye una configuración de Dispatcher para la nube o para AMS/en línea, según el valor de `aemVersion` (puede ser `y` o `n`). |
 | `frontendModule` | `general` | Incluye un módulo de versión de front-end de Webpack que genera las bibliotecas de cliente (puede ser `general` o `none` para sitios normales; puede ser `angular` o `react` para una aplicación de una sola página que implementa el [Editor SPA](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/editor-overview.html?lang=es)). |
@@ -115,7 +115,7 @@ Las siguientes propiedades están disponibles al crear un proyecto con el tipo d
 | `datalayer` | `y` | Activar la integración con la [Capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Habilite la compatibilidad con [AMP](/help/developing/amp.md) para plantillas de proyecto generadas. |
 | `enableDynamicMedia` | `n` | Habilita los componentes básicos de Dynamic Media en la configuración de directivas de proyecto y activa las funciones de Dynamic Media en la directiva del componente de imagen principal. |
-| `enableSSR` | `n` | Opción para habilitar SSR para el proyecto front-end |
+| `enableSSR` | `n` | Opción para habilitar SSR para el proyecto front-end. |
 | `precompiledScripts` | `n` | Opción para [precompilar](/help/developing/archetype/precompiled-bundled-scripts.md) los scripts del lado del servidor de `ui.apps` y adjuntarlos a la versión como un artefacto de paquete secundario en el proyecto `ui.apps`. `aemVersion` debe establecerse en `cloud`. |
 
 >[!NOTE]
