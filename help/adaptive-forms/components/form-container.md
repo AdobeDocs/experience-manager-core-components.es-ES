@@ -3,9 +3,9 @@ title: 'Componente principal de formularios adaptables: contenedor de formulario
 description: Agregue un formulario adaptable a una página web.
 role: Architect, Developer, Admin, User
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -39,11 +39,11 @@ Existen varias razones por las que se puede agregar un formulario a un sitio web
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del acordeón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de acordeón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
+| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 <!-- ## Sample Component Output {#sample-component-output}
@@ -62,7 +62,7 @@ Puede personalizar fácilmente la experiencia del contenedor de formularios para
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **Servicios de precarga** - Esta opción permite al usuario seleccionar un servicio de rellenado previo para recuperar datos cuando se procesa el formulario adaptable. Más información acerca de [cómo crear y configurar un servicio de rellenado previo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=es#aem-forms-custom-prefill-service).
+* **Servicios de rellenado previo**: esta opción permite al usuario seleccionar un servicio de rellenado previo para recuperar datos cuando se procesa el formulario adaptable. Más información acerca de [cómo crear y configurar un servicio de rellenado previo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=es#aem-forms-custom-prefill-service).
 
 * **Categoría de biblioteca de cliente**: el usuario puede configurar la biblioteca JavaScript personalizada por formulario adaptable. Se recomienda mantener solo las funciones reutilizables en la biblioteca, que tienen dependencia de las bibliotecas de terceros jquery y underscore.js.
 
