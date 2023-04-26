@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de entrada de texto
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1750'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Existen varias razones para utilizar el componente de entrada de texto en un for
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del acordeón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de acordeón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posterior |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posterior pero inferior a 2.0.0. |
+| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
@@ -124,7 +124,7 @@ El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS 
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar los estilos CSS de un componente. El componente principal de cuadro de texto de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de cuadro de texto de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
@@ -136,5 +136,5 @@ La pestaña se utiliza para definir y administrar los estilos CSS de un componen
 
 La pestaña Formatos permite especificar formatos de número predeterminados y personalizados.
 
-![Ficha Formato](/help/adaptive-forms/assets/telephoneinput_format.png)
+![Pestaña Formato](/help/adaptive-forms/assets/telephoneinput_format.png)
 
