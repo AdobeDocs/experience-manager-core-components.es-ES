@@ -4,9 +4,9 @@ description: El componente Pestañas permite crear varias pestañas para organiz
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1033'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 ## Vinculación profunda a un panel {#deep-linking}
 
-Las fichas, [Carrusel,](carousel.md) y [Componentes de acordeón](accordion.md) admite la vinculación directa a un panel dentro del componente.
+Los componentes [Carrusel,](carousel.md) Pestañas y [Acordeón](accordion.md) admiten el enlace directo a un panel dentro del componente.
 
 Para ello:
 
