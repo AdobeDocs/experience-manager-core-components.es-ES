@@ -4,9 +4,9 @@ description: El componente Carrusel permite al autor del contenido presentar el 
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1312'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 ## Vinculación profunda a un panel {#deep-linking}
 
-El carrusel, [Fichas,](tabs.md) y [Componentes de acordeón](accordion.md) admite la vinculación directa a un panel dentro del componente.
+Los componentes Carrusel, [Pestañas](tabs.md) y [Acordeón](accordion.md) admiten el enlace directo a un panel dentro del componente.
 
 Para ello:
 
@@ -102,13 +102,13 @@ En la pestaña **Propiedades**, el autor del contenido puede configurar la trans
 
 En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
-* **Etiqueta** : valor de un atributo aria-label para el carrusel, el cual describe el contenido del carrusel
-* **Anterior** : valor de un atributo aria-label para la etiqueta de botón anterior de la navegación del carrusel
-* **Siguiente** : valor de un atributo aria-label para la etiqueta de botón siguiente de la navegación del carrusel
-* **Reproducir** : valor de un atributo aria-label para la etiqueta del botón de reproducción de la navegación del carrusel
-* **Pausar** : valor de un atributo aria-label para la etiqueta del botón de pausa de la navegación del carrusel
-* **Tablist** : valor de un atributo aria-label para la etiqueta de lista de elementos de la navegación del carrusel
-* **Establecer la etiqueta aria del elemento en su título** : Si se selecciona, esta opción establece automáticamente el título de los elementos de carrusel en su descripción de aria-label.
+* **Etiqueta**: valor de un atributo de la etiqueta aria para el carrusel, el cual describe su contenido
+* **Anterior**: valor de un atributo de la etiqueta aria para la etiqueta de botón anterior de la navegación del carrusel
+* **Siguiente**: valor de un atributo de la etiqueta aria para la etiqueta de botón siguiente de la navegación del carrusel
+* **Reproducción**: valor de un atributo de la etiqueta aria para la etiqueta del botón de reproducción de la navegación del carrusel
+* **Pausa**: valor de un atributo de la etiqueta aria para la etiqueta del botón de pausa de la navegación del carrusel
+* **Lista de pestañas**: valor de un atributo de la etiqueta aria para la etiqueta de lista de elementos de la navegación del carrusel
+* **Establecer la etiqueta aria del elemento en su título**: si está activada, esta opción establece automáticamente el título de los elementos de carrusel en su descripción de la etiqueta aria.
 
 ## Seleccionar panel {#select-panel}
 
@@ -137,7 +137,7 @@ La pestaña **Propiedades** se utiliza para definir la configuración predetermi
 ![Cuadro de diálogo de diseño del componente Carrusel](/help/assets/carousel-design.png)
 
 * **Diapositivas de transición automática**: define si, de forma predeterminada, la opción para avanzar automáticamente el carrusel a la siguiente diapositiva está activada cuando el autor de contenido añade el componente de carrusel a una página.
-* **Anteponer elementos de control** : cuando se selecciona, los elementos de control se colocan delante de los elementos del carrusel para mejorar la accesibilidad.
+* **Prefijar elementos de control**: si está activada, los elementos de control se colocan delante de los elementos del carrusel para mejorar la accesibilidad.
 
 ### Pestaña Componentes permitidos {#allowed-components-tab}
 
