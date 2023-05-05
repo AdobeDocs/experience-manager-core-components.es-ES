@@ -4,9 +4,9 @@ description: Cree experiencias de inscripción atractivas (formularios) con la f
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1169'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -102,15 +102,15 @@ Los componentes principales de formularios adaptables tienen los siguientes requ
 | AEM | Complementos para AEM Forms | Componentes principales |
 |---|---|---|
 | AEM as a Cloud Service | Forms: inscripción digital | [Versión 2.20.8](version.md)+ |
-| AEM 6.5 | Complemento de Forms | [Versión 1.1.12](version.md)+ |
+| AEM 6.5 | Complemento para Formularios | [Versión 1.1.12](version.md)+ |
 
 ### Crear un formulario adaptable basado en componentes principales
 
-**AEM Forms as a Cloud Service:** Cuando crea un nuevo programa as a Cloud Service de AEM Forms, los componentes principales de Forms adaptable ya están habilitados para su entorno. Si tiene un entorno de formularios as a Cloud Service basado en el Arquetipo 39 o anterior, [Habilite los componentes principales de formularios adaptables para su entorno](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
+**AEM Forms as a Cloud Service:** cuando crea un nuevo programa as a Cloud Service de AEM Forms, los componentes principales del formulario adaptable ya están habilitados para su entorno. Si tiene un entorno de formularios as a Cloud Service basado en el Arquetipo 39 o anterior, [Habilite los componentes principales de formularios adaptables para su entorno](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/setup-local-development-environment.html?lang=es#enable-adaptive-forms-core-components-for-an-existing-aem-archetype-based-project).
 
-Al habilitar los componentes principales para su entorno, la plantilla y la temática de lienzo **Formularios adaptables (componente principal)** se añaden a su entorno. Si la versión del SDK de AEM anterior a 2023.02.0, [asegúrese de que tiene `prerelease` indicador habilitado en su entorno](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) ya que los componentes principales de Forms adaptables formaban parte de la versión preliminar anterior a la versión 2023.02.0.
+Al habilitar los componentes principales para su entorno, la plantilla y la temática de lienzo **Formularios adaptables (componente principal)** se añaden a su entorno. Si la versión del SDK de AEM es anterior a 2023.02.0, [asegúrese de que tiene `prerelease` el indicador habilitado en su entorno](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features), ya que los componentes principales de los formularios adaptables formaban parte de la versión preliminar anterior a la versión 2023.02.0.
 
-Para utilizar el asistente de Forms adaptable y el editor de formularios adaptables para crear un formulario adaptable, consulte Crear un formulario adaptable ([Componentes principales](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es?)).
+Para utilizar el asistente del formulario adaptable y el editor de formularios adaptables para crear un formulario adaptable, consulte Crear un formulario adaptable ([Componentes principales](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)).
 
 
 
