@@ -5,9 +5,9 @@ breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 1ac6ed00c19a8ae00e6a53d18419890a88235158
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 99%
       + [Acordeón de Formularios adaptables](/help/adaptive-forms/components/accordion.md)
       + [Botón de Formularios adaptables](/help/adaptive-forms/components/button.md)
       + [Grupo de casillas de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox-group.md)
-      + [Contenedor de Forms adaptable](/help/adaptive-forms/components/form-container.md)
+      + [Contenedor de formulario adaptable](/help/adaptive-forms/components/form-container.md)
       + [Selector de fecha de Formularios adaptables](/help/adaptive-forms/components/date-picker.md)
       + [Lista desplegable de Formularios adaptables](/help/adaptive-forms/components/drop-down.md)
       + [Entrada de correo electrónico de Formularios adaptables](/help/adaptive-forms/components/email-input.md)
