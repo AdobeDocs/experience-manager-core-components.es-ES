@@ -5,9 +5,9 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: fac7c40919d2c31a8004bd1f47500ac44f99fb61
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1192'
+ht-degree: 100%
 
 ---
 
@@ -96,7 +96,7 @@ La dependencia de componentes principales solo se agrega para versiones de AEM q
 | `datalayer` | `y` | Activar la integración con la [Capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md). |
 | `amp` | `n` | Habilite la compatibilidad con [AMP](/help/developing/amp.md) para plantillas de proyecto generadas. |
 | `enableDynamicMedia` | `n` | Habilita los componentes básicos de Dynamic Media en la configuración de directivas de proyecto y activa las funciones de Dynamic Media en la directiva del componente de imagen principal. |
-| `enableSSR` | `n` | Opción para habilitar SSR para el proyecto front-end |
+| `enableSSR` | `n` | Opción para habilitar SSR para el proyecto front-end. |
 | `precompiledScripts` | `n` | Opción para [precompilar](/help/developing/archetype/precompiled-bundled-scripts.md) los scripts del lado del servidor de `ui.apps` y adjuntarlos a la versión como un artefacto de paquete secundario en el proyecto `ui.apps`. `aemVersion` debe establecerse en `cloud`. |
 | `includeFormsheadless` | `n` | Incluye las dependencias de los [Componentes principales de Forms](https://github.com/adobe/aem-core-forms-components), `ui.frontend.react.forms.af`, y artefactos sin encabezado. |
 
