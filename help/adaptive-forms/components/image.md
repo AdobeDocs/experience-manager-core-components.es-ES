@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de imagen de Formul
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '978'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de botón Enviar de
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 100%
 

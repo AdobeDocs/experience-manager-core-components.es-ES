@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de selector de fech
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1666'
 ht-degree: 100%
 

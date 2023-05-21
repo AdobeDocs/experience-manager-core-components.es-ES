@@ -5,8 +5,8 @@ feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: de26b310-a294-42d6-a0db-91f6036a328c
 source-git-commit: 60ec9c1643abce0ee75da5368269928476390440
-workflow-type: ht
-source-wordcount: '710'
+workflow-type: tm+mt
+source-wordcount: '707'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ A continuación se muestra una tabla que describe los analizadores que se ejecut
 | `aem-env-var` | Comprueba el uso de eVars env según la [guía de nomenclatura de variables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/deploying/configuring-osgi.html?lang=es#variable-naming)<p> </p>`[ERROR] Configuration org.apache.felix.webconsole.internal.servlet.OsgiManager: Value for property 'port' must not use env vars prefixed with INTERNAL_ or ADOBE_ (com.mysite1:my-site-1.all:1.0.0-SNAPSHOT\|com.mysite1:my-site-1.ui.config:1.0.0-SNAPSHOT)` | Sí | Sí |
 | `content-package-validation` | Ejecuta los validadores de filevault. De forma predeterminada, jackrabbit-docviewparser está habilitado, así que comprueba la sintaxis de contenido bien formada del xml en los paquetes que se instalarán durante la implementación.<p> </p>`[main] WARN org.apache.sling.feature.analyser.task.impl.CheckContentPackages - ValidationViolation: "jackrabbit-docviewparser: Invalid XML found: The reference to entity "se" must end with the ';' delimiter.", filePath=jcr_root/apps/somename/configs/com.adobe.test.Invalid.xml, nodePath=/apps/somename/configs/com.adobe.test.Invalid`<p> </p>Como solución, compruebe si hay problemas con xml en el archivo denominado por el analizador. | Sí | Sí |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Problemas conocidos
 

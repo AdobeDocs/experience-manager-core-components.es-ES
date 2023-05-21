@@ -4,7 +4,7 @@ description: El componente Separador crea un salto entre los componentes de una 
 role: Architect, Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 100%
 
@@ -26,7 +26,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+| Versión 1 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
 
 ## Salida del componente de ejemplo {#sample-component-output}
 

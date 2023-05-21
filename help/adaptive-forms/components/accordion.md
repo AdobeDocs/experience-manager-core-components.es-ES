@@ -4,7 +4,7 @@ description: Utilice el acordeón para organizar y simplificar un formulario lar
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 0cfdc56fe5508e156eee2ae818be311748af7247
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1677'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: El componente principal Contenedor de formularios permite crear for
 role: Architect, Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '955'
 ht-degree: 100%
 

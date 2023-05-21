@@ -4,7 +4,7 @@ description: Descubra cómo los componentes principales utilizan el servlet de i
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 420e6085da57e5dc6deb670a5f0498b018441cb8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 

@@ -3,7 +3,7 @@ title: 'Componente principal de formularios adaptables: Pestañas en la parte su
 description: Uso o personalización del componente principal de formularios adaptables Pestañas en la parte superior.
 role: Architect, Developer, Admin, User
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 

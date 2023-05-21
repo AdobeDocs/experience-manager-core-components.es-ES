@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de entrada de texto
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1750'
 ht-degree: 100%
 

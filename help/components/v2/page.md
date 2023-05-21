@@ -2,13 +2,13 @@
 title: Componente Página (Versión 2)
 description: El componente Página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 role: Architect, Developer, Admin, User
-source-git-commit: e5251010ca41025eb2bb56b66164ecf4cc0145c8
-workflow-type: ht
+exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
+source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+workflow-type: tm+mt
 source-wordcount: '645'
 ht-degree: 100%
 
 ---
-
 
 # Componente Página  (Versión 2) {#page-component}
 
@@ -75,7 +75,7 @@ Las bibliotecas se pueden configurar para los campos **Bibliotecas de cliente** 
 * Para quitar un campo, pulse el icono de la papelera que hay junto al campo que se va a eliminar o haga clic en él.
 * Para reorganizar el orden de carga, arrastre el controlador situado junto al campo que desee mover.
 
-Para obtener más información sobre el uso de bibliotecas del lado del cliente, consulte [Uso de bibliotecas del lado del cliente](https://experienceleague.adobe.com/docs/experience-manager-65/developing/introduction/clientlibs.html?lang=es).
+Para obtener más información sobre el uso de bibliotecas del lado del cliente, consulte [Uso de bibliotecas del lado del cliente](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/using/clientlibs.html).
 
 >[!CAUTION]
 >

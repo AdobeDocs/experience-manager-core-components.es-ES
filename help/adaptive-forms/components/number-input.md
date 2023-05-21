@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de entrada de núme
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 100%
 

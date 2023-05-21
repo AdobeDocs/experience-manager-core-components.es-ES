@@ -4,7 +4,7 @@ description: El componente principal Contenedor permite crear un contenedor para
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 9767a3a10cb9a77f385edc0ac3fb00096c0087af
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '790'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+| Versión 1 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -84,11 +84,11 @@ La pestaña Componentes predeterminados se utiliza para definir qué componente 
 ![Pestaña Fondo del cuadro de diálogo de diseño del componente Contenedor](/help/assets/container-design-background.png)
 
 * **Imagen de fondo**
-   * **Habilitar imagen de fondo**: seleccione esta opción para permitir que el autor del contenido defina una imagen de fondo para el contenedor.
+   * **Habilitar la imagen de fondo**: seleccione esta opción para permitir que el autor del contenido defina una imagen de fondo para el contenedor.
 * **Color de fondo**
-   * **Activar color de fondo**: seleccione esta opción para permitir que el autor del contenido defina un color de fondo para el contenedor.
+   * **Habilitar el color de fondo**: seleccione esta opción para permitir que el autor del contenido defina un color de fondo para el contenedor.
    * **Solo muestras**: seleccione esta opción para permitir que el autor del contenido seleccione únicamente muestras de color predefinidas para el color de fondo del contenedor.
-      * Solo está disponible cuando se selecciona **Habilitar color de fondo**
+      * Solo está disponible cuando se selecciona **Habilitar el color de fondo**
 * **Muestras permitidas**: defina los colores predefinidos desde los que el autor del contenido puede seleccionar el color de fondo del contenedor
    * Utilice el botón **Añadir** para añadir una muestra de color predefinida. Una vez añadida, se añade una entrada a la lista, que contiene las siguientes columnas:
    * **Valor**: defina el color manualmente mediante valores RGB.
