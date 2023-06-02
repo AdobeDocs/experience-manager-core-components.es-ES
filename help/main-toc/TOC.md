@@ -1,0 +1,156 @@
+---
+sub-product: AEM Core Components
+user-guide-title: Componentes principales de AEM
+breadcrumb-title: Guía de componentes principales
+user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
+feature-set: Experience Manager Sites
+source-git-commit: 945ca958481f86d166c4d78d63ecd5011bc15f97
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 100%
+
+---
+
+
+# Ayuda de los componentes principales de AEM {#using}
+
++ [Introducción a los componentes principales ](/help/introduction.md)
++ [Rutas para alcanzar el éxito](/help/developing/success.md)
++ [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_es)
++ [Versiones](/help/versions.md)
++ Introducción {#get-started}
+   + [Crear con componentes principales](/help/get-started/authoring.md)
+   + [Uso de componentes principales](/help/get-started/using.md)
+   + [Funciones de localización](/help/get-started/localization.md)
++ Los componentes de gestión de contenidos web (WCM) {#wcm-components}
+   + [Acordeón](/help/components/accordion.md)
+   + [Ruta de navegación](/help/components/breadcrumb.md)
+   + [Botón](/help/components/button.md)
+   + [Carrusel](/help/components/carousel.md)
+   + [Contenedor](/help/components/container.md)
+   + [Fragmento de contenido](/help/components/content-fragment-component.md)
+   + [Lista de fragmentos de contenido](/help/components/content-fragment-list.md)
+   + [Descargar](/help/components/download.md)
+   + [Incrustar](/help/components/embed.md)
+   + [Fragmento de experiencias](/help/components/experience-fragment.md)
+   + [Imagen](/help/components/image.md)
+   + [Navegación por idiomas](/help/components/language-navigation.md)
+   + [Lista](/help/components/list.md)
+   + [Navegación](/help/components/navigation.md)
+   + [Página](/help/components/page.md)
+   + [Visualizador de PDF](/help/components/pdf-viewer.md)
+   + [Barra de progreso](/help/components/progress-bar.md)
+   + [Búsqueda rápida](/help/components/quick-search.md)
+   + [Separador](/help/components/separator.md)
+   + [Compartir en medios sociales](/help/components/sharing.md)
+   + [Tabla de contenido](/help/components/tableofcontents.md)
+   + [Texto](/help/components/text.md)
+   + [Pestañas](/help/components/tabs.md)
+   + [Teaser](/help/components/teaser.md)
+   + [Título](/help/components/title.md)
+   + Componentes de formulario {#forms}
+      + [Botón de formulario](/help/components/forms/form-button.md)
+      + [Contenedor del formulario](/help/components/forms/form-container.md)
+      + [Formulario oculto](/help/components/forms/form-hidden.md)
+      + [Opciones de formulario](/help/components/forms/form-options.md)
+      + [Texto de formulario](/help/components/forms/form-text.md)
+   + Componentes (v1) {#v1-components}
+      + [Ruta de navegación (v1)](/help/components/v1/breadcrumb-v1.md)
+      + [Botón (v1)](/help/components/v1/button.md)
+      + [Lista de fragmentos de contenido (v1)](/help/components/v1/content-fragment-list.md)
+      + [Descargar (v1)](/help/components/v1/download.md)
+      + [Incrustado (v1)](/help/components/v1/embed.md)
+      + [Fragmento de experiencia (v1)](/help/components/v1/experience-fragment.md)
+      + [Imagen (v1)](/help/components/v1/image-v1.md)
+      + [Navegación por idiomas (v1)](/help/components/v1/language-navigation.md)
+      + [Lista (v1)](/help/components/v1/list-v1.md)
+      + [Navegación (v1)](/help/components/v1/navigation.md)
+      + [Página (v1)](/help/components/v1/page-v1.md)
+      + [Teaser (v1)](/help/components/v1/teaser.md)
+      + [Búsqueda rápida (v1)](/help/components/v1/quick-search.md)
+      + [Texto (v1)](/help/components/v1/text-v1.md)
+      + [Título (v1)](/help/components/v1/title-v1.md)
+      + Componentes de formulario (v1) {#v1-forms}
+         + [Botón del formulario (v1)](/help/components/v1/form-button-v1.md)
+         + [Contenedor de formulario (v1)](/help/components/v1/form-container-v1.md)
+         + [Formulario oculto (v1)](/help/components/v1/form-hidden-v1.md)
+         + [Opciones de formulario (v1)](/help/components/v1/form-options-v1.md)
+         + [Texto de formulario (v1)](/help/components/v1/form-text-v1.md)
+   + Componentes (v2) {#v2-components}
+      + [Ruta de exploración (v2)](/help/components/v2/breadcrumb.md)
+      + [Imagen (v2)](/help/components/v2/image.md)
+      + [Lista (v2)](/help/components/v2/list.md)
+      + [Página (v2)](/help/components/v2/page.md)
+      + [Título (v2)](/help/components/v2/title.md)
+   + Componentes (versión 3) {#v3-components}
+      + [Lista (versión 3)](/help/components/v3/list.md)
++ Componentes de correo electrónico {#email}
+   + [Introducción](/help/email/introduction.md)
+   + [Uso de los componentes principales de correo electrónico](/help/email/using.md)
+   + [Variables de campaña](/help/email/campaign-variables.md)
+   + [Versiones](/help/email/versions.md)
+   + Los componentes de correo electrónico {#components}
+      + [Página](/help/email/components/page.md)
+      + [Contenedor](/help/email/components/container.md)
+      + [Título](/help/email/components/title.md)
+      + [Texto](/help/email/components/text.md)
+      + [Imagen](/help/email/components/image.md)
+      + [Botón](/help/email/components/button.md)
+      + [Teaser](/help/email/components/teaser.md)
+      + [Fragmento de experiencias](/help/email/components/experience-fragment.md)
+      + [Fragmento de contenido](/help/email/components/content-fragment.md)
+      + [Segmentación](/help/email/components/segmentation.md)
++ Formularios adaptables {#adaptive-forms}
+   + [Introducción](/help/adaptive-forms/introduction.md)
+   + [Historial de versiones](/help/adaptive-forms/version.md)
+   + Componentes de Formularios adaptables {#adaptive-forms-components}
+      + [Acordeón de Formularios adaptables](/help/adaptive-forms/components/accordion.md)
+      + [Botón de Formularios adaptables](/help/adaptive-forms/components/button.md)
+      + [Grupo de casillas de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox-group.md)
+      + [Contenedor de formulario adaptable](/help/adaptive-forms/components/form-container.md)
+      + [Selector de fecha de Formularios adaptables](/help/adaptive-forms/components/date-picker.md)
+      + [Lista desplegable de Formularios adaptables](/help/adaptive-forms/components/drop-down.md)
+      + [Entrada de correo electrónico de Formularios adaptables](/help/adaptive-forms/components/email-input.md)
+      + [Archivos adjuntos de Formularios adaptables](/help/adaptive-forms/components/file-attachment.md)
+      + [Pestañas horizontales de Formularios adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
+      + [Imagen de Formularios adaptables](/help/adaptive-forms/components/image.md)
+      + [Entrada de número de Formularios adaptables](/help/adaptive-forms/components/number-input.md)
+      + [Panel de Formularios adaptables](/help/adaptive-forms/components/panel-container.md)
+      + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)
+      + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
+      + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
+      + [Entrada de teléfono de Formularios adaptables](/help/adaptive-forms/components/telephone-input.md)
+      + [Texto de Formularios adaptables](/help/adaptive-forms/components/text.md)
+      + [Cuadro de texto de Formularios adaptables](/help/adaptive-forms/components/text-input.md)
+      + [Título de Formularios adaptables](/help/adaptive-forms/components/title.md)
+      + [Diseño del asistente de Formularios adaptables](/help/adaptive-forms/components/wizard.md)
+      + [Encabezado](/help/adaptive-forms/components/header.md)
+      + [Pie de página](/help/adaptive-forms/components/footer.md)
++ Desarrollo de {#developing}
+   + [Desarrollo de componentes principales](/help/developing/overview.md)
+   + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
+   + [Tutorial para desarrolladores de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)
+   + [Personalización de componentes principales](/help/developing/customizing.md)
+   + [Instrucciones de los componentes](/help/developing/guidelines.md)
+   + [Compatibilidad con AMP](/help/developing/amp.md)
+   + [Configuraciones según el contexto](/help/developing/context-aware-configs.md)
+   + [Inclusión de bibliotecas de cliente](/help/developing/including-clientlibs.md)
+   + [El servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md)
+   + [Entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md)
+   + Capa de datos del cliente de Adobe {#data-layer}
+      + [Información general de la capa de datos](/help/developing/data-layer/overview.md)
+      + [Integraciones con la capa de datos](/help/developing/data-layer/integrations.md)
+      + [Ampliación de la capa de datos](/help/developing/data-layer/extending.md)
+   + Tipo de archivo del proyecto AEM {#archetype}
+      + [Información general de tipo de archivo](/help/developing/archetype/overview.md)
+      + [Uso del tipo de archivo](/help/developing/archetype/using.md)
+      + [Módulo principal](/help/developing/archetype/core.md)
+      + [Módulo ui.apps](/help/developing/archetype/uiapps.md)
+      + [Scripts agrupados precompilados](/help/developing/archetype/precompiled-bundled-scripts.md)
+      + [Módulo ui.content](/help/developing/archetype/uicontent.md)
+      + [Módulo ui.frontend.general](/help/developing/archetype/uifrontend.md)
+      + [Módulo ui.frontend.react](/help/developing/archetype/uifrontend-react.md)
+      + [Módulo ui.frontend.angular](/help/developing/archetype/uifrontend-angular.md)
+      + [Módulo ui.testing](/help/developing/archetype/uitests.md)
+      + [Módulo it.testing](/help/developing/archetype/ittests.md)
+      + [Complemento Maven de Build Analyzer](/help/developing/archetype/build-analyzer-maven-plugin.md)
