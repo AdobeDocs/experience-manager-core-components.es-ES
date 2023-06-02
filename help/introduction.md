@@ -3,14 +3,14 @@ title: Introducción a los componentes principales
 description: Obtenga soluciones a problemas con los componentes principales y permita que otros creen elementos dentro de AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 290fe27ef28e0ae30c3fa50672b550ebf11cadc3
+source-git-commit: b7b06b5760e233756a0e8906251fa3b8ab401908
 workflow-type: tm+mt
 source-wordcount: '965'
 ht-degree: 100%
 
 ---
 
-# Introducción a los componentes principales {#core-components-introduction}
+# Introducción a los componentes principales{#core-components-introduction}
 
 En Adobe Experience Manager, los componentes son los elementos estructurales que constituyen el contenido de las páginas creadas. Los componentes siempre han sido un elemento fundamental de la experiencia de AEM, ya que la creación de páginas se simplifica pero mantiene su potencia para el autor; asimismo, el desarrollo de componentes es flexible y extensible para el desarrollador.
 
@@ -107,7 +107,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 | Componentes principales  Edición | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
 |---------|---------|---------|---------|---------|
-| [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Continua | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
+| [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Continua | 6.5.14.0+ * | 8, 11 | 3.3.9+ |
 
 >[!NOTE]
 >
