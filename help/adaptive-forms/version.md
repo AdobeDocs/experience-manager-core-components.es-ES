@@ -3,10 +3,10 @@ title: Versiones de los componentes principales de AEM Forms
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: aaf083cc4b479a97f750844c742581e1b243e036
+source-git-commit: 8648a8dabd1999c9d3bbb76bb4f04f16eafda650
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 98%
 
 ---
 
@@ -25,7 +25,7 @@ La tabla siguiente presenta una lista de las versiones de los componentes princi
 | [2.0.6](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | En esta versión se han introducido varios formatos para el componente principal de entrada numérica. | Continua | 8, 11 | 08 de febrero de 2023 |
 | [2.0.4](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.6) | En esta versión se ha introducido compatibilidad con los componentes principales de AEM as a Cloud Service. | Continua | 8, 11 | 30 de enero de 2023 |
 
-## Historial de versiones de AEM 6.5 Forms On-Premise y AMS {#aem-as-form-version-history}
+## AEM Historial de versiones de Forms de.5 {#aem-as-form-version-history}
 
 La tabla siguiente presenta una lista de las versiones de los componentes principales compatibles con AEM 6.5 Forms On-Premise y AMS disponibles en [GitHub, junto con detalles completos de sus versiones](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12).
 
