@@ -5,7 +5,7 @@ breadcrumb-title: Guía de componentes principales
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 945ca958481f86d166c4d78d63ecd5011bc15f97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '369'
 ht-degree: 100%
 
