@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de botón de formul
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
 source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1406'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ El botón de un formulario adaptable es un elemento de la IU que permite a los u
 
 El editor de reglas de formularios adaptables permite a los usuarios establecer distintas acciones para el componente de botón. Estas acciones incluyen abrir un sitio web, mostrar u ocultar componentes de formulario, agregar una instancia de un panel o componente, enviar o restablecer un formulario, etc.
 
-Los componentes de la función Forms adaptable independientes para la [Botón Enviar](/help/adaptive-forms/components/submit-button.md) y [Botón Restablecer](/help/adaptive-forms/components/reset-button.md), lo que permite a los usuarios enviar o restablecer convenientemente un formulario. El componente Botón se puede configurar de forma flexible para ejecutar estas acciones según necesidades específicas.
+Los Formularios adaptables incorporan componentes independientes para el [botón Enviar](/help/adaptive-forms/components/submit-button.md) y el [botón Restablecer](/help/adaptive-forms/components/reset-button.md), lo que permite a los usuarios enviar o restablecer cómodamente un formulario. El componente Botón se puede configurar de forma flexible para ejecutar estas acciones según necesidades específicas.
 
 Los usuarios pueden acceder a la lista completa de acciones compatibles con el componente de botón mediante el editor de reglas de formularios adaptables. El editor de reglas permite a los usuarios crear reglas que se activan mediante varios eventos, como cuando se hace clic en un botón, se carga un formulario o cambia un valor de campo. Estas reglas se pueden emplear para diversas acciones, como mostrar u ocultar componentes, configurar valores de campo o enviar el formulario.
 
