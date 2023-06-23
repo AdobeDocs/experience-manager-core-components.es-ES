@@ -4,9 +4,9 @@ description: El componente Fragmento de experiencia de correo electrónico permi
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: e5afead6bfdcc59cbd6da888f4e1e36038c6c0f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '882'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| Versión 1 | Compatible  | - |
+| Versión 1 | Compatible | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales de correo electrónico, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
 
@@ -107,7 +107,7 @@ El componente Fragmento de experiencia de correo electrónico intentará encontr
 
 ## Detalles técnicos {#technical-details}
 
-Lea la última versión [Documentación técnica sobre el componente Fragmento de experiencia](https://www.adobe.com/go/aem_cmp_xf_v1).
+Lea la última versión de [documentación técnica sobre el componente Fragmento de experiencia](https://www.adobe.com/go/aem_cmp_xf_v1_es).
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
