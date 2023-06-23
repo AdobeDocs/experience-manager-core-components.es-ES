@@ -4,9 +4,9 @@ description: Cree experiencias de inscripción atractivas (formularios) con la f
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: a450d265d10984b879fcb1ad4ffe0f3ce3edef5b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1147'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 Con los componentes principales de formularios adaptables en Adobe Experience Manager, puede crear atractivas experiencias de inscripción utilizando las opciones de flexibilidad y personalización disponibles.
 
-## Componentes principales   {#overview}
+## Componentes principales  {#overview}
 
 En Adobe Experience Manager (AEM), los componentes son los elementos básicos que se utilizan para crear páginas y formularios. Proporcionan una forma sencilla y potente para que los autores creen y gestionen el contenido, a la vez que proporcionan a los desarrolladores la flexibilidad y la capacidad de ampliación necesaria para crear componentes personalizados. Están diseñadas para acelerar el tiempo de desarrollo y reducir los costes de mantenimiento de sitios web y formularios, ser flexibles y se pueden personalizar fácilmente para adaptarse a las necesidades específicas de un sitio web y un formulario.
 
@@ -40,7 +40,7 @@ Además, como estos componentes son de código abierto, los desarrolladores pued
 | Preparado para la nube | Disponible para [AEM Forms as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/home.html?lang=es). |
 | Versátil | Los componentes representan conceptos genéricos con los que los autores de formularios pueden montar casi cualquier diseño. |
 | Configurable | Las [políticas de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=es#content-policies) con respecto a la plantilla definen qué características pueden utilizar o no los autores de la página. |
-| Accesible | Proporcionan etiquetas de tipo ARIA, admiten la navegación mediante el teclado y proporcionan texto para tecnologías de asistencia, como lectores de pantalla. |
+| Accesible | Proporcionan etiquetas ARIA, admiten la navegación mediante el teclado y texto para tecnologías de asistencia, como lectores de pantalla. |
 | Tema capaz | Los componentes implementan el [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=es) y el marcado sigue la [nomenclatura de BEM CSS](https://getbem.com/). |
 | Personalizable | Varios patrones permiten una fácil personalización, desde ajustar el HTML a una reutilización de funcionalidades avanzadas. |
 | Versiones | La [directiva de versiones](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garantiza que los componentes principales no romperán el sitio al mejorar las cosas que puedan afectarle. |
@@ -65,7 +65,7 @@ Las experiencias de captura de datos son cruciales para la generación de posibl
 
 * **Facilidad al aplicar un estilo**: los componentes principales son más fáciles de diseñar que sus equivalentes de componentes básicos. El proceso de creación del tema es similar al de Sites, con la capacidad de heredar el mismo tema/CSS de la página principal de Sites. Además, el modelo BEM para aplicar estilo facilita la comprensión y modificación de los estilos.
 
-* **Accesibilidad**: los componentes principales de formularios adaptables admiten normas y directrices de accesibilidad para garantizar que las personas con discapacidades puedan utilizar los formularios, incluidos los que utilizan tecnologías de asistencia como lectores de pantalla.
+* **Accesibilidad**: los componentes principales de formularios adaptables admiten normas y directrices de accesibilidad para garantizar que las personas con discapacidades puedan utilizar los formularios, incluidos los que utilizan tecnologías de asistencia como lectores de pantalla
 
 ## Componentes principales de formularios adaptables {#components}
 
@@ -94,18 +94,18 @@ La versión actual de los componentes principales de formularios adaptables cont
 * [Título](/help/adaptive-forms/components/title.md)
 * [Asistente](/help/adaptive-forms/components/wizard.md)
 
-## Configuración de componentes principales de Forms adaptable
+## Configuración de componentes principales de Formularios adaptables
 
-Al habilitar los componentes principales de Forms adaptable en AEM Forms as a Cloud Service, puede empezar a crear, publicar y ofrecer componentes principales basados en Forms adaptable y Forms sin encabezado mediante las instancias de Cloud Service de AEM Forms en varios canales. Para obtener instrucciones detalladas sobre la activación de los componentes principales de un formulario adaptable, consulte [Habilitar los componentes principales de Forms adaptables en el entorno de desarrollo as a Cloud Service y local de AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
+Al habilitar los componentes principales de Formularios adaptables en AEM Forms as a Cloud Service, puede empezar a crear, publicar y ofrecer componentes principales basados en Formularios adaptables y Formularios sin encabezado mediante las instancias de Cloud Service de AEM Forms en varios canales. Para obtener instrucciones detalladas sobre la habilitación de los componentes principales de un Formulario adaptable, consulte [Habilitar los componentes principales de Formularios adaptables en AEM Forms as a Cloud Service y en el entorno de desarrollo local](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=es).
 
 Los componentes principales de formularios adaptables tienen los siguientes requisitos:
 
-| AEM | Complementos para AEM Forms | Componentes principales de formularios adaptables |
+| AEM | Complementos para AEM Forms | Componentes principales de Formularios adaptables |
 |---|---|---|
 | AEM as a Cloud Service | Forms: inscripción digital | [Versión 2.0.10](version.md)+ |
 | AEM 6.5 | Complemento para Formularios | [Versión 1.1.12](version.md)+ |
 
-Si la versión del SDK de AEM Cloud Service es anterior a 2023.02.0, [asegúrese de que dispone de `prerelease` indicador activado en su entorno](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features) Los componentes principales de as a Forms adaptables formaban parte del prelanzamiento antes de la versión 2023.02.0.
+Si la versión del SDK de AEM Cloud Service es anterior a 2023.02.0, [asegúrese de que tiene el indicador `prerelease` habilitado en su entorno](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features), ya que los componentes principales de los Formularios adaptables formaban parte de la versión preliminar anterior a la versión 2023.02.0.
 
 
 ### Crear un formulario adaptable basado en componentes principales
