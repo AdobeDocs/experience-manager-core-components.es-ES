@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: lista desplegable'
 description: Uso o personalización del componente principal de lista desplegable de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1695'
-ht-degree: 100%
+source-wordcount: '1731'
+ht-degree: 98%
 
 ---
 
@@ -76,7 +76,7 @@ Puede personalizar fácilmente la experiencia de la lista desplegable para los v
 
 * **Guardar valor como**: esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si **Guardar valor como** está establecido en `Number` y se agregan datos de cadena a **Valor de datos** en la pestaña **Opciones**, la pantalla muestra el mensaje de error `Value type mismatch`.
 
-   En la pestaña **Opciones**, puede agregar valores de datos y mostrar pares de texto utilizando el botón **Agregar**. Una vez agregada una nueva opción, se realizan las acciones siguientes:
+  En la pestaña **Opciones**, puede agregar valores de datos y mostrar pares de texto utilizando el botón **Agregar**. Una vez agregada una nueva opción, se realizan las acciones siguientes:
 
    * **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    * **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
@@ -135,5 +135,10 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 * **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
 
 

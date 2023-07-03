@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: botón de radio'
 description: Uso o personalización del componente principal de botón de radio de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 100%
+source-wordcount: '1703'
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
 
 * **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-   En la pestaña **Opciones**, puede agregar valores de datos y mostrar pares de texto utilizando el botón **Agregar**. Una vez agregada una nueva opción, se pueden realizar las acciones siguientes:
+  En la pestaña **Opciones**, puede agregar valores de datos y mostrar pares de texto utilizando el botón **Agregar**. Una vez agregada una nueva opción, se pueden realizar las acciones siguientes:
 
    * **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    * **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en un formulario adaptable.
@@ -131,3 +131,8 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 * **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)

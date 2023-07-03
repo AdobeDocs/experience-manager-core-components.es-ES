@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: pie de página'
 description: Uso o personalización del componente principal de pie de página de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 100%
+source-wordcount: '806'
+ht-degree: 96%
 
 ---
 
@@ -85,6 +85,7 @@ El cuadro de diálogo de edición proporciona herramientas de formato de texto e
       1. Utilice el cuadro de diálogo Abrir selección para elegir una ruta en AEM.
       1. Si el vínculo no está dentro de AEM, introduzca la dirección URL absoluta.
       1. Las rutas no absolutas se interpretan como relativas a AEM.
+
    * **Texto alternativo**: escriba un texto descriptivo alternativo para el vínculo.
 
    * **Público objettivo**: seleccione el comportamiento del vínculo
@@ -93,11 +94,10 @@ El cuadro de diálogo de edición proporciona herramientas de formato de texto e
       * Nueva pestaña
       * Marco principal
       * Marco superior
+
    * **Icono Desvincular**: esta opción elimina un vínculo ya aplicado al texto seleccionado. Esta opción solo está activa cuando ya se ha seleccionado el vínculo.
 
    * **Icono de formato de párrafo**: esta opción le permite aplicar formato de párrafo al texto seleccionado. También le ayuda a dar formato al texto insertado después del cursor. Define el nivel de encabezado del título.
-
-
 
 * **ID**: esta opción permite controlar el identificador único del componente en el HTML y en la capa de datos.
 
@@ -105,3 +105,8 @@ El cuadro de diálogo de edición proporciona herramientas de formato de texto e
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)

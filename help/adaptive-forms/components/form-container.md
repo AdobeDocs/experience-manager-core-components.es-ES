@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: contenedor de formulario
 description: Agregue un formulario adaptable a una página web.
 role: Architect, Developer, Admin, User
 exl-id: 8df7f862-4d59-4c3f-88dd-f0c937081f4f
-source-git-commit: 64536dc607c6e8da0b424b4a1502fa64ed8abbd0
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 96%
 
 ---
 
@@ -79,3 +79,9 @@ Los usuarios pueden configurar distintas acciones para los envíos de formulario
 * **Mostrar mensaje**: esta opción permite a los usuarios agregar un mensaje que se muestra cuando el formulario adaptable se envía correctamente. El texto predefinido se incluye en el cuadro de diálogo y el usuario puede modificarlo. El cuadro de diálogo Mostrar mensaje admite herramientas de formato de texto enriquecido que permiten a los usuarios dar formato al texto agregado.
 
 * **Acción de envío**: se activa una acción de envío cuando un usuario hace clic en el botón Enviar en un formulario adaptable. Los usuarios pueden seleccionar acciones de envío en la lista desplegable que se admiten de forma predeterminada. Obtenga información sobre cómo [configurar una acción de envío en la pestaña Envío](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#supporting-custom-functions-in-validation-expressions-br).
+
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)

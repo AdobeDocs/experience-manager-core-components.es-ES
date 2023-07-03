@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: entrada de correo electr
 description: Uso o personalización del componente principal de entrada de correo electrónico de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 100%
+source-wordcount: '1719'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,6 @@ Puede personalizar fácilmente la experiencia de entrada de correo electrónico 
 * **Número mínimo de caracteres**: esta opción permite especificar el número mínimo de caracteres permitidos en el campo. Si introduce menos caracteres que el valor especificado en **Número mínimo de caracteres**, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error del número mínimo de caracteres** permite añadir un mensaje de error personalizado.
 
 * **Mensaje de error del número mínimo de caracteres mínimos**: el cuadro de diálogo **Mensaje de error del número mínimo de caracteres** permite añadir un mensaje de error personalizado si introduce menos caracteres que el valor especificado en la variable **Número mínimo de caracteres**.
-
 <br>
 
     La opción **Patrón de validación** permite introducir un patrón para validar el ID de correo electrónico introducido. Si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**, el mensaje de error aparecerá en pantalla.
@@ -132,3 +131,8 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 ![Pestaña Diseño](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)

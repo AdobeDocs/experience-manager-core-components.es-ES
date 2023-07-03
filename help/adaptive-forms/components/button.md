@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: botón'
 description: Uso o personalización del componente principal de botón de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 90a48e6203ce611679c2a7269ffb5d48912e3d71
-workflow-type: ht
-source-wordcount: '1406'
-ht-degree: 100%
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 98%
 
 ---
 
@@ -102,5 +102,12 @@ El componente principal de botón de formularios adaptables es compatible con el
 * **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de botón de formularios adaptables.
 
 * **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
+
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+
 
 

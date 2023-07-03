@@ -2,10 +2,10 @@
 title: 'Componente principal de formularios adaptables: Pestañas en la parte superior'
 description: Uso o personalización del componente principal de formularios adaptables Pestañas en la parte superior.
 role: Architect, Developer, Admin, User
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 94%
 
 ---
 
@@ -54,4 +54,8 @@ Obtenga la información más reciente sobre el componente principal de pestañas
 
 Puede personalizar fácilmente la experiencia de las pestañas en la parte superior para los visitantes con el cuadro de diálogo Configurar. También puede definir opciones de pestañas en la parte superior con facilidad para una experiencia de usuario fluida.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)

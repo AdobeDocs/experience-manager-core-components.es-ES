@@ -3,10 +3,10 @@ title: Acordeón de formulario adaptable
 description: Utilice el acordeón para organizar y simplificar un formulario largo o complejo, dividiéndolo en secciones más pequeñas y manejables.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: b2c35d78ba0473273852deb678b34b5dd96cf51e
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 92%
+source-wordcount: '1950'
+ht-degree: 91%
 
 ---
 
@@ -187,7 +187,7 @@ El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS 
 **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
 
-<!-- 
+<!--- 
 
 The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
 
@@ -211,6 +211,14 @@ The Accordion Component supports the AEM [Style System](/help/get-started/author
 
 ## Adobe Client Data Layer {#data-layer}
 
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md)
+The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md) 
+
 
 -->
+
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+

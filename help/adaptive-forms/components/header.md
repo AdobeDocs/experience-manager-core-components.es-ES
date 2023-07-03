@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: encabezado'
 description: Uso o personalización del componente principal de encabezado de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: d2a6108f17f6e0c6b91bec84893d64a8bd48effd
+source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 96%
 
 ---
 
@@ -80,3 +80,8 @@ Esta parte del encabezado contiene el título y la imagen del encabezado.
 
 Esta sección permite introducir el texto que se incluirá en el encabezado.
 
+## Artículo relacionado {#related-article}
+
+* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+
+* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
