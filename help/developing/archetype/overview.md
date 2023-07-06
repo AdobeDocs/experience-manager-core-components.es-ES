@@ -4,8 +4,8 @@ description: Una plantilla de proyecto para aplicaciones basadas en AEM
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: d25e659828becc0d9285297d00c53530bb33785a
-workflow-type: ht
+source-git-commit: 4d93ba2e1aac91521496ecfef127157c9bc8776c
+workflow-type: tm+mt
 source-wordcount: '1192'
 ht-degree: 100%
 
@@ -104,7 +104,7 @@ La dependencia de componentes principales solo se agrega para versiones de AEM q
 
 | Tipo de archivo | AEM as a Cloud Service | AEM 6.5 | Java SE | Maven |
 |---------|---------|---------|---------|---------|
-| [42](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-42) | Continua | 6.5.7.0+ | 8, 11 | 3.3.9+ |
+| [43](https://github.com/adobe/aem-project-archetype/releases/tag/aem-project-archetype-43) | Continua | 6.5.7.0+ | 8, 11 | 3.3.9+ |
 
 Configure su entorno de desarrollo local para [AEM as a Cloud Service SDK](https://experienceleague.adobe.com/docs/experience-manager-learn/cloud-service/local-development-environment-set-up/overview.html?lang=es) o para [versiones anteriores de AEM](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/set-up-a-local-aem-development-environment.html?lang=es).
 
