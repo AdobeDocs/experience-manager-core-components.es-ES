@@ -6,7 +6,7 @@ exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1865'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -93,7 +93,7 @@ Puede personalizar fácilmente la experiencia del asistente para los visitantes 
 
 ### Pestaña Asistente de repetición {#repeat-wizard-tab}
 
-![Repetir asistente](/help/adaptive-forms/assets/wizard-repeat.png)
+![Asistente de repetición](/help/adaptive-forms/assets/wizard-repeat.png)
 
 Puede utilizar las opciones de repetibilidad para duplicar el asistente y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario. Al interactuar con el componente Asistente y acceder a su configuración, se presentan las siguientes opciones:
 
@@ -101,7 +101,7 @@ Puede utilizar las opciones de repetibilidad para duplicar el asistente y sus co
 * **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el panel Asistente. El valor cero indica que el panel Asistente no se repite; el valor predeterminado es cero.
 * **Máximo de repeticiones**: define el número máximo de veces que se puede repetir el panel Asistente. De forma predeterminada, este valor es ilimitado.
 
-Para administrar de forma eficaz las secciones repetibles dentro del asistente, siga los pasos que se proporcionan en el [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artículo.
+Para administrar de forma eficaz las secciones repetibles dentro del asistente, siga los pasos que se proporcionan en el artículo [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).
 
 ### Pestaña Ayuda {#help-tab}
 
@@ -116,7 +116,7 @@ Para administrar de forma eficaz las secciones repetibles dentro del asistente, 
 
 ### Pestaña Accesibilidad {#accessibility}
 
-![Pestaña Accesibilidad](/help/adaptive-forms/assets/wizard-accessibility.png)
+![Pestaña de accesibilidad](/help/adaptive-forms/assets/wizard-accessibility.png)
 
 * **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
 

@@ -6,7 +6,7 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1769'
-ht-degree: 86%
+ht-degree: 98%
 
 ---
 
@@ -79,10 +79,10 @@ Puede personalizar fácilmente la experiencia de las pestañas horizontales para
 Puede utilizar las opciones de repetibilidad para duplicar el componente Pestañas horizontales y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario. Al interactuar con el componente Pestañas horizontales y acceder a su configuración, se presentan las siguientes opciones:
 
 * **Hacer que las pestañas horizontales sean repetibles**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
-* **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente pestañas horizontales. Un valor de cero indica que el componente Horizontal-tabs no se repite; el valor predeterminado es cero.
+* **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente pestañas horizontales. Un valor de cero indica que el componente de pestañas horizontales no se repite; el valor predeterminado es cero.
 * **Máximo de repeticiones**: establece el número máximo de veces que se puede repetir el componente pestañas horizontales. De forma predeterminada, este valor es ilimitado.
 
-Para administrar de forma eficaz las secciones repetibles dentro de las pestañas horizontales, siga los pasos que se proporcionan en la [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artículo.
+Para administrar de forma eficaz las secciones repetibles dentro de las pestañas horizontales, siga los pasos que se proporcionan en el artículo [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).
 
 ### Pestaña Elementos {#items-tab}
 
@@ -92,7 +92,7 @@ El botón **Agregar** permite seleccionar un componente para añadirlo como un p
 
 * **Icono**: el icono identifica el componente del panel en la lista. Puede pasar el ratón sobre el icono para ver el nombre completo del componente como información sobre herramientas.
 * **Descripción**: la descripción utilizada como texto del panel. De forma predeterminada, el nombre del componente seleccionado para el panel.
-* **Eliminar** : toque o haga clic para eliminar el panel del componente Pestañas horizontales.
+* **Eliminar**: toque o haga clic para eliminar el panel del componente de pestañas horizontales.
 * **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de los paneles.
 
 ### Pestaña Contenido de ayuda {#help-content}
@@ -115,10 +115,10 @@ El botón **Agregar** permite seleccionar un componente para añadirlo como un p
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente de pestañas horizontales de Forms adaptable, puede establecer lo siguiente:
+El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente de formularios adaptables de pestañas horizontales, puede establecer lo siguiente:
 
-* Los componentes principales que un creador de formularios puede agregar a las pestañas horizontales del editor de Forms adaptable
-* Nombres simples para estilos (clases CSS) que se pueden aplicar en el cuadro de diálogo de propiedades del componente Pestañas horizontales en el editor de Forms adaptable.
+* Los componentes principales que un creador de formularios puede añadir a las pestañas horizontales en el editor de formularios adaptables
+* Nombres simples para estilos (clases CSS) que se pueden aplicar en el cuadro de diálogo de propiedades del componente pestañas horizontales del editor de formularios adaptables.
 
 Esto ayuda a que el proceso de creación y personalización de formularios sea más sencillo y eficaz.
 

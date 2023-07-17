@@ -6,7 +6,7 @@ exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
 workflow-type: tm+mt
 source-wordcount: '1950'
-ht-degree: 91%
+ht-degree: 98%
 
 ---
 
@@ -89,7 +89,7 @@ Puede utilizar las opciones de repetibilidad para duplicar paneles de acordeón 
 * **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el panel de acordeón. Un valor de cero indica que el panel de acordeón no se repite; el valor predeterminado es cero.
 * **Máximo de repeticiones**: define el número máximo de veces que se puede repetir el panel de acordeón. De forma predeterminada, este valor es ilimitado.
 
-Para administrar de forma eficaz las secciones repetibles dentro del acordeón, siga los pasos que se proporcionan en la [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html) artículo.
+Para administrar de forma eficaz las secciones repetibles dentro del acordeón, siga los pasos que se proporcionan en el artículo [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).
 
 ### Pestaña Elementos {#items-tab}
 
