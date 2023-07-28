@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de selector de fech
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1702'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -145,6 +145,6 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 ## Artículo relacionado {#related-article}
 
-* [Crear un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html)
+* [Creación de un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=es)
 
-* [Crear un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Creación de un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
