@@ -5,10 +5,10 @@ breadcrumb-title: Guía de componentes principales
 feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
-source-git-commit: b39cd395d17f6aab7376e01fc01a7c0e98b2460f
-workflow-type: ht
-source-wordcount: '369'
-ht-degree: 100%
+source-git-commit: 5c07caecae60e3df4a4ce56ddd2d9c174ac7f195
+workflow-type: tm+mt
+source-wordcount: '379'
+ht-degree: 97%
 
 ---
 
@@ -103,6 +103,7 @@ ht-degree: 100%
       + [Segmentación](/help/email/components/segmentation.md)
 + Formularios adaptables {#adaptive-forms}
    + [Introducción](/help/adaptive-forms/introduction.md)
+   + [Temas de muestra, plantillas y modelos de datos de formulario en componentes principales](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
    + [Historial de versiones](/help/adaptive-forms/version.md)
    + Componentes de Formularios adaptables {#adaptive-forms-components}
       + [Acordeón de Formularios adaptables](/help/adaptive-forms/components/accordion.md)
