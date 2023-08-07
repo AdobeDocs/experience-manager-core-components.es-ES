@@ -5,10 +5,10 @@ breadcrumb-title: Guía de componentes principales
 feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
-source-git-commit: ebbe3471164341076fe085bbef9c93fcb1fe382a
+source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 98%
 
 ---
 
@@ -127,6 +127,7 @@ ht-degree: 100%
       + [Diseño del asistente de Formularios adaptables](/help/adaptive-forms/components/wizard.md)
       + [Encabezado](/help/adaptive-forms/components/header.md)
       + [Pie de página](/help/adaptive-forms/components/footer.md)
+   + [Temáticas y plantillas de muestra](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](/help/developing/overview.md)
    + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
