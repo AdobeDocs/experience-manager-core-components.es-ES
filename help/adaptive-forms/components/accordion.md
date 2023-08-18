@@ -3,10 +3,10 @@ title: Acordeón de formulario adaptable
 description: Utilice el acordeón para organizar y simplificar un formulario largo o complejo, dividiéndolo en secciones más pequeñas y manejables.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
-source-wordcount: '1950'
-ht-degree: 100%
+source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
+workflow-type: tm+mt
+source-wordcount: '2051'
+ht-degree: 93%
 
 ---
 
@@ -71,12 +71,35 @@ Puede personalizar fácilmente la experiencia de acordeón para los visitantes c
 
 * **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-* **Ajustar datos en objeto**: seleccione “Ajustar los datos en un objeto” para colocar los datos del asistente dentro de un objeto JSON. Si no se selecciona, el JSON de datos de envío tiene una estructura plana para los campos del asistente.
+* **Agrupar datos de componentes secundarios en el envío de formularios (ajustar datos en el objeto)** : cuando se selecciona la opción, los datos de sus componentes secundarios se anidan dentro del objeto JSON del componente principal. Sin embargo, si la opción no está seleccionada, los datos JSON enviados tienen una estructura plana, sin objeto para el componente principal. Por ejemplo:
+
+   * Cuando se selecciona la opción, los datos de los componentes secundarios (por ejemplo, calle, ciudad y código postal) se anidan dentro del componente principal (dirección) como un objeto JSON. Esto crea una estructura jerárquica y los datos se organizan en el componente principal.
+
+     Estructura de los datos enviados:
+
+     ```JSON
+     { "Address":
+     
+     { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     
+     }
+     ```
+
+   * Cuando la opción no está seleccionada, los datos JSON enviados tienen una estructura plana sin objeto para el componente principal (Dirección). Todos los datos se encuentran en el mismo nivel, sin ninguna organización jerárquica.
+
+
+     Estructura de los datos enviados:
+
+     ```JSON
+        { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
+     ```
 
 * **Diseño**: puede tener un diseño fijo (simple) o flexible (cuadrícula adaptable) para el asistente. El diseño simple mantiene todo fijo en su sitio, mientras que la cuadrícula interactiva le permite ajustar la posición de los componentes para adaptarlos a sus necesidades. Por ejemplo, utilice Cuadrícula interactiva para alinear el Nombre, Segundo nombre y Apellido en un formulario en una sola fila.
 
-* **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
+* **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
+
 * **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
+
 * **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
 ### Repetir acordeón {#repeat-accordion}
