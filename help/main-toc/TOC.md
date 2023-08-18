@@ -5,10 +5,10 @@ breadcrumb-title: Guía de componentes principales
 feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
-source-git-commit: ec817d5527f93cc4a8468ffcf28886dc8cd6d03c
+source-git-commit: 8db061f3d6f1041336c379b34f3b6b7f03083560
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 98%
+source-wordcount: '381'
+ht-degree: 96%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 98%
       + [Imagen de Formularios adaptables](/help/adaptive-forms/components/image.md)
       + [Entrada de número de Formularios adaptables](/help/adaptive-forms/components/number-input.md)
       + [Panel de Formularios adaptables](/help/adaptive-forms/components/panel-container.md)
+      + [CAPTCHA de Forms adaptable](/help/adaptive-forms/components/captcha.md)
       + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)
       + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
       + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
@@ -127,6 +128,7 @@ ht-degree: 98%
       + [Diseño del asistente de Formularios adaptables](/help/adaptive-forms/components/wizard.md)
       + [Encabezado](/help/adaptive-forms/components/header.md)
       + [Pie de página](/help/adaptive-forms/components/footer.md)
+   + [Personalizar componentes principales de Forms adaptables](/help/developing/customize-adaptive-forms-core-components.md)
    + [Temáticas y plantillas de muestra](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
 + Desarrollo de {#developing}
    + [Desarrollo de componentes principales](/help/developing/overview.md)
