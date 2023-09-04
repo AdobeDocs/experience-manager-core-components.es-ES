@@ -6,7 +6,7 @@ exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
 workflow-type: tm+mt
 source-wordcount: '2088'
-ht-degree: 93%
+ht-degree: 99%
 
 ---
 
@@ -71,9 +71,9 @@ Puede personalizar fácilmente la experiencia de acordeón para los visitantes c
 
 * **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-* **Agrupar datos de componentes secundarios en el envío de formularios (ajustar datos en el objeto)** : cuando se selecciona la opción, los datos de sus componentes secundarios se anidan dentro del objeto JSON del componente principal. Sin embargo, si la opción no está seleccionada, los datos JSON enviados tienen una estructura plana, sin objeto para el componente principal. Por ejemplo:
+* **Agrupar datos de componentes secundarios al enviar el formulario (ajustar datos en objeto)**: cuando se selecciona la opción, los datos de sus componentes secundarios se anidan dentro del objeto JSON del componente principal. Sin embargo, si la opción no está seleccionada, los datos JSON enviados tienen una estructura plana, sin ningún objeto para el componente principal. Por ejemplo:
 
-   * Cuando se selecciona la opción, los datos de los componentes secundarios (por ejemplo, calle, ciudad y código postal) se anidan dentro del componente principal (dirección) como un objeto JSON. Esto crea una estructura jerárquica y los datos se organizan en el componente principal.
+   * Cuando la opción está seleccionada, los datos de los componentes secundarios (por ejemplo, calle, ciudad y código postal) se anidan dentro del componente principal (dirección) como un objeto JSON. Esto crea una estructura jerárquica y los datos se organizan bajo el componente principal.
 
      Estructura de los datos enviados:
 
@@ -85,7 +85,7 @@ Puede personalizar fácilmente la experiencia de acordeón para los visitantes c
      }
      ```
 
-   * Cuando la opción no está seleccionada, los datos JSON enviados tienen una estructura plana sin objeto para el componente principal (Dirección). Todos los datos se encuentran en el mismo nivel, sin ninguna organización jerárquica.
+   * Cuando la opción no está seleccionada, los datos JSON enviados tienen una estructura plana sin ningún objeto para el componente principal (dirección). Todos los datos se encuentran al mismo nivel, sin ninguna organización jerárquica.
 
 
      Estructura de los datos enviados:
