@@ -4,9 +4,9 @@ description: Implementar el proyecto con los componentes principales con éxito
 role: Architect, Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
 source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '565'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ Haga referencia a la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_li
 
 ### Uso del kit de IU para Adobe XD {#ui-kit}
 
-Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el kit de interfaz de usuario para Adobe XD, [que se pueden descargar aquí,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
+Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el kit de interfaz de usuario para Adobe XD, [que se puede descargar aquí,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
 
 ## No pase por alto funciones muy útiles {#powerful-features}
 
