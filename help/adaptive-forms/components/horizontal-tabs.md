@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de pestañas horizo
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1906'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -163,7 +163,7 @@ El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS 
 - [Creación de un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
 
 
-## Consulte también {#see-also}
+## Vea también {#see-also}
 
 - [Acordeón](/help/adaptive-forms/components/accordion.md)
 - [Botón](/help/adaptive-forms/components/button.md)
