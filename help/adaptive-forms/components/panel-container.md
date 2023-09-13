@@ -3,9 +3,9 @@ title: 'Componente principal de formularios adaptables: contenedor de panel'
 description: Uso o personalización del componente principal del contenedor de panel de formularios adaptables.
 role: Architect, Developer, Admin, User
 source-git-commit: b6e3a443c7425a60fc6c3469dc273960a4e29088
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1539'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -67,9 +67,9 @@ Puede personalizar fácilmente la experiencia del contenedor del panel para los 
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Agrupar datos de componentes secundarios en el envío de formularios (ajustar datos en el objeto)** : cuando se selecciona la opción, los datos de sus componentes secundarios se anidan dentro del objeto JSON del componente principal. Sin embargo, si la opción no está seleccionada, los datos JSON enviados tienen una estructura plana, sin objeto para el componente principal. Por ejemplo:
+- **Agrupar datos de componentes secundarios al enviar el formulario (ajustar datos en objeto)**: cuando se selecciona la opción, los datos de sus componentes secundarios se anidan dentro del objeto JSON del componente principal. Sin embargo, si la opción no está seleccionada, los datos JSON enviados tienen una estructura plana, sin ningún objeto para el componente principal. Por ejemplo:
 
-   - Cuando se selecciona la opción, los datos de los componentes secundarios (por ejemplo, calle, ciudad y código postal) se anidan dentro del componente principal (dirección) como un objeto JSON. Esto crea una estructura jerárquica y los datos se organizan en el componente principal.
+   - Cuando la opción está seleccionada, los datos de los componentes secundarios (por ejemplo, calle, ciudad y código postal) se anidan dentro del componente principal (dirección) como un objeto JSON. Esto crea una estructura jerárquica y los datos se organizan bajo el componente principal.
 
      Estructura de los datos enviados:
 
@@ -81,7 +81,7 @@ Puede personalizar fácilmente la experiencia del contenedor del panel para los 
      }
      ```
 
-   - Cuando la opción no está seleccionada, los datos JSON enviados tienen una estructura plana sin objeto para el componente principal (Dirección). Todos los datos se encuentran en el mismo nivel, sin ninguna organización jerárquica.
+   - Cuando la opción no está seleccionada, los datos JSON enviados tienen una estructura plana sin ningún objeto para el componente principal (dirección). Todos los datos se encuentran al mismo nivel, sin ninguna organización jerárquica.
 
 
      Estructura de los datos enviados:
@@ -135,7 +135,7 @@ Para administrar de forma eficaz las secciones repetibles dentro del contenedor 
 - [Creación de un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
 
 
-## Consulte también {#see-also}
+## Vea también {#see-also}
 
 - [Acordeón](/help/adaptive-forms/components/accordion.md)
 - [Botón](/help/adaptive-forms/components/button.md)
