@@ -4,9 +4,9 @@ description: Utilice el acordeón para organizar y simplificar un formulario lar
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: ad3e3bca5cb46f14e864e4704c90ac3b62779794
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2088'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -245,7 +245,7 @@ The Accordion Component supports the [Adobe Client Data Layer.](/help/developing
 
 * [Creación de un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
 
-## Consulte también {#see-also}
+## Vea también {#see-also}
 
 * [Botón](/help/adaptive-forms/components/button.md)
 * [Casilla de verificación Grupo](/help/adaptive-forms/components/checkbox-group.md)
