@@ -3,20 +3,23 @@ title: Componente Imagen
 description: El componente principal Imagen es un componente de imagen adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 1cb06273ecb2c5b5f90c02b74b7ac0e440d87ecc
+source-git-commit: c879cf92cae028230f092c7376a1e9271f568388
 workflow-type: tm+mt
-source-wordcount: '1636'
-ht-degree: 100%
+source-wordcount: '2084'
+ht-degree: 85%
 
 ---
 
-# Componente Imagen {#image-component}
+
+# Componente Imagen  {#image-component}
 
 El componente principal Imagen es un componente de imagen adaptable.
 
 ## Uso {#usage}
 
 El componente Imagen presenta una selección de imágenes adaptativas y un comportamiento adaptable con carga diferida para el visitante de la página, así como una ubicación sencilla de la imagen para el autor del contenido.
+
+El autor del contenido puede utilizar la variable [cuadro de diálogo de edición](#edit-dialog) para editar el recurso de imagen, como aplicar un recorte o girar la imagen.
 
 El autor de la plantilla puede definir las anchuras de la imagen y la configuración adicional en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede cargar o seleccionar activos en el [cuadro de diálogo de configuración.](#configure-dialog)
 
@@ -50,6 +53,12 @@ El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) ad
 
 Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
+## Soporte de Dynamic Media de última generación {#next-gen-dm}
+
+El componente de imagen (a partir de [versión 2.23.2](/help/versions.md)) admite recursos remotos de Dynamic Media de próxima generación.
+
+[Una vez configurada,](/help/developing/next-gen-dm.md) puede seleccionar recursos desde un servicio Dynamic Media remoto de próxima generación para el componente de imagen.
+
 ## Compatibilidad con SVG {#svg-support}
 
 Los gráficos vectoriales escalables (SVG) son compatibles con el componente de imagen.
@@ -74,6 +83,76 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 
 El componente de imagen admite [microdatos schema.org](https://schema.org).
 
+## Cuadro de diálogo de edición {#edit-dialog}
+
+El cuadro de diálogo de edición permite al autor del contenido recortar y ampliar la imagen.
+
+Dependiendo de si tiene el [Dynamic Media](#dynamic-media) activada o [Dynamic Media de última generación](#next-gen-dm) características activadas, las opciones disponibles para editar imágenes diferirán.
+
+### Edición de recursos estándar {#standard-assets}
+
+AEM Si está editando recursos estándar de la, puede hacer clic en **Editar** en el menú contextual del componente de imagen.
+
+![Cuadro de diálogo de edición del componente de imagen](/help/assets/image-edit.png)
+
+* Iniciar recorte
+
+  ![Iniciar icono de recorte](/help/assets/image-start-crop.png)
+
+  Al seleccionar esta opción, se abrirá una lista desplegable para las proporciones de recorte predefinidas.
+
+   * Elija la opción **Quitar recorte** para mostrar el recurso original.
+
+  Una vez seleccionada una opción de recorte, utilice los controladores azules para cambiar el tamaño del recorte en la imagen.
+
+  ![Opciones de recorte](/help/assets/image-crop-options.png)
+
+* Girar a la derecha
+
+  ![Icono Rotar a la derecha](/help/assets/image-rotate-right.png)
+
+  Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
+
+* Restablecer zoom
+
+  ![Icono Restablecer zoom](/help/assets/image-reset-zoom.png)
+
+  Si la imagen ya se ha ampliado, utilice esta opción para restablecer el nivel de zoom.
+
+* Abrir deslizador del zoom
+
+  ![Icono del deslizador del zoom abierto](/help/assets/image-zoom.png)
+
+  Utilice esta opción para mostrar un control deslizante para controlar el nivel de zoom de la imagen.
+
+  ![Control deslizador del zoom](/help/assets/image-zoom-slider.png)
+
+El editor in situ también se puede utilizar para modificar la imagen. Debido a las limitaciones de espacio, solo las opciones básicas están disponibles en línea. Para obtener opciones de edición completas, utilice el modo de pantalla completa.
+
+![Opciones de edición in situ de imágenes](/help/assets/image-in-place-edit.png)
+
+>[!NOTE]
+>
+>Las operaciones de edición de imágenes no son compatibles con las imágenes de GIF. Los cambios que se hagan en el modo de edición a los GIF no se mantendrán.
+
+### Edición de recursos Dynamic Media {#dynamic-media-assets}
+
+Si tiene [Funciones de Dynamic Media habilitadas,](#dynamic-media) la edición de la propia imagen debe realizarse en la consola recursos.
+
+### Edición de recursos Dynamic Media de última generación {#next-gen-dm-assets}
+
+Si tiene [Configuración de Dynamic Media de próxima generación,](#next-gen-dm) el **Recorte inteligente** está disponible en los menús contextuales del componente.
+
+![Recorte inteligente](/help/assets/image-smart-crop.png)
+
+Utilice el cuadro de diálogo para ajustar el recorte inteligente.
+
+![Cuadro de diálogo Recorte inteligente](/help/assets/image-smart-crop-dialog.png)
+
+>[!TIP]
+>
+>Para obtener más información sobre el recorte inteligente, consulte [este vídeo trata sobre la función.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
+
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
 El componente de imagen ofrece un cuadro de diálogo de configuración en el que la propia imagen se define junto con su descripción y propiedades básicas.
@@ -84,16 +163,21 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
 
 * **Heredar imagen destacada de la página**: esta opción utiliza la [imagen destacada de la página vinculada](page.md) o la imagen destacada de la página actual si la imagen no está vinculada.
 
-* **Texto alternativo para fines de accesibilidad**: este campo le permite definir una descripción de la imagen para los usuarios con deficiencias visuales.
+* **Recurso de imagen** - Se rellena automáticamente si **Heredar imagen destacada de la página** está seleccionado. Anule la selección de esta opción para definir manualmente la imagen mediante las siguientes opciones.
+
+   * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
+   * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
+   * Haga clic o pulse **Seleccionar** para abrir [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) para seleccionar una imagen.
+      * If [Funciones de Dynamic Media de última generación](#next-gen-dm) Cuando está activada, tiene varias opciones para seleccionar un recurso:
+         * **Local** AEM selecciona de la biblioteca de recursos de la local.
+         * **Remoto** selecciona desde una biblioteca de Dynamic Media AEM fuera de la instancia de la instancia de la.
+   * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.
+
+* **Texto alternativo para fines de accesibilidad**: este campo le permite definir una descripción de la imagen para los usuarios con discapacidades visuales.
 
    * **Heredar texto alternativo de la página**: esta opción utiliza la descripción alternativa del valor de recurso vinculado de los `dc:description` metadatos en DAM o de la página actual si no hay ningún recurso vinculado.
 
-* **Recurso de imagen**
-   * Coloque un recurso desde el [navegador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
-   * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
-   * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.
-
-* **No proporcionar texto alternativo**: esta opción marca la imagen que tecnologías de asistencia ignoran, como lectores de pantalla, en casos en los que la imagen es puramente decorativa o no transmite información adicional a la página.
+* **No proporcionar texto alternativo**: esta opción marca la imagen para que sea ignorada por las tecnologías de asistencia, como lectores de pantalla, en casos en los que la imagen es puramente decorativa o no transmite información adicional a la página.
 
 ### Pestaña de metadatos {#metadata-tab}
 
@@ -101,7 +185,7 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
 
 * **Tipo de ajuste preestablecido**: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea **Ajustes preestablecidos de imágenes** o **Recorte inteligente**, y solo está disponible cuando las [funciones de Dynamic Media](#dynamic-meida) están habilitadas.
    * **Ajuste preestablecido de imagen**: cuando se selecciona **Tipo de ajuste preestablecido** de **ajustes de imagen preestablecidos**, está disponible la opción desplegable **Ajustes de imagen preestablecidos**, que permite seleccionar entre los ajustes preestablecidos disponibles de Dynamic Media. Esto solo está disponible si se han definido ajustes preestablecidos para el recurso seleccionado.
-   * **Recorte inteligente**: cuando se selecciona **Tipos de ajustes preestablecidos** de **recorte inteligente**, está disponible la lista desplegable **Representación**, que permite seleccionar entre las representaciones disponibles del recurso seleccionado. Esto solo está disponible si las representaciones están definidas para el recurso seleccionado.
+   * **Recorte inteligente** - Cuándo **Tipo de ajuste preestablecido** de **Recorte inteligente** está seleccionada, la lista desplegable **Representación** está disponible, lo que permite seleccionar entre las representaciones disponibles del recurso seleccionado. Esto solo está disponible si las representaciones están definidas para el recurso seleccionado.
    * **Modificadores de imagen**: los comandos de servidor de imágenes adicionales de Dynamic Media se pueden definir aquí separados por `&`, independientemente de los **tipos de ajustes preestablecidos** seleccionados.
 * **Pie de ilustración**: información adicional sobre la imagen que se muestra debajo de la imagen de forma predeterminada.
    * **Obtener pie de ilustración de DAM**: cuando se marca, el texto del pie de la imagen se rellena con el valor de los metadatos `dc:title` de DAM.

@@ -3,10 +3,10 @@ title: Componente Teaser
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: cfc86203051739cbcdc30be0fb10ccffa7d583a5
+source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 100%
+source-wordcount: '1081'
+ht-degree: 92%
 
 ---
 
@@ -30,6 +30,12 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 |---|---|---|---|
 | Versión 2 | - | Compatible | Compatible |
 | [Versión 1](v1/teaser.md) | Compatible | Compatible | Compatible |
+
+## Soporte de Dynamic Media de última generación {#next-gen-dm}
+
+El componente Teaser (a partir de [versión 2.23.2](/help/versions.md)) admite recursos remotos de Dynamic Media de próxima generación.
+
+[Una vez configurada,](/help/developing/next-gen-dm.md) puede seleccionar recursos desde un servicio Dynamic Media remoto de próxima generación para el componente teaser.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -77,6 +83,10 @@ El título, la descripción y la imagen del teaser se pueden heredar de la pági
 * **Heredar imagen destacada de la página**: utilice la imagen definida en las propiedades de página de la página vinculada o la página actual si no encuentra ninguna.
 * **Recurso de imagen**: coloque un recurso desde el [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **Examinar** para cargar desde un sistema de archivos local.
    * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
+   * Haga clic o pulse **Seleccionar** para abrir [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) para seleccionar una imagen.
+      * If [Funciones de Dynamic Media de última generación](#next-gen-dm) Cuando está activada, tiene varias opciones para seleccionar un recurso:
+         * **Local** AEM selecciona de la biblioteca de recursos de la local.
+         * **Remoto** selecciona desde una biblioteca de Dynamic Media AEM fuera de la instancia de la instancia de la.
    * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.
 * **Texto alternativo para fines de accesibilidad**: este campo le permite definir una descripción de la imagen para los usuarios con discapacidades visuales.
    * **Heredar texto alternativo de la página**: esta opción utiliza la descripción alternativa del valor de recurso vinculado de los `dc:description` metadatos en DAM o de la página actual si no hay ningún recurso vinculado.
