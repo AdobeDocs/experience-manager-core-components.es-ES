@@ -2,7 +2,7 @@
 title: Soporte de Dynamic Media de última generación
 description: Obtenga información sobre cómo configurar los componentes principales Imagen y componentes de teaser para admitir recursos de Dynamic Media remotos de próxima generación.
 role: Architect, Developer, Admin, User
-source-git-commit: 57307b75bd33fd538a1eb704cc37822847c896de
+source-git-commit: 9b8930c2e268f52a1377906725db9a05a089e233
 workflow-type: tm+mt
 source-wordcount: '470'
 ht-degree: 1%
@@ -70,7 +70,7 @@ Una vez instalados los componentes principales y el sitio WKND, puede probar la 
 
 1. Una vez autenticado, se abrirá un explorador de recursos del servicio remoto. Seleccione el recurso que desee y toque o haga clic en **Seleccionar**.
 
-   ![Selección de un recurso remoto](/help/assets/remote-asset-selection.png)
+   ![Selección de un recurso remoto](/help/assets/remote-asset-picker.png)
 
 AEM El recurso remoto se agregará a la página local de la red de distribución de recursos y ha verificado que la característica esté configurada correctamente.
 
