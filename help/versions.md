@@ -4,15 +4,15 @@ description: Los componentes principales se publican como versiones que pueden c
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3044'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Versiones de componentes principales {#core-components-versions}
 
-La versión actual de los componentes principales es 2.23.4, y es compatible con [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) y con las instalaciones de [AEM on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
+La versión actual de los componentes principales es 2.23.4, y es compatible con [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) y con las instalaciones de [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
 
 ## Historial y compatibilidad de la versión {#release-history-and-compatibility}
 
@@ -27,7 +27,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Esta versión del parche incluye varias correcciones de errores. | - | 6.5.17.0+ | Continua | 8, 11 | 15 de septiembre de 2023 |
-| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Este parche ha agregado el recorte inteligente de Dynamic Media para recursos remotos a [Imagen](/help/components/image.md) y [Componentes de teaser](/help/components/teaser.md) y corrigió una serie de errores. | - | 6.5.17.0+ | Continua | 8, 11 | 4 de agosto de 2023 |
+| [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Este parche ha añadido el recorte inteligente de Dynamic Media para recursos remotos a [Imagen](/help/components/image.md) y [Componentes de teaser](/help/components/teaser.md) y corrigió una serie de errores. | - | 6.5.17.0+ | Continua | 8, 11 | 4 de agosto de 2023 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Esta versión añadió compatibilidad con [Recursos remotos de Dynamic Media de próxima generación.](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | Continua | 8, 11 | 6 de junio de 2023 |
 | [2.22.12](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.12) | Esta versión del parche corrige dos problemas. | - | 6.5.14.0+ | Continua | 8, 11 | 25 de mayo de 2023 |
 | [2.22.10](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.22.10) | Esta versión del parche corrige dos regresiones. | - | 6.5.14.0+ | Continua | 8, 11 | 11 de mayo de 2023 |
@@ -162,7 +162,7 @@ Los componentes principales son parte integral de AEM y se admiten tal cual bajo
 
 Al igual que sucede con otras funciones del producto, la regla general de la fecha de vencimiento es:
 
-* Los componentes se anuncian primero como en desuso antes de eliminarse.
+* Los componentes se anuncian primero como en desuso antes de eliminarse
 * Se eliminarán de la versión de AEM lo antes posible tras realizar el anuncio.
 
 Esto proporciona a los clientes al menos un ciclo de lanzamiento para poder cambiarse a la nueva versión del componente antes de que finalice el servicio de soporte.
