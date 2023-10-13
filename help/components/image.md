@@ -6,12 +6,12 @@ exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
 workflow-type: tm+mt
 source-wordcount: '2061'
-ht-degree: 60%
+ht-degree: 72%
 
 ---
 
 
-# Componente Imagen  {#image-component}
+# Componente Imagen {#image-component}
 
 El componente principal Imagen es un componente de imagen adaptable.
 
@@ -19,7 +19,7 @@ El componente principal Imagen es un componente de imagen adaptable.
 
 El componente de imagen presenta una selección de imágenes adaptativa y un comportamiento adaptable con carga diferida para el visitante de la página y una ubicación sencilla de la imagen para el autor del contenido.
 
-El autor del contenido puede utilizar la variable [cuadro de diálogo de edición](#edit-dialog) para editar el recurso de imagen, como aplicar un recorte o girar la imagen.
+El autor del contenido puede utilizar el [cuadro de diálogo de edición](#edit-dialog) para editar el recurso de imagen, como aplicar un recorte o girar la imagen.
 
 El autor de la plantilla puede definir las anchuras de la imagen y la configuración adicional en el [cuadro de diálogo de diseño](#design-dialog). El editor de contenido puede cargar o seleccionar activos en el [cuadro de diálogo de configuración.](#configure-dialog)
 
@@ -53,11 +53,11 @@ El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) ad
 
 Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
-## Soporte de Dynamic Media de última generación {#next-gen-dm}
+## Soporte de Dynamic Media de próxima generación {#next-gen-dm}
 
-El componente de imagen (a partir de [versión 2.23.2](/help/versions.md)) admite recursos remotos de Dynamic Media de próxima generación.
+El Componente de imagen (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos de Dynamic Media de próxima generación.
 
-[Una vez configurada,](/help/developing/next-gen-dm.md) puede seleccionar recursos desde un servicio Dynamic Media remoto de próxima generación para el componente de imagen.
+[Una vez configurado,](/help/developing/next-gen-dm.md) puede seleccionar recursos desde un servicio Dynamic Media remoto de próxima generación para su componente de imagen.
 
 ## Compatibilidad con SVG {#svg-support}
 
@@ -91,7 +91,7 @@ Dependiendo de si tiene el [Dynamic Media](#dynamic-media) activada o [Dynamic M
 
 ### Edición de recursos estándar {#standard-assets}
 
-AEM Si está editando recursos estándar de la, puede hacer clic en **Editar** en el menú contextual del componente de imagen.
+Si está editando recursos AEM estándar, puede hacer clic en el icono **Editar** en el menú contextual del componente de imagen.
 
 ![Cuadro de diálogo de edición del componente de imagen](/help/assets/image-edit.png)
 
@@ -133,15 +133,15 @@ El editor in situ también se puede utilizar para modificar la imagen. Debido a 
 
 >[!NOTE]
 >
->Las operaciones de edición de imágenes no son compatibles con las imágenes de GIF. Los cambios realizados en el modo de edición a los GIF no se mantienen.
+>Las operaciones de edición de imágenes no son compatibles con las imágenes GIF. Los cambios realizados en el modo de edición a los GIF no se mantienen.
 
 ### Edición de recursos Dynamic Media {#dynamic-media-assets}
 
-Si tiene [Funciones de Dynamic Media habilitadas,](#dynamic-media) la edición de la propia imagen debe realizarse en la consola recursos.
+Si tiene las [Funciones de Dynamic Media habilitadas,](#dynamic-media) la edición de la propia imagen debe realizarse en la consola recursos.
 
-### Edición de recursos Dynamic Media de última generación {#next-gen-dm-assets}
+### Edición de recursos Dynamic Media de próxima generación {#next-gen-dm-assets}
 
-Si tiene [Configuración de Dynamic Media de próxima generación,](#next-gen-dm) el **Recorte inteligente** está disponible en los menús contextuales del componente.
+Si tiene [Dynamic Media de próxima generación configurado,](#next-gen-dm) la opción **Recorte inteligente** está disponible en los menús contextuales del componente.
 
 ![Recorte inteligente](/help/assets/image-smart-crop.png)
 
@@ -151,7 +151,7 @@ Utilice el cuadro de diálogo para ajustar el recorte inteligente.
 
 >[!TIP]
 >
->Para obtener más información sobre el recorte inteligente, consulte [este vídeo trata sobre la función.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html)
+>Para obtener más información sobre el recorte inteligente, [este vídeo trata sobre esta función.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=es)
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
@@ -163,14 +163,14 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
 
 * **Heredar imagen destacada de la página**: esta opción utiliza la [imagen destacada de la página vinculada](page.md) o la imagen destacada de la página actual si la imagen no está vinculada.
 
-* **Recurso de imagen** - Se rellena automáticamente si **Heredar imagen destacada de la página** está seleccionado. Anule la selección de esta opción para definir manualmente la imagen mediante las siguientes opciones.
+* **Recurso de imagen**: se rellena automáticamente si **Heredar imagen destacada de la página** está seleccionado. Anule la selección de esta opción para definir manualmente la imagen mediante las siguientes opciones.
 
    * Colocar un recurso de [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) o pulse el botón **examinar** para que pueda cargar desde un sistema de archivos local.
    * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
    * Haga clic o pulse **Seleccionar** para abrir [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html) para poder seleccionar una imagen.
-      * If [Funciones de Dynamic Media de última generación](#next-gen-dm) Cuando está activada, tiene varias opciones para seleccionar un recurso:
-         * **Local** AEM selecciona de la biblioteca de recursos de la local.
-         * **Remoto** selecciona desde una biblioteca de Dynamic Media AEM fuera de la instancia de la instancia de la.
+      * Si [Características de Dynamic Media de próxima generación](#next-gen-dm) está habilitado, tiene varias opciones para seleccionar un recurso:
+         * **Local** selecciona de la biblioteca de recursos de AEM local.
+         * **Remoto** selecciona desde una biblioteca de Dynamic Media fuera de su instancia de AEM.
    * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html) en el Editor de recursos.
 
 * **Texto alternativo para fines de accesibilidad**: este campo le permite definir una descripción de la imagen para los usuarios con discapacidades visuales.
