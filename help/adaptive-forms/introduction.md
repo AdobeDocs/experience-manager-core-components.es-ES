@@ -3,8 +3,8 @@ title: Introducción a los componentes principales de formularios adaptables de 
 description: Cree experiencias de inscripción atractivas (formularios) con la flexibilidad de los componentes principales de formularios adaptables y suministre dicha flexibilidad con la potencia de Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 7888cfa0f1358ce8018fc1e3cc3b19eb66a82b9d
-workflow-type: ht
+source-git-commit: 13e802c510e165d3ef3da431e1e8b0fe7b35d801
+workflow-type: tm+mt
 source-wordcount: '1262'
 ht-degree: 100%
 
@@ -73,7 +73,7 @@ La versión actual de los componentes principales de formularios adaptables cont
 
 * [Acordeón](/help/adaptive-forms/components/accordion.md)
 * [Botón](/help/adaptive-forms/components/button.md)
-* [Casilla de verificación Grupo](/help/adaptive-forms/components/checkbox-group.md)
+* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
 * [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
 * [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
 * [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
@@ -136,3 +136,5 @@ Puede realizar las siguientes acciones en los entornos de AEM Forms as a Cloud S
     *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
     
     <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
+
+{{see-also}}
