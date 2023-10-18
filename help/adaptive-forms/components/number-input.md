@@ -3,9 +3,9 @@ title: 'Componente principal de formularios adaptables: entrada de número'
 description: Uso o personalización del componente principal de entrada de número de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1834'
 ht-degree: 100%
 
 ---
@@ -143,11 +143,13 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 La pestaña Formatos permite especificar formatos de número predeterminados y personalizados.
 ![Pestaña Diseño](/help/adaptive-forms/assets/emailinput_designformattab.png)
 
-## Artículo relacionado {#related-article}
+<!--
 
-* [Creación de un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=es)
+## Related article {#related-article}
 
-* [Creación de un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
 
 
 >[!MORELIKETHIS]
@@ -173,6 +175,7 @@ La pestaña Formatos permite especificar formatos de número predeterminados y p
 >* [Texto](/help/adaptive-forms/components/text.md)
 >* [Título](/help/adaptive-forms/components/title.md)
 >* [Asistente](/help/adaptive-forms/components/wizard.md)
+
 
 ## Vea también {#see-also}
 

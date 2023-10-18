@@ -3,9 +3,9 @@ title: 'Componente principal de formularios adaptables: entrada de teléfono'
 description: Uso o personalización del componente principal de entrada del teléfono de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
-source-git-commit: 0bebc248ee2b708f7677950d90356abd5bc70a98
+source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1791'
 ht-degree: 100%
 
 ---
@@ -128,12 +128,38 @@ La pestaña Formatos permite especificar formatos de número predeterminados y p
 
 ![Pestaña Formato](/help/adaptive-forms/assets/telephoneinput_format.png)
 
-## Artículo relacionado {#related-article}
+<!--
 
-* [Creación de un formulario adaptable en una página de AEM Sites o un fragmento de experiencia](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=es)
+## Related article {#related-article}
 
-* [Creación de un formulario adaptable independiente](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
+-->
+
+
+>[!MORELIKETHIS]
+>
+>* [Acordeón](/help/adaptive-forms/components/accordion.md)
+>* [Botón](/help/adaptive-forms/components/button.md)
+>* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
+>* [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
+>* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
+>* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
+>* [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
+>* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
+>* [Pie de página](/help/adaptive-forms/components/footer.md)
+>* [Encabezado](/help/adaptive-forms/components/header.md)
+>* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
+>* [Imagen](/help/adaptive-forms/components/image.md)
+>* [Entrada de número](/help/adaptive-forms/components/number-input.md)
+>* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
+>* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
+>* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
+>* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
+>* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
+>* [Texto](/help/adaptive-forms/components/text.md)
+>* [Título](/help/adaptive-forms/components/title.md)
+>* [Asistente](/help/adaptive-forms/components/wizard.md)
 
 >[!MORELIKETHIS]
 >
