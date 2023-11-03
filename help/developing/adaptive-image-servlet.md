@@ -4,9 +4,9 @@ description: Descubra cómo los componentes principales utilizan el servlet de i
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 785aa82930e3bcf6ef16d7a1cdc614d230e8daa8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 96%
 
 Descubra cómo los componentes principales utilizan el servlet de imagen adaptable para la entrega de imágenes y cómo puede optimizarlo.
 
-## Servlet de imagen adaptable o entrega de imágenes optimizadas para la web? {#options}
+## Servlet de imagen adaptable o envío de imágenes optimizadas para la web? {#options}
 
-El componente principal de imagen puede utilizar dos métodos para ofrecer imágenes.
+El componente principal de imagen puede utilizar dos métodos para enviar imágenes.
 
 * El servlet de imagen adaptable es el predeterminado.
 * [Entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md) está disponible para AEMaaCS y reduce el tamaño de descarga en un 25 % de media.
