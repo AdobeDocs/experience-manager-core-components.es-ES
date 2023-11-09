@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 5e08235a0da5c44e60a1b488a832a8346b5f4cfa
+source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 68%
+source-wordcount: '1304'
+ht-degree: 69%
 
 ---
 
@@ -140,11 +140,15 @@ Las plantillas **disponibles de forma predeterminada** de [Componentes principal
 
 ![Plantillas de referencia](/help/adaptive-forms/assets/reference-templates-core-components.png)
 
-### Básica {#Basic}
+<!--
 
-Una plantilla básica le ayuda a crear rápidamente un formulario de experiencia de inscripción. También puede utilizarlo para previsualizar la funcionalidad de [Componentes principales de Forms adaptable](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=es). Proporciona un diseño de asistente para la presentación de datos sección a sección.
+### Basic {#Basic}
 
-![Plantilla básica](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
+A basic template helps you quickly create an enrollment experience form. You can also use it to preview the functionality of [Adaptive Forms Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html). It provides a wizard layout for section-by-section presentation of data.
+
+![Basic Template](/help/adaptive-forms/assets/Basic-template-desktop-view.png)
+
+-->
 
 ### En blanco {#Blank}
 
