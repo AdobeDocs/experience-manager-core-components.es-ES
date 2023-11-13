@@ -1,21 +1,21 @@
 ---
-title: Cómo obtener temáticas de muestra y plantillas para los componentes principales de AEM Forms
-description: Los componentes principales de AEM Forms proporcionan temáticas de formulario adaptable, plantillas y modelos de datos de formulario de ejemplo.
+title: ¿Cómo obtener temáticas y plantillas de muestra para los componentes principales de AEM Forms?
+description: Los componentes principales de AEM Forms proporcionan ejemplos de temáticas de formularios adaptables, plantillas y modelos de datos de formulario.
 solution: Experience Manager Forms
 topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1304'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # Temáticas, plantillas y modelos de datos de formulario de ejemplo {#sample-themes-templates-and-data-models}
 
-Los componentes principales de [!DNL AEM Forms] proporcionan temáticas de ejemplo, plantillas y modelos de datos de formulario listos para usar para crear formularios adaptables versátiles rápidamente. También ayudan a los autores de formularios a conocer la extensibilidad, adaptabilidad y capacidad de respuesta de [Componentes principales de Forms adaptable](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=es) crear formularios simples en poco tiempo y formularios complejos fácilmente mientras se conecta con la base de datos sin problemas.
+Los componentes principales de [!DNL AEM Forms] proporcionan temáticas de ejemplo, plantillas y modelos de datos de formulario listos para usar para crear formularios adaptables versátiles rápidamente. También ayudan a los autores de formularios a conocer la extensibilidad, adaptabilidad y capacidad de respuesta de los [componentes principales de AEM Forms](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/adaptive-forms/introduction.html?lang=es) para crear fácilmente formularios simples en poco tiempo y formularios complejos mientras se conectan con la base de datos sin problemas.
 
 Las temáticas, las plantillas y los modelos de datos de formulario incluidos en el paquete de contenido de referencia son los siguientes:
 
@@ -36,20 +36,20 @@ Las temáticas, las plantillas y los modelos de datos de formulario incluidos en
 
 ## Temáticas de ejemplo {#Sample-Themes}
 
-Las temáticas de ejemplo de referencia ayudan a los autores a utilizar, definir y personalizar el estilo para formularios, los autores con incluso un conocimiento básico de CSS pueden personalizar el tema según los requisitos.
+Las temáticas de ejemplo de referencia ayudan a los autores a definir y personalizar el estilo de los formularios. Los autores que tengan incluso un conocimiento básico de CSS pueden personalizar la temática según los requisitos.
 
 **¿Cómo obtener estas temáticas?**
-Para obtener estas temáticas, siga los pasos que se indican a continuación para lo siguiente **AEM as a Cloud Service** entorno:
+Para obtener estas temáticas, siga los pasos que se indican a continuación para el entorno **AEM as a Cloud Service**:
 
-1. [Habilitar componentes principales de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=es)
-1. [AEM Implementación de un proyecto de tipo de archivo 45 en su entorno](https://github.com/adobe/aem-project-archetype)
+1. [Habilite los componentes principales de formularios adaptables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=es)
+1. [Implemente un proyecto AEM Archetype 45 en su entorno](https://github.com/adobe/aem-project-archetype)
 
 
-AEM Al implementar un tipo de archivo de, solo puede utilizar las temáticas OOTB en los formularios. Para personalizar las temáticas según sus necesidades, [Uso de la canalización front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=es) para implementar las temáticas.
+Al implementar un arquetipo AEM, solo puede utilizar las temáticas OOTB en los formularios. Para personalizar las temáticas según sus necesidades, [Utilice la canalización front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=es) para implementar las temáticas.
 
 >[!NOTE]
 >
-> * Los temas no están disponibles para **AEM,5** entorno.
+> * Las temáticas no están disponibles en el entorno **AEM 6.5**.
 
 <!--
 
@@ -88,7 +88,7 @@ Las temáticas **disponibles de forma predeterminada** de los [Componentes princ
 
 ### Lienzo {#Canvas}
 
-La temática Lienzo es la predeterminada para los formularios y enfatiza el uso de colores básicos, transparencia e iconos planos. En la captura de pantalla siguiente, puede ver el aspecto del tema del lienzo.
+El lienzo es la temática predeterminada para formularios, y enfatiza el uso de colores básicos, transparencia e iconos planos. En la captura de pantalla siguiente, puede ver el aspecto del tema del lienzo.
 
 ![Temática Lienzo](/help/adaptive-forms/assets/Safety-Inspection-Theme-Canvas.png)
 
@@ -101,22 +101,22 @@ La temática WKND encarna un diseño dinámico, imaginativo y atractivo para mos
 
 ### Caballete {#Easel}
 
-La temática Caballete ayuda a crear un aspecto del formulario que es atractivo y fácil de configurar, está personalizado para la simplicidad y la facilidad de uso. La temática del caballete se basa en el concepto de que los artistas utilizan un soporte portátil para apoyar un lienzo mientras trabajan en sus pinturas.
+La temática Caballete ayuda a crear un aspecto del formulario que es atractivo y fácil de configurar, está personalizado para la simplicidad y la facilidad de uso. El caballete es una temática que se basa en el concepto de un stand portátil utilizado por los artistas para apoyar un lienzo mientras trabajan en sus pinturas.
 
 ![Temática Caballete](/help/adaptive-forms/assets/Safety-Inspection-Theme-Easel.png)
 
-### FSI (Servicios financieros y seguros) {#FSI}
+### FSI (servicios financieros y seguros) {#FSI}
 
-El tema FSI pone énfasis en darle a su formulario un aspecto limpio y práctico. El tono azul suave se aplica al formulario cuando se aplica la temática FSI, como puede ver en la imagen.
+FSI es una temática que pone énfasis en darle a su formulario un aspecto limpio y práctico. El suave tono azul suave se aplica al formulario cuando se aplica la temática FSI, como se puede ver en la imagen.
 
-![Tema FSI](/help/adaptive-forms/assets/fsi-theme-new1.png)
+![Temática FSI](/help/adaptive-forms/assets/fsi-theme-new1.png)
 
 
 ### Atención sanitaria {#Healthcare}
 
-La temática para el sector sanitario emplea tonos verdes y enriquecidos para acentuar elementos como pestañas, paneles, cuadros de texto y botones dentro del formulario.
+La temática para el sector sanitario emplea tonos vivo y verdes para acentuar elementos como pestañas, paneles, cuadros de texto y botones dentro del formulario.
 
-![Tema de atención médica](/help/adaptive-forms/assets/healthcare-new-theme.png)
+![Temática de atención médica](/help/adaptive-forms/assets/healthcare-new-theme.png)
 
 
 ## Plantillas de muestra {#Sample-templates}
@@ -124,7 +124,7 @@ La temática para el sector sanitario emplea tonos verdes y enriquecidos para ac
 Las plantillas definen la estructura inicial del formulario, el contenido y las acciones que se duplicarán en él o utilizarán una estructura de plantilla similar a la del formulario, por ejemplo, un formulario de consentimiento, un formulario de inscripción en beneficios y mucho más.
 
 **¿Cómo obtener estas plantillas?**
-Puede obtener estas plantillas implementando un [AEM Tipo de archivo 45](https://github.com/adobe/aem-project-archetype) a su **AEM Forms as a Cloud Service** entorno o **AEM.5 Forms** entorno.
+Puede obtener estas plantillas implementando [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) en su entorno **AEM Forms as a Cloud Service** o el entorno **AEM 6.5 Forms**.
 
 <!--
 
@@ -176,14 +176,14 @@ La plantilla de formulario de consentimiento se utiliza para crear un formulario
 
 ### Solicitud de servicio de registro {#Log-Service-Request}
 
-La plantilla de solicitud del servicio de registro ayuda a crear un formulario que solicita servicios de registro específicos de un proveedor de servicios. El formulario sirve como una solicitud formal para crear un ticket para eventos, actividades o registros de datos para monitorizar o rastrear el estado.
+La plantilla de solicitud del servicio de registro ayuda a crear un formulario que solicita servicios de registro específicos de un proveedor de servicios. El formulario sirve como solicitud formal para crear un ticket para eventos, actividades o datos registrados para la monitorización o el seguimiento del estado.
 
 ![Plantilla de solicitud de servicio de registro](/help/adaptive-forms/assets/Log-service-request-desktop-view.png)
 
 
 ### Enviar comentarios {#Give-Feedback}
 
-La plantilla del formulario Enviar comentarios crea un formulario para proporcionar comentarios constructivos a otra persona o equipo. El formulario ayuda a garantizar que los comentarios sean claros, específicos y procesables, lo que promueve la comunicación abierta y la mejora.
+La plantilla del formulario Enviar comentarios crea un formulario para proporcionar comentarios constructivos a otra persona o equipo. El formulario garantiza que los comentarios sean claros, específicos y procesables, lo que promueve la comunicación abierta y la mejora.
 
 ![Plantilla para enviar comentarios](/help/adaptive-forms/assets/Give-feedback-desktop-view.png)
 
@@ -203,7 +203,7 @@ La plantilla del formulario Resumen de los beneficios de empleados se utiliza pa
 
 ### Solicitud de extracto de cuenta {#Request-for-Account-Statement}
 
-Una plantilla de solicitud de extracto de cuenta ayuda a crear un formulario que inicia el proceso de obtener un extracto de cliente preciso y actualizado. La declaración proporciona un registro detallado de transacciones financieras, actividades u otra información relevante acerca de los clientes que usan este formulario.
+La plantilla de solicitud de extracto de cuenta ayuda a crear un formulario que inicia el proceso de obtención de un extracto preciso y actualizado de los clientes.  La declaración proporciona un registro detallado de transacciones financieras, actividades u otra información relevante acerca de los clientes que usan este formulario.
 
 ![Request-for-account-statement](/help/adaptive-forms/assets/Request-for-account-statment.png)
 
