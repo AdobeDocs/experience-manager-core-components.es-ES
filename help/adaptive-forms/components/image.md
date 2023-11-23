@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: imagen'
 description: Uso o personalización del componente principal de imagen de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1015'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,20 +19,20 @@ Para la accesibilidad, es importante especificar un **Texto alternativo** para l
 
 **Ejemplo**
 
-![](/help/adaptive-forms/assets/image.png)
+![ejemplo](/help/adaptive-forms/assets/image.png)
 
 
 ## Uso {#reasons-to-use-image-in-a-form}
 
 Existen varias razones por las que resulta beneficioso incluir un componente Imagen en un Formulario adaptable, entre ellas:
 
-* **Personalización de marca**: se puede utilizar una imagen para mostrar el logotipo o el nombre de la organización que ha creado el formulario, lo que ayuda a establecer el reconocimiento y la credibilidad de la marca.
+- **Personalización de marca**: se puede utilizar una imagen para mostrar el logotipo o el nombre de la organización que ha creado el formulario, lo que ayuda a establecer el reconocimiento y la credibilidad de la marca.
 
-* **Ayudas visuales**: una imagen puede ayudar a proporcionar un nivel adicional de información a los usuarios, al servir como ayuda visual para que comprendan la finalidad del formulario.
+- **Ayudas visuales**: una imagen puede ayudar a proporcionar un nivel adicional de información a los usuarios, al servir como ayuda visual para que comprendan la finalidad del formulario.
 
-* **Decoración**: se puede utilizar una imagen para mejorar el diseño general del formulario y hacerlo visualmente más atractivo.
+- **Decoración**: se puede utilizar una imagen para mejorar el diseño general del formulario y hacerlo visualmente más atractivo.
 
-* **Experiencia del usuario**: se puede utilizar una imagen para que el formulario sea más fácil de usar, ya que proporciona una forma clara e intuitiva de que los usuarios accedan a los campos del formulario y los rellenen.
+- **Experiencia del usuario**: se puede utilizar una imagen para que el formulario sea más fácil de usar, ya que proporciona una forma clara e intuitiva de que los usuarios accedan a los campos del formulario y los rellenen.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -60,24 +60,26 @@ Puede personalizar fácilmente la experiencia de la imagen para los visitantes c
 
 ![Pestaña Propiedades](/help/adaptive-forms/assets/image_properties.png)
 
-* **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
+- **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
-* **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 
-* **Referencia de vínculo de documento de registro**: esta opción le permite asociar un campo del formulario adaptable al campo Documento de registro. Cuando el usuario introduce cualquier valor en un campo vinculado de un formulario adaptable, ese valor también aparece en el campo vinculado del documento de registro correspondiente. Por ejemplo, se puede utilizar una referencia de vínculo de documento de registro para mostrar el nombre y la dirección de un cliente en un documento de registro, en función del ID introducido en el formulario por el cliente. De este modo, AEM Forms permite generar un documento de registro y ofrece una experiencia del usuario perfecta para recopilar y administrar datos.
+- **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar el origen de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
 
-* **Descripción**: una descripción es una explicación de texto breve que proporciona información adicional o aclaración sobre la finalidad de una imagen específica.
+- **Referencia de vínculo de documento de registro**: esta opción le permite asociar un campo del formulario adaptable al campo Documento de registro. Cuando el usuario introduce cualquier valor en un campo vinculado de un formulario adaptable, ese valor también aparece en el campo vinculado del documento de registro correspondiente. Por ejemplo, se puede utilizar una referencia de vínculo de documento de registro para mostrar el nombre y la dirección de un cliente en un documento de registro, en función del ID introducido en el formulario por el cliente. De este modo, AEM Forms permite generar un documento de registro y ofrece una experiencia del usuario perfecta para recopilar y administrar datos.
 
-* **Coloque un recurso aquí o busque un archivo para cargar**: esta opción permite soltar un recurso como una imagen arrastrando y soltando con el ratón. También puede cargar un archivo desde un sistema de archivos local utilizando el botón **Examinar**. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen:
-   * **Editar**: pulse o haga clic en **Editar** para administrar las representaciones del recurso en el Editor de recursos.
-   * **Borrar**: pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
-   * **Elegir**: pulse o haga clic en **Elegir** para seleccionar otra imagen de la carpeta Recursos.
+- **Descripción**: una descripción es una explicación de texto breve que proporciona información adicional o aclaración sobre la finalidad de una imagen específica.
 
-* **Texto alternativo**: esta opción se utiliza para introducir el texto que proporciona una alternativa de texto corto y descriptivo de la imagen, que describa la imagen para las personas con discapacidad visual.
+- **Coloque un recurso aquí o busque un archivo para cargar**: esta opción permite soltar un recurso como una imagen arrastrando y soltando con el ratón. También puede cargar un archivo desde un sistema de archivos local utilizando el botón **Examinar**. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen:
+   - **Editar**: pulse o haga clic en **Editar** para administrar las representaciones del recurso en el Editor de recursos.
+   - **Borrar**: pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
+   - **Elegir**: pulse o haga clic en **Elegir** para seleccionar otra imagen de la carpeta Recursos.
 
-* **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
+- **Texto alternativo**: esta opción se utiliza para introducir el texto que proporciona una alternativa de texto corto y descriptivo de la imagen, que describa la imagen para las personas con discapacidad visual.
 
-* **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+- **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
+
+- **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
@@ -87,45 +89,29 @@ El cuadro de diálogo de diseño se utiliza para definir y administrar estilos C
 
 La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de imagen de Formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
-![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/image_designdialog.png)
+![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
-**Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de imagen de Formularios adaptables.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de grupo de casillas de verificación de formularios adaptables.
 
-**Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
+- **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
-<!--
+### Propiedades personalizadas
 
-## Related article {#related-article}
+![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
--->
+- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
 
+   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
 
->[!MORELIKETHIS]
->
->* [Acordeón](/help/adaptive-forms/components/accordion.md)
->* [Botón](/help/adaptive-forms/components/button.md)
->* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
->* [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
->* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
->* [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
->* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
->* [Pie de página](/help/adaptive-forms/components/footer.md)
->* [Encabezado](/help/adaptive-forms/components/header.md)
->* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
->* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
->* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
->* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Asistente](/help/adaptive-forms/components/wizard.md)
+   - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
+   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden del nombre de la propiedad personalizada y el valor de la propiedad personalizada.
+
+## Artículos relacionados {#related-articles}
+
+{{more-like-this}}
 
 ## Vea también {#see-also}
 

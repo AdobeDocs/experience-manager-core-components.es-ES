@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: selector de fecha'
 description: Uso o personalización del componente principal de selector de fecha de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '1702'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,17 +22,17 @@ Un componente de selector de fecha de un Formulario adaptable es un elemento de 
 
 Existen varias razones por las que resulta beneficioso incluir un selector de fecha en un Formulario adaptable, entre ellas, las siguientes:
 
-* **Comodidad**: un componente de selector de fecha permite a los usuarios seleccionar fácilmente una fecha de un calendario sin tener que introducirla manualmente un campo de texto. Esto puede ahorrar tiempo y reducir errores.
+- **Comodidad**: un componente de selector de fecha permite a los usuarios seleccionar fácilmente una fecha de un calendario sin tener que introducirla manualmente un campo de texto. Esto puede ahorrar tiempo y reducir errores.
 
-* **Experiencia del usuario**: el componente de selector de fecha se puede utilizar para que el formulario sea más fácil de usar, ya que proporciona una forma clara e intuitiva para que los usuarios seleccionen la fecha.
+- **Experiencia del usuario**: el componente de selector de fecha se puede utilizar para que el formulario sea más fácil de usar, ya que proporciona una forma clara e intuitiva para que los usuarios seleccionen la fecha.
 
-* **Análisis de datos**: el componente de selector de fecha se puede utilizar para recopilar datos de varias fuentes y analizarlos, o para utilizarlos como entrada para un procesamiento posterior.
+- **Análisis de datos**: el componente de selector de fecha se puede utilizar para recopilar datos de varias fuentes y analizarlos, o para utilizarlos como entrada para un procesamiento posterior.
 
-* **Administración de eventos**: el componente de selector de fecha se puede utilizar en sitios web de administración de eventos para seleccionar la fecha del evento.
+- **Administración de eventos**: el componente de selector de fecha se puede utilizar en sitios web de administración de eventos para seleccionar la fecha del evento.
 
-* **Reservas**: el componente de selector de fecha se puede utilizar en los sitios web de reservas para seleccionar las fechas de entrada y salida.
+- **Reservas**: el componente de selector de fecha se puede utilizar en los sitios web de reservas para seleccionar las fechas de entrada y salida.
 
-* **Formato de fecha**: el componente de selector de fecha se puede utilizar para corregir el formato en el que se muestra e introduce la fecha. Asegúrese de que el formato de fecha sea uniforme en todo el formulario para garantizar que la experiencia de usuario sea consistente.
+- **Formato de fecha**: el componente de selector de fecha se puede utilizar para corregir el formato en el que se muestra e introduce la fecha. Asegúrese de que el formato de fecha sea uniforme en todo el formulario para garantizar que la experiencia de usuario sea consistente.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -61,48 +61,50 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/datepicker_basictab.png)
 
-* **Nombre**: el nombre identifica de forma exclusiva el componente en el editor de reglas. No se permiten caracteres especiales ni espacios en las cadenas de nombre.
+- **Nombre**: el nombre identifica de forma exclusiva el componente en el editor de reglas. No se permiten caracteres especiales ni espacios en las cadenas de nombre.
 
-* **Título**: el título es una cadena que aparece en la parte superior de un componente en un Formulario adaptable. El título identifica de forma exclusiva el componente en la estructura de árbol de un formulario adaptable. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+- **Título**: el título es una cadena que aparece en la parte superior de un componente en un Formulario adaptable. El título identifica de forma exclusiva el componente en la estructura de árbol de un formulario adaptable. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 
-* **Ocultar título**: seleccione esta opción para ocultar el título del tipo de componente en un Formulario adaptable.
+- **Ocultar título**: seleccione esta opción para ocultar el título del tipo de componente en un Formulario adaptable.
 
-* **Texto del marcador de posición**: el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
+- **Texto del marcador de posición**: el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
 
-* **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
-* **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
-* **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
-* **Fecha predeterminada**: esta opción permite añadir una fecha al campo del formulario. La fecha introducida aparece de forma predeterminada en el lugar del componente. Si el usuario no introduce ninguna fecha, este valor se envía en el momento del envío del formulario. En caso de que se seleccione **Componente desactivado** o **Componente de solo lectura**, la fecha predeterminada se muestra en la pantalla y se envía en el momento del envío del formulario.
+- **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar el origen de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
+
+- **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
+- **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+- **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+- **Fecha predeterminada**: esta opción permite añadir una fecha al campo del formulario. La fecha introducida aparece de forma predeterminada en el lugar del componente. Si el usuario no introduce ninguna fecha, este valor se envía en el momento del envío del formulario. En caso de que se seleccione **Componente desactivado** o **Componente de solo lectura**, la fecha predeterminada se muestra en la pantalla y se envía en el momento del envío del formulario.
 
 
 ### Pestaña Validación {#validation-tab}
 
 ![Pestaña Validación](/help/adaptive-forms/assets/datepicker_validation.png)
 
-* **Obligatorio**: seleccione esta opción si desea mostrar el componente en un Formulario adaptable. No puede seleccionar **Ocultar componente** o **Desactivar componente** en la pestaña **Básicos** cuando esta opción está seleccionada.
+- **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe realizar una selección antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Desactivar componente** en la pestaña **Básicos** cuando esta opción está seleccionada.
 
-* **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
+- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 
-* **Mensaje de validación de la secuencia de comandos**: esta opción permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
+- **Mensaje de validación de la secuencia de comandos**: esta opción permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
-* **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la fecha especificada en Fecha mínima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
+- **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la fecha especificada en Fecha mínima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
 
-* **Mensaje de error mínimo**: el cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha anterior a la fecha especificada en la opción **Fecha mínima**.
+- **Mensaje de error mínimo**: el cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha anterior a la fecha especificada en la opción **Fecha mínima**.
 
-* **Fecha máxima**: esta opción permite introducir la fecha máxima requerida. Si introduce una fecha posterior a la fecha especificada en Fecha máxima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado.
+- **Fecha máxima**: esta opción permite introducir la fecha máxima requerida. Si introduce una fecha posterior a la fecha especificada en Fecha máxima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado.
 
-* **Mensaje de error máximo**: el cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha posterior a la fecha especificada en la opción **Fecha máxima**.
+- **Mensaje de error máximo**: el cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha posterior a la fecha especificada en la opción **Fecha máxima**.
 
 
 ### Pestaña Contenido de ayuda {#help-content-tab}
 
 ![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-* **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
+- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-* **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
 
-* **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan al usuario para ayudarle a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
+- **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan al usuario para ayudarle a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
 
 ### Pestaña Accesibilidad {#accessibility-tab}
@@ -115,13 +117,13 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 ![Pestaña Formatos](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-* **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción **Tipo** permite al usuario seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
+- **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción **Tipo** permite al usuario seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 
-* **Editar formato**: representa un formato de fecha en el que el usuario puede editar la fecha. La opción **Tipo** permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
+- **Editar formato**: representa un formato de fecha en el que el usuario puede editar la fecha. La opción **Tipo** permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 
-* **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción Tipo permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
+- **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción Tipo permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 
-* **Editar formato**: representa un formato de fecha en el que el usuario edita la fecha. La opción Tipo permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
+- **Editar formato**: representa un formato de fecha en el que el usuario edita la fecha. La opción Tipo permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
@@ -133,9 +135,23 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 ![Pestaña Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-* **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de selector de fecha de Formularios adaptables.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de selector de fecha de Formularios adaptables.
 
-* **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
+- **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
+
+### Propiedades personalizadas
+
+![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/datepicker_customproperties.png)
+
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+
+- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
+
+   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+
+   - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
+
+   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden del nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
 ### Pestaña Formatos {#formats-tab}
 
@@ -151,31 +167,12 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 -->
 
+## Artículos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeón](/help/adaptive-forms/components/accordion.md)
->* [Botón](/help/adaptive-forms/components/button.md)
->* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
->* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
->* [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
->* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
->* [Pie de página](/help/adaptive-forms/components/footer.md)
->* [Encabezado](/help/adaptive-forms/components/header.md)
->* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagen](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
->* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
->* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
->* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Asistente](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Vea también {#see-also}
 
 {{see-also}}
+
+

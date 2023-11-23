@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: contenedor de formulario
 description: Agregue un formulario adaptable a una página web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '755'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,23 +18,23 @@ Los formularios permiten a los visitantes interactuar con el sitio web proporcio
 
 Existen varias razones por las que se puede agregar un formulario a un sitio web:
 
-* **Recopilación de datos**: los formularios pueden utilizarse para recopilar datos de los visitantes de un sitio web con diversos fines, como estudios de mercado, análisis de comportamiento, etc.
+- **Recopilación de datos**: los formularios pueden utilizarse para recopilar datos de los visitantes de un sitio web con diversos fines, como estudios de mercado, análisis de comportamiento, etc.
 
-* **Generación de posibles clientes**: se puede utilizar un formulario para recopilar información de clientes potenciales, como el nombre y la dirección de correo electrónico, para generar posibles clientes para marketing y ventas.
+- **Generación de posibles clientes**: se puede utilizar un formulario para recopilar información de clientes potenciales, como el nombre y la dirección de correo electrónico, para generar posibles clientes para marketing y ventas.
 
-* **Comercio electrónico**: los formularios pueden servir para comprar en línea, lo que permite a los clientes efectuar pedidos y pagos a través del sitio web.
+- **Comercio electrónico**: los formularios pueden servir para comprar en línea, lo que permite a los clientes efectuar pedidos y pagos a través del sitio web.
 
-* **Contacto**: un formulario de contacto permite a los visitantes del sitio web comunicarse fácilmente con el propietario o la organización del sitio web.
+- **Contacto**: un formulario de contacto permite a los visitantes del sitio web comunicarse fácilmente con el propietario o la organización del sitio web.
 
-* **Encuestas y sondeos**: los formularios pueden usarse para recopilar comentarios y opiniones de visitantes de sitios web a través de encuestas y sondeos.
+- **Encuestas y sondeos**: los formularios pueden usarse para recopilar comentarios y opiniones de visitantes de sitios web a través de encuestas y sondeos.
 
-* **Registro de eventos**: los formularios se pueden destinar al registro en eventos, para que los visitantes del sitio web puedan inscribirse en eventos o seminarios web.
+- **Registro de eventos**: los formularios se pueden destinar al registro en eventos, para que los visitantes del sitio web puedan inscribirse en eventos o seminarios web.
 
-* **Suscripciones**: los formularios pueden emplearse para suscripciones a sitios web, lo que permite a los visitantes suscribirse a una newsletter u otras comunicaciones periódicas.
+- **Suscripciones**: los formularios pueden emplearse para suscripciones a sitios web, lo que permite a los visitantes suscribirse a una newsletter u otras comunicaciones periódicas.
 
-* **Autenticación de usuarios**: los formularios pueden funcionar para la autenticación de usuarios, lo que permite a los visitantes del sitio web crear cuentas e iniciar sesión para acceder a contenidos o funciones exclusivas.
+- **Autenticación de usuarios**: los formularios pueden funcionar para la autenticación de usuarios, lo que permite a los visitantes del sitio web crear cuentas e iniciar sesión para acceder a contenidos o funciones exclusivas.
 
-* **Aumentar tasa de conversión**: un formulario bien diseñado puede aumentar la tasa de conversión al facilitar a los usuarios la realización de las acciones deseadas, como la compra de un producto o la suscripción a un servicio.
+- **Aumentar tasa de conversión**: un formulario bien diseñado puede aumentar la tasa de conversión al facilitar a los usuarios la realización de las acciones deseadas, como la compra de un producto o la suscripción a un servicio.
 
 
 ## Versión y compatibilidad {#version-and-compatibility}
@@ -62,9 +62,17 @@ Puede personalizar fácilmente la experiencia del contenedor de formularios para
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
-* **Servicios de rellenado previo**: esta opción permite al usuario seleccionar un servicio de rellenado previo para recuperar datos cuando se procesa el formulario adaptable. Más información acerca de [cómo crear y configurar un servicio de rellenado previo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=es#aem-forms-custom-prefill-service).
+- **Servicios de rellenado previo**: esta opción permite al usuario seleccionar un servicio de rellenado previo para recuperar datos cuando se procesa el formulario adaptable. Más información acerca de [cómo crear y configurar un servicio de rellenado previo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=es#aem-forms-custom-prefill-service).
 
-* **Categoría de biblioteca de cliente**: el usuario puede configurar la biblioteca JavaScript personalizada por formulario adaptable. Se recomienda mantener solo las funciones reutilizables en la biblioteca, que tienen dependencia de las bibliotecas de terceros jquery y underscore.js.
+- **Categoría de biblioteca de cliente**: el usuario puede configurar la biblioteca JavaScript personalizada por formulario adaptable. Se recomienda mantener solo las funciones reutilizables en la biblioteca, que tienen dependencia de las bibliotecas de terceros jquery y underscore.js.
+
+### Pestaña Modelo de datos {#data-model-tab}
+
+![Pestaña Envío](/help/adaptive-forms/assets/formcontainer_fdmtab.png)
+
+Puede utilizar el modelo de datos del formulario para conectar un formulario a una fuente de datos para enviar y recibir datos en función de las acciones del usuario. También puede conectar un formulario a un esquema JSON para recibir los datos enviados en un formato predefinido. En función del requisito, conecte el formulario a un esquema JSON o a un modelo de datos de formulario:
+- Crear un esquema JSON y cargarlo en su entorno
+- Crear modelo de datos de formulario
 
 ### Pestaña Envío {#submission-tab}
 
@@ -72,13 +80,59 @@ Puede personalizar fácilmente la experiencia del contenedor de formularios para
 
 Los usuarios pueden configurar distintas acciones para los envíos de formularios adaptables.
 
-* **Ruta/URL de redireccionamiento**: esta opción permite al usuario configurar una página para cada formulario, a la que se redirige a los usuarios después de enviar un formulario adaptable. Haga clic aquí para obtener más información sobre [configuración de páginas de redireccionamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=es).
+- **Ruta/URL de redireccionamiento**: esta opción permite al usuario configurar una página para cada formulario, a la que se redirige a los usuarios después de enviar un formulario adaptable. Haga clic aquí para obtener más información sobre [configuración de páginas de redireccionamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=es).
 
 ![Pestaña Mostrar mensaje](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
-* **Mostrar mensaje**: esta opción permite a los usuarios agregar un mensaje que se muestra cuando el formulario adaptable se envía correctamente. El texto predefinido se incluye en el cuadro de diálogo y el usuario puede modificarlo. El cuadro de diálogo Mostrar mensaje admite herramientas de formato de texto enriquecido que permiten a los usuarios dar formato al texto agregado.
+- **Mostrar mensaje**: esta opción permite a los usuarios agregar un mensaje que se muestra cuando el formulario adaptable se envía correctamente. El texto predefinido se incluye en el cuadro de diálogo y el usuario puede modificarlo. El cuadro de diálogo Mostrar mensaje admite herramientas de formato de texto enriquecido que permiten a los usuarios dar formato al texto agregado.
 
-* **Acción de envío**: se activa una acción de envío cuando un usuario hace clic en el botón Enviar en un formulario adaptable. Los usuarios pueden seleccionar acciones de envío en la lista desplegable que se admiten de forma predeterminada. Obtenga información sobre cómo [configurar una acción de envío en la pestaña Envío](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#supporting-custom-functions-in-validation-expressions-br).
+- **Acción de envío**: se activa una acción de envío cuando un usuario hace clic en el botón Enviar en un formulario adaptable. Los usuarios pueden seleccionar acciones de envío en la lista desplegable que se admiten de forma predeterminada. Obtenga información sobre cómo [configurar una acción de envío en la pestaña Envío](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#supporting-custom-functions-in-validation-expressions-br).
+
+## Cuadro de diálogo de diseño {#design-dialog}
+
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Contenedor de formularios.
+
+### Pestaña Componentes permitidos {#allowed-components-tab}
+
+![Pestaña de componentes permitidos del cuadro de diálogo Diseño](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
+
+El **Componentes permitidos** permite al editor de plantillas establecer los componentes que se pueden añadir como elementos a los paneles del componente en el editor de Forms adaptable.
+
+### Pestaña Componentes predeterminados {#default-components-tab}
+
+![Pestaña de componente predeterminada del cuadro de diálogo Diseño](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
+
+El **Componentes predeterminados** permite al editor de plantillas especificar los componentes visibles de forma predeterminada como elementos en el componente contenedor de formulario del editor de Forms adaptable.
+
+### Pestaña Configuración interactiva {#responsive-tab}
+
+![Pestaña Configuración interactiva del cuadro de diálogo de diseño](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
+
+El **Configuración interactiva** permite al editor de plantillas especificar el número de columnas de la cuadrícula dentro del componente contenedor de formulario en el editor de Forms adaptable.
+
+### Pestaña Estilos {#styles-tab}
+
+El componente principal de los archivos adjuntos de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+
+![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/formcontainer-styletab.png)
+
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de grupo de casillas de verificación de formularios adaptables.
+
+- **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
+
+### Pestaña Propiedades personalizadas
+
+![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
+
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+
+- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
+
+   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+
+   - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
+
+   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden del nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
 <!--
 
@@ -88,31 +142,9 @@ Los usuarios pueden configurar distintas acciones para los envíos de formulario
 
 -->
 
+## Artículos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeón](/help/adaptive-forms/components/accordion.md)
->* [Botón](/help/adaptive-forms/components/button.md)
->* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
->* [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
->* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
->* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
->* [Pie de página](/help/adaptive-forms/components/footer.md)
->* [Encabezado](/help/adaptive-forms/components/header.md)
->* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagen](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
->* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
->* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
->* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Asistente](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Vea también {#see-also}
 

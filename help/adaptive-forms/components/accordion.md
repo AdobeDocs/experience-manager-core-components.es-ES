@@ -3,10 +3,10 @@ title: Acordeón de formulario adaptable
 description: Utilice el acordeón para organizar y simplificar un formulario largo o complejo, dividiéndolo en secciones más pequeñas y manejables.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '2052'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -14,25 +14,27 @@ ht-degree: 100%
 
 El componente principal Acordeón permite a los usuarios crear secciones expandibles y contraíbles en un formulario adaptable. A menudo se utiliza para organizar y simplificar formularios largos o complejos, dividiéndolos en secciones más pequeñas y manejables. Cada sección de un acordeón suele estar representada por un encabezado en el que el usuario puede hacer clic para expandir o reducir el contenido correspondiente. El contenido puede ser cualquier componente principal.
 
+![ejemplo](/help/adaptive-forms/assets/example-accordion.png)
+
 ## Uso {#usage}
 
 Existen varias razones por las que resulta beneficioso incluir un acordeón en un Formulario adaptable, entre ellas:
 
-* **Ahorro de espacio**: un acordeón permite a los usuarios expandir y contraer secciones de un formulario, lo que reduce el espacio necesario para mostrar todos los campos del formulario a la vez.
+- **Ahorro de espacio**: un acordeón permite a los usuarios expandir y contraer secciones de un formulario, lo que reduce el espacio necesario para mostrar todos los campos del formulario a la vez.
 
-* **Navegación**: un acordeón sirve para crear una estructura de navegación jerárquica, facilitando a los usuarios la búsqueda de los campos de formulario que necesitan.
+- **Navegación**: un acordeón sirve para crear una estructura de navegación jerárquica, facilitando a los usuarios la búsqueda de los campos de formulario que necesitan.
 
-* **Experiencia del usuario**: el acordeón se puede utilizar para que el formulario sea más fácil de usar, ya que proporciona una forma clara e intuitiva de que los usuarios accedan a los campos del formulario y los rellenen.
+- **Experiencia del usuario**: el acordeón se puede utilizar para que el formulario sea más fácil de usar, ya que proporciona una forma clara e intuitiva de que los usuarios accedan a los campos del formulario y los rellenen.
 
-* **Formularios largos**: el acordeón es un componente ideal para manejar formularios largos, ya que permite a los usuarios centrarse en una sección a la vez, en lugar de intentar procesar mucha información a la vez.
+- **Formularios largos**: el acordeón es un componente ideal para manejar formularios largos, ya que permite a los usuarios centrarse en una sección a la vez, en lugar de intentar procesar mucha información a la vez.
 
 Puede utilizar lo siguiente:
 
-* El [cuadro de diálogo de configuración](#configure-dialog) para especificar las propiedades del componente acordeón.
+- El [cuadro de diálogo de configuración](#configure-dialog) para especificar las propiedades del componente acordeón.
 
-* La opción [Seleccionar la ventana emergente del panel](#select-panel-popover) sirve para definir el orden de los paneles del acordeón. Esto permite al autor organizar los paneles en el orden en que deberían aparecer.
+- La opción [Seleccionar la ventana emergente del panel](#select-panel-popover) sirve para definir el orden de los paneles del acordeón. Esto permite al autor organizar los paneles en el orden en que deberían aparecer.
 
-* Opciones para que un autor de formularios active o desactive determinadas funciones del [cuadro de diálogo Diseño](#design-dialog). Por ejemplo, un autor puede desactivar determinados campos o secciones de un formulario. Estas opciones permiten que el autor tenga un mayor control sobre el diseño y la funcionalidad del formulario, lo que facilita la creación de formularios que se adaptan a las necesidades específicas de la organización.
+- Opciones para que un autor de formularios active o desactive determinadas funciones del [cuadro de diálogo Diseño](#design-dialog). Por ejemplo, un autor puede desactivar determinados campos o secciones de un formulario. Estas opciones permiten que el autor tenga un mayor control sobre el diseño y la funcionalidad del formulario, lo que facilita la creación de formularios que se adaptan a las necesidades específicas de la organización.
 
 El cuadro de diálogo de configuración, seleccionar la ventana emergente del panel y el cuadro de diálogo Diseño, todos forman parte de los componentes principales que logran facilitar la generación de formularios y proporcionar una forma eficaz de crear formularios complejos.
 
@@ -65,15 +67,15 @@ Puede personalizar fácilmente la experiencia de acordeón para los visitantes c
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/acc-basic.png)
 
-* **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
+- **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
-* **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 
-* **Ocultar título**: seleccione la opción para ocultar el título del componente.
+- **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-* **Agrupar datos de componentes secundarios al enviar el formulario (ajustar datos en objeto)**: cuando se selecciona la opción, los datos de sus componentes secundarios se anidan dentro del objeto JSON del componente principal. Sin embargo, si la opción no está seleccionada, los datos JSON enviados tienen una estructura plana, sin ningún objeto para el componente principal. Por ejemplo:
+- **Agrupar datos de componentes secundarios al enviar el formulario (ajustar datos en objeto)**: cuando se selecciona la opción, los datos de sus componentes secundarios se anidan dentro del objeto JSON del componente principal. Sin embargo, si la opción no está seleccionada, los datos JSON enviados tienen una estructura plana, sin ningún objeto para el componente principal. Por ejemplo:
 
-   * Cuando la opción está seleccionada, los datos de los componentes secundarios (por ejemplo, calle, ciudad y código postal) se anidan dentro del componente principal (dirección) como un objeto JSON. Esto crea una estructura jerárquica y los datos se organizan bajo el componente principal.
+   - Cuando la opción está seleccionada, los datos de los componentes secundarios (por ejemplo, calle, ciudad y código postal) se anidan dentro del componente principal (dirección) como un objeto JSON. Esto crea una estructura jerárquica y los datos se organizan bajo el componente principal.
 
      Estructura de los datos enviados:
 
@@ -85,7 +87,7 @@ Puede personalizar fácilmente la experiencia de acordeón para los visitantes c
      }
      ```
 
-   * Cuando la opción no está seleccionada, los datos JSON enviados tienen una estructura plana sin ningún objeto para el componente principal (dirección). Todos los datos se encuentran al mismo nivel, sin ninguna organización jerárquica.
+   - Cuando la opción no está seleccionada, los datos JSON enviados tienen una estructura plana sin ningún objeto para el componente principal (dirección). Todos los datos se encuentran al mismo nivel, sin ninguna organización jerárquica.
 
 
      Estructura de los datos enviados:
@@ -94,13 +96,13 @@ Puede personalizar fácilmente la experiencia de acordeón para los visitantes c
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-* **Diseño**: puede tener un diseño fijo (simple) o flexible (cuadrícula adaptable) para el asistente. El diseño simple mantiene todo fijo en su sitio, mientras que la cuadrícula interactiva le permite ajustar la posición de los componentes para adaptarlos a sus necesidades. Por ejemplo, utilice Cuadrícula interactiva para alinear el Nombre, Segundo nombre y Apellido en un formulario en una sola fila.
+- **Diseño**: puede tener un diseño fijo (simple) o flexible (cuadrícula adaptable) para el asistente. El diseño simple mantiene todo fijo en su sitio, mientras que la cuadrícula interactiva le permite ajustar la posición de los componentes para adaptarlos a sus necesidades. Por ejemplo, utilice Cuadrícula interactiva para alinear el Nombre, Segundo nombre y Apellido en un formulario en una sola fila.
 
-* **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
+- **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 
-* **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
+- **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 
-* **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+- **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
 ### Repetir acordeón {#repeat-accordion}
 
@@ -108,9 +110,9 @@ Puede personalizar fácilmente la experiencia de acordeón para los visitantes c
 
 Puede utilizar las opciones de repetibilidad para duplicar paneles de acordeón y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario. Al interactuar con el componente de acordeón y acceder a su configuración, se presentan las siguientes opciones:
 
-* **Hacer que el acordeón sea repetible**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
-* **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el panel de acordeón. Un valor de cero indica que el panel de acordeón no se repite; el valor predeterminado es cero.
-* **Máximo de repeticiones**: define el número máximo de veces que se puede repetir el panel de acordeón. De forma predeterminada, este valor es ilimitado.
+- **Hacer que el acordeón sea repetible**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
+- **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el panel de acordeón. Un valor de cero indica que el panel de acordeón no se repite; el valor predeterminado es cero.
+- **Máximo de repeticiones**: define el número máximo de veces que se puede repetir el panel de acordeón. De forma predeterminada, este valor es ilimitado.
 
 Para administrar de forma eficaz las secciones repetibles dentro del acordeón, siga los pasos que se proporcionan en el artículo [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).
 
@@ -120,20 +122,20 @@ Para administrar de forma eficaz las secciones repetibles dentro del acordeón, 
 
 El botón Agregar permite seleccionar un componente para agregarlo como panel en la ventana de selección de componentes. Después de añadir el componente, podrá ver las siguientes opciones:
 
-* **Icono**: el icono identifica el componente del panel en la lista. Puede pasar el ratón sobre el icono para ver el nombre completo del componente como información sobre herramientas.
-* **Descripción**: la descripción utilizada como texto del panel. El nombre del componente está seleccionado para el panel de forma predeterminada,
-* **Eliminar**: toque o haga clic para eliminar el panel del componente de acordeón.
-* **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de los paneles.
+- **Icono**: el icono identifica el componente del panel en la lista. Puede pasar el ratón sobre el icono para ver el nombre completo del componente como información sobre herramientas.
+- **Descripción**: la descripción utilizada como texto del panel. El nombre del componente está seleccionado para el panel de forma predeterminada,
+- **Eliminar**: toque o haga clic para eliminar el panel del componente de acordeón.
+- **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de los paneles.
 
 ### Pestaña Contenido de ayuda {#help-content}
 
 ![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/acc-helpcontent.png)
 
-* **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
+- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-* **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
 
-* **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
+- **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
 ### Pestaña Accesibilidad {#accessibility}
 
@@ -141,14 +143,14 @@ El botón Agregar permite seleccionar un componente para agregarlo como panel en
 
 En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [Accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente. Hay varias opciones disponibles para usar el texto del lector de pantalla:
 
-* **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+- **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
 
 
-   * **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
-   * **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
-   * **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
-   * **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   * **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+   - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
+   - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+   - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
 <!--
 
@@ -181,9 +183,9 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 
 El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente acordeón de formularios adaptables, puede establecer lo siguiente:
 
-* El tipo de elementos de encabezado HTML que se permiten y establecen como valor predeterminado (como H1, H2, H3, etc.)
-* Componentes principales que un creador de formularios puede agregar al acordeón en el editor de formularios adaptables
-* Nombres simples para estilos (clases CSS) que se pueden aplicar en el cuadro de diálogo de propiedades del componente de acordeón en el editor de formularios adaptables.
+- El tipo de elementos de encabezado HTML que se permiten y establecen como valor predeterminado (como H1, H2, H3, etc.)
+- Componentes principales que un creador de formularios puede agregar al acordeón en el editor de formularios adaptables
+- Nombres simples para estilos (clases CSS) que se pueden aplicar en el cuadro de diálogo de propiedades del componente de acordeón en el editor de formularios adaptables.
 
 Esto ayuda a que el proceso de creación y personalización de formularios sea más sencillo y eficaz.
 
@@ -191,83 +193,45 @@ Esto ayuda a que el proceso de creación y personalización de formularios sea m
 
 La pestaña Propiedades permite a los autores de plantillas definir elementos de encabezado HTML predeterminados y permitidos para los autores de formularios:
 
-![Pestaña Propiedades del cuadro de diálogo Diseño](/help/assets/accordion-design-properties.png)
+![Pestaña Propiedades del cuadro de diálogo Diseño](/help//adaptive-forms/assets/accordion-design-properties.png)
 
-* **Elementos de encabezado permitidos**: una lista desplegable con varias opciones que permite al autor de la plantilla elegir qué elementos de encabezado puede utilizar el autor de formularios para el acordeón.
+- **Elementos de encabezado permitidos**: una lista desplegable con varias opciones que permite al autor de la plantilla elegir qué elementos de encabezado puede utilizar el autor de formularios para el acordeón.
 
-* **Elemento Encabezado predeterminado**: una lista desplegable establece el elemento Encabezado predeterminado para el componente de acordeón.
+- **Elemento Encabezado predeterminado**: una lista desplegable establece el elemento Encabezado predeterminado para el componente de acordeón.
 
 ### Pestaña Componentes permitidos {#allowed-components-tab}
+
+![Pestaña de componentes permitidos del cuadro de diálogo Diseño](/help//adaptive-forms/assets/accordion-allowed-components.png)
 
 La pestaña **Componentes permitidos** permite que el editor de plantillas defina los componentes que se pueden agregar como elementos a los paneles en el componente de acordeón del editor de formularios adaptables.
 
 ### Pestaña Estilos {#styles-tab}
 
+![Pestaña Estilo del cuadro de diálogo Diseño](/help/adaptive-forms/assets/accordion-styles-tab.png)
+
 El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS de un componente. El componente principal de acordeón de formularios adaptables es compatible con [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
-**Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente de acordeón.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente de acordeón.
 
-**Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
+- **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
+### Propiedades personalizadas
 
-<!--- 
+![acordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
 
-The design dialog allows the template author to define the options available to the content author who uses the Accordion Component and the defaults set when placing the Accordion Component.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
+- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
 
-### Properties Tab {#properties-tab-design}
+   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
 
-![Design dialog properties tab](/help/assets/accordion-design-properties.png)
+   - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
-* **Allowed Heading Elements** - This multi-select drop-down defines the accordion item heading HTML elements that are allowed to be selected by an author.
-* **Default Heading Element** - This drop-down defines the default accordion item heading HTML element.
+   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden del nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
-### Allowed Components Tab {#allowed-components-tab}
+## Artículos relacionados {#related-articles}
 
-The **Allowed Components** tab is used to define which components can be added as items to panels in the Accordion Component by the content author.
-
-The Allowed Components tab functions in the same way as the tab of the same name when [defining the policy and properties of a Layout Container in the Template Editor.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html#editing-a-template-layout-template-author)
-
-### Styles Tab {#styles-tab}
-
-The Accordion Component supports the AEM [Style System](/help/get-started/authoring.md#component-styling).
-
-## Adobe Client Data Layer {#data-layer}
-
-The Accordion Component supports the [Adobe Client Data Layer.](/help/developing/data-layer/overview.md) 
-
-
-<!--
-
-## Related article {#related-article}
-
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
-
--->
-
->[!MORELIKETHIS]
->
->* [Botón](/help/adaptive-forms/components/button.md)
->* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
->* [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
->* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
->* [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
->* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
->* [Pie de página](/help/adaptive-forms/components/footer.md)
->* [Encabezado](/help/adaptive-forms/components/header.md)
->* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagen](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
->* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
->* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
->* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Asistente](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Vea también {#see-also}
 

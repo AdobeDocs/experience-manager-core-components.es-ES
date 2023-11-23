@@ -3,9 +3,9 @@ title: 'Componente principal de formularios adaptables: pie de página'
 description: Uso o personalización del componente principal de pie de página de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
-source-git-commit: be630c4d0a10ebaa679b77419b901fac818addb1
-workflow-type: ht
-source-wordcount: '807'
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '775'
 ht-degree: 100%
 
 ---
@@ -16,21 +16,21 @@ Un componente de pie de página de un formulario adaptable es un área que suele
 
 **Ejemplo**
 
-![](/help/adaptive-forms/assets/footer.png)
+![ejemplo](/help/adaptive-forms/assets/footer.png)
 
 ## Uso {#reasons-to-use-footer}
 
 Existen varias razones por las que resulta beneficioso incluir un componente de pie de página en un formulario, entre ellas, las siguientes:
 
-* **Requisitos legales**: es posible que se requieran algunos formularios para incluir una exención de responsabilidad, un aviso de copyright u otra información legal. Un pie de página es el lugar idóneo para incluir esta información.
+- **Requisitos legales**: es posible que se requieran algunos formularios para incluir una exención de responsabilidad, un aviso de copyright u otra información legal. Un pie de página es el lugar idóneo para incluir esta información.
 
-* **Navegación**: un pie de página puede proporcionar vínculos a otras páginas importantes del sitio web, como una política de privacidad, los términos de servicio o la página de contacto.
+- **Navegación**: un pie de página puede proporcionar vínculos a otras páginas importantes del sitio web, como una política de privacidad, los términos de servicio o la página de contacto.
 
-* **Personalización de marca**: se puede utilizar un pie de página para incluir un logotipo u otros elementos de personalización de marca, lo que ayuda a reforzar la identidad de la organización o del sitio web.
+- **Personalización de marca**: se puede utilizar un pie de página para incluir un logotipo u otros elementos de personalización de marca, lo que ayuda a reforzar la identidad de la organización o del sitio web.
 
-* **Coherencia**: un pie de página proporciona coherencia en el diseño y la presentación del formulario, lo que lo hace más intuitivo y fácil de navegar para los usuarios.
+- **Coherencia**: un pie de página proporciona coherencia en el diseño y la presentación del formulario, lo que lo hace más intuitivo y fácil de navegar para los usuarios.
 
-* **Contexto adicional**: un pie de página puede proporcionar contexto adicional al formulario, como un texto que describe el formulario o un vínculo a recursos relacionados, lo que hace que el formulario sea más informativo y fácil de usar.
+- **Contexto adicional**: un pie de página puede proporcionar contexto adicional al formulario, como un texto que describe el formulario o un vínculo a recursos relacionados, lo que hace que el formulario sea más informativo y fácil de usar.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -57,53 +57,53 @@ Puede personalizar fácilmente la experiencia del pie de página para los visita
 
 ![Pestaña Propiedades](/help/adaptive-forms/assets/footer_propertiestab.png)
 
-* **Cuadro de diálogo Editar**
+- **Cuadro de diálogo Editar**
 El cuadro de diálogo de edición proporciona herramientas de formato de texto enriquecido estándar que permiten al usuario crear texto para el pie de página.
 
-* **Negrita**: se utiliza para aplicar formato de negrita al texto seleccionado o para dar formato negrita al texto introducido después del cursor. `Ctrl+B` es un método abreviado del teclado.
+- **Negrita**: se utiliza para aplicar formato de negrita al texto seleccionado o para dar formato negrita al texto introducido después del cursor. `Ctrl+B` es un método abreviado del teclado.
 
-* **Cursiva**: esta opción aplica formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor. `Ctrl+I` es un método abreviado del teclado.
+- **Cursiva**: esta opción aplica formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor. `Ctrl+I` es un método abreviado del teclado.
 
 ![Opciones de viñeta](/help/adaptive-forms/assets/footer_bullet.png)
 
 
-* **Viñeta**
+- **Viñeta**
 
-   * **Icono de viñeta**: se utiliza para dar formato al texto seleccionado como una lista con viñetas o comenzar la inserción de una lista con viñetas después del cursor. Para finalizar una lista con viñetas, toque o haga clic en el botón Viñeta de nuevo o introduzca dos retornos de carro.
+   - **Icono de viñeta**: se utiliza para dar formato al texto seleccionado como una lista con viñetas o comenzar la inserción de una lista con viñetas después del cursor. Para finalizar una lista con viñetas, toque o haga clic en el botón Viñeta de nuevo o introduzca dos retornos de carro.
 
-   * **Icono de lista numerada**: se utiliza para dar formato al texto seleccionado como una lista numerada o comenzar la inserción de una lista numerada después del cursor. Para finalizar una lista numerada, toque o haga clic en el botón Numeración de nuevo o introduzca dos retornos de carro.
+   - **Icono de lista numerada**: se utiliza para dar formato al texto seleccionado como una lista numerada o comenzar la inserción de una lista numerada después del cursor. Para finalizar una lista numerada, toque o haga clic en el botón Numeración de nuevo o introduzca dos retornos de carro.
 
-   * **Icono de anular selección**: reduce el nivel de sangría del texto o texto seleccionado tras el cursor. Solo se activará si el texto o la posición seleccionados del cursor ya tienen sangría.
+   - **Icono de anular selección**: reduce el nivel de sangría del texto o texto seleccionado tras el cursor. Solo se activará si el texto o la posición seleccionados del cursor ya tienen sangría.
 
-   * **Icono de sangría**: aumenta el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
+   - **Icono de sangría**: aumenta el nivel de sangría del texto seleccionado o del texto introducido después del cursor.
 
 ![Opciones de hipervínculo](/help/adaptive-forms/assets/footer_link.png)
 
-* **Hipervínculo**
+- **Hipervínculo**
 
-   * **Ruta**: introduzca la ruta
+   - **Ruta**: introduzca la ruta
       1. Utilice el cuadro de diálogo Abrir selección para elegir una ruta en AEM.
       1. Si el vínculo no está dentro de AEM, introduzca la dirección URL absoluta.
       1. Las rutas no absolutas se interpretan como relativas a AEM.
 
-   * **Texto alternativo**: escriba un texto descriptivo alternativo para el vínculo.
+   - **Texto alternativo**: escriba un texto descriptivo alternativo para el vínculo.
 
-   * **Público objettivo**: seleccione el comportamiento del vínculo
-      * Destino
-      * Misma pestaña
-      * Nueva pestaña
-      * Marco principal
-      * Marco superior
+   - **Público objettivo**: seleccione el comportamiento del vínculo
+      - Destino
+      - Misma pestaña
+      - Nueva pestaña
+      - Marco principal
+      - Marco superior
 
-   * **Icono Desvincular**: esta opción elimina un vínculo ya aplicado al texto seleccionado. Esta opción solo está activa cuando ya se ha seleccionado el vínculo.
+   - **Icono Desvincular**: esta opción elimina un vínculo ya aplicado al texto seleccionado. Esta opción solo está activa cuando ya se ha seleccionado el vínculo.
 
-   * **Icono de formato de párrafo**: esta opción le permite aplicar formato de párrafo al texto seleccionado. También le ayuda a dar formato al texto insertado después del cursor. Define el nivel de encabezado del título.
+   - **Icono de formato de párrafo**: esta opción le permite aplicar formato de párrafo al texto seleccionado. También le ayuda a dar formato al texto insertado después del cursor. Define el nivel de encabezado del título.
 
-* **ID**: esta opción permite controlar el identificador único del componente en el HTML y en la capa de datos.
+- **ID**: esta opción permite controlar el identificador único del componente en el HTML y en la capa de datos.
 
-   * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar examinando la página resultante.
-   * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
-   * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
+   - Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar examinando la página resultante.
+   - Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+   - Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
 <!--
 
@@ -113,31 +113,9 @@ El cuadro de diálogo de edición proporciona herramientas de formato de texto e
 
 -->
 
+## Artículos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeón](/help/adaptive-forms/components/accordion.md)
->* [Botón](/help/adaptive-forms/components/button.md)
->* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
->* [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
->* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
->* [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
->* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
->* [Encabezado](/help/adaptive-forms/components/header.md)
->* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagen](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
->* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
->* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
->* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Asistente](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Vea también {#see-also}
 

@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: contenedor de panel'
 description: Uso o personalización del componente principal del contenedor de panel de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 37ac7d3a9ae8c88d4c9be8129cfbd1eb4a7cccd1
-workflow-type: ht
-source-wordcount: '1828'
-ht-degree: 100%
+source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
+workflow-type: tm+mt
+source-wordcount: '2036'
+ht-degree: 79%
 
 ---
 
@@ -20,7 +20,7 @@ También se puede utilizar para configurar diferentes acciones basadas en reglas
 
 **Ejemplo**
 
-![](/help/adaptive-forms/assets/panel-container.png)
+![ejemplo](/help/adaptive-forms/assets/panel-container.png)
 
 ## Uso {#reasons-to-use-panel-container}
 
@@ -91,9 +91,7 @@ Puede personalizar fácilmente la experiencia del contenedor del panel para los 
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Diseño**: puede tener un diseño fijo (simple) o flexible (cuadrícula adaptable) para el asistente. El diseño simple mantiene todo fijo en su sitio, mientras que la cuadrícula interactiva le permite ajustar la posición de los componentes para adaptarlos a sus necesidades. Por ejemplo, utilice Cuadrícula interactiva para alinear el Nombre, Segundo nombre y Apellido en un formulario en una sola fila.
-
-- **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
+- **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
@@ -129,50 +127,76 @@ Para administrar de forma eficaz las secciones repetibles dentro del contenedor 
 
 - **Función de HTML para el anuncio del lector de pantalla**: la función de HTML es un atributo que se utiliza para especificar la finalidad de un elemento HTML para tecnologías de asistencia, como los lectores de pantalla. El atributo de función se utiliza para proporcionar un contexto y un significado semántico adicionales a un elemento, lo que facilita a los lectores de pantalla la interpretación y el anuncio del contenido al usuario. Por ejemplo, en AEM Forms, la etiqueta de un campo de formulario puede tener la función “label” y su campo de entrada puede tener la función “textbox”. Esto ayuda al lector de pantalla a comprender la relación entre la etiqueta y el campo de entrada, y a anunciarlas correctamente al usuario.
 
+## Cuadro de diálogo de diseño {#design-dialog}
+
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Contenedor de formularios.
+
+### Pestaña Componentes permitidos {#allowed-components-tab}
+
+![Pestaña de componentes permitidos del cuadro de diálogo Diseño](/help/adaptive-forms/assets/panel-container-allowed-component.png)
+
+El **Componentes permitidos** permite al editor de plantillas establecer los componentes que se pueden añadir como elementos a los paneles del componente en el editor de Forms adaptable.
+
+### Pestaña Componentes predeterminados {#default-components-tab}
+
+![Pestaña de componente predeterminada del cuadro de diálogo Diseño](/help/adaptive-forms/assets/panel-container-default-component.png)
+
+El **Componentes predeterminados** permite al editor de plantillas especificar los componentes visibles de forma predeterminada como elementos en el componente contenedor de formulario del editor de Forms adaptable.
+
+### Pestaña Configuración interactiva {#responsive-tab}
+
+![Pestaña Configuración interactiva del cuadro de diálogo de diseño](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+
+El **Configuración interactiva** permite al editor de plantillas especificar el número de columnas de la cuadrícula dentro del componente contenedor de formulario en el editor de Forms adaptable.
+
+### Pestaña Configuración de contenedor
+
+![Pestaña Configuración de contenedor](/help/adaptive-forms/assets/panel-container-container-settings.png)
+
+- **Diseño**: puede tener un diseño fijo (simple) o flexible (cuadrícula adaptable) para el asistente. El diseño simple mantiene todo fijo en su sitio, mientras que la cuadrícula interactiva le permite ajustar la posición de los componentes para adaptarlos a sus necesidades. Por ejemplo, utilice Cuadrícula interactiva para alinear el Nombre, Segundo nombre y Apellido en un formulario en una sola fila.
+
+- **Deshabilitar diseño**: seleccione esta opción para deshabilitar la selección de diseño en el cuadro de diálogo de edición de un componente.
+
+- **Habilitar imagen de fondo**: esta opción permite al usuario configurar los ajustes del panel para incluir un fondo visual para mejorar el atractivo visual.
+
+- **Habilitar el color de fondo**: esta opción le permite establecer o cambiar el color de fondo del panel. Esta función se utiliza comúnmente en el diseño de interfaz de usuario para personalizar el aspecto de los paneles dentro de una interfaz más grande. Al seleccionar la variable **Habilitar el color de fondo** , la opción **Solo muestras** aparece la opción. El **Solo muestras** La opción permite especificar o elegir colores para el fondo, el texto u otros elementos visuales dentro del panel utilizando **Añadir** botón
+
+### Pestaña Estilos {#styles-tab}
+
+El componente principal de los archivos adjuntos de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+
+![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/panel-container-styles-tab.png)
+
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de grupo de casillas de verificación de formularios adaptables.
+
+- **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
+
+### Pestaña Propiedades personalizadas
+
+![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/panel-container-custom-properties.png)
+
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+
+- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
+
+   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+
+   - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
+
+   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden del nombre de la propiedad personalizada y el valor de la propiedad personalizada.
+
+<!--
+
+## Related article {#related-article}
+
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
+
+-->
+
 ## Artículos relacionados {#related-articles}
 
-- [Acordeón](/help/adaptive-forms/components/accordion.md)
-- [Botón](/help/adaptive-forms/components/button.md)
-- [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
-- [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
-- [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
-- [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
-- [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
-- [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
-- [Pie de página](/help/adaptive-forms/components/footer.md)
-- [Encabezado](/help/adaptive-forms/components/header.md)
-- [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
-- [Imagen](/help/adaptive-forms/components/image.md)
-- [Entrada de número](/help/adaptive-forms/components/number-input.md)
-- [Botón de opción](/help/adaptive-forms/components/radio-button.md)
-- [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
-- [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
-- [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
-- [Entrada de texto](/help/adaptive-forms/components/text-input.md)
-- [Texto](/help/adaptive-forms/components/text.md)
-- [Título](/help/adaptive-forms/components/title.md)
-- [Asistente](/help/adaptive-forms/components/wizard.md)
-
+{{more-like-this}}
 
 ## Vea también {#see-also}
 
-- [Crear un formulario adaptable de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
-- [Agregar un formulario adaptable de AEM a la página de AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=es)
-- [Aplicar temáticas a un formulario adaptable de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=es)
-- [Añadir componentes a un formulario adaptable de AEM](/help/adaptive-forms/introduction.md#adaptive-forms-core-components-components)
-- [Uso de reCAPTCHA en un formulario adaptable de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/captcha-adaptive-forms.html?lang=es)
-- [Generar la versión de PDF (DoR) de un formulario adaptable de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components.html?lang=es)
-- [Traducir un formulario adaptable de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-aem-translation-workflow-to-localize-adaptive-forms-core-components.html?lang=es)
-- [Habilitar Adobe Analytics para un formulario adaptable con el fin de realizar un seguimiento del uso del formulario](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/services/enable-adobe-analytics-adaptive-form-using-experience-cloud-setup-automation.html?lang=es)
-- [Conectar el formulario adaptable a Microsoft SharePoint](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=es#create-sharepoint-configuration)
-- [Conectar formularios adaptables a Microsoft Power Automate](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=es#microsoft-power-automate)
-- [Conectar el formulario adaptable a Microsoft OneDrive](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=es#submit-to-onedrive)
-- [Conectar el formulario adaptable al almacenamiento de Microsoft Azure Blob](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=es#submit-to-azure-blob-storage)
-- [Conectar el formulario adaptable a Salesforce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/oauth2-client-credentials-flow-for-server-to-server-integration.html?lang=es)
-- [Uso del Inicio de sesión en un formulario adaptable de AEM de Adobe](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/use-adobe-sign/working-with-adobe-sign.html?lang=es)
-- [Añadir una nueva configuración regional para un formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components.html?lang=es)
-- [Enviar datos de formulario adaptable a una base de datos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/data-integration.html?lang=es)
-- [Enviar datos de formulario adaptable a un punto final REST](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=es#submit-to-rest-endpoint)
-- [Enviar datos de formulario adaptable al flujo de trabajo de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components.html?lang=es#invoke-an-aem-workflow)
-- [Utilizar el portal de Forms para ver una lista de formularios adaptables de AEM en un sitio web de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html?lang=es)
-
+{{see-also}}

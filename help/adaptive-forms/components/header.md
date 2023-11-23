@@ -3,9 +3,9 @@ title: 'Componente principal de formularios adaptables: encabezado'
 description: Uso o personalización del componente principal de encabezado de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '712'
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '679'
 ht-degree: 100%
 
 ---
@@ -20,15 +20,15 @@ El componente Encabezado de un Formulario adaptable es una sección de la parte 
 
 ## Uso {#reasons-to-use-header}
 
-* **Personalización de marca**: se puede utilizar un encabezado para mostrar el logotipo o el nombre de la organización que ha creado el formulario, lo que ayuda a establecer el reconocimiento y la credibilidad de la marca.
+- **Personalización de marca**: se puede utilizar un encabezado para mostrar el logotipo o el nombre de la organización que ha creado el formulario, lo que ayuda a establecer el reconocimiento y la credibilidad de la marca.
 
-* **Contexto**: un encabezado puede proporcionar una breve descripción de la finalidad del formulario, lo que ayuda a los usuarios a comprender el contexto en el que se utiliza el formulario.
+- **Contexto**: un encabezado puede proporcionar una breve descripción de la finalidad del formulario, lo que ayuda a los usuarios a comprender el contexto en el que se utiliza el formulario.
 
-* **Navegación**: un encabezado puede incluir vínculos o botones que permiten a los usuarios navegar a otras partes del sitio web o aplicación.
+- **Navegación**: un encabezado puede incluir vínculos o botones que permiten a los usuarios navegar a otras partes del sitio web o aplicación.
 
-* **Información**: un encabezado puede incluir información de contacto o vínculos a recursos de ayuda, lo que facilita la obtención de asistencia, en caso de que la necesiten.
+- **Información**: un encabezado puede incluir información de contacto o vínculos a recursos de ayuda, lo que facilita la obtención de asistencia, en caso de que la necesiten.
 
-* **Experiencia del usuario**: se puede utilizar un encabezado para facilitar el uso del formulario, proporcionando una forma clara e intuitiva de que los usuarios accedan a los campos del formulario y los rellenen.
+- **Experiencia del usuario**: se puede utilizar un encabezado para facilitar el uso del formulario, proporcionando una forma clara e intuitiva de que los usuarios accedan a los campos del formulario y los rellenen.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -60,21 +60,21 @@ Esta parte del encabezado contiene el título y la imagen del encabezado.
 
 ![Pestaña Imágenes](/help/adaptive-forms/assets/header_image.png)
 
-* **Recurso de imagen**: esta opción permite soltar un recurso como una imagen arrastrando y soltando con el ratón. También puede cargar un archivo desde un sistema de archivos local utilizando el botón **Examinar**. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen:
-   * **Editar**: pulse o haga clic en **Editar** para administrar las representaciones del recurso en el Editor de recursos.
-   * **Borrar**: pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
-   * **Elegir**: pulse o haga clic en **Elegir**  para seleccionar otra imagen de la carpeta Recursos.
+- **Recurso de imagen**: esta opción permite soltar un recurso como una imagen arrastrando y soltando con el ratón. También puede cargar un archivo desde un sistema de archivos local utilizando el botón **Examinar**. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen:
+   - **Editar**: pulse o haga clic en **Editar** para administrar las representaciones del recurso en el Editor de recursos.
+   - **Borrar**: pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
+   - **Elegir**: pulse o haga clic en **Elegir**  para seleccionar otra imagen de la carpeta Recursos.
 
-* **Título**: esta opción se utiliza para añadir el título al encabezado. El texto predefinido se incluye en el cuadro de diálogo y el usuario lo puede modificar.
-* **Vincular a**: puede vincular el encabezado a la carpeta mediante el icono de **Examinar**.
-* **Descripción**: una descripción es una breve explicación de texto que proporciona información adicional o aclaración sobre la finalidad de una imagen específica.
-* **Tamaño (px)**: ayuda a ajustar la longitud y anchura de la imagen aumentando o disminuyendo los píxeles.
+- **Título**: esta opción se utiliza para añadir el título al encabezado. El texto predefinido se incluye en el cuadro de diálogo y el usuario lo puede modificar.
+- **Vincular a**: puede vincular el encabezado a la carpeta mediante el icono de **Examinar**.
+- **Descripción**: una descripción es una breve explicación de texto que proporciona información adicional o aclaración sobre la finalidad de una imagen específica.
+- **Tamaño (px)**: ayuda a ajustar la longitud y anchura de la imagen aumentando o disminuyendo los píxeles.
 
 ![accessibilitytab](/help/adaptive-forms/assets/header_accessibility.png)
 
-* **Texto alternativo**: esta opción se utiliza para introducir el texto que proporciona una alternativa de texto breve y descriptivo de la imagen, que describe la imagen para las personas con discapacidad visual.
+- **Texto alternativo**: esta opción se utiliza para introducir el texto que proporciona una alternativa de texto breve y descriptivo de la imagen, que describe la imagen para las personas con discapacidad visual.
 
-* **La imagen es decorativa**: compruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto solo se aplica a imágenes decorativas.
+- **La imagen es decorativa**: compruebe si la tecnología de asistencia debe ignorar la imagen y, por lo tanto, no requiere un texto alternativo. Esto solo se aplica a imágenes decorativas.
 
 ### Pestaña Texto {#text-tab}
 
@@ -88,30 +88,9 @@ Esta sección permite introducir el texto que se incluirá en el encabezado.
 
 -->
 
+## Artículos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeón](/help/adaptive-forms/components/accordion.md)
->* [Botón](/help/adaptive-forms/components/button.md)
->* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
->* [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
->* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
->* [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
->* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
->* [Pie de página](/help/adaptive-forms/components/footer.md)
->* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagen](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
->* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
->* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
->* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Título](/help/adaptive-forms/components/title.md)
->* [Asistente](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Vea también {#see-also}
 

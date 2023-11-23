@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: título'
 description: Uso o personalización del componente principal de título de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '899'
-ht-degree: 100%
+source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,23 +16,23 @@ En un formulario adaptable, un “título” hace referencia al texto que aparec
 
 **Ejemplo**
 
-![](/help/adaptive-forms/assets/title.png)
+![ejemplo](/help/adaptive-forms/assets/title.png)
 
 ## Uso {#reasons-to-use-title-in-an-adaptive-form}
 
 Hay varias razones por las que es recomendable utilizar un título en un formulario:
 
-* **Claridad**: un título identifica claramente el propósito del formulario, lo que ayuda a los usuarios a comprender qué información necesitan proporcionar.
+- **Claridad**: un título identifica claramente el propósito del formulario, lo que ayuda a los usuarios a comprender qué información necesitan proporcionar.
 
-* **Organización**: un título puede ayudar a organizar los formularios por tema o propósito, lo que facilita a los usuarios encontrar el que necesitan.
+- **Organización**: un título puede ayudar a organizar los formularios por tema o propósito, lo que facilita a los usuarios encontrar el que necesitan.
 
-* **Accesibilidad**: un título es un elemento clave para los usuarios con necesidades de accesibilidad, ya que los lectores de pantalla lo leen en voz alta, lo que ayuda a comprender el contexto del formulario.
+- **Accesibilidad**: un título es un elemento clave para los usuarios con necesidades de accesibilidad, ya que los lectores de pantalla lo leen en voz alta, lo que ayuda a comprender el contexto del formulario.
 
-* **Personalización de marca**: un título también se puede usar para mostrar el nombre de una empresa u organización, lo que ayuda a crear sensación de confianza y familiaridad con el usuario.
+- **Personalización de marca**: un título también se puede usar para mostrar el nombre de una empresa u organización, lo que ayuda a crear sensación de confianza y familiaridad con el usuario.
 
-* **Navegación**: un título también puede resultar útil para desplazarse por el formulario, especialmente si es largo o complejo.
+- **Navegación**: un título también puede resultar útil para desplazarse por el formulario, especialmente si es largo o complejo.
 
-* **Optimización del motor de búsqueda (SEO)**: tener un título en el formulario también ayuda en SEO, ya que los motores de búsqueda se sirven del título para determinar la importancia de una página web en una consulta de búsqueda.
+- **Optimización del motor de búsqueda (SEO)**: tener un título en el formulario también ayuda en SEO, ya que los motores de búsqueda se sirven del título para determinar la importancia de una página web en una consulta de búsqueda.
 
 En general, el título es un aspecto importante de la experiencia del usuario y debe utilizarse para proporcionar una etiqueta clara y concisa que ayude a los usuarios a comprender el contexto y la finalidad del formulario.
 
@@ -63,12 +63,12 @@ Puede personalizar fácilmente la experiencia de títulos para los visitantes co
 
 El cuadro de diálogo de edición permite al autor del contenido definir el texto del título, así como seleccionar el nivel de encabezado.
 
-* **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece en la parte superior del componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
-* **Tipo/tamaño**: define el nivel de encabezado del título.
-* **ID**: esta opción permite controlar el identificador único del componente del HTML y de la capa de datos.
-   * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
-   * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
-   * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
+- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece en la parte superior del componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+- **Tipo/tamaño**: define el nivel de encabezado del título.
+- **ID**: esta opción permite controlar el identificador único del componente del HTML y de la capa de datos.
+   - Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
+   - Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+   - Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
@@ -80,9 +80,9 @@ La pestaña Título permite a los autores de plantillas definir elementos de enc
 
 ![Pestaña Título del cuadro de diálogo de diseño](/help/adaptive-forms/assets/title_heading.png)
 
-* **Elementos de encabezado permitidos**: una lista con varias opciones que permite al autor de la plantilla elegir los elementos de encabezado que el autor puede utilizar para el título.
+- **Elementos de encabezado permitidos**: una lista con varias opciones que permite al autor de la plantilla elegir los elementos de encabezado que el autor puede utilizar para el título.
 
-* **Elemento de encabezado predeterminado**: una lista desplegable que establece el elemento de encabezado predeterminado para el componente de título.
+- **Elemento de encabezado predeterminado**: una lista desplegable que establece el elemento de encabezado predeterminado para el componente de título.
 
 ### Pestaña Estilos {#styles-tab}
 
@@ -90,9 +90,9 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 ![Pestaña Título del cuadro de diálogo de diseño](/help/adaptive-forms/assets/title_styles.png)
 
-* **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de selector de fecha de Formularios adaptables.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de selector de fecha de Formularios adaptables.
 
-* **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
+- **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
 ### Pestaña Formatos {#format-tab}
 
@@ -108,30 +108,9 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 -->
 
+## Artículos relacionados {#related-articles}
 
->[!MORELIKETHIS]
->
->* [Acordeón](/help/adaptive-forms/components/accordion.md)
->* [Botón](/help/adaptive-forms/components/button.md)
->* [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
->* [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
->* [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
->* [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
->* [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
->* [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
->* [Pie de página](/help/adaptive-forms/components/footer.md)
->* [Encabezado](/help/adaptive-forms/components/header.md)
->* [Pestañas horizontales](/help/adaptive-forms/components/horizontal-tabs.md)
->* [Imagen](/help/adaptive-forms/components/image.md)
->* [Entrada de número](/help/adaptive-forms/components/number-input.md)
->* [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
->* [Botón de opción](/help/adaptive-forms/components/radio-button.md)
->* [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
->* [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
->* [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
->* [Entrada de texto](/help/adaptive-forms/components/text-input.md)
->* [Texto](/help/adaptive-forms/components/text.md)
->* [Asistente](/help/adaptive-forms/components/wizard.md)
+{{more-like-this}}
 
 ## Vea también {#see-also}
 
