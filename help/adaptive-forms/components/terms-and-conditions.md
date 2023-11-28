@@ -2,15 +2,13 @@
 title: Términos y condiciones del componente principal de Forms adaptable
 description: Usar o personalizar el componente principal de los términos y condiciones de Forms adaptable.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromtoc: true
-source-git-commit: ecc6ba79ba5e90bd6e759353d15ca85ce404d769
+exl-id: c607d554-ad2d-4434-856d-91e174ef3149
+source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2639'
+ht-degree: 66%
 
 ---
-
 
 # Componente Términos y condiciones
 
@@ -222,4 +220,3 @@ Puede personalizar fácilmente la variable [Componente Casilla](/help/adaptive-f
 ## Vea también {#see-also}
 
 {{see-also}}
-
