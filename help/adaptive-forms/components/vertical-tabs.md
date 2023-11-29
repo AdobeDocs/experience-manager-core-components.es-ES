@@ -3,9 +3,9 @@ title: 'Componente principal de Forms adaptable: fichas verticales'
 description: Uso o personalización del componente principal Pestañas verticales de Forms adaptable.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1929'
+source-wordcount: '1927'
 ht-degree: 65%
 
 ---
@@ -32,13 +32,13 @@ Los motivos comunes para utilizar pestañas verticales en un formulario adaptabl
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de las pestañas verticales de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. AEM Esta es una tabla que muestra todas las versiones compatibles, la compatibilidad de la y los vínculos a la documentación correspondiente:
+El componente principal de las pestañas verticales de Forms adaptable se publicó como parte de los componentes principales 2.0.18. AEM Esta es una tabla que muestra todas las versiones compatibles, la compatibilidad de la y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/versions.md) y posteriores | Compatible | Compatible |
+| Versión 1 | Compatible con la <br>[versión 2.0.18](/help/versions.md) y posteriores | Compatible | Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

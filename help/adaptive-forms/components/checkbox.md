@@ -3,9 +3,9 @@ title: 'Componente principal de Forms adaptable: casilla de verificación'
 description: Usar o personalizar el componente principal Casilla de verificación de Forms adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: f0b450ef93a32a56000c31d82bf92394c57b55f9
+source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '1708'
+source-wordcount: '1706'
 ht-degree: 53%
 
 ---
@@ -34,13 +34,13 @@ Los motivos comunes para utilizar la casilla de verificación en un formulario a
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal Casilla de verificación de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. AEM Esta es una tabla que muestra todas las versiones compatibles, la compatibilidad de la y los vínculos a la documentación correspondiente:
+El componente principal Casilla de verificación de Forms adaptable se publicó como parte de los componentes principales 2.0.52. AEM Esta es una tabla que muestra todas las versiones compatibles, la compatibilidad de la y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/versions.md) y posteriores | Compatible | Compatible |
+| Versión 1 | Compatible con la <br>[versión 2.0.52](/help/versions.md) y posteriores | Compatible | Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
