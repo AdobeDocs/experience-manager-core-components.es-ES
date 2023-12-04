@@ -3,14 +3,14 @@ title: 'Componente principal de Forms adaptable: casilla de verificación'
 description: Usar o personalizar el componente principal Casilla de verificación de Forms adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 53%
+source-wordcount: '1692'
+ht-degree: 54%
 
 ---
 
-# Casilla de verificación {#checkbox-component}
+# Componente Casilla{#checkbox-component}
 
 Una casilla de verificación es un elemento gráfico de interfaz de usuario que se utiliza comúnmente en aplicaciones de software y formularios para permitir a los usuarios realizar una elección binaria entre dos opciones: activada (seleccionada) o desactivada (no seleccionada).
 
@@ -71,7 +71,7 @@ Puede personalizar fácilmente su experiencia de casilla de verificación para l
 - **Deshabilitar componente** : seleccione la opción para deshabilitar o bloquear el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Cuando se selecciona, se devuelve el valor** : seleccione esta opción para especificar qué valor debe asociarse a la casilla de verificación cuando está activada o seleccionada. Es la acción que se produce cuando un usuario marca o marca la casilla de verificación.
-- **Habilite Desmarcar.**: seleccione la opción para habilitar o deshabilitar la capacidad de desmarcar una casilla de verificación que se haya marcado anteriormente.
+- **Active Desmarcar.**: seleccione la opción para habilitar o deshabilitar la capacidad de desmarcar una casilla de verificación que se haya marcado anteriormente.
    - If **Activar desmarcar** está activada o establecida en true, lo que significa que el usuario puede marcar y desmarcar la casilla de verificación a su discreción. Pueden activar y desactivar la casilla de verificación según sea necesario.
 
    - If **Activar desmarcar** está desactivada o establecida en false, significa que una vez marcada la casilla de verificación, el usuario no puede desmarcarla.

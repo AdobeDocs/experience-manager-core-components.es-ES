@@ -3,14 +3,14 @@ title: 'Componente principal de Forms adaptable: fichas verticales'
 description: Uso o personalización del componente principal Pestañas verticales de Forms adaptable.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
+source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
-source-wordcount: '1927'
+source-wordcount: '1904'
 ht-degree: 65%
 
 ---
 
-# Pestañas verticales {#vertical-tabs-adaptive-forms-core-component}
+# Componente Pestañas verticales{#vertical-tabs-adaptive-forms-core-component}
 
 Las pestañas verticales de un formulario adaptable hacen referencia a un patrón de diseño en el que varias secciones de un formulario se agrupan y se muestran como pestañas independientes, alineadas verticalmente. Se puede pasar de una pestaña a otra para acceder a diferentes secciones del formulario. Cada pestaña actúa como un activador para mostrar y ocultar el contenido del formulario relacionado. Las pestañas verticales ayudan a organizar los formularios largos en secciones manejables y mejorar la experiencia del usuario. Las pestañas pueden ayudar a que un formulario sea más accesible para las personas con discapacidades, ya que pueden cambiar entre secciones con la navegación mediante el teclado.
 
