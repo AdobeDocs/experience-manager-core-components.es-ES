@@ -6,10 +6,10 @@ topic: Administration
 role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
-source-git-commit: 1dd55fdd836dff89763887d88af2671ed1f9ce2b
+source-git-commit: ef86dfa62df0ac7f34ec1c4c4175e8a8132c8aed
 workflow-type: tm+mt
-source-wordcount: '1304'
-ht-degree: 100%
+source-wordcount: '1239'
+ht-degree: 96%
 
 ---
 
@@ -42,7 +42,7 @@ Las temáticas de ejemplo de referencia ayudan a los autores a definir y persona
 Para obtener estas temáticas, siga los pasos que se indican a continuación para el entorno **AEM as a Cloud Service**:
 
 1. [Habilite los componentes principales de formularios adaptables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=es)
-1. [Implemente un proyecto AEM Archetype 45 en su entorno](https://github.com/adobe/aem-project-archetype)
+1. [AEM Implementar un proyecto de tipo de archivo 47 o posterior en el entorno](https://github.com/adobe/aem-project-archetype)
 
 
 Al implementar un arquetipo AEM, solo puede utilizar las temáticas OOTB en los formularios. Para personalizar las temáticas según sus necesidades, [Utilice la canalización front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=es) para implementar las temáticas.
@@ -56,7 +56,7 @@ Al implementar un arquetipo AEM, solo puede utilizar las temáticas OOTB en los 
 1. **AEM 6.5**
 
     1. [Enable Adaptive Form Core Components](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/enable-adaptive-forms-core-components.html)
-    1. [Deploy an AEM Archetype 45 project to your environment](https://github.com/adobe/aem-project-archetype)
+    1. [Deploy an AEM Archetype 45 or later project to your environment](https://github.com/adobe/aem-project-archetype)
 
 
     When you deploy an AEM Archetype, you can only use the OOTB themes in your forms, To customize the themes as per your requirements, [Use the front-end pipeline](https://experienceleague.adobe.com/docs/experience-manager-65/forms/adaptive-forms-core-components/create-or-customize-themes-for-adaptive-forms-core-components.html) to deploy the themes.
@@ -66,9 +66,9 @@ Al implementar un arquetipo AEM, solo puede utilizar las temáticas OOTB en los 
 
 <!--
 
-### Deploying an AEM Archetype 45 project to your environment {#using-archetype-to-deploy-themes}
+### Deploying an AEM Archetype 45 or later project to your environment {#using-archetype-to-deploy-themes}
 
-You can get these themes by deploying an [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
+You can get these themes by deploying an [AEM Archetype 45 or later](https://github.com/adobe/aem-project-archetype) to your **AEM Forms as a Cloud Service** or **AEM 6.5** Forms environment.
 
 ### Enable core components and use front-end pipeline to deploy themes {#use-front-end-pipeline-to-deploy-themes}
 
@@ -124,7 +124,7 @@ La temática para el sector sanitario emplea tonos vivo y verdes para acentuar e
 Las plantillas definen la estructura inicial del formulario, el contenido y las acciones que se duplicarán en él o utilizarán una estructura de plantilla similar a la del formulario, por ejemplo, un formulario de consentimiento, un formulario de inscripción en beneficios y mucho más.
 
 **¿Cómo obtener estas plantillas?**
-Puede obtener estas plantillas implementando [AEM Archetype 45](https://github.com/adobe/aem-project-archetype) en su entorno **AEM Forms as a Cloud Service** o el entorno **AEM 6.5 Forms**.
+Puede obtener estas plantillas implementando un [AEM Tipo de archivo 45 o posterior de](https://github.com/adobe/aem-project-archetype) a su **AEM Forms as a Cloud Service** entorno o **AEM.5 Forms** entorno.
 
 <!--
 
