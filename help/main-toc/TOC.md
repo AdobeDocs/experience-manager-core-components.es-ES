@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 3e36fdf9b175930ee3a998bf91116c35b3cb6f9d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -107,14 +107,14 @@ ht-degree: 96%
    + Componentes de Formularios adaptables {#adaptive-forms-components}
       + [Acordeón de Formularios adaptables](/help/adaptive-forms/components/accordion.md)
       + [Botón de Formularios adaptables](/help/adaptive-forms/components/button.md)
-      + [Casilla de verificación Forms adaptable](/help/adaptive-forms/components/checkbox.md)
+      + [Casilla de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox.md)
       + [Grupo de casillas de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox-group.md)
       + [Contenedor de formulario adaptable](/help/adaptive-forms/components/form-container.md)
       + [Selector de fecha de Formularios adaptables](/help/adaptive-forms/components/date-picker.md)
       + [Lista desplegable de Formularios adaptables](/help/adaptive-forms/components/drop-down.md)
       + [Entrada de correo electrónico de Formularios adaptables](/help/adaptive-forms/components/email-input.md)
       + [Archivos adjuntos de Formularios adaptables](/help/adaptive-forms/components/file-attachment.md)
-      + [Fichas verticales de Forms adaptable](/help/adaptive-forms/components/vertical-tabs.md)
+      + [Pestañas verticales de formularios adaptables](/help/adaptive-forms/components/vertical-tabs.md)
       + [Pestañas horizontales de Formularios adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Imagen de Formularios adaptables](/help/adaptive-forms/components/image.md)
       + [Entrada de número de Formularios adaptables](/help/adaptive-forms/components/number-input.md)
@@ -128,7 +128,7 @@ ht-degree: 96%
       + [Cuadro de texto de Formularios adaptables](/help/adaptive-forms/components/text-input.md)
       + [Título de Formularios adaptables](/help/adaptive-forms/components/title.md)
       + [Diseño del asistente de Formularios adaptables](/help/adaptive-forms/components/wizard.md)
-      + [Términos y condiciones de Forms adaptable](/help/adaptive-forms/components/terms-and-conditions.md)
+      + [Términos y condiciones del formulario adaptable](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Encabezado](/help/adaptive-forms/components/header.md)
       + [Pie de página](/help/adaptive-forms/components/footer.md)
    + [Personalizar los componentes principales de los formularios adaptables](/help/developing/customize-adaptive-forms-core-components.md)
