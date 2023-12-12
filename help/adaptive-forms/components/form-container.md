@@ -4,9 +4,9 @@ description: Agregue un formulario adaptable a una página web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1243'
+ht-degree: 100%
 
 ---
 
@@ -90,25 +90,25 @@ Los usuarios pueden configurar distintas acciones para los envíos de formulario
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Contenedor de formularios.
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Contenedor del formulario.
 
 ### Pestaña Componentes permitidos {#allowed-components-tab}
 
 ![Pestaña de componentes permitidos del cuadro de diálogo Diseño](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-El **Componentes permitidos** permite al editor de plantillas establecer los componentes que se pueden añadir como elementos a los paneles del componente en el editor de Forms adaptable.
+La pestaña **Componentes permitidos** facilita que el editor de plantillas defina los componentes que se pueden agregar como elementos a los paneles en el componente del editor de formularios adaptables.
 
 ### Pestaña Componentes predeterminados {#default-components-tab}
 
 ![Pestaña de componente predeterminada del cuadro de diálogo Diseño](/help/adaptive-forms/assets/formcontainer-defaultcomponents.png)
 
-El **Componentes predeterminados** permite al editor de plantillas especificar los componentes visibles de forma predeterminada como elementos en el componente contenedor de formulario del editor de Forms adaptable.
+La pestaña **Componentes predeterminados** facilita al editor de plantillas especificar los componentes visibles de forma predeterminada como elementos en el componente contenedor de formulario del editor de Formularios adaptables.
 
-### Pestaña Configuración interactiva {#responsive-tab}
+### Pestaña Configuración adaptable {#responsive-tab}
 
-![Pestaña Configuración interactiva del cuadro de diálogo de diseño](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
+![Pestaña Configuración adaptable del cuadro de diálogo Diseño](/help/adaptive-forms/assets/formcontainer-responsivestyle.png)
 
-El **Configuración interactiva** permite al editor de plantillas especificar el número de columnas de la cuadrícula dentro del componente contenedor de formulario en el editor de Forms adaptable.
+La pestaña **Configuración adaptable** permite al editor de plantillas especificar el número de columnas de la cuadrícula dentro del componente contenedor de formulario en el editor de Formularios adaptables.
 
 ### Pestaña Estilos {#styles-tab}
 
@@ -124,11 +124,11 @@ El componente principal de los archivos adjuntos de formularios adaptables es co
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/formcontainer-custompropertiestab.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
-- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
+- **Nombre del grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
-   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+   - **Pares de clave-valor**: puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en el botón **Añadir** para cada grupo de propiedades personalizadas.
 
    - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
