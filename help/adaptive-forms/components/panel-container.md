@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal del contenedor de p
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2036'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -129,25 +129,25 @@ Para administrar de forma eficaz las secciones repetibles dentro del contenedor 
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Contenedor de formularios.
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Contenedor del formulario.
 
 ### Pestaña Componentes permitidos {#allowed-components-tab}
 
 ![Pestaña de componentes permitidos del cuadro de diálogo Diseño](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-El **Componentes permitidos** permite al editor de plantillas establecer los componentes que se pueden añadir como elementos a los paneles del componente en el editor de Forms adaptable.
+La pestaña **Componentes permitidos** permite que el editor de plantillas defina los componentes que se pueden agregar como elementos a los paneles en el componente del editor de Formularios adaptables.
 
 ### Pestaña Componentes predeterminados {#default-components-tab}
 
 ![Pestaña de componente predeterminada del cuadro de diálogo Diseño](/help/adaptive-forms/assets/panel-container-default-component.png)
 
-El **Componentes predeterminados** permite al editor de plantillas especificar los componentes visibles de forma predeterminada como elementos en el componente contenedor de formulario del editor de Forms adaptable.
+La pestaña **Componentes predeterminados** permite al editor de plantillas especificar los componentes visibles de forma predeterminada como elementos en el componente contenedor de formulario del editor de Formularios adaptable.
 
-### Pestaña Configuración interactiva {#responsive-tab}
+### Pestaña Configuración adaptable {#responsive-tab}
 
-![Pestaña Configuración interactiva del cuadro de diálogo de diseño](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
+![Pestaña Configuración adaptable del cuadro de diálogo de diseño](/help/adaptive-forms/assets/panel-container-responsive-style-tab.png)
 
-El **Configuración interactiva** permite al editor de plantillas especificar el número de columnas de la cuadrícula dentro del componente contenedor de formulario en el editor de Forms adaptable.
+La pestaña **Configuración adaptable** permite al editor de plantillas especificar el número de columnas de la cuadrícula dentro del componente contenedor de formulario en el editor de Formularios adaptables.
 
 ### Pestaña Configuración de contenedor
 
@@ -159,7 +159,7 @@ El **Configuración interactiva** permite al editor de plantillas especificar el
 
 - **Habilitar imagen de fondo**: esta opción permite al usuario configurar los ajustes del panel para incluir un fondo visual para mejorar el atractivo visual.
 
-- **Habilitar el color de fondo**: esta opción le permite establecer o cambiar el color de fondo del panel. Esta función se utiliza comúnmente en el diseño de interfaz de usuario para personalizar el aspecto de los paneles dentro de una interfaz más grande. Al seleccionar la variable **Habilitar el color de fondo** , la opción **Solo muestras** aparece la opción. El **Solo muestras** La opción permite especificar o elegir colores para el fondo, el texto u otros elementos visuales dentro del panel utilizando **Añadir** botón
+- **Habilitar el color de fondo**: esta opción le permite establecer o cambiar el color de fondo del panel. Esta función se utiliza comúnmente en el diseño de interfaz de usuario para personalizar el aspecto de los paneles dentro de una interfaz más grande. Al seleccionar la opción **Habilitar el color de fondo**, aparece la opción **Solo muestras**. La opción **Solo muestras** permite especificar o elegir colores para el fondo, el texto u otros elementos visuales dentro del panel utilizando el botón **Añadir**
 
 ### Pestaña Estilos {#styles-tab}
 
@@ -175,11 +175,11 @@ El componente principal de los archivos adjuntos de formularios adaptables es co
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/panel-container-custom-properties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
-- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
+- **Nombre del grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
-   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+   - **Pares de clave-valor**: puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en el botón **Añadir** para cada grupo de propiedades personalizadas.
 
    - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
