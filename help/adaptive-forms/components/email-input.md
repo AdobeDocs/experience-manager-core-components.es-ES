@@ -98,7 +98,7 @@ Puede personalizar fácilmente la experiencia de entrada de correo electrónico 
 
     La opción **Patrón de validación** permite introducir un patrón para validar el ID de correo electrónico introducido. Si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**, el mensaje de error aparecerá en pantalla.
     - **Patrón**: esta opción permite introducir los patrones de verificación permitidos para el correo electrónico. También se permiten expresiones regulares.
-    * **Mensaje de error**: esta opción permite introducir un mensaje que se muestra en la pantalla si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**
+    - **Mensaje de error**: esta opción permite introducir un mensaje que se muestra en la pantalla si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**
 
 ### Pestaña Contenido de ayuda {#help-content-tab}
 
