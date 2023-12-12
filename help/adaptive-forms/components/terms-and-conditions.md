@@ -1,46 +1,46 @@
 ---
-title: Términos y condiciones del componente principal de Forms adaptable
-description: Usar o personalizar el componente principal de los términos y condiciones de Forms adaptable.
+title: Términos y condiciones del Componente principal de Formularios adaptables
+description: Usar o personalizar el Componente principal de los Términos y condiciones de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
 workflow-type: tm+mt
-source-wordcount: '2639'
-ht-degree: 66%
+source-wordcount: '2633'
+ht-degree: 98%
 
 ---
 
 # Componente Términos y condiciones
 
-A **Términos y condiciones** componente hace referencia a una sección de un formulario que describe los términos, las reglas y las condiciones que los usuarios deben aceptar o cumplir al utilizar un servicio o acceder al contenido.
+Un componente **Términos y condiciones** hace referencia a una sección de un formulario que describe los términos, las reglas y las condiciones que los usuarios deben aceptar o cumplir al utilizar un servicio o acceder al contenido.
 
-El **Términos y condiciones** es un componente compuesto que consta de componentes Texto, Casilla de verificación y Vínculo. El componente de texto contiene un título junto con una breve descripción del propósito y el alcance de los términos y condiciones. También incluye una casilla de verificación utilizada para obtener el consentimiento explícito del usuario. También puede reemplazar un texto de consentimiento con vínculos.
+El componente **Términos y condiciones** es un componente compuesto que consta de componentes Texto, Casilla de verificación y Vínculo. El componente de texto contiene un título junto con una breve descripción del propósito y el alcance de los términos y condiciones. También incluye una casilla de verificación utilizada para obtener el consentimiento explícito del usuario. También puede reemplazar un texto de consentimiento con vínculos.
 
 **Ejemplo**
 
 ![términos y condiciones](/help/adaptive-forms/assets/terms-and-conditions.png)
 
-Consulte [Subcomponentes del componente Términos y condiciones](#sub-component) para obtener más información sobre los distintos componentes del componente Términos y condiciones.
+Consulte la sección [Subcomponentes del componente Términos y condiciones](#sub-component) para obtener más información sobre las distintas partes del componente Términos y condiciones.
 
 ## Uso {#reasons-to-use-termsandconditions}
 
 - **Acuerdo de usuario**: el componente sirve como acuerdo entre el proveedor de servicios y el usuario. Los usuarios deben reconocer y aceptar los términos antes de acceder al servicio o contenido.
 
-- **Cumplimiento legal**: Garantiza el cumplimiento y la protección legales para el proveedor de servicios al delinear los derechos, responsabilidades y responsabilidades de ambas partes.
+- **Cumplimiento legal**: garantiza el cumplimiento y la protección legales para el proveedor de servicios al delinear los derechos, responsabilidades y obligaciones de ambas partes.
 
-- **Procesos de registro**: Los formularios de registro o registro incluyen lo siguiente **Términos y condiciones** , que requiere que los usuarios acepten explícitamente los términos antes de crear una cuenta o utilizar un servicio.
+- **Procesos de registro**: los formularios de registro incluyen el componente **Términos y condiciones**, que requiere que los usuarios acepten explícitamente los términos antes de crear una cuenta o utilizar un servicio.
 
-- **Transacciones de comercio electrónico**: Los sitios web en línea incluyen **Términos y condiciones** para que los usuarios acepten los términos y condiciones como parte del proceso de cierre de compra antes de realizar compras en línea.
+- **Transacciones de comercio electrónico**: los sitios web en línea incluyen el componente **Términos y condiciones** para que los usuarios acepten los términos y condiciones como parte del proceso de cierre de compra antes de realizar compras en línea.
 
-- **Acuerdos de seguridad y privacidad**: La **Términos y condiciones** Este componente incluye detalles sobre cómo se recopilan, almacenan y utilizan los datos del usuario, a menudo complementados por una política de privacidad independiente
+- **Acuerdos de seguridad y privacidad**: el componente **Términos y condiciones** incluye detalles sobre cómo se recopilan, almacenan y utilizan los datos del usuario, a menudo complementados por una política de privacidad independiente
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de acordeón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.62 para Cloud Service y componentes principales 1.1.28 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Acordeón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.62 para Cloud Service AEM y componentes principales 1.1.28 para Forms 6.5.16.0 o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.0.62](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.28](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
+| Versión 1 | Compatible con la <br>[versión 2.0.62](/help/adaptive-forms/version.md) y posteriores | Compatible con<br>[versión 1.1.28](/help/adaptive-forms/version.md) y posterior, pero inferior a 2.0.0. |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
@@ -50,7 +50,7 @@ Obtenga la información más reciente sobre el componente principal Grupo de cas
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia de los componentes de términos y condiciones para los visitantes con el Cuadro de diálogo de configuración. También puede definir las opciones de términos y condiciones con facilidad para lograr una experiencia de usuario perfecta.
+Puede personalizar fácilmente la experiencia del componente de términos y condiciones para los visitantes con el cuadro de diálogo Configurar. También puede definir las opciones de términos y condiciones con facilidad para una experiencia de usuario optimizada.
 
 ### Pestaña Básicos
 
@@ -60,9 +60,9 @@ Puede personalizar fácilmente la experiencia de los componentes de términos y 
 
 - **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 
-- **Mostrar opción de aprobación** - Seleccione la opción para mostrar la casilla de verificación de consentimiento utilizada para obtener el consentimiento explícito del usuario.
+- **Mostrar opción de aprobación**: seleccione la opción para mostrar la casilla de verificación de consentimiento utilizada para obtener el consentimiento explícito del usuario.
 
-- **Mostrar como elemento emergente** : seleccione la opción para mostrar el componente Términos y condiciones en una ventana emergente.
+- **Mostrar como elemento emergente**: seleccione la opción para mostrar el componente términos y condiciones en una ventana emergente.
 
 - **Reemplazar el texto de consentimiento por vínculos web**: seleccione la opción para reemplazar un texto de consentimiento con un vínculo web.  Si la opción está desmarcada, el texto de consentimiento se muestra de forma predeterminada.
 
@@ -114,12 +114,12 @@ Puede personalizar fácilmente la experiencia de los componentes de términos y 
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El Cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Términos y condiciones.
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Términos y condiciones.
 
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de los términos y condiciones de Forms AEM adaptable admite el uso de los siguientes elementos [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El Componente principal de Términos y condiciones de Formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
@@ -131,11 +131,11 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
-- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
+- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
-   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+   - **Pares de clave-valor**: puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en el botón **Añadir** para cada grupo de propiedades personalizadas.
 
    - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
@@ -143,14 +143,14 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 ## Subcomponentes del componente Términos y condiciones {#sub-component}
 
-**Términos y condiciones** el componente es un componente compuesto que consta de los siguientes subcomponentes:
+El componente **Términos y condiciones** es un componente compuesto que consta de los siguientes subcomponentes:
 - [Componente Vínculo](#link)
 - [Componente de texto](#text)
-- [Componente Casilla](#checkbox)
+- [Componente Casilla de verificación](#checkbox)
 
 ### Componente Vínculo{#link}
 
-Este componente reemplaza un texto de consentimiento con un vínculo web o vínculos. Se utiliza en un escenario en el que el usuario intenta ofrecer referencias a secciones concretas, información adicional o documentos externos. Puede personalizar fácilmente la variable **Vínculo** Componente individualmente para visitantes con el cuadro de diálogo de configuración.
+Este componente reemplaza un texto de consentimiento con un vínculo o vínculos web. Se utiliza en un escenario en el que el usuario intenta ofrecer referencias a secciones concretas, información adicional o documentos externos. Puede personalizar fácilmente el componente **Vínculo** individualmente para visitantes con el cuadro de diálogo de configuración.
 
 #### Pestaña Básicos
 
@@ -162,15 +162,15 @@ Este componente reemplaza un texto de consentimiento con un vínculo web o vínc
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Vínculos** : especifique el vínculo y el texto para mostrar correspondiente que se utiliza en lugar del texto de consentimiento. Para añadir varios vínculos, haga clic en **Añadir** botón.
+- **Vínculos**: especifique el vínculo y el texto para mostrar correspondiente que se utiliza en lugar del texto de consentimiento. Para añadir varios vínculos, haga clic en el botón **Añadir**.
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 
-- **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar el origen de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
+- **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
 
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 
-- **Deshabilitar componente** : seleccione la opción para deshabilitar o bloquear el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+- **Deshabilitar componente**: seleccione la opción para desactivar o bloquear el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
 #### Pestaña Validación
@@ -201,16 +201,16 @@ Este componente reemplaza un texto de consentimiento con un vínculo web o vínc
 
 ### Componente de texto {#text}
 
-**Texto** componente muestra el contenido textual que proporciona información a los usuarios. Este componente incluye los términos y condiciones reales, el idioma legal o cualquier otra información textual relevante.
+El componente de **Texto** muestra el contenido textual que proporciona información a los usuarios. Este componente incluye los términos y condiciones reales, el idioma legal o cualquier otra información textual relevante.
 
-Puede personalizar fácilmente la variable [Componente Texto](/help/adaptive-forms/components/text.md) individualmente para los visitantes con el cuadro de diálogo de configuración. Para definir las opciones de texto con facilidad para una experiencia de usuario perfecta, utilice el [cuadro de diálogo de configuración del componente texto](/help/adaptive-forms/components/text.md#configure-dialog).
+Puede personalizar fácilmente el [Componente de texto](/help/adaptive-forms/components/text.md) individualmente para los visitantes con el cuadro de diálogo de configuración. Para definir las opciones de texto con facilidad para una experiencia de usuario perfecta, utilice el [cuadro de diálogo de configuración del componente texto](/help/adaptive-forms/components/text.md#configure-dialog).
 
 
-### Componente Casilla {#checkbox}
+### Componente Casilla de verificación {#checkbox}
 
 Se utiliza una casilla de verificación para obtener el consentimiento o el reconocimiento del usuario. Sirve como indicador visual de que el usuario ha leído y aceptado los términos descritos. Es obligatorio seleccionar la casilla de verificación para indicar el consentimiento del usuario.
 
-Puede personalizar fácilmente la variable [Componente Casilla](/help/adaptive-forms/components/checkbox.md) individualmente para los visitantes con el cuadro de diálogo de configuración. Para definir las propiedades de la casilla de verificación para una experiencia de usuario perfecta, utilice el [cuadro de diálogo de configuración del componente casilla de verificación](/help/adaptive-forms/components/checkbox.md#configure-dialog).
+Puede personalizar fácilmente el [Componente de las casillas de verificación](/help/adaptive-forms/components/checkbox.md) individualmente para los visitantes con el Cuadro de diálogo de configuración. Para definir las propiedades de la casilla de verificación para una experiencia de usuario optimizada, utilice el [cuadro de diálogo de configuración del componente casilla de verificación](/help/adaptive-forms/components/checkbox.md#configure-dialog).
 
 
 ## Artículos relacionados {#related-articles}

@@ -1,12 +1,12 @@
 ---
-title: 'Componente principal de Forms adaptable: casilla de verificación'
-description: Usar o personalizar el componente principal Casilla de verificación de Forms adaptable.
+title: 'Componente principal de formularios adaptables: casilla de verificación'
+description: Uso o personalización del Componente principal de la casilla de verificación de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
 source-wordcount: '1692'
-ht-degree: 54%
+ht-degree: 98%
 
 ---
 
@@ -18,19 +18,19 @@ Una casilla de verificación suele representarse como un pequeño cuadrado que s
 
 **Ejemplo**
 
-![grupo de casillas](/help/adaptive-forms/assets/checkbox-example.png)
+![grupo de casillas de verificación](/help/adaptive-forms/assets/checkbox-example.png)
 
 ## Uso {#reasons-to-use-checkbox}
 
-Los motivos comunes para utilizar la casilla de verificación en un formulario adaptable son:
+Las razones más comunes para utilizar una casilla de verificación en un Formulario adaptable son las siguientes:
 
-- **Facilidad de uso**: Las casillas de verificación son visualmente claras y proporcionan una forma directa de realizar elecciones binarias. Son intuitivos y fáciles de entender, por lo que son fáciles de usar.
+- **Facilidad de uso**: las casillas de verificación son visualmente claras y proporcionan una forma directa de realizar elecciones binarias. Son intuitivas y fáciles de entender, por lo que son fáciles de usar.
 
-- **Consentimiento y acuerdo**: Las casillas de verificación se utilizan para obtener el consentimiento del usuario para varios fines, por ejemplo, aceptar términos y condiciones, suscribirse a boletines informativos o confirmar la verificación de la edad. Dejan claro que el usuario está aceptando algo activamente.
+- **Consentimiento y acuerdo**: las casillas de verificación se utilizan para obtener el consentimiento del usuario para varios fines, por ejemplo, aceptar términos y condiciones, suscribirse a boletines informativos o confirmar la verificación de la edad. Dejan claro que el usuario está aceptando algo activamente.
 
-- **Confirmación visual**: Las casillas de verificación marcadas proporcionan una confirmación visual a los usuarios de que su selección se ha registrado. Estos comentarios ayudan a evitar errores de usuarios y garantizan que sepan que sus opciones se han registrado.
+- **Confirmación visual**: las casillas de verificación marcadas proporcionan una confirmación visual a los usuarios de que su selección se ha registrado. Estos comentarios ayudan a evitar errores de usuarios y garantizan que sepan que sus opciones se han registrado.
 
-- **Prevención de errores**: Las casillas de verificación reducen la probabilidad de que se produzcan errores al permitir que los usuarios revisen y confirmen las opciones antes del envío del formulario.
+- **Prevención de errores**: las casillas de verificación reducen la probabilidad de que se produzcan errores al permitir que los usuarios revisen y confirmen las opciones antes del envío del formulario.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -46,38 +46,38 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal Casilla de verificación de Forms adaptable en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el Componente principal Casillas de verificación de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente su experiencia de casilla de verificación para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de la casilla de verificación con facilidad para una experiencia de usuario perfecta.
+Puede personalizar fácilmente la experiencia de las Casillas de verificación para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de la Casilla de verificación con facilidad para que la experiencia del usuario sea óptima.
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/checkbox-basic.png)
 
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
-- **Título** : con su Título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece en la parte superior del componente. Si no agrega un título, el componente no se muestra.
+- **Título**: con este puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, el componente no se muestra.
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 
-- **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar el origen de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
+- **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
 
-- **Tipo de datos del valor enviado**: Esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Valor de datos** en la pestaña **Opciones**, la pantalla muestra un mensaje de error `Value type mismatch`.
+- **Tipo de datos del valor enviado**: esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Valor de datos** en la pestaña **Opciones**, la pantalla muestra un mensaje de error `Value type mismatch`.
 
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 
-- **Deshabilitar componente** : seleccione la opción para deshabilitar o bloquear el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+- **Deshabilitar componente**: seleccione la opción para desactivar o bloquear el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
-- **Cuando se selecciona, se devuelve el valor** : seleccione esta opción para especificar qué valor debe asociarse a la casilla de verificación cuando está activada o seleccionada. Es la acción que se produce cuando un usuario marca o marca la casilla de verificación.
-- **Active Desmarcar.**: seleccione la opción para habilitar o deshabilitar la capacidad de desmarcar una casilla de verificación que se haya marcado anteriormente.
-   - If **Activar desmarcar** está activada o establecida en true, lo que significa que el usuario puede marcar y desmarcar la casilla de verificación a su discreción. Pueden activar y desactivar la casilla de verificación según sea necesario.
+- **Cuando se selecciona, se devuelve el valor**: seleccione esta opción para especificar qué valor debe asociarse a la casilla de verificación cuando está activada o seleccionada. Es la acción que se produce cuando un usuario marca o usted marca la casilla de verificación.
+- **Habilite Desmarcar.**: seleccione la opción para habilitar o deshabilitar la capacidad de desmarcar una casilla de verificación que se haya marcado anteriormente.
+   - Si **Habilitar desmarcar** está habilitado o establecido en true, significa que el usuario puede marcar y desmarcar la casilla de verificación a su discreción. Pueden activar y desactivar la casilla de verificación según sea necesario.
 
-   - If **Activar desmarcar** está desactivada o establecida en false, significa que una vez marcada la casilla de verificación, el usuario no puede desmarcarla.
-- **Cuando no está marcada, devuelve un valor** : la opción le permite especificar qué valor debe asociarse con la casilla de verificación cuando está en un estado sin marcar o sin seleccionar.
+   - Si **Habilitar desmarcar** está deshabilitado o establecido en false, significa que una vez marcada la casilla de verificación, el usuario no puede desmarcarla.
+- **Cuando no está marcada, devuelve un valor**: la opción le permite especificar qué valor debe asociarse con la casilla de verificación cuando está en un estado sin marcar o sin seleccionar.
 
-- **Valor predeterminado**: Esta opción le permite agregar un valor predeterminado en un campo de formulario. Si se selecciona **Componente desactivado** o **Componente de solo lectura**, aparece en pantalla el valor predeterminado. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento de envío del formulario.
+- **Valor predeterminado**: esta opción permite añadir un valor predeterminado en un campo de formulario. Si se selecciona **Componente desactivado** o **Componente de solo lectura**, aparece en pantalla el valor predeterminado. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento de envío del formulario.
 
 ### Pestaña Validación {#validation-tab}
 
@@ -107,11 +107,11 @@ Puede personalizar fácilmente su experiencia de casilla de verificación para l
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-Cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Casilla de verificación.
+El cuadro de diálogo Diseño se emplea para definir y administrar estilos CSS para el componente de Casilla de verificación.
 
 ### Pestaña Estilos {#styles-tab}
 
-El componente principal Casilla de verificación de Forms AEM adaptable es compatible con la función de [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+El Componente principal de Casillas de verificación de Formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
@@ -123,11 +123,11 @@ El componente principal Casilla de verificación de Forms AEM adaptable es compa
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
-- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
+- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
-   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+   - **Pares de clave-valor**: puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en el botón **Añadir** para cada grupo de propiedades personalizadas.
 
    - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 

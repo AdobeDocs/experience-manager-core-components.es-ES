@@ -1,18 +1,18 @@
 ---
-title: 'Componente principal de Forms adaptable: fichas verticales'
-description: Uso o personalización del componente principal Pestañas verticales de Forms adaptable.
+title: 'Componente principal de formularios adaptables: pestañas verticales'
+description: Uso o personalización del componente principal de pestañas verticales de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
 workflow-type: tm+mt
 source-wordcount: '1904'
-ht-degree: 65%
+ht-degree: 98%
 
 ---
 
 # Componente Pestañas verticales{#vertical-tabs-adaptive-forms-core-component}
 
-Las pestañas verticales de un formulario adaptable hacen referencia a un patrón de diseño en el que varias secciones de un formulario se agrupan y se muestran como pestañas independientes, alineadas verticalmente. Se puede pasar de una pestaña a otra para acceder a diferentes secciones del formulario. Cada pestaña actúa como un activador para mostrar y ocultar el contenido del formulario relacionado. Las pestañas verticales ayudan a organizar los formularios largos en secciones manejables y mejorar la experiencia del usuario. Las pestañas pueden ayudar a que un formulario sea más accesible para las personas con discapacidades, ya que pueden cambiar entre secciones con la navegación mediante el teclado.
+Las pestañas verticales de un Formulario adaptable hacen referencia a un patrón de diseño en el que varias secciones de un formulario se agrupan conjuntamente y se muestran como pestañas independientes, alineadas horizontalmente. Se puede pasar de una pestaña a otra para acceder a diferentes secciones del formulario. Cada pestaña actúa como un activador para mostrar y ocultar el contenido del formulario relacionado. Las pestañas horizontales ayudan a organizar formularios largos en secciones manejables y mejoran la experiencia del usuario. Las pestañas pueden ayudar a que un formulario sea más accesible para las personas con discapacidades, ya que pueden cambiar entre secciones con la navegación mediante el teclado.
 
 Cuando se hace clic en una pestaña, el contenido del formulario se actualiza de forma dinámica para mostrar la sección correspondiente.
 
@@ -20,15 +20,15 @@ Cuando se hace clic en una pestaña, el contenido del formulario se actualiza de
 
 ## Uso {#reasons-to-use-vertical-tabs}
 
-Los motivos comunes para utilizar pestañas verticales en un formulario adaptable son:
+Las razones más comunes para utilizar pestañas verticales en un Formulario adaptable son las siguientes:
 
-- **Usabilidad mejorada**: Las pestañas verticales facilitan a los usuarios la navegación por el formulario, especialmente si este tiene varias secciones o un gran número de campos.
+- **Uso mejorado**: las pestañas verticales facilitan a los usuarios el desplazamiento por el formulario, especialmente si este tiene varias secciones o un gran número de campos.
 
-- **Administración de espacio**: las pestañas verticales ayudan a conservar el espacio de pantalla al agrupar secciones de formulario relacionadas en pestañas y mostrar solo una sección a la vez.
+- **Administración del espacio**: las pestañas verticales conservan espacio en la pantalla al agrupar las secciones de formulario relacionadas en pestañas y muestran solo una sección a la vez.
 
 - **Mejor organización**: las pestañas proporcionan una estructura clara y organizada para un formulario, lo que facilita la comprensión y cumplimentación del formulario.
 
-- **Mayor participación del usuario**: las pestañas verticales pueden hacer que un formulario sea más atractivo visualmente y atractivo para los usuarios, lo que puede mejorar la tasa de finalización del formulario.
+- **Mayor participación del usuario**: las pestañas verticales pueden hacer que un formulario sea visualmente más atractivo y atrayente para los usuarios, lo que puede mejorar la tasa de finalización del formulario.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -44,12 +44,12 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal de las pestañas verticales de Forms adaptable en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el Componente principal de pestañas verticales de Formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/verticaltabs/v1/verticaltabs). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia de las pestañas verticales para los visitantes con el Cuadro de diálogo de configuración. También puede definir las opciones de pestañas verticales con facilidad para una experiencia de usuario perfecta.
+Puede personalizar fácilmente la experiencia de las pestañas verticales para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de pestañas verticales con facilidad para que la experiencia del usuario sea óptima.
 
 ### Pestaña Básicos {#basic-tab}
 
@@ -88,17 +88,17 @@ Puede personalizar fácilmente la experiencia de las pestañas verticales para l
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
-### Repetir tabulación vertical {#repeat-tabs-on-top}
+### Repetir pestaña vertical {#repeat-tabs-on-top}
 
-![Pestaña Repetir](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
+![Repetir pestaña](/help/adaptive-forms/assets/vertical-tab-repeat-vertical-tab.png)
 
 Puede utilizar las opciones de repetibilidad para duplicar el componente Pestañas verticales y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario. Al interactuar con el componente Pestañas verticales y acceder a su configuración, se presentan las siguientes opciones:
 
-- **Hacer que las tabulaciones verticales sean repetibles**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
-- **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente Tabulaciones verticales. El valor cero indica que el componente Tabulaciones verticales no se repite; el valor predeterminado es cero.
-- **Máximo de repeticiones**: establece el número máximo de veces que se puede repetir el componente Tabulaciones verticales. De forma predeterminada, este valor es ilimitado.
+- **Hacer que las pestañas verticales sean repetibles**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
+- **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente pestañas verticales. Un valor de cero indica que el componente de pestañas verticales no se repite; el valor predeterminado es cero.
+- **Máximo de repeticiones**: establece el número máximo de veces que se puede repetir el componente pestañas verticales. De forma predeterminada, este valor es ilimitado.
 
-Para administrar de forma eficaz las secciones repetibles dentro de las pestañas verticales, siga los pasos que se proporcionan en la [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es) artículo.
+Para administrar de forma eficaz las secciones repetibles dentro de las pestañas verticales, siga los pasos que se proporcionan en el artículo [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).
 
 ### Pestaña Elementos {#items-tab}
 
@@ -108,7 +108,7 @@ El botón **Agregar** permite seleccionar un componente para añadirlo como un p
 
 - **Icono**: el icono identifica el componente del panel en la lista. Puede pasar el ratón sobre el icono para ver el nombre completo del componente como información sobre herramientas.
 - **Descripción**: la descripción utilizada como texto del panel. De forma predeterminada, el nombre del componente seleccionado para el panel.
-- **Eliminar** : toque o haga clic para eliminar el panel del componente Pestañas verticales.
+- **Eliminar**: toque o haga clic para eliminar el panel del componente de pestañas verticales.
 - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de los paneles.
 
 ### Pestaña Contenido de ayuda {#help-content}
@@ -131,10 +131,10 @@ El botón **Agregar** permite seleccionar un componente para añadirlo como un p
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente de pestañas verticales de Forms adaptable, puede establecer lo siguiente:
+El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente de pestañas verticales de formularios adaptables, puede establecer lo siguiente:
 
-- Los componentes principales que un creador de formularios puede agregar a las pestañas verticales en el editor de Forms adaptable
-- Nombres simples para estilos (clases CSS) que se pueden aplicar en el cuadro de diálogo de propiedades del componente Pestañas verticales en el editor de Forms adaptable.
+- Los componentes principales que un creador de formularios puede añadir a las pestañas verticales en el editor de formularios adaptables
+- Nombres simples para estilos (clases CSS) que se pueden aplicar en el cuadro de diálogo de propiedades del componente Asistente del editor de formularios adaptables.
 
 Esto ayuda a que el proceso de creación y personalización de formularios sea más sencillo y eficaz.
 
@@ -142,15 +142,15 @@ Esto ayuda a que el proceso de creación y personalización de formularios sea m
 
 ![Pestaña Componentes permitidos](/help/adaptive-forms/assets/tabs-allowed-component.png)
 
-El **Componentes permitidos** permite al editor de plantillas establecer los componentes que se pueden añadir como elementos a los paneles del componente Pestañas verticales en el editor de Forms adaptable.
+La pestaña **Componentes permitidos** permite que el editor de plantillas defina los componentes que se pueden añadir como elementos a los paneles en el componente de pestañas verticales del editor de formularios adaptables.
 
 ### Pestaña Estilos {#styles-tab}
 
 ![Pestaña Estilos](/help/adaptive-forms/assets/tabs-styles-tab.png)
 
-El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS de un componente. El componente principal de las pestañas verticales de Forms AEM adaptable admite el uso de la [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS de un componente. El componente principal de las pestañas verticales de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal Pestañas verticales de Forms adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el Componente principal de las pestañas verticales de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
@@ -158,11 +158,11 @@ El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS 
 
 ![Pestaña Propiedades personalizadas](/help/adaptive-forms/assets/tabs-custom-properties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
-- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de agregar el grupo de propiedades personalizadas, puede ver las siguientes opciones:
+- **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
-   - **Pares de clave-valor**: Puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+   - **Pares de clave-valor**: puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en el botón **Añadir** para cada grupo de propiedades personalizadas.
 
    - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
