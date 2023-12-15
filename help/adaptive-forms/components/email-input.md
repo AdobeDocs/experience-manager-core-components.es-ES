@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: entrada de correo electr
 description: Uso o personalización del componente principal de entrada de correo electrónico de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e0ed415bd7f45fdca6fbbb8ba409604d9e82a647
-workflow-type: ht
-source-wordcount: '1922'
-ht-degree: 100%
+source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
+workflow-type: tm+mt
+source-wordcount: '1916'
+ht-degree: 95%
 
 ---
 
@@ -96,9 +96,10 @@ Puede personalizar fácilmente la experiencia de entrada de correo electrónico 
 - **Mensaje de error del número mínimo de caracteres mínimos**: el cuadro de diálogo **Mensaje de error del número mínimo de caracteres** permite añadir un mensaje de error personalizado si introduce menos caracteres que el valor especificado en la variable **Número mínimo de caracteres**.
 <br>
 
-    La opción **Patrón de validación** permite introducir un patrón para validar el ID de correo electrónico introducido. Si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**, el mensaje de error aparecerá en pantalla.
-    - **Patrón**: esta opción permite introducir los patrones de verificación permitidos para el correo electrónico. También se permiten expresiones regulares.
-    - **Mensaje de error**: esta opción permite introducir un mensaje que se muestra en la pantalla si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**
+El **Patrón de validación** permite introducir un patrón para validar el ID de correo electrónico introducido. En caso de que el ID de correo electrónico no se valide con el valor introducido en **Patrón** , el mensaje de error aparece en pantalla.
+
+- **Patrón** : Esta opción le permite introducir los patrones de verificación permitidos para el correo electrónico. También se permiten expresiones regulares.
+- **Mensaje de error** : Esta opción le permite introducir un mensaje que se muestra en la pantalla si el ID de correo electrónico no se valida con el valor introducido en la **Patrón** opción
 
 ### Pestaña Contenido de ayuda {#help-content-tab}
 
@@ -138,7 +139,7 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 - **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
-   - **Pares de clave-valor**: puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en **Añadir** para cada grupo de propiedades personalizadas.
+   - **Pares de clave-valor**: puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en el botón **Añadir** para cada grupo de propiedades personalizadas.
 
    - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
