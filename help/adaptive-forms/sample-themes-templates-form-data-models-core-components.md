@@ -7,9 +7,9 @@ role: Admin, User
 level: Intermediate
 exl-id: aef6e88b-dcae-4777-9893-9257d7702f43
 source-git-commit: 0f0c20c9fba6f062021721d6f48a42cc830b5a7c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1239'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Las temáticas de ejemplo de referencia ayudan a los autores a definir y persona
 Para obtener estas temáticas, siga los pasos que se indican a continuación para el entorno **AEM as a Cloud Service**:
 
 1. [Habilite los componentes principales de formularios adaptables](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=es)
-1. [AEM Implementar un proyecto de tipo de archivo 47 o posterior en el entorno](https://github.com/adobe/aem-project-archetype)
+1. [Implemente un proyecto AEM Archetype 47 en su entorno](https://github.com/adobe/aem-project-archetype)
 
 
 Al implementar un arquetipo AEM, solo puede utilizar las temáticas OOTB en los formularios. Para personalizar las temáticas según sus necesidades, [Utilice la canalización front-end](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components.html?lang=es) para implementar las temáticas.
@@ -125,7 +125,7 @@ Las plantillas definen la estructura inicial del formulario, el contenido y las 
 
 **¿Cómo obtener estas plantillas?**
 
-Puede obtener estas plantillas implementando un [AEM Tipo de archivo 47 o posterior de](https://github.com/adobe/aem-project-archetype) a su **AEM Forms as a Cloud Service** entorno o **AEM.5 Forms** entorno.
+Puede obtener estas plantillas implementando [AEM Archetype 47 o versiones posteriores](https://github.com/adobe/aem-project-archetype) en su entorno **AEM Forms as a Cloud Service** o el entorno **AEM 6.5 Forms**.
 
 <!--
 
