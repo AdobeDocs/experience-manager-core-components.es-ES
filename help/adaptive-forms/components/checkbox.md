@@ -4,13 +4,13 @@ description: Uso o personalización del Componente principal de la casilla de ve
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1692'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Componente Casilla{#checkbox-component}
+# Componente Casilla de verificación{#checkbox-component}
 
 Una casilla de verificación es un elemento gráfico de interfaz de usuario que se utiliza comúnmente en aplicaciones de software y formularios para permitir a los usuarios realizar una elección binaria entre dos opciones: activada (seleccionada) o desactivada (no seleccionada).
 
@@ -34,7 +34,7 @@ Las razones más comunes para utilizar una casilla de verificación en un Formul
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal Casilla de verificación de Forms adaptable se publicó como parte de los componentes principales 2.0.52. AEM Esta es una tabla que muestra todas las versiones compatibles, la compatibilidad de la y los vínculos a la documentación correspondiente:
+El componente principal Casilla de verificación de formularios adaptables se publicó como parte de los componentes principales, versión 2.0.52. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
