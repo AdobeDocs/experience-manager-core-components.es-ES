@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de pestañas vertic
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1904'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Las razones más comunes para utilizar pestañas verticales en un Formulario ada
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de las pestañas verticales de Forms adaptable se publicó como parte de los componentes principales 2.0.18. AEM Esta es una tabla que muestra todas las versiones compatibles, la compatibilidad de la y los vínculos a la documentación correspondiente:
+El componente principal Pestañas verticales de los formularios adaptables se publicó como parte de los componentes principales, versión 2.0.18. A continuación, se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
