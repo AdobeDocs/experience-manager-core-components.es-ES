@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de entrada de corre
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 120f8023ac2e13380e59703e199dc929176a59b6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -96,10 +96,10 @@ Puede personalizar fácilmente la experiencia de entrada de correo electrónico 
 - **Mensaje de error del número mínimo de caracteres mínimos**: el cuadro de diálogo **Mensaje de error del número mínimo de caracteres** permite añadir un mensaje de error personalizado si introduce menos caracteres que el valor especificado en la variable **Número mínimo de caracteres**.
 <br>
 
-El **Patrón de validación** permite introducir un patrón para validar el ID de correo electrónico introducido. En caso de que el ID de correo electrónico no se valide con el valor introducido en **Patrón** , el mensaje de error aparece en pantalla.
+La opción **Patrón de validación** permite introducir un patrón para validar el ID de correo electrónico introducido. Si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**, el mensaje de error aparecerá en pantalla.
 
-- **Patrón** : Esta opción le permite introducir los patrones de verificación permitidos para el correo electrónico. También se permiten expresiones regulares.
-- **Mensaje de error** : Esta opción le permite introducir un mensaje que se muestra en la pantalla si el ID de correo electrónico no se valida con el valor introducido en la **Patrón** opción
+- **Patrón**: esta opción permite introducir los patrones de verificación permitidos para el correo electrónico. También se permiten expresiones regulares.
+- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra en la pantalla si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**
 
 ### Pestaña Contenido de ayuda {#help-content-tab}
 
