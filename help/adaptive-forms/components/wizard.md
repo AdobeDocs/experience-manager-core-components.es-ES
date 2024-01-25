@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal del asistente de Fo
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2025'
 ht-degree: 100%
 
