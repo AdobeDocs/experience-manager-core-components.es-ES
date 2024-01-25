@@ -3,16 +3,16 @@ title: Inclusión de bibliotecas de cliente
 description: Existen varias formas de incluir bibliotecas de cliente según el caso de uso.
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 39a5dee1666fa2645e0579fdfac0400f7fcbdc27
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '369'
 ht-degree: 100%
 
 ---
 
 # Inclusión de bibliotecas de cliente {#including-client-libraries}
 
-Existen varias formas de incluir [bibliotecas de cliente](/help/developing/archetype/uifrontend.md#clientlibs) según el caso de uso. Este documento proporciona ejemplos y muestra [fragmentos de HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) para cada uno.
+Existen varias formas de incluir [bibliotecas de cliente](/help/developing/archetype/front-end.md#clientlibs) según el caso de uso. Este documento proporciona ejemplos y muestra [fragmentos de HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) para cada uno.
 
 ## Uso predeterminado recomendado {#recommended-default-usage}
 
