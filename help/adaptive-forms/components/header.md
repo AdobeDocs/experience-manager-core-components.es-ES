@@ -3,9 +3,9 @@ title: 'Componente principal de formularios adaptables: encabezado'
 description: Uso o personalización del componente principal de encabezado de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '679'
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ El componente Encabezado de un Formulario adaptable es una sección de la parte 
 
 **Ejemplo**
 
-![](/help/adaptive-forms/assets/header.png)
+![ejemplo](/help/adaptive-forms/assets/header.png)
 
 ## Uso {#reasons-to-use-header}
 
