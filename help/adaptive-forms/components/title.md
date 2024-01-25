@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: título'
 description: Uso o personalización del componente principal de título de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
-workflow-type: ht
-source-wordcount: '867'
-ht-degree: 100%
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+workflow-type: tm+mt
+source-wordcount: '861'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir el text
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-La pestaña Diseño se utiliza para definir y administrar estilos CSS para el componente de selector de fechas.
+La pestaña Diseño se utiliza para definir y administrar estilos CSS para el componente de título.
 
 ### Título
 
@@ -90,7 +90,7 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 ![Pestaña Título del cuadro de diálogo de diseño](/help/adaptive-forms/assets/title_styles.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de selector de fecha de Formularios adaptables.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de título de Forms adaptable.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 

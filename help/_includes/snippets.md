@@ -1,8 +1,8 @@
 ---
-source-git-commit: 2b1e62dc57126316a79f22d7d9f203f7ef044dc4
-workflow-type: ht
-source-wordcount: '372'
-ht-degree: 100%
+source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
+workflow-type: tm+mt
+source-wordcount: '212'
+ht-degree: 99%
 
 ---
 # Fragmentos de código {#snippets}
@@ -65,6 +65,7 @@ ht-degree: 100%
 - [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
 - [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
 - [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
+- [Fragmento de formulario](/help/adaptive-forms/components/form-fragment.md)
 - [Pie de página](/help/adaptive-forms/components/footer.md)
 - [Encabezado](/help/adaptive-forms/components/header.md)
 - [Imagen](/help/adaptive-forms/components/image.md)
@@ -75,6 +76,7 @@ ht-degree: 100%
 - [Botón de opción](/help/adaptive-forms/components/radio-button.md)
 - [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
 - [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
+- [Interruptor](/help/adaptive-forms/components/switch.md)
 - [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
 - [Entrada de texto](/help/adaptive-forms/components/text-input.md)
 - [Texto](/help/adaptive-forms/components/text.md)

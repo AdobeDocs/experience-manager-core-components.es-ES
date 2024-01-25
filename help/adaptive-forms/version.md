@@ -3,10 +3,10 @@ title: Versiones de los componentes principales de AEM Forms
 description: Los componentes principales de AEM se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: a567b5ad937d426abe16c34e039e19cd0b1af5b0
-workflow-type: ht
-source-wordcount: '821'
-ht-degree: 100%
+source-git-commit: 5ba402a0f781f73fe7eb5afc9b4beb47ba28851e
+workflow-type: tm+mt
+source-wordcount: '879'
+ht-degree: 91%
 
 ---
 
@@ -20,9 +20,10 @@ La tabla siguiente presenta una lista de las versiones de los componentes princi
 
 | Versión | Descripción | AEM as a Cloud Service | Java™ | Fecha de lanzamiento |
 |---|---|---|---|---|
+| [2.0.76](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.76) | Con esta versión, la pestaña Estilo y la pestaña Propiedades personalizadas se corrigen para el componente Términos y condiciones. Esta versión también corrigió el componente de botón de radio para guardar el valor booleano para el primer clic. | Continua | 8, 11 | 15 de noviembre de 2023 |
 | [2.0.74](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.74) | Con esta versión, el error de envío se actualiza para la acción de envío en AEM Forms. | Continua | 8, 11 | 15 de noviembre de 2023 |
 | [2.0.70](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.70) | Esta versión agregó compatibilidad para administrar el idioma de la página de Sites en el contenedor de formularios. | Continua | 8, 11 | 10 de noviembre de 2023 |
-| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | Admitir texto enriquecido para etiquetas para componentes de radio/casilla de verificación. Esta versión también incluye correcciones para el componente Términos y condiciones. | Continua | 8, 11 | 6 de noviembre de 2023 |
+| [2.0.64](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.64) | Admitir texto enriquecido para etiquetas para componentes de radio/casilla de verificación. Con esta versión, también se añade compatibilidad con el componente Switch. Esta versión también incluye correcciones para el componente Términos y condiciones. | Continua | 8, 11 | 6 de noviembre de 2023 |
 | [2.0.62](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.62) | Con esta versión, se añade la compatibilidad con el componente Términos y condiciones. También se ha agregado compatibilidad con Nombres cualificados en los componentes principales. | Continua | 8, 11 | 16 de octubre de 2023 |
 | [2.0.60](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.60) | Esta versión incluye correcciones relacionadas con la funcionalidad de propiedades personalizadas, el Asistente y el componente Selector de fecha. | Continua | 8, 11 | 12 de septiembre de 2023 |
 | [2.0.56](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-2.0.56) | Con esta versión, se añade compatibilidad con las propiedades personalizadas de todos los componentes principales. | Continua | 8, 11 | 12 de septiembre de 2023 |
@@ -49,8 +50,8 @@ La tabla siguiente presenta una lista de las versiones de los componentes princi
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | Java™ | Fecha de lanzamiento |
 |---|---|---|---|---|---|
 | [1.1.32](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.32) | Esta versión actualizó la información del paquete de información del Service Pack 6.5.18.0 de AEM. | - | 6.5.16.0+ | 8, 11 | 15 de octubre de 2023 |
-| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | Admitir texto enriquecido para etiquetas para componentes de radio/casilla de verificación. Esta versión también incluye compatibilidad con el componente Términos y condiciones. | - | 6.5.16.0+ | 8, 11 | 15 de octubre de 2023 |
-| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | Con esta versión, se ha añadido la compatibilidad con el componente Casilla de verificación para Formularios adaptables. También incluye mejoras en el rendimiento de Lighthouse. En esta versión también se incluye el controlador de error personalizado que utiliza el servicio de invocación del Editor de reglas. | - | 6.5.16.0+ | 8, 11 | 15 de octubre de 2023 |
+| [1.1.28](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.28) | Admitir texto enriquecido para etiquetas para componentes de radio/casilla de verificación. Esta versión también incluye compatibilidad con el componente Términos y condiciones y los componentes del conmutador. | - | 6.5.16.0+ | 8, 11 | 15 de octubre de 2023 |
+| [1.1.26](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.26) | Con esta versión, se ha añadido la compatibilidad con el componente Casilla de verificación para formularios adaptables y fragmentos de formulario. También incluye mejoras en el rendimiento de Lighthouse. En esta versión también se incluye el controlador de error personalizado que utiliza el servicio de invocación del Editor de reglas. | - | 6.5.16.0+ | 8, 11 | 15 de octubre de 2023 |
 | [1.1.24](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.24) | Se ha agregado compatibilidad con la localización para los mensajes de error predeterminados junto con el botón Agregar/Quitar para el componente Repetible. También se ha agregado compatibilidad con recaptcha en Formularios adaptable. | - | 6.5.16.0+ | 8, 11 | 29 de junio de 2023 |
 | [1.1.22](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.22) | Compatibilidad para agregar formularios adaptables en AEM Sites. Pestaña Elementos agregados en el cuadro de diálogo de edición del componente Pestañas verticales y Asistente. | - | 6.5.16.0+ | 8, 11 | 7 de junio de 2023 |
 | [1.1.12](https://github.com/adobe/aem-core-forms-components/releases/tag/core-forms-components-reactor-1.1.12) | En esta versión se ha introducido la compatibilidad con los componentes principales de AEM Forms On-Premise y AMS. | - | 6.5.16.0+ | 8, 11 | 08 de febrero de 2023 |
