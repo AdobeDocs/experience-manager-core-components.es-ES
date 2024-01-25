@@ -3,7 +3,7 @@ title: 'Componente principal de formularios adaptables: pestañas verticales'
 description: Uso o personalización del componente principal de pestañas verticales de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: 4ca65f93e223fdd0b0a701ef335ed5be1fbab7fe
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
 source-wordcount: '1904'
 ht-degree: 100%
@@ -38,9 +38,9 @@ El componente principal Pestañas verticales de los formularios adaptables se pu
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| Versión 1 | Compatible con la <br>[versión 2.0.18](/help/versions.md) y posteriores | Compatible | Compatible |
+| Versión 1 | Compatible con la <br>[versión 2.0.18](/help/adaptive-forms/version.md) y posteriores | Compatible | Compatible |
 
-Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
 ## Detalles técnicos {#technical-details}
 
