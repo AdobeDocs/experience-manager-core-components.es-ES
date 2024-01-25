@@ -3,9 +3,9 @@ title: 'Componente principal de Formularios adaptables: selector de fecha'
 description: Uso o personalización del componente principal de selector de fecha de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 93acf5f6f11da42a7834bbb11b15a36db1e03dc9
+source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
 workflow-type: ht
-source-wordcount: '1906'
+source-wordcount: '1901'
 ht-degree: 100%
 
 ---
@@ -16,7 +16,7 @@ Un componente de selector de fecha de un Formulario adaptable es un elemento de 
 
 **Ejemplo**
 
-![](/help/adaptive-forms/assets/date-picker.png)
+![ejemplo](/help/adaptive-forms/assets/date-picker.png)
 
 ## Uso {#reasons-to-use-drop-date-picker}
 
