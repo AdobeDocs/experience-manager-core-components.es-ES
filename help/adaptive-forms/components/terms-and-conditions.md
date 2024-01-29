@@ -3,10 +3,10 @@ title: Términos y condiciones del Componente principal de Formularios adaptable
 description: Usar o personalizar el Componente principal de los Términos y condiciones de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 98%
+source-wordcount: '2690'
+ht-degree: 96%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 98%
 Un componente **Términos y condiciones** hace referencia a una sección de un formulario que describe los términos, las reglas y las condiciones que los usuarios deben aceptar o cumplir al utilizar un servicio o acceder al contenido.
 
 El componente **Términos y condiciones** es un componente compuesto que consta de componentes Texto, Casilla de verificación y Vínculo. El componente de texto contiene un título junto con una breve descripción del propósito y el alcance de los términos y condiciones. También incluye una casilla de verificación utilizada para obtener el consentimiento explícito del usuario. También puede reemplazar un texto de consentimiento con vínculos.
+
+>[!NOTE]
+>
+> AEM Para Forms AEM 6.5, este componente se introdujo con el paquete de servicio 19 de Forms 6.5 (6.5.19.0) de la. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Forms adaptables, consulte [Versiones de componentes principales de Forms adaptables](/help/adaptive-forms/version.md)
 
 **Ejemplo**
 

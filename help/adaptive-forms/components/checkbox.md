@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: casilla de verificación
 description: Uso o personalización del Componente principal de la casilla de verificación de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
-source-wordcount: '1691'
-ht-degree: 98%
+source-wordcount: '1746'
+ht-degree: 95%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 98%
 Una casilla de verificación es un elemento gráfico de interfaz de usuario que se utiliza comúnmente en aplicaciones de software y formularios para permitir a los usuarios realizar una elección binaria entre dos opciones: activada (seleccionada) o desactivada (no seleccionada).
 
 Una casilla de verificación suele representarse como un pequeño cuadrado que se puede activar o desactivar haciendo clic en ella o pulsándola. Cuando se marca una casilla de verificación, esta muestra una marca de verificación para indicar que la opción o función asociada está activa o habilitada.
+
+>[!NOTE]
+>
+> AEM Para Forms AEM 6.5, este componente se introdujo con el paquete de servicio 19 de Forms 6.5 (6.5.19.0) de la. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Forms adaptables, consulte [Versiones de componentes principales de Forms adaptables](/help/adaptive-forms/version.md)
 
 **Ejemplo**
 
