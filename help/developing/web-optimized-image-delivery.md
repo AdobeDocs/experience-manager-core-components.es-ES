@@ -3,10 +3,10 @@ title: Entrega de imágenes optimizadas para la web
 description: Descubra cómo los componentes principales pueden aprovechar las funciones de entrega de imágenes optimizadas para la web de AEM as a Cloud Service para ofrecer imágenes de forma más eficaz.
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
-source-git-commit: a312eb7a1dc68a264eaf0938c450a17f7cbc4506
-workflow-type: ht
-source-wordcount: '1020'
-ht-degree: 100%
+source-git-commit: 7325751541d463eb9744b1e4a72fd64611f74d55
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 54%
 
 ---
 
@@ -30,33 +30,22 @@ Si no conoce los cuadros de diálogo de diseño y las plantillas de página de A
 
 Eso es todo. El componente de imagen ahora entrega las imágenes en formato WebP.
 
-Una vez que se activa la entrega de imágenes optimizadas para la web, es posible que también se desee comprobar la configuración de Dispatcher para verificar que no bloquee la solicitud al servicio de imágenes. Las URL de este servicio tienen la siguiente forma.
-
-```text
-/adobe/dynamicmedia/deliver/dm-aid--741ed388-d5f8-4797-8095-10c896dc9f1d/skitouring.jpg?quality=80&preferwebp=true
-```
-
-Esto se puede generalizar con esta expresión regular.
-
-```text
-\/adobe\/dynamicmedia\/deliver\/([^:[]|*\/])\/([\w-])\.(gif|png|png8|jpg|pjpg|bjpg|webp|webpll|webply)(?[a-z0-9=&]*)?
-```
+Una vez que active la entrega de imágenes optimizadas para la web, es posible que desee comprobar la configuración de Dispatcher para verificar que no bloquee la solicitud al servicio de entrega de imágenes. Consulte lo siguiente [esta entrada de preguntas frecuentes](#failure-to-deliver) para obtener más información.
 
 ## Verificación de la entrega de WebP {#verifying}
 
-La entrega de imágenes optimizadas para la web es transparente para el consumidor del contenido y no afecta al marcado. Lo único que notará un usuario final es un tiempo de carga más rápido.
-
-Por lo tanto, para observar el cambio real de comportamiento, debe ver el origen de la página.
+La entrega de imágenes optimizadas para la web es transparente para el consumidor del contenido. Lo único que notará un usuario final es un tiempo de carga más rápido. Por lo tanto, para observar cualquier cambio real de comportamiento, debe comprobar el tipo de contenido de las imágenes procesadas en el explorador. Todos los exploradores modernos admiten WebP. Puede hacer referencia a [este sitio](https://caniuse.com/webp) para obtener más información sobre la compatibilidad del explorador.
 
 1. En AEM, edite una página basada en la plantilla en la que [ha activado la entrega de imágenes optimizadas para la web](#activating) para el componente de imagen.
 1. En el editor de páginas, seleccione el botón **Información de la página** en la parte superior izquierda y, luego, **Ver tal y como aparece publicado**.
-1. Con las herramientas para desarrolladores de navegadores, vea el origen de la página y cómo el marcado procesado sigue siendo el mismo, pero la imagen del atributo `src` señala a [la URL del nuevo servicio de imagen.](#activating)
+1. Abra las herramientas para desarrolladores del explorador y seleccione la pestaña de red.
+1. Vuelva a cargar la página, busque solicitudes HTTP que carguen las imágenes y compruebe el tipo de contenido de la imagen que recibió el explorador.
 
 ## Cuando la entrega de imágenes optimizadas para la web no está disponible {#fallback}
 
 La entrega de imágenes optimizadas para la web solo está disponible en AEM as a Cloud Service. En los casos en los que no está disponible, como ejecutar AEM 6.5 en las instalaciones o en una instancia de desarrollo local, la entrega de imágenes vuelve a utilizar [el servlet de imagen adaptable.](/help/developing/adaptive-image-servlet.md)
 
-Al igual que habilitar la entrega de imágenes optimizadas para la web no afecta al marcado, volver al servlet de imagen adaptable tampoco tiene ningún efecto en él, ya que solo la URL del atributo `src` del elemento `img` se cambia.
+Al volver al servlet de imagen adaptable, se cambia el `src` atributo del `img` elementos en el origen de la página.
 
 ## Preguntas más frecuentes {#faq}
 
@@ -76,15 +65,15 @@ El servicio de imágenes solo funciona para recursos ubicados en `/content/dam` 
 
 ### ¿Por qué el servicio muestra una imagen de peor calidad o limita el tamaño de las imágenes? {#quality}
 
-El servicio de imágenes optimizadas para la web considera todas las representaciones de imágenes de 2048 px y más pequeñas y elige la mayor de ellas como base para aplicar la configuración solicitada (anchura, recorte, formato, calidad, etc.).
+Cuando los recursos de imagen estén en `/content/dam` AEM se procesan, los entornos as a Cloud Service de la generan representaciones optimizadas de diferentes dimensiones. El servicio de imágenes optimizadas para la web analiza la anchura solicitada por el componente principal de imagen, considera la imagen original y todas las representaciones de 2048 px y más pequeñas, y elige la mayor de ellas (dentro de los límites de tamaño y dimensión que puede gestionar el servicio de imágenes, actualmente de 50 MB y `12k`x`12k`) como base para aplicar la configuración solicitada (anchura, recorte, formato, calidad, etc.).
 
-El servicio de imágenes nunca aumenta el tamaño de las imágenes. Por lo tanto, estas representaciones definen el mejor tamaño y la mejor calidad que el servicio de imágenes podrá ofrecer. Así, asegúrese de que todos los recursos tengan la representación de Zoom 2048 px y, si no la tienen, vuelva a procesarlos.
+Para conservar la fidelidad de la salida, el servicio de imágenes no aumenta el tamaño de las imágenes. Las representaciones mencionadas definen la mejor calidad que el servicio de imágenes podrá ofrecer. Dado que a menudo no puede influir en el tamaño o las dimensiones del recurso de imagen original, asegúrese de que todos los recursos de imagen tengan una representación de zoom de 2048 px y, si no la tienen, vuelva a procesarlos.
 
 ### La URL de mis imágenes sigue terminando con .JPG o .PNG, no con .WEBP, y no hay ningún atributo SRCSET o elemento PICTURE. ¿Realmente se utilizan formatos web optimizados? {#content-negotiation}
 
-Para ofrecer formatos WebP, el servicio de entrega de imágenes optimizadas para la web utiliza una técnica denominada “negociación de contenido”. Esto consiste en devolver un formato de archivo WebP, incluso cuando se solicita una extensión de archivo JPG o PNG, pero solo cuando el explorador que emite la solicitud ha proporcionado un encabezado de aceptación HTTP `image/webp`. Los navegadores que admitan esta técnica pueden facilitar este encabezado, mientras que los más antiguos seguirán teniendo el formato de archivo JPG o PNG.
+Para ofrecer formatos WebP, el servicio de entrega de imágenes optimizadas para la web realiza las siguientes acciones [negociación de contenido dirigida por el servidor.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) Esto ayuda a seleccionar el formato de salida óptimo para la imagen en función de las capacidades anunciadas por el cliente, lo que permite que el servicio de entrega de imágenes ignore la extensión del archivo.
 
-La ventaja de esta técnica es que el elemento `img` y sus atributos pueden seguir siendo los mismos, lo que dará como resultado una compatibilidad óptima para los sitios existentes y garantizará la ruta más fluida posible a la transición hacia la entrega de imágenes optimizadas para la web.
+La ventaja de aprovechar la negociación de contenido es que los exploradores que no anuncian la compatibilidad con WebP seguirán teniendo el formato de archivo JPG o PNG sin ningún cambio necesario en el marcado de la página. Esto ofrece una compatibilidad óptima para los sitios existentes y garantiza la ruta más fluida posible a la transición hacia la entrega de imágenes optimizadas para la web.
 
 ### ¿Puedo utilizar la entrega de imágenes optimizadas para la web con mi propio componente?
 
@@ -98,16 +87,12 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->Las incrustaciones directas de URL en una experiencia que no se haya creado mediante los componentes principales que se ejecutan en AEM Sites CS infringen los términos de licencia de Media Library.
+>AEM Las incrustaciones de URL directas en una experiencia que no se haya creado mediante la SPI mencionada anteriormente (disponible en sitios as a Cloud Service) infringen el [Condiciones de uso de Media Library](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library).
 
-### ¿Cuál es la URL de una imagen entregada por el nuevo servicio de imágenes? {#url}
+### ¿Pueden las imágenes no mostrarse después de habilitar las imágenes optimizadas para la web? {#failure-to-deliver}
 
-Consulte la sección anterior, [Activación de la entrega de imágenes optimizadas para la web para componentes principales](#activating), para ver un ejemplo de URL y expresión regular.
+No, esto nunca debería suceder por las siguientes razones.
 
-### ¿Pueden las imágenes no mostrarse después de habilitar las imágenes optimizadas para la web?
-
-No, esto nunca debería suceder.
-
-* En el HTML, el marcado no cambia al habilitar imágenes optimizadas para web, solo cambia el valor del atributo SRC del elemento de imagen.
+* En el HTML, el marcado no cambia al habilitar imágenes optimizadas para web, solo el valor de `src` cambia el atributo en el elemento de imagen.
 * Cuando el nuevo servicio de imagen no esté disponible o no pueda procesar la imagen deseada, la URL generada [volverá a usar el servlet de imagen adaptable.](#fallback)
-* Las reglas de Dispatcher pueden bloquear el servicio de imágenes optimizadas para la web y [deben comprobarse al activar la funcionalidad.](#activating)
+* Las reglas de Dispatcher pueden bloquear el servicio de entrega de imágenes optimizadas para la web. Las URL del servicio de entrega de imágenes comienzan con `/adobe`, y examinando [registros de dispatcher para solicitudes rechazadas](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) debería ayudar a solucionar los errores que se hayan encontrado al entregar las imágenes al explorador.
