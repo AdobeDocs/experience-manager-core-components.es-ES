@@ -1,57 +1,57 @@
 ---
 title: Fragmento de formulario adaptable
-description: Utilice fragmentos de formulario para crear segmentos de formulario o grupos de campos y reutilizarlos en Forms adaptable para mejorar la eficacia y la reutilización.
+description: Utilice fragmentos de formulario para crear segmentos de formulario o grupos de campos y reutilizarlos en los formularios adaptables para mejorar la eficacia y la reutilización.
 role: Architect, Developer, Admin, User
 source-git-commit: 6f83e843b95689bad2cfb31bd53c20b135d789d5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1675'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# Componente Fragmento de formulario {#form-fragment-component-adaptive-forms-core-component}
+# Componente de fragmento de formulario {#form-fragment-component-adaptive-forms-core-component}
 
-Adaptive Forms ofrece una forma cómoda de crear segmentos de formulario, como paneles o grupos de campos, para que se puedan reutilizar en diferentes Forms adaptables. Estos segmentos reutilizables e independientes se denominan [Fragmentos de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html).
+Los formularios adaptables ofrecen una forma cómoda de crear segmentos de formulario, como paneles o grupos de campos, para que se puedan reutilizar en diferentes formularios adaptables. Estos segmentos reutilizables e independientes se denominan [fragmentos de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=es).
 
-Puede [agregar un fragmento varias veces a un documento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#insert-a-fragment-in-an-adaptive-form) y utilice propiedades de enlace de datos de sus componentes para vincularlo a diferentes fuentes de datos o esquemas. Por ejemplo, puede utilizar el mismo fragmento de dirección para la dirección permanente, de comunicación y de facturación y conectarlo a diferentes campos de un origen de datos o esquema.
+Puede [añadir un fragmento varias veces a un documento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=es#insert-a-fragment-in-an-adaptive-form) y utilizar las propiedades de enlace de datos de sus componentes para vincularlo a diferentes fuentes de datos o esquemas. Por ejemplo, puede utilizar el mismo fragmento de dirección para la dirección permanente, de comunicación y de facturación y conectarlo a diferentes campos de un origen de datos o esquema.
 
 ![ejemplo](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
 
-También puede utilizar la variable [opción de repetibilidad](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es) para duplicar el componente de fragmento de formulario y sus componentes secundarios, defina un recuento de repetición mínimo y máximo y facilite la replicación de secciones similares dentro de un formulario.
+También puede utilizar la [opción de repetibilidad](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es) para duplicar el componente de fragmento de formulario y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario.
 
 >[!NOTE]
 >
-> Puede [crear un fragmento de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html#create-a-fragment) desde cero o guarde un panel en un formulario adaptable existente como fragmento.
+> Puede [crear un fragmento de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=es#create-a-fragment) desde cero o guardar un panel en un formulario adaptable existente como fragmento.
 
 ## Uso {#usage}
 
-- **Reutilización** Forms : la capacidad de reutilizar fragmentos de formulario en varios formularios adaptables es la principal ventaja de utilizar fragmentos de formulario. Ayuda a mantener la coherencia en el diseño y la funcionalidad, ya que los cambios realizados en un fragmento se reflejan en todas las instancias en las que se utiliza.
+- **Reutilización**: la capacidad de reutilizar fragmentos de formulario en varios formularios adaptables es la principal ventaja de utilizar fragmentos de formulario. Ayuda a mantener la coherencia en el diseño y la funcionalidad, ya que los cambios realizados en un fragmento se reflejan en todas las instancias en las que se utiliza.
 
-- **Experiencia del usuario coherente**: El uso de fragmentos de formulario para elementos comunes, como encabezados o pies de página, garantiza una experiencia de usuario coherente y homogénea.
+- **Experiencia del usuario coherente**: el uso de fragmentos de formulario para elementos comunes, como encabezados o pies de página, garantiza una experiencia de usuario coherente y homogénea.
 
 - **Fácil mantenimiento**: los cambios o modificaciones realizados en un fragmento de formulario se reflejan en todas las instancias en las que se utiliza. Simplifica el mantenimiento y reduce las posibilidades de errores.
 
-- **Eficiencia**: los diseñadores y desarrolladores ahorran tiempo al crear y probar fragmentos de formulario solo una vez. Los fragmentos de formulario se pueden incorporar fácilmente a varios Forms adaptables sin necesidad de trabajo redundante.
+- **Eficiencia**: los diseñadores y desarrolladores ahorran tiempo al crear y probar fragmentos de formulario solo una vez. Los fragmentos de formulario se pueden incorporar fácilmente a varios formularios adaptables sin necesidad repetir el trabajo.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del fragmento de Forms adaptable se publicó como parte de los componentes principales 2.0.50 para Cloud Service AEM y los componentes principales 1.1.26 para Forms 6.5.16.0 de o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de fragmentos de formularios adaptables se publicó como parte de los componentes principales, versión 2.0.50 para Cloud Service y componentes principales, versión 1.1.26 para AEM 6.5.16.0 Forms o versiones posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.0.50](/help/adaptive-forms/version.md) y posteriores | Compatible con<br>[versión 1.1.26](/help/adaptive-forms/version.md) y posterior, pero inferior a 2.0.0. |
+| Versión 1 | Compatible con la <br>[versión 2.0.50](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.26](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal del fragmento de Forms adaptable en la documentación técnica sobre [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de fragmentos de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia del fragmento para los visitantes con el Cuadro de diálogo de configuración. También puede definir las propiedades del fragmento con facilidad para una experiencia de usuario perfecta.
+Puede personalizar fácilmente la experiencia de los fragmentos para los visitantes con el cuadro de diálogo de configuración. También puede definir propiedades de fragmentos con facilidad para una experiencia del usuario perfecta.
 
 ### Pestaña Básicos {#basic-tab}
 
@@ -86,7 +86,7 @@ Puede personalizar fácilmente la experiencia del fragmento para los visitantes 
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Referencia a fragmento** : Una referencia de fragmento es una referencia a un fragmento de formulario almacenado en una fuente de datos externa y utilizado en un formulario. La referencia de fragmento permite enlazar dinámicamente el fragmento de formulario a un formulario.
+- **Referencia de fragmento**: es una referencia a un fragmento de un formulario que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de fragmento permite enlazar dinámicamente el fragmento de formulario a un formulario.
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 
@@ -98,7 +98,7 @@ Puede personalizar fácilmente la experiencia del fragmento para los visitantes 
 
 ![Pestaña Repetir fragmento](/help/adaptive-forms/assets/fragment-repeattab.png)
 
-- **Hacer que el fragmento sea repetible**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
+- **Hacer fragmento repetible**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
 - **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente de fragmento. Un valor de cero indica que el componente de fragmento no se repite; el valor predeterminado es cero.
 - **Máximo de repeticiones**: establece el número máximo de veces que se puede repetir el componente de fragmento. De forma predeterminada, este valor es ilimitado.
 
@@ -124,11 +124,11 @@ El cuadro de diálogo de diseño se utiliza para definir y administrar estilos C
 
 ### Pestaña Estilos {#styles-tab}
 
-AEM El componente principal del fragmento de formulario adaptable es compatible con el elemento de datos de la [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+El componente principal de fragmento de formulario de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal del fragmento de formulario adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar clases CSS predeterminadas para el componente principal de fragmento de formulario de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
@@ -136,7 +136,7 @@ AEM El componente principal del fragmento de formulario adaptable es compatible 
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
 - **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
