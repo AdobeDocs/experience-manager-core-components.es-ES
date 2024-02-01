@@ -1,40 +1,40 @@
 ---
-title: 'Componente principal de Forms adaptable: componente de conmutador'
-description: Uso o personalización del componente principal del conmutador de Forms adaptable.
+title: 'Componente principal de formularios adaptables: componente de cambio'
+description: Uso o personalización del componente principal de cambio de formularios adaptables.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromToC: true
 source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1689'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
 
-# Cambiar componente{#switch-adaptive-forms-core-component}
+# Componente de cambio{#switch-adaptive-forms-core-component}
 
-El componente de conmutador es una interfaz gráfica de usuario utilizada en los formularios que permite a los usuarios seleccionar entre dos opciones. Normalmente, se trata de una opción de dos estados que permite a los usuarios elegir entre dos estados y habilitar o deshabilitar una característica, configuración o funcionalidad. El componente del conmutador está diseñado para representar visualmente el estado actual y mostrar si una función en particular está activada o desactivada.
+El componente de cambio es una interfaz gráfica de usuario que se utiliza en formularios y permite que los usuarios elijan entre dos opciones. Normalmente, alterna entre dos estados y permite que los usuarios los escojan, por lo que se habilita o deshabilita una característica, configuración o funcionalidad. El componente de cambio está diseñado para representar visualmente el estado actual y mostrar si una funcionalidad en particular está activada o desactivada.
 
-El componente switch es un elemento de control booleano que establece el valor en true o false. Por ejemplo, se utiliza para activar o desactivar una función, como silenciar o reactivar el sonido, o activar o desactivar Bluetooth o WiFi.
+El componente de cambio es un elemento de control booleano que establece el valor en verdadero o falso. Por ejemplo, se utiliza para activar o desactivar una funcionalidad, como silenciar o reactivar el sonido, o habilitar o deshabilitar la conexión Bluetooth o wifi.
 
-![Ejemplo del componente Cambiar](/help/adaptive-forms/assets/switch-example.png)
+![Ejemplo del componente de cambio](/help/adaptive-forms/assets/switch-example.png)
 
 ## Uso {#reasons-to-use-switch}
 
-Las razones comunes para utilizar el conmutador en un formulario adaptable son las siguientes:
+Las razones más comunes para utilizar el componente de cambio en un formulario adaptable son las siguientes:
 
-- **Interacción del usuario**: los usuarios pueden interactuar con el componente de conmutador al hacer clic o pulsar en él.
+- **Interacción con el usuario**: los usuarios pueden interactuar con el componente de cambio al hacer clic o pulsar en él.
 
-- **Estados Unidos**: el componente del interruptor tiene dos estados: ON y OFF. El estado inicial del componente de conmutador depende de la configuración predeterminada o del estado actual de la función que controla.
+- **Estados**: el componente de cambio tiene dos estados: activado y desactivado. El estado inicial del componente de cambio depende de la configuración predeterminada o del estado actual de la funcionalidad que controla.
 
-- **Representación visual**: el componente del conmutador refleja visualmente su estado actual al cambiar el color o la posición.
+- **Representación visual**: el componente de cambio refleja visualmente su estado actual al cambiar el color o la posición.
 
-- **Funcionalidad de control** AEM : el componente de conmutador se utiliza para habilitar o deshabilitar la funcionalidad específica en un formulario de. Por ejemplo, permite a los usuarios activar o desactivar una función.
+- **Funcionalidad de control**: el componente de cambio se utiliza para habilitar o deshabilitar la característica específica en un formulario de AEM. Por ejemplo, permite a los usuarios activar o desactivar una funcionalidad.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del conmutador de Forms adaptable se publicó como parte de los componentes principales 2.0.64. AEM Esta es una tabla que muestra todas las versiones compatibles, la compatibilidad de la y los vínculos a la documentación correspondiente:
+El componente principal de cambio de formularios adaptables se publicó como parte de los componentes principales, versión 2.0.64. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
@@ -46,11 +46,11 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal del conmutador Forms adaptable en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de cambio de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/switch/v1/switch). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia del componente Switch para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de los componentes de conmutador con facilidad para lograr una experiencia de usuario perfecta.
+Puede personalizar fácilmente la experiencia del componente de cambio para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones del componente de cambio con facilidad para que la experiencia del usuario sea óptima.
 
 ### Pestaña Básicos
 
@@ -62,12 +62,12 @@ Puede personalizar fácilmente la experiencia del componente Switch para los vis
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Conservar valor de estado de desactivación** - Al seleccionar esta opción, puede especificar el valor que se devolverá cuando el componente de conmutador no esté seleccionado.
-- **Opciones** : especifique el valor de los datos y muestre el texto de cada opción.
-   - **En valor de datos** - Especifique el valor que se enviará cuando el conmutador esté habilitado en un formulario adaptable.
-   - **Texto en pantalla** - Especifique el texto que se mostrará como etiqueta cuando el conmutador esté habilitado en un formulario adaptable.
-   - **Valor de datos desactivado** - Especifique el valor que se enviará cuando el conmutador no esté habilitado en un formulario adaptable. Esta opción solo está visible si la variable **Conservar valor de estado de desactivación** está activado.
-   - **Texto para mostrar desactivado** - Especifique el texto que se mostrará como etiqueta cuando el conmutador no esté habilitado en un formulario adaptable. Esta opción solo está visible si la variable **Conservar valor de estado de desactivación** está activado.
+- **Conservar valor del estado Desmarcar**: al seleccionar esta opción, puede especificar el valor que se devolverá cuando el componente de cambio no esté seleccionado.
+- **Opciones**: especifique el valor de los datos y muestre el texto de cada opción.
+   - **Opción Valor de datos activada**: especifique el valor que se enviará cuando el componente de cambio esté habilitado en un formulario adaptable.
+   - **Opción Mostrar texto activada**: especifique el texto que se mostrará como etiqueta cuando el componente de cambio esté habilitado en un formulario adaptable.
+   - **Opción Valor de datos desactivada**: especifique el valor que se enviará cuando el componente de cambio no esté habilitado en un formulario adaptable. Esta opción solo está visible si el componente de cambio **Conservar valor del estado Desmarcar** está habilitado.
+   - **Opción Mostrar texto desactivada**: especifique el texto que se mostrará como etiqueta cuando el componente de cambio no esté habilitado en un formulario adaptable. Esta opción solo está visible si el componente de cambio **Conservar valor del estado Desmarcar** está habilitado.
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
@@ -109,21 +109,21 @@ Puede personalizar fácilmente la experiencia del componente Switch para los vis
 
 ![Pestaña Estilos](/help/adaptive-forms/assets/switch-styles.png)
 
-- **Ocultar etiquetas** - Seleccione esta opción para ocultar las etiquetas del componente del conmutador.
+- **Ocultar etiquetas**: seleccione esta opción para ocultar las etiquetas del componente de cambio.
 
-- **Mostrar etiquetas** - Seleccione esta opción para mostrar las etiquetas del componente del conmutador.
+- **Mostrar etiquetas**: seleccione esta opción para mostrar las etiquetas del componente de cambio.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Switch.
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente de cambio.
 
 ### Pestaña Estilos {#styles-design-tab}
 
-El componente principal del conmutador de Forms AEM adaptable es compatible con la función de [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+El componente principal de cambio de formularios adaptables es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal del grupo de conmutadores de Forms adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de grupo de cambio de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
@@ -131,7 +131,7 @@ El componente principal del conmutador de Forms AEM adaptable es compatible con 
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
 - **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
