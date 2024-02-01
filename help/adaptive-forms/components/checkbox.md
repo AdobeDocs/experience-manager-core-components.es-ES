@@ -6,7 +6,7 @@ exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
 workflow-type: tm+mt
 source-wordcount: '1746'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -119,7 +119,7 @@ El Componente principal de Casillas de verificación de Formularios adaptables e
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal Casilla de verificación de Forms adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de la casilla de verificación de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 

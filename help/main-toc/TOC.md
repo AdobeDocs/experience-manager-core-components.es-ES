@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites
 source-git-commit: 2afcaeb90911de865814235586ea19eb21dd8126
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 97%
       + [Selector de fecha de Formularios adaptables](/help/adaptive-forms/components/date-picker.md)
       + [Lista desplegable de Formularios adaptables](/help/adaptive-forms/components/drop-down.md)
       + [Entrada de correo electrónico de Formularios adaptables](/help/adaptive-forms/components/email-input.md)
-      + [Fragmento de formulario adaptable de Forms](/help/adaptive-forms/components/form-fragment.md)
+      + [Fragmento de formulario de Formularios adaptables](/help/adaptive-forms/components/form-fragment.md)
       + [Archivos adjuntos de Formularios adaptables](/help/adaptive-forms/components/file-attachment.md)
       + [Pestañas verticales de formularios adaptables](/help/adaptive-forms/components/vertical-tabs.md)
       + [Pestañas horizontales de Formularios adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
@@ -125,7 +125,7 @@ ht-degree: 97%
       + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)
       + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
       + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
-      + [Conmutador Forms adaptable](/help/adaptive-forms/components/switch.md)
+      + [Cambio de Formularios adaptables](/help/adaptive-forms/components/switch.md)
       + [Entrada de teléfono de Formularios adaptables](/help/adaptive-forms/components/telephone-input.md)
       + [Texto de Formularios adaptables](/help/adaptive-forms/components/text.md)
       + [Cuadro de texto de Formularios adaptables](/help/adaptive-forms/components/text-input.md)
