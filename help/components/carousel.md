@@ -3,12 +3,13 @@ title: Componente Carrusel
 description: El componente Carrusel permite al autor del contenido presentar el contenido en un carrusel giratorio.
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: e0d3790b265ab27ac2116f0d8daf1a18ecd3d714
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 100%
+source-wordcount: '1313'
+ht-degree: 94%
 
 ---
+
 
 # Componente Carrusel{#carousel-component}
 
@@ -28,7 +29,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| Versión 1 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+| Versión 1 | Compatible con<br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -55,6 +56,12 @@ Para ello:
    * Por ejemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#carousel-bfe4fa6647-item-47f1a7ca67-tabpanel`
 
 Si se desplaza a la dirección URL con el ID de panel como anclaje, el explorador se desplazará directamente al componente en cuestión y mostrará el panel especificado. Si el panel está configurado para no mostrarse de forma predeterminada, se desplazará a automáticamente.
+
+## Carrusel y diseño interactivo {#responsive-design}
+
+Todos los componentes principales están diseñados para responder completamente, lo que garantiza una experiencia sin problemas en todos los dispositivos.
+
+Algunos componentes avanzados, como el componente Carrusel, pueden requerir una consideración específica en el contexto del proyecto de implementación para mantener la capacidad de respuesta en todas las condiciones. Consulte el documento [Diseño interactivo de los componentes principales](/help/responsive.md) para obtener más información.
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 

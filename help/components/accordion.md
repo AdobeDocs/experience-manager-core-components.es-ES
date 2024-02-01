@@ -3,12 +3,13 @@ title: Componente Acordeón
 description: El componente Acordeón de componentes principales permite crear una colección de paneles organizados en un acordeón de una página.
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: e8b3e55a42b6be6262d6f51b9569c0be3e8ce6c3
+source-git-commit: d39fe0084522f67664203a026340b23d325c1883
 workflow-type: tm+mt
-source-wordcount: '1068'
-ht-degree: 100%
+source-wordcount: '1098'
+ht-degree: 93%
 
 ---
+
 
 # Componente Acordeón{#accordion-component}
 
@@ -30,7 +31,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |---|---|
-| Versión 1 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+| Versión 1 | Compatible con<br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -57,6 +58,12 @@ Para ello:
    * Por ejemplo `https://wknd.site/content/wknd/language-masters/en/magazine/western-australia.html#accordion-86196c94d3-item-ca319dbb0b`
 
 Si se desplaza a la dirección URL con el ID de panel como anclaje, el explorador se desplazará directamente al componente en cuestión y mostrará el panel especificado. Si el panel está configurado para no expandirse de forma predeterminada, se expandirá automáticamente.
+
+## Acordeón y diseño interactivo {#responsive-design}
+
+Todos los componentes principales están diseñados para responder completamente, lo que garantiza una experiencia sin problemas en todos los dispositivos.
+
+Algunos componentes avanzados, como el componente Acordeón, pueden requerir una consideración específica en el contexto del proyecto de implementación para mantener la capacidad de respuesta en todas las condiciones. Consulte el documento [Diseño interactivo de los componentes principales](/help/responsive.md) para obtener más información.
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
