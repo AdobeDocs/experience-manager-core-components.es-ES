@@ -4,9 +4,9 @@ description: Obtenga soluciones a problemas con los componentes principales y pe
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '808'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 | Preparado para la nube | Ya sea en [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es), en [Adobe Managed Services](https://github.com/adobe/aem-project-archetype/tree/master/src/main/archetype/dispatcher.ams) o en línea, simplemente funcionan. |
 | Versátil | Los componentes representan conceptos genéricos con los que los autores pueden ensamblar casi cualquier diseño. |
 | Configurable | Las [directivas de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/full-stack/components-templates/templates.html?lang=es#content-policies) a nivel de plantilla definen qué características pueden utilizar o no los autores de la página. |
-| [Adaptable](responsive.md) | Todos los componentes principales están diseñados para responder completamente, lo que garantiza una experiencia sin problemas en todos los dispositivos |
+| [Adaptable](responsive.md) | Todos los componentes principales están diseñados para ser totalmente interactivos, lo que garantiza una experiencia sin problemas en todos los dispositivos |
 | Rastreable | La [integración de capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md) permite el seguimiento de todos los aspectos de la experiencia del visitante. |
 | Accesible | Cumplen el estándar [WCAG 2.1](https://www.w3.org/TR/WCAG21/), proporcionan etiquetas de tipo ARIA y admiten la navegación con teclado ([problemas conocidos](https://github.com/adobe/aem-core-wcm-components/issues?utf8=✓&amp;q=is%3Aissue+is%3Aopen+accessibility+in%3Atitle)). |
 | Compatible con SEO | La salida de HTML es semántica y proporciona anotaciones de microdatos de tipo [schema.org](https://schema.org). |
@@ -108,7 +108,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 ## Requisitos del sistema {#system-requirements}
 
-| Versión de componentes principales | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
+| Versión de los componentes principales | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
 |---------|---------|---------|---------|---------|
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Continua | 6.5.17.0+ | 8, 11 | 3.3.9+ |
 
