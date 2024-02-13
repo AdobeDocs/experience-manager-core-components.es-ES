@@ -1,28 +1,28 @@
 ---
-title: AEM Versiones de componentes principales de Forms adaptables
+title: Versiones de los componentes principales de formularios adaptables de AEM
 description: Los componentes principales de AEM se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '773'
-ht-degree: 54%
+ht-degree: 100%
 
 ---
 
 
-# Versiones de componentes principales de Forms adaptables {#core-components-versions}
+# Versiones de componentes principales de Formularios adaptables {#core-components-versions}
 
-Identifique las versiones precisas de los componentes principales de Forms y de WCM necesarias para activar los componentes principales de Forms adaptables más recientes en su entorno. Además, familiarícese con los componentes y las funciones activados en cada versión de los componentes principales de Forms adaptable.
+Identifique las versiones precisas de los componentes principales de Formularios y de WCM necesarias para activar los componentes principales de Formularios adaptables más recientes en su entorno. Además, familiarícese con los componentes y las funciones activados en cada versión de los componentes principales de Formularios adaptables.
 
-## Historial de versiones de AEM Forms como Cloud Service {#aem-as-cs-version-history}
+## Historial de versiones de AEM Forms as Cloud Service {#aem-as-cs-version-history}
 
 La tabla siguiente presenta una lista de las versiones de los componentes principales compatibles con AEM as a Cloud Service que están disponibles en [GitHub, junto con detalles completos de sus versiones](https://github.com/adobe/aem-core-forms-components/releases).
 
 
 
 
-| Componentes principales de Forms | Componentes principales de WCM | AEM Forms as a cloud service | Java | Maven |
+| Componentes principales de Forms | Componentes principales de WCM | AEM Forms as a Cloud Service | Java | Maven |
 |-----------------------|---------------------| ---------------------------- | ----- | ------ |
 | 2.0.86 | 2.23.4 | Continua | 8, 11 | 3.3.9+ |
 | 2.0.76 | 2.23.4 | Continua | 8, 11 | 3.3.9+ |
@@ -52,10 +52,10 @@ La tabla siguiente presenta una lista de las versiones de los componentes princi
 | 2.0.2 | 2.21.2 | Continua | 8, 11 | 3.3.9+ |
 | 1.1.8 | 2.21.2 | Continua | 8, 11 | 3.3.9+ |
 | 1.1.6 | 2.21.2 | Continua | 8, 11 | 3.3.9+ |
-| 1,0,56 | 2.21.2 | Continua | 8, 11 | 3.3.9+ |
-| 1,0,54 | 2.21.0 | Continua | 8, 11 | 3.3.9+ |
+| 1.0.56 | 2.21.2 | Continua | 8, 11 | 3.3.9+ |
+| 1.0.54 | 2.21.0 | Continua | 8, 11 | 3.3.9+ |
 | 1.0.52 | 2.21.0 | Continua | 8, 11 | 3.3.9+ |
-| 1,0,50 | 2.21.0 | Continua | 8, 11 | 3.3.9+ |
+| 1.0.50 | 2.21.0 | Continua | 8, 11 | 3.3.9+ |
 | 1.0.48 | 2.21.0 | Continua | 8, 11 | 3.3.9+ |
 | 1.0.46 | 2.21.0 | Continua | 8, 11 | 3.3.9+ |
 | 1.0.44 | 2.21.0 | Continua | 8, 11 | 3.3.9+ |
