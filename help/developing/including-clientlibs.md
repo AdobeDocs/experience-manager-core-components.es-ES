@@ -4,9 +4,9 @@ description: Los componentes principales incluyen una serie de bibliotecas de cl
 role: Architect, Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
 source-git-commit: d39fe0084522f67664203a026340b23d325c1883
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '518'
-ht-degree: 65%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ Los componentes principales incluyen una serie de bibliotecas de cliente y permi
 Los componentes principales proporcionan las siguientes bibliotecas de cliente listas para usarse.
 
 * El **sitio** clientlibs proporciona el comportamiento funcional minimalista de los componentes que se van a aplicar al sitio.
-   * Sirven como punto de partida para acelerar los proyectos, y se alienta a las implementaciones a que amplíen y [personalizarlos](/help/developing/customizing.md) para lograr la apariencia y funcionalidad deseadas.
-* El **editor** clientlibs se aplican al cuadro de diálogo de creación para garantizar su funcionalidad y aspecto esperados.
-* El **gancho editor** clientlibs se aplican al sitio cuando se cargan en modo de edición.
+   * Sirven como punto de partida para acelerar los proyectos, y se alienta a las implementaciones a ampliarlos y [personalizarlos](/help/developing/customizing.md) para lograr la apariencia y funcionalidad deseadas.
+* Las clientlibs del **editor** se aplican al cuadro de diálogo de creación para garantizar su funcionalidad y aspecto esperados.
+* Las clientlibs **editorhook** se aplican al sitio cuando se cargan en modo de edición.
    * Contienen código JavaScript ejecutado en eventos activados por el editor, lo que facilita la inicialización de la funcionalidad dinámica.
-* Algunos componentes pueden tener clientlibs adicionales específicos diseñados para su uso en situaciones particulares, como cuando se emplean junto con [Dynamic Media](/help/components/image.md#dynamic-media) por ejemplo.
+* Algunos componentes pueden tener clientlibs adicionales específicas diseñadas para su uso en situaciones particulares, como cuando se emplean junto con [Dynamic Media](/help/components/image.md#dynamic-media), por ejemplo.
 
 ## Inclusión de bibliotecas de cliente {#including}
 
-Existen varias formas de incluir [bibliotecas de cliente](/help/developing/archetype/front-end.md#clientlibs) según el caso de uso. Los siguientes son ejemplos con ejemplo [Fragmentos de HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) para cada uno.
+Existen varias formas de incluir [bibliotecas de cliente](/help/developing/archetype/front-end.md#clientlibs) según el caso de uso. Los siguientes son ejemplos con [Fragmentos de HTL](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) de muestra para cada uno.
 
 ### Uso predeterminado recomendado {#recommended-default-usage}
 
