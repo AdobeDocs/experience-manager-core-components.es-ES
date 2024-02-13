@@ -4,9 +4,9 @@ description: Usar o personalizar el Componente principal de los Términos y cond
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2690'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ El componente **Términos y condiciones** es un componente compuesto que consta 
 
 >[!NOTE]
 >
-> AEM Para Forms AEM 6.5, este componente se introdujo con el paquete de servicio 19 de Forms 6.5 (6.5.19.0) de la. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Forms adaptables, consulte [Versiones de componentes principales de Forms adaptables](/help/adaptive-forms/version.md)
+> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Adaptive Forms, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
 
 **Ejemplo**
 
@@ -221,6 +221,6 @@ Puede personalizar fácilmente el [Componente de las casillas de verificación](
 
 {{more-like-this}}
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}
