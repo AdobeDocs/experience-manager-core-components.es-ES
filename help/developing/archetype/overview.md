@@ -1,30 +1,30 @@
 ---
-title: Tipo de archivo del proyecto AEM.
-description: AEM AEM Obtenga información acerca del Arquetipo de proyecto de que sirve como plantilla para aplicaciones basadas en recursos de la aplicación.
+title: Tipo de archivo del proyecto AEM
+description: Obtenga información acerca del Arquetipo de proyecto de AEM que sirve como plantilla para aplicaciones basadas en AEM.
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
 source-git-commit: 8940285f4c5e5870b6a135dac674f06e4c1d8b5a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 
-# Tipo de archivo del proyecto AEM. {#aem-project-archetype}
+# Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
-AEM El tipo de archivo del proyecto de Maven es una plantilla de Maven que crea un proyecto de Adobe Experience Manager AEM () mínimo basado en las prácticas recomendadas como punto de partida para su sitio web. Esta documentación proporciona una descripción general de las ventajas del tipo de archivo y del uso general. Encontrará instrucciones técnicas detalladas y documentación en el tipo de archivo del repositorio de GitHub.
+El tipo de archivo del proyecto de AEM es una plantilla de Maven que crea un proyecto mínimo de Adobe Experience Manager (AEM) basado en las prácticas recomendadas como punto de partida para su sitio web. Esta documentación proporciona una descripción general de las ventajas del tipo de archivo y del uso general. Encontrará instrucciones técnicas detalladas y documentación en el tipo de archivo del repositorio de GitHub.
 
 >[!TIP]
 >
->AEM El último tipo de archivo del proyecto de y la documentación técnica asociada [se encuentra en GitHub.](https://github.com/adobe/aem-project-archetype)
+>El último tipo de archivo del proyecto de AEM y la documentación técnica asociada [se encuentran en GitHub.](https://github.com/adobe/aem-project-archetype)
 
 ## Por qué utilizar el tipo de archivo {#why-use-the-archetype}
 
 El uso del tipo de archivo del proyecto de AEM le permite avanzar hacia la creación de un proyecto de AEM basado en las prácticas recomendadas con solo pulsar unas pocas teclas. Mediante el uso del tipo de archivo, todas las piezas ya estarán en su sitio para que, aunque el proyecto resultante sea mínimo, ya implemente todas las [características clave](/help/developing/archetype/using.md#what-you-get) de AEM para que solo tenga que generar y ampliar.
 
-Por supuesto, hay muchos elementos que entran en [AEM un proyecto de éxito de la,](/help/developing/success.md) AEM AEM pero el uso del tipo de archivo del proyecto de la es una base sólida y se recomienda encarecidamente para cualquier proyecto de la misma.
+Por supuesto, hay muchos elementos que entran en un [proyecto de AEM correcto,](/help/developing/success.md) pero el uso del tipo de archivo del proyecto de AEM es una base sólida y se recomienda encarecidamente para cualquier proyecto de AEM.
 
 ## Características {#features}
 
@@ -38,17 +38,17 @@ Por supuesto, hay muchos elementos que entran en [AEM un proyecto de éxito de l
 * **Diseño interactivo:** en plantillas o páginas individuales, [defina el reflujo de los elementos](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html?lang=es) para los puntos de interrupción definidos.
 * **Encabezado y pie de página:** reúna y localícelos sin código, utilizando las [funciones de localización de los componentes](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/get-started/localization.html?lang=es).
 * **Sistema de estilos:** evite crear componentes personalizados al permitir que los autores [les apliquen estilos diferentes](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/project-archetype/style-system.html?lang=es).
-* **Compilación front-end:** Los desarrolladores de front-end pueden [AEM mockPáginas de y compilación de bibliotecas de cliente](front-end.md) con Webpack, TypeScript y SASS.
-* **Preparado para la aplicación web:** Para los sitios que utilizan React o Angular, utilice el [SPA SDK de](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html?lang=es) para conservar [creación en contexto de la aplicación](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es).
+* **Compilación front-end:** los desarrolladores de front-end pueden [burlar las páginas de AEM y crear bibliotecas de cliente](front-end.md) con Webpack, TypeScript y SASS.
+* **Preparado para aplicaciones web:** Para sitios que utilizan React o Angular, utilice el [SPA SDK](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/hybrid/developing.html?lang=es) para mantener la [autoría en el contexto de la aplicación](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es).
 * **Comercio habilitado:** para proyectos que desean integrar [AEM Commerce](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content-and-commerce/home.html?lang=es) con soluciones de comercio como [Magento](https://magento.com/es) utilizando [componentes principales de comercio](https://github.com/adobe/aem-core-cif-components).
 * **Código de ejemplo:** cierre la compra del componente HelloWorld y de los modelos, servlets, filtros y programadores de ejemplo.
 * **Abrir fuente:** si algo no funciona como debería, [contribuya con sus mejoras](https://github.com/adobe/aem-core-wcm-components/blob/master/CONTRIBUTING.md).
 
 ## Lectura adicional {#further-reading}
 
-* **[AEM Arquetipo de proyecto de GitHub](https://github.com/adobe/aem-project-archetype)** - Para un uso completo y detalles técnicos del tipo de archivo
-* **[Uso del tipo de archivo](using.md)** - Una visión general de cómo utilizar el tipo de archivo en el proyecto y los módulos resultantes generados
-* **[AEM Desarrollo front-end con el tipo de archivo del proyecto de](front-end.md)** - Cómo utilizar el módulo front-end del tipo de archivo
-* **Los siguientes tutoriales están basados en el tipo de archivo:**
-   * **[Sitio WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)** - Aprenda a iniciar un nuevo sitio web.
-   * **[Aplicación de una sola página WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es)** - Aprenda a crear una aplicación web de React o Angular AEM totalmente legible en el mundo de los recursos de la aplicación de la aplicación de forma libre y sin restricciones
+* **[Arquetipo de proyecto de AEM GitHub:](https://github.com/adobe/aem-project-archetype)** Para un uso completo y detalles técnicos del tipo de archivo
+* **[Uso del tipo de archivo:](using.md)** Una visión general de cómo utilizar el tipo de archivo en el proyecto y los módulos resultantes generados
+* **[Desarrollo front-end con el tipo de archivo del proyecto de AEM:](front-end.md)** Cómo utilizar el módulo front-end del tipo de archivo
+* **Los siguientes tutoriales están basados en este tipo de archivo:**
+   * **[Sitio WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)** Aprenda a iniciar un nuevo sitio web.
+   * **[Aplicación de una sola página WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es)** Aprenda a crear una aplicación web de React o Angular totalmente legible en AEM.
