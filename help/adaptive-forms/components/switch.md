@@ -2,15 +2,13 @@
 title: 'Componente principal de formularios adaptables: componente de cambio'
 description: Uso o personalización del componente principal de cambio de formularios adaptables.
 role: Architect, Developer, Admin, User
-hide: true
-hidefromToC: true
-source-git-commit: d172e019c5621d950a94cbdd8d27e4834dbabe3b
-workflow-type: ht
+exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 100%
 
 ---
-
 
 # Componente de cambio{#switch-adaptive-forms-core-component}
 
@@ -59,6 +57,10 @@ Puede personalizar fácilmente la experiencia del componente de cambio para los 
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
 - **Título**: con este puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, el componente no se muestra.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
@@ -68,6 +70,15 @@ Puede personalizar fácilmente la experiencia del componente de cambio para los 
    - **Opción Mostrar texto activada**: especifique el texto que se mostrará como etiqueta cuando el componente de cambio esté habilitado en un formulario adaptable.
    - **Opción Valor de datos desactivada**: especifique el valor que se enviará cuando el componente de cambio no esté habilitado en un formulario adaptable. Esta opción solo está visible si el componente de cambio **Conservar valor del estado Desmarcar** está habilitado.
    - **Opción Mostrar texto desactivada**: especifique el texto que se mostrará como etiqueta cuando el componente de cambio no esté habilitado en un formulario adaptable. Esta opción solo está visible si el componente de cambio **Conservar valor del estado Desmarcar** está habilitado.
+
+<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
@@ -145,15 +156,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}
-
-
-
-
-
-
-
-
-

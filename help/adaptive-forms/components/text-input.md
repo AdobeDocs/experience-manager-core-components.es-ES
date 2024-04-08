@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: entrada de texto (cuadro
 description: Uso o personalización del componente principal de entrada de texto de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1984'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1949'
+ht-degree: 98%
 
 ---
 
@@ -57,6 +57,10 @@ Puede personalizar fácilmente la experiencia de entrada de texto para los visit
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
 - **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
@@ -75,9 +79,7 @@ Puede personalizar fácilmente la experiencia de entrada de texto para los visit
 
 - **Permitir líneas múltiples**: esta opción permite al usuario introducir varias líneas en un campo de formulario.
 
-- **Permitir texto enriquecido**: el cuadro de diálogo de edición proporciona herramientas de formato de texto enriquecido estándar que permiten al usuario dar formato al texto.
-
-- **Atributo de rellenado automático**: la opción de rellenado automático rellena los campos del formulario según un patrón o texto introducido previamente. Cuando el usuario empieza a escribir texto en el campo de formulario, las sugerencias aparecen en una lista desplegable desde la que puede seleccionar la opción adecuada.
+- **Atributo de relleno automático** : la opción permite a los usuarios introducir un valor que se rellena automáticamente dentro del campo de formulario en función de la información almacenada.
 
 ### Pestaña Validación {#validation-tab}
 
@@ -165,6 +167,6 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 {{more-like-this}}
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

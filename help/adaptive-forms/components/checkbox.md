@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: casilla de verificación
 description: Uso o personalización del Componente principal de la casilla de verificación de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 723d29b88d4cbc73f756d26a64d503b425ab26f4
-workflow-type: ht
-source-wordcount: '1746'
-ht-degree: 100%
+source-git-commit: bb226c9545ce32f48896d737c8652a1e0c0e11a5
+workflow-type: tm+mt
+source-wordcount: '1666'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ Una casilla de verificación suele representarse como un pequeño cuadrado que s
 
 >[!NOTE]
 >
-> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Formularios adaptables, consulte [Versiones de componentes principales de Formularios adaptables](/help/adaptive-forms/version.md)
+> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Adaptive Forms, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
 
 **Ejemplo**
 
@@ -62,6 +62,11 @@ Puede personalizar fácilmente la experiencia de las Casillas de verificación p
 
 - **Título**: con este puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, el componente no se muestra.
 
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
+
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
@@ -73,12 +78,9 @@ Puede personalizar fácilmente la experiencia de las Casillas de verificación p
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 
 - **Deshabilitar componente**: seleccione la opción para desactivar o bloquear el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
-- **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
+  <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Cuando se selecciona, se devuelve el valor**: seleccione esta opción para especificar qué valor debe asociarse a la casilla de verificación cuando está activada o seleccionada. Es la acción que se produce cuando un usuario marca o usted marca la casilla de verificación.
-- **Habilite Desmarcar.**: seleccione la opción para habilitar o deshabilitar la capacidad de desmarcar una casilla de verificación que se haya marcado anteriormente.
-   - Si **Habilitar desmarcar** está habilitado o establecido en true, significa que el usuario puede marcar y desmarcar la casilla de verificación a su discreción. Pueden activar y desactivar la casilla de verificación según sea necesario.
-
-   - Si **Habilitar desmarcar** está deshabilitado o establecido en false, significa que una vez marcada la casilla de verificación, el usuario no puede desmarcarla.
+- **Conservar valor de estado de desactivación**: seleccione esta opción para especificar el valor que se devolverá cuando el componente Casilla de verificación no esté seleccionado. If **Conservar valor de estado de desactivación** está activada o configurada como verdadera, **Cuando no está marcada, devuelve un valor** aparece la opción.
 - **Cuando no está marcada, devuelve un valor**: la opción le permite especificar qué valor debe asociarse con la casilla de verificación cuando está en un estado sin marcar o sin seleccionar.
 
 - **Valor predeterminado**: esta opción permite añadir un valor predeterminado en un campo de formulario. Si se selecciona **Componente desactivado** o **Componente de solo lectura**, aparece en pantalla el valor predeterminado. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento de envío del formulario.

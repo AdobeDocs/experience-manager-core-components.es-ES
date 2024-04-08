@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: adjuntar archivos'
 description: Uso o personalización del componente principal para adjuntar archivos de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1740'
-ht-degree: 100%
+source-git-commit: 8c51bd29074e5977d3435d849033770cadc357b8
+workflow-type: tm+mt
+source-wordcount: '1726'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,10 @@ Puede personalizar fácilmente la experiencia de archivo adjunto para los visita
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
 - **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
@@ -73,6 +77,7 @@ Puede personalizar fácilmente la experiencia de archivo adjunto para los visita
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Permitir varios archivos adjuntos**: seleccione esta opción para cargar varios archivos adjuntos con el botón **Archivo adjunto**.
+- **Arrastrar y soltar texto** - Es el texto que se muestra en la parte superior del **Adjuntar** para pedir a los usuarios que adjunten o arrastren y suelten archivos. Tiene la opción de personalizar el texto que se muestra en la parte superior del **Adjuntar** botón. <!-- Additionally, you can format the text using the rich text menu. -->
 
 ### Pestaña Validación {#validation-tab}
 
@@ -84,11 +89,10 @@ Puede personalizar fácilmente la experiencia de archivo adjunto para los visita
 
 - **Mensaje de validación de la secuencia de comandos**: esta opción le permite escribir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
-- **Mensaje de error de archivos mínimo**: esta opción se utiliza para escribir un mensaje de error que se muestra si se cargan archivos por debajo de la cantidad mínima especificada de archivos.
-
-- **Mensaje de error de archivos máximo**: esta opción se utiliza para escribir un mensaje de error que se muestra si se cargan archivos por encima de la cantidad mínima especificada de archivos.
+<!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
 - **Tamaño máximo del archivo (MB)**: esta opción permite especificar un tamaño máximo de archivo. Los tamaños de archivo se especifican en MB.
+  <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Mensaje de error de tamaño de archivo máximo**: esta opción se utiliza para escribir un mensaje de error que se muestra si se cargan archivos de tamaño superior al tamaño de archivo especificado en la opción de **Tamaño máximo del archivo (MB)**.
 
@@ -154,6 +158,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

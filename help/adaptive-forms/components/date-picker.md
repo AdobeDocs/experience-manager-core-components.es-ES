@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: selector de fecha'
 description: Uso o personalización del componente principal de selector de fecha de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
 workflow-type: tm+mt
-source-wordcount: '1901'
-ht-degree: 100%
+source-wordcount: '1980'
+ht-degree: 98%
 
 ---
 
@@ -64,10 +64,16 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 - **Nombre**: el nombre identifica de forma exclusiva el componente en el editor de reglas. No se permiten caracteres especiales ni espacios en las cadenas de nombre.
 
 - **Título**: el título es una cadena que aparece en la parte superior de un componente en un Formulario adaptable. El título identifica de forma exclusiva el componente en la estructura de árbol de un formulario adaptable. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png) -->
 
 - **Ocultar título**: seleccione esta opción para ocultar el título del tipo de componente en un Formulario adaptable.
 
 - **Texto del marcador de posición**: el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
+
+- **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
 
@@ -90,11 +96,13 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 - **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la fecha especificada en Fecha mínima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
 
 - **Mensaje de error mínimo**: el cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha anterior a la fecha especificada en la opción **Fecha mínima**.
+- **Excluir fecha mínima** : Esta opción permite omitir la fecha mínima en un intervalo o conjunto de fechas determinados.
 
 - **Fecha máxima**: esta opción permite introducir la fecha máxima requerida. Si introduce una fecha posterior a la fecha especificada en Fecha máxima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado.
 
 - **Mensaje de error máximo**: el cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha posterior a la fecha especificada en la opción **Fecha máxima**.
 
+- **Excluir fecha máxima** : Esta opción permite omitir la fecha máxima en un intervalo o conjunto de fechas determinados.
 
 ### Pestaña Contenido de ayuda {#help-content-tab}
 
@@ -120,10 +128,6 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 - **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción **Tipo** permite al usuario seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 
 - **Editar formato**: representa un formato de fecha en el que el usuario puede editar la fecha. La opción **Tipo** permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
-
-- **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción Tipo permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
-
-- **Editar formato**: representa un formato de fecha en el que el usuario edita la fecha. La opción Tipo permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
@@ -171,7 +175,7 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 {{more-like-this}}
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}
 

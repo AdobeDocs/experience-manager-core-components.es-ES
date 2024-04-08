@@ -3,9 +3,9 @@ title: 'Componente principal de formularios adaptables: contenedor de formulario
 description: Agregue un formulario adaptable a una página web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: 4d01c75fadb0220f0093a6647c27c4002cc979c9
-workflow-type: ht
-source-wordcount: '1297'
+source-git-commit: 7862206660909b396cb3d95b7ac81eee9221957b
+workflow-type: tm+mt
+source-wordcount: '1340'
 ht-degree: 100%
 
 ---
@@ -62,6 +62,8 @@ Puede personalizar fácilmente la experiencia del contenedor de formularios para
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/formcontainer_basictab.png)
 
+- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+
 - **Servicios de rellenado previo**: esta opción permite al usuario seleccionar un servicio de rellenado previo para recuperar datos cuando se procesa el formulario adaptable. Más información acerca de [cómo crear y configurar un servicio de rellenado previo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=es#aem-forms-custom-prefill-service).
 
 - **Categoría de biblioteca de cliente**: el usuario puede configurar la biblioteca JavaScript personalizada por formulario adaptable. Se recomienda mantener solo las funciones reutilizables en la biblioteca, que tienen dependencia de las bibliotecas de terceros jquery y underscore.js.
@@ -79,15 +81,15 @@ Puede utilizar el modelo de datos del formulario para conectar un formulario a u
 
 ### Pestaña Envío {#submission-tab}
 
-![Pestaña Envío](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
-
 Los usuarios pueden configurar distintas acciones para los envíos de formularios adaptables.
 
 - **Ruta/URL de redireccionamiento**: esta opción permite al usuario configurar una página para cada formulario, a la que se redirige a los usuarios después de enviar un formulario adaptable. Haga clic aquí para obtener más información sobre [configuración de páginas de redireccionamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-redirect-page.html?lang=es).
 
-![Pestaña Mostrar mensaje](/help/adaptive-forms/assets/formconatiner_showmessage.png)
+![Pestaña Envío](/help/adaptive-forms/assets/formcontainer_submissiontab.png)
 
 - **Mostrar mensaje**: esta opción permite a los usuarios agregar un mensaje que se muestra cuando el formulario adaptable se envía correctamente. El texto predefinido se incluye en el cuadro de diálogo y el usuario puede modificarlo. El cuadro de diálogo Mostrar mensaje admite herramientas de formato de texto enriquecido que permiten a los usuarios dar formato al texto agregado.
+
+![Pestaña Mostrar mensaje](/help/adaptive-forms/assets/formconatiner_showmessage.png)
 
 - **Acción de envío**: se activa una acción de envío cuando un usuario hace clic en el botón Enviar en un formulario adaptable. Los usuarios pueden seleccionar acciones de envío en la lista desplegable que se admiten de forma predeterminada. Obtenga información sobre cómo [configurar una acción de envío en la pestaña Envío](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/configure-submit-actions-and-metadata-submission/configuring-submit-actions.html?lang=es#supporting-custom-functions-in-validation-expressions-br).
 
@@ -149,6 +151,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

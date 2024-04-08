@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: botón de radio'
 description: Uso o personalización del componente principal de botón de radio de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
-source-wordcount: '1904'
-ht-degree: 100%
+source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+workflow-type: tm+mt
+source-wordcount: '1901'
+ht-degree: 97%
 
 ---
 
@@ -67,10 +67,24 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
 - **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.    
+    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+     
+     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-  En la pestaña **Opciones**, puede agregar valores de datos y mostrar pares de texto utilizando el botón **Agregar**. Una vez agregada una nueva opción, se pueden realizar las acciones siguientes:
+- **Opciones** - Puede añadir valores de datos y mostrar pares de texto mediante el **Añadir** botón.
+  <!-- You can also format the options for radiobutton group using **Allow Rich Text for Options**. 
+  
+     ![Rich text support for options](/help/adaptive-forms/assets/richtext-for-options.png)-->
+
+  <!-- Once you select the checkbox for **Allow Rich Text for Options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
+    
+    ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
+
+  Después de añadir una nueva opción, se pueden realizar las siguientes acciones:
 
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en un formulario adaptable.
@@ -83,7 +97,7 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
 
 - **Tipo de datos del valor enviado**: esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Valor de datos** en la pestaña **Opciones**, la pantalla muestra un mensaje de error `Value type mismatch`.
 
-- **Opciones predeterminadas**: esta opción le permite agregar valores predeterminados que están preseleccionados cuando se carga el formulario. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un mensaje de error `Value type mismatch`.
+- **Opción predeterminada** : Esta opción le permite añadir valores predeterminados que están preseleccionados, cuando se carga el formulario. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un mensaje de error `Value type mismatch`.
 
 - **Opciones de visualización**: esta opción se utiliza para definir la alineación visual de los botones de radio en un formulario adaptable. Las dos opciones compatibles son las siguientes:
    - **Horizontal**: cuando se selecciona esta opción, los botones de radio se muestran de izquierda a derecha en un formulario adaptable.
@@ -151,6 +165,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}
