@@ -3,8 +3,8 @@ title: 'Componente principal de formularios adaptables: título'
 description: Uso o personalización del componente principal de título de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 8388de05c86641d4887b48a9fd10901cb5a19998
-workflow-type: ht
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 
@@ -110,8 +110,9 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 ## Artículos relacionados {#related-articles}
 
+
 {{more-like-this}}
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

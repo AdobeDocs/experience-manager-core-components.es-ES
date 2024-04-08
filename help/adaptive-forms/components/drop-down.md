@@ -3,7 +3,7 @@ title: 'Componente principal de formularios adaptables: lista desplegable'
 description: Uso o personalización del componente principal de lista desplegable de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '2011'
 ht-degree: 98%
@@ -78,7 +78,6 @@ Puede personalizar fácilmente la experiencia de la lista desplegable para los v
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
 - **Permitir selección múltiple**: seleccione esta opción para seleccionar varias opciones en una lista desplegable.
-
 - **Guardar valor como**: esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si **Guardar valor como** está establecido en `Number` y se agregan datos de cadena a **Valor de datos** en la pestaña **Opciones**, la pantalla muestra el mensaje de error `Value type mismatch`.
 
   En la pestaña **Opciones**, puede agregar valores de datos y mostrar pares de texto utilizando el botón **Agregar**. Una vez agregada una nueva opción, se realizan las acciones siguientes:

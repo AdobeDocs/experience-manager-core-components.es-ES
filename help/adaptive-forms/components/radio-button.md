@@ -3,7 +3,7 @@ title: 'Componente principal de Formularios adaptables: botón de radio'
 description: Uso o personalización del componente principal de botón de radio de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: f1fce5f661bc7581f7c6c6905f34e9954d1d4f70
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
 workflow-type: tm+mt
 source-wordcount: '1901'
 ht-degree: 97%
@@ -72,7 +72,6 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
      
      ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
 
-
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
 - **Opciones** - Puede añadir valores de datos y mostrar pares de texto mediante el **Añadir** botón.
@@ -85,7 +84,6 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
     ![Rich text support for options](/help/adaptive-forms/assets/richtextoptions-support.png)-->
 
   Después de añadir una nueva opción, se pueden realizar las siguientes acciones:
-
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en un formulario adaptable.
    - **Eliminar**: pulse o haga clic para eliminar la opción de un botón de radio.

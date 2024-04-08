@@ -2,9 +2,9 @@
 title: 'Componente principal de formularios adaptables: Pestañas en la parte superior'
 description: Uso o personalización del componente principal de formularios adaptables Pestañas en la parte superior.
 role: Architect, Developer, Admin, User
-source-git-commit: 59cd9d65bf4c1be6ab2eaf15bbb747b532863fdd
-workflow-type: ht
-source-wordcount: '473'
+source-git-commit: e4274194026c3370b52be17171776847374a86b5
+workflow-type: tm+mt
+source-wordcount: '467'
 ht-degree: 100%
 
 ---
@@ -89,5 +89,6 @@ Puede personalizar fácilmente la experiencia de las pestañas en la parte super
 >* [Asistente](/help/adaptive-forms/components/wizard.md)
 
 ## Vea también {#see-also}
+
 
 {{see-also}}
