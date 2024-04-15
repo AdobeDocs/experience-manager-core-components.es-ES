@@ -3,14 +3,16 @@ title: 'Componente principal de formularios adaptables: pestañas verticales'
 description: Uso o personalización del componente principal de pestañas verticales de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1998'
-ht-degree: 100%
+source-wordcount: '2112'
+ht-degree: 94%
 
 ---
 
 # Componente Pestañas verticales{#vertical-tabs-adaptive-forms-core-component}
+
+<span class="preview"> Este artículo incluye contenido sobre **Permitir texto enriquecido en el título** función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestras [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Las pestañas verticales de un Formulario adaptable hacen referencia a un patrón de diseño en el que varias secciones de un formulario se agrupan conjuntamente y se muestran como pestañas independientes, alineadas horizontalmente. Se puede pasar de una pestaña a otra para acceder a diferentes secciones del formulario. Cada pestaña actúa como un activador para mostrar y ocultar el contenido del formulario relacionado. Las pestañas horizontales ayudan a organizar formularios largos en secciones manejables y mejoran la experiencia del usuario. Las pestañas pueden ayudar a que un formulario sea más accesible para las personas con discapacidades, ya que pueden cambiar entre secciones con la navegación mediante el teclado.
 
@@ -61,10 +63,10 @@ Puede personalizar fácilmente la experiencia de las pestañas verticales para l
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
 - **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Permitir texto enriquecido en el título** : Esta función permite a los usuarios dar formato a los títulos de texto sin formato, incorporando funciones como negrita, cursiva, texto subrayado, varias fuentes, tamaños de fuente, colores y opciones adicionales para mejorar la presentación visual y la personalización. Ofrece una mayor flexibilidad y control creativo para hacer que los títulos destaquen dentro de los documentos, sitios web o aplicaciones.\
+  Al seleccionar la casilla de verificación de **Permitir texto enriquecido en el título** , las opciones de formato se vuelven visibles para aplicar estilo al título del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png) pestaña.
+
+  ![Compatibilidad con texto enriquecido](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 

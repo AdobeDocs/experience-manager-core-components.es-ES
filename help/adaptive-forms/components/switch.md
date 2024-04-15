@@ -3,14 +3,16 @@ title: 'Componente principal de formularios adaptables: componente de cambio'
 description: Uso o personalización del componente principal de cambio de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 100%
+source-wordcount: '1867'
+ht-degree: 90%
 
 ---
 
 # Componente de cambio{#switch-adaptive-forms-core-component}
+
+<span class="preview"> Este artículo incluye contenido sobre **Permitir texto enriquecido en el título** y **Permitir texto enriquecido en las opciones**  funciones, funciones previas al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestras [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 El componente de cambio es una interfaz gráfica de usuario que se utiliza en formularios y permite que los usuarios elijan entre dos opciones. Normalmente, alterna entre dos estados y permite que los usuarios los escojan, por lo que se habilita o deshabilita una característica, configuración o funcionalidad. El componente de cambio está diseñado para representar visualmente el estado actual y mostrar si una funcionalidad en particular está activada o desactivada.
 
@@ -57,10 +59,10 @@ Puede personalizar fácilmente la experiencia del componente de cambio para los 
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
 - **Título**: con este puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, el componente no se muestra.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Permitir texto enriquecido en el título** : Esta función permite a los usuarios dar formato a los títulos de texto sin formato, incorporando funciones como negrita, cursiva, texto subrayado, varias fuentes, tamaños de fuente, colores y opciones adicionales para mejorar la presentación visual y la personalización. Ofrece una mayor flexibilidad y control creativo para hacer que los títulos destaquen dentro de los documentos, sitios web o aplicaciones.\
+  Al seleccionar la casilla de verificación de **Permitir texto enriquecido en el título** , las opciones de formato se vuelven visibles para aplicar estilo al título del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png) pestaña.
+
+  ![Compatibilidad con texto enriquecido](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
@@ -71,13 +73,13 @@ Puede personalizar fácilmente la experiencia del componente de cambio para los 
    - **Opción Valor de datos desactivada**: especifique el valor que se enviará cuando el componente de cambio no esté habilitado en un formulario adaptable. Esta opción solo está visible si el componente de cambio **Conservar valor del estado Desmarcar** está habilitado.
    - **Opción Mostrar texto desactivada**: especifique el texto que se mostrará como etiqueta cuando el componente de cambio no esté habilitado en un formulario adaptable. Esta opción solo está visible si el componente de cambio **Conservar valor del estado Desmarcar** está habilitado.
 
-<!-- You can also format the options for switch using **Allow Rich Text for Options**. 
-  
-     ![Rich text support for options](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+  También puede dar formato a las opciones del componente de conmutador mediante **Permitir texto enriquecido en las opciones**.
 
-    Once you select the checkbox for **Allow Rich Text for options** formatting options become visible to style the component's options. To access all available formatting options, you can click on the `Fullscreen` ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-    
-    ![Rich text support for options](/help/adaptive-forms/assets/switch-richtext-for-display.png) -->
+  ![Compatibilidad con texto enriquecido para opciones](/help/adaptive-forms/assets/switch-optipn-rich-text.png)
+
+  Una vez seleccionada la casilla de verificación de **Permitir texto enriquecido para las opciones** las opciones de formato se vuelven visibles para aplicar estilo a las opciones del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en `Fullscreen` ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png) pestaña.
+
+  ![Compatibilidad con texto enriquecido para opciones](/help/adaptive-forms/assets/switch-richtext-for-display.png)
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.

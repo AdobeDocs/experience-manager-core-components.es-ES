@@ -3,14 +3,16 @@ title: 'Componente principal de formularios adaptables: adjuntar archivos'
 description: Uso o personalización del componente principal para adjuntar archivos de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 97%
+source-wordcount: '1851'
+ht-degree: 91%
 
 ---
 
 # Adjuntar archivos {#file-attachment-adaptive-forms-core-component}
+
+<span class="preview"> Este artículo incluye contenido sobre **Permitir texto enriquecido en el título** función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestras [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 El componente para adjuntar archivos de un Formulario adaptable permite a los usuarios seleccionar y cargar archivos desde su equipo o dispositivo local. El componente para adjuntar archivos se puede configurar para permitir tipos y límites de archivo de tamaño específicos y varios adjuntos de archivos.
 
@@ -62,10 +64,10 @@ Puede personalizar fácilmente la experiencia de archivo adjunto para los visita
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
 - **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
-<!-- **Allow Rich Text for Title** - This features enables users to format plain text titles, incorporating features like bold, italic, underlined text, various fonts, font sizes, colors, and additional option to enhance visual presentation and customization. It offers greater flexibility and creative control in making titles stand out within documents, websites, or applications.  
-    Upon selecting the checkbox for **Allow Rich Text for Title** , formatting options become visible to style the component's title. To access all available formatting options, you can click on the ![Fullscreen icon](/help/adaptive-forms/assets/fullscreen-icon.png) tab.
-     
-     ![Rich text support](/help/adaptive-forms/assets/richtext-support-title.png)-->
+- **Permitir texto enriquecido en el título** : Esta función permite a los usuarios dar formato a los títulos de texto sin formato, incorporando funciones como negrita, cursiva, texto subrayado, varias fuentes, tamaños de fuente, colores y opciones adicionales para mejorar la presentación visual y la personalización. Ofrece una mayor flexibilidad y control creativo para hacer que los títulos destaquen dentro de los documentos, sitios web o aplicaciones.\
+  Al seleccionar la casilla de verificación de **Permitir texto enriquecido en el título** , las opciones de formato se vuelven visibles para aplicar estilo al título del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png) pestaña.
+
+  ![Compatibilidad con texto enriquecido](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
@@ -77,7 +79,7 @@ Puede personalizar fácilmente la experiencia de archivo adjunto para los visita
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Permitir varios archivos adjuntos**: seleccione esta opción para cargar varios archivos adjuntos con el botón **Archivo adjunto**.
-- **Arrastrar y soltar texto** - Es el texto que se muestra en la parte superior del **Adjuntar** para pedir a los usuarios que adjunten o arrastren y suelten archivos. Tiene la opción de personalizar el texto que se muestra en la parte superior del **Adjuntar** botón. <!-- Additionally, you can format the text using the rich text menu. -->
+- **Arrastrar y soltar texto** - Es el texto que se muestra en la parte superior del **Adjuntar** para pedir a los usuarios que adjunten o arrastren y suelten archivos. Tiene la opción de personalizar el texto que se muestra en la parte superior del **Adjuntar** botón. Además, puede dar formato al texto mediante el menú de texto enriquecido.
 
 ### Pestaña Validación {#validation-tab}
 
