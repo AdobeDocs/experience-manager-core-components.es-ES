@@ -3,7 +3,7 @@ title: Versiones de los componentes principales de formularios adaptables de AEM
 description: Los componentes principales de AEM se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
-source-git-commit: 5ddb234ee5551fa3ecd47b4df073b97bef9a882f
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 55%
@@ -20,6 +20,7 @@ Identifique las versiones precisas de los componentes principales de Formularios
 AEM Las versiones de componentes principales compatibles con los componentes as a Cloud Service están disponibles en [GitHub junto con detalles completos de sus versiones](https://github.com/adobe/aem-core-forms-components/releases).
 
 AEM as a Cloud Service Para ver el historial de versiones de los componentes principales para su, haga lo siguiente: [haga clic aquí](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+
 
 <!--
 | Forms Core Components | WCM Core Components | AEM Forms as a cloud service | Java  | Maven  |  

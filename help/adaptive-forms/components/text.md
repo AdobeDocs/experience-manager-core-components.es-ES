@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: texto'
 description: Uso o personalización del componente principal de texto de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 100%
+source-wordcount: '995'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ Esto también puede ayudar a dividir la estructura de un formulario en secciones
 
 **Ejemplo**
 
-![ejemplo](/help/adaptive-forms/assets/text.png)
+![ejemplo de texto](/help/adaptive-forms/assets/text.png)
 
 ## Uso {#reasons-to-use-text-label}
 

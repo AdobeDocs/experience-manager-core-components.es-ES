@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 1e413ef3-7a6f-41fc-825d-dbe09ebaffe9
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '869'
 ht-degree: 100%
@@ -33,6 +33,7 @@ AEM Forms as a Cloud Service es compatible con Google reCAPTCHA v2 en los formul
 ## Versión y compatibilidad {#version-and-compatibility}
 
 El componente principal de reCAPTCHA de Google para formularios adaptables se publicó en agosto de 2023 como parte de la “versión” de los componentes principales. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+
 
 |  |  |
 |---|---|

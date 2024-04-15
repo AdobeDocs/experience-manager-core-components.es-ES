@@ -3,7 +3,7 @@ title: 'Componente principal de Formularios adaptables: asistente'
 description: Uso o personalización del componente principal del asistente de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2100'
 ht-degree: 99%
@@ -20,7 +20,6 @@ El diseño de asistente resulta útil para los formularios que tienen muchos cam
 
 Sin embargo, también puede aumentar la complejidad del formulario, ya que el usuario tiene que pasar por varias páginas para completar el formulario. Por lo tanto, es necesario evaluar el requisito de formulario y las necesidades del usuario antes de decidir utilizar un diseño de asistente.
 Puede utilizar el componente principal de diseño de asistente en un formulario adaptable para crear el diseño del asistente.
-
 
 **Ejemplo**
 

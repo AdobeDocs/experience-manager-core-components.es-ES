@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: grupo de casillas de ver
 description: Uso o personalización del componente principal del grupo de casillas de verificación de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 90%
+ht-degree: 88%
 
 ---
 
@@ -14,8 +14,7 @@ ht-degree: 90%
 
 <span class="preview"> Este artículo incluye contenido sobre **Permitir texto enriquecido en el título** y **Permitir texto enriquecido en las opciones**  funciones, funciones previas al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestras [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
-Un grupo de casillas de verificación de un formulario adaptable es un conjunto de casillas de verificación relacionadas que permiten a los usuarios seleccionar una o más opciones de una lista. Cada casilla de verificación está representada por un valor de datos (valor utilizado para procesar elementos de un grupo de casillas de verificación) y un valor de visualización (etiqueta para cada elemento de casilla de verificación que describe su propósito).
-
+Un grupo de casillas de verificación de un formulario adaptable es un conjunto de casillas de verificación relacionadas que permiten a los usuarios seleccionar una o más opciones de una lista. Cada casilla de verificación está representada por un Valor de datos (valor utilizado para procesar elementos de un grupo de casillas de verificación) y un Valor de visualización (etiqueta para cada elemento de casilla de verificación que describe su propósito)
 **Ejemplo**
 
 ![ejemplo de grupo de casillas](/help/adaptive-forms/assets/checkbox-group.png)

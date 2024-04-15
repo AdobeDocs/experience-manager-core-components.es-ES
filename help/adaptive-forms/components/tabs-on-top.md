@@ -2,21 +2,20 @@
 title: 'Componente principal de formularios adaptables: Pestañas en la parte superior'
 description: Uso o personalización del componente principal de formularios adaptables Pestañas en la parte superior.
 role: Architect, Developer, Admin, User
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 100%
+source-wordcount: '470'
+ht-degree: 93%
 
 ---
 
 
 # Pestañas en la parte superior {#tabs-on-top-adaptive-forms-core-component}
 
-Un diseño de pestañas en la parte superior de un formulario adaptable es una forma de organizar y agrupar los campos y secciones relacionados de un formulario en pestañas independientes. Cada pestaña se representa mediante una etiqueta de pestaña, normalmente ubicada en la parte superior del formulario, y contiene un conjunto específico de campos y secciones de formulario. Este diseño permite a los usuarios desplazarse fácilmente por las diferentes secciones del formulario y acceder a ellas, lo que lo hace más fácil de usar y menos abrumador. Se suele utilizar cuando el formulario contiene muchos campos y secciones y es necesario dividirlos en partes más pequeñas y manejables. Las pestañas también pueden ayudar a mejorar la accesibilidad al permitir navegar por el formulario mediante métodos abreviados de teclado, lo que facilita el acceso a usuarios con discapacidad.
-
+Un diseño de pestañas en la parte superior de un formulario adaptable es una forma de organizar y agrupar los campos y secciones relacionados de un formulario en pestañas independientes. Cada pestaña se representa mediante una etiqueta de pestaña, normalmente ubicada en la parte superior del formulario, y contiene un conjunto específico de campos y secciones de formulario. Este diseño permite a los usuarios desplazarse fácilmente por las diferentes secciones del formulario y acceder a ellas, lo que lo hace más fácil de usar y menos abrumador. Se suele utilizar cuando el formulario contiene muchos campos y secciones y es necesario dividirlos en partes más pequeñas y manejables. Las pestañas también pueden ayudar a mejorar la accesibilidad, ya que permiten a los usuarios navegar por el formulario mediante métodos abreviados del teclado, lo que facilita a los usuarios con discapacidad el acceso al formulario.
 **Ejemplo**
 
-![](/help/adaptive-forms/assets/tabs.png)
+![pestañas arriba](/help/adaptive-forms/assets/tabs.png)
 
 ## Uso {#reasons-to-use-tab-on-the-top-layout}
 

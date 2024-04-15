@@ -3,7 +3,7 @@ title: 'Componente principal de formularios adaptables: lista desplegable'
 description: Uso o personalización del componente principal de lista desplegable de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 79b99d4f6b5a2b186ff3dbf570a58dc86bf24d4a
+source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
@@ -32,7 +32,6 @@ Existen varias razones por las que resulta beneficioso incluir una lista despleg
 - **Experiencia del usuario**: las listas desplegables pueden utilizarse para que el formulario sea más fácil de usar, ya que ofrecen una forma clara e intuitiva para que los usuarios seleccionen las opciones.
 
 - **Análisis de datos**: las listas desplegables pueden utilizarse para recopilar datos de varias fuentes y analizarlos, o bien para utilizarlos como entrada para un procesamiento posterior.
-
 
 **Cuadro de diálogo Propiedades**
 
