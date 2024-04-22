@@ -6,7 +6,7 @@ exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1851'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -78,7 +78,7 @@ Puede personalizar fácilmente la experiencia de archivo adjunto para los visita
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Permitir varios archivos adjuntos**: seleccione esta opción para cargar varios archivos adjuntos con el botón **Archivo adjunto**.
-- **Arrastrar y soltar texto** - Es el texto que se muestra en la parte superior del **Adjuntar** para pedir a los usuarios que adjunten o arrastren y suelten archivos. Tiene la opción de personalizar el texto que se muestra en la parte superior del **Adjuntar** botón. Además, puede dar formato al texto mediante el menú de texto enriquecido.
+- **Arrastrar y soltar texto**: es el texto que se muestra en la parte superior del botón **Adjuntar** para pedir a los usuarios que adjunten o arrastren y suelten archivos. Tiene la opción de personalizar el texto que se muestra en la parte superior del **Adjuntar** botón. Además, puede dar formato al texto mediante el menú de texto enriquecido.
 
 ### Pestaña Validación {#validation-tab}
 

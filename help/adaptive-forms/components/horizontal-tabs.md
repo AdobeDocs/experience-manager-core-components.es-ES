@@ -6,7 +6,7 @@ exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2093'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -108,7 +108,7 @@ Puede personalizar fácilmente la experiencia de las pestañas horizontales para
 
 Puede utilizar las opciones de repetibilidad para duplicar el componente Pestañas horizontales y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario. Al interactuar con el componente Pestañas horizontales y acceder a su configuración, se presentan las siguientes opciones:
 
-- **Hacer que las pestañas de la parte superior sean repetibles**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
+- **Hacer repetibles las pestañas en la parte superior**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
 - **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente pestañas horizontales. Un valor de cero indica que el componente de pestañas horizontales no se repite; el valor predeterminado es cero.
 - **Máximo de repeticiones**: establece el número máximo de veces que se puede repetir el componente pestañas horizontales. De forma predeterminada, este valor es ilimitado.
 Para administrar de forma eficaz las secciones repetibles dentro de las pestañas horizontales, siga los pasos que se proporcionan en el artículo [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).

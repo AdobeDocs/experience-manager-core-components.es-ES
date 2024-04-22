@@ -6,7 +6,7 @@ exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '1780'
-ht-degree: 91%
+ht-degree: 93%
 
 ---
 
@@ -82,7 +82,7 @@ Puede personalizar fácilmente la experiencia de las Casillas de verificación p
 - **Deshabilitar componente**: seleccione la opción para desactivar o bloquear el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
   <!-- - **Read-only** - Select the option to make the component non-editable. The user can see the value of the field but cannot modify it. The component remains accessible for other purposes, such as using it for calculations in the Rule Editor.-->
 - **Cuando se selecciona, se devuelve el valor**: seleccione esta opción para especificar qué valor debe asociarse a la casilla de verificación cuando está activada o seleccionada. Es la acción que se produce cuando un usuario marca o usted marca la casilla de verificación.
-- **Conservar valor de estado de desactivación**: seleccione esta opción para especificar el valor que se devolverá cuando el componente Casilla de verificación no esté seleccionado. If **Conservar valor de estado de desactivación** está activada o configurada como verdadera, **Cuando no está marcada, devuelve un valor** aparece la opción.
+- **Conservar valor del estado Desmarcar**: al seleccionar esta opción, puede especificar el valor que se devolverá cuando el componente de la casilla de verificación no esté seleccionado. Si **Conservar valor de estado de desactivación** está activada o configurada como verdadera, aparece la opción **Cuando no está marcada, devuelve un valor**.
 - **Cuando no está marcada, devuelve un valor**: la opción le permite especificar qué valor debe asociarse con la casilla de verificación cuando está en un estado sin marcar o sin seleccionar.
 
 - **Valor predeterminado**: esta opción permite añadir un valor predeterminado en un campo de formulario. Si se selecciona **Componente desactivado** o **Componente de solo lectura**, aparece en pantalla el valor predeterminado. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento de envío del formulario.

@@ -6,7 +6,7 @@ exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2125'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -87,11 +87,11 @@ Puede personalizar fácilmente la experiencia de la lista desplegable para los v
    - **Eliminar**: pulse o haga clic para eliminar la opción de un menú desplegable.
    - **Reorganizar**: pulse o haga clic y arrastre para reorganizar el orden de la opción de un menú desplegable.
 
-- **Opción predeterminada** : Esta opción le permite añadir valores predeterminados. Utilice el icono eliminar para eliminar la opción agregada. Si **Guardar valor como** está establecido en `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un mensaje de error `Value type mismatch`.
+- **Opción predeterminada**: esta opción le permite añadir valores predeterminados. Utilice el icono eliminar para eliminar la opción agregada. Si **Guardar valor como** está establecido en `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un mensaje de error `Value type mismatch`.
 
 - **Texto del marcador de posición**: el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
 
-- **Opciones** - Puede añadir valores de datos y mostrar pares de texto mediante el **Añadir** botón.  Después de añadir una nueva opción, se pueden realizar las siguientes acciones:
+- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**. Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
    - **Eliminar**: pulse o haga clic para eliminar la opción de una casilla de verificación.

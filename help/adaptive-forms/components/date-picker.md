@@ -6,7 +6,7 @@ exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2094'
-ht-degree: 92%
+ht-degree: 94%
 
 ---
 
@@ -96,13 +96,13 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 - **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la fecha especificada en Fecha mínima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
 
 - **Mensaje de error mínimo**: el cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha anterior a la fecha especificada en la opción **Fecha mínima**.
-- **Excluir fecha mínima** : Esta opción permite omitir la fecha mínima en un intervalo o conjunto de fechas determinados.
+- **Excluir fecha mínima**: esta opción permite omitir la fecha mínima en un intervalo o conjunto de fechas determinados.
 
 - **Fecha máxima**: esta opción permite introducir la fecha máxima requerida. Si introduce una fecha posterior a la fecha especificada en Fecha máxima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado.
 
 - **Mensaje de error máximo**: el cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha posterior a la fecha especificada en la opción **Fecha máxima**.
 
-- **Excluir fecha máxima** : Esta opción permite omitir la fecha máxima en un intervalo o conjunto de fechas determinados.
+- **Excluir fecha máxima**: esta opción permite omitir la fecha máxima en un intervalo o conjunto de fechas determinados.
 
 ### Pestaña Contenido de ayuda {#help-content-tab}
 

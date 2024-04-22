@@ -108,7 +108,7 @@ Puede personalizar fácilmente la experiencia del contenedor del panel para los 
 
 Puede utilizar las opciones de repetibilidad para duplicar el contenedor de panel y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario. Al interactuar con el componente contenedor de panel y acceder a su configuración, se presentan las siguientes opciones:
 
-- **Hacer panel repetible**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
+- **Hacer repetible el panel**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
 - **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el contenedor de panel. El valor cero indica que el panel Asistente no se repite; el valor predeterminado es cero.
 - **Máximo de repeticiones**: define el número máximo de veces que se puede repetir el contenedor de panel. De forma predeterminada, este valor es ilimitado.
 

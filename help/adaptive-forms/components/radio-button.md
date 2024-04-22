@@ -6,7 +6,7 @@ exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2079'
-ht-degree: 88%
+ht-degree: 90%
 
 ---
 
@@ -76,8 +76,8 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Opciones** - Puede añadir valores de datos y mostrar pares de texto mediante el **Añadir** botón.\
-  Después de añadir una nueva opción, se pueden realizar las siguientes acciones:
+- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**. \
+  Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en un formulario adaptable.
    - **Eliminar**: pulse o haga clic para eliminar la opción de un botón de radio.
@@ -96,7 +96,7 @@ También puede dar formato a las opciones del grupo de botones de opción median
 
 - **Tipo de datos del valor enviado**: esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Valor de datos** en la pestaña **Opciones**, la pantalla muestra un mensaje de error `Value type mismatch`.
 
-- **Opción predeterminada** : Esta opción le permite añadir valores predeterminados que están preseleccionados, cuando se carga el formulario. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un mensaje de error `Value type mismatch`.
+- **Opciones predeterminadas**: esta opción le permite añadir valores predeterminados que están preseleccionados cuando se carga el formulario. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un mensaje de error `Value type mismatch`.
 
 - **Opciones de visualización**: esta opción se utiliza para definir la alineación visual de los botones de radio en un formulario adaptable. Las dos opciones compatibles son las siguientes:
    - **Horizontal**: cuando se selecciona esta opción, los botones de radio se muestran de izquierda a derecha en un formulario adaptable.

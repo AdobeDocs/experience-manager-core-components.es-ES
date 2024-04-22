@@ -6,7 +6,7 @@ exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
 workflow-type: tm+mt
 source-wordcount: '2047'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -83,8 +83,8 @@ Puede personalizar fácilmente la experiencia de las casillas de verificación p
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Opciones** - Puede añadir valores de datos y mostrar pares de texto mediante el **Añadir** botón.\
-  Después de añadir una nueva opción, se pueden realizar las siguientes acciones:
+- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**. \
+  Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
    - **Eliminar**: pulse o haga clic para eliminar la opción de una casilla de verificación.
