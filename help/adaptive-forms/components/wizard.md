@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal del asistente de Fo
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2100'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Cada paso del asistente suele contener un grupo de campos de formulario relacion
 
 El diseño de asistente resulta útil para los formularios que tienen muchos campos o información que se deben recopilar, ya que desglosa el formulario en fragmentos más pequeños y manejables. También ayuda a los usuarios a centrarse en un conjunto de campos a la vez, lo que puede hacer que el proceso de rellenado de formularios sea menos engorroso.
 
-Sin embargo, también puede aumentar la complejidad del formulario, ya que el usuario tiene que pasar por varias páginas para completar el formulario. Por lo tanto, es necesario evaluar el requisito de formulario y las necesidades del usuario antes de decidir utilizar un diseño de asistente.
+Sin embargo, también puede aumentar la complejidad del formulario, ya que el usuario tiene que pasar por varias páginas para completar el formulario. Por lo tanto, es necesario evaluar el requisito del formulario y las necesidades del usuario antes de decidir utilizar un diseño de asistente.
 Puede utilizar el componente principal de diseño de asistente en un formulario adaptable para crear el diseño del asistente.
 
 **Ejemplo**

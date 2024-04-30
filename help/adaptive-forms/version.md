@@ -4,9 +4,9 @@ description: Los componentes principales de AEM se publican como versiones que p
 role: Architect, Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '192'
-ht-degree: 55%
+ht-degree: 100%
 
 ---
 
@@ -17,9 +17,9 @@ Identifique las versiones precisas de los componentes principales de Formularios
 
 ## Historial de versiones de AEM Forms as Cloud Service {#aem-as-cs-version-history}
 
-AEM Las versiones de componentes principales compatibles con los componentes as a Cloud Service están disponibles en [GitHub junto con detalles completos de sus versiones](https://github.com/adobe/aem-core-forms-components/releases).
+Las versiones de los componentes principales que son compatibles con AEM as a Cloud Service están disponibles en [GitHub, junto con los detalles completos de sus versiones](https://github.com/adobe/aem-core-forms-components/releases).
 
-AEM as a Cloud Service Para ver el historial de versiones de los componentes principales para su, haga lo siguiente: [haga clic aquí](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
+Para ver el historial de las versiones de los componentes principales de AEM as a Cloud Service: [haga clic aquí](https://github.com/adobe/aem-core-forms-components/blob/master/VERSIONS.md).
 
 
 <!--
@@ -117,9 +117,9 @@ AEM as a Cloud Service Para ver el historial de versiones de los componentes pri
 
 ## Historial de versiones de AEM 6.5 Forms {#aem-as-form-version-history}
 
-AEM Las versiones de componentes principales que son compatibles con el formulario local de 6.5 y con AMS, que están disponibles en [GitHub junto con detalles completos de sus versiones](https://github.com/adobe/aem-core-forms-components/releases).
+Las versiones de los componentes principales que son compatibles con AEM 6.5 Forms On-Premise y AMS que están disponibles en [GitHub, junto con los detalles completos de sus versiones](https://github.com/adobe/aem-core-forms-components/releases).
 
-AEM Para ver el historial de versiones de los componentes principales para el formulario de 6.5 local y AMS, [haga clic aquí](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
+Para ver el historial de las versiones de los componentes principales para AEM 6.5 Forms On-Premise y AMS, [haga clic aquí](https://github.com/adobe/aem-core-forms-components/blob/release/650/VERSIONS.md).
 
 <!--
 | Forms Core Components | WCM Core Components | AEM 6.5 | Java  | Maven  |  

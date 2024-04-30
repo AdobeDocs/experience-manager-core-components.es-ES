@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de texto de formula
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '995'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
