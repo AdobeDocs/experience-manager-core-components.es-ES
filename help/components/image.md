@@ -3,9 +3,9 @@ title: Componente Imagen
 description: El componente principal Imagen es un componente de imagen adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: a10c98aecf6d3c0d989f2e3c18affc51850f60bc
+source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
 workflow-type: ht
-source-wordcount: '2061'
+source-wordcount: '1970'
 ht-degree: 100%
 
 ---
@@ -138,20 +138,6 @@ El editor in situ también se puede utilizar para modificar la imagen. Debido a 
 ### Edición de recursos Dynamic Media {#dynamic-media-assets}
 
 Si tiene las [Funciones de Dynamic Media habilitadas,](#dynamic-media) la edición de la propia imagen debe realizarse en la consola recursos.
-
-### Edición de recursos Dynamic Media de próxima generación {#next-gen-dm-assets}
-
-Si tiene [Dynamic Media de próxima generación configurado,](#next-gen-dm) la opción **Recorte inteligente** está disponible en los menús contextuales del componente.
-
-![Recorte inteligente](/help/assets/image-smart-crop.png)
-
-Utilice el cuadro de diálogo para ajustar el recorte inteligente.
-
-![Cuadro de diálogo Recorte inteligente](/help/assets/image-smart-crop-dialog.png)
-
->[!TIP]
->
->Para obtener más información sobre el recorte inteligente, [este vídeo trata sobre esta función.](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/smart-crop-feature-video-use.html?lang=es)
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
