@@ -3,10 +3,10 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '3044'
-ht-degree: 100%
+source-git-commit: f86340f87706d5803ec58a9034ac6a15027e0e0c
+workflow-type: tm+mt
+source-wordcount: '3041'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,11 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
+| [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Esta versión agrega compatibilidad con cultivos inteligentes con nombre en Dynamic Media, incluye mejoras de rendimiento y accesibilidad y varias correcciones de errores. | - | 6.5.21.0+ | Continua | 8, 11 | 2 de mayo de 2024 |
+| [2.24.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.6) | Esta versión del parche incluye mejoras para la inicialización de la capa de datos. | - | 6.5.21.0+ | Continua | 8, 11 | 22 de abril de 2024 |
+| [2.24.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.4) | Esta versión del parche corrige una inicialización de Sling Model. | - | 6.5.21.0+ | Continua | 8, 11 | 1 de abril de 2024 |
+| [2.24.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.2) | Esta versión del parche mejora la estabilidad de las pruebas de integración. | - | 6.5.21.0+ | Continua | 8, 11 | 22 de febrero de 2024 |
+| [2.24.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.24.0) | Esta versión añade compatibilidad con la capa de datos del Administrador de etiquetas de Google e incluye varias correcciones de errores. | - | 6.5.21.0+ | Continua | 8, 11 | 14 de febrero de 2024 |
 | [2.23.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.4) | Esta versión del parche incluye varias correcciones de errores. | - | 6.5.17.0+ | Continua | 8, 11 | 15 de septiembre de 2023 |
 | [2.23.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.2) | Este parche ha añadido el recorte inteligente de Dynamic Media para recursos remotos a [Imagen](/help/components/image.md) y [Componentes de teaser](/help/components/teaser.md) y corrigió una serie de errores. | - | 6.5.17.0+ | Continua | 8, 11 | 4 de agosto de 2023 |
 | [2.23.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.23.0) | Esta versión añadió compatibilidad con [Recursos remotos de Dynamic Media de próxima generación.](/help/developing/next-gen-dm.md) | - | 6.5.17.0+ | Continua | 8, 11 | 6 de junio de 2023 |
@@ -101,7 +106,7 @@ En la siguiente tabla se detallan las versiones de qué componentes se incluyen 
 | **[Página](components/page.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
 | **[Título](components/title.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
 | **[Imagen](components/image.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
-| **[Lista](components/list.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3, Versión 4 |
+| **[Lista](components/list.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | v1, v2, v3, v4 |
 | **[Ruta de navegación](components/breadcrumb.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 | Versiones 1, 2 y 3 |
 | **[Compartir en medios sociales](components/sharing.md)** | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 | Versión 1 obsoleta | Versión 1 obsoleta | Versión 1 obsoleta | Versión 1 obsoleta |
 | **[Contenedor del formulario](components/forms/form-container.md)** | Versión 1 | Versión 1 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 | Versión 1, versión 2 |
