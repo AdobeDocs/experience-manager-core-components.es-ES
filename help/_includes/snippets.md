@@ -1,8 +1,8 @@
 ---
-source-git-commit: 97da426e5c57f00d83d11560d1fa4e8f9ed00feb
-workflow-type: ht
-source-wordcount: '212'
-ht-degree: 100%
+source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
+workflow-type: tm+mt
+source-wordcount: '211'
+ht-degree: 99%
 
 ---
 # Fragmentos de código {#snippets}
@@ -61,24 +61,23 @@ ht-degree: 100%
 - [Grupo de casillas de verificación](/help/adaptive-forms/components/checkbox-group.md)
 - [Casilla de verificación](/help/adaptive-forms/components/checkbox.md)
 - [Selector de fecha](/help/adaptive-forms/components/date-picker.md)
-- [Lista desplegable](/help/adaptive-forms/components/drop-down.md)
+- [Lista desplegable](/help/adaptive-forms/components/drop-down-list.md)
 - [Entrada de correo electrónico](/help/adaptive-forms/components/email-input.md)
 - [Contenedor del formulario](/help/adaptive-forms/components/form-container.md)
 - [Archivo adjunto](/help/adaptive-forms/components/file-attachment.md)
-- [Fragmento de formulario](/help/adaptive-forms/components/form-fragment.md)
+- [Fragmentos de formulario adaptable](/help/adaptive-forms/components/adaptive-form-fragment.md)
 - [Pie de página](/help/adaptive-forms/components/footer.md)
 - [Encabezado](/help/adaptive-forms/components/header.md)
 - [Imagen](/help/adaptive-forms/components/image.md)
-- [Entrada de número](/help/adaptive-forms/components/number-input.md)
-- [Contenedor de panel](/help/adaptive-forms/components/panel-container.md)
+- [Cuadro numérico](/help/adaptive-forms/components/numeric-box.md)
+- [Panel](/help/adaptive-forms/components/panel.md)
 - [Pestaña horizontal](/help/adaptive-forms/components/horizontal-tabs.md)
 - [Pestaña vertical](/help/adaptive-forms/components/vertical-tabs.md)
 - [Botón de opción](/help/adaptive-forms/components/radio-button.md)
 - [Botón Restablecer](/help/adaptive-forms/components/reset-button.md)
 - [Botón Enviar](/help/adaptive-forms/components/submit-button.md)
-- [Interruptor](/help/adaptive-forms/components/switch.md)
 - [Entrada de teléfono](/help/adaptive-forms/components/telephone-input.md)
-- [Entrada de texto](/help/adaptive-forms/components/text-input.md)
+- [Cuadro de texto](/help/adaptive-forms/components/text-box.md)
 - [Texto](/help/adaptive-forms/components/text.md)
 - [Título](/help/adaptive-forms/components/title.md)
 - [Pestaña Términos y condiciones](/help/adaptive-forms/components/terms-and-conditions.md)
