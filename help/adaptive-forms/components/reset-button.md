@@ -3,16 +3,16 @@ title: 'Componente principal de formularios adaptables: botón Restablecer'
 description: Uso o personalización del componente principal de botón Restablecer de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: e5aa9d89-aece-491e-80a1-7fb9ea6c4b60
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '1489'
-ht-degree: 100%
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '1491'
+ht-degree: 98%
 
 ---
 
-# Restablecer {#reset-button}
+# Componente Botón Restablecer {#reset-button}
 
-<span class="preview"> Este artículo incluye contenido sobre la función de **Permitir texto enriquecido en el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 El botón Restablecer de un formulario adaptable permite a los usuarios borrar o restablecer todos los campos del formulario a sus valores predeterminados. Cuando se hace clic en el botón Restablecer, se eliminan todos los datos introducidos en los campos del formulario y estos vuelven a su estado original. El botón Restablecer se utiliza normalmente como alternativa al botón de envío y proporciona una forma para que los usuarios vuelvan a empezar si han escrito datos incorrectos o no deseados en el formulario.
 

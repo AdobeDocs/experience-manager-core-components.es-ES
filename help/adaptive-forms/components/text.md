@@ -3,14 +3,14 @@ title: 'Componente principal de formularios adaptables: texto'
 description: Uso o personalización del componente principal de texto de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '995'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '996'
 ht-degree: 100%
 
 ---
 
-# Texto {#text-adaptive-forms-core-component}
+# Componente Texto {#text-adaptive-forms-core-component}
 
 En un formulario adaptable, el texto hace referencia al contenido que se muestra en el formulario para que el usuario lo lea. Esto puede incluir el texto que se utiliza para etiquetar un grupo de elementos de formulario, como los campos de texto, así como cualquier instrucción o información adicional que se proporcione al usuario.
 

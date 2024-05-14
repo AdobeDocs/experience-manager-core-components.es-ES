@@ -3,14 +3,14 @@ title: 'Componente principal de formularios adaptables: título'
 description: Uso o personalización del componente principal de título de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '863'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '864'
 ht-degree: 100%
 
 ---
 
-# Título {#title-input-adaptive-forms-core-component}
+# Componente Título{#title-input-adaptive-forms-core-component}
 
 En un formulario adaptable, un “título” hace referencia al texto que aparece en la parte superior del formulario, normalmente debajo del encabezado. El título se especifica mediante el componente de título. Este componente puede añadirse al diseño del formulario y su texto puede editarse para que coincida con el propósito o el tema del formulario. El título sirve como etiqueta o descripción breve del formulario para el usuario y ayuda a distinguirlo de otros.
 

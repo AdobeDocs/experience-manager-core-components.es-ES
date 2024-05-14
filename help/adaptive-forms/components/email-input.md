@@ -3,16 +3,16 @@ title: 'Componente principal de Formularios adaptables: entrada de correo electr
 description: Uso o personalización del componente principal de entrada de correo electrónico de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '2054'
-ht-degree: 100%
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '2055'
+ht-degree: 99%
 
 ---
 
-# Entrada de correo electrónico {#Email-input-adaptive-forms-core-component}
+# Componente de entrada de correo electrónico {#Email-input-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo incluye contenido sobre la función de **Permitir texto enriquecido en el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 El componente principal de entrada de correo electrónico de Formulario adaptable se utiliza para recopilar direcciones de correo electrónico de los usuarios. El campo de entrada de correo electrónico permite al explorador validar que los datos introducidos tienen un formato de dirección de correo electrónico válida. Se suele representar como un cuadro de texto y tiene validaciones de patrones para aceptar solo direcciones de correo electrónico válidas. El campo de entrada de correo electrónico se puede personalizar aún más con atributos adicionales como “obligatorio”, “marcador de posición” y “patrón” para establecer las validaciones de los datos de entrada.
 

@@ -3,16 +3,16 @@ title: 'Componente principal de formularios adaptables: grupo de casillas de ver
 description: Uso o personalización del componente principal del grupo de casillas de verificación de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '2047'
-ht-degree: 100%
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '2048'
+ht-degree: 98%
 
 ---
 
-# Grupo de casillas de verificación {#button-component-adaptive-forms-core-component}
+# Componente de grupo de casilla {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo incluye contenido sobre las funciones **Permitir texto enriquecido en el título** y **Permitir texto enriquecido en las opciones**, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  y  **Permitir texto enriquecido en las opciones**  funciones, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Un grupo de casillas de verificación de un formulario adaptable es un conjunto de casillas de verificación relacionadas que permiten a los usuarios seleccionar una o más opciones de una lista. Cada casilla de verificación está representada por un valor de datos (valor que se utiliza para procesar elementos de un grupo de casillas de verificación) y un valor de visualización (etiqueta para cada elemento de casilla de verificación que describe su propósito)
 **Ejemplo**

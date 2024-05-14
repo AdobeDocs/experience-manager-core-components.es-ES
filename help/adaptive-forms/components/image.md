@@ -3,14 +3,14 @@ title: 'Componente principal de Formularios adaptables: imagen'
 description: Uso o personalización del componente principal de imagen de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: e4274194026c3370b52be17171776847374a86b5
-workflow-type: ht
-source-wordcount: '1057'
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---
 
-# Imagen {#image-adaptive-forms-core-component}
+# Componente Imagen{#image-adaptive-forms-core-component}
 
 Un componente Imagen de un Formulario adaptable es una forma de incluir imágenes en un formulario. Estas imágenes se pueden utilizar para mejorar el diseño general del formulario, proporcionar información adicional o servir como ayuda visual para que los usuarios comprendan la finalidad del formulario. El componente de imagen se puede utilizar para añadir un logotipo, una foto o un gráfico en el formulario.
 

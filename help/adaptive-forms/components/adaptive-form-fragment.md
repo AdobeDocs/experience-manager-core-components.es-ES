@@ -1,66 +1,63 @@
 ---
-title: 'Componente principal de formularios adaptables: pestañas horizontales'
-description: Uso o personalización del componente principal de pestañas horizontales de formularios adaptables.
+title: Fragmento de formulario adaptable
+description: Utilice fragmentos de formulario para crear segmentos de formulario o grupos de campos y reutilizarlos en los formularios adaptables para mejorar la eficacia y la reutilización.
 role: Architect, Developer, Admin, User
-exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
+exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '1895'
 ht-degree: 98%
 
 ---
 
-# Componente Pestañas horizontales (pestañas arriba){#horizontal-tabs-adaptive-forms-core-component}
+# Componente de fragmento de formulario adaptable {#form-fragment-component-adaptive-forms-core-component}
 
 <span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
-Las pestañas horizontales de un Formulario adaptable hacen referencia a un patrón de diseño en el que varias secciones de un formulario se agrupan conjuntamente y se muestran como pestañas independientes, alineadas horizontalmente. Se puede pasar de una pestaña a otra para acceder a diferentes secciones del formulario. Cada pestaña actúa como un activador para mostrar y ocultar el contenido del formulario relacionado. Las pestañas horizontales ayudan a organizar formularios largos en secciones manejables y mejoran la experiencia del usuario. Las pestañas pueden ayudar a que un formulario sea más accesible para las personas con discapacidades, ya que pueden cambiar entre secciones con la navegación mediante el teclado.
+Los formularios adaptables ofrecen una forma cómoda de crear segmentos de formulario, como paneles o grupos de campos, para que se puedan reutilizar en diferentes formularios adaptables. Estos segmentos reutilizables e independientes se denominan [fragmentos de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=es).
 
-Las pestañas generalmente se crean como una serie de vínculos o botones, y cada vínculo o botón corresponde a una sección del formulario. Cuando se hace clic en una pestaña, el contenido del formulario se actualiza de forma dinámica para mostrar la sección correspondiente.
+Puede [añadir un fragmento varias veces a un documento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=es#insert-a-fragment-in-an-adaptive-form) y utilizar las propiedades de enlace de datos de sus componentes para vincularlo a diferentes fuentes de datos o esquemas. Por ejemplo, puede utilizar el mismo fragmento de dirección para la dirección permanente, de comunicación y de facturación y conectarlo a diferentes campos de un origen de datos o esquema.
 
-![ejemplo](/help/adaptive-forms/assets/horizontal-example-new.png)
+![ejemplo](/help/adaptive-forms/assets/using-multiple-fragment-af.gif)
 
-## Uso {#reasons-to-use-horizontal-tabs}
 
-Las razones más comunes para utilizar pestañas horizontales en un Formulario adaptable son las siguientes:
+También puede utilizar la [opción de repetibilidad](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es) para duplicar el componente de fragmento de formulario y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario.
 
-- **Uso mejorado**: las pestañas horizontales facilitan a los usuarios el desplazamiento por el formulario, especialmente si este tiene varias secciones o un varios número de campos.
+>[!NOTE]
+>
+> Puede [crear un fragmento de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=es#create-a-fragment) desde cero o guardar un panel en un formulario adaptable existente como fragmento.
 
-- **Administración del espacio**: las pestañas horizontales ayudan a conservar espacio en la pantalla al agrupar las secciones de formulario relacionadas en pestañas y mostrar solo una sección a la vez.
+## Uso {#usage}
 
-- **Mejor organización**: las pestañas proporcionan una estructura clara y organizada para un formulario, lo que facilita la comprensión y cumplimentación del formulario.
+- **Reutilización**: la capacidad de reutilizar fragmentos de formulario en varios formularios adaptables es la principal ventaja de utilizar fragmentos de formulario. Ayuda a mantener la coherencia en el diseño y la funcionalidad, ya que los cambios realizados en un fragmento se reflejan en todas las instancias en las que se utiliza.
 
-- **Mayor participación del usuario**: las pestañas horizontales pueden hacer que un formulario sea visualmente más atractivo y atrayente para los usuarios, lo que puede mejorar la tasa de finalización del formulario.
+- **Experiencia del usuario coherente**: el uso de fragmentos de formulario para elementos comunes, como encabezados o pies de página, garantiza una experiencia de usuario coherente y homogénea.
+
+- **Fácil mantenimiento**: los cambios o modificaciones realizados en un fragmento de formulario se reflejan en todas las instancias en las que se utiliza. Simplifica el mantenimiento y reduce las posibilidades de errores.
+
+- **Eficiencia**: los diseñadores y desarrolladores ahorran tiempo al crear y probar fragmentos de formulario solo una vez. Los fragmentos de formulario se pueden incorporar fácilmente a varios formularios adaptables sin necesidad repetir el trabajo.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de pestañas horizontales de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación, se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de fragmentos de formularios adaptables se publicó como parte de los componentes principales, versión 2.0.50 para Cloud Service y componentes principales, versión 1.1.26 para AEM 6.5.16.0 Forms o versiones posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-|  |  |
-|---|---|
-| Versión del componente | AEM as a Cloud Service |
-| --- | --- |
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible | Compatible |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
+|---|---|---|
+| Versión 1 | Compatible con la <br>[versión 2.0.50](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.26](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Horizontal-tabs  Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_Horizontal-tabs ). -->
-
-
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal de pestañas horizontales de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/pageHorizontal tabs/v1/pageHorizontal tabs). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de fragmentos de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/fragment). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia de las pestañas horizontales para los visitantes con el cuadro de diálogo de configuración. También puede definir opciones de pestañas horizontales con facilidad para que la experiencia del usuario sea óptima.
+Puede personalizar fácilmente la experiencia de los fragmentos para los visitantes con el cuadro de diálogo de configuración. También puede definir propiedades de fragmentos con facilidad para una experiencia del usuario perfecta.
 
 ### Pestaña Básicos {#basic-tab}
 
-![Pestaña Básicos](/help/adaptive-forms/assets/tabs-on-top-basic.png)
+![Pestaña Básicos](/help/adaptive-forms/assets/fragment-basictab.png)
 
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
@@ -71,7 +68,6 @@ Puede personalizar fácilmente la experiencia de las pestañas horizontales para
   ![Compatibilidad del texto enriquecido](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
-
 - **Agrupar datos de componentes secundarios al enviar el formulario (ajustar datos en objeto)**: cuando se selecciona la opción, los datos de sus componentes secundarios se anidan dentro del objeto JSON del componente principal. Sin embargo, si la opción no está seleccionada, los datos JSON enviados tienen una estructura plana, sin ningún objeto para el componente principal. Por ejemplo:
 
    - Cuando la opción está seleccionada, los datos de los componentes secundarios (por ejemplo, calle, ciudad y código postal) se anidan dentro del componente principal (dirección) como un objeto JSON. Esto crea una estructura jerárquica y los datos se organizan bajo el componente principal.
@@ -95,47 +91,35 @@ Puede personalizar fácilmente la experiencia de las pestañas horizontales para
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-<!-- **Layout** - You can have either a fixed layout (Simple) or a flexible layout (Responsive Grid) for your wizard. The Simple layout keeps everything fixed in the place, while the Responsive Grid allows you to adjust the position of components to suit your needs. For example, use Responsive Grid to align "First Name", "Middle Name" and "Last Name" in a form in a single row. -->
+- **Referencia de fragmento**: es una referencia a un fragmento de un formulario que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de fragmento permite enlazar dinámicamente el fragmento de formulario a un formulario.
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
+
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
-### Repetir pestañas en la parte superior {#repeat-tabs-on-top}
+### Pestaña Repetir fragmento {#repeat-tab}
 
-![Pestaña Accesibilidad](/help/adaptive-forms/assets/repeat-tabsontop.png)
+![Pestaña Repetir fragmento](/help/adaptive-forms/assets/fragment-repeattab.png)
 
-Puede utilizar las opciones de repetibilidad para duplicar el componente Pestañas horizontales y sus componentes secundarios, definir un recuento de repetición mínimo y máximo y facilitar la replicación de secciones similares dentro de un formulario. Al interactuar con el componente Pestañas horizontales y acceder a su configuración, se presentan las siguientes opciones:
-
-- **Hacer repetibles las pestañas en la parte superior**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
-- **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente pestañas horizontales. Un valor de cero indica que el componente de pestañas horizontales no se repite; el valor predeterminado es cero.
-- **Máximo de repeticiones**: establece el número máximo de veces que se puede repetir el componente pestañas horizontales. De forma predeterminada, este valor es ilimitado.
-Para administrar de forma eficaz las secciones repetibles dentro de las pestañas horizontales, siga los pasos que se proporcionan en el artículo [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).
-
-### Pestaña Elementos {#items-tab}
-
-![Pestaña Elementos](/help/adaptive-forms/assets/items-tabs-on-top.png)
-
-El botón **Agregar** permite seleccionar un componente para añadirlo como un panel en la ventana de selección de componentes. Después de añadir el componente, podrá ver las siguientes opciones:
-
-- **Icono**: el icono identifica el componente del panel en la lista. Puede pasar el ratón sobre el icono para ver el nombre completo del componente como información sobre herramientas.
-- **Descripción**: la descripción utilizada como texto del panel. De forma predeterminada, el nombre del componente seleccionado para el panel.
-- **Eliminar**: toque o haga clic para eliminar el panel del componente de pestañas horizontales.
-- **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de los paneles.
+- **Hacer fragmento repetible**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
+- **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente de fragmento. Un valor de cero indica que el componente de fragmento no se repite; el valor predeterminado es cero.
+- **Máximo de repeticiones**: establece el número máximo de veces que se puede repetir el componente de fragmento. De forma predeterminada, este valor es ilimitado.
 
 ### Pestaña Contenido de ayuda {#help-content}
 
-![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/helpcontent-tabs-on-top.png)
+![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/fragment-helptab.png)
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
+
 - **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
-### Pestaña Accesibilidad {#accessibility}
+### Accesibilidad {#accessibility}
 
-![Pestaña Accesibilidad](/help/adaptive-forms/assets/accessibilty-tabs-on-top.png)
+![Pestaña Accesibilidad](/help/adaptive-forms/assets/fragment-accessibilitytab.png)
 
 - **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
 
@@ -143,32 +127,21 @@ El botón **Agregar** permite seleccionar un componente para añadirlo como un p
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente de formularios adaptables de pestañas horizontales, puede establecer lo siguiente:
-
-- Los componentes principales que un creador de formularios puede añadir a las pestañas horizontales en el editor de formularios adaptables
-- Nombres simples para estilos (clases CSS) que se pueden aplicar en el cuadro de diálogo de propiedades del componente pestañas horizontales del editor de formularios adaptables.
-
-Esto ayuda a que el proceso de creación y personalización de formularios sea más sencillo y eficaz.
-
-### Pestaña Componentes permitidos {#allowed-components-tab}
-
-![Pestaña Componentes permitidos](/help/adaptive-forms/assets/tabs-allowed-component.png)
-
-La pestaña **Componentes permitidos** permite que el editor de plantillas defina los componentes que se pueden añadir como elementos a los paneles en el componente de pestañas horizontales del editor de formularios adaptable.
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente de fragmento de formulario.
 
 ### Pestaña Estilos {#styles-tab}
 
-El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS de un componente. El componente principal de las pestañas horizontales de formularios adaptable es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+El componente principal de fragmento de formulario de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
-![Pestaña Estilos](/help/adaptive-forms/assets/tabs-styles-tab.png)
+![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de las pestañas horizontales de formularios adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar clases CSS predeterminadas para el componente principal de fragmento de formulario de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
-### Pestaña Propiedades personalizadas
+### Propiedades personalizadas
 
-![Pestaña Propiedades personalizadas](/help/adaptive-forms/assets/tabs-custom-properties.png)
+![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
 Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
@@ -178,7 +151,8 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
    - **Eliminar**: toque o haga clic para eliminar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
-   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden del nombre de la propiedad personalizada y el valor de la propiedad personalizada.
+   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el nombre de la propiedad personalizada y el valor de la propiedad personalizada.
+
 
 ## Artículos relacionados {#related-articles}
 

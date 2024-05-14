@@ -3,14 +3,14 @@ title: 'Componente principal de Formularios adaptables: asistente'
 description: Uso o personalización del componente principal del asistente de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '2100'
-ht-degree: 100%
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
+source-wordcount: '2101'
+ht-degree: 99%
 
 ---
 
-# Asistente {#wizard-adaptive-forms-core-component}
+# Componente Asistente{#wizard-adaptive-forms-core-component}
 
 Un diseño de asistente de un formulario adaptable hace referencia a un formulario dividido en varios pasos o páginas, con el usuario moviéndose por el formulario paso a paso. Este diseño se denomina “asistente” porque guía al usuario a través del formulario en un proceso paso a paso.
 

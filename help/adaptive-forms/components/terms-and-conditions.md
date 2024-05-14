@@ -3,16 +3,16 @@ title: Términos y condiciones del Componente principal de Formularios adaptable
 description: Usar o personalizar el Componente principal de los Términos y condiciones de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
+source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+workflow-type: tm+mt
 source-wordcount: '3115'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
 # Componente Términos y condiciones
 
-<span class="preview"> Este artículo incluye contenido sobre las funciones **Permitir texto enriquecido en el título** y **Permitir texto enriquecido en las opciones**, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  y  **Permitir texto enriquecido en las opciones**  funciones, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Un componente **Términos y condiciones** hace referencia a una sección de un formulario que describe los términos, las reglas y las condiciones que los usuarios deben aceptar o cumplir al utilizar un servicio o acceder al contenido.
 

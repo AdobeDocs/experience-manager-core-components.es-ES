@@ -1,46 +1,47 @@
 ---
-title: 'Componente principal de Formularios adaptables: botón de radio'
-description: Uso o personalización del componente principal de botón de radio de Formularios adaptables.
+title: 'Componente principal de formularios adaptables: lista desplegable'
+description: Uso o personalización del componente principal de lista desplegable de formularios adaptables.
 role: Architect, Developer, Admin, User
-exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
+exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 98%
+source-wordcount: '2126'
+ht-degree: 99%
 
 ---
 
-# Componente Botón de opción {#radio-button-adaptive-forms-core-component}
+# Componente de lista desplegable{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  y  **Permitir texto enriquecido en las opciones**   funciones, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
-Un botón de radio de un formulario adaptable es un tipo de elemento de entrada que permite al usuario seleccionar una opción de un grupo de opciones relacionadas. Se representa mediante un pequeño botón circular que está relleno o vacío para indicar si la opción está seleccionada o no. Cuando un usuario selecciona un botón de radio, el resto del grupo deja de estar seleccionado. Los botones de radio suelen utilizarse cuando hay varias opciones mutuamente excluyentes y solo se puede seleccionar una a la vez.
+Una lista desplegable de un formulario adaptable permite a los usuarios seleccionar una o más opciones de una lista de opciones predefinidas. Las opciones pueden ser de tipo cadena, número o booleano. Además, el componente de lista desplegable se puede configurar para que tenga valores predeterminados y validaciones diferentes.
 
 **Ejemplo**
+![ejemplo](/help/adaptive-forms/assets/drop-down-list.png)
 
-![ejemplo](/help/adaptive-forms/assets/radio-button.png)
+## Uso {#reasons-to-use-drop-down-list}
+
+Existen varias razones por las que resulta beneficioso incluir una lista desplegable en un formulario adaptable, entre ellas:
+
+- **Lista larga de opciones**: las listas desplegables son útiles para situaciones en las que hay una larga lista de opciones disponibles para un campo. Ocupan menos espacio en el formulario que una lista de botones de radio o casillas de verificación, y pueden resultar menos engorrosas para los usuarios.
+
+- **Coherencia**: las listas desplegables proporcionan coherencia en el diseño y la presentación del formulario, lo que facilita la navegación y la intuición de los usuarios.
+
+- **Claridad**: las listas desplegables pueden hacer que el formulario sea más claro y fácil de entender, ya que ofrecen una lista clara y concisa de opciones.
+
+- **Experiencia del usuario**: las listas desplegables pueden utilizarse para que el formulario sea más fácil de usar, ya que ofrecen una forma clara e intuitiva para que los usuarios seleccionen las opciones.
+
+- **Análisis de datos**: las listas desplegables pueden utilizarse para recopilar datos de varias fuentes y analizarlos, o bien para utilizarlos como entrada para un procesamiento posterior.
 
 **Cuadro de diálogo Propiedades**
 
-![ejemplo](/help/adaptive-forms/assets/radio-button-properties.png)
+![cuadro de diálogo propiedades](/help/adaptive-forms/assets/drop-down-list-properties.png)
 
-En este ejemplo, el elemento Opciones se utiliza para agrupar los botones de radio. El elemento **Mostrar texto** se utiliza para proporcionar una etiqueta para un elemento y **Valor de datos** se utiliza para especificar el valor que se envía al servidor cuando se envía el formulario.
+En este ejemplo, el elemento Opciones se utiliza para definir los elementos de la lista. El elemento **Mostrar texto** se utiliza para proporcionar una etiqueta para los elementos de lista y **Valor de datos** se utiliza para especificar el valor que se envía al servidor cuando se envía el formulario.
 
-Cada opción de botón de radio tiene un valor de datos y un atributo de texto mostrado. Si un usuario selecciona “1-10”, el valor de datos correspondiente se envía al servidor cuando se envía el formulario. Estos datos se pueden procesar mediante una secuencia de comandos del lado del servidor para determinar qué opciones ha seleccionado el usuario y se pueden utilizar para realizar diversas acciones, como actualizar otros campos del formulario o enviar los datos del formulario a una secuencia de comandos del lado del servidor para un procesamiento posterior.
+Cada opción de lista desplegable tiene un valor de datos único y un atributo de texto de visualización. Si un usuario selecciona la opción “Rojo”, el valor de datos correspondiente se envía al servidor cuando se envía el formulario. Estos datos se pueden procesar mediante una secuencia de comandos del lado del servidor para determinar qué opciones ha seleccionado el usuario y se pueden utilizar para realizar diversas acciones, como actualizar otros campos del formulario o enviar los datos del formulario a una secuencia de comandos del lado del servidor para un procesamiento posterior.
 
-Además, cada botón de radio se puede configurar para que tenga valores de procesamiento diferentes para cada opción, y esto se puede definir mediante el Editor de reglas de Formularios adaptables.
-
-## Uso {#reasons-to-use-radio-button}
-
-Existen varias razones para utilizar botones de radio en un formulario, entre ellas:
-
-- **Opciones limitadas**: los botones de radio se utilizan para proporcionar una lista de opciones predefinidas entre las que el usuario puede elegir y solo se puede seleccionar una opción a la vez. Esto resulta útil cuando el número de opciones es limitado y mutuamente excluyente.
-
-- **Borrar representación**: los botones de radio son claros y fáciles de entender, lo que facilita que los usuarios sepan lo que están seleccionando.
-
-- **Coherencia**: el uso de botones de radio garantiza una forma uniforme y estandarizada de presentar opciones a los usuarios, facilitando su comprensión e interacción con el formulario.
-
-- **Más fácil de usar**: los botones de radio son fáciles de usar, especialmente para los usuarios que no estén familiarizados con la tecnología o que tengan la movilidad limitada.
+Además, la lista desplegable se puede configurar para que tenga diferentes valores de procesamiento en cada opción, y esto se puede definir mediante el Editor de reglas de los formularios adaptables.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -58,17 +59,17 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal de botón de radio de Formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de lista desplegable de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/dropdown/v1/dropdown). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia del botón de radio para los visitantes con el cuadro de diálogo Configurar. También puede definir las opciones de los botones de radio con facilidad para una experiencia del usuario perfecta.
+Puede personalizar fácilmente la experiencia de la lista desplegable para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de la lista desplegable con facilidad para que la experiencia del usuario sea óptima.
 
-![Pestaña Básicos](/help/adaptive-forms/assets/radiobutton_basictab.png)
+![Pestaña Básicos](/help/adaptive-forms/assets/dropdown_basictab.png)
 
 - **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
 
-- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece encima del componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 - **Permitir texto enriquecido en el título**: esta función permite a los usuarios dar formato a los títulos de texto sin formato, incorporando funciones como negrita, cursiva, texto subrayado, varias fuentes, tamaños de fuente, colores y opciones adicionales para mejorar la presentación visual y la personalización. Ofrece una mayor flexibilidad y control creativo para hacer que los títulos destaquen dentro de los documentos, sitios web o aplicaciones.\
   Al seleccionar la casilla de verificación de **Permitir texto enriquecido en el título**, las opciones de formato se vuelven visibles para aplicar estilo al título del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en la pestaña ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png).
 
@@ -76,47 +77,46 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**. \
-  Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
+- **Permitir selección múltiple**: seleccione esta opción para seleccionar varias opciones en una lista desplegable.
+- **Guardar valor como**: esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si **Guardar valor como** está establecido en `Number` y se agregan datos de cadena a **Valor de datos** en la pestaña **Opciones**, la pantalla muestra el mensaje de error `Value type mismatch`.
+
+  En la pestaña **Opciones**, puede agregar valores de datos y mostrar pares de texto utilizando el botón **Agregar**. Una vez agregada una nueva opción, se realizan las acciones siguientes:
+
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
-   - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en un formulario adaptable.
-   - **Eliminar**: pulse o haga clic para eliminar la opción de un botón de radio.
-   - **Reorganizar**: pulse o haga clic y arrastre para reorganizar el orden de las opciones.
-También puede dar formato a las opciones del grupo de botones de opción mediante **Permitir texto enriquecido en las opciones**.
+   - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
+   - **Eliminar**: pulse o haga clic para eliminar la opción de un menú desplegable.
+   - **Reorganizar**: pulse o haga clic y arrastre para reorganizar el orden de la opción de un menú desplegable.
 
-  ![Compatibilidad del texto enriquecido con las opciones](/help/adaptive-forms/assets/richtext-for-options.png)
+- **Opción predeterminada**: esta opción le permite añadir valores predeterminados. Utilice el icono eliminar para eliminar la opción agregada. Si **Guardar valor como** está establecido en `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un mensaje de error `Value type mismatch`.
 
-  Una vez seleccionada la casilla de verificación de **Permitir texto enriquecido en las opciones**, las opciones de formato se vuelven visibles para aplicar estilo a las opciones del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en la pestaña `Fullscreen` ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png).
+- **Texto del marcador de posición**: el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
 
-  ![Compatibilidad del texto enriquecido con las opciones](/help/adaptive-forms/assets/richtextoptions-support.png)
+- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**. Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
+   - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
+   - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
+   - **Eliminar**: pulse o haga clic para eliminar la opción de una casilla de verificación.
+   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de los paneles.
 
-- **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
-
+- **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
 
-- **Tipo de datos del valor enviado**: esta opción especifica el tipo de datos del valor enviado cuando se selecciona cualquier opción. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Valor de datos** en la pestaña **Opciones**, la pantalla muestra un mensaje de error `Value type mismatch`.
-
-- **Opciones predeterminadas**: esta opción le permite añadir valores predeterminados que están preseleccionados cuando se carga el formulario. Si el **tipo de datos del valor enviado** está establecido en `Number` y se agregan datos de cadena a **Opciones predeterminadas**, la pantalla muestra un mensaje de error `Value type mismatch`.
-
-- **Opciones de visualización**: esta opción se utiliza para definir la alineación visual de los botones de radio en un formulario adaptable. Las dos opciones compatibles son las siguientes:
-   - **Horizontal**: cuando se selecciona esta opción, los botones de radio se muestran de izquierda a derecha en un formulario adaptable.
-   - **Vertical**: cuando se selecciona esta opción, los botones de radio se muestran de arriba a abajo en un formulario adaptable.
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
 ### Pestaña Validación {#validation-tab}
 
-![Pestaña Validación](/help/adaptive-forms/assets/radiobutton_validationtab.png)
+![Pestaña Validación](/help/adaptive-forms/assets/dropdown_validationtab.png)
 
 - **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe realizar una selección antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Deshabilitar componente** en la pestaña **Básico** cuando se selecciona esta opción.
+
 - **Mensaje de error**: esta opción le permite introducir un mensaje que se muestra si la casilla de verificación **Obligatorio** está activada y el campo de formulario se deja en blanco.
 
 - **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
-### Pestaña Contenido de ayuda {#helpcontent-tab}
+### Pestaña Contenido de ayuda {#help-content-tab}
 
-![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/radiobutton_helptab.png)
+![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/dropdown_helptab.png)
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
@@ -126,22 +126,23 @@ También puede dar formato a las opciones del grupo de botones de opción median
 
 ### Pestaña Accesibilidad {#accessibility-tab}
 
-![Pestaña Accesibilidad](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
+![Pestaña Accesibilidad](/help/adaptive-forms/assets/dropdown_accessibilitytab.png)
+
 
 **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
 
+
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Botón de radio.
-
+El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS para el componente Lista desplegable.
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de botón de radio de Formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de lista desplegable de formularios adaptables es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de botón de radio de Formularios adaptables.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de lista desplegable de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
