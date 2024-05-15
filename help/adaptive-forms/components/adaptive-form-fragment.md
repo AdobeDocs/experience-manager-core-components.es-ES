@@ -3,7 +3,7 @@ title: Fragmento de formulario adaptable
 description: Utilice fragmentos de formulario para crear segmentos de formulario o grupos de campos y reutilizarlos en los formularios adaptables para mejorar la eficacia y la reutilización.
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1895'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Componente de fragmento de formulario adaptable {#form-fragment-component-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre   **Permitir texto enriquecido en el título**    función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Los formularios adaptables ofrecen una forma cómoda de crear segmentos de formulario, como paneles o grupos de campos, para que se puedan reutilizar en diferentes formularios adaptables. Estos segmentos reutilizables e independientes se denominan [fragmentos de formulario adaptable](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/adaptive-form-fragments-core-components.html?lang=es).
 

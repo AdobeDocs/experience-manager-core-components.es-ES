@@ -3,7 +3,7 @@ title: 'Componente principal de formularios adaptables: entrada de número'
 description: Uso o personalización del componente principal de entrada de número de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '2104'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente de cuadro numérico{#number-input-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre   **Permitir texto enriquecido en el título**    función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Un componente de Entrada de número de un Formulario adaptable es un tipo de campo de formulario que permite a los usuarios introducir valores numéricos. El componente se suele representar mediante un campo de texto con una flecha hacia arriba y hacia abajo para incrementar y reducir el número.
 

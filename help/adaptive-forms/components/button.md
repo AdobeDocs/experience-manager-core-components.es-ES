@@ -3,7 +3,7 @@ title: 'Componente principal de formularios adaptables: botón'
 description: Uso o personalización del componente principal de botón de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: a6c3fd98bcdcbb0d6d5697b93306adc9ef7e3fc9
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1601'
 ht-degree: 99%
@@ -12,7 +12,7 @@ ht-degree: 99%
 
 # Componente Botón  {#button-component-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre   **Permitir texto enriquecido en el título**    función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 El botón de un formulario adaptable es un elemento de la IU que permite a los usuarios iniciar una acción cuando hacen clic en él. El elemento botón puede usarse para enviar un formulario, restablecerlo o realizar otras acciones, como desplazarse a una página diferente o activar el código personalizado. El botón se puede crear con el componente principal de botón.
 

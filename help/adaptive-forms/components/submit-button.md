@@ -3,7 +3,7 @@ title: 'Componente principal de formularios adaptables: botón Enviar'
 description: Uso o personalización del componente principal de botón Enviar de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
+source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 98%
@@ -12,7 +12,7 @@ ht-degree: 98%
 
 # Componente Botón de envío {#submit-button}
 
-<span class="preview"> Este artículo incluye contenido sobre  **Permitir texto enriquecido en el título**  función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre   **Permitir texto enriquecido en el título**    función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 El botón Enviar de un formulario adaptable es el que permite a los usuarios enviar los datos del formulario al servidor para su procesamiento. Cuando se hace clic en el botón de envío, los datos del formulario se envían al servidor, donde se pueden almacenar, procesar o utilizar para varios fines, como mandar un correo electrónico o actualizar una base de datos.
 
