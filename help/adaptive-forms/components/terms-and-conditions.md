@@ -4,15 +4,15 @@ description: Usar o personalizar el Componente principal de los Términos y cond
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3115'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Componente Términos y condiciones
 
-<span class="preview"> Este artículo incluye contenido sobre   **Permitir texto enriquecido en el título**   y   **Permitir texto enriquecido en las opciones**   funciones, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre las funciones **Permitir texto enriquecido para el título** y **Permitir texto enriquecido para opciones**, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Un componente **Términos y condiciones** hace referencia a una sección de un formulario que describe los términos, las reglas y las condiciones que los usuarios deben aceptar o cumplir al utilizar un servicio o acceder al contenido.
 

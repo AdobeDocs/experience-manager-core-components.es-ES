@@ -1,8 +1,8 @@
 ---
 source-git-commit: efc42e6c615987a1d85abe18b650ac23a6d84bf6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '211'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 # Fragmentos de código {#snippets}

@@ -4,15 +4,15 @@ description: Uso o personalización del componente principal del contenedor de p
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2166'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Componente Panel{#panel-container-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo incluye contenido sobre   **Permitir texto enriquecido en el título**    función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre la función **Permitir texto enriquecido para el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 En un formulario adaptable, un panel es un elemento contenedor que se puede utilizar para agrupar elementos de formularios relacionados. Permite agrupar y organizar distintos elementos de un formulario de una forma lógica y significativa. Esto puede mejorar la estructura general y la legibilidad del formulario, así como facilitar la comprensión y navegación a los usuarios.
 

@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de título de formu
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '864'
 ht-degree: 100%
 

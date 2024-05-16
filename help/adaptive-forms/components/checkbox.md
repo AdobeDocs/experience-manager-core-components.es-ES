@@ -4,15 +4,15 @@ description: Uso o personalización del Componente principal de la casilla de ve
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1780'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Componente Casilla de verificación{#checkbox-component}
 
-<span class="preview"> Este artículo incluye contenido sobre   **Permitir texto enriquecido en el título**    función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre la función **Permitir texto enriquecido para el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Una casilla de verificación es un elemento gráfico de interfaz de usuario que se utiliza comúnmente en aplicaciones de software y formularios para permitir a los usuarios realizar una elección binaria entre dos opciones: activada (seleccionada) o desactivada (no seleccionada).
 

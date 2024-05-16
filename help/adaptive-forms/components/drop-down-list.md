@@ -4,15 +4,15 @@ description: Uso o personalización del componente principal de lista desplegabl
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
 source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2126'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente de lista desplegable{#drop-down-list-adaptive-forms-core-component}
+# Componente Lista desplegable{#drop-down-list-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo incluye contenido sobre   **Permitir texto enriquecido en el título**    función, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> Este artículo incluye contenido sobre la función **Permitir texto enriquecido para el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Una lista desplegable de un formulario adaptable permite a los usuarios seleccionar una o más opciones de una lista de opciones predefinidas. Las opciones pueden ser de tipo cadena, número o booleano. Además, el componente de lista desplegable se puede configurar para que tenga valores predeterminados y validaciones diferentes.
 
