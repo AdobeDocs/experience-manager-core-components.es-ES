@@ -3,9 +3,9 @@ title: Introducción a los componentes principales de formularios adaptables de 
 description: Cree experiencias de inscripción atractivas (formularios) con la flexibilidad de los componentes principales de formularios adaptables y suministre dicha flexibilidad con la potencia de Adobe Experience Manager.
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: e15254b119194e14b5719de10a00b2990264756f
+source-git-commit: 63b4b59c43ffef10a036db3a639a6d5fa75a4e89
 workflow-type: tm+mt
-source-wordcount: '2175'
+source-wordcount: '2215'
 ht-degree: 49%
 
 ---
@@ -71,7 +71,7 @@ Las experiencias de captura de datos son cruciales para la generación de posibl
 
 ## Comparación de componentes principales, componentes básicos y componentes de bloque de formulario {#components}
 
-AEM La versión actual de tiene los siguientes componentes principales, componentes básicos y componentes de bloque de formulario (Edge Delivery Services).
+AEM La versión actual de tiene los siguientes componentes principales, [Componentes básicos](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/create-an-adaptive-form-on-forms-cs/introduction-forms-authoring#component-toolbar), y [Componentes de bloque de formulario (Edge Delivery Services)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/edge-delivery/build-forms/forms-references/form-components).
 
 | Componentes | Componentes de base | Componentes principales | Componentes de bloque de formulario | Información adicional |
 |------------|:---------------------:|:---------------:|:---------------------:|-----------------------|
@@ -203,6 +203,11 @@ El editor de Forms adaptable basado en componentes principales es similar al que
    * [Enviar al extremo REST](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
    * [Enviar a OneDrive](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
    * [AEM Invocar un flujo de trabajo de](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+
+
+* [Componentes principales de Forms adaptables en el editor de páginas de Sites](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): Puede habilitar y utilizar los componentes principales de Forms AEM AEM adaptable en el editor de páginas y el editor de fragmentos de experiencias de la página para crear directamente una experiencia de captura de datos junto con la creación de una página de Sites.
+
+  >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
