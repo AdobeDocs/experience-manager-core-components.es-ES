@@ -4,9 +4,9 @@ description: Los componentes principales se publican como versiones que pueden c
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: e25756d808d1deac338f4b7e054fe6f016a6bb97
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3079'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
