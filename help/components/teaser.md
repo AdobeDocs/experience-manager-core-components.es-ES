@@ -3,10 +3,10 @@ title: Componente Teaser
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 63f9659a547729c7cb3eb3c7a61cf1bc838cf6ce
-workflow-type: ht
-source-wordcount: '1081'
-ht-degree: 100%
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+workflow-type: tm+mt
+source-wordcount: '1042'
+ht-degree: 95%
 
 ---
 
@@ -31,11 +31,9 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 | Versión 2 | - | Compatible | Compatible |
 | [Versión 1](v1/teaser.md) | Compatible | Compatible | Compatible |
 
-## Soporte de Dynamic Media de próxima generación {#next-gen-dm}
+## Compatibilidad con recursos remotos {#remote-assets}
 
-El componente Teaser (a partir de [versión 2.23.2](/help/versions.md)) admite recursos remotos de Dynamic Media de próxima generación.
-
-[Una vez configurado,](/help/developing/next-gen-dm.md) puede seleccionar recursos desde un servicio de Dynamic Media remoto de próxima generación para su componente teaser.
+El componente Teaser (a partir de [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurada,](/help/developing/remote-assets.md) puede seleccionar recursos de un servicio remoto para el componente teaser.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -84,7 +82,7 @@ El título, la descripción y la imagen del teaser se pueden heredar de la pági
 * **Recurso de imagen**: coloque un recurso desde el [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **Examinar** para cargar desde un sistema de archivos local.
    * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
    * Haga clic o pulse **Seleccionar** para abrir el [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/environment-tools.html?lang=es) para seleccionar una imagen.
-      * Si [Características de Dynamic Media de próxima generación](#next-gen-dm) está habilitado, tiene varias opciones para seleccionar un recurso:
+      * If [Compatibilidad con recursos remotos](#remote-assets) está activada, tiene varias opciones para seleccionar un recurso:
          * **Local** selecciona de la biblioteca de recursos de AEM local.
          * **Remoto** selecciona desde una biblioteca de Dynamic Media fuera de su instancia de AEM.
    * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/manage/manage-digital-assets.html?lang=es) en el editor de recursos.

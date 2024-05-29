@@ -3,10 +3,10 @@ title: Componente Imagen
 description: El componente principal Imagen es un componente de imagen adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: e37151536be5a4345f6e2bf630bb8bd4019ad699
+source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 100%
+source-wordcount: '1957'
+ht-degree: 96%
 
 ---
 
@@ -53,11 +53,9 @@ El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) ad
 
 Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
-## Soporte de Dynamic Media de próxima generación {#next-gen-dm}
+## Compatibilidad con recursos remotos {#remote-assets}
 
-El Componente de imagen (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos de Dynamic Media de próxima generación.
-
-[Una vez configurado,](/help/developing/next-gen-dm.md) puede seleccionar recursos desde un servicio Dynamic Media remoto de próxima generación para su componente de imagen.
+El componente de imagen (a partir de [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurada,](/help/developing/remote-assets.md) puede seleccionar recursos de un servicio remoto para el componente de imagen.
 
 ## Compatibilidad con SVG {#svg-support}
 
@@ -87,7 +85,7 @@ El componente de imagen admite [microdatos schema.org](https://schema.org).
 
 El cuadro de diálogo de edición permite al autor del contenido recortar y ampliar la imagen.
 
-Dependiendo de si tiene el [Dynamic Media](#dynamic-media) habilitado o las características de [Dynamic Media de próxima generación](#next-gen-dm) habilitadas, las opciones disponibles para editar imágenes difieren.
+Dependiendo de si tiene el [Dynamic Media](#dynamic-media) activada o [Compatibilidad con recursos remotos](#remote-assets) está activada, las opciones disponibles para editar imágenes son distintas.
 
 ### Edición de recursos estándar {#standard-assets}
 
@@ -154,7 +152,7 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
    * Coloque un recurso desde el [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=es) o pulse la opción **examinar** para cargar desde un sistema de archivos local.
    * Pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
    * Pulse o haga clic en **Seleccionar** para abrir el [explorador de recursos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/environment-tools.html?lang=es) para seleccionar una imagen.
-      * Si [Características de Dynamic Media de próxima generación](#next-gen-dm) está habilitado, tiene varias opciones para seleccionar un recurso:
+      * If [Compatibilidad con aserciones remotas](#remote-assets) está activada, tiene varias opciones para seleccionar un recurso:
          * **Local** selecciona de la biblioteca de recursos de AEM local.
          * **Remoto** selecciona desde una biblioteca de Dynamic Media fuera de su instancia de AEM.
    * Pulse o haga clic en **Editar** para [administrar las representaciones del recurso](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=es) en el Editor de recursos.
