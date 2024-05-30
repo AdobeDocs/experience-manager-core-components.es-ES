@@ -1,19 +1,19 @@
 ---
-title: Compatibilidad con recursos remotos
-description: Obtenga información sobre cómo configurar los componentes principales Imagen y componentes de teaser para admitir recursos remotos mediante Dynamic Media con OpenAPI.
+title: Soporte para recursos remotos
+description: Obtenga información sobre cómo configurar las imágenes de componentes principales y los componentes de teaser para admitir recursos remotos mediante Dynamic Media con OpenAPI.
 role: Architect, Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
 source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
 
-# Compatibilidad con recursos remotos {#remote-assets-support}
+# Soporte para recursos remotos {#remote-assets-support}
 
-Obtenga información sobre cómo configurar los componentes principales Imagen y componentes de teaser para admitir recursos remotos mediante Dynamic Media con OpenAPI.
+Obtenga información sobre cómo configurar las imágenes de componentes principales y los componentes de teaser para admitir recursos remotos mediante Dynamic Media con OpenAPI.
 
 >[!NOTE]
 >
@@ -21,14 +21,14 @@ Obtenga información sobre cómo configurar los componentes principales Imagen y
 
 ## Obtener la versión más reciente de AEM {#latest}
 
-La compatibilidad con recursos remotos mediante Dynamic Media con OpenAPI requiere lo siguiente:
+La compatibilidad con los recursos remotos que utilizan Dynamic Media con OpenAPI requiere:
 
 * AEM 6.5 SP 18+ o AEM as a Cloud Service
 * Versión 2.23.2 o posterior de los componentes principales
 
 ## Configurar HTTPS {#https}
 
-Por lo general, se recomienda ejecutar todas las instancias de AEM de producción mediante HTTP. Sin embargo, es posible que sus entornos de desarrollo local no estén configurados como tales. Sin embargo, los recursos remotos que utilizan Dynamic Media con OpenAPI requieren HTTPS para funcionar.
+Por lo general, se recomienda ejecutar todas las instancias de AEM de producción mediante HTTP. Sin embargo, es posible que sus entornos de desarrollo local no estén configurados como tales. No obstante, los recursos remotos de Dynamic Media con OpenAPI requieren HTTPS para funcionar.
 
 [Utilice esta guía](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/security/use-the-ssl-wizard.html?lang=es) para configurar HTTPS donde desee utilizar recursos remotos, incluidos entornos de desarrollo.
 
@@ -52,7 +52,7 @@ Para obtener más información sobre cómo configurar OSGi, consulte los siguien
 
 ## Verificar la configuración {#verify}
 
-Ahora puede comprobar que la función de recursos remotos mediante Dynamic Media con OpenAPI funciona. Para ello, puede instalar el sitio de muestra de WKND y los componentes principales.
+Ahora puede verificar que la función de recursos remotos de Dynamic Media con OpenAPI esté funcionando. Para ello, puede instalar el sitio de muestra de WKND y los componentes principales.
 
 * Se requiere la versión 2.23.2 o posterior de los [Componentes principales](https://github.com/adobe/aem-core-wcm-components/releases/download/core.wcm.components.reactor-2.23.2/core.wcm.components.all-2.23.2.zip).
 * Se requiere la versión 3.2.0 o posterior del [Sitio de muestra de WKND](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-3.2.0/aem-guides-wknd.all-3.2.0-classic.zip).

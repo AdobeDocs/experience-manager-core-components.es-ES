@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites
 source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '375'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 99%
    + [Inclusión de bibliotecas de cliente](/help/developing/including-clientlibs.md)
    + [El servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md)
    + [Entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md)
-   + [Compatibilidad con recursos remotos](/help/developing/remote-assets.md)
+   + [Soporte de recursos remotos](/help/developing/remote-assets.md)
    + Capa de datos del cliente de Adobe {#data-layer}
       + [Información general de la capa de datos](/help/developing/data-layer/overview.md)
       + [Integraciones con la capa de datos](/help/developing/data-layer/integrations.md)
