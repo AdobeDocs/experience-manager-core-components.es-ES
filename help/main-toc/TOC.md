@@ -4,11 +4,11 @@ user-guide-title: Componentes principales de AEM
 breadcrumb-title: Guía de componentes principales
 feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
-feature-set: Experience Manager Sites
-source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
-workflow-type: ht
-source-wordcount: '375'
-ht-degree: 100%
+feature-set: Experience Manager Sites, Experience Manager Forms
+source-git-commit: a7cf223f8799054683f135e08fb83b320dd948fa
+workflow-type: tm+mt
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -117,6 +117,7 @@ ht-degree: 100%
       + [Fragmento de formulario de Formularios adaptables](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Archivos adjuntos de Formularios adaptables](/help/adaptive-forms/components/file-attachment.md)
       + [Pestañas verticales de formularios adaptables](/help/adaptive-forms/components/vertical-tabs.md)
+      + [Captcha de Forms adaptable](/help/adaptive-forms/components/hcaptcha.md)
       + [Pestañas horizontales de Formularios adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Imagen de Formularios adaptables](/help/adaptive-forms/components/image.md)
       + [Cuadro numérico de Formularios adaptables](/help/adaptive-forms/components/numeric-box.md)
