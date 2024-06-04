@@ -3,16 +3,14 @@ title: 'Componente principal de Formularios adaptables: selector de fecha'
 description: Uso o personalización del componente principal de selector de fecha de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2095'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2154'
+ht-degree: 99%
 
 ---
 
-# Componente Selector de fecha{#date-picker-adaptive-forms-core-component}
-
-<span class="preview"> Este artículo incluye contenido sobre la función **Permitir texto enriquecido para el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+# Componente de selector de fechas{#date-picker-adaptive-forms-core-component}
 
 Un componente de selector de fecha de un Formulario adaptable es un elemento de la interfaz de usuario que permite a los usuarios seleccionar una fecha de un calendario o introduciendo manualmente una fecha en un formato específico. El componente de selector de fecha se puede configurar para que tenga valores de formato, validación y predeterminados diferentes.
 
@@ -119,7 +117,12 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 ![Pestaña Accesibilidad](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
 
-**Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+- **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+   - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+   - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
+   - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+   - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 ### Pestaña Formatos {#format-tab}
 

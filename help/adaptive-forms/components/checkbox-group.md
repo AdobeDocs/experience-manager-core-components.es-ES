@@ -3,16 +3,14 @@ title: 'Componente principal de formularios adaptables: grupo de casillas de ver
 description: Uso o personalización del componente principal del grupo de casillas de verificación de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2048'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2102'
+ht-degree: 99%
 
 ---
 
-# Componente Grupo de casillas de verificación {#button-component-adaptive-forms-core-component}
-
-<span class="preview"> Este artículo incluye contenido sobre las funciones **Permitir texto enriquecido para el título** y **Permitir texto enriquecido para opciones**, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+# Componente de grupo de casilla {#button-component-adaptive-forms-core-component}
 
 Un grupo de casillas de verificación de un formulario adaptable es un conjunto de casillas de verificación relacionadas que permiten a los usuarios seleccionar una o más opciones de una lista. Cada casilla de verificación está representada por un valor de datos (valor que se utiliza para procesar elementos de un grupo de casillas de verificación) y un valor de visualización (etiqueta para cada elemento de casilla de verificación que describe su propósito)
 **Ejemplo**
@@ -136,7 +134,12 @@ Puede personalizar fácilmente la experiencia de las casillas de verificación p
 
 ![Pestaña Accesibilidad](/help/adaptive-forms/assets/checkbox_accessibility.png)
 
-**Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+- **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+   - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+   - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
+   - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+   - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

@@ -3,16 +3,14 @@ title: 'Componente principal de formularios adaptables: entrada de texto (cuadro
 description: Uso o personalización del componente principal de entrada de texto de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2062'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2121'
+ht-degree: 99%
 
 ---
 
-# Componente Cuadro de texto{#text-input-adaptive-forms-core-component}
-
-<span class="preview"> Este artículo incluye contenido sobre la función **Permitir texto enriquecido para el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+# Componente de cuadro de texto{#text-input-adaptive-forms-core-component}
 
 Un componente de entrada de texto (cuadro de texto) permite al usuario introducir y editar una o varias líneas de texto, según el atributo de tipo del elemento de entrada. El componente de entrada de texto puede colocarse dentro de un formulario y generalmente se etiqueta con un texto útil que identifica fácilmente su propósito. Se trata de un elemento fundamental de cualquier formulario, que se emplea ampliamente para recopilar distintos tipos de datos de los usuarios. Son sencillos, flexibles y se pueden configurar para validar entradas y mejorar la precisión de la recopilación de datos.
 
@@ -119,7 +117,12 @@ La opción **Patrón de validación** permite introducir un patrón para validar
 
 ![Pestaña Accesibilidad](/help/adaptive-forms/assets/textinput_accessibiltytab.png)
 
-**Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+- **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+   - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+   - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
+   - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+   - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
@@ -131,7 +134,7 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 ![Pestaña Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de entrada de texto de formularios adaptables.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal Cuadro de texto de Forms adaptable.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 

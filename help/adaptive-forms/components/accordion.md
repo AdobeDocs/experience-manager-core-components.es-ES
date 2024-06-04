@@ -3,16 +3,14 @@ title: Acordeón de formulario adaptable
 description: Utilice el acordeón para organizar y simplificar un formulario largo o complejo, dividiéndolo en secciones más pequeñas y manejables.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2263'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2237'
+ht-degree: 98%
 
 ---
 
 # Componente Acordeón {#accordion-component-adaptive-forms-core-component}
-
-<span class="preview"> Este artículo incluye contenido sobre la función **Permitir texto enriquecido para el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 El componente principal Acordeón permite a los usuarios crear secciones expandibles y contraíbles en un formulario adaptable. A menudo se utiliza para organizar y simplificar formularios largos o complejos, dividiéndolos en secciones más pequeñas y manejables. Cada sección de un acordeón suele estar representada por un encabezado en el que el usuario puede hacer clic para expandir o reducir el contenido correspondiente. El contenido puede ser cualquier componente principal.
 
@@ -154,7 +152,6 @@ En la pestaña **Accesibilidad**, se pueden configurar valores para las etiqueta
 
 - **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
 
-
    - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
@@ -227,8 +224,7 @@ El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS 
 ### Propiedades personalizadas
 
 ![acordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
-
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
 - **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 

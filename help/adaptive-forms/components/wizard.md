@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: asistente'
 description: Uso o personalización del componente principal del asistente de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: fd785cd2-5ed6-4efb-997f-ce9056ed113d
-source-git-commit: c3401da271efd930d1a2711bcab25c29f763f38e
-workflow-type: ht
-source-wordcount: '2101'
-ht-degree: 100%
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
+source-wordcount: '2186'
+ht-degree: 99%
 
 ---
 
@@ -148,6 +148,11 @@ Esta opción le permite agregar componentes de formulario adaptable al hacer cli
 ![Pestaña de accesibilidad](/help/adaptive-forms/assets/wizard_accessibiltytab.png)
 
 - **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+   - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+   - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
+   - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+   - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
 - **Función de HTML para el anuncio del lector de pantalla**: la función de HTML es un atributo que se utiliza para especificar la finalidad de un elemento HTML para tecnologías de asistencia, como los lectores de pantalla. El atributo de función se utiliza para proporcionar un contexto y un significado semántico adicionales a un elemento, lo que facilita a los lectores de pantalla la interpretación y el anuncio del contenido al usuario. Por ejemplo, en AEM Forms, la etiqueta de un campo de formulario puede tener la función “label” y su campo de entrada puede tener la función “textbox”. Esto ayuda al lector de pantalla a comprender la relación entre la etiqueta y el campo de entrada, y a anunciarlas correctamente al usuario.
 

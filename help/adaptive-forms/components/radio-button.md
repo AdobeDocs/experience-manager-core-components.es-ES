@@ -3,16 +3,14 @@ title: 'Componente principal de Formularios adaptables: botón de radio'
 description: Uso o personalización del componente principal de botón de radio de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2080'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2134'
+ht-degree: 99%
 
 ---
 
-# Componente Botón de opción {#radio-button-adaptive-forms-core-component}
-
-<span class="preview"> Este artículo incluye contenido sobre las funciones **Permitir texto enriquecido para el título** y **Permitir texto enriquecido para opciones**, funciones previas al lanzamiento. La función previa al lanzamiento solo es accesible a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+# Componente de botón de opción {#radio-button-adaptive-forms-core-component}
 
 Un botón de radio de un formulario adaptable es un tipo de elemento de entrada que permite al usuario seleccionar una opción de un grupo de opciones relacionadas. Se representa mediante un pequeño botón circular que está relleno o vacío para indicar si la opción está seleccionada o no. Cuando un usuario selecciona un botón de radio, el resto del grupo deja de estar seleccionado. Los botones de radio suelen utilizarse cuando hay varias opciones mutuamente excluyentes y solo se puede seleccionar una a la vez.
 
@@ -128,7 +126,12 @@ También puede dar formato a las opciones del grupo de botones de opción median
 
 ![Pestaña Accesibilidad](/help/adaptive-forms/assets/radiobutton_accessibilitytab.png)
 
-**Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+- **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+   - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+   - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
+   - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+   - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

@@ -3,16 +3,14 @@ title: 'Componente principal de formularios adaptables: contenedor de panel'
 description: Uso o personalización del componente principal del contenedor de panel de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: 58a0f0f2ef6d9dec3ce2436dad954a8a7aca188c
-workflow-type: ht
-source-wordcount: '2166'
-ht-degree: 100%
+source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+workflow-type: tm+mt
+source-wordcount: '2225'
+ht-degree: 98%
 
 ---
 
 # Componente Panel{#panel-container-adaptive-forms-core-component}
-
-<span class="preview"> Este artículo incluye contenido sobre la función **Permitir texto enriquecido para el título**, una función previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 En un formulario adaptable, un panel es un elemento contenedor que se puede utilizar para agrupar elementos de formularios relacionados. Permite agrupar y organizar distintos elementos de un formulario de una forma lógica y significativa. Esto puede mejorar la estructura general y la legibilidad del formulario, así como facilitar la comprensión y navegación a los usuarios.
 
@@ -130,18 +128,23 @@ Para administrar de forma eficaz las secciones repetibles dentro del contenedor 
 
 
 - **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+   - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+   - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
+   - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+   - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
 - **Función de HTML para el anuncio del lector de pantalla**: la función de HTML es un atributo que se utiliza para especificar la finalidad de un elemento HTML para tecnologías de asistencia, como los lectores de pantalla. El atributo de función se utiliza para proporcionar un contexto y un significado semántico adicionales a un elemento, lo que facilita a los lectores de pantalla la interpretación y el anuncio del contenido al usuario. Por ejemplo, en AEM Forms, la etiqueta de un campo de formulario puede tener la función “label” y su campo de entrada puede tener la función “textbox”. Esto ayuda al lector de pantalla a comprender la relación entre la etiqueta y el campo de entrada, y a anunciarlas correctamente al usuario.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Contenedor del formulario.
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente del panel.
 
 ### Pestaña Componentes permitidos {#allowed-components-tab}
 
 ![Pestaña de componentes permitidos del cuadro de diálogo Diseño](/help/adaptive-forms/assets/panel-container-allowed-component.png)
 
-La pestaña **Componentes permitidos** facilita que el editor de plantillas defina los componentes que se pueden agregar como elementos a los paneles en el componente del editor de formularios adaptables.
+El **Componentes permitidos** permite al editor de plantillas establecer los componentes que se pueden añadir como elementos a los paneles del componente en el editor de Forms adaptable.
 
 ### Pestaña Componentes predeterminados {#default-components-tab}
 

@@ -3,14 +3,14 @@ title: 'Componente principal de formularios adaptables: contenedor de formulario
 description: Agregue un formulario adaptable a una página web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
-source-git-commit: e843ccf5c030cd4f1015e3290347b5799828537a
-workflow-type: ht
-source-wordcount: '1340'
-ht-degree: 100%
+source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
+workflow-type: tm+mt
+source-wordcount: '1341'
+ht-degree: 97%
 
 ---
 
-# Contenedor del formulario {#form-container-adaptive-forms-core-component}
+# Contenedor de formulario {#form-container-adaptive-forms-core-component}
 
 Los formularios permiten a los visitantes interactuar con el sitio web proporcionando información valiosa, lo que puede aumentar la participación y la satisfacción del usuario. Un contenedor de formulario adaptable en Adobe Experience Manager (AEM) Sites permite a los propietarios de sitios web agregar fácilmente formularios a sus páginas. Esto ayuda a facilitar la comunicación entre los visitantes del sitio web y su propietario u organización, ya que proporciona una manera optimizada para que los visitantes proporcionen comentarios, hagan consultas y otras acciones.
 
@@ -99,7 +99,7 @@ El cuadro de diálogo de diseño se utiliza para definir y administrar estilos C
 
 ![Pestaña de componentes permitidos del cuadro de diálogo Diseño](/help/adaptive-forms/assets/formcontainer-allowedcomponents.png)
 
-La pestaña **Componentes permitidos** facilita que el editor de plantillas defina los componentes que se pueden agregar como elementos a los paneles en el componente del editor de formularios adaptables.
+El **Componentes permitidos** permite al editor de plantillas establecer los componentes que se pueden añadir como elementos a los paneles del componente en el editor de Forms adaptable.
 
 ### Pestaña Componentes predeterminados {#default-components-tab}
 

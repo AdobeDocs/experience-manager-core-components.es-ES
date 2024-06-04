@@ -1,38 +1,37 @@
 ---
-title: 'Componente principal de formularios adaptables: entrada de número'
-description: Uso o personalización del componente principal de entrada de número de formularios adaptables.
+title: 'Componente principal de Formularios adaptables: entrada de correo electrónico'
+description: Uso o personalización del componente principal de entrada de correo electrónico de Formularios adaptables.
 role: Architect, Developer, Admin, User
-exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
+exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 98%
+source-wordcount: '2113'
+ht-degree: 100%
 
 ---
 
-# Componente de cuadro numérico{#number-input-adaptive-forms-core-component}
+# Componente de correo electrónico {#Email-input-adaptive-forms-core-component}
 
-Un componente de Entrada de número de un Formulario adaptable es un tipo de campo de formulario que permite a los usuarios introducir valores numéricos. El componente se suele representar mediante un campo de texto con una flecha hacia arriba y hacia abajo para incrementar y reducir el número.
-
-También se puede utilizar con atributos como mín., máx., paso, valor, etc. Estos atributos se pueden utilizar para establecer los valores mínimo y máximo permitidos en el campo, el intervalo de paso para incrementar o reducir el número y el valor predeterminado del campo.
-
-Este componente se puede utilizar para recopilar datos numéricos como la edad, cantidad, etc. También se puede usar para realizar operaciones matemáticas como sumas y restas. Este componente también se puede utilizar para validar los datos numéricos introducidos por el usuario.
-
-Para la accesibilidad, es importante especificar “etiqueta” que describe la finalidad del campo de entrada de número y qué tipo de entrada se espera.
+El componente principal de entrada de correo electrónico de Formulario adaptable se utiliza para recopilar direcciones de correo electrónico de los usuarios. El campo de entrada de correo electrónico permite al explorador validar que los datos introducidos tienen un formato de dirección de correo electrónico válida. Se suele representar como un cuadro de texto y tiene validaciones de patrones para aceptar solo direcciones de correo electrónico válidas. El campo de entrada de correo electrónico se puede personalizar aún más con atributos adicionales como “obligatorio”, “marcador de posición” y “patrón” para establecer las validaciones de los datos de entrada.
 
 **Ejemplo**
+![ejemplo](/help/adaptive-forms/assets/emailid-example.png)
 
-![ejemplo](/help/adaptive-forms/assets/numeric-stepper.png)
+<!-- ## Sample Component Output {#sample-component-output}
 
-## Uso {#reasons-to-use-number-input-numeric-stepper}
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
-Existen varias razones por las que resulta beneficioso incluir un componente de entrada numérico en un Formulario adaptable, entre ellas, las siguientes:
+Existen varias razones por las que resulta beneficioso incluir un componente de entrada de correo electrónico en un Formulario adaptable, entre ellas, las siguientes:
 
-- **Operaciones matemáticas**: los campos numéricos se pueden utilizar para realizar operaciones matemáticas como sumas, restas, multiplicaciones y divisiones.
+- **Comodidad del usuario**: una entrada de correo electrónico facilita a los usuarios la introducción de sus direcciones de correo electrónico, ya que proporciona una indicación clara de los datos previstos en el campo.
 
-- **Intervalo de datos**: los campos numéricos pueden utilizarse para establecer un rango de valores válidos mediante los atributos mín., máx. y paso.
+- **Comunicación personalizada**: la recopilación de direcciones de correo electrónico de los usuarios a través de un formulario permite una comunicación personalizada, como el envío de correos electrónicos de confirmación o boletines.
 
-- **Contenido dinámico**: el componente numérico se puede utilizar para mostrar datos dinámicos basados en los campos del formulario.
+- **Generación de posibles clientes**: recopilando direcciones de correo electrónico a través de un formulario, las empresas pueden crear su lista de correo electrónico y utilizarla para la generación de posibles clientes.
+
+- **Autenticación de usuarios**: las direcciones de correo electrónico se pueden utilizar como medio de autenticación para acceder al contenido o a los servicios restringidos.
+
+- **Recopilación de comentarios**: una entrada de correo electrónico en un formulario de comentarios permite a la empresa comunicarse con el usuario para realizar un seguimiento o aclarar sus comentarios.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
@@ -44,66 +43,69 @@ El componente principal de acordeón de formularios adaptables se publicó en fe
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
-
 <!-- ## Sample Component Output {#sample-component-output}
 
 To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal de entrada de número de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/numberinput/v1/numberinput). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de entrada de correo electrónico de Formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/emailinput/v1/emailinput). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de los componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia de entrada de números para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de entrada numérica con facilidad para que la experiencia del usuario sea óptima.
+Puede personalizar fácilmente la experiencia de entrada de correo electrónico para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de entrada de correo electrónico con facilidad para que la experiencia del usuario sea óptima.
 
 ### Pestaña Básicos {#basic-tab}
 
-![Pestaña Básicos](/help/adaptive-forms/assets/numberinput_basictab.png)
+![Pestaña Básicos](/help/adaptive-forms/assets/email_basictab.png)
 
-- **Nombre**: puede identificar fácilmente un componente de formulario con su nombre único tanto en el formulario como en el editor de reglas, pero el nombre no debe contener espacios ni caracteres especiales.
+- **Nombre**: el nombre identifica de forma exclusiva el componente en el editor de reglas. No se permiten caracteres especiales ni espacios en las cadenas de nombre.
 
-- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece encima del componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 - **Permitir texto enriquecido en el título**: esta función permite a los usuarios dar formato a los títulos de texto sin formato, incorporando funciones como negrita, cursiva, texto subrayado, varias fuentes, tamaños de fuente, colores y opciones adicionales para mejorar la presentación visual y la personalización. Ofrece una mayor flexibilidad y control creativo para hacer que los títulos destaquen dentro de los documentos, sitios web o aplicaciones.\
   Al seleccionar la casilla de verificación de **Permitir texto enriquecido en el título**, las opciones de formato se vuelven visibles para aplicar estilo al título del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en la pestaña ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png).
 
   ![Compatibilidad del texto enriquecido](/help/adaptive-forms/assets/richtext-support-title.png)
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
+
 - **Texto del marcador de posición**: el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
-- **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
+- **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
-- **Tipo de número**: esta opción permite seleccionar el tipo de valores numéricos permitidos en el campo del formulario. Puede seleccionar los tipos Decimal o Entero en el menú desplegable.
+
 - **Valor predeterminado**: esta opción le permite agregar un valor predeterminado en un campo de formulario. Si **Componente desactivado** o **Componente de solo lectura** está seleccionado, el valor predeterminado se muestra en la pantalla. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento del envío del formulario.
+- **Atributo de relleno automático**: la opción permite a los usuarios introducir un valor que se rellena automáticamente dentro del campo de formulario en función de la información almacenada.
 
 ### Pestaña Validación {#validation-tab}
 
-![Pestaña Validación](/help/adaptive-forms/assets/numberinput_validationtab.png)
+![Pestaña Validación](/help/adaptive-forms/assets/email_validationtab.png)
 
-- **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe introducir un valor antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Desactivar componente** en la pestaña **Básico** cuando se selecciona esta opción.
+- **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe introducir un valor antes de continuar con el envío de un formulario. No puede seleccionar la opción **Ocultar componente** o **Deshabilitar componente**  en la pestaña **Básico** cuando se selecciona esta opción.
 
-- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo se deja en blanco.
+- **Mensaje de error**: esta opción le permite introducir un mensaje que se muestra si la casilla de verificación **Obligatorio** está activada y el campo de formulario se deja en blanco.
 
 - **Mensaje de validación de la secuencia de comandos**: esta opción le permite escribir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
-- **Número más bajo/número más pequeño**: utilice esta opción para seleccionar el número mínimo permitido que se debe introducir en el campo de formulario. Si el valor más pequeño que el número especificado en la opción **Número menor/número más pequeño** se introduce en el campo de formulario, aparece el mensaje de error.
+- **Número máximo de caracteres**: esta opción permite especificar el número máximo de caracteres permitidos en el campo. Si introduce más caracteres que el valor especificado en **Número máximo de caracteres**, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error del número máximo de caracteres** permite añadir un mensaje de error personalizado.
 
-- **Mensaje de error mínimo**: esta opción le permite introducir un mensaje de error que se muestra cuando el usuario introduce un valor menor que el valor especificado en la opción **Número mínimo/número mínimo**.
+- **Mensaje de error de número máximo de caracteres**: el cuadro de diálogo **Mensaje de error del número máximo de caracteres** permite añadir un mensaje de error personalizado si introduce más caracteres que el valor especificado en **Número máximo de caracteres**.
 
-- **Excluir valor mínimo**: seleccione esta casilla de verificación si no desea que el valor mínimo especificado en la opción **Número más bajo/número más pequeño** se incluya en el rango de valores que se introducirá en el campo de formulario.
+- **Número mínimo de caracteres**: esta opción permite especificar el número mínimo de caracteres permitidos en el campo. Si introduce menos caracteres que el valor especificado en **Número mínimo de caracteres**, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error del número mínimo de caracteres** permite añadir un mensaje de error personalizado.
 
-- **Número más alto/Número mayor**: utilice esta opción para seleccionar el número máximo permitido que se debe introducir en el campo de formulario. Si el número mayor que el especificado en la opción **Número más alto/Número mayor** se introduce en el campo de formulario, aparece el mensaje de error.
+- **Mensaje de error del número mínimo de caracteres mínimos**: el cuadro de diálogo **Mensaje de error del número mínimo de caracteres** permite añadir un mensaje de error personalizado si introduce menos caracteres que el valor especificado en la variable **Número mínimo de caracteres**.
+<br>
 
-- **Mensaje de error máximo**: esta opción le permite introducir un mensaje de error que se muestra cuando el usuario introduce un valor más alto que el especificado en **Número más alto/Número mayor**.
+La opción **Patrón de validación** permite introducir un patrón para validar el ID de correo electrónico introducido. Si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**, el mensaje de error aparecerá en pantalla.
 
-- **Excluir valor máximo**: seleccione esta casilla de verificación si no desea que el valor máximo especificado en la opción **Número más alto/Número más grande** se incluya en el rango de valores que se van a introducir en el campo de formulario.
+- **Patrón**: esta opción permite introducir los patrones de verificación permitidos para el correo electrónico. También se permiten expresiones regulares.
+- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra en la pantalla si el ID de correo electrónico no se valida con el valor introducido en la opción **Patrón**
 
-### Pestaña Contenido de ayuda {#help-content}
+### Pestaña Contenido de ayuda {#help-content-tab}
 
-![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/numberinput_helptab.png)
+![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/email_helptab.png)
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
@@ -111,38 +113,29 @@ Puede personalizar fácilmente la experiencia de entrada de números para los vi
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
-### Pestaña Accesibilidad {#accessibility}
+### Pestaña Accesibilidad {#accessibility-tab}
 
-![Pestaña Accesibilidad](/help/adaptive-forms/assets/numberinput_accessibility.png)
+![Pestaña Accesibilidad](/help/adaptive-forms/assets/email_accessibilitytab.png)
 
-- **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+- **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
+
    - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
-
-### Pestaña Formatos {#formats-configure-tab}
-
-![Pestaña Accesibilidad](/help/adaptive-forms/assets/numberinput_formattab.png)
-
-- **Formato de visualización**: esta opción le permite seleccionar la opción de diferentes formatos numéricos enteros para su visualización. Cuando el usuario selecciona cualquier opción del menú desplegable **Tipo**, la variable **Formato** aparece en el panel. Puede elegir un formato específico en el que se muestren los números al usuario.
-
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
-
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-Cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Cuadro numérico.
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Entrada de correo electrónico.
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de entrada de número de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de entrada de correo electrónico de Formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Pestaña Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal Cuadro numérico de Forms adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de entrada de correo electrónico de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
