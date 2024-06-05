@@ -3,16 +3,16 @@ title: 'Componente principal de formularios adaptables: entrada de número'
 description: Uso o personalización del componente principal de entrada de número de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
-source-wordcount: '2163'
-ht-degree: 98%
+source-wordcount: '2283'
+ht-degree: 92%
 
 ---
 
 # Componente de cuadro numérico{#number-input-adaptive-forms-core-component}
 
-Un componente de Entrada de número de un Formulario adaptable es un tipo de campo de formulario que permite a los usuarios introducir valores numéricos. El componente se suele representar mediante un campo de texto con una flecha hacia arriba y hacia abajo para incrementar y reducir el número.
+Un componente Cuadro numérico en un formulario adaptable es un tipo de campo de formulario que permite a los usuarios introducir valores numéricos. El componente se suele representar mediante un campo de texto con una flecha hacia arriba y hacia abajo para incrementar y reducir el número.
 
 También se puede utilizar con atributos como mín., máx., paso, valor, etc. Estos atributos se pueden utilizar para establecer los valores mínimo y máximo permitidos en el campo, el intervalo de paso para incrementar o reducir el número y el valor predeterminado del campo.
 
@@ -127,10 +127,21 @@ Puede personalizar fácilmente la experiencia de entrada de números para los vi
 ![Pestaña Accesibilidad](/help/adaptive-forms/assets/numberinput_formattab.png)
 
 - **Formato de visualización**: esta opción le permite seleccionar la opción de diferentes formatos numéricos enteros para su visualización. Cuando el usuario selecciona cualquier opción del menú desplegable **Tipo**, la variable **Formato** aparece en el panel. Puede elegir un formato específico en el que se muestren los números al usuario.
+- **Idioma** : Esta función se utiliza para dar formato al campo específico. Cuando un usuario selecciona cualquier opción de idioma del **Tipo** menú desplegable, la variable **Etiqueta de idioma IETF BCP 47** opción aparece en el panel. Puede elegir el idioma del formato del campo al traducir un formulario adaptable a un idioma específico.
 
-<!--   **Number of digits before the decimal separator (1234.000)** - Use this option to specify the number of digits to display before the decimal point. 
+El conjunto de idiomas no está visible de forma predeterminada, pero los usuarios pueden introducir un idioma personalizado **Etiqueta de idioma IETF BCP 47** actualizando la directiva de plantilla:
 
-- **Number of digits after the decimal separator (1234.000)** - Use this option to specify the number of digits to display after the decimal point. -->
+1. Abra la plantilla correspondiente asociada a un formulario adaptable en el editor de plantillas.
+2. Seleccione la política existente como `numberinput-default-policy` en el menú desplegable.
+
+   ![Política de plantilla del selector de fechas](/help/adaptive-forms/assets/numberinput-template-policy.png)
+
+3. Haga clic en **Listo**.
+
+   >[!NOTE]
+   >
+   > Para obtener más información sobre cómo traducir un formulario adaptable a una configuración regional específica, consulte [haga clic aquí](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
