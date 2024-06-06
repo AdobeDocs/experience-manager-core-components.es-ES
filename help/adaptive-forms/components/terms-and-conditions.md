@@ -4,9 +4,9 @@ description: Usar o personalizar el Componente principal de los Términos y cond
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3254'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ El componente **Términos y condiciones** es un componente compuesto que consta 
 
 >[!NOTE]
 >
-> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Adaptive Forms, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
+> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Formularios adaptables, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
 
 **Ejemplo**
 
@@ -50,7 +50,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal de términos y condiciones de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de términos y condiciones de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
@@ -126,7 +126,7 @@ Puede personalizar fácilmente la experiencia del componente de términos y cond
    - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 - **Función de HTML para el anuncio del lector de pantalla**: la función de HTML es un atributo que se utiliza para especificar la finalidad de un elemento HTML para tecnologías de asistencia, como los lectores de pantalla. El atributo de función se utiliza para proporcionar un contexto y un significado semántico adicionales a un elemento, lo que facilita a los lectores de pantalla la interpretación y el anuncio del contenido al usuario. Por ejemplo, en AEM Forms, la etiqueta de un campo de formulario puede tener la función “label” y su campo de entrada puede tener la función “textbox”. Esto ayuda al lector de pantalla a comprender la relación entre la etiqueta y el campo de entrada, y a anunciarlas correctamente al usuario.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Términos y condiciones.
 
@@ -159,7 +159,7 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 El componente **Términos y condiciones** es un componente compuesto que consta de los siguientes subcomponentes:
 - [Componente Vínculo](#link)
-- [Componente de texto](#text)
+- [Componente Texto](#text)
 - [Componente Casilla de verificación](#checkbox)
 
 ### Componente Vínculo{#link}
@@ -205,7 +205,7 @@ Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
 
 - **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe realizar una selección antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Deshabilitar componente** en la pestaña **Básico** cuando se selecciona esta opción.
 
-- **Mensaje de error**: esta opción le permite introducir un mensaje que se muestra si la casilla de verificación **Obligatorio** está activada y el campo de formulario se deja en blanco.
+- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 
 - **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
@@ -230,7 +230,7 @@ Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
    - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
-### Componente de texto {#text}
+### Componente Texto {#text}
 
 El componente de **Texto** muestra el contenido textual que proporciona información a los usuarios. Este componente incluye los términos y condiciones reales, el idioma legal o cualquier otra información textual relevante.
 

@@ -4,9 +4,9 @@ description: Uso o personalización del Componente principal de la casilla de ve
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1836'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Una casilla de verificación suele representarse como un pequeño cuadrado que s
 
 >[!NOTE]
 >
-> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Adaptive Forms, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
+> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Formularios adaptables, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
 
 **Ejemplo**
 
@@ -50,7 +50,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el Componente principal Casillas de verificación de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el Componente principal Casillas de verificación de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkbox/v1/checkbox). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
@@ -83,7 +83,7 @@ Puede personalizar fácilmente la experiencia de las Casillas de verificación p
 - **Conservar valor del estado Desmarcar**: al seleccionar esta opción, puede especificar el valor que se devolverá cuando el componente de la casilla de verificación no esté seleccionado. Si **Conservar valor de estado de desactivación** está activada o configurada como verdadera, aparece la opción **Cuando no está marcada, devuelve un valor**.
 - **Cuando no está marcada, devuelve un valor**: la opción le permite especificar qué valor debe asociarse con la casilla de verificación cuando está en un estado sin marcar o sin seleccionar.
 
-- **Valor predeterminado**: esta opción permite añadir un valor predeterminado en un campo de formulario. If **Deshabilitar componente** está seleccionado, el valor predeterminado se muestra en la pantalla. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento de envío del formulario.
+- **Valor predeterminado**: esta opción permite añadir un valor predeterminado en un campo de formulario. Si se selecciona **Deshabilitar componente**, aparece en pantalla el valor predeterminado. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento del envío del formulario.
 
 ### Pestaña Validación {#validation-tab}
 
@@ -91,7 +91,7 @@ Puede personalizar fácilmente la experiencia de las Casillas de verificación p
 
 - **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe realizar una selección antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Deshabilitar componente** en la pestaña **Básico** cuando se selecciona esta opción.
 
-- **Mensaje de error**: esta opción le permite introducir un mensaje que se muestra si la casilla de verificación **Obligatorio** está activada y el campo de formulario se deja en blanco.
+- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 - **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
 ### Pestaña Contenido de ayuda {#helpcontent-tab}
@@ -115,7 +115,7 @@ Puede personalizar fácilmente la experiencia de las Casillas de verificación p
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
    - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo Diseño se emplea para definir y administrar estilos CSS para el componente de Casilla de verificación.
 

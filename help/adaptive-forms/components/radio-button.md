@@ -4,13 +4,13 @@ description: Uso o personalización del componente principal de botón de radio 
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2134'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente de botón de opción {#radio-button-adaptive-forms-core-component}
+# Componente Botón de radio {#radio-button-adaptive-forms-core-component}
 
 Un botón de radio de un formulario adaptable es un tipo de elemento de entrada que permite al usuario seleccionar una opción de un grupo de opciones relacionadas. Se representa mediante un pequeño botón circular que está relleno o vacío para indicar si la opción está seleccionada o no. Cuando un usuario selecciona un botón de radio, el resto del grupo deja de estar seleccionado. Los botones de radio suelen utilizarse cuando hay varias opciones mutuamente excluyentes y solo se puede seleccionar una a la vez.
 
@@ -26,7 +26,7 @@ En este ejemplo, el elemento Opciones se utiliza para agrupar los botones de rad
 
 Cada opción de botón de radio tiene un valor de datos y un atributo de texto mostrado. Si un usuario selecciona “1-10”, el valor de datos correspondiente se envía al servidor cuando se envía el formulario. Estos datos se pueden procesar mediante una secuencia de comandos del lado del servidor para determinar qué opciones ha seleccionado el usuario y se pueden utilizar para realizar diversas acciones, como actualizar otros campos del formulario o enviar los datos del formulario a una secuencia de comandos del lado del servidor para un procesamiento posterior.
 
-Además, cada botón de radio se puede configurar para que tenga valores de procesamiento diferentes para cada opción, y esto se puede definir mediante el Editor de reglas de Formularios adaptables.
+Además, cada botón de radio se puede configurar para que tenga valores de procesamiento diferentes para cada opción, y esto se puede definir mediante el Editor de reglas de Formularios adaptables
 
 ## Uso {#reasons-to-use-radio-button}
 
@@ -56,7 +56,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal de botón de radio de Formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de botón de radio de Formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/radiobutton/v1/radiobutton). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
@@ -74,7 +74,7 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**. \
+- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**.\
   Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en un formulario adaptable.
@@ -108,7 +108,7 @@ También puede dar formato a las opciones del grupo de botones de opción median
 ![Pestaña Validación](/help/adaptive-forms/assets/radiobutton_validationtab.png)
 
 - **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe realizar una selección antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Deshabilitar componente** en la pestaña **Básico** cuando se selecciona esta opción.
-- **Mensaje de error**: esta opción le permite introducir un mensaje que se muestra si la casilla de verificación **Obligatorio** está activada y el campo de formulario se deja en blanco.
+- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 
 - **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
@@ -133,7 +133,7 @@ También puede dar formato a las opciones del grupo de botones de opción median
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
    - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Botón de radio.
 

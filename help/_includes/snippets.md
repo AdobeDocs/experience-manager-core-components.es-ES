@@ -1,6 +1,6 @@
 ---
 source-git-commit: 46278a9b0f5e548297db3d6fcc42acde67eabf47
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '214'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 * [Use Forms Portal to list AEM Adaptive Forms on an AEM website](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-forms-portal.html)
 -->
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 - [Crear un formulario adaptable de AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
 - [Agregar un formulario adaptable de AEM a la página de AEM Sites](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page.html?lang=es)

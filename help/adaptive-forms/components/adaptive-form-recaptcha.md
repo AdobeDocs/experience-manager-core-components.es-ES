@@ -1,18 +1,18 @@
 ---
-title: 'Componente principal de Forms adaptable: Google reCAPTCHA'
-description: Mejore la seguridad de los formularios con el servicio reCAPTCHA de Google sin esfuerzo con AEM Forms. Explicar las propiedades del formulario adaptable reCaptcha
+title: 'Componente principal de formularios adaptables: Google reCAPTCHA'
+description: Mejore la seguridad de los formularios con el servicio reCAPTCHA de Google sin esfuerzo alguno. Explicar las propiedades de reCaptcha de formulario adaptable
 role: Architect, Developer, Admin, User
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1325'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 
 # reCAPTCHA de formulario adaptable {#google-recaptcha}
 
-CAPTCHA (prueba de Turing completamente automática y pública para diferenciar ordenadores de humanos) es un programa que se utiliza comúnmente en transacciones en línea para distinguir entre humanos y programas o bots automatizados. Plantea un desafío y evalúa la respuesta del usuario para determinar si es un humano o un bot que interactúa con el sitio. Evita que el usuario continúe si la prueba falla y ayuda a que las transacciones en línea sean seguras al impedir que los bots publiquen contenido no deseado o con fines malintencionados.
+CAPTCHA (prueba de Turing pública completamente automatizada para diferenciar ordenadores de humanos) es un programa que se utiliza habitualmente en las transacciones en línea para distinguir entre humanos y programas o bots automatizados. Plantea un desafío y evalúa la respuesta del usuario para determinar si es un humano o un bot que interactúa con el sitio. Evita que el usuario continúe si la prueba falla y ayuda a que las transacciones en línea sean seguras al impedir que los bots publiquen contenido no deseado o con fines malintencionados.
 
 AEM Forms as a Cloud Service es compatible con Google reCAPTCHA v2 en los formularios adaptables. Puede utilizarlo para presentar un desafío de CAPTCHA en el envío de formularios
 
@@ -42,7 +42,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente acerca del componente principal reCAPTCHA de Google de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente acerca del componente principal reCAPTCHA de Google de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/recaptcha/v1/recaptcha). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
@@ -63,15 +63,15 @@ Puede personalizar fácilmente la experiencia de reCAPTCHA de Google para los vi
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
-- **Ajustes de configuración**: seleccione el contenedor de configuración que contiene la configuración de nube que conecta AEM Forms con el servicio reCAPTCHA de Google.
+- **Ajustes de configuración**: seleccione el contenedor de configuración que contiene la configuración en la nube que conecta AEM Forms con el servicio reCAPTCHA de Google.
 
   >[!NOTE]
   >
-  > Consulte la [Usar Google AEM reCAPTCHA en un formulario adaptable de forma basado en componentes principales](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) para aprender a crear y configurar Google reCAPTCHA para su entorno.
+  > Consulte el artículo [Utilización de Google reCAPTCHA en un formulario adaptable de AEM basado en componentes principales](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components) para aprender a crear y configurar Google reCAPTCHA para su entorno.
 
 - **Tipo**: elija esta opción para seleccionar el tamaño de reCAPTCHA.
-   - **Normal**: Se refiere a la versión estándar y más grande del widget reCAPTCHA, que puede ser más visible y fácil de interactuar para los usuarios, especialmente en dispositivos con pantallas más grandes.
-   - **Compacto**: Se refiere a una versión más pequeña del widget reCAPTCHA. Esta opción es adecuada para situaciones en las que el espacio es limitado, como en dispositivos móviles o en diseños ajustados en páginas web.
+   - **Normal**: se refiere a la versión estándar, más grande del widget reCAPTCHA, que puede ser más visible y fácil de interactuar para los usuarios, especialmente en dispositivos con pantallas más grandes.
+   - **Compacto**: se refiere a una versión más pequeña del widget reCAPTCHA. Esta opción es adecuada en situaciones en las que el espacio es limitado, como en dispositivos móviles o en diseños ajustados en páginas web.
 
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 
@@ -83,21 +83,21 @@ Puede personalizar fácilmente la experiencia de reCAPTCHA de Google para los vi
 
 ![Pestaña Validación](/help/adaptive-forms/assets/recaptcha-validationtab.png)
 
-- **Mensaje de error**: esta opción le permite introducir un mensaje que se muestra si la casilla de verificación **Obligatorio** está activada y el campo de formulario se deja en blanco.
+- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 
 - **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-Cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente reCAPTCHA.
+El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS para el componente reCAPTCHA.
 
 ### Pestaña Estilos {#styles-design-tab}
 
-El componente principal de reCAPTCHA de Forms AEM adaptable es compatible con la función de [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+El componente principal de reCAPTCHA de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal reCAPTCHA de Forms adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal reCAPTCHA de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 

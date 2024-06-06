@@ -4,7 +4,7 @@ description: Cree experiencias de inscripción atractivas (formularios) con la f
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: 4b05fb9d8db515289095f4d3c6a4efbe872dbde5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2229'
 ht-degree: 100%
 
@@ -65,7 +65,7 @@ Las experiencias de captura de datos son cruciales para la generación de posibl
 
 * **[Mayor facilidad para aplicar estilos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: es más fácil aplicar estilos a los componentes principales que sus componentes de base equivalentes. El proceso de creación del tema es similar al de Sites, con la capacidad de heredar el mismo tema/CSS de la página principal de Sites. Además, el modelo BEM para aplicar estilo facilita la comprensión y modificación de los estilos.
 
-* **Accesibilidad**: los componentes principales de formularios adaptables admiten normas y directrices de accesibilidad para garantizar que las personas con discapacidades puedan utilizar los formularios, incluidas aquellas personas que utilizan tecnologías de asistencia como lectores de pantalla
+* **Accesibilidad**: los componentes principales de formularios adaptables admiten normas y directrices de accesibilidad para garantizar que las personas con discapacidades puedan utilizar los formularios, incluidas aquellas personas que utilizan tecnologías de asistencia como lectores de pantalla.
 
 * **[Versiones](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: puede crear y administrar varias versiones de formularios adaptables basados en componentes principales, participar en debates de colaboración con comentarios y adjuntar anotaciones a componentes de formulario específicos, lo que mejora la experiencia general de creación de formularios.
 
@@ -264,6 +264,6 @@ Puede realizar las siguientes acciones en los entornos de AEM Forms as a Cloud S
     
     <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
-## Vea también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

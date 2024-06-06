@@ -4,13 +4,13 @@ description: Uso o personalización del componente principal de título de formu
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Componente de título de formulario{#title-input-adaptive-forms-core-component}
+# Componente Título de formulario{#title-input-adaptive-forms-core-component}
 
 En un formulario adaptable, un “título” hace referencia al texto que aparece en la parte superior del formulario, normalmente debajo del encabezado. El título se especifica mediante el componente de título. Este componente puede añadirse al diseño del formulario y su texto puede editarse para que coincida con el propósito o el tema del formulario. El título sirve como etiqueta o descripción breve del formulario para el usuario y ayuda a distinguirlo de otros.
 
@@ -70,9 +70,9 @@ El cuadro de diálogo de edición permite al autor del contenido definir el text
    - Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    - Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-La pestaña Diseño se utiliza para definir y administrar estilos CSS para el componente de título del formulario.
+La pestaña Diseño se utiliza para definir y administrar estilos CSS para el componente de título de formulario.
 
 ### Título
 

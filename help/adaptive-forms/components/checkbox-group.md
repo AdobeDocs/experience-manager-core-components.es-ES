@@ -4,13 +4,13 @@ description: Uso o personalización del componente principal del grupo de casill
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2102'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Componente de grupo de casilla {#button-component-adaptive-forms-core-component}
+# Componente Grupo de casillas de verificación {#button-component-adaptive-forms-core-component}
 
 Un grupo de casillas de verificación de un formulario adaptable es un conjunto de casillas de verificación relacionadas que permiten a los usuarios seleccionar una o más opciones de una lista. Cada casilla de verificación está representada por un valor de datos (valor que se utiliza para procesar elementos de un grupo de casillas de verificación) y un valor de visualización (etiqueta para cada elemento de casilla de verificación que describe su propósito)
 **Ejemplo**
@@ -59,11 +59,11 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal Grupo de casillas de verificación de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal Grupo de casillas de verificación de formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/checkboxgroup/v1/checkboxgroup). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia de las casillas de verificación para los visitantes con el cuadro de diálogo de configuración. También puede definir opciones de casilla de verificación con facilidad para que la experiencia del usuario sea óptima.
+Puede personalizar fácilmente la experiencia de las casillas de verificación para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de la Casilla de verificación con facilidad para que la experiencia del usuario sea óptima.
 
 
 ### Pestaña Básicos {#basic-tab}
@@ -81,7 +81,7 @@ Puede personalizar fácilmente la experiencia de las casillas de verificación p
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**. \
+- **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**.\
   Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
@@ -116,7 +116,7 @@ Puede personalizar fácilmente la experiencia de las casillas de verificación p
 
 - **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe realizar una selección antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Deshabilitar componente** en la pestaña **Básico** cuando se selecciona esta opción.
 
-- **Mensaje de error**: esta opción le permite introducir un mensaje que se muestra si la casilla de verificación **Obligatorio** está activada y el campo de formulario se deja en blanco.
+- **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 
 - **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
@@ -141,7 +141,7 @@ Puede personalizar fácilmente la experiencia de las casillas de verificación p
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
    - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo Diseño se emplea para definir y administrar estilos CSS para el componente de grupo de casillas de verificación.
 

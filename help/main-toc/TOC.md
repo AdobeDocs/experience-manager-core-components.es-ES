@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: d41cf56f3889ff6aa1bf6f753dc5331248d1ae2e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 97%
       + [Contenedor de formulario adaptable](/help/adaptive-forms/components/form-container.md)
       + [Selector de fecha de Formularios adaptables](/help/adaptive-forms/components/date-picker.md)
       + [Lista desplegable de Formularios adaptables](/help/adaptive-forms/components/drop-down-list.md)
-      + [Correo electrónico adaptable de Forms](/help/adaptive-forms/components/email.md)
+      + [Correo electrónico de Formularios adaptables](/help/adaptive-forms/components/email.md)
       + [Fragmento de formulario de Formularios adaptables](/help/adaptive-forms/components/adaptive-form-fragment.md)
       + [Archivos adjuntos de Formularios adaptables](/help/adaptive-forms/components/file-attachment.md)
       + [Pestañas verticales de formularios adaptables](/help/adaptive-forms/components/vertical-tabs.md)
@@ -127,10 +127,10 @@ ht-degree: 97%
       + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
       + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
       + [Cambio de Formularios adaptables](/help/adaptive-forms/components/adaptive-form-switch.md)
-      + [Teléfono Forms adaptable](/help/adaptive-forms/components/phone.md)
+      + [Teléfono de formularios adaptables](/help/adaptive-forms/components/phone.md)
       + [Texto de Formularios adaptables](/help/adaptive-forms/components/text.md)
       + [Cuadro de texto de Formularios adaptables](/help/adaptive-forms/components/text-box.md)
-      + [Título del formulario adaptable de Forms](/help/adaptive-forms/components/form-title.md)
+      + [Título de formulario de Formularios adaptables](/help/adaptive-forms/components/form-title.md)
       + [Asistente de Formularios adaptables](/help/adaptive-forms/components/wizard.md)
       + [Términos y condiciones del formulario adaptable](/help/adaptive-forms/components/terms-and-conditions.md)
       + [Encabezado](/help/adaptive-forms/components/header.md)

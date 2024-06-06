@@ -4,9 +4,9 @@ description: Utilice el acordeón para organizar y simplificar un formulario lar
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2237'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -185,7 +185,7 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 * By clicking or tapping on a panel in the drop-down, you can easily switch the view in the editor to that specific panel.
 * To rearrange the panels, simply use the drag handles to move them into the desired order. -->
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo Diseño permite a los creadores de plantillas controlar cómo se muestran las cosas de forma predeterminada. Para el componente acordeón de formularios adaptables, puede establecer lo siguiente:
 
@@ -223,7 +223,7 @@ El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS 
 
 ### Propiedades personalizadas
 
-![acordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
+![accordion-custom-properties-tab](/help/adaptive-forms/assets/accordion-custom-properties-tab.png)
 Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
 - **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
