@@ -1,17 +1,17 @@
 ---
-title: 'Componente principal de Forms adaptable: entrada telefónica, teléfono'
+title: 'Componente principal de formularios adaptables: entrada de teléfono, teléfono'
 description: Uso o personalización del componente principal de entrada del teléfono de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
 workflow-type: tm+mt
 source-wordcount: '2197'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
 
-# Componente de teléfono{#telephone-input-adaptive-forms-core-component}
+# Componente Teléfono{#telephone-input-adaptive-forms-core-component}
 
 El componente principal Teléfono del formulario adaptable permite a los usuarios introducir un número de teléfono. El campo de entrada de teléfono muestra teclados en dispositivos móviles que son relevantes para números de teléfono. Se puede personalizar con atributos adicionales como “patrón” y “marcador de posición” para especificar el formato y la descripción del número de teléfono.
 
@@ -45,7 +45,7 @@ To experience the Accordion Component as well as see examples of its configurati
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal de entrada del teléfono del formulario adaptable en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/telephoneinput/v1/telephoneinput). Para obtener más información sobre el desarrollo de componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga la información más reciente sobre el componente principal de entrada del teléfono del formulario adaptable en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/telephoneinput/v1/telephoneinput). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
@@ -64,7 +64,7 @@ Puede personalizar fácilmente la experiencia de entrada de teléfono para los v
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 - **Texto del marcador de posición**: el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
 
-- **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
+- **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
 
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
@@ -73,7 +73,7 @@ Puede personalizar fácilmente la experiencia de entrada de teléfono para los v
 
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
-- **Valor predeterminado**: esta opción le permite agregar un valor predeterminado en un campo de formulario. Si **Componente desactivado** o **Componente de solo lectura** está seleccionado, el valor predeterminado se muestra en la pantalla. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento de envío del formulario.
+- **Valor predeterminado**: esta opción le permite agregar un valor predeterminado en un campo de formulario. Si **Componente desactivado** o **Componente de solo lectura** está seleccionado, el valor predeterminado se muestra en la pantalla. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento del envío del formulario.
 
 - **Atributo de relleno automático**: la opción permite a los usuarios introducir un valor que se rellena automáticamente dentro del campo de formulario en función de la información almacenada.
 
@@ -121,17 +121,17 @@ La opción **Patrón de validación** permite introducir un patrón para validar
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
    - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente de teléfono.
+El cuadro de diálogo Diseño se utiliza para definir y administrar estilos CSS para el componente de teléfono.
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de teléfono de Forms AEM adaptable es compatible con el servicio de asistencia de [Sistema de estilos](/help/get-started/authoring.md#component-styling).
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal Teléfono de formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/telephoneinput_designdialog.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de teléfono de Forms adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal Teléfono de formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 

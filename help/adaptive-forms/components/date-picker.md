@@ -10,7 +10,7 @@ ht-degree: 93%
 
 ---
 
-# Componente de selector de fechas{#date-picker-adaptive-forms-core-component}
+# Componente Selector de fecha{#date-picker-adaptive-forms-core-component}
 
 Un componente de selector de fecha de un Formulario adaptable es un elemento de la interfaz de usuario que permite a los usuarios seleccionar una fecha de un calendario o introduciendo manualmente una fecha en un formato específico. El componente de selector de fecha se puede configurar para que tenga valores de formato, validación y predeterminados diferentes.
 
@@ -71,7 +71,7 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 - **Ocultar título**: seleccione esta opción para ocultar el título del tipo de componente en un Formulario adaptable.
 
 - **Texto del marcador de posición**: el texto del marcador de posición de un componente de formulario hace referencia a una etiqueta o solicitud corta que aparece dentro de un campo de entrada como una sugerencia al usuario sobre qué tipo de información se espera que se introduzca en ese campo. El texto del marcador de posición desaparece cuando el usuario empieza a escribir en el campo y vuelve a aparecer si el campo se deja vacío. Proporciona una pista visual al usuario, pero no actúa como etiqueta o valor permanente para el campo.
-- **Referencia de enlace**: una referencia de enlace es una referencia a un elemento de datos que se almacena en un origen de datos externo y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
+- **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con orígenes de datos externos, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
 
@@ -147,7 +147,7 @@ El conjunto de idiomas no está visible de forma predeterminada, pero los usuari
    >
    > Para obtener más información sobre cómo traducir un formulario adaptable a una configuración regional específica, consulte [haga clic aquí](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente de selector de fechas.
 
