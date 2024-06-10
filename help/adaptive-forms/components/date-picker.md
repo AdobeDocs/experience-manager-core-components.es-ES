@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de selector de fech
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2299'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -131,21 +131,21 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 - **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción **Tipo** permite al usuario seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 
 - **Editar formato**: representa un formato de fecha en el que el usuario puede editar la fecha. La opción **Tipo** permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
-- **Mensaje de error de formato** : Esta opción le permite introducir el mensaje mostrado en la pantalla cuando la fecha introducida no tiene el formato correcto.
-- **Idioma** : Esta función se utiliza para dar formato al campo específico. Cuando un usuario selecciona cualquier opción de idioma del **Tipo** menú desplegable, la variable **Etiqueta de idioma IETF BCP 47** opción aparece en el panel. Puede elegir el idioma del formato del campo al traducir un formulario adaptable a un idioma específico.
+- **Mensaje de error de formato**: esta opción le permite introducir el mensaje mostrado en la pantalla cuando la fecha introducida no tiene el formato correcto.
+- **Idioma**: esta función se utiliza para dar formato al campo específico. Cuando un usuario selecciona cualquier opción de idioma del menú desplegable **Tipo**, la opción **Etiqueta de idioma IETF BCP 47** aparece en el panel. Puede elegir el idioma del formato del campo al traducir un formulario adaptable a un idioma específico.
 
-El conjunto de idiomas no está visible de forma predeterminada, pero los usuarios pueden introducir un idioma personalizado **Etiqueta de idioma IETF BCP 47** actualizando la directiva de plantilla:
+El conjunto de idiomas no está visible de forma predeterminada, pero los usuarios pueden introducir una **Etiqueta de idioma IETF BCP 47** actualizando la directiva de plantilla:
 
 1. Abra la plantilla correspondiente asociada a un formulario adaptable en el editor de plantillas.
 2. Seleccione la política existente como `datepicker-default-policy` en el menú desplegable.
 
-   ![Política de plantilla del selector de fechas](/help/adaptive-forms/assets/date-picker-template-policy.png)
+   ![Política de plantilla del selector de fecha](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
 3. Haga clic en **Listo**.
 
    >[!NOTE]
    >
-   > Para obtener más información sobre cómo traducir un formulario adaptable a una configuración regional específica, consulte [haga clic aquí](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+   > Para obtener más información sobre cómo traducir un formulario adaptable a una configuración regional específica, [haga clic aquí](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
