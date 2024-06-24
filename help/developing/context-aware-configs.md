@@ -3,10 +3,10 @@ title: Configuraciones según el contexto y componentes principales de Sling
 description: Los componentes principales aprovechan las configuraciones según el contexto de Sling para determinadas funciones
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '174'
+ht-degree: 87%
 
 ---
 
@@ -26,8 +26,9 @@ Varias funciones de componentes principales aprovechan las configuraciones segú
 
 * `/conf/<my-site>/sling:configs/<my-configuration>`
 
-Las configuraciones individuales dependen del componente o la función específicos. Las funciones de los componentes principales que utilizan configuraciones según el contexto son:
+Las configuraciones individuales dependen del componente o la función específicos. Las funciones de los componentes principales que utilizan configuraciones según el contexto incluyen:
 
+* [El componente Página](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) se basa en la configuración según el contexto al procesar `link`, `script` y `meta` etiquetas.
 * [Componente Visualizador de PDF](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 * [Capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md#installation-activation)
 * [Compatibilidad con AMP](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
