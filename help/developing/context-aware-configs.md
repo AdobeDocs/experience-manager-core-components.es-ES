@@ -4,9 +4,9 @@ description: Los componentes principales aprovechan las configuraciones según e
 role: Architect, Developer, Admin
 exl-id: d35210f7-a65d-4768-ab9e-f12ec406da2d
 source-git-commit: b72defe1bbe6cb286730ac3f508f7d6c14b3fc33
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '174'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Varias funciones de componentes principales aprovechan las configuraciones segú
 
 Las configuraciones individuales dependen del componente o la función específicos. Las funciones de los componentes principales que utilizan configuraciones según el contexto incluyen:
 
-* [El componente Página](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) se basa en la configuración según el contexto al procesar `link`, `script` y `meta` etiquetas.
+* [El componente Página](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/page/v3/page#loading-of-context-aware-cssjs) se basa en la configuración según el contexto al procesar etiquetas `link`, `script` y `meta`.
 * [Componente Visualizador de PDF](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/pdfviewer/v1/pdfviewer#context-aware-config)
 * [Capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md#installation-activation)
 * [Compatibilidad con AMP](https://github.com/adobe/aem-core-wcm-components/tree/master/extensions/amp)
