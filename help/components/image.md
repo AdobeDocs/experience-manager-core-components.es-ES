@@ -4,7 +4,7 @@ description: El componente principal Imagen es un componente de imagen adaptable
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 100%
 

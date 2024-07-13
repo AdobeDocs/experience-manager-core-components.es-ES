@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de texto de formula
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: 8bba79956a04020647d5d04f9fe6fa674affedf1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '996'
 ht-degree: 100%
 

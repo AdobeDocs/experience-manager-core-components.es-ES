@@ -5,12 +5,12 @@ role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
 source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1240'
 ht-degree: 100%
 
 ---
 
-# Incrustar componente (Versión 1) {#embed-component}
+# Componente incrustado (v1) {#embed-component}
 
 El componente de incrustación de componentes principales permite incrustar contenido externo en una página de contenido de AEM.
 

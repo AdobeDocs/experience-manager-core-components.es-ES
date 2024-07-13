@@ -4,7 +4,7 @@ description: Uso o personalizaci√≥n del componente principal de entrada del tel√
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2197'
 ht-degree: 100%
 

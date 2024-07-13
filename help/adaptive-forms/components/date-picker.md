@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de selector de fech
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: b4a66a407e92398a98441c65ab588b9720777dfa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2299'
 ht-degree: 100%
 
@@ -132,9 +132,9 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 - **Editar formato**: representa un formato de fecha en el que el usuario puede editar la fecha. La opción **Tipo** permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 - **Mensaje de error de formato**: esta opción le permite introducir el mensaje mostrado en la pantalla cuando la fecha introducida no tiene el formato correcto.
-- **Idioma**: esta función se utiliza para dar formato al campo específico. Cuando un usuario selecciona cualquier opción de idioma del menú desplegable **Tipo**, la opción **Etiqueta de idioma IETF BCP 47** aparece en el panel. Puede elegir el idioma del formato del campo al traducir un formulario adaptable a un idioma específico.
+- **Idioma**: esta función se utiliza para dar formato al campo específico. Cuando un usuario selecciona cualquier opción de idioma del menú desplegable **Tipo**, aparece la opción **Etiqueta de idioma IETF BCP 47** en el panel. Puede elegir el idioma del formato del campo al traducir un formulario adaptable a un idioma específico.
 
-El conjunto de idiomas no está visible de forma predeterminada, pero los usuarios pueden introducir una **Etiqueta de idioma IETF BCP 47** actualizando la directiva de plantilla:
+El conjunto de idiomas no está visible de forma predeterminada, pero los usuarios pueden introducir una **Etiqueta de idioma IETF BCP 47** personalizada actualizando la directiva de plantilla:
 
 1. Abra la plantilla correspondiente asociada a un formulario adaptable en el editor de plantillas.
 2. Seleccione la política existente como `datepicker-default-policy` en el menú desplegable.

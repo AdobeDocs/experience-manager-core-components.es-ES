@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de pestañas horizo
 role: Architect, Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2153'
 ht-degree: 100%
 

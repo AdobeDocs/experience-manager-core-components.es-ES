@@ -2,13 +2,13 @@
 title: Personalizar los componentes principales de los formularios adaptables
 description: Descubra cómo ampliar o crear un componente principal de formularios adaptables para implementar funciones a medida para su organización.
 role: Architect, Developer, Admin
-source-git-commit: 9a80b453d6a6cf7b347128654d3b5e673a063505
-workflow-type: ht
-source-wordcount: '707'
+exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
+source-git-commit: 79cedf7099e2dc267a4cb1c25c06d4f0460367b2
+workflow-type: tm+mt
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
-
 
 # Personalizar los componentes principales de los formularios adaptables
 
@@ -57,4 +57,3 @@ Siga los pasos que aparecen a continuación para modificar la apariencia, el com
 1. **Implementar el componente personalizado en el entorno de producción**
 
    Una vez probado el componente en su entorno de desarrollo local, impleméntelo en los entornos de producción.
-

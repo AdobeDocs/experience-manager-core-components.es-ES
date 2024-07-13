@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '758'
 ht-degree: 100%
 
 ---
@@ -62,7 +62,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir los int
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
-## Cuadro de diálogo de diseño {#design-dialog}
+## Cuadro de diálogo Diseño {#design-dialog}
 
 Con el cuadro de diálogo de diseño, el autor de la plantilla puede establecer el valor predeterminado para el rango de título del componente Tabla de contenido, así como restringir los títulos incluidos en la TDC en función de los nombres de clase.
 

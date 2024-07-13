@@ -2,13 +2,13 @@
 title: 'Componente principal de formularios adaptables: Google reCAPTCHA'
 description: Mejore la seguridad de los formularios con el servicio reCAPTCHA de Google sin esfuerzo alguno. Explicar las propiedades de reCaptcha de formulario adaptable
 role: Architect, Developer, Admin, User
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
+source-git-commit: b97687e7f7437af57e2a8b9f442d4e0c8322a3d2
+workflow-type: tm+mt
 source-wordcount: '1325'
 ht-degree: 100%
 
 ---
-
 
 # reCAPTCHA de formulario adaptable {#google-recaptcha}
 
@@ -85,7 +85,7 @@ Puede personalizar fácilmente la experiencia de reCAPTCHA de Google para los vi
 
 - **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 
-- **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
+- **Mensaje de validación de la secuencia de comandos**: esta opción permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 

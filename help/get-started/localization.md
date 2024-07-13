@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: 9140b65a-6dd7-4ec9-9095-6e8243ec8424
 source-git-commit: 888719359f9a1d1c9dccff97fb639b332f2be54c
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ A esta plantilla añadiremos los componentes básicos en los que queremos basar 
    * El componente Fragmento de experiencia se dirige a la ruta de fragmento en el idioma de creación del fragmento que representa el pie de página.
    * En función de la ruta de ese fragmento y de la estructura de los fragmentos de experiencia que reflejan la estructura de página localizada, el componente puede encontrar automáticamente el contenido localizado correspondiente.
 
-   ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
+  ![](/help/assets/screen-shot-2019-09-09-11.20.10.png)
 
 ## Páginas {#pages}
 

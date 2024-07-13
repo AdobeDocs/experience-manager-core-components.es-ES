@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '999'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|
-| Versión 1 | Compatible  | - |
+| Versión 1 | Compatible | - |
 
 ### Detalles técnicos {#technical-details}
 

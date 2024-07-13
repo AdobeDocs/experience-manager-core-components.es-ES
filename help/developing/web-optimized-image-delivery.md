@@ -4,7 +4,7 @@ description: Descubra cómo los componentes principales pueden aprovechar las fu
 role: Architect, Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: eb1822cb41a849695afb5125745ed5f78e3e70a4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 100%
 

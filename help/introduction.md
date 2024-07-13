@@ -4,7 +4,7 @@ description: Obtenga soluciones a problemas con los componentes principales y pe
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 source-git-commit: 39c9dd3374ea7c31b9f03cc02e883ab26f463368
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 100%
 

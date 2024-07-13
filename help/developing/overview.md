@@ -5,7 +5,7 @@ role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
 workflow-type: tm+mt
-source-wordcount: '1559'
+source-wordcount: '1287'
 ht-degree: 100%
 
 ---
@@ -22,14 +22,13 @@ Por lo tanto, Adobe ofrece las siguientes recomendaciones:
 Los proyectos nuevos siempre deben intentar utilizar los componentes principales. Si los componentes principales no se pueden utilizar directamente o [ampliados](customizing.md) para satisfacer los requisitos del proyecto, cree un componente personalizado siguiendo la arquitectura de componentes establecida en los componentes principales. Salvo que no sea posible, evite utilizar los [componentes de base](/help/versions.md#foundation-component-support).
 * **Proyectos existentes**
 Se recomienda que los proyectos existentes sigan usando los [componentes base](/help/versions.md#foundation-component-support), a menos que se planifique una refactorización de sitios o componentes.\
-   Como la mayoría de los proyectos existentes los utilizan muy ampliamente, los componentes de base [seguirán siendo compatibles.](/help/versions.md#foundation-component-support)
+  Como la mayoría de los proyectos existentes los utilizan muy ampliamente, los componentes de base [seguirán siendo compatibles.](/help/versions.md#foundation-component-support)
 * **Nuevos componentes personalizados**
 Evaluar si un [componente principal existente se puede personalizar](customizing.md).\
-   Si no es así, se recomienda crear un componente personalizado nuevo siguiendo las [Directrices de componentes](guidelines.md).
+  Si no es así, se recomienda crear un componente personalizado nuevo siguiendo las [Directrices de componentes](guidelines.md).
 * **Componentes personalizados existentes**
-Si los componentes funcionan según lo esperado, manténgalos tal cual.
-\
-   Si no es así, consulte &quot;Nuevos componentes personalizados&quot; más arriba.
+Si los componentes funcionan según lo esperado, manténgalos tal cual.\
+  Si no es así, consulte &quot;Nuevos componentes personalizados&quot; más arriba.
 
 ## Cómo utilizar correctamente los componentes principales {#how-to-succeed}
 

@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal del grupo de casill
 role: Architect, Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2102'
 ht-degree: 100%
 

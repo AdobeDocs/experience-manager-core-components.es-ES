@@ -6,8 +6,8 @@ role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
 workflow-type: tm+mt
-source-wordcount: '1323'
-ht-degree: 100%
+source-wordcount: '1293'
+ht-degree: 98%
 
 ---
 
@@ -104,28 +104,28 @@ El cuadro de diálogo de edición permite al autor del contenido recortar, modif
 
 * Iniciar recorte
 
-   ![](/help/assets/chlimage_1-9.png)
+  ![](/help/assets/chlimage_1-9.png)
 
-   Al seleccionar esta opción, se abrirá una lista desplegable para las proporciones de recorte predefinidas.
+  Al seleccionar esta opción, se abrirá una lista desplegable para las proporciones de recorte predefinidas.
 
    * Elija la opción **Mano alzada** para definir su propio recorte.
    * Elija la opción **Quitar recorte** para mostrar el recurso original.
 
-   Una vez seleccionada una opción de recorte, utilice los controladores azules para cambiar el tamaño del recorte en la imagen.
+  Una vez seleccionada una opción de recorte, utilice los controladores azules para cambiar el tamaño del recorte en la imagen.
 
-   ![](/help/assets/chlimage_1-10.png)
+  ![](/help/assets/chlimage_1-10.png)
 
 * Girar a la derecha
 
-   ![](/help/assets/chlimage_1-11.png)
+  ![](/help/assets/chlimage_1-11.png)
 
-   Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
+  Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
 
 * Iniciar mapa
 
-   ![](/help/assets/chlimage_1-12.png)
+  ![](/help/assets/chlimage_1-12.png)
 
-   Utilice esta opción para aplicar un mapa de lanzamiento a la imagen. Al seleccionar esta opción, se abre una nueva ventana que permite al usuario seleccionar la forma del mapa:
+  Utilice esta opción para aplicar un mapa de lanzamiento a la imagen. Al seleccionar esta opción, se abre una nueva ventana que permite al usuario seleccionar la forma del mapa:
 
    * **Agregar mapa rectangular**
    * **Agregar mapa circular**
@@ -133,11 +133,11 @@ El cuadro de diálogo de edición permite al autor del contenido recortar, modif
 
       * De forma predeterminada, añade un mapa triangular. Haga doble clic en una línea de la forma para agregar un nuevo controlador azul de cambio de tamaño en un lado nuevo.
 
-   Una vez seleccionada una forma del mapa, se superpone a la imagen para permitir el cambio de tamaño. Arrastre y suelte los controladores de tamaño azules para ajustar la forma.
+  Una vez seleccionada una forma del mapa, se superpone a la imagen para permitir el cambio de tamaño. Arrastre y suelte los controladores de tamaño azules para ajustar la forma.
 
-   ![](/help/assets/chlimage_1-13.png)
+  ![](/help/assets/chlimage_1-13.png)
 
-   Después de cambiar el tamaño del mapa de lanzamiento, haga clic en él para abrir una barra de herramientas flotante y definir la ruta del vínculo.
+  Después de cambiar el tamaño del mapa de lanzamiento, haga clic en él para abrir una barra de herramientas flotante y definir la ruta del vínculo.
 
    * **Ruta**
       * Utilice la opción Selector de rutas para seleccionar una ruta en AEM
@@ -151,23 +151,23 @@ Descripción alternativa del destino de la ruta
          * **Marco principal**
          * **Marco superior**
 
-   Pulse o haga clic en la marca de verificación azul para guardar, en la x negra para cancelar y en la papelera roja para eliminar el mapa.
+  Pulse o haga clic en la marca de verificación azul para guardar, en la x negra para cancelar y en la papelera roja para eliminar el mapa.
 
-   ![](/help/assets/chlimage_1-14.png)
+  ![](/help/assets/chlimage_1-14.png)
 
 * Restablecer zoom
 
-   ![](/help/assets/chlimage_1-15.png)
+  ![](/help/assets/chlimage_1-15.png)
 
-   Si la imagen ya se ha ampliado, utilice esta opción para restablecer el nivel de zoom.
+  Si la imagen ya se ha ampliado, utilice esta opción para restablecer el nivel de zoom.
 
 * Abrir deslizador del zoom
 
-   ![](/help/assets/chlimage_1-16.png)
+  ![](/help/assets/chlimage_1-16.png)
 
-   Utilice esta opción para mostrar un control deslizante para controlar el nivel de zoom de la imagen.
+  Utilice esta opción para mostrar un control deslizante para controlar el nivel de zoom de la imagen.
 
-   ![](/help/assets/chlimage_1-17.png)
+  ![](/help/assets/chlimage_1-17.png)
 
 El editor in situ también se puede utilizar para modificar la imagen. Debido a las limitaciones de espacio, solo las opciones básicas están disponibles en línea. Para obtener opciones de edición completas, utilice el modo de pantalla completa.
 
@@ -208,36 +208,36 @@ En la pestaña **Características** puede definir qué opciones están disponibl
 
 * Origen
 
-   ![](/help/assets/chlimage_1-19.png)
+  ![](/help/assets/chlimage_1-19.png)
 
-   Seleccione la opción **Permitir carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
+  Seleccione la opción **Permitir carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
 
 * Orientación
 
-   ![](/help/assets/chlimage_1-20.png)
+  ![](/help/assets/chlimage_1-20.png)
 
    * **Rotar**: utilice esta opción para permitir que el autor del contenido utilice la opción **Rotar hacia la derecha**.
    * **Voltear**
-Utilice esta opción para permitir que el autor de contenido utilice las opciones 
-**Voltear horizontalmente** y **voltear verticalmente**.
-   >[!CAUTION]
-   >
-   >La opción **Voltear** está desactivada de forma predeterminada. Al activarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
+Utilice esta opción para permitir que el autor del contenido utilice las opciones **Voltear horizontalmente** y **Voltear verticalmente**.
+
+  >[!CAUTION]
+  >
+  >La opción **Voltear** está desactivada de forma predeterminada. Al activarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
 
 * Recortar
 
-   ![](/help/assets/chlimage_1-21.png)
+  ![](/help/assets/chlimage_1-21.png)
 
-   Seleccione la opción **Permitir recorte** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
+  Seleccione la opción **Permitir recorte** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
    * Haga clic en **Añadir** para añadir una relación de aspecto de recorte predefinida.
    * Introduzca un nombre descriptivo que se mostrará en la lista desplegable **Iniciar recorte**.
    * Introduzca la relación numérica del aspecto.
    * Utilice los controles de arrastre para reorganizar el orden de las relaciones de aspecto
    * Utilice el icono de la papelera para eliminar una relación de aspecto.
 
-   >[!CAUTION]
-   >
-   >Tenga en cuenta que, en AEM, las relaciones de aspecto de recorte se definen como **altura/anchura**. Esto es distinto de la definición convencional de anchura/altura y se realiza por motivos de compatibilidad con sistemas anteriores. Los autores de contenido no notarán ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la propia relación.
+  >[!CAUTION]
+  >
+  >Tenga en cuenta que, en AEM, las relaciones de aspecto de recorte se definen como **altura/anchura**. Esto es distinto de la definición convencional de anchura/altura y se realiza por motivos de compatibilidad con sistemas anteriores. Los autores de contenido no notarán ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la propia relación.
 
 ## Detalles técnicos {#technical-details}
 

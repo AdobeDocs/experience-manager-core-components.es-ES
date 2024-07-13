@@ -4,8 +4,8 @@ description: Los componentes principales de correo electrónico se publican como
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 source-git-commit: 7ab19cb73493121282e90e752b38c445fd0962f0
-workflow-type: ht
-source-wordcount: '448'
+workflow-type: tm+mt
+source-wordcount: '415'
 ht-degree: 100%
 
 ---

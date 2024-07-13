@@ -1,16 +1,16 @@
 ---
-title: Componente Imagen  (Versión 2)
+title: Componente de imagen (versión 2)
 description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 100%
+source-wordcount: '2048'
+ht-degree: 98%
 
 ---
 
-# Componente Imagen   (Versión 2) {#image-component}
+# Componente de imagen (versión 2) {#image-component}
 
 El componente de imagen del componente principal es un componente de imagen adaptable que incluye la edición in situ.
 
@@ -121,48 +121,48 @@ El cuadro de diálogo de edición permite al autor del contenido recortar, modif
 
 * Iniciar recorte
 
-   ![Iniciar icono de recorte](/help/assets/image-start-crop.png)
+  ![Iniciar icono de recorte](/help/assets/image-start-crop.png)
 
-   Al seleccionar esta opción, se abrirá una lista desplegable para las proporciones de recorte predefinidas.
+  Al seleccionar esta opción, se abrirá una lista desplegable para las proporciones de recorte predefinidas.
 
    * Elija la opción **Mano alzada** para definir su propio recorte.
    * Elija la opción **Quitar recorte** para mostrar el recurso original.
 
-   Una vez seleccionada una opción de recorte, utilice los controladores azules para cambiar el tamaño del recorte en la imagen.
+  Una vez seleccionada una opción de recorte, utilice los controladores azules para cambiar el tamaño del recorte en la imagen.
 
-   ![Opciones de recorte](/help/assets/image-crop-options.png)
+  ![Opciones de recorte](/help/assets/image-crop-options.png)
 
 * Girar a la derecha
 
-   ![Icono Rotar a la derecha](/help/assets/image-rotate-right.png)
+  ![Icono Rotar a la derecha](/help/assets/image-rotate-right.png)
 
-   Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
+  Utilice esta opción para girar la imagen 90° a la derecha (en el sentido de las agujas del reloj).
 
 * Voltear horizontalmente
 
-   ![Icono Voltear horizontalmente](/help/assets/image-flip-horizontal.png)
+  ![Icono Voltear horizontalmente](/help/assets/image-flip-horizontal.png)
 
-   Utilice esta opción para voltear la imagen horizontalmente o girar la imagen 180° a lo largo del eje y.
+  Utilice esta opción para voltear la imagen horizontalmente o girar la imagen 180° a lo largo del eje y.
 
 * Voltear verticalmente
 
-   ![Icono Voltear verticalmente](/help/assets/image-flip-vertical.png)
+  ![Icono Voltear verticalmente](/help/assets/image-flip-vertical.png)
 
-   Utilice esta opción para voltear la imagen verticalmente o girar la imagen 180° a lo largo del eje x.
+  Utilice esta opción para voltear la imagen verticalmente o girar la imagen 180° a lo largo del eje x.
 
 * Restablecer zoom
 
-   ![Icono Restablecer zoom](/help/assets/image-reset-zoom.png)
+  ![Icono Restablecer zoom](/help/assets/image-reset-zoom.png)
 
-   Si la imagen ya se ha ampliado, utilice esta opción para restablecer el nivel de zoom.
+  Si la imagen ya se ha ampliado, utilice esta opción para restablecer el nivel de zoom.
 
 * Abrir deslizador del zoom
 
-   ![Icono del deslizador del zoom abierto](/help/assets/image-zoom.png)
+  ![Icono del deslizador del zoom abierto](/help/assets/image-zoom.png)
 
-   Utilice esta opción para mostrar un control deslizante para controlar el nivel de zoom de la imagen.
+  Utilice esta opción para mostrar un control deslizante para controlar el nivel de zoom de la imagen.
 
-   ![Control deslizador del zoom](/help/assets/image-zoom-slider.png)
+  ![Control deslizador del zoom](/help/assets/image-zoom-slider.png)
 
 El editor in situ también se puede utilizar para modificar la imagen. Debido a las limitaciones de espacio, solo las opciones básicas están disponibles en línea. Para obtener opciones de edición completas, utilice el modo de pantalla completa.
 
@@ -212,39 +212,37 @@ En la pestaña **Características** puede definir qué opciones están disponibl
 
 * Origen
 
-   ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-source.png)
+  ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-source.png)
 
-   Seleccione la opción **Permitir la carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
+  Seleccione la opción **Permitir la carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
 
 * Orientación
 
-   ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-orientation.png)
+  ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-orientation.png)
 
 * **Rotar**
-Utilice esta opción para permitir que el autor de contenido utilice la opción de 
-**Girar a la derecha**.
+Utilice esta opción para permitir que el autor del contenido utilice la opción **Rotar hacia la derecha**.
 * **Voltear**
-Utilice esta opción para permitir que el autor de contenido utilice las opciones 
-**Voltear horizontalmente** y **voltear verticalmente**.
+Utilice esta opción para permitir que el autor del contenido utilice las opciones **Voltear horizontalmente** y **Voltear verticalmente**.
 
-   >[!CAUTION]
-   >
-   >La opción **Voltear** está desactivada de forma predeterminada. Al activarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
+  >[!CAUTION]
+  >
+  >La opción **Voltear** está desactivada de forma predeterminada. Al activarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
 
 * Recortar
 
-   ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-cropping.png)
+  ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-cropping.png)
 
-   Seleccione la opción **Activar recortar** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
+  Seleccione la opción **Activar recortar** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
    * Haga clic en **Añadir** para añadir una relación de aspecto de recorte predefinida.
    * Introduzca un nombre descriptivo que se mostrará en la lista desplegable **Iniciar recorte**.
    * Introduzca la relación numérica del aspecto.
    * Utilice los controles de arrastre para reorganizar el orden de las relaciones de aspecto
    * Utilice el icono de la papelera para eliminar una relación de aspecto.
 
-   >[!CAUTION]
-   >
-   >Tenga en cuenta que, en AEM, las relaciones de aspecto de recorte se definen como **altura/anchura**. Esto es distinto de la definición convencional de anchura/altura y se realiza por motivos de compatibilidad con sistemas anteriores. Los autores de contenido no notarán ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la propia relación.
+  >[!CAUTION]
+  >
+  >Tenga en cuenta que, en AEM, las relaciones de aspecto de recorte se definen como **altura/anchura**. Esto es distinto de la definición convencional de anchura/altura y se realiza por motivos de compatibilidad con sistemas anteriores. Los autores de contenido no notarán ninguna diferencia siempre que proporcione un nombre claro de la relación, ya que el nombre se muestra en la interfaz de usuario y no en la propia relación.
 
 ### Pestaña Estilos {#styles-tab-1}
 

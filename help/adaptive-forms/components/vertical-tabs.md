@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de pestañas vertic
 role: Architect, Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2174'
 ht-degree: 100%
 

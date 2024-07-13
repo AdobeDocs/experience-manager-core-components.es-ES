@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal para adjuntar archi
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1911'
 ht-degree: 100%
 

@@ -5,7 +5,7 @@ role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2180'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 2 | Compatible  con la <br>[versión 2.17.4](/help/versions.md) y anterior | Compatible | Compatible |
+| Versión 2 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible |
 | [Versión 1](v1/text-v1.md) | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
@@ -133,7 +133,7 @@ Utilice esta opción para convertir el texto seleccionado en un hipervínculo o 
    * Marco principal
    * Marco superior
 
-   Pulse o haga clic en la marca de verificación para aplicar el vínculo o la x para cancelar.
+  Pulse o haga clic en la marca de verificación para aplicar el vínculo o la x para cancelar.
 
 ### Desvincular
 
