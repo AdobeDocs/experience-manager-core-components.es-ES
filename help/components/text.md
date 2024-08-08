@@ -4,9 +4,9 @@ description: El componente Texto es un componente de composición y edición de 
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 source-git-commit: 418f1b6c967760d801d0973a35e0a31343ddca6b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2181'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -306,7 +306,7 @@ El componente Texto también se puede editar en línea, pero debido a limitacion
 
 ### Configuración de un ID {#setting-id}
 
-Esta opción le permite controlar el identificador único del componente en el HTML y en la [capa de datos.](/help/developing/data-layer/overview.md)
+Esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos.](/help/developing/data-layer/overview.md)
 
 * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
 * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
