@@ -4,15 +4,15 @@ description: Los componentes principales se publican como versiones que pueden c
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: 1df528aec070c21c836f2fd6a92c7c6460f30798
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # Versiones de componentes principales {#core-components-versions}
 
-Los componentes principales son compatibles con las instalaciones de [AEM as a Cloud Service AEM](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) y [on-premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
+Los componentes principales son compatibles con las instalaciones de [AEM as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/landing/home.html?lang=es) y [AEM On-Premise](https://experienceleague.adobe.com/docs/experience-manager-65/user-guide/home.html?lang=es).
 
 ## Historial y compatibilidad de la versión {#release-history-and-compatibility}
 
