@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: botón Enviar'
 description: Uso o personalización del componente principal de botón Enviar de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: e4b8e475-79b9-4c4d-9f11-a125a424d32b
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 100%
+source-wordcount: '1510'
+ht-degree: 97%
 
 ---
 
@@ -32,7 +32,7 @@ Los motivos para usar el botón de envío en un formulario adaptable son los sig
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de acordeón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal del botón de envío de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service AEM y los componentes principales 1.1.12 para Forms 6.5.16.0 de o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|

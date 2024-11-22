@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: entrada de texto (cuadro
 description: Uso o personalización del componente principal de entrada de texto de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 100%
+source-wordcount: '2124'
+ht-degree: 98%
 
 ---
 
@@ -31,7 +31,7 @@ Existen varias razones para utilizar el componente de entrada de texto en un for
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de acordeón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal del cuadro de texto de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service AEM y los componentes principales 1.1.12 para Forms 6.5.16.0 de o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
@@ -50,6 +50,8 @@ Obtenga la información más reciente sobre el componente principal de pestañas
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
 Puede personalizar fácilmente la experiencia de entrada de texto para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de entrada de texto con facilidad para una experiencia del usuario perfecta.
+
+### Pestaña Básico
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/textinput_basictab.png)
 

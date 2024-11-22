@@ -3,10 +3,10 @@ title: 'Componente principal de formularios adaptables: lista desplegable'
 description: Uso o personalización del componente principal de lista desplegable de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 9d59d0d2-d38f-4ed5-8b43-984c45f26f27
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 100%
+source-wordcount: '2188'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ Además, la lista desplegable se puede configurar para que tenga diferentes valo
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de acordeón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de la lista desplegable de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service AEM y componentes principales 1.1.12 para Forms 6.5.16.0 o posterior de la. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
@@ -62,6 +62,8 @@ Obtenga la información más reciente sobre el componente principal de lista des
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
 Puede personalizar fácilmente la experiencia de la lista desplegable para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de la lista desplegable con facilidad para que la experiencia del usuario sea óptima.
+
+### Pestaña Básico
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/dropdown_basictab.png)
 
