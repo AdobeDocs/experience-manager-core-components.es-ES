@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de entrada de texto
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2124'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Existen varias razones para utilizar el componente de entrada de texto en un for
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del cuadro de texto de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service AEM y los componentes principales 1.1.12 para Forms 6.5.16.0 de o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de cuadro de texto se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
@@ -51,7 +51,7 @@ Obtenga la información más reciente sobre el componente principal de pestañas
 
 Puede personalizar fácilmente la experiencia de entrada de texto para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de entrada de texto con facilidad para una experiencia del usuario perfecta.
 
-### Pestaña Básico
+### Pestaña Básicos
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/textinput_basictab.png)
 
@@ -111,7 +111,7 @@ La opción **Patrón de validación** permite introducir un patrón para validar
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 

@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de entrada del tel�
 role: Architect, Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2199'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Los motivos comunes para utilizar un campo de entrada de teléfono en un formula
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de teléfono adaptable de Forms se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service AEM y los componentes principales 1.1.12 para 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de teléfono de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
@@ -51,7 +51,7 @@ Obtenga la información más reciente sobre el componente principal de entrada d
 
 Puede personalizar fácilmente la experiencia de entrada de teléfono para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de entrada de teléfono con facilidad para una experiencia del usuario sin problemas.
 
-### Pestaña Básico
+### Pestaña Básicos
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/telephoneinput_basictab.png)
 

@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '381'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 98%
       + [Pestañas horizontales de Formularios adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Imagen de Formularios adaptables](/help/adaptive-forms/components/image.md)
       + [Cuadro numérico de Formularios adaptables](/help/adaptive-forms/components/numeric-box.md)
-      + [Cuadro de contraseña de Forms adaptable](/help/adaptive-forms/components/password-box.md)
+      + [Cuadro de contraseña de Formularios adaptables](/help/adaptive-forms/components/password-box.md)
       + [Panel de Formularios adaptables](/help/adaptive-forms/components/panel.md)
       + [CAPTCHA para formularios adaptables](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)

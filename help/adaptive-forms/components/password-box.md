@@ -1,13 +1,13 @@
 ---
-title: 'Componente principal de Forms adaptable: cuadro de contraseña'
-description: Uso o personalización del componente principal Cuadro de contraseña de Forms adaptable.
+title: 'Componente principal de formularios adaptables: Cuadro de contraseña'
+description: Uso o personalización del componente principal Cuadro de contraseña de formularios adaptables.
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1916'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -15,13 +15,13 @@ ht-degree: 90%
 
 <span class="preview"> Esta es una función previa al lanzamiento y se puede acceder a ella a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features). </span>
 
-Un componente de cuadro de contraseña permite a los usuarios introducir y editar información confidencial, normalmente enmascarada por motivos de privacidad. El componente de contraseña se puede configurar con varias reglas de validación para garantizar la precisión de los datos. Los campos de contraseña, que suelen utilizarse en formularios, son sencillos y mejoran la seguridad de los datos.
+Un componente Cuadro de contraseña permite a los usuarios introducir y editar información confidencial, normalmente enmascarada por motivos de privacidad. El componente de contraseña se puede configurar con varias reglas de validación para garantizar la precisión de los datos. Los campos de contraseña, que suelen utilizarse en formularios, son sencillos y mejoran la seguridad de los datos.
 
 **Ejemplo**
 
 ![ejemplo de cuadro de contraseña](/help/adaptive-forms/assets/password.png)
 
-El usuario puede hacer clic en el icono del ojo para alternar la visibilidad del texto de la contraseña introducida. Mejora la seguridad y permite a los usuarios introducir información confidencial con precisión.
+El usuario puede hacer clic en el icono del ojo para conmutar la visibilidad del texto de la contraseña introducida. Mejora la seguridad y permite a los usuarios introducir información confidencial con precisión.
 
 ## Uso
 
@@ -29,9 +29,9 @@ Existen varias razones para utilizar el componente Cuadro de contraseña en un f
 
 - **Recopilación segura de datos**: el campo del cuadro de contraseña se usa para recopilar información confidencial, como contraseñas, PIN y otras entradas confidenciales, mostrando caracteres enmascarados por motivos de privacidad.
 
-- **Fácil de usar**: el campo del cuadro de contraseña permite a los usuarios introducir y editar información de forma segura sin exponerla en la pantalla.
+- **Fácil de usar**: el campo de cuadro de contraseña permite a los usuarios introducir y editar información de forma segura sin mostrarla en la pantalla.
 
-- **Flexibilidad**: el componente del cuadro de contraseña se puede configurar para cumplir los requisitos de seguridad, como las longitudes mínimas de caracteres, los caracteres especiales u otras validaciones personalizadas para garantizar una protección de datos y una precisión sólidas.
+- **Flexibilidad**: el componente de cuadro de contraseña se puede configurar para cumplir los requisitos de seguridad, como las longitudes mínimas de caracteres, los caracteres especiales u otras validaciones personalizadas para garantizar una protección de datos y una precisión sólidas.
 
 <!--
 ## Version and Compatibility {#version-and-compatibility}
@@ -56,7 +56,7 @@ Obtenga la información más reciente sobre el componente principal de pestañas
 
 Puede personalizar fácilmente la experiencia de entrada de texto para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de entrada de texto con facilidad para una experiencia del usuario perfecta.
 
-### Pestaña Básico
+### Pestaña Básicos
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/password-basic.png)
 
@@ -123,7 +123,7 @@ La opción **Patrón de validación** permite introducir un patrón para validar
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 

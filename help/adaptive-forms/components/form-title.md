@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de título de formu
 role: Architect, Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ En general, el título es un aspecto importante de la experiencia del usuario y 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de título de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service AEM y los componentes principales 1.1.12 para Forms 6.5.16.0 de o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de mosaico de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
@@ -63,7 +63,7 @@ Puede personalizar fácilmente la experiencia de títulos para los visitantes co
 
 El cuadro de diálogo de edición permite al autor del contenido definir el texto del título, así como seleccionar el nivel de encabezado.
 
-- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece en la parte superior del componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
+- **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 - **Tipo/tamaño**: define el nivel de encabezado del título.
 - **ID**: esta opción permite controlar el identificador único del componente del HTML y de la capa de datos.
    - Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.

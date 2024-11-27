@@ -4,9 +4,9 @@ description: Uso o personalización del Componente principal de la casilla de ve
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1838'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Obtenga la información más reciente sobre el Componente principal Casillas de 
 
 Puede personalizar fácilmente la experiencia de las Casillas de verificación para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de la Casilla de verificación con facilidad para que la experiencia del usuario sea óptima.
 
-### Pestaña Básico
+### Pestaña Básicos
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/checkbox-basic.png)
 

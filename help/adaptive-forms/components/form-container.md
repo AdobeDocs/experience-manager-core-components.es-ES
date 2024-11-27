@@ -4,15 +4,15 @@ description: Agregue un formulario adaptable a una página web.
 role: Architect, Developer, Admin, User
 exl-id: 03c4cf7c-51d6-4850-a566-1c0514d52dab
 source-git-commit: 86a30bc396d89340106177deb08323bfc5640e0e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1526'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # Contenedor del formulario {#form-container-adaptive-forms-core-component}
 
-<span class="preview"> Este artículo describe la característica **Borradores** <!--and **Hamburger Menu Support** -->, que es una característica previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
+<span class="preview"> En este artículo se describe la característica **Borradores** <!--and **Hamburger Menu Support** -->, que es una característica previa al lanzamiento. Solo se puede acceder a la función previa al lanzamiento mediante nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features).</span>
 
 Los formularios permiten a los visitantes interactuar con el sitio web proporcionando información valiosa, lo que puede aumentar la participación y la satisfacción del usuario. Un contenedor de formulario adaptable en Adobe Experience Manager (AEM) Sites permite a los propietarios de sitios web agregar fácilmente formularios a sus páginas. Esto ayuda a facilitar la comunicación entre los visitantes del sitio web y su propietario u organización, ya que proporciona una manera optimizada para que los visitantes proporcionen comentarios, hagan consultas y otras acciones
 
@@ -66,10 +66,10 @@ Puede personalizar fácilmente la experiencia del contenedor de formularios para
 
 - **Servicios de rellenado previo**: esta opción permite al usuario seleccionar un servicio de rellenado previo para recuperar datos cuando se procesa el formulario adaptable. Más información acerca de [cómo crear y configurar un servicio de rellenado previo](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/create-an-adaptive-form/prepopulate-adaptive-form-fields.html?lang=es#aem-forms-custom-prefill-service).
 
-- **Rol**: el rol es un atributo de HTML utilizado para especificar el propósito de un elemento de HTML para tecnologías de asistencia como lectores de pantalla. El atributo de función se utiliza para proporcionar un contexto y un significado semántico adicionales a un elemento, lo que facilita a los lectores de pantalla la interpretación y el anuncio del contenido al usuario. Por ejemplo, en AEM Forms, la etiqueta de un campo de formulario puede tener la función “label” y su campo de entrada puede tener la función “textbox”. Esto ayuda al lector de pantalla a comprender la relación entre la etiqueta y el campo de entrada, y a anunciarlas correctamente al usuario.
+- **Función**: la función es un atributo de HTML que se utiliza para especificar la finalidad de un elemento de HTML para tecnologías de asistencia como los lectores de pantalla. El atributo de función se utiliza para proporcionar un contexto y un significado semántico adicionales a un elemento, lo que facilita a los lectores de pantalla la interpretación y el anuncio del contenido al usuario. Por ejemplo, en AEM Forms, la etiqueta de un campo de formulario puede tener la función “label” y su campo de entrada puede tener la función “textbox”. Esto ayuda al lector de pantalla a comprender la relación entre la etiqueta y el campo de entrada, y a anunciarlas correctamente al usuario.
 
 - **Categoría de biblioteca de cliente**: el usuario puede configurar la biblioteca JavaScript personalizada por formulario adaptable. Se recomienda mantener solo las funciones reutilizables en la biblioteca, que tienen dependencia de las bibliotecas de terceros jquery y underscore.js.
-A veces, si hay **reglas de validación complejas**, el script de validación exacta reside en funciones personalizadas y los usuarios llaman a estas funciones personalizadas desde la expresión de validación de campo. AEM Para que esta biblioteca de funciones personalizadas sea conocida y esté disponible mientras se realizan las validaciones del lado del servidor, el usuario del formulario puede configurar el nombre de la biblioteca de cliente en la pestaña **[!UICONTROL Básico]** de las propiedades del contenedor del formulario adaptable.
+A veces, si hay **reglas de validación complejas**, el script de validación exacta reside en funciones personalizadas y los usuarios llaman a estas funciones personalizadas desde la expresión de validación de campo. Para que esta biblioteca de funciones personalizadas sea conocida y esté disponible mientras se realizan las validaciones del lado del servidor, el usuario del formulario puede configurar el nombre de la biblioteca de cliente de AEM en la pestaña **[!UICONTROL Básica]**.
 El usuario puede configurar la biblioteca customJavaScript para formularios adaptables. En la biblioteca, mantenga solo las funciones reutilizables, que dependen de las bibliotecas de terceros jquery y underscore.js.
 
 <!--
@@ -88,9 +88,9 @@ Puede utilizar el modelo de datos del formulario para conectar un formulario a u
 
 ![Pestaña Envío](/help/adaptive-forms/assets/formcontainer_autosavetab.png)
 
-- **Guardar borradores automáticamente**: active la casilla de verificación **Guardar borradores automáticamente** para habilitar el guardado de formularios como borradores.
-- **Guardar preferencia**: configura **Guardar preferencia** como **Guardar borradores a intervalos regulares** para guardar automáticamente el formulario después de un intervalo de tiempo específico.
-  **Guardar frecuencia de intervalo (segundos)**: especifique el intervalo de tiempo (en segundos) para establecer la duración que déclencheur el guardado automático del formulario en el intervalo definido.
+- **Guardar borradores automáticamente**: seleccione la casilla de verificación **Guardar borradores automáticamente** para habilitar la acción de guardar formularios como borradores.
+- **Guardar preferencia**: configure **Guardar preferencia** como **Guardar borradores a intervalos regulares** para guardar automáticamente el formulario después de un intervalo de tiempo específico.
+  **Guardar frecuencia de intervalo (segundos)**: especifique el intervalo de tiempo (en segundos) para establecer la duración que desencadena la acción de guardar automáticamente el formulario en el intervalo definido.
 
 ### Pestaña Envío {#submission-tab}
 

@@ -4,15 +4,15 @@ description: Uso o personalización del componente principal para adjuntar archi
 role: Architect, Developer, Admin, User
 exl-id: 64a54fc6-db52-481f-bf5a-60c05122004d
 source-git-commit: 724940e8fe7eb5cfe3dc4edf7568049c993b1255
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2043'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 # Componente para adjuntar archivos {#file-attachment-adaptive-forms-core-component}
 
-<span class="preview">: la característica **Tipo de datos del valor enviado** está disponible en el programa que lo adoptó por primera vez. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de primeros usuarios y solicitar acceso a esta funcionalidad. </span>
+<span class="preview"> La característica **Tipo de datos del valor enviado** está disponible en el programa para primeros usuarios. Puede escribir a aem-forms-ea@adobe.com desde su ID de correo electrónico oficial para unirse al programa de primeros usuarios y solicitar acceso a esta funcionalidad. </span>
 
 El componente para adjuntar archivos de un Formulario adaptable permite a los usuarios seleccionar y cargar archivos desde su equipo o dispositivo local. El componente para adjuntar archivos se puede configurar para permitir tipos y límites de archivo de tamaño específicos y varios adjuntos de archivos.
 
@@ -37,7 +37,7 @@ Existen varias razones por las que resulta beneficioso incluir un componente par
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del archivo adjunto de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service AEM y los componentes principales 1.1.12 para 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de archivo adjunto de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
 |---|---|---|
@@ -74,7 +74,7 @@ Puede personalizar fácilmente la experiencia de archivo adjunto para los visita
 - **Título del botón**: esta opción se utiliza para definir la etiqueta del botón mostrado en un Formulario adaptable.
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Marcar como elemento de formulario independiente**: seleccione la opción para configurar un campo de formulario no vinculado a ningún esquema. Esta opción le permite guardar datos sin actualizar la fuente de datos. También le permite gestionar los datos de forma personalizada, independientemente de la integración de bases de datos estándar.
-- **Tipo de datos del valor enviado**: seleccione la opción para determinar cómo se enviará el archivo adjunto al servidor. Para enviar los datos adjuntos como datos binarios, elija la opción `File`. Para enviar los datos adjuntos como una cadena codificada en Base64, elija la opción `String`. Si se selecciona `String`, el archivo en formato binario se envía al servidor como una dirección URL de datos. El servidor vuelve a convertir automáticamente la URL de datos al formato binario, lo que garantiza la compatibilidad con las acciones existentes, como enviar correos electrónicos y generar el documento de registro, sin que sea necesario realizar cambios por parte de los usuarios. De manera predeterminada, la opción `File` está seleccionada.
+- **Tipo de datos del valor enviado**: seleccione la opción para determinar cómo se enviará el archivo adjunto al servidor. Para enviar los datos adjuntos como datos binarios, elija la opción `File`. Para enviar el archivo adjunto como una cadena codificada en Base64, elija la opción `String`. Si se selecciona `String`, el archivo en formato binario se envía al servidor como una dirección URL de datos. El servidor vuelve a convertir automáticamente la URL de datos al formato binario, lo que garantiza la compatibilidad con las acciones existentes, como enviar correos electrónicos y generar el documento de registro, sin que sea necesario realizar cambios por parte de los usuarios. La opción `File` está seleccionada de forma predeterminada.
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
