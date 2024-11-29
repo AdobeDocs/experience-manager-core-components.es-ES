@@ -4,9 +4,9 @@ description: Cree experiencias de inscripción atractivas (formularios) con la f
 role: Architect, Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
 source-git-commit: b37b6315312ecee0a74d8830d96a72f8a5a04e43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2215'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ La versión actual de AEM Forms tiene los siguientes componentes principales, [C
 | Marcador de nota al pie | ✔️ | | | |
 | Contenedor del formulario | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Para los componentes de base, utilice el [componente Panel raíz](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | Título del formulario | ✔️ | ✔️ | | Para los componentes de base, utilice el componente de título. |
-| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | Para componentes de base, puede [conectar sus formularios adaptables con hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html) para formularios basados en componentes de base. |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | Para los componentes de base, puede [conectar sus formularios adaptables con hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html) en el caso de formularios basados en componentes de base. |
 | Encabezado | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Pestañas horizontales | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Para los componentes de base, puede configurar el [diseño de las pestañas en la parte superior (pestañas horizontales)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) de las propiedades de los componentes del panel. |
 | Imagen | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
