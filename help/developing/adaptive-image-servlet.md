@@ -4,9 +4,9 @@ description: Descubra cómo los componentes principales utilizan el servlet de i
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 87a96c1c9476b9d66fdc94d6c24123cdf24b9d91
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '457'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -16,9 +16,9 @@ Descubra cómo los componentes principales utilizan el servlet de imagen adaptab
 
 >[!WARNING]
 >
->Por motivos de rendimiento, es muy recomendable almacenar imágenes en DAM y utilizar la entrega de imágenes optimizadas para la web.
+>Por motivos de rendimiento, se recomienda almacenar imágenes en DAM y utilizar la entrega de imágenes optimizadas para la web.
 >
->El almacenamiento de imágenes directamente bajo el nodo de componentes está pensado para un uso ocasional. No aprovecha las representaciones DAM para reducir el procesamiento en el servlet de imagen adaptable y no permite las ventajas de rendimiento de la entrega de imágenes optimizadas para la web, lo que provoca posibles problemas de rendimiento.
+>El almacenamiento de imágenes directamente bajo el nodo de componentes está destinado a un uso ocasional. No aprovecha las representaciones de DAM para reducir el procesamiento en el servlet de imagen adaptable y no permite las ventajas de rendimiento de la entrega de imágenes optimizadas para la web, lo que provoca posibles problemas de rendimiento.
 
 ## ¿Servlet de imagen adaptable o entrega de imágenes optimizadas para la web? {#options}
 
