@@ -4,9 +4,9 @@ description: Descubra cómo los componentes principales utilizan el servlet de i
 role: Architect, Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
 source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '456'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,4 +56,4 @@ Esto mejorará el rendimiento y evitará que la biblioteca de procesamiento de i
 
 Las solicitudes condicionales a través del encabezado `Last-Modified` son compatibles con el servlet de imagen adaptable, pero el almacenamiento en caché del encabezado `Last-Modified` [debe habilitarse en Dispatcher](https://experienceleague.adobe.com/docs/experience-manager-dispatcher/using/configuring/dispatcher-configuration.html?lang=es#caching-http-response-headers).
 
-[La configuración de Dispatcher de ejemplo ](/help/developing/archetype/overview.md) del tipo de archivo del proyecto AEM ya contiene esta configuración.
+La configuración de Dispatcher de ejemplo [del tipo de archivo de proyecto de AEM](/help/developing/archetype/overview.md) ya contiene esta configuración.
