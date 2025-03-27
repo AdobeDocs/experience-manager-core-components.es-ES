@@ -3,10 +3,10 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: b723ad29b035bbff58c56c8a5cce3a2b50e8b2b2
-workflow-type: ht
-source-wordcount: '3103'
-ht-degree: 100%
+source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
+workflow-type: tm+mt
+source-wordcount: '3019'
+ht-degree: 99%
 
 ---
 
@@ -26,8 +26,9 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
-| [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Esta versión soluciona numerosos errores. | - | 6.5.21.0+ | Continua | 8, 11 | 10 de septiembre de 2024 |
-| [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | Esta versión soluciona numerosos errores. | - | 6.5.21.0+ | Continua | 8, 11 | 31 de julio de 2024 |
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Esta versión soluciona numerosos errores. | - | 6.5.21.0+ | Continua | 8, 11 | 17 de marzo de 2025 |
+| [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Esta versión soluciona numerosos errores. | - | 6.5.21.0+ | Continua | 11 | 10 de septiembre de 2024 |
+| [2.26.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.26.0) | Esta versión soluciona numerosos errores. | - | 6.5.21.0+ | Continua | 11 | 31 de julio de 2024 |
 | [2.25.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.4) | Esta es una versión secundaria que corrige algunos errores de TI. | - | 6.5.21.0+ | Continua | 8, 11 | 10 de mayo de 2024 |
 | [2.25.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.2) | Esta es una versión secundaria que corrige algunos errores de TI. | - | 6.5.21.0+ | Continua | 8, 11 | 9 de mayo de 2024 |
 | [2.25.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.25.0) | Esta versión ofrece compatibilidad con smartCrop en Dynamic Media, e incluye mejoras de rendimiento y accesibilidad y varias correcciones de errores. | - | 6.5.21.0+ | Continua | 8, 11 | 2 de mayo de 2024 |
