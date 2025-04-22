@@ -3,10 +3,10 @@ title: Componente Botón
 description: El componente principal Botón permite crear y visualizar un botón.
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 100%
+source-wordcount: '533'
+ht-degree: 99%
 
 ---
 
@@ -27,10 +27,10 @@ La versión actual del componente Botón es la versión 2, que se introdujo con 
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |---|---|
-| Versión 2 | - | Compatible | Compatible |
-| [Versión 1](v1/button.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |---|---|---|
+| Versión 2 | - | Compatible | Compatible | Compatible |
+| [Versión 1](v1/button.md) | Compatible | Compatible | - | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

@@ -3,10 +3,10 @@ title: Componente Fragmento de contenido de correo electrónico
 description: El componente Fragmento de contenido de correo electrónico permite la visualización de un fragmento de contenido en el contenido.
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 100%
+source-wordcount: '608'
+ht-degree: 99%
 
 ---
 
@@ -29,9 +29,9 @@ La versión actual del componente Fragmento de contenido de correo electrónico 
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| Versión 1 | Compatible | - |
+| Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| Versión 1 | Compatible | Compatible | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales de correo electrónico, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
 

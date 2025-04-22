@@ -3,10 +3,10 @@ title: Componente Lista de fragmentos de contenido
 description: El componente principal Lista de fragmentos de contenido permite mostrar una lista de fragmentos de contenido.
 role: Architect, Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
-source-git-commit: 395a1669cf3e17f649c23852addc37316b923bfd
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 100%
+source-wordcount: '806'
+ht-degree: 99%
 
 ---
 
@@ -27,10 +27,10 @@ La versión actual del componente Fragmento de contenido es la versión 2, que s
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|----|---|---|
-| Versión 2 | - | Compatible | Compatible |
-| [Versión 1](v1/content-fragment-list.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|----|---|---|---|
+| Versión 2 | - | Compatible | Compatible | Compatible |
+| [Versión 1](v1/content-fragment-list.md) | Compatible | Compatible | - | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

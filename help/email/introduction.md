@@ -3,10 +3,10 @@ title: Introducción a los componentes principales de correo electrónico
 description: Cree contenido de correo electrónico atractivo con la flexibilidad de los componentes principales de correo electrónico y envíelo con la potencia de Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 33976c0e745ad091a142109f70541f01a31edc5b
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 99%
+source-wordcount: '382'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +42,7 @@ Los componentes principales de correo electrónico tienen los siguientes requisi
 
 | AEM | Adobe Campaign | Componentes principales  |
 |---|---|---|
-| AEM 6.5.14.0+<br>En local o AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versión 2.21.2](/help/versions.md)+ |
+| AEM 6.5.14.0+ o AEM 6.5 LTS GA<br>On premise o AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versión 2.21.2](/help/versions.md)+ |
 
 >[!NOTE]
 >

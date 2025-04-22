@@ -3,10 +3,10 @@ title: Componente Página
 description: El componente Página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 role: Architect, Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 100%
+source-wordcount: '695'
+ht-degree: 99%
 
 ---
 
@@ -26,11 +26,11 @@ La versión actual del componente Página es la versión 3, que se introdujo con
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| Versión 3 | - | Compatible | Compatible |
-| [Versión 2](v2/page.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/page-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| Versión 3 | - | Compatible | Compatible | Compatible |
+| [Versión 2](v2/page.md) | Compatible | Compatible | - | Compatible |
+| [Versión 1](v1/page-v1.md) | Compatible | Compatible | - | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

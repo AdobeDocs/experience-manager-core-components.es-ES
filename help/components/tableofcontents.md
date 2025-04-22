@@ -3,10 +3,10 @@ title: Componente Tabla de contenido
 description: El componente Tabla de contenido crea una TDC basada en los títulos del contenido de la página, lo que permite a los lectores navegar rápidamente por ella.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 8beae61676340e8aafaee469018d865ea7ed934e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 100%
+source-wordcount: '762'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ La versión actual del componente Tabla de contenido es la 1, que se introdujo c
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| Versión 1 | Compatible | Compatible |
+| Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| Versión 1 | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

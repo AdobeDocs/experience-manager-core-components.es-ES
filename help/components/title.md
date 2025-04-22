@@ -3,10 +3,10 @@ title: Componente Título
 description: El componente principal Título es un componente de encabezado de sección que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 99%
 
 ---
 
@@ -24,11 +24,11 @@ La versión actual del componente Título es la versión 3, que se introdujo con
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| Versión 3 | - | Compatible | Compatible |
-| [Versión 2](v2/title.md) | Compatible | Compatible | Compatible |
-| [Versión 1](v1/title-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| Versión 3 | - | Compatible | Compatible | Compatible |
+| [Versión 2](v2/title.md) | Compatible | Compatible | - | Compatible |
+| [Versión 1](v1/title-v1.md) | Compatible | Compatible | - | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

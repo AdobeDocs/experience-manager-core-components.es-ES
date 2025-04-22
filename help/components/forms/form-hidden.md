@@ -3,10 +3,10 @@ title: Componente Formulario oculto
 description: El componente principal Formulario oculto permite ver un campo oculto.
 role: Architect, Developer, Admin, User
 exl-id: 0364cd3b-3c09-46db-9392-a67e3f9ea7a5
-source-git-commit: 16930ccaa281f9d9c4ddbb890d4222e128557580
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '429'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ La versión actual del componente Formulario oculto es la versión 2, que se int
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| Versión 2 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible |
-| [Versión 1](/help/components/v1/form-hidden-v1.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| Versión 2 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
+| [Versión 1](/help/components/v1/form-hidden-v1.md) | Compatible | Compatible | - | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

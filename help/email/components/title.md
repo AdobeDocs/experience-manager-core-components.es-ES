@@ -3,10 +3,10 @@ title: Componente Título de correo electrónico
 description: El componente Título de correo electrónico es un componente de encabezado de sección de los correos electrónicos que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 3abc29e0c186a84f079d5938b8b716f4c7378d65
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 100%
+source-wordcount: '597'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ La versión actual del componente Título de correo electrónico es la versión 
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|
-| Versión 1 | Compatible | - |
+| Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| Versión 1 | Compatible | Compatible | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de componentes principales de correo electrónico](/help/versions.md).
 

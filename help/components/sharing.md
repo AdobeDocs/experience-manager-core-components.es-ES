@@ -1,12 +1,12 @@
 ---
-title: Componente Compartir en redes sociales
+title: 'Componente Compartir en redes sociales '
 description: El componente principal Compartir en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
 role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
-source-git-commit: 327c239b02e0aecee878784c918bfa98d960530e
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 100%
+source-wordcount: '378'
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ La versión actual del componente Compartir en redes sociales es la versión 1, 
 
 La siguiente tabla detalla todas las versiones compatibles del componente y las versiones AEM con las que son compatibles las versiones del componente.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible, obsoleto | Compatible, obsoleto |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible, obsoleto | Compatible, obsoleto | Compatible, obsoleto |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

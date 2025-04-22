@@ -3,10 +3,10 @@ title: Introducción a los componentes principales
 description: Obtenga soluciones a problemas con los componentes principales y permita que otros creen elementos dentro de AEM.
 role: Architect, Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
-source-git-commit: 44d9b267f4d26b0ea4c00c7ceed9879abcdbd76d
-workflow-type: ht
-source-wordcount: '807'
-ht-degree: 100%
+source-git-commit: 302dc24598f892104b57cab3dd4b507975f90dad
+workflow-type: tm+mt
+source-wordcount: '811'
+ht-degree: 99%
 
 ---
 
@@ -108,9 +108,9 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 ## Requisitos del sistema {#system-requirements}
 
-| Versión de los componentes principales | AEM as a Cloud Service | Nivel de parche de AEM 6.5 | Versión de Java SE | Versión de Maven |
-|---------|---------|---------|---------|---------|
-| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Continua | 6.5.21.0+ | 8, 11 | 3.3.9+ |
+| Versión de los componentes principales | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Versión de Java SE | Versión de Maven |
+|---|---|---|---|---|---|
+| [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Continua | 6,5 LTS GA | 6.5.21.0+ | 8, 11 | 3.3.9+ |
 
 Para conocer los requisitos de las versiones anteriores de los componentes principales, consulte [Versiones de los componentes principales](versions.md).
 

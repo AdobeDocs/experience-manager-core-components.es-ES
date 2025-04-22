@@ -3,10 +3,10 @@ title: Componente Pestañas
 description: El componente Pestañas permite crear varias pestañas para organizar el contenido de una página.
 role: Architect, Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 100%
+source-wordcount: '1038'
+ht-degree: 99%
 
 ---
 
@@ -33,9 +33,9 @@ La versión actual del componente Tabs es la versión 1, que se introdujo con la
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|--- |--- |--- |---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

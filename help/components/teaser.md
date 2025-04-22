@@ -3,10 +3,10 @@ title: Componente Teaser
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 5d2d79c96dc934efd7cccefb1a6a343813376483
+source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 100%
+source-wordcount: '1046'
+ht-degree: 99%
 
 ---
 
@@ -26,10 +26,10 @@ La versión actual del componente Teaser es la versión 2, que se introdujo con 
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
-|---|---|---|---|
-| Versión 2 | - | Compatible | Compatible |
-| [Versión 1](v1/teaser.md) | Compatible | Compatible | Compatible |
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|---|
+| Versión 2 | - | Compatible | Compatible | Compatible |
+| [Versión 1](v1/teaser.md) | Compatible | Compatible | - | Compatible |
 
 ## Soporte de recursos remotos {#remote-assets}
 
@@ -102,7 +102,7 @@ Los estilos deben configurarse para este componente en el [cuadro de diálogo de
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
-El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image.md). Por lo tanto, el [cuadro de diálogo de edición](image.md#edit-dialog) del componente de imagen está disponible para que el autor del contenido manipule la imagen de teaser.
+El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image.md). Por lo tanto, el [cuadro de diálogo de edición]&#x200B;(image.md#edit-dialog) del componente de imagen está disponible para que el autor del contenido manipule la imagen de teaser.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
