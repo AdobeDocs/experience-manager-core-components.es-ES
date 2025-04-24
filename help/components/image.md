@@ -3,10 +3,10 @@ title: Componente Imagen
 description: El componente principal Imagen es un componente de imagen adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
 workflow-type: tm+mt
-source-wordcount: '1961'
-ht-degree: 99%
+source-wordcount: '2062'
+ht-degree: 94%
 
 ---
 
@@ -46,6 +46,14 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 >[!TIP]
 >
 >De forma predeterminada, el componente de imagen funciona con el servlet de imagen adaptable. Consulte el documento [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) para obtener más información sobre cómo funciona.
+
+### Diferencias con la versión 2 {#v2-differences}
+
+A diferencia de la versión 2 del componente de imagen, la versión 3 utiliza la capacidad de respuesta nativa del explorador. Esto significa que proporciona al navegador un conjunto de fuentes para una imagen para diferentes anchos y el navegador elegirá el mejor.
+
+La mayoría de las veces, los exploradores prefieren reducir localmente la anchura para ajustarse a una ventanilla más pequeña en lugar de recuperar la imagen de menor anchura del servidor. Esto es lo que se espera y por qué el componente de imagen no debe utilizarse para la dirección de arte (diferentes imágenes/recortes para diferentes ventanillas).
+
+[Consulte la documentación técnica del componente de imagen](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) para obtener más información.
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
