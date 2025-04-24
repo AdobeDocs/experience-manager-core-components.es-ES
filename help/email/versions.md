@@ -3,7 +3,7 @@ title: Versiones de componentes principales de correo electrónico
 description: Los componentes principales de correo electrónico se publican como versiones.
 role: Architect, Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
+source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
 workflow-type: tm+mt
 source-wordcount: '444'
 ht-degree: 87%
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # Versiones de componentes principales de correo electrónico {#core-components-versions}
 
-La versión actual de los componentes principales de correo electrónico es la 1.3.0, y es compatible con AEM 6.5 y AEM 6.5 LTS.
+La versión actual de los componentes principales de correo electrónico es la 1.3.0 y es compatible con AEM 6.5, tanto en línea como AMS.
 
 Consulte la [sección Requisitos](/help/email/introduction.md#requirements) del documento de introducción a los componentes principales de correo electrónico y la [sección Instalación](/help/email/using.md#installing-the-email-core-components) del documento Uso de los componentes principales de correo electrónico para obtener más información acerca de los requisitos y la instalación, respectivamente.
 
