@@ -3,9 +3,9 @@ title: Componente Fragmento de experiencia de correo electrónico
 description: El componente Fragmento de experiencia de correo electrónico permite al autor del contenido colocar una variación de fragmento de experiencia en su contenido y admitir al mismo tiempo una estructura de contenido localizada.
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
+source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '865'
 ht-degree: 99%
 
 ---
@@ -32,7 +32,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | Compatible | - |
+| Versión 1 | Compatible | - | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales de correo electrónico, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
 
