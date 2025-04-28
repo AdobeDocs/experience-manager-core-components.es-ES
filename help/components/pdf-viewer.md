@@ -4,9 +4,9 @@ description: El componente Visualizador de PDF permite ver un documento PDF.
 role: Architect, Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '685'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -4,9 +4,9 @@ description: El componente Fragmento de experiencia permite al autor del conteni
 role: Architect, Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '889'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

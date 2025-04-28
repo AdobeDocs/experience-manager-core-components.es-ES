@@ -4,9 +4,9 @@ description: El componente principal Contenedor permite crear un contenedor para
 role: Architect, Developer, Admin, User
 exl-id: 53c7190d-44cb-42ff-bc1a-483c7875bcf8
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '767'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

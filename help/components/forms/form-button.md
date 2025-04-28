@@ -4,9 +4,9 @@ description: El componente principal Formulario oculto permite incluir un campo 
 role: Architect, Developer, Admin, User
 exl-id: 1e5cff43-57db-4bfc-b2d2-23307eaf5eb3
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '413'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

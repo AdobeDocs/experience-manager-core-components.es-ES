@@ -4,9 +4,9 @@ description: El componente Acordeón de componentes principales permite crear un
 role: Architect, Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1102'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

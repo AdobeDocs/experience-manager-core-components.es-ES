@@ -4,9 +4,9 @@ description: El componente principal Fragmento de contenido permite ver un fragm
 role: Architect, Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '659'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

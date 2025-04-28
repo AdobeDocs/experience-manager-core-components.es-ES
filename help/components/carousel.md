@@ -4,9 +4,9 @@ description: El componente Carrusel permite al autor del contenido presentar el 
 role: Architect, Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1317'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

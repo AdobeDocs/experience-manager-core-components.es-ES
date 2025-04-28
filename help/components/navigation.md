@@ -4,9 +4,9 @@ description: El componente Navegación permite a los usuarios navegar fácilment
 role: Architect, Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1544'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 

@@ -4,9 +4,9 @@ description: El componente principal Ruta de exploración es un componente de na
 role: Architect, Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
 source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '800'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
