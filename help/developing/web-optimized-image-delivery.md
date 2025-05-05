@@ -87,7 +87,7 @@ com.adobe.cq.wcm.spi.AssetDelivery.getDeliveryURL(Resource resource, Map<String,
 
 >[!WARNING]
 >
->Las incrustaciones de URL directas en una experiencia que no se haya creado mediante la SPI mencionada anteriormente (disponible en sitios AEM as a Cloud Service) infringen las [Condiciones de uso de Media Library](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=en#use-media-library).
+>Las incrustaciones de URL directas en una experiencia que no se haya creado mediante la SPI mencionada anteriormente (disponible en sitios AEM as a Cloud Service) infringen las [Condiciones de uso de Media Library](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/admin/medialibrary.html?lang=es#use-media-library).
 
 ### ¿Pueden las imágenes no mostrarse después de habilitar las imágenes optimizadas para la web? {#failure-to-deliver}
 
@@ -96,4 +96,4 @@ No, esto nunca debería suceder por las siguientes razones.
 * En el HTML, el marcado no cambia al habilitar imágenes optimizadas para web, solo cambia el valor del atributo `src` del elemento de imagen.
 * Cuando el nuevo servicio de imagen no esté disponible o no pueda procesar la imagen deseada, la URL generada [volverá a usar el servlet de imagen adaptable.](#fallback)
 
-Sin embargo, las reglas de Dispatcher pueden bloquear el servicio de entrega de imágenes optimizadas para la web. Las URL del servicio de entrega de imágenes comienzan con `/adobe`, y examinar los registros de Dispatcher para solicitudes rechazadas como [descrito aquí](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html#filter-rejects) debería ayudar a solucionar los errores que se hayan encontrado al entregar las imágenes al explorador.
+Sin embargo, las reglas de Dispatcher pueden bloquear el servicio de entrega de imágenes optimizadas para la web. Las URL del servicio de entrega de imágenes comienzan con `/adobe`, y examinar los registros de Dispatcher para solicitudes rechazadas como [descrito aquí](https://experienceleague.adobe.com/docs/experience-manager-learn/ams/dispatcher/common-logs.html?lang=es#filter-rejects) debería ayudar a solucionar los errores que se hayan encontrado al entregar las imágenes al explorador.

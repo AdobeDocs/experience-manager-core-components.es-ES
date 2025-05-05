@@ -46,7 +46,7 @@ Algunos puntos que se deben tener en cuenta al utilizar los componentes principa
 * Si el proyecto anteriormente incluía los componentes principales en `/apps`, [es posible que tenga que ajustar el proyecto.](/help/developing/overview.md#via-aemaacs)
 * Aunque los componentes principales se encuentran ahora en `/libs`, no se recomienda crear ninguna superposición de la misma ruta en `/apps`. En lugar de eso, se debe utilizar el [patrón de componentes proxy](/help/developing/guidelines.md#proxy-component-pattern) si fuera necesario personalizar cualquier aspecto de los componentes.
 * Para que el [Componente Tabla de contenido](/help/components/tableofcontents.md) procese su contenido, es necesario configurar un filtro en OSGi.
-   * [Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para más información.
+   * [Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_es) para más información.
 
 ### AEM 6.5 y anteriores {#aem-65}
 
