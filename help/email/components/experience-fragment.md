@@ -4,7 +4,7 @@ description: El componente Fragmento de experiencia de correo electrónico permi
 role: Architect, Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '865'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: El componente Fragmento de contenido de correo electrónico permite
 role: Architect, Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '607'
 ht-degree: 100%
 

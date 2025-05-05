@@ -4,9 +4,9 @@ description: El componente principal Imagen es un componente de imagen adaptable
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
 source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2062'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -49,11 +49,11 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 
 ### Diferencias con la versión 2 {#v2-differences}
 
-A diferencia de la versión 2 del componente de imagen, la versión 3 utiliza la capacidad de respuesta nativa del explorador. Esto significa que proporciona al navegador un conjunto de fuentes para una imagen para diferentes anchos y el navegador elegirá el mejor.
+A diferencia de la versión 2 del componente de imagen, la versión 3 utiliza la capacidad de respuesta nativa del explorador. Esto significa que proporciona al navegador un conjunto de fuentes para una imagen para diferentes anchuras y el navegador elegirá la mejor.
 
-La mayoría de las veces, los exploradores prefieren reducir localmente la anchura para ajustarse a una ventanilla más pequeña en lugar de recuperar la imagen de menor anchura del servidor. Esto es lo que se espera y por qué el componente de imagen no debe utilizarse para la dirección de arte (diferentes imágenes/recortes para diferentes ventanillas).
+La mayoría de las veces, los exploradores prefieren reducir localmente la anchura para ajustarse a un visor más pequeño en lugar de recuperar la imagen de menor anchura del servidor. Esto es lo que se espera y es la razón de que el componente de imagen no deba utilizarse para la dirección de arte (diferentes imágenes/recortes para diferentes visores).
 
-[Consulte la documentación técnica del componente de imagen](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings) para obtener más información.
+[Para más información, consulte la documentación técnica del Componente de imagen](https://github.com/adobe/aem-core-wcm-components/tree/main/content/src/content/jcr_root/apps/core/wcm/components/image/v3/image#javascript-data-attribute-bindings).
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 

@@ -4,7 +4,7 @@ description: El componente Segmentación de correo electrónico
 role: Architect, Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1089'
 ht-degree: 100%
 
