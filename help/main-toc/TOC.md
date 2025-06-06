@@ -5,10 +5,10 @@ breadcrumb-title: Guía de componentes principales
 feature: Core Components
 user-guide-description: Utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '381'
-ht-degree: 100%
+source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
+workflow-type: tm+mt
+source-wordcount: '384'
+ht-degree: 96%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
    + [Crear con componentes principales](/help/get-started/authoring.md)
    + [Uso de componentes principales](/help/get-started/using.md)
    + [Funciones de localización](/help/get-started/localization.md)
-+ Los componentes de gestión de contenidos web (WCM) {#wcm-components}
++ Los componentes de gestión de contenido web {#wcm-components}
    + [Acordeón](/help/components/accordion.md)
    + [Ruta de navegación](/help/components/breadcrumb.md)
    + [Botón](/help/components/button.md)
@@ -84,7 +84,7 @@ ht-degree: 100%
       + [Lista (v2)](/help/components/v2/list.md)
       + [Página (v2)](/help/components/v2/page.md)
       + [Título (v2)](/help/components/v2/title.md)
-   + Componentes (versión 3) {#v3-components}
+   + Componentes (v3) {#v3-components}
       + [Lista (versión 3)](/help/components/v3/list.md)
 + Componentes de correo electrónico {#email}
    + [Introducción](/help/email/introduction.md)
@@ -105,7 +105,7 @@ ht-degree: 100%
 + Formularios adaptables {#adaptive-forms}
    + [Introducción](/help/adaptive-forms/introduction.md)
    + [Historial de versiones](/help/adaptive-forms/version.md)
-   + Componentes de Formularios adaptables {#adaptive-forms-components}
+   + Componentes de Forms adaptables {#adaptive-forms-components}
       + [Acordeón de Formularios adaptables](/help/adaptive-forms/components/accordion.md)
       + [Botón de Formularios adaptables](/help/adaptive-forms/components/button.md)
       + [Casilla de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox.md)
@@ -126,6 +126,7 @@ ht-degree: 100%
       + [CAPTCHA para formularios adaptables](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)
       + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
+      + [Revisión de formulario adaptable](/help/adaptive-forms/components/review.md)
       + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
       + [Cambio de Formularios adaptables](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Teléfono de formularios adaptables](/help/adaptive-forms/components/phone.md)
@@ -138,7 +139,7 @@ ht-degree: 100%
       + [Pie de página](/help/adaptive-forms/components/footer.md)
    + [Personalizar los componentes principales de los formularios adaptables](/help/developing/customize-adaptive-forms-core-components.md)
    + [Temáticas y plantillas de muestra](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
-+ Desarrollo de {#developing}
++ Desarrollo {#developing}
    + [Desarrollo de componentes principales](/help/developing/overview.md)
    + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
    + [Tutorial para desarrolladores de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)
@@ -154,7 +155,7 @@ ht-degree: 100%
       + [Información general de la capa de datos](/help/developing/data-layer/overview.md)
       + [Integraciones con la capa de datos](/help/developing/data-layer/integrations.md)
       + [Ampliación de la capa de datos](/help/developing/data-layer/extending.md)
-   + Tipo de archivo del proyecto AEM {#archetype}
+   + Arquetipo del proyecto AEM {#archetype}
       + [Información general de tipo de archivo](/help/developing/archetype/overview.md)
       + [Uso del tipo de archivo](/help/developing/archetype/using.md)
       + [Desarrollo front-end](/help/developing/archetype/front-end.md)
