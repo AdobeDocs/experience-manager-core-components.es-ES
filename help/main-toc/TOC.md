@@ -8,7 +8,7 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: 5c4c72b2f52806cbcc889b676dfa2b2b65b08562
 workflow-type: tm+mt
 source-wordcount: '388'
-ht-degree: 92%
+ht-degree: 96%
 
 ---
 
@@ -52,12 +52,12 @@ ht-degree: 92%
    + [Título](/help/components/title.md)
    + Componentes de formulario {#forms}
       + [Botón de formulario](/help/components/forms/form-button.md)
-      + [Contenedor del formulario](/help/components/forms/form-container.md)
+      + [Contenedor de formulario](/help/components/forms/form-container.md)
       + [Formulario oculto](/help/components/forms/form-hidden.md)
       + [Opciones de formulario](/help/components/forms/form-options.md)
       + [Texto de formulario](/help/components/forms/form-text.md)
-   + Componentes (v1) {#v1-components}
-      + [Ruta de navegación (v1)](/help/components/v1/breadcrumb-v1.md)
+   + Componentes v1 {#v1-components}
+      + [Ruta de exploración (v1)](/help/components/v1/breadcrumb-v1.md)
       + [Botón (v1)](/help/components/v1/button.md)
       + [Lista de fragmentos de contenido (v1)](/help/components/v1/content-fragment-list.md)
       + [Descargar (v1)](/help/components/v1/download.md)
@@ -72,21 +72,21 @@ ht-degree: 92%
       + [Búsqueda rápida (v1)](/help/components/v1/quick-search.md)
       + [Texto (v1)](/help/components/v1/text-v1.md)
       + [Título (v1)](/help/components/v1/title-v1.md)
-      + Componentes de formulario (v1) {#v1-forms}
+      + Componentes de formulario v1 {#v1-forms}
          + [Botón del formulario (v1)](/help/components/v1/form-button-v1.md)
          + [Contenedor de formulario (v1)](/help/components/v1/form-container-v1.md)
          + [Formulario oculto (v1)](/help/components/v1/form-hidden-v1.md)
          + [Opciones de formulario (v1)](/help/components/v1/form-options-v1.md)
          + [Texto de formulario (v1)](/help/components/v1/form-text-v1.md)
-   + Componentes (v2) {#v2-components}
+   + Componentes v2 {#v2-components}
       + [Ruta de exploración (v2)](/help/components/v2/breadcrumb.md)
       + [Imagen (v2)](/help/components/v2/image.md)
       + [Lista (v2)](/help/components/v2/list.md)
       + [Página (v2)](/help/components/v2/page.md)
       + [Título (v2)](/help/components/v2/title.md)
-   + Componentes (v3) {#v3-components}
-      + [Lista (versión 3)](/help/components/v3/list.md)
-+ Componentes de correo electrónico {#email}
+   + Componentes v3 {#v3-components}
+      + [Lista (v3)](/help/components/v3/list.md)
++ Componentes de correo electrónico  {#email}
    + [Introducción](/help/email/introduction.md)
    + [Uso de los componentes principales de correo electrónico](/help/email/using.md)
    + [Variables de campaña](/help/email/campaign-variables.md)
@@ -105,7 +105,7 @@ ht-degree: 92%
 + Formularios adaptables {#adaptive-forms}
    + [Introducción](/help/adaptive-forms/introduction.md)
    + [Historial de versiones](/help/adaptive-forms/version.md)
-   + Componentes de Forms adaptables {#adaptive-forms-components}
+   + Componentes de formularios adaptables  {#adaptive-forms-components}
       + [Acordeón de Formularios adaptables](/help/adaptive-forms/components/accordion.md)
       + [Botón de Formularios adaptables](/help/adaptive-forms/components/button.md)
       + [Casilla de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox.md)
@@ -126,7 +126,7 @@ ht-degree: 92%
       + [CAPTCHA para formularios adaptables](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)
       + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
-      + [Revisión de formulario adaptable](/help/adaptive-forms/components/review.md)
+      + [Revisión del formulario adaptable](/help/adaptive-forms/components/review.md)
       + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
       + [Cambio de Formularios adaptables](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Teléfono de formularios adaptables](/help/adaptive-forms/components/phone.md)
