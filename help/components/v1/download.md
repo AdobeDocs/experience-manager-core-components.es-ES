@@ -35,11 +35,11 @@ Este documento describe la versión 1 del componente Descarga, que se introdujo 
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente Descarga, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_download).
+Para experimentar el componente Descarga, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_download_es).
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Descarga [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
+La documentación técnica más reciente sobre el componente Descarga [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
