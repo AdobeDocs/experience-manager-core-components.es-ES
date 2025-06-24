@@ -3,18 +3,21 @@ title: Acordeón de formulario adaptable
 description: Utilice el acordeón para organizar y simplificar un formulario largo o complejo, dividiéndolo en secciones más pequeñas y manejables.
 role: Architect, Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 4c510b8fe59f4be6e1b329ee4257ab1b780fbf22
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 100%
 
 ---
 
+
 # Componente Acordeón {#accordion-component-adaptive-forms-core-component}
 
 El componente principal Acordeón permite a los usuarios crear secciones expandibles y contraíbles en un formulario adaptable. A menudo se utiliza para organizar y simplificar formularios largos o complejos, dividiéndolos en secciones más pequeñas y manejables. Cada sección de un acordeón suele estar representada por un encabezado en el que el usuario puede hacer clic para expandir o reducir el contenido correspondiente. El contenido puede ser cualquier componente principal.
 
 ![ejemplo](/help/adaptive-forms/assets/example-accordion.png)
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 
@@ -54,7 +57,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
@@ -140,7 +143,7 @@ El botón Agregar permite seleccionar un componente para agregarlo como panel en
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -156,7 +159,7 @@ En la pestaña **Accesibilidad**, se pueden configurar valores para las etiqueta
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 <!--
 

@@ -5,18 +5,21 @@ role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: 7e70d9e9-b066-4ba3-b7ed-e4aad026c5e0
-source-git-commit: 12a829c164839fdcb2c98d52e409ec3ac2079c41
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '1914'
 ht-degree: 100%
 
 ---
+
 
 # Componente Cuadro de contraseña
 
 <span class="preview"> Esta es una función previa al lanzamiento y se puede acceder a ella a través de nuestro [canal previo al lanzamiento](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features). </span>
 
 Un componente Cuadro de contraseña permite a los usuarios introducir y editar información confidencial, normalmente enmascarada por motivos de privacidad. El componente de contraseña se puede configurar con varias reglas de validación para garantizar la precisión de los datos. Los campos de contraseña, que suelen utilizarse en formularios, son sencillos y mejoran la seguridad de los datos.
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -47,7 +50,7 @@ For information on Core Component versions and releases, refer to the [Core Comp
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
@@ -164,7 +167,7 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

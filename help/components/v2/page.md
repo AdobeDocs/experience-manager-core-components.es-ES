@@ -3,12 +3,14 @@ title: Componente Página (versión 2)
 description: El componente Página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
 role: Architect, Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 99%
 
 ---
+
 
 # Componente Página (versión 2) {#page-component}
 

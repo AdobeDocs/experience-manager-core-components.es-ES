@@ -3,16 +3,19 @@ title: 'Componente principal de Formularios adaptables: botón de radio'
 description: Uso o personalización del componente principal de botón de radio de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '2137'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '2135'
+ht-degree: 98%
 
 ---
+
 
 # Componente Botón de radio {#radio-button-adaptive-forms-core-component}
 
 Un botón de radio de un formulario adaptable es un tipo de elemento de entrada que permite al usuario seleccionar una opción de un grupo de opciones relacionadas. Se representa mediante un pequeño botón circular que está relleno o vacío para indicar si la opción está seleccionada o no. Cuando un usuario selecciona un botón de radio, el resto del grupo deja de estar seleccionado. Los botones de radio suelen utilizarse cuando hay varias opciones mutuamente excluyentes y solo se puede seleccionar una a la vez.
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -42,9 +45,9 @@ Existen varias razones para utilizar botones de radio en un formulario, entre el
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de botón de opción de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Botón de opción de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y los componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
 | Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
@@ -52,7 +55,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
@@ -120,7 +123,7 @@ También puede dar formato a las opciones del grupo de botones de opción median
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -133,7 +136,7 @@ También puede dar formato a las opciones del grupo de botones de opción median
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 

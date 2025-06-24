@@ -3,12 +3,13 @@ title: Términos y condiciones del Componente principal de Formularios adaptable
 description: Usar o personalizar el Componente principal de los Términos y condiciones de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '3256'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '3253'
+ht-degree: 98%
 
 ---
+
 
 # Componente Términos y condiciones
 
@@ -18,7 +19,9 @@ El componente **Términos y condiciones** es un componente compuesto que consta 
 
 >[!NOTE]
 >
-> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Formularios adaptables, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
+> Para AEM 6.5 Forms, este componente se introdujo con AEM 6.5 Forms Service Pack 19 (6.5.19.0). Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Formularios adaptables, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -40,9 +43,9 @@ Consulte la sección [Subcomponentes del componente Términos y condiciones](#su
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de términos y condiciones de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.62 para Cloud Service y los componentes principales, versión 1.1.28 para AEM 6.5.16.0 Forms o versiones posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de los términos y condiciones de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.62 para Cloud Service y los componentes principales 1.1.28 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
 | Versión 1 | Compatible con la <br>[versión 2.0.62](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.28](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
@@ -110,7 +113,7 @@ Puede personalizar fácilmente la experiencia del componente de términos y cond
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -123,7 +126,7 @@ Puede personalizar fácilmente la experiencia del componente de términos y cond
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 - **Función de HTML para el anuncio del lector de pantalla**: la función de HTML es un atributo que se utiliza para especificar la finalidad de un elemento HTML para tecnologías de asistencia, como los lectores de pantalla. El atributo de función se utiliza para proporcionar un contexto y un significado semántico adicionales a un elemento, lo que facilita a los lectores de pantalla la interpretación y el anuncio del contenido al usuario. Por ejemplo, en AEM Forms, la etiqueta de un campo de formulario puede tener la función “label” y su campo de entrada puede tener la función “textbox”. Esto ayuda al lector de pantalla a comprender la relación entre la etiqueta y el campo de entrada, y a anunciarlas correctamente al usuario.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
@@ -215,7 +218,7 @@ Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -228,7 +231,7 @@ Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 ### Componente Texto {#text}
 

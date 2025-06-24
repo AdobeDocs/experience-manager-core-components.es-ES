@@ -3,16 +3,19 @@ title: Componente Texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: da947be103bd68abad82fcfcbee58d527bc14dbd
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '2185'
 ht-degree: 100%
 
 ---
 
+
 # Componente Texto{#text-component}
 
 El componente Texto del componente principal es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 

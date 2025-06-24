@@ -3,18 +3,21 @@ title: 'Componente principal de formularios adaptables: texto'
 description: Uso o personalización del componente principal de texto de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '998'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '996'
+ht-degree: 96%
 
 ---
+
 
 # Componente Texto {#text-adaptive-forms-core-component}
 
 En un formulario adaptable, el texto hace referencia al contenido que se muestra en el formulario para que el usuario lo lea. Esto puede incluir el texto que se utiliza para etiquetar un grupo de elementos de formulario, como los campos de texto, así como cualquier instrucción o información adicional que se proporcione al usuario.
 
 Esto también puede ayudar a dividir la estructura de un formulario en secciones lógicas, facilitando a los usuarios la comprensión y la cumplimentación del formulario. Además, podría utilizarse con fines de accesibilidad para proporcionar una breve descripción del elemento al que está asociado. Este campo de texto suele mostrarse cerca de los componentes del formulario, como antes o después de él.
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -34,9 +37,9 @@ Hay varias razones para utilizar texto en un formulario:
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de texto de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Texto de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y los componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
 | Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
@@ -44,7 +47,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 

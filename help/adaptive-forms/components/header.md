@@ -3,16 +3,19 @@ title: 'Componente principal de formularios adaptables: encabezado'
 description: Uso o personalización del componente principal de encabezado de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '674'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '672'
+ht-degree: 95%
 
 ---
+
 
 # Encabezado {#header-adaptive-forms-core-component}
 
 El componente Encabezado de un Formulario adaptable es una sección de la parte superior del formulario que generalmente incluye el título, el logotipo o el nombre del formulario. El encabezado también puede incluir otras informaciones, como una breve descripción de la finalidad del formulario, el nombre de la organización que lo ha creado o la información de contacto para obtener ayuda. El encabezado se utiliza para proporcionar a los usuarios una descripción general del formulario y contexto para la información que están a punto de ingresar. Se utiliza para ayudar a los usuarios a conocer la finalidad del formulario y cómo rellenarlo correctamente.
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -32,9 +35,9 @@ El componente Encabezado de un Formulario adaptable es una sección de la parte 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de encabezado de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal del encabezado de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y los componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
 | Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
@@ -43,7 +46,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
@@ -83,7 +86,7 @@ Esta sección permite introducir el texto que se incluirá en el encabezado.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

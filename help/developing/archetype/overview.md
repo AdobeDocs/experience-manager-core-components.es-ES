@@ -4,7 +4,7 @@ description: Obtenga información acerca del Arquetipo de proyecto de AEM que si
 feature: Core Components, AEM Project Archetype
 role: Architect, Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-source-git-commit: 8940285f4c5e5870b6a135dac674f06e4c1d8b5a
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 100%
@@ -19,6 +19,8 @@ El tipo de archivo del proyecto de AEM es una plantilla de Maven que crea un pro
 >[!TIP]
 >
 >El último tipo de archivo del proyecto de AEM y la documentación técnica asociada [se encuentran en GitHub.](https://github.com/adobe/aem-project-archetype)
+
+{{traditional-aem}}
 
 ## Por qué utilizar el tipo de archivo {#why-use-the-archetype}
 

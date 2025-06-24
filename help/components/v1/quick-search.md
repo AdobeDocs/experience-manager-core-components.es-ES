@@ -3,12 +3,14 @@ title: Componente Búsqueda rápida (versión 1)
 description: El componente Búsqueda rápida proporciona funciones de búsqueda en un sitio web y presenta resultados de búsqueda para que los visitantes puedan buscar en el sitio y filtrar los resultados.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
-source-git-commit: ae2e1d0aaadbc0ad04847ce9aecb382e10cbedf1
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '646'
 ht-degree: 98%
 
 ---
+
 
 # Componente Búsqueda rápida (versión 1) {#quick-search-component}
 
@@ -33,7 +35,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 >[!CAUTION]
 >
 >Este documento describe la versión 1 del componente Búsqueda rápida.
->Para obtener más información sobre la versión actual del componente Búsqueda rápida, consulte el documento [Componente Búsqueda rápida](/help/components/quick-search.md).
+>>Para obtener más información sobre la versión actual del componente Búsqueda rápida, consulte el documento [Componente Búsqueda rápida](/help/components/quick-search.md).
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

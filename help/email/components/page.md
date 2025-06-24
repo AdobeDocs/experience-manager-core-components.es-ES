@@ -3,8 +3,9 @@ title: Componente Página de correo electrónico
 description: El componente Página de correo electrónico
 role: Architect, Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '780'
 ht-degree: 100%
 

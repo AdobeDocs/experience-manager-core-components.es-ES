@@ -3,12 +3,13 @@ title: 'Componente principal de formularios adaptables: componente de cambio'
 description: Uso o personalización del componente principal de cambio de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
-source-git-commit: 04a89892aafe26fda253bcc5971c03eda27237f9
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '1922'
 ht-degree: 100%
 
 ---
+
 
 # Componente Cambio de formulario adaptable{#switch-adaptive-forms-core-component}
 
@@ -17,6 +18,8 @@ El componente de cambio es una interfaz gráfica de usuario que se utiliza en fo
 El componente de cambio es un elemento de control booleano que establece el valor en verdadero o falso. Por ejemplo, se utiliza para activar o desactivar una funcionalidad, como silenciar o reactivar el sonido, o habilitar o deshabilitar la conexión Bluetooth o wifi.
 
 ![Ejemplo del componente de cambio](/help/adaptive-forms/assets/switch-example.png)
+
+{{traditional-aem}}
 
 ## Uso {#reasons-to-use-switch}
 
@@ -104,7 +107,7 @@ Puede personalizar fácilmente la experiencia del componente de cambio para los 
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -117,7 +120,7 @@ Puede personalizar fácilmente la experiencia del componente de cambio para los 
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 ### Pestaña Estilos {#styles-tab}
 

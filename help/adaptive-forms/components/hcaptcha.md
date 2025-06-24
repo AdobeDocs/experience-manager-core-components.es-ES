@@ -5,12 +5,13 @@ feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
 role: Architect, Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-source-git-commit: be25eac36cafda0ff0cb745454593640cc54ceea
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 100%
 
 ---
+
 
 # Componente hCaptcha{#hCaptcha-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ ht-degree: 100%
 El servicio hCaptcha® protege sus formularios de bots, correos no deseados y abusos automatizados. Plantea un desafío tipo Widget de la casilla de verificación y evalúa la respuesta del usuario para determinar si es un humano o un bot el que interactúa con el formulario. Evita que el usuario continúe si la prueba falla y ayuda a que las transacciones en línea sean seguras al impedir que los bots publiquen contenido no deseado o actividades maliciosas.
 
 ![hCaptcha®](/help/adaptive-forms/assets/hCaptcha-challenge.png)
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 

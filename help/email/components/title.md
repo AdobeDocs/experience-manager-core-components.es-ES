@@ -3,8 +3,9 @@ title: Componente Título de correo electrónico
 description: El componente Título de correo electrónico es un componente de encabezado de sección de los correos electrónicos que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 100%
 

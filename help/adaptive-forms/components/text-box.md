@@ -3,16 +3,19 @@ title: 'Componente principal de formularios adaptables: entrada de texto (cuadro
 description: Uso o personalización del componente principal de entrada de texto de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 49d9fe69-0578-4489-beaa-a18cdb14add7
-source-git-commit: 9f151ae26c9d2006b74656ec5086f1a5e9fc4b30
-workflow-type: ht
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '2120'
 ht-degree: 100%
 
 ---
 
+
 # Componente Cuadro de texto{#text-input-adaptive-forms-core-component}
 
 Un componente de entrada de texto (cuadro de texto) permite al usuario introducir y editar una o varias líneas de texto, según el atributo de tipo del elemento de entrada. El componente de entrada de texto puede colocarse dentro de un formulario y generalmente se etiqueta con un texto útil que identifica fácilmente su propósito. Se trata de un elemento fundamental de cualquier formulario, que se emplea ampliamente para recopilar distintos tipos de datos de los usuarios. Son sencillos, flexibles y se pueden configurar para validar entradas y mejorar la precisión de la recopilación de datos.
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -41,7 +44,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
@@ -164,7 +167,7 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

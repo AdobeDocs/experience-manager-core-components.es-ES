@@ -3,16 +3,19 @@ title: 'Componente Descarga '
 description: El componente principal Descarga permite crear una opción de descarga en una página.
 role: Architect, Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 100%
 
 ---
 
+
 # Componente Descarga {#download-component}
 
 El componente principal Descarga permite crear una opción de descarga en una página.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 

@@ -3,12 +3,13 @@ title: 'Componente principal de formularios adaptables: casilla de verificación
 description: Uso o personalización del Componente principal de la casilla de verificación de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1838'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1837'
+ht-degree: 99%
 
 ---
+
 
 # Componente Casilla de verificación{#checkbox-component}
 
@@ -18,7 +19,9 @@ Una casilla de verificación suele representarse como un pequeño cuadrado que s
 
 >[!NOTE]
 >
-> Para AEM 6.5 Forms, este componente se introdujo con el Service Pack 19 (6.5.19.0) de AEM 6.5 Forms. Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Formularios adaptables, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
+> Para AEM 6.5 Forms, este componente se introdujo con AEM 6.5 Forms Service Pack 19 (6.5.19.0). Para habilitar este componente, asegúrese de que están instaladas las versiones necesarias de los componentes principales de Forms y de WCM. Para obtener información detallada sobre las versiones de los componentes principales de Formularios adaptables, consulte [Lanzamientos de componentes principales de Adaptive Forms](/help/adaptive-forms/version.md)
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -102,7 +105,7 @@ Puede personalizar fácilmente la experiencia de las Casillas de verificación p
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -115,7 +118,7 @@ Puede personalizar fácilmente la experiencia de las Casillas de verificación p
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 

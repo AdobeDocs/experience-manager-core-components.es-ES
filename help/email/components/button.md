@@ -3,8 +3,9 @@ title: Componente Botón de correo electrónico
 description: El componente Botón de correo electrónico permite la configuración y visualización de un elemento de botón en el contenido.
 role: Architect, Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 100%
 

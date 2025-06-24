@@ -3,32 +3,18 @@ title: Desarrollo de componentes principales
 description: Los componentes principales proporcionan componentes básicos sólidos y ampliables que ofrecen funciones enriquecidas, envío continuo, versiones de componentes, implementación moderna, marcado ligero y exportación de contenido JSON.
 role: Architect, Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
-source-git-commit: 614bc5fd01a76a6888606faa4576e1695b77ba58
+source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1130'
 ht-degree: 100%
 
 ---
 
 # Desarrollo de componentes principales {#developing-core-components}
 
-## ¿Cuándo utilizar los componentes principales? {#when-to-use-the-core-components}
+Los componentes principales proporcionan componentes básicos sólidos y ampliables que ofrecen funciones enriquecidas, envío continuo, versiones de componentes, implementación moderna, marcado ligero y exportación de contenido JSON.
 
-Como los componentes principales son completamente nuevos y ofrecen varios beneficios, se recomienda utilizarlos en los nuevos proyectos de AEM. En los proyectos existentes, la migración debería ser parte de un esfuerzo de proyecto aún mayor; por ejemplo, para realizar un cambio en la marca o la refactorización total.
-
-Por lo tanto, Adobe ofrece las siguientes recomendaciones:
-
-* **Proyectos nuevos**
-Los proyectos nuevos siempre deben intentar utilizar los componentes principales. Si los componentes principales no se pueden utilizar directamente o [ampliados](customizing.md) para satisfacer los requisitos del proyecto, cree un componente personalizado siguiendo la arquitectura de componentes establecida en los componentes principales. Salvo que no sea posible, evite utilizar los [componentes de base](/help/versions.md#foundation-component-support).
-* **Proyectos existentes**
-Se recomienda que los proyectos existentes sigan usando los [componentes base](/help/versions.md#foundation-component-support), a menos que se planifique una refactorización de sitios o componentes.\
-  Como la mayoría de los proyectos existentes los utilizan muy ampliamente, los componentes de base [seguirán siendo compatibles.](/help/versions.md#foundation-component-support)
-* **Nuevos componentes personalizados**
-Evaluar si un [componente principal existente se puede personalizar](customizing.md).\
-  Si no es así, se recomienda crear un componente personalizado nuevo siguiendo las [Directrices de componentes](guidelines.md).
-* **Componentes personalizados existentes**
-Si los componentes funcionan según lo esperado, manténgalos tal cual.\
-  Si no es así, consulte &quot;Nuevos componentes personalizados&quot; más arriba.
+{{traditional-aem}}
 
 ## Cómo utilizar correctamente los componentes principales {#how-to-succeed}
 
@@ -131,12 +117,12 @@ En la siguiente tabla se enumeran los componentes principales disponibles, enlaz
 | [Fragmento de contenido](https://adobe.com/go/aem_cmp_tech_cf_v1_es) | Permite la visualización de un fragmento del contenido | `-` |
 | [Lista de fragmentos de contenido](https://adobe.com/go/aem_cmp_tech_cflist_v1_es) | Permite mostrar una lista de fragmentos de contenido | `-` |
 | [Separador](https://adobe.com/go/aem_cmp_tech_separator_v1_es) | Separa el contenido de una página | `-` |
-| [Acordeón](https://adobe.com/go/aem_cmp_tech_accordion_v1_es) | Organiza paneles de contenido en un acordeón plegable | `-` |
+| [Acordeón](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organiza paneles de contenido en un acordeón plegable | `-` |
 | [Contenedor](https://adobe.com/go/aem_cmp_tech_container_v1_es) | Organización de componentes dentro de un contenedor | `-` |
-| [Botón](https://adobe.com/go/aem_cmp_tech_button_v1_es) | Creación de un botón en una página | `-` |
-| [Descargar](https://adobe.com/go/aem_cmp_tech_download_v1_es) | Agregar un recurso descargable a una página | `-` |
-| [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1_es) | Añadir un fragmento de experiencia a una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1_es) | Incrustar un recurso externo en una página | - |
+| [Botón](https://adobe.com/go/aem_cmp_tech_button_v1) | Creación de un botón en una página | `-` |
+| [Descargar](https://adobe.com/go/aem_cmp_tech_download_v1) | Agregar un recurso descargable a una página | `-` |
+| [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1) | Añadir un fragmento de experiencia a una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incrustar un recurso externo en una página | - |
 | [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Proporcionar una representación visual del progreso hacia un objetivo | - |
 | [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_es) | Presenta un documento PDF en una página | - |
 

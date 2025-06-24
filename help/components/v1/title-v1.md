@@ -4,12 +4,13 @@ description: El componente principal Título es un componente de encabezado de s
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 79549ac0-82f2-4ea0-9cce-d534d0b47b5c
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '320'
 ht-degree: 100%
 
 ---
+
 
 # Componente Título (versión 1) {#title-component-v}
 

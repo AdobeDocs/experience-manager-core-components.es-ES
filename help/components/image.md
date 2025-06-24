@@ -3,8 +3,8 @@ title: Componente Imagen
 description: El componente principal Imagen es un componente de imagen adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: ad911040d7e47fc3884071005c17accf8edd0a62
-workflow-type: ht
+source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
+workflow-type: tm+mt
 source-wordcount: '2062'
 ht-degree: 100%
 
@@ -14,6 +14,8 @@ ht-degree: 100%
 # Componente Imagen {#image-component}
 
 El componente principal Imagen es un componente de imagen adaptable.
+
+{{traditional-aem}}
 
 ## Uso {#usage}
 
@@ -181,7 +183,7 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
    * **Modificadores de imagen**: los comandos de servidor de imágenes adicionales de Dynamic Media se pueden definir aquí separados por `&`, independientemente de los **tipos de ajustes preestablecidos** seleccionados.
 * **Pie de ilustración**: información adicional sobre la imagen que se muestra debajo de la imagen de forma predeterminada.
    * **Obtener pie de ilustración de DAM**: cuando se marca esta opción, el texto del pie de ilustración de la imagen se rellena con el valor de los metadatos `dc:title` de DAM.
-   * **Mostrar pie de ilustración como elemento emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el ratón por encima de la imagen.
+   * **Mostrar pie de ilustración como elemento emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el puntero por encima de la imagen.
 * **Vínculo**: vincule la imagen a otro recurso.
    * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.
    * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretan como relativas a AEM.

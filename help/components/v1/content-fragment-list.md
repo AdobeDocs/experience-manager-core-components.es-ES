@@ -3,12 +3,14 @@ title: Componente Lista de fragmentos de contenido (v1)
 description: El componente principal Lista de fragmentos de contenido permite mostrar una lista de fragmentos de contenido.
 role: Architect, Developer, Admin, User
 exl-id: 37d6632d-360d-4081-8279-8efbb369a82e
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 98%
 
 ---
+
 
 # Componente Lista de fragmentos de contenido (v1) {#content-fragment-list-component}
 

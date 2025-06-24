@@ -4,12 +4,13 @@ description: El componente principal Ruta de exploración es un componente de na
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '530'
 ht-degree: 100%
 
 ---
+
 
 # Componente Ruta de exploración (versión 1) {#breadcrumb-component-v}
 
@@ -35,7 +36,7 @@ La siguiente tabla enumera la compatibilidad de la versión 1 del componente Rut
 >[!CAUTION]
 >
 >Este documento describe la versión 1 del componente Ruta de exploración.
->Para obtener más información sobre la versión actual del componente Ruta de exploración, consulte el documento [Componente Ruta de exploración](/help/components/breadcrumb.md).
+>>Para obtener más información sobre la versión actual del componente Ruta de exploración, consulte el documento [Componente Ruta de exploración](/help/components/breadcrumb.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 

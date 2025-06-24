@@ -4,12 +4,13 @@ description: El componente principal Formulario oculto permite incluir un campo 
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 2c06a942-7ac5-4847-9d11-7bbcd0ea51bd
-source-git-commit: 3ebe1a42d265185b36424b01844f4a00f05d4724
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 100%
 
 ---
+
 
 # Componente Botón de formulario (versión 1) {#form-button-component-v}
 

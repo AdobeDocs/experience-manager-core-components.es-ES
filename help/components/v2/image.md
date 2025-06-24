@@ -3,12 +3,14 @@ title: Componente de imagen (versión 2)
 description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-source-git-commit: 6c251cd03997dca8961b31498c6f5de3cfdc3793
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '2048'
 ht-degree: 98%
 
 ---
+
 
 # Componente de imagen (versión 2) {#image-component}
 
@@ -96,7 +98,7 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y del [cuadro de diá
    * **Obtener texto alternativo de DAM**: cuando se selecciona, el texto alternativo de la imagen se rellena con el valor de los metadatos `dc:description` en DAM.
 * **Pie de ilustración**: información adicional sobre la imagen que se muestra debajo de la imagen de forma predeterminada.
    * **Obtener pie de ilustración de DAM**: cuando se marca, el texto del pie de la imagen se rellena con el valor de los metadatos `dc:title` de DAM.
-   * **Mostrar pie de ilustración como ventana emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el ratón por encima de la imagen.
+   * **Mostrar pie de ilustración como ventana emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el puntero por encima de la imagen.
 * **Vínculo**: vincule la imagen a otro recurso.
    * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.
    * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.

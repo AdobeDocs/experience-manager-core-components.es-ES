@@ -4,8 +4,9 @@ description: Uso o personalización del componente principal de revisión de for
 role: Architect, Developer, Admin, User
 hide: true
 hidefromtoc: true
-source-git-commit: 04a685cfa2616839f4fec715847bf0821808bd59
-workflow-type: ht
+exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
 source-wordcount: '742'
 ht-degree: 100%
 
@@ -15,6 +16,8 @@ ht-degree: 100%
 # Revisar componente
 
 El componente de revisión de los formularios adaptables permite a los usuarios revisar y comprobar la información que han introducido antes de enviar el formulario. Sirve como página de resumen, proporcionando una vista de solo lectura de todos los campos y sus valores en un formato estructurado y fácil de usar. Esta función garantiza que los usuarios puedan identificar y corregir cualquier error u omisión antes de finalizar su envío, lo que mejora la experiencia general del formulario. Al hacer clic en el icono de edición, pueden modificar la información introducida antes de enviar el formulario.
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -76,4 +79,3 @@ En el siguiente vídeo se muestra cómo configurar el componente **Revisar** par
 ## Consulte también {#see-also}
 
 {{see-also}}
-

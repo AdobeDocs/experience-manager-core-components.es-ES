@@ -3,12 +3,14 @@ title: Componente incrustado (v1)
 description: El componente incrustado permite incrustar contenido externo en una página de contenido de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 28a2d196-cc1f-4e29-a8e4-c2e0acba3bfc
-source-git-commit: e291d4c1bfd37292d68c236178f9681c4e5ee741
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1240'
 ht-degree: 100%
 
 ---
+
 
 # Componente incrustado (v1) {#embed-component}
 
@@ -37,7 +39,7 @@ Para experimentar el componente incrustado, ver ejemplos de sus opciones de conf
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente incrustado [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_es).
+La documentación técnica más reciente sobre el componente incrustado [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

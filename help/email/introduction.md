@@ -3,8 +3,9 @@ title: Introducción a los componentes principales de correo electrónico
 description: Cree contenido de correo electrónico atractivo con la flexibilidad de los componentes principales de correo electrónico y envíelo con la potencia de Adobe Campaign.
 role: Architect, Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
-source-git-commit: 91cf78d4c6622bbdec5ac7d22954c9c081c839d2
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 100%
 

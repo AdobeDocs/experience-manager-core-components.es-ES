@@ -3,12 +3,13 @@ title: 'Componente principal de formularios adaptables: botón'
 description: Uso o personalización del componente principal de botón de formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: cb75929b-8c86-49d1-b51a-368f5b80b1a9
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1660'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1658'
+ht-degree: 98%
 
 ---
+
 
 # Componente Botón {#button-component-adaptive-forms-core-component}
 
@@ -19,6 +20,8 @@ El editor de reglas de formularios adaptables permite a los usuarios establecer 
 Los Formularios adaptables incorporan componentes independientes para el [botón Enviar](/help/adaptive-forms/components/submit-button.md) y el [botón Restablecer](/help/adaptive-forms/components/reset-button.md), lo que permite a los usuarios enviar o restablecer cómodamente un formulario. El componente Botón se puede configurar de forma flexible para ejecutar estas acciones según necesidades específicas.
 
 Los usuarios pueden acceder a la lista completa de acciones compatibles con el componente de botón mediante el editor de reglas de formularios adaptables. El editor de reglas permite a los usuarios crear reglas que se activan mediante varios eventos, como cuando se hace clic en un botón, se carga un formulario o cambia un valor de campo. Estas reglas se pueden emplear para diversas acciones, como mostrar u ocultar componentes, configurar valores de campo o enviar el formulario.
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -40,9 +43,9 @@ Existen varias razones por las que resulta beneficioso incluir un botón en un f
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de botón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Botón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y los componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
 | Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
@@ -51,7 +54,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
@@ -90,7 +93,7 @@ Puede personalizar fácilmente la experiencia de botones para los visitantes con
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -104,7 +107,7 @@ Puede personalizar fácilmente la experiencia de botones para los visitantes con
    - **Descripción**: seleccione esta opción para utilizar la descripción para las etiquetas de accesibilidad de ARIA.
    - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
-   - **Ninguno**: seleccione esta opción si no desea agregar etiquetas de accesibilidad de ARIA.
+   - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 

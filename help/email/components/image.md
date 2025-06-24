@@ -3,8 +3,9 @@ title: Componente Imagen de correo electrónico
 description: El componente Imagen de correo electrónico es un componente de imagen adaptable que incluye la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
-source-git-commit: 91969e4956bef1a511b8d588d5290a7999bf86ec
-workflow-type: ht
+index: false
+source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
+workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 100%
 
@@ -103,7 +104,7 @@ El componente Imagen de correo electrónico ofrece un cuadro de diálogo de conf
    * **Modificadores de imagen**: los comandos de servidor de imágenes adicionales de Dynamic Media se pueden definir aquí separados por `&`, independientemente del **Tipos de ajuste preestablecido** seleccionado.
 * **Pie de ilustración**: información adicional sobre la imagen que se muestra debajo de la imagen de forma predeterminada.
    * **Obtener pie de ilustración de DAM**: cuando se marca, el texto del pie de ilustración de la imagen se rellena con el valor de los metadatos `dc:title` de DAM. Solo está disponible cuando se elige un recurso de DAM.
-   * **Mostrar pie de ilustración como ventana emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el ratón por encima de la imagen.
+   * **Mostrar pie de ilustración como ventana emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el puntero por encima de la imagen.
 * **Vínculo**: vincule la imagen a otro recurso.
    * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.
    * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.

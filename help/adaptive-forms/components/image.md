@@ -3,18 +3,21 @@ title: 'Componente principal de Formularios adaptables: imagen'
 description: Uso o personalización del componente principal de imagen de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 9ee42d5d-16e3-4973-8364-5bc512ebe72e
-source-git-commit: 732efc9ed450aa31078ecaad65c0c306679fe97e
-workflow-type: ht
-source-wordcount: '1058'
-ht-degree: 100%
+source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 96%
 
 ---
+
 
 # Componente de imagen{#image-adaptive-forms-core-component}
 
 Un componente Imagen de un Formulario adaptable es una forma de incluir imágenes en un formulario. Estas imágenes se pueden utilizar para mejorar el diseño general del formulario, proporcionar información adicional o servir como ayuda visual para que los usuarios comprendan la finalidad del formulario. El componente de imagen se puede utilizar para añadir un logotipo, una foto o un gráfico en el formulario.
 
 Para la accesibilidad, es importante especificar un **Texto alternativo** para la imagen para proporcionar una alternativa de texto corto y descriptivo de la imagen, que describa la imagen para las personas que no pueden verla.
+
+{{traditional-aem}}
 
 **Ejemplo**
 
@@ -35,9 +38,9 @@ Existen varias razones por las que resulta beneficioso incluir un componente Ima
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de imagen de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal de imagen de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y los componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
-| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o posteriores |
+| Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
 | Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
@@ -46,7 +49,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 

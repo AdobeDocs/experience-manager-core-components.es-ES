@@ -4,12 +4,13 @@ description: El componente principal Imagen es una función del componente de im
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 5f25aee6ebcb7a5c6b8db0df5b8b853f15af97d0
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 98%
 
 ---
+
 
 # Componente de imagen (versión 1) {#image-component-v}
 
@@ -94,7 +95,7 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y del [cuadro de diá
    * Si no se vincula a un recurso de AEM, introduzca la dirección URL absoluta. Las direcciones URL no resueltas se interpretarán como relativas a AEM.
 
 * **Pie de ilustración**: la información adicional sobre la imagen que se muestra debajo de la misma es predeterminada.
-* **Mostrar pie de ilustración como elemento emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el ratón por encima de la imagen.
+* **Mostrar pie de ilustración como elemento emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el puntero por encima de la imagen.
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 

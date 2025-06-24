@@ -3,12 +3,14 @@ title: Componente Lista (versión 3)
 description: El componente principal de lista (versión 3) permite crear fácilmente listas dinámicas y estáticas.
 role: Architect, Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
-source-git-commit: d86cb826922330f9877a725b84eb1844e1d5c0b7
+index: n
+source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
 workflow-type: tm+mt
 source-wordcount: '1168'
 ht-degree: 100%
 
 ---
+
 
 # Componente Lista (versión 3) {#list-component}
 
