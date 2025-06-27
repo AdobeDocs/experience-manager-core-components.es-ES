@@ -1,18 +1,18 @@
 ---
-title: Instrucciones de los componentes
-description: Los componentes principales siguen patrones de implementación que son bastante diferentes de los componentes de base.
+title: Directrices sobre los componentes
+description: Los componentes principales siguen patrones de implementación modernos que son bastante diferentes de los componentes de base.
 role: Architect, Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1225'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Instrucciones de los componentes {#component-guidelines}
+# Directrices sobre los componentes {#component-guidelines}
 
-Los [componentes principales](overview.md) siguen patrones de implementación bastante diferentes de los componentes de base.
+Los [componentes principales](overview.md) siguen patrones de implementación modernos que son bastante diferentes de los componentes de base.
 
 En esta página se explican estos patrones y cuándo utilizarlos para crear sus propios componentes legibles. La primera sección [Patrones de componentes generales](#general-component-patterns) se aplica a cualquier tipo de componente, mientras que la segunda sección [Patrones de componentes reutilizables](#reusable-component-patterns) se aplica a componentes que se van a reutilizar en sitios o proyectos, como los componentes principales, por ejemplo.
 

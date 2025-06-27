@@ -4,8 +4,8 @@ description: El componente Teaser puede mostrar una imagen, un título, texto en
 role: Architect, Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
-source-wordcount: '1046'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

@@ -1,18 +1,18 @@
 ---
-title: Componente de imagen (versión 2)
-description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
+title: Componente Imagen (v2)
+description: El componente principal Imagen es un componente de imagen adaptable que permite la edición in situ.
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2048'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Componente de imagen (versión 2) {#image-component}
+# Componente Imagen (v2) {#image-component}
 
 El componente de imagen del componente principal es un componente de imagen adaptable que incluye la edición in situ.
 
@@ -223,9 +223,9 @@ En la pestaña **Características** puede definir qué opciones están disponibl
   ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-orientation.png)
 
 * **Rotar**
-Utilice esta opción para permitir que el autor del contenido utilice la opción **Rotar hacia la derecha**.
-* **Voltear**
-Utilice esta opción para permitir que el autor del contenido utilice las opciones **Voltear horizontalmente** y **Voltear verticalmente**.
+Utilice esta opción para permitir que el autor del contenido utilice la opción **Rotar hacia la derecha**.
+* **Girar**
+Utilice esta opción para permitir que el autor del contenido utilice las opciones **Girar horizontalmente** y **Girar verticalmente**.
 
   >[!CAUTION]
   >

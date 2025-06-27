@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de texto de formula
 role: Architect, Developer, Admin, User
 exl-id: b8de68e4-ca0d-4ae5-9a04-104cc617f1be
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '996'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -37,17 +37,17 @@ Hay varias razones para utilizar texto en un formulario:
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal Texto de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y los componentes principales 1.1.12 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Texto de los formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4 para Cloud Service y los componentes principales 1.1.12 para AEM 6.5.16.0 Forms o versiones posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
+| v1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 

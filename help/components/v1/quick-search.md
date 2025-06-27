@@ -1,18 +1,18 @@
 ---
-title: Componente Búsqueda rápida (versión 1)
+title: Componente Búsqueda rápida (v1)
 description: El componente Búsqueda rápida proporciona funciones de búsqueda en un sitio web y presenta resultados de búsqueda para que los visitantes puedan buscar en el sitio y filtrar los resultados.
 role: Architect, Developer, Admin, User
 exl-id: 60a043b7-d82c-4bc1-b91a-b77f748f7bc2
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '646'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
-# Componente Búsqueda rápida (versión 1) {#quick-search-component}
+# Componente Búsqueda rápida (v1) {#quick-search-component}
 
 El componente Búsqueda rápida proporciona funciones de búsqueda en un sitio web y presenta resultados de búsqueda para que los visitantes puedan encontrar fácilmente contenido coincidente y ver resultados.
 
@@ -30,12 +30,12 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM as a Cloud Service |
 |--- |--- |--- |---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible |
+| v1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible |
 
 >[!CAUTION]
 >
 >Este documento describe la versión 1 del componente Búsqueda rápida.
->&#x200B;>Para obtener más información sobre la versión actual del componente Búsqueda rápida, consulte el documento [Componente Búsqueda rápida](/help/components/quick-search.md).
+>>Para obtener más información sobre la versión actual del componente Búsqueda rápida, consulte el documento [Componente Búsqueda rápida](/help/components/quick-search.md).
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

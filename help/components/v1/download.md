@@ -1,11 +1,11 @@
 ---
 title: Descargar componente (v1)
-description: El componente principal Descarga permite crear una opción de descarga en una página.
+description: El componente principal Descargar del componente principal permite crear una opción de descarga en una página.
 role: Architect, Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Descargar componente (v1) {#download-component}
 
-El componente principal Descarga permite crear una opción de descarga en una página.
+El componente principal Descargar del componente principal permite crear una opción de descarga en una página.
 
 ## Uso {#usage}
 
@@ -35,11 +35,11 @@ Este documento describe la versión 1 del componente Descarga, que se introdujo 
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente Descarga, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_download_es).
+Para experimentar el componente Descarga, así como ver ejemplos de sus opciones de configuración, así como la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_download).
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Descarga [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_es).
+La documentación técnica más reciente sobre el componente Descarga [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

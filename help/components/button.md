@@ -4,8 +4,8 @@ description: El componente principal Botón permite crear y visualizar un botón
 role: Architect, Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
-source-wordcount: '533'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ Para experimentar el componente Botón, así como ver ejemplos de sus opciones d
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Botón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_button_v2_es).
+La documentación técnica más reciente sobre el componente Botón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_button_v2).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

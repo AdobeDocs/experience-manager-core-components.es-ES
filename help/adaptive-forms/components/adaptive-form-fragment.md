@@ -4,9 +4,9 @@ description: Utilice fragmentos de formulario para crear segmentos de formulario
 role: Architect, Developer, Admin, User
 exl-id: bde4a416-1d6b-4e9e-ac74-70fccef473cb
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1952'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -40,11 +40,11 @@ También puede utilizar la [opción de repetibilidad](https://experienceleague.a
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del fragmento de Forms adaptable se publicó como parte de los componentes principales 2.0.50 para Cloud Service y los componentes principales 1.1.26 para AEM 6.5.16.0 Forms o posterior. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Fragmento de los formularios adaptables se publicó como parte de los componentes principales, versión 2.0.50 para Cloud Service y componentes principales, versión 1.1.26 para AEM 6.5.16.0 Forms o versiones posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.0.50](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.26](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
+| v1 | Compatible con la <br>[versión 2.0.50](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.26](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 

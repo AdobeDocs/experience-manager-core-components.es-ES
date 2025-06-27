@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
 index: n
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,7 +108,7 @@ Para experimentar el componente Fragmento de experiencia, así como ver ejemplos
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Fragmento de experiencia [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1_es).
+La documentación técnica más reciente sobre el componente Fragmento de experiencia [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

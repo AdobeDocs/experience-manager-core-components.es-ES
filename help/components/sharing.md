@@ -5,9 +5,9 @@ role: Architect, Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 index: false
 source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '377'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ El componente principal Compartir en redes sociales es una utilidad de uso compa
 
 >[!NOTE]
 >
->El componente Uso compartido en medios sociales quedó obsoleto con los componentes principales [versión 2.18.0.](/help/versions.md)
+>El componente Uso compartido en redes sociales ha quedado obsoleto con la [versión 2.18.0](/help/versions.md) de los componentes principales.
 
 {{traditional-aem}}
 
@@ -36,7 +36,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente y las 
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible, obsoleto | Compatible, obsoleto | Compatible, obsoleto |
+| v1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible, obsoleto | Compatible, obsoleto | Compatible, obsoleto |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 

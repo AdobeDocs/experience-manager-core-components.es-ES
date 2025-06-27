@@ -4,9 +4,9 @@ description: Uso o personalización del Componente principal de la casilla de ve
 role: Architect, Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1837'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ El componente principal Casilla de verificación de formularios adaptables se pu
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| Versión 1 | Compatible con la <br>[versión 2.0.52](/help/adaptive-forms/version.md) y posteriores | Compatible | Compatible |
+| v1 | Compatible con la <br>[versión 2.0.52](/help/adaptive-forms/version.md) y posteriores | Compatible | Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 

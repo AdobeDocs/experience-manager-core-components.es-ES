@@ -4,8 +4,8 @@ description: Uso o personalización del componente principal de cambio de formul
 role: Architect, Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: tm+mt
-source-wordcount: '1922'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

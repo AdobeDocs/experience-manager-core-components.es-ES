@@ -4,8 +4,8 @@ description: Los Componentes principales implementan varios patrones que facilit
 role: Architect, Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
-source-wordcount: '1041'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---

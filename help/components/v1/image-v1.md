@@ -1,20 +1,20 @@
 ---
 title: Componente de imagen (versión 1)
-description: El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
+description: El componente principal Imagen es un componente de imagen adaptable que permite la edición in situ.
 index: n
 role: Architect, Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1293'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 
 # Componente de imagen (versión 1) {#image-component-v}
 
-El componente principal Imagen es una función del componente de imagen adaptable que se edita in situ.
+El componente principal Imagen es un componente de imagen adaptable que permite la edición in situ.
 
 ## Uso {#usage}
 
@@ -218,8 +218,8 @@ En la pestaña **Características** puede definir qué opciones están disponibl
   ![](/help/assets/chlimage_1-20.png)
 
    * **Rotar**: utilice esta opción para permitir que el autor del contenido utilice la opción **Rotar hacia la derecha**.
-   * **Voltear**
-Utilice esta opción para permitir que el autor del contenido utilice las opciones **Voltear horizontalmente** y **Voltear verticalmente**.
+   * **Girar**
+Utilice esta opción para permitir que el autor del contenido utilice las opciones **Girar horizontalmente** y **Girar verticalmente**. 
 
   >[!CAUTION]
   >

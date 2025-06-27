@@ -4,8 +4,8 @@ description: Descubra cómo ampliar o crear un componente principal de formulari
 role: Architect, Developer, Admin
 exl-id: f3ab12aa-d48d-47e9-a965-15052cac6f18
 source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: tm+mt
-source-wordcount: '562'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
