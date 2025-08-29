@@ -1,65 +1,55 @@
 ---
-title: 'Componente principal de Formularios adaptables: selector de fecha'
-description: Uso o personalización del componente principal de selector de fecha de Formularios adaptables.
+title: 'Componente principal de Forms adaptable: fecha y hora'
+description: Usar o personalizar el componente principal Fecha y hora de Forms adaptable.
 role: Architect, Developer, Admin, User
-exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 100%
+source-wordcount: '1898'
+ht-degree: 74%
 
 ---
 
 
-# Componente Selector de fecha{#date-picker-adaptive-forms-core-component}
+# Componente de fecha y hora
 
-Un componente de selector de fecha de un Formulario adaptable es un elemento de la interfaz de usuario que permite a los usuarios seleccionar una fecha de un calendario o introduciendo manualmente una fecha en un formato específico. El componente de selector de fecha se puede configurar para que tenga valores de formato, validación y predeterminados diferentes.
+Un componente de fecha y hora de un formulario adaptable es un elemento de interfaz de usuario que permite a los usuarios seleccionar **fecha y hora** mediante una interfaz de calendario y reloj, o introduciendo manualmente valores en un formato específico. Garantiza una entrada precisa y estandarizada para casos de uso en los que tanto la fecha como la hora son esenciales.
 
 **Ejemplo**
 
-![ejemplo](/help/adaptive-forms/assets/date-picker.png)
+![ejemplo](/help/adaptive-forms/assets/date-time-picker.png)
 
-## Uso {#reasons-to-use-drop-date-picker}
+## Uso {#reasons-to-use-date-time-picker}
 
-Existen varias razones por las que resulta beneficioso incluir un selector de fecha en un Formulario adaptable, entre ellas, las siguientes:
+Existen varias razones por las que es beneficioso incluir un selector de fecha y hora en un formulario, entre ellas:
 
-- **Comodidad**: un componente de selector de fecha permite a los usuarios seleccionar fácilmente una fecha de un calendario sin tener que introducirla manualmente un campo de texto. Esto puede ahorrar tiempo y reducir errores.
-
-- **Experiencia del usuario**: el componente de selector de fecha se puede utilizar para que el formulario sea más fácil de usar, ya que proporciona una forma clara e intuitiva para que los usuarios seleccionen la fecha.
-
-- **Análisis de datos**: el componente de selector de fecha se puede utilizar para recopilar datos de varias fuentes y analizarlos, o para utilizarlos como entrada para un procesamiento posterior.
-
-- **Administración de eventos**: el componente de selector de fecha se puede utilizar en sitios web de administración de eventos para seleccionar la fecha del evento.
-
-- **Reservas**: el componente de selector de fecha se puede utilizar en los sitios web de reservas para seleccionar las fechas de entrada y salida.
-
-- **Formato de fecha**: el componente de selector de fecha se puede utilizar para corregir el formato en el que se muestra e introduce la fecha. Asegúrese de que el formato de fecha sea uniforme en todo el formulario para garantizar que la experiencia de usuario sea consistente.
+- **Comodidad**: permite a los usuarios elegir fácilmente una fecha y una hora sin necesidad de escribir valores manualmente.
+- **Coherencia**: Aplica un formato estándar para las entradas de fecha y hora en todo el formulario.
+- **Experiencia del usuario mejorada**: Proporciona una interfaz de usuario intuitiva con selectores de calendario y hora.
+- **Programación de eventos**: útil en la reserva de citas, entrevistas o formularios de programación de reuniones.
+- **Viajes y reservas**: permite a los usuarios seleccionar las fechas y horas de llegada y salida.
+- **Precisión de datos**: reduce los errores de entrada en comparación con la entrada de texto libre.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de selector de fecha de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales, versión 2.0.4 para Cloud Service y los componentes principales, versión 1.1.12 para AEM 6.5.16.0 Forms o versiones posteriores. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Fecha y hora de Forms adaptable se publicó en **agosto de 2025** como parte de **Componentes principales 2.24.6** para Cloud Service y versiones posteriores.
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
-| v1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
+| v1 | Compatible con la <br>[versión 2.24.6](/help/adaptive-forms/version.md) y posteriores | |
 
-Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
-
-<!-- ## Sample Component Output {#sample-component-output}
-
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
+Para obtener más información sobre las versiones, consulte [Versiones de componentes principales](/help/adaptive-forms/version.md).
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga la información más reciente sobre el componente principal de selector de fecha de Formularios adaptables en la documentación técnica de [GitHub](https://github.com/adobe/aem-core-forms-components/tree/master/ui.af.apps/src/main/content/jcr_root/apps/core/fd/components/form/datepicker/v1/datepicker). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga los detalles técnicos más recientes sobre el componente principal Fecha y hora de Forms adaptable en [GitHub](https://github.com/adobe/aem-core-forms-components). Para obtener más información sobre el desarrollo de componentes principales, consulte [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia del selector de fecha para los visitantes con el cuadro de diálogo de configuración. También puede definir las opciones de selector de fecha con facilidad para que el usuario disfrute de una experiencia óptima.
+El cuadro de diálogo de configuración permite personalizar la fecha y la hora.
 
 ### Pestaña Básicos {#basic-tab}
 
-![Pestaña Básicos](/help/adaptive-forms/assets/datepicker_basictab.png)
+![Pestaña Básicos](/help/adaptive-forms/assets/datetime_basictab.png)
 
 - **Nombre**: el nombre identifica de forma exclusiva el componente en el editor de reglas. No se permiten caracteres especiales ni espacios en las cadenas de nombre.
 
@@ -79,12 +69,11 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
-- **Fecha predeterminada**: esta opción permite añadir una fecha al campo del formulario. La fecha introducida aparece de forma predeterminada en el lugar del componente. Si el usuario no introduce ninguna fecha, este valor se envía en el momento del envío del formulario. En caso de que se seleccione **Componente desactivado** o **Componente de solo lectura**, la fecha predeterminada se muestra en la pantalla y se envía en el momento del envío del formulario.
-
+- **Fecha y hora predeterminadas**: esta opción le permite agregar una fecha y una hora al campo de formulario. La fecha introducida aparece de forma predeterminada en el lugar del componente. Si el usuario no introduce ninguna fecha u hora, este valor se envía en el momento del envío del formulario. En caso de que se seleccione **Componente deshabilitado** o **Componente de solo lectura**, la fecha y la hora predeterminadas se mostrarán en la pantalla y se enviarán en el momento del envío del formulario.
 
 ### Pestaña Validación {#validation-tab}
 
-![Pestaña Validación](/help/adaptive-forms/assets/datepicker_validation.png)
+![Pestaña Validación](/help/adaptive-forms/assets/datetime_validation.png)
 
 - **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe realizar una selección antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Desactivar componente** en la pestaña **Básicos** cuando esta opción está seleccionada.
 
@@ -92,20 +81,17 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 - **Mensaje de validación de la secuencia de comandos**: esta opción permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
-- **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la fecha especificada en Fecha mínima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
+- **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la especificada en Fecha y hora mínimas, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
 
-- **Mensaje de error mínimo**: el cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha anterior a la fecha especificada en la opción **Fecha mínima**.
-- **Excluir fecha mínima**: esta opción permite omitir la fecha mínima en un intervalo o conjunto de fechas determinados.
+- **Mensaje de error mínimo** - El cuadro de diálogo **Mensaje de error mínimo** le permite agregar un mensaje de error personalizado para que se muestre si escribe una fecha u hora anterior a la fecha u hora especificada en la opción **Fecha mínima**.
 
-- **Fecha máxima**: esta opción permite introducir la fecha máxima requerida. Si introduce una fecha posterior a la fecha especificada en Fecha máxima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado.
+- **Fecha máxima**: esta opción le permite especificar la fecha y la hora máximas requeridas. Si introduce una fecha u hora posterior a la especificada en Fecha máxima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado.
 
-- **Mensaje de error máximo**: el cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado para mostrar, si introduce una fecha posterior a la fecha especificada en la opción **Fecha máxima**.
-
-- **Excluir fecha máxima**: esta opción permite omitir la fecha máxima en un intervalo o conjunto de fechas determinados.
+- **Mensaje de error máximo** - El cuadro de diálogo **Mensaje de error máximo** le permite agregar un mensaje de error personalizado para que se muestre si escribe una fecha u hora posterior a la fecha u hora especificada en la opción **Fecha máxima**.
 
 ### Pestaña Contenido de ayuda {#help-content-tab}
 
-![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/datepicker_helptab.png)
+![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/datetime_helptab.png)
 
 - **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
@@ -116,7 +102,7 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 ### Pestaña Accesibilidad {#accessibility-tab}
 
-![Pestaña Accesibilidad](/help/adaptive-forms/assets/datepicker_accessibilitytab.png)
+![Pestaña Accesibilidad](/help/adaptive-forms/assets/datetime_accessibilitytab.png)
 
 - **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está específicamente diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
    - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
@@ -125,40 +111,42 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
    - **Nombre**: seleccione esta opción para utilizar el nombre para las etiquetas de accesibilidad de ARIA.
    - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
-### Pestaña Formatos {#format-tab}
+<!--
+### Formats Tab {#format-tab}
 
-![Pestaña Formatos](/help/adaptive-forms/assets/datepicker_formattab.png)
+![Formats tab](/help/adaptive-forms/assets/datepicker_formattab.png)
 
-- **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción **Tipo** permite al usuario seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
+-   **Display Format** - It represents the date format that is displayed to the user. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
 
-- **Editar formato**: representa un formato de fecha en el que el usuario puede editar la fecha. La opción **Tipo** permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
-- **Mensaje de error de formato**: esta opción le permite introducir el mensaje mostrado en la pantalla cuando la fecha introducida no tiene el formato correcto.
-- **Idioma**: esta función se utiliza para dar formato al campo específico. Cuando un usuario selecciona cualquier opción de idioma del menú desplegable **Tipo**, aparece la opción **Etiqueta de idioma IETF BCP 47** en el panel. Puede elegir el idioma del formato del campo al traducir un formulario adaptable a un idioma específico.
+-   **Edit Format** - It represents a date format in which the user can edit the date. The **Type** option allows the user to select the date format. You can also customize the date format using the **Custom** option in the **Type** dropdown menu.
+-  **Format error message** - This option allows you to enter the message displayed on the screen when the entered date is not in the correct format.
+- **Language** - This feature is used for formatting the specific field. When a user selects any language option from the **Type** drop-down menu, the **IETF BCP 47 language tag** option appears in the panel. You can choose the language for field formatting when translating an Adaptive Form into a specific language.
+  
+The set of languages is not visible by default, but users can input a custom **IETF BCP 47 language tag** by updating the template policy:
 
-El conjunto de idiomas no está visible de forma predeterminada, pero los usuarios pueden introducir una **Etiqueta de idioma IETF BCP 47** personalizada actualizando la directiva de plantilla:
+  1. Open the corresponding template associated with an Adaptive Form in the template editor.
+  2. Select the existing policy as `datepicker-default-policy` from the drop-down menu.
+   
+        ![Date Picker template Policy](/help/adaptive-forms/assets/date-picker-template-policy.png)
 
-1. Abra la plantilla correspondiente asociada a un formulario adaptable en el editor de plantillas.
-2. Seleccione la política existente como `datepicker-default-policy` en el menú desplegable.
+  3. Click **Done**.
 
-   ![Política de plantilla del selector de fecha](/help/adaptive-forms/assets/date-picker-template-policy.png)
-
-3. Haga clic en **Listo**.
-
-   >[!NOTE]
-   >
-   > Para obtener más información sobre cómo traducir un formulario adaptable a una configuración regional específica, [haga clic aquí](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        >[!NOTE]
+        >
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+-->
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente de selector de fechas.
+El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Fecha y hora.
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de selector de fecha de Formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de fecha y hora de Forms adaptable es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Pestaña Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de selector de fecha de Formularios adaptables.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de fecha y hora de Forms adaptable.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
@@ -176,13 +164,14 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
    - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden del nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
-### Pestaña Formatos {#formats-tab}
-
-La pestaña Formatos permite especificar formatos de fecha predeterminados y personalizados.
-
-![Pestaña Formato](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
-
 <!--
+### Formats Tab {#formats-tab}
+
+The formats tab allows you to specify default and custom date formats.
+
+![Formattab](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+
 
 ## Related article {#related-article}
 
