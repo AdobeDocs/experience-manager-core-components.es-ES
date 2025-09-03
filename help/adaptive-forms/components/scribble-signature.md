@@ -1,33 +1,33 @@
 ---
-title: 'Componente principal de Forms adaptable: firma manuscrita'
-description: Usar o personalizar el componente principal de la firma manuscrita de Forms adaptable.
+title: 'Componente principal de Formularios adaptables: firma manuscrita'
+description: Uso o personalización del componente principal Firma manuscrita de Formularios adaptables.
 role: Architect, Developer, Admin, User
-source-git-commit: 246a608e4c23a9075813a64691d583584164578c
+exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
+source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 79%
+ht-degree: 98%
 
 ---
-
 
 # Componente de firma manuscrita
 
 El componente de firma manuscrita <span>está en el programa para usuarios que adoptan anticipadamente. Puede escribir a `aem-forms-ea@adobe.com` desde su ID de correo electrónico oficial para unirse al programa de usuarios que lo adoptaron por primera vez y solicitar acceso a la capacidad.</span>
 
-Un componente Firma manuscrita en un formulario adaptable es un elemento de interfaz de usuario que permite a los usuarios dibujar su **firma** directamente en el formulario con un ratón, un lápiz o una pantalla táctil. Garantiza una captura precisa del consentimiento escrito a mano, las aprobaciones o la verificación en los flujos de trabajo digitales.
+Un componente de Firma manuscrita en un formulario adaptable es un elemento de interfaz de usuario que permite a los usuarios dibujar su **firma** directamente en el formulario con un ratón, un lápiz o una pantalla táctil. Garantiza una captura precisa del consentimiento escrito a mano, las aprobaciones o la verificación en los flujos de trabajo digitales.
 
 **Ejemplo**
 
 ![ejemplo](/help/adaptive-forms/assets/scribble-signature.png){width=50%,align-center}
 
-**Varias opciones disponibles en la ventana de firma**
+**Las diferentes opciones disponibles en la ventana Firma**
 
-- **A:** Haz clic en el icono **Dibujar** para dibujar tu firma en lienzo.
+- **A:** Haga clic en el icono **Dibujar** para dibujar su firma en el lienzo.
 - **B:** haga clic en el icono **Borrar** para borrar la firma en el lienzo.
 - **C:** haga clic en el icono **Geolocalización** para añadir geolocalización junto con la firma.
 - **D:** haga clic en el icono **Teclado** para escribir su nombre en lienzo.
 
-Una vez que seleccione el icono **Guardar** en la ventana Firma manuscrita, no podrá editar la firma. Si desea editar la firma, ignore la firma actual y vuelva a firmar el formulario con las opciones Pincel/Teclado mencionadas anteriormente.
+Una vez que seleccione el icono Listo **Guardar** en la ventana Firma manuscrita, no podrá editar la firma. Si desea editar la firma, ignore la firma actual y vuelva a firmar el formulario con las opciones Pincel/Teclado mencionadas anteriormente.
 
 >[!NOTE]
 >
@@ -35,27 +35,27 @@ Una vez que seleccione el icono **Guardar** en la ventana Firma manuscrita, no p
 
 ## Uso {#reasons-to-use-scribble-signature}
 
-Existen varias razones por las que es beneficioso incluir un campo de firma manuscrita en un formulario, entre ellas:
+Existen varias razones por las que resulta beneficioso incluir un componente de firma manuscrita en un formulario, entre ellas, las siguientes:
 
 - **Consentimiento digital**: permite a los usuarios proporcionar firmas válidas legalmente de forma electrónica.
-- **Experiencia del usuario mejorada**: Proporciona una forma natural de iniciar sesión directamente en los dispositivos sin analizar ni cargar.
+- **Experiencia del usuario mejorada**: proporciona una forma natural de iniciar sesión directamente en los dispositivos sin digitalizar ni cargar.
 - **Flujos de trabajo sin papel**: elimina la necesidad de imprimir, firmar y volver a digitalizar documentos.
 - **Autenticación**: actúa como un nivel adicional de confirmación y aprobación.
 - **Precisión de datos**: garantiza la captura correcta de la entrada manuscrita del firmante en formato digital.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de la firma manuscrita de Forms adaptable se publicó en **agosto de 2025** como parte de **Componentes principales 2.24.6** para Cloud Service y versiones posteriores.
+El componente principal de la firma manuscrita de Formularios adaptables se publicó en **agosto de 2025** como parte de **Componentes principales 2.24.6** para Cloud Service y versiones posteriores.
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
-| v1 | Compatible con la <br>[versión 2.24.6](/help/adaptive-forms/version.md) y posteriores | |
+| v1 | Compatible con la <br>[versión 2.24.6](/help/adaptive-forms/version.md) y posterior | |
 
 Para obtener más información sobre las versiones, consulte [Versiones de componentes principales](/help/adaptive-forms/version.md).
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga los detalles técnicos más recientes sobre el componente principal Firma manuscrita de Forms adaptable en [GitHub](https://github.com/adobe/aem-core-forms-components). Para obtener más información sobre el desarrollo de componentes principales, consulte [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga los detalles técnicos más recientes sobre el componente principal Firma manuscrita de Formularios adaptables en [GitHub](https://github.com/adobe/aem-core-forms-components). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
@@ -83,11 +83,11 @@ El cuadro de diálogo de configuración permite personalizar el componente Firma
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 
-- **Título del cuadro de diálogo de firma**: el título del cuadro de diálogo de firma define el texto mostrado en la parte superior del cuadro de diálogo de captura de firma. Sirve como mensaje o instrucción para el usuario cuando debe proporcionar una firma. El texto ayuda a guiar al usuario a través del proceso de firma, lo que hace que la interacción sea clara e intuitiva.
+- **Título del cuadro de diálogo de firma**: el título del cuadro de diálogo de firma define el texto mostrado en la parte superior del cuadro de diálogo de captura de firma. Sirve como indicación o instrucción para el usuario cuando debe proporcionar una firma. El texto ayuda a guiar al usuario a través del proceso de firma, lo que hace que la interacción sea clara e intuitiva.
 
 ### Pestaña Validación
 
-![ficha de validación](/help/adaptive-forms/assets/scribble-signature-validation.png)
+![pestaña validación](/help/adaptive-forms/assets/scribble-signature-validation.png)
 
 - **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe realizar una selección antes de continuar con el envío de un formulario. No puede seleccionar **Ocultar componente** o **Desactivar componente** en la pestaña **Básicos** cuando esta opción está seleccionada.
 
@@ -99,9 +99,9 @@ El cuadro de diálogo de configuración permite personalizar el componente Firma
 
 ![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/scribble-signature-helptab.png)
 
-- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
+- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Habilite la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: habilite la opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan al usuario para ayudarle a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -122,11 +122,11 @@ El cuadro de diálogo de diseño se utiliza para definir y administrar estilos C
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de la firma manuscrita de Forms adaptable es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente básico de firma manuscrita de Formularios adaptables es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Cuadro de diálogo de diseño](/help/adaptive-forms/assets/checkbox-style.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de la firma manuscrita de Forms adaptable.
+- **Clases CSS predeterminadas**: Puede proporcionar una clase CSS predeterminada para el componente básico de firma manuscrita de Formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
