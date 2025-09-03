@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: En el caso de los proyectos AEM tradicionales, utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '397'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ ht-degree: 97%
       + [Casilla de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox.md)
       + [Grupo de casillas de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox-group.md)
       + [Contenedor de formulario adaptable](/help/adaptive-forms/components/form-container.md)
-      + [Fecha y hora de Forms adaptable](/help/adaptive-forms/components/date-time-component.md)
+      + [Fecha y hora de formularios adaptables](/help/adaptive-forms/components/date-time-component.md)
       + [Selector de fecha de Formularios adaptables](/help/adaptive-forms/components/date-picker.md)
       + [Lista desplegable de Formularios adaptables](/help/adaptive-forms/components/drop-down-list.md)
       + [Correo electrónico de Formularios adaptables](/help/adaptive-forms/components/email.md)
@@ -128,7 +128,7 @@ ht-degree: 97%
       + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)
       + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
       + [Revisión del formulario adaptable](/help/adaptive-forms/components/review.md)
-      + [Firma manuscrita de Forms adaptable](/help/adaptive-forms/components/scribble-signature.md)
+      + [Firma manuscrita de Formularios adaptables](/help/adaptive-forms/components/scribble-signature.md)
       + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
       + [Cambio de Formularios adaptables](/help/adaptive-forms/components/adaptive-form-switch.md)
       + [Teléfono de formularios adaptables](/help/adaptive-forms/components/phone.md)

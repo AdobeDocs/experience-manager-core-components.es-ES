@@ -1,18 +1,18 @@
 ---
-title: 'Componente principal de Forms adaptable: fecha y hora'
-description: Usar o personalizar el componente principal Fecha y hora de Forms adaptable.
+title: 'Componente principal de Formularios adaptables: fecha y hora'
+description: Uso o personalización del componente principal de fecha y hora de los formularios adaptables.
 role: Architect, Developer, Admin, User
 source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1898'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 
 # Componente de fecha y hora
 
-Un componente de fecha y hora de un formulario adaptable es un elemento de interfaz de usuario que permite a los usuarios seleccionar **fecha y hora** mediante una interfaz de calendario y reloj, o introduciendo manualmente valores en un formato específico. Garantiza una entrada precisa y estandarizada para casos de uso en los que tanto la fecha como la hora son esenciales.
+Un componente de fecha y hora en un formulario adaptable es un elemento de la interfaz de usuario que permite a los usuarios seleccionar tanto la **fecha como la hora** utilizando una interfaz de calendario y reloj, o introduciendo manualmente valores en un formato específico. Garantiza una entrada precisa y estandarizada para casos de uso en los que tanto la fecha como la hora son esenciales.
 
 **Ejemplo**
 
@@ -20,7 +20,7 @@ Un componente de fecha y hora de un formulario adaptable es un elemento de inter
 
 ## Uso {#reasons-to-use-date-time-picker}
 
-Existen varias razones por las que es beneficioso incluir un selector de fecha y hora en un formulario, entre ellas:
+Existen varias razones por las que resulta beneficioso incluir un selector de fecha y hora en un formulario, entre ellas, las siguientes:
 
 - **Comodidad**: permite a los usuarios elegir fácilmente una fecha y una hora sin necesidad de escribir valores manualmente.
 - **Coherencia**: Aplica un formato estándar para las entradas de fecha y hora en todo el formulario.
@@ -31,17 +31,17 @@ Existen varias razones por las que es beneficioso incluir un selector de fecha y
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal Fecha y hora de Forms adaptable se publicó en **agosto de 2025** como parte de **Componentes principales 2.24.6** para Cloud Service y versiones posteriores.
+El componente principal Fecha y hora de Formularios adaptables se publicó en **agosto de 2025** como parte de **Componentes principales 2.24.6** para Cloud Service y versiones posteriores.
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
-| v1 | Compatible con la <br>[versión 2.24.6](/help/adaptive-forms/version.md) y posteriores | |
+| v1 | Compatible con la <br>[versión 2.24.6](/help/adaptive-forms/version.md) y posterior | |
 
 Para obtener más información sobre las versiones, consulte [Versiones de componentes principales](/help/adaptive-forms/version.md).
 
 ## Detalles técnicos {#technical-details}
 
-Obtenga los detalles técnicos más recientes sobre el componente principal Fecha y hora de Forms adaptable en [GitHub](https://github.com/adobe/aem-core-forms-components). Para obtener más información sobre el desarrollo de componentes principales, consulte [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Obtenga los detalles técnicos más recientes sobre el componente principal Fecha y hora de Formularios adaptables en [GitHub](https://github.com/adobe/aem-core-forms-components). Para obtener más información sobre el desarrollo de los componentes principales, consulte la [Documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
@@ -69,7 +69,7 @@ El cuadro de diálogo de configuración permite personalizar la fecha y la hora.
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
-- **Fecha y hora predeterminadas**: esta opción le permite agregar una fecha y una hora al campo de formulario. La fecha introducida aparece de forma predeterminada en el lugar del componente. Si el usuario no introduce ninguna fecha u hora, este valor se envía en el momento del envío del formulario. En caso de que se seleccione **Componente deshabilitado** o **Componente de solo lectura**, la fecha y la hora predeterminadas se mostrarán en la pantalla y se enviarán en el momento del envío del formulario.
+- **Fecha y hora predeterminada**: esta opción permite añadir una fecha al campo del formulario. La fecha introducida aparece de forma predeterminada en el lugar del componente. Si el usuario no introduce ninguna fecha u hora, este valor se envía en el momento del envío del formulario. En caso de que se seleccione **Componente desactivado** o **Componente de solo lectura**, la fecha y la hora predeterminadas se muestran en la pantalla y se envían en el momento del envío del formulario.
 
 ### Pestaña Validación {#validation-tab}
 
@@ -81,13 +81,13 @@ El cuadro de diálogo de configuración permite personalizar la fecha y la hora.
 
 - **Mensaje de validación de la secuencia de comandos**: esta opción permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
-- **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la especificada en Fecha y hora mínimas, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
+- **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la fecha especificada en Fecha y hora mínimas, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
 
-- **Mensaje de error mínimo** - El cuadro de diálogo **Mensaje de error mínimo** le permite agregar un mensaje de error personalizado para que se muestre si escribe una fecha u hora anterior a la fecha u hora especificada en la opción **Fecha mínima**.
+- **Mensaje de error mínimo** - El cuadro de diálogo **Mensaje de error mínimo** le permite añadir un mensaje de error personalizado que se mostrará, si introduce una fecha u hora anterior a la fecha u hora especificada en la opción **Fecha mínima**.
 
-- **Fecha máxima**: esta opción le permite especificar la fecha y la hora máximas requeridas. Si introduce una fecha u hora posterior a la especificada en Fecha máxima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado.
+- **Fecha máxima** : esta opción permite introducir la fecha y hora máximas requeridas. Si introduce una fecha u hora posterior a la fecha especificada en Fecha máxima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error máximo** permite añadir un mensaje de error personalizado.
 
-- **Mensaje de error máximo** - El cuadro de diálogo **Mensaje de error máximo** le permite agregar un mensaje de error personalizado para que se muestre si escribe una fecha u hora posterior a la fecha u hora especificada en la opción **Fecha máxima**.
+- **Mensaje de error máximo** - El cuadro de diálogo **Mensaje de error máximo** le permite añadir un mensaje de error personalizado que se mostrará, si introduce una fecha u hora posterior a la fecha u hora especificada en la opción **Fecha máxima**.
 
 ### Pestaña Contenido de ayuda {#help-content-tab}
 
@@ -133,20 +133,20 @@ The set of languages is not visible by default, but users can input a custom **I
 
         >[!NOTE]
         >
-        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
+        > For further information on how to translate an Adaptive Form to a specific locale, [click here](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/supporting-new-language-localization-core-components).
 -->
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
-El cuadro de diálogo de diseño se utiliza para definir y administrar estilos CSS para el componente Fecha y hora.
+El cuadro de diálogo de diseño se utiliza para definir y gestionar los estilos CSS del componente Fecha y hora.
 
 ### Pestaña Estilos {#styles-tab}
 
-La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente principal de fecha y hora de Forms adaptable es compatible con el [sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
+La pestaña se utiliza para definir y administrar estilos CSS de un componente. El componente básico de fecha y hora de Formularios adaptables es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
 
 ![Pestaña Estilo](/help/adaptive-forms/assets/datepicker_styletab.png)
 
-- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente principal de fecha y hora de Forms adaptable.
+- **Clases CSS predeterminadas**: puede proporcionar una clase CSS predeterminada para el componente básico de fecha y hora de Formularios adaptables.
 
 - **Estilos permitidos**: puede definir estilos proporcionando un nombre y la clase CSS que representa el estilo. Por ejemplo, puede crear un estilo llamado “texto en negrita” y proporcionar la clase de CSS “grosor de fuente: negrita”. Puede utilizar o aplicar estos estilos a un formulario adaptable en el editor de formularios adaptable. Para aplicar un estilo, en el editor de Formularios adaptables, seleccione el componente al que desee aplicar el estilo, vaya al cuadro de diálogo de propiedades y seleccione el estilo que desee en la lista desplegable **Estilos**. Si necesita actualizar o modificar los estilos, simplemente vuelva al cuadro de diálogo Diseño, actualice los estilos en la pestaña Estilos y guarde los cambios.
 
@@ -175,7 +175,7 @@ The formats tab allows you to specify default and custom date formats.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
