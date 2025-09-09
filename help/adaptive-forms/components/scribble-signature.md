@@ -4,15 +4,15 @@ description: Uso o personalización del componente principal Firma manuscrita de
 role: Architect, Developer, Admin, User
 exl-id: 608c4368-d539-4d05-a75c-c077ea822f93
 source-git-commit: 006f6c844ab9e7a784dabea026867939445479e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1761'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # Componente de firma manuscrita
 
-El componente de firma manuscrita <span>está en el programa para usuarios que adoptan anticipadamente. Puede escribir a `aem-forms-ea@adobe.com` desde su ID de correo electrónico oficial para unirse al programa de usuarios que lo adoptaron por primera vez y solicitar acceso a la capacidad.</span>
+<span>El componente de firma manuscrita está en el Programa de primeros usuarios. Puede escribir a `aem-forms-ea@adobe.com` desde su ID de correo electrónico oficial para unirse al programa de primeros usuarios y solicitar acceso a esta funcionalidad.</span>
 
 Un componente de Firma manuscrita en un formulario adaptable es un elemento de interfaz de usuario que permite a los usuarios dibujar su **firma** directamente en el formulario con un ratón, un lápiz o una pantalla táctil. Garantiza una captura precisa del consentimiento escrito a mano, las aprobaciones o la verificación en los flujos de trabajo digitales.
 
