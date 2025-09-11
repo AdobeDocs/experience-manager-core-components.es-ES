@@ -4,7 +4,7 @@ description: El componente principal Imagen es un componente de imagen adaptable
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
+source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
 workflow-type: ht
 source-wordcount: '2048'
 ht-degree: 100%
@@ -40,7 +40,7 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 
 >[!TIP]
 >
->El componente de imagen funciona con el servlet de imagen adaptable. Consulte el documento [Servlet de imagen adaptable](#adaptive-image-servlet) para obtener más información sobre cómo funciona.
+>El componente de imagen funciona con el servlet de imagen adaptable. Consulte el documento [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) para obtener más información sobre cómo funciona.
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
@@ -186,7 +186,7 @@ Además, puede definir qué opciones generales de componentes se desactivan o se
 
 ![Pestaña principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main-v2.png)
 
-* **Activar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
+* **Habilitar funciones de DM**: cuando esté marcada, las funciones de habilitación de [Dynamic Media](#dynamic-media) estarán disponibles.
 * **Habilitar imágenes optimizadas para web**: cuando se selecciona, el [servicio de entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md) ofrece las imágenes en formato WebP, lo que reduce su tamaño en un 25 % como promedio.
    * Esta opción solo está disponible en AEMaaCS.
    * Cuando está desmarcada o el servicio de entrega de imágenes optimizadas para la web no está disponible, se utiliza el [servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md).
@@ -206,7 +206,7 @@ Además, puede definir qué opciones generales de componentes se desactivan o se
 
 >[!TIP]
 >
->Consulte el documento [Servlet de imagen adaptable](#adaptive-image-servlet) para obtener sugerencias y optimizar la selección de representaciones definiendo cuidadosamente las anchuras.
+>Consulte el documento [Servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md) para obtener sugerencias y optimizar la selección de representaciones definiendo cuidadosamente las anchuras.
 
 ### Pestaña Características {#features-tab}
 
@@ -229,7 +229,7 @@ Utilice esta opción para permitir que el autor del contenido utilice las opcion
 
   >[!CAUTION]
   >
-  >La opción **Voltear** está desactivada de forma predeterminada. Al activarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
+  >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
 
 * Recortar
 
