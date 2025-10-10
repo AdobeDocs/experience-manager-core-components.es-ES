@@ -4,9 +4,9 @@ description: Los componentes principales se publican como versiones que pueden c
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
 source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3087'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|---|
-| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Esta versión abordó una serie de problemas de recursos y Dynamic Media, aclara la compatibilidad con LTS y aborda numerosas correcciones de errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 4 de septiembre de 2025 |
+| [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Esta versión aborda una serie de problemas relacionados con recursos y medios dinámicos, aclara el soporte a largo plazo (LTS) y aborda numerosas correcciones de errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 4 de septiembre de 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | En esta versión se ha añadido compatibilidad con la creación de versiones preliminares de recursos en el componente principal de sitios y se han corregido numerosos errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 21 de abril de 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Esta versión soluciona numerosos errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 17 de marzo de 2025 |
 | [2.27.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.27.0) | Esta versión soluciona numerosos errores. | - | 6.5.21.0+ | - | Continua | 11 | 10 de septiembre de 2024 |
