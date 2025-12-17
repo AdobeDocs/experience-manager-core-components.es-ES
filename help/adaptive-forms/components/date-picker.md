@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: selector de fecha'
 description: Uso o personalización del componente principal de selector de fecha de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: daeabccaff39e255c111c6af2540ca4d5be0c709
-workflow-type: ht
-source-wordcount: '2298'
-ht-degree: 100%
+source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -47,7 +47,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
@@ -107,9 +107,9 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 ![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/datepicker_helptab.png)
 
-- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
+- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Habilite la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active la opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: habilite la opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan al usuario para ayudarle a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -166,7 +166,7 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/datepicker_customproperties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
 - **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
@@ -178,15 +178,31 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 ### Pestaña Formatos {#formats-tab}
 
-La pestaña Formatos permite especificar formatos de fecha predeterminados y personalizados.
+La pestaña Formatos permite especificar formatos de fecha predeterminados y personalizados. Además, también puede agregar un nuevo formato de fecha personalizado mediante el botón **Agregar**.
 
 ![Pestaña Formato](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
+
+#### Agregar formatos en la política de plantillas del componente
+
+Para mostrar los formatos disponibles para el componente, debe agregarlos a la directiva de plantilla del componente.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
+
+Para agregar formatos a la directiva de plantilla:
+
+1. Abra la plantilla correspondiente asociada a un formulario adaptable o a Sites en el editor de plantillas.
+2. En la sección **Componentes permitidos**, seleccione el componente **[!UICONTROL Selector de fecha]**.
+   ![Directiva de plantilla del selector de fecha](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Haga clic en el icono **[!UICONTROL Agregar]** para crear una nueva directiva para el componente Selector de fecha.
+4. Escriba un nombre para la directiva y seleccione todos los formatos necesarios en la ficha **Formato**.
+   ![Crear directiva](/help/adaptive-forms/assets/number-input-format-policy.png)
+5. Haga clic en **[!UICONTROL Listo]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
