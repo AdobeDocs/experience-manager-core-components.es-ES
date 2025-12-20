@@ -123,7 +123,7 @@ En la siguiente tabla se enumeran los componentes principales disponibles, enlaz
 | [Descargar](https://adobe.com/go/aem_cmp_tech_download_v1_es) | Agregar un recurso descargable a una página | `-` |
 | [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1_es) | Añadir un fragmento de experiencia a una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
 | [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1_es) | Incrustar un recurso externo en una página | - |
-| [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Proporcionar una representación visual del progreso hacia un objetivo | - |
+| [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1_es) | Proporcionar una representación visual del progreso hacia un objetivo | - |
 | [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_es) | Presenta un documento PDF en una página | - |
 
 ## Actualización de los componentes principales {#upgrade-of-core-components}
