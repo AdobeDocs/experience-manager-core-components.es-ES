@@ -65,7 +65,7 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Imagen de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
+La documentación técnica más reciente acerca del componente Imagen de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_es)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
