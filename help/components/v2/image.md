@@ -4,10 +4,10 @@ description: El componente principal Imagen es un componente de imagen adaptable
 role: Architect, Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: n
-source-git-commit: 3908828cf62043483a74e908204c3e9bf540300b
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 100%
+source-wordcount: '2050'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 
 El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
-Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
+Adobe Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
 ## Compatibilidad con SVG {#svg-support}
 
@@ -89,7 +89,7 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y del [cuadro de diá
 
 ![Pestaña de metadatos del cuadro de diálogo de configuración del componente de imagen](/help/assets/image-configure-metadata.png)
 
-* **Tipo de ajuste preestablecido**: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea **Ajustes preestablecidos de imágenes** o **Recorte inteligente**, y solo está disponible cuando las [funciones de Dynamic Media](#dynamic-meida) están habilitadas.
+* **Tipo de ajuste preestablecido**: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea **Ajuste preestablecido de imagen** o **Recorte inteligente**, y solo está disponible cuando las [funciones de Dynamic Media](#dynamic-meida) están habilitadas.
    * **Ajuste preestablecido de imagen**: cuando se selecciona **Tipo de ajuste preestablecido** de **ajustes de imagen preestablecidos**, está disponible la opción desplegable **Ajustes de imagen preestablecidos**, que permite seleccionar entre los ajustes preestablecidos disponibles de Dynamic Media. Esto solo está disponible si se han definido ajustes preestablecidos para el recurso seleccionado.
    * **Recorte inteligente**: cuando se selecciona **Tipos de ajustes preestablecidos** de **recorte inteligente**, está disponible la lista desplegable **Representación**, que permite seleccionar entre las representaciones disponibles del recurso seleccionado. Esto solo está disponible si las representaciones están definidas para el recurso seleccionado.
    * **Modificadores de imagen**: los comandos de servidor de imágenes adicionales de Dynamic Media se pueden definir aquí separados por `&`, independientemente de los **tipos de ajustes preestablecidos** seleccionados.
@@ -109,7 +109,7 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y del [cuadro de diá
 
 >[!TIP]
 >
->El **recorte inteligente** y los **ajustes preestablecidos de imagen** son opciones que se excluyen mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, el autor deberá utilizar los **Modificadores de imagen** para añadir ajustes preestablecidos manualmente.
+>El **recorte inteligente** y el **ajuste preestablecido de imagen** son opciones que se excluyen mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, el autor deberá utilizar los **Modificadores de imagen** para añadir ajustes preestablecidos manualmente.
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 

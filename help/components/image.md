@@ -3,10 +3,10 @@ title: Componente Imagen
 description: El componente principal Imagen es un componente de imagen adaptable.
 role: Architect, Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '2064'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ La mayoría de las veces, los exploradores prefieren reducir localmente la anchu
 
 El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=es). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
-Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
+Adobe Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
 ## Soporte de recursos remotos {#remote-assets}
 
@@ -177,7 +177,7 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
 
 ![Pestaña de metadatos del cuadro de diálogo de configuración del componente de imagen](/help/assets/image-configure-metadata.png)
 
-* **Tipo de ajuste preestablecido**: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea **Ajustes preestablecidos de imágenes** o **Recorte inteligente**, y solo está disponible cuando las [funciones de Dynamic Media](#dynamic-meida) están habilitadas.
+* **Tipo de ajuste preestablecido**: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea **Ajuste preestablecido de imagen** o **Recorte inteligente**, y solo está disponible cuando las [funciones de Dynamic Media](#dynamic-meida) están habilitadas.
    * **Ajuste preestablecido de imagen**: cuando se selecciona **Tipo de ajuste preestablecido** de **Ajuste preestablecido de imagen**, está disponible el desplegable **Ajuste preestablecido de imagen**, que permite seleccionar entre los ajustes preestablecidos disponibles de Dynamic Media. Esto solo está disponible si se han definido ajustes preestablecidos para el recurso seleccionado.
    * **Recorte inteligente**: cuando se selecciona **Tipo de ajuste preestablecido** de **Recorte inteligente**, aparece disponible el menú desplegable **Representación**, que permite seleccionar entre las representaciones disponibles del recurso seleccionado. Esto solo está disponible si las representaciones están definidas para el recurso seleccionado.
    * **Modificadores de imagen**: los comandos de servidor de imágenes adicionales de Dynamic Media se pueden definir aquí separados por `&`, independientemente de los **tipos de ajustes preestablecidos** seleccionados.
@@ -195,7 +195,7 @@ El componente de imagen ofrece un cuadro de diálogo de configuración en el que
 
 >[!TIP]
 >
->El **recorte inteligente** y los **ajustes preestablecidos de imagen** son opciones que se excluyen mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, el autor debe utilizar los **Modificadores de imagen** para añadir ajustes preestablecidos manualmente.
+>El **recorte inteligente** y el **ajuste preestablecido de imagen** son opciones que se excluyen mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, el autor debe utilizar los **Modificadores de imagen** para añadir ajustes preestablecidos manualmente.
 
 ### Pestaña Estilos {#styles-tab-edit}
 
@@ -213,7 +213,7 @@ Los estilos deben configurarse para este componente en el [cuadro de diálogo de
 
 ![Pestaña principal del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-main.png)
 
-* **Activar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
+* **Habilitar funciones de DM**: cuando esté marcada, las funciones de habilitación de [Dynamic Media](#dynamic-media) estarán disponibles.
    * Esta opción solo aparece cuando Dynamic Media está habilitado en el entorno.
 * **Habilitar imágenes optimizadas para web**: cuando se selecciona esta opción, el [servicio de envío de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md) ofrece las imágenes en formato WebP, lo que reduce su tamaño en un 25 % como promedio.
    * Esta opción solo está disponible en AEMaaCS.

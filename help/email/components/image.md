@@ -4,10 +4,10 @@ description: El componente Imagen de correo electrónico es un componente de ima
 role: Architect, Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+workflow-type: tm+mt
+source-wordcount: '1626'
+ht-degree: 98%
 
 ---
 
@@ -49,7 +49,7 @@ Además, el componente Imagen de correo electrónico admite la carga diferida pa
 
 El componente Imagen de correo electrónico es compatible con activos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
-Las experiencias de correo electrónico creadas con los componentes principales de correo electrónico pueden ofrecer funcionalidades de imagen de Dynamic Media enriquecidas, con tecnología de Sensei, sólidas y de alto rendimiento en plataformas múltiples.
+Las experiencias de correo electrónico creadas con los componentes principales de correo electrónico pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, con tecnología de IA de Adobe, sólidas y de alto rendimiento en varias plataformas.
 
 ## Compatibilidad con SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Imagen de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_es)
+La documentación técnica más reciente acerca del componente Imagen de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
@@ -98,7 +98,7 @@ El componente Imagen de correo electrónico ofrece un cuadro de diálogo de conf
 
 ![Pestaña de metadatos del cuadro de diálogo de configuración del componente de imagen](/help/email/assets/email-image-configure-metadata.png)
 
-* **Tipo de ajuste preestablecido**: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea **Ajustes preestablecidos de imágenes** o **Recorte inteligente**, y solo está disponible cuando las [funciones de Dynamic Media](#dynamic-meida) están habilitadas.
+* **Tipo de ajuste preestablecido**: define los tipos de ajustes preestablecidos de imagen disponibles, ya sea **Ajuste preestablecido de imagen** o **Recorte inteligente**, y solo está disponible cuando las [funciones de Dynamic Media](#dynamic-meida) están habilitadas.
    * **Ajuste preestablecido de imagen**: cuando se selecciona **Tipo de ajuste preestablecido** de **Ajuste preestablecido de imagen**, está disponible el desplegable **Ajuste preestablecido de imagen**, que permite seleccionar entre los ajustes preestablecidos disponibles de Dynamic Media. Esto solo está disponible si se han definido ajustes preestablecidos para el recurso seleccionado.
    * **Recorte inteligente**: cuando se selecciona **Tipo de ajuste preestablecido** de **Recorte inteligente**, está disponible el desplegable **Representación**, que permite seleccionar entre las representaciones disponibles del recurso seleccionado. Esto solo está disponible si las representaciones están definidas para el recurso seleccionado.
    * **Modificadores de imagen**: los comandos de servidor de imágenes adicionales de Dynamic Media se pueden definir aquí separados por `&`, independientemente del **Tipos de ajuste preestablecido** seleccionado.
@@ -118,7 +118,7 @@ El componente Imagen de correo electrónico ofrece un cuadro de diálogo de conf
 
 >[!TIP]
 >
->El **recorte inteligente** y los **ajustes preestablecidos de imagen** son opciones que se excluyen mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, el autor deberá utilizar los **Modificadores de imagen** para añadir ajustes preestablecidos manualmente.
+>El **recorte inteligente** y el **ajuste preestablecido de imagen** son opciones que se excluyen mutuamente. Si un autor necesita utilizar un ajuste preestablecido de imagen junto con una representación de recorte inteligente, el autor deberá utilizar los **Modificadores de imagen** para añadir ajustes preestablecidos manualmente.
 
 ### Pestaña Estilos {#styles-tab-edit}
 
@@ -136,7 +136,7 @@ Los estilos deben configurarse para este componente en el [cuadro de diálogo de
 
 ![Pestaña principal del cuadro de diálogo de diseño del componente de imagen](/help/email/assets/email-image-design-main.png)
 
-* **Activar funciones de DM**: cuando esté marcada, las funciones de activación de [Dynamic Media](#dynamic-media) estarán disponibles.
+* **Habilitar funciones de DM**: cuando esté marcada, las funciones de habilitación de [Dynamic Media](#dynamic-media) estarán disponibles.
    * Esta opción solo aparece cuando Dynamic Media está habilitado en el entorno.
 * **Habilitar imágenes optimizadas para web**: cuando se selecciona, el [servicio de entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md) ofrece las imágenes en formato WebP, lo que reduce su tamaño en un 25 % como promedio.
    * Esta opción solo está disponible en AEMaaCS.
