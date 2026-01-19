@@ -3,10 +3,10 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Architect, Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: b6b850237bdab1cb59a81c3162182e5b25fbdb68
-workflow-type: ht
-source-wordcount: '3087'
-ht-degree: 100%
+source-git-commit: 684bdb4168be00f02bb306dd7ab183e8c439b9e7
+workflow-type: tm+mt
+source-wordcount: '3110'
+ht-degree: 99%
 
 ---
 
@@ -26,6 +26,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|---|
+| [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | Esta versión corrigió una cadena no localizada relacionada con el visor de PDF. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 23 de octubre de 2025 |
 | [2.30.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.0) | Esta versión aborda una serie de problemas relacionados con recursos y medios dinámicos, aclara el soporte a largo plazo (LTS) y aborda numerosas correcciones de errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 4 de septiembre de 2025 |
 | [2.29.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.29.0) | En esta versión se ha añadido compatibilidad con la creación de versiones preliminares de recursos en el componente principal de sitios y se han corregido numerosos errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 21 de abril de 2025 |
 | [2.28.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.28.0) | Esta versión soluciona numerosos errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11 | 17 de marzo de 2025 |

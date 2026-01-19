@@ -4,10 +4,10 @@ description: Uso de la capa de datos del cliente de Adobe con los componentes pr
 feature: Core Components, Adobe Client Data Layer
 role: Architect, Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+workflow-type: tm+mt
+source-wordcount: '985'
+ht-degree: 96%
 
 ---
 
@@ -119,6 +119,10 @@ id: {                   // component ID
     parentId            // parent component ID
 }
 ```
+
+>[!NOTE]
+>
+>Este esquema es el esquema de elemento de componente genérico utilizado como patrón base para varios componentes principales. Esto no garantiza que todos los componentes enumerados rellenen todos esos campos en cada elemento.
 
 El siguiente [evento](#events) es relevante para el esquema de componente/elemento del contenedor:
 
