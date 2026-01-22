@@ -96,7 +96,7 @@ La versión actual de AEM Forms tiene los siguientes componentes principales, [C
 | Marcador de nota al pie | ✔️ | | | |
 | Contenedor de formulario | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Para los componentes de base, utilice el [componente Panel raíz](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | Título del formulario | ✔️ | ✔️ | | Para los componentes de base, utilice el componente de título. |
-| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | Para los componentes de base, puede [conectar sus formularios adaptables con hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html) en el caso de formularios basados en componentes de base. |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | Para los componentes de base, puede [conectar sus formularios adaptables con hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html?lang=es) en el caso de formularios basados en componentes de base. |
 | Encabezado | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Pestañas horizontales | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Para los componentes de base, puede configurar el [diseño de las pestañas en la parte superior (pestañas horizontales)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) de las propiedades de los componentes del panel. |
 | Imagen | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
@@ -224,7 +224,7 @@ El editor de los formularios adaptables basado en componentes principales es sim
 
 ## Enable Adaptive Forms Core Components
 
-Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=es).
 
 The Adaptive Forms Core Components have the following requirements.
 
@@ -233,7 +233,7 @@ The Adaptive Forms Core Components have the following requirements.
 |AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
 |AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
-If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 
 -->
 
