@@ -5,10 +5,10 @@ breadcrumb-title: Guía de componentes principales
 feature: Core Components
 user-guide-description: En el caso de los proyectos AEM tradicionales, utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: bf6953f24388ed08cd5a66bb51011b3ac82fb58e
+source-git-commit: 1ac3d987337f8279e762ab5357d32bb732dea0be
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 98%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
       + [Título (v2)](/help/components/v2/title.md)
    + Componentes v3 {#v3-components}
       + [Lista (v3)](/help/components/v3/list.md)
-+ Componentes de correo electrónico  {#email}
++ Componentes de correo electrónico {#email}
    + [Introducción](/help/email/introduction.md)
    + [Uso de los componentes principales de correo electrónico](/help/email/using.md)
    + [Variables de campaña](/help/email/campaign-variables.md)
@@ -105,7 +105,7 @@ ht-degree: 100%
 + Formularios adaptables {#adaptive-forms}
    + [Introducción](/help/adaptive-forms/introduction.md)
    + [Historial de versiones](/help/adaptive-forms/version.md)
-   + Componentes de formularios adaptables  {#adaptive-forms-components}
+   + Componentes de formularios adaptables {#adaptive-forms-components}
       + [Acordeón de Formularios adaptables](/help/adaptive-forms/components/accordion.md)
       + [Botón de Formularios adaptables](/help/adaptive-forms/components/button.md)
       + [Casilla de verificación de Formularios adaptables](/help/adaptive-forms/components/checkbox.md)
@@ -141,6 +141,7 @@ ht-degree: 100%
       + [Pie de página](/help/adaptive-forms/components/footer.md)
    + [Personalizar los componentes principales de los formularios adaptables](/help/developing/customize-adaptive-forms-core-components.md)
    + [Temáticas y plantillas de muestra](/help/adaptive-forms/sample-themes-templates-form-data-models-core-components.md)
+   + [Habilitar patrones de validación de entrada de texto](/help/adaptive-forms/enable-validation-patterns.md)
 + Desarrollo {#developing}
    + [Desarrollo de componentes principales](/help/developing/overview.md)
    + [Rutas para alcanzar el éxito](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/success.html?lang=es)
