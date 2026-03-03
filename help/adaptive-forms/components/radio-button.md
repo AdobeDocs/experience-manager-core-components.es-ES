@@ -3,10 +3,10 @@ title: 'Componente principal de Formularios adaptables: botón de radio'
 description: Uso o personalización del componente principal de botón de radio de Formularios adaptables.
 role: Architect, Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '2135'
-ht-degree: 100%
+source-git-commit: e9354f24e1f2f8cd1e899dbd999e80406b5ce2bc
+workflow-type: tm+mt
+source-wordcount: '2349'
+ht-degree: 91%
 
 ---
 
@@ -49,13 +49,19 @@ El componente principal Botón de opción de los formularios adaptables se publi
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
+| Versión 2 | Compatible con<br>[versión 3.0.142](/help/adaptive-forms/version.md) y posteriores | |
 | v1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
+
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
+>[!NOTE]
+>
+> La versión v1 del componente principal Grupo de casillas de verificación es compatible con WCAG 2.1, que se centra en hacer que el contenido sea accesible siguiendo las prácticas recomendadas para su uso y legibilidad. La versión v2 es compatible con WCAG 2.2, que va un paso más allá al resaltar la accesibilidad clara, predecible e inequívoca mediante la agrupación lógica y semántica de campos relacionados, lo que lo convierte en un requisito crítico para el diseño de formularios inclusivos.
+
 <!-- ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). -->
 
 ## Detalles técnicos {#technical-details}
 
@@ -82,7 +88,7 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
 - **Opciones**: puede añadir valores de datos y mostrar pares de texto utilizando el botón **Añadir**.\
   Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
-   - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en un formulario adaptable.
+   - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
    - **Eliminar**: pulse o haga clic para eliminar la opción de un botón de radio.
    - **Reorganizar**: pulse o haga clic y arrastre para reorganizar el orden de las opciones.
 También puede dar formato a las opciones del grupo de botones de opción mediante **Permitir texto enriquecido en las opciones**.
@@ -121,9 +127,9 @@ También puede dar formato a las opciones del grupo de botones de opción median
 
 ![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/radiobutton_helptab.png)
 
-- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
+- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Habilite la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: habilite esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -157,7 +163,7 @@ La pestaña se utiliza para definir y administrar estilos CSS de un componente. 
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 
 - **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
@@ -167,10 +173,20 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
    - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden del nombre de la propiedad personalizada y el valor de la propiedad personalizada.
 
+## Compatibilidad con conjuntos de campos y leyendas para botones de opción (v2)
+
+<span class="preview"> Esta característica está disponible a través del programa Acceso anticipado. Para solicitar acceso, envía un correo electrónico desde tu dirección oficial a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+
+Los componentes principales de Forms adaptables utilizan elementos HTML semánticos `<fieldset>` y `<legend>` para mejorar la accesibilidad de los grupos de botones de opción. Estos elementos permiten a los lectores de pantalla interpretar con precisión la estructura del formulario y transmitir las relaciones entre las etiquetas de grupo y sus opciones.
+
+Los componentes del botón de opción (v2) se representan dentro de un elemento `<fieldset>`, con la etiqueta de grupo envuelta en un elemento `<legend>` como su primer elemento secundario. Se eliminan los atributos ARIA redundantes o no válidos y las etiquetas individuales se asocian correctamente a sus respectivas entradas. Esto garantiza que los lectores de pantalla lean claramente cada etiqueta de botón de radio, junto con su contexto de grupo.
+
+![botón de opción](/help/adaptive-forms/assets/radiobutton-fieldset.png)
+
 ## Artículos relacionados {#related-articles}
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}
