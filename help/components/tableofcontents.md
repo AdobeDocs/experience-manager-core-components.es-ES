@@ -3,10 +3,10 @@ title: Componente Tabla de contenido
 description: El componente Tabla de contenido crea una TDC basada en los títulos del contenido de la página, lo que permite a los lectores navegar rápidamente por ella.
 role: Architect, Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+workflow-type: tm+mt
+source-wordcount: '753'
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | Compatible | Compatible |
+| v1 | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -43,11 +43,11 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 >
 >En AEM as a Cloud Service, el administrador debe habilitar un filtro para que el componente procese su contenido.
 >
->[Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_es) para más información.
+>[Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para más información.
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Tabla de contenido [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_es).
+La documentación técnica más reciente acerca del componente Tabla de contenido [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
@@ -65,7 +65,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir los int
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Cuadro de diálogo de diseño {#design-dialog}
 
 Con el cuadro de diálogo de diseño, el autor de la plantilla puede establecer el valor predeterminado para el rango de título del componente Tabla de contenido, así como restringir los títulos incluidos en la TDC en función de los nombres de clase.
 
@@ -80,13 +80,9 @@ Con el cuadro de diálogo de diseño, el autor de la plantilla puede establecer 
    * Toque o haga clic en el icono **Añadir** para añadir uno o más nombres de clase.
    * Toque o haga clic en el botón **Eliminar** junto al nombre de una clase para eliminarla.
 * **Omitir nombres de clase**: si se define esta opción, el componente Tabla de contenido ignorará los títulos con los nombres de clase especificados o contenidos dentro de elementos de los nombres de clase especificados.
-   * Toque o haga clic en el botón **Añadir** para añadir uno o más nombres de clase.
+   * Toque o haga clic en el icono **Añadir** para añadir uno o más nombres de clase.
    * Toque o haga clic en el botón **Eliminar** junto al nombre de una clase para eliminarla.
 
 ### Pestaña Estilos {#styles-tab}
 
-El componente Tabla de contenido es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.
-
-## Capa de datos del cliente de Adobe {#data-layer}
-
-El componente Tabla de contenido es compatible con la [Capa de datos del cliente de Adobe.](/help/developing/data-layer/overview.md)
+El componente Tabla de contenido es compatible con el sistema de estilos [AEM.](/help/get-started/authoring.md#component-styling).
