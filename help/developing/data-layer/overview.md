@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutorial
 
-¿Quiere explorar la capa de datos y los componentes principales con más detalle? [Consulte este tutorial práctico ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=es).
+¿Quiere explorar la capa de datos y los componentes principales con más detalle? [Consulte este tutorial práctico &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=es).
 
 >[!TIP]
 >

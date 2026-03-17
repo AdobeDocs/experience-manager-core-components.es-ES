@@ -44,7 +44,7 @@ Algunos puntos que se deben tener en cuenta al utilizar los componentes principa
 * La canalización de la generación de proyectos generará advertencias en el registro si vuelve a incluir los componentes principales como parte de `/apps` e ignorará la versión incrustada como parte del proyecto.
    * En una próxima versión, volver a incluir los componentes principales producirá un error en la compilación de la canalización.
 * Si el proyecto anteriormente incluía los componentes principales en `/apps`, [es posible que tenga que ajustar el proyecto.](/help/developing/overview.md#via-aemaacs)
-* Aunque los componentes principales se encuentran ahora en `/libs`, no se recomienda crear ninguna superposición de la misma ruta de acceso en `/apps`. [Se debe usar el patrón de componentes proxy ](/help/developing/guidelines.md#proxy-component-pattern) en su lugar si es necesario personalizar cualquier aspecto de los componentes.
+* Aunque los componentes principales se encuentran ahora en `/libs`, no se recomienda crear ninguna superposición de la misma ruta de acceso en `/apps`. [Se debe usar el patrón de componentes proxy &#x200B;](/help/developing/guidelines.md#proxy-component-pattern) en su lugar si es necesario personalizar cualquier aspecto de los componentes.
 * Para que el [Componente Tabla de contenido](/help/components/tableofcontents.md) procese su contenido, es necesario configurar un filtro en OSGi.
    * [Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para más información.
 
