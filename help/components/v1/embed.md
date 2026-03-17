@@ -35,11 +35,11 @@ Este documento describe la versión 1 del componente incrustado, que se introduj
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente incrustado, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_embed).
+Para experimentar el componente incrustado, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_embed_es).
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente incrustado [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1).
+La documentación técnica más reciente sobre el componente incrustado [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_embed_v1_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

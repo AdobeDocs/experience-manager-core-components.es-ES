@@ -41,7 +41,7 @@ Haga referencia a la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_li
 
 ### Uso del kit de IU para Adobe XD {#ui-kit}
 
-Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el kit de interfaz de usuario para Adobe XD, [que se puede descargar aquí,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
+Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el kit de interfaz de usuario para Adobe XD, [que se puede descargar aquí,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=es) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
 
 ## No pase por alto funciones muy útiles {#powerful-features}
 
