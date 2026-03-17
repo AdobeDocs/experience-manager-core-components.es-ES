@@ -1,12 +1,12 @@
 ---
 title: 'Componente principal de formularios adaptables: casilla de verificación'
 description: Uso o personalización del Componente principal de la casilla de verificación de Formularios adaptables.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c6ca4800-bd10-4aeb-957a-fb1780cf94f3
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 100%
+source-wordcount: '1843'
+ht-degree: 98%
 
 ---
 
@@ -41,13 +41,13 @@ Las razones más comunes para utilizar una casilla de verificación en un Formul
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal Casilla de verificación de formularios adaptables se publicó como parte de los componentes principales, versión 2.0.52. A continuación se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Casilla de verificación de Forms adaptable se publicó como parte de los componentes principales 2.0.52. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible con la <br>[versión 2.0.52](/help/adaptive-forms/version.md) y posteriores | Compatible | Compatible |
+| v1 | Compatible con<br>[versión 2.0.52](/help/adaptive-forms/version.md) y posterior\|Compatible\|Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
@@ -152,6 +152,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}

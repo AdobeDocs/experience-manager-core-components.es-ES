@@ -1,13 +1,13 @@
 ---
 title: 'Componente principal de formularios adaptables: componente de revisión'
 description: Uso o personalización del componente principal de revisión de formularios adaptables.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 hide: true
 hidefromtoc: true
 exl-id: acd230ed-284b-4df2-98e0-a0090cd73611
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '765'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ Obtenga la información más reciente sobre el componente principal de revisión
 
 ## Cuadro de diálogo de configuración {#configure-dialog}
 
-Puede personalizar fácilmente la experiencia para los visitantes con el cuadro de diálogo de configuración para una experiencia de usuario perfecta. 
+Puede personalizar fácilmente la experiencia para los visitantes con el cuadro de diálogo de configuración para una experiencia de usuario perfecta.
 
 ![Cuadro de diálogo de configuración](/help/adaptive-forms/assets/review-component-configure-dialog.png)
 
@@ -76,6 +76,6 @@ En el siguiente vídeo se muestra cómo configurar el componente **Revisar** par
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}

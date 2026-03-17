@@ -1,11 +1,11 @@
 ---
 title: Soporte para recursos remotos
 description: Obtenga información sobre cómo configurar las imágenes de componentes principales y los componentes de teaser para admitir recursos remotos mediante Dynamic Media con OpenAPI.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b462c1f3-a6c8-4a2a-abf4-d08ec82d4371
-source-git-commit: 36ef19d5b29fe21f86309719d1e3f6588e31a93b
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '523'
 ht-degree: 100%
 
 ---

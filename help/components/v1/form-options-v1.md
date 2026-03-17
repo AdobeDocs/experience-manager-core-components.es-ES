@@ -1,12 +1,12 @@
 ---
 title: Componente Opciones de formulario (versión 1)
 description: El componente principal Opciones de formulario permite seleccionar entre las opciones predefinidas en distintos formatos.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: a5e8656b-eddd-48ec-876b-39bbaa70edf6
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ En la tabla siguiente se muestra la compatibilidad de la versión 1 del componen
 | Versión del componente | AEM 6.3 | AEM 6.4 |
 |--- |--- |--- |
 | Versión 2 | Compatible | Compatible |
-| Versión 1 | Compatible | Compatible |
+| v1 | Compatible | Compatible |
 
 >[!CAUTION]
 >

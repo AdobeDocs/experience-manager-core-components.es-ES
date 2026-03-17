@@ -2,12 +2,12 @@
 title: Uso del tipo de archivo del proyecto de AEM
 description: Aprenda a usar el tipo de archivo del proyecto de AEM para crear un proyecto de Adobe Experience Manager basado en las prácticas recomendadas como punto de partida para sus propios proyectos de AEM.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: a3978d8b-4904-42aa-9ee2-9c1f884327bb
-source-git-commit: bd92a5d1884056ca7b44ea28e5817d8bde10a4d9
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 100%
+source-wordcount: '1326'
+ht-degree: 92%
 
 ---
 
@@ -28,7 +28,7 @@ El tipo de archivo del proyecto facilita el inicio del desarrollo en AEM. Puede 
 
 * **Tutorial de WKND**: Para obtener una buena introducción al desarrollo en AEM, incluido cómo aprovechar el tipo de archivo, consulte la [Introducción a AEM Sites: Tutorial de WKND](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es) para ver un ejemplo práctico que le guíe a través del uso del tipo de archivo para implementar un proyecto simple.
 * **Tutorial de eventos WKND**: Si está especialmente interesado en el desarrollo de aplicaciones de una sola página (SPA) en AEM, asegúrese de consultar el [tutorial de eventos WKND.](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es)
-* **¡Empiece por su cuenta!** - Puede descargar fácilmente el [tipo de archivo del proyecto actual en GitHub](https://github.com/adobe/aem-project-archetype) y crear su primer proyecto siguiendo los sencillos pasos que se indican a continuación.
+* **¡Empieza por tu cuenta!** - Puede descargar fácilmente el [arquetipo de proyecto actual disponible en GitHub](https://github.com/adobe/aem-project-archetype) y crear su primer proyecto por su cuenta.
 
 ## Cómo usar el tipo de archivo {#how-to-use-the-archetype}
 
@@ -79,7 +79,7 @@ mvn -PautoInstallPackage clean install -Daem.host=production.hostname -Dsling.pa
 
 ### Estructura del módulo {#module-structure}
 
-La sección `<modules>` del POM principal define los módulos que creará el proyecto. De forma predeterminada, el proyecto genera [los módulos estándar definidos previamente.](#what-you-get) Siempre se pueden añadir más módulos a medida que evoluciona un proyecto.
+La sección `<modules>` del POM principal define los módulos que creará el proyecto. De manera predeterminada, el proyecto genera [los módulos estándar definidos anteriormente.](#what-you-get) Siempre se pueden añadir más módulos a medida que evoluciona un proyecto.
 
 ### Dependencias {#dependencies}
 
@@ -87,7 +87,7 @@ La sección `<dependencyManagement>` del POM principal define todas las dependen
 
 #### Uber-Jar {#uber-jar}
 
-Una de las dependencias clave es el [jar de la API de Java de AEM. ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es) Esto incluirá todas las API de AEM con solo una entrada de dependencia para la versión de AEM.
+Una de las dependencias clave es [AEM Java API Jar.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-as-a-cloud-service-sdk.html?lang=es) Esto incluirá todas las API de AEM con solo una entrada de dependencia para la versión de AEM.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ Una de las dependencias clave es el [jar de la API de Java de AEM. ](https://exp
 
 #### Componentes principales {#core-components}
 
-El tipo de archivo del curso aprovecha los [componentes principales.](/help/introduction.md)Por lo tanto, para aprovechar los componentes principales en todas las implementaciones, se recomienda incluirlos como parte del proyecto de Maven.
+El tipo de archivo, por supuesto, aprovecha los [componentes principales.](/help/introduction.md) Por lo tanto, para aprovechar los componentes principales en todas las implementaciones, se recomienda incluirlos como parte del proyecto Maven.
 
 core.wcm.components.samples es un conjunto de páginas de muestra que ilustran ejemplos de los componentes principales. Como práctica recomendada, al implementar un proyecto para su uso en producción debe eliminar esta dependencia y la inclusión de subpaquetes.
 

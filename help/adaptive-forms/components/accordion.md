@@ -1,12 +1,12 @@
 ---
 title: Acordeón de formulario adaptable
 description: Utilice el acordeón para organizar y simplificar un formulario largo o complejo, dividiéndolo en secciones más pequeñas y manejables.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0ed38eee-fc22-4708-82eb-3fb1839b1ff2
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '2303'
+ht-degree: 98%
 
 ---
 
@@ -37,27 +37,29 @@ Puede utilizar lo siguiente:
 
 - La opción [Seleccionar la ventana emergente del panel](#select-panel-popover) sirve para definir el orden de los paneles del acordeón. Esto permite al autor organizar los paneles en el orden en que deberían aparecer.
 
-- Opciones para que un autor de formularios active o desactive determinadas funciones del [cuadro de diálogo Diseño](#design-dialog). Por ejemplo, un autor puede desactivar determinados campos o secciones de un formulario. Estas opciones permiten que el autor tenga un mayor control sobre el diseño y la funcionalidad del formulario, lo que facilita la creación de formularios que se adaptan a las necesidades específicas de la organización.
+- Opciones para que un autor de formularios habilite o deshabilite determinadas funciones del [cuadro de diálogo Diseño](#design-dialog). Por ejemplo, un autor puede desactivar determinados campos o secciones de un formulario. Estas opciones permiten que el autor tenga un mayor control sobre el diseño y la funcionalidad del formulario, lo que facilita la creación de formularios que se adaptan a las necesidades específicas de la organización.
 
 El cuadro de diálogo de configuración, seleccionar la ventana emergente del panel y el cuadro de diálogo Diseño, todos forman parte de los componentes principales que logran facilitar la generación de formularios y proporcionar una forma eficaz de crear formularios complejos.
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
 
-El componente principal de acordeón de formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación, se muestra una tabla con todas las versiones compatibles, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal Acordeón de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible | Compatible |
+| v1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior\|Compatible\|Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Detalles técnicos {#technical-details}
 
@@ -141,9 +143,9 @@ El botón Agregar permite seleccionar un componente para agregarlo como panel en
 
 ![Pestaña Contenido de ayuda](/help/adaptive-forms/assets/acc-helpcontent.png)
 
-- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Active la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
+- **Descripción breve**: una descripción breve es una explicación de texto corta que proporciona información adicional o aclaraciones acerca del propósito de un campo de formulario específico. Ayuda al usuario a comprender qué tipo de datos se deben escribir en el campo y puede proporcionar directrices o ejemplos para garantizar que la información introducida sea válida y cumpla los criterios deseados. De forma predeterminada, las descripciones cortas permanecen ocultas. Habilite la opción **Mostrar siempre una descripción breve** para mostrarla debajo del componente.
 
-- **Mostrar siempre una descripción breve**: active esta opción para mostrar la descripción breve debajo del componente.
+- **Mostrar siempre una descripción breve**: habilite esta opción para mostrar la descripción breve debajo del componente.
 
 - **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
@@ -162,7 +164,6 @@ En la pestaña **Accesibilidad**, se pueden configurar valores para las etiqueta
    - **Ninguno**: seleccione esta opción si no desea añadir etiquetas de accesibilidad de ARIA.
 
 <!--
-
 ### Properties Tab {#properties-tab}
 
 ![Properties tab of the edit dialog of the Accordion Component](/help/assets/accordion-edit-properties.png)
@@ -186,7 +187,8 @@ The **Select Panel** option (![Select panel icon](/help/assets/select-panel-icon
 * The panels are displayed in a numbered list, reflecting the assigned arrangement.
 * Each panel is listed with its component type in bold, followed by a brief description in lighter font.
 * By clicking or tapping on a panel in the drop-down, you can easily switch the view in the editor to that specific panel.
-* To rearrange the panels, simply use the drag handles to move them into the desired order. -->
+* To rearrange the panels, simply use the drag handles to move them into the desired order. 
+-->
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
@@ -241,6 +243,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}

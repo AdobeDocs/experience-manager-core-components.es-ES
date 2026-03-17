@@ -1,9 +1,9 @@
 ---
 title: Componente Tabla de contenido
 description: El componente Tabla de contenido crea una TDC basada en los títulos del contenido de la página, lo que permite a los lectores navegar rápidamente por ella.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
-source-git-commit: 1987431c99a1e4b834c86ea731c52a19909b297b
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 98%
@@ -43,11 +43,11 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 >
 >En AEM as a Cloud Service, el administrador debe habilitar un filtro para que el componente procese su contenido.
 >
->[Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_es) para más información.
+>[Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para más información.
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Tabla de contenido [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_es).
+La documentación técnica más reciente acerca del componente Tabla de contenido [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

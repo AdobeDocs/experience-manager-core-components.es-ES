@@ -1,9 +1,9 @@
 ---
 title: 'Componente principal de formularios adaptables: contenedor de panel'
 description: Uso o personalización del componente principal del contenedor de panel de formularios adaptables.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
-source-git-commit: d1e1a1aea38de931dc3902c43db8c48f4bc7c0cb
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
 workflow-type: tm+mt
 source-wordcount: '2331'
 ht-degree: 96%
@@ -45,13 +45,15 @@ El componente principal del contenedor del panel Forms adaptable se publicó en 
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible | Compatible |
+| v1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior\|Compatible\|Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Detalles técnicos {#technical-details}
 
@@ -205,7 +207,7 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

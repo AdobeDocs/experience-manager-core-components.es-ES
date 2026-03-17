@@ -1,12 +1,12 @@
 ---
 title: Bibliotecas de cliente y componentes principales
 description: Los componentes principales incluyen una serie de bibliotecas de cliente y permiten incluir las suyas propias.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 84e7c178-247b-42a2-99bf-6d1699ecee14
-source-git-commit: d39fe0084522f67664203a026340b23d325c1883
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 98%
 
 ---
 

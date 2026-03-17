@@ -1,13 +1,13 @@
 ---
 title: Versiones de componentes principales de correo electrónico
 description: Los componentes principales de correo electrónico se publican como versiones.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9733659a-641c-4a98-8d10-84e93e0e0a5d
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '604'
+ht-degree: 93%
 
 ---
 
@@ -20,9 +20,9 @@ Consulte la [sección Requisitos](/help/email/introduction.md#requirements) del 
 
 ## Historial y compatibilidad de la versión {#release-history-and-compatibility}
 
-Los componentes principales de correo electrónico están diseñados para ser flexibles y compatibles con todas las versiones de AEM admitidas. Los detalles completos del historial de versiones de los componentes principales de correo electrónico [se encuentran en GitHub.](https://github.com/adobe/aem-core-email-components/releases) Sin embargo, la siguiente tabla ofrece una descripción general de las versiones de los componentes principales de correo electrónico y su compatibilidad con las versiones de AEM y de Java.
+Los componentes principales de correo electrónico están diseñados para ser flexibles y compatibles con todas las versiones de AEM admitidas. Los detalles completos del historial de versiones de los componentes principales de correo electrónico [ se encuentran en GitHub.](https://github.com/adobe/aem-core-email-components/releases) Sin embargo, la siguiente tabla ofrece una descripción general de las versiones de los componentes principales de correo electrónico y su compatibilidad con las versiones de AEM y de Java.
 
-| Versión | Descripción | AEM 6.5 | AEM 6.5 LTS | Componentes principales  | Java | Fecha de la versión |
+| Versión | Descripción | AEM 6.5 | AEM 6.5 LTS | Componentes principales | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|
 | [1.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.3.0) | Esta versión actualiza la biblioteca jsoup integrada. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 28 de junio de 2024 |
 | [1.2.2](https://github.com/adobe/aem-core-email-components/releases/tag/core.email.components.reactor-1.2.2) | Esta versión de mantenimiento corrigió el filtrado de selectores, resolvió una `SelectorParseException` y corrigió otros errores. | 6.5.14.0+ | - | [2.21.2+](/help/versions.md) | 8, 11 | 24 de mayo de 2023 |
@@ -42,4 +42,4 @@ Los componentes principales de correo electrónico están diseñados para ser fl
 | [0.5.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.5.0) | Adición del inliner de estilo y del componente Fragmento de contenido | 6.5.13.0+ |  |  | 8, 11 | 7 de abril de 2022 |
 | [0.4.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.4.0) | Adición del externalizador de URL, de personalización y del componente Segmentación | 6.5.13.0+ |  |  | 8, 11 | 23 de marzo de 2022 |
 | [0.3.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.3.0) | Adición de los componentes Texto y Contenedor y de la IU de creación, correcciones | 6.5.13.0+ |  |  | 8, 11 | 9 de marzo de 2022 |
-| [0.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.2.0) | Versión previa inicial con el componente Página y varias pruebas de concepto | 6.5.13.0+ |  |  | 8, 11 | 24 de febrero de 2022 |
+| [0.2.0](https://github.com/adobe/aem-core-email-components/releases/tag/v0.2.0) | Versión preliminar inicial con el componente Página y varias pruebas de concepto | 6.5.13.0+ |  |  | 8, 11 | 24 de febrero de 2022 |

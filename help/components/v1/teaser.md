@@ -1,12 +1,12 @@
 ---
 title: Componente Teaser (v1)
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 48e56938-660a-43e7-9e62-8069283ae73f
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '722'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '766'
 ht-degree: 100%
 
 ---

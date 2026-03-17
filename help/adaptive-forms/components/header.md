@@ -1,11 +1,11 @@
 ---
 title: 'Componente principal de formularios adaptables: encabezado'
 description: Uso o personalización del componente principal de encabezado de formularios adaptables.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: aa18def9-0bec-4475-8dde-213860621ef5
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '672'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '688'
 ht-degree: 100%
 
 ---
@@ -44,9 +44,11 @@ El componente principal de encabezado de formularios adaptables se publicó en f
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Detalles técnicos {#technical-details}
 
@@ -65,7 +67,7 @@ Esta parte del encabezado contiene el título y la imagen del encabezado.
 - **Recurso de imagen**: esta opción permite soltar un recurso como una imagen arrastrando y soltando con el ratón. También puede cargar un archivo desde un sistema de archivos local utilizando el botón **Examinar**. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen. Después de añadir una imagen, aparecen tres botones en la parte inferior de la imagen:
    - **Editar**: pulse o haga clic en **Editar** para administrar las representaciones del recurso en el Editor de recursos.
    - **Borrar**: pulse o haga clic en **Borrar** para anular la selección de la imagen seleccionada actualmente.
-   - **Elegir**: pulse o haga clic en **Elegir**  para seleccionar otra imagen de la carpeta Recursos.
+   - **Elegir**: pulse o haga clic en **Elegir** para seleccionar otra imagen de la carpeta Recursos.
 
 - **Título**: esta opción se utiliza para añadir el título al encabezado. El texto predefinido se incluye en el cuadro de diálogo y el usuario lo puede modificar.
 - **Vincular a**: puede vincular el encabezado a la carpeta mediante el icono de **Examinar**.
@@ -86,7 +88,7 @@ Esta sección permite introducir el texto que se incluirá en el encabezado.
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
@@ -94,6 +96,6 @@ Esta sección permite introducir el texto que se incluirá en el encabezado.
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}

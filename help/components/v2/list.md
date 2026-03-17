@@ -1,12 +1,12 @@
 ---
 title: Componente Lista (versión 2)
 description: El componente principal Lista permite crear fácilmente listas dinámicas y estáticas.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: fa34be64-b345-45cd-baf3-571973414852
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1020'
 ht-degree: 100%
 
 ---

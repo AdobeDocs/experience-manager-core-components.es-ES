@@ -1,11 +1,11 @@
 ---
 title: Directrices sobre los componentes
 description: Los componentes principales siguen patrones de implementación modernos que son bastante diferentes de los componentes de base.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '1225'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1296'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Para ir más lejos, si los componentes se reutilizan en sitios o proyectos, cons
 
 ### Separación de preocupaciones {#separation-of-concerns}
 
-Normalmente se recomienda mantener la lógica (o el modelo) de un componente separado de la plantilla (o vista) de marcado. Existen varias formas de conseguirlo, pero la recomendada es utilizar [Modelos Sling](https://sling.apache.org/documentation/bundles/models.html) para la lógica y el [Lenguaje de plantilla HTML](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) (HTL) para el marcado, como también lo hacen los componentes principales.
+Normalmente se recomienda mantener la lógica (o el modelo) de un componente separado de la plantilla (o vista) de marcado. Existen varias formas de conseguirlo, pero la recomendada es utilizar [Modelos Sling](https://sling.apache.org/documentation/bundles/models.html?lang=es) para la lógica y el [Lenguaje de plantilla HTML](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) (HTL) para el marcado, como también lo hacen los componentes principales.
 
 Los modelos Sling son un conjunto de anotaciones Java para acceder fácilmente a las variables necesarias desde los POJO y, por lo tanto, ofrecen una forma sencilla, potente y eficaz de implementar la lógica Java para los componentes.
 

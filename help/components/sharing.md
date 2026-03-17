@@ -1,18 +1,18 @@
 ---
-title: 'Componente Compartir en redes sociales '
+title: Componente Compartir en redes sociales
 description: El componente principal Compartir en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 8bd53c76-da91-479b-b416-f978682a3d43
 index: false
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '377'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '418'
 ht-degree: 100%
 
 ---
 
 
-# Componente Compartir en redes sociales {#social-sharing-component}
+# Componente Compartir en redes sociales{#social-sharing-component}
 
 El componente principal Compartir en redes sociales es una utilidad de uso compartido de Facebook y Pinterest.
 

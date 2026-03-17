@@ -1,12 +1,12 @@
 ---
 title: Componente Botón de correo electrónico
 description: El componente Botón de correo electrónico permite la configuración y visualización de un elemento de botón en el contenido.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '527'
 ht-degree: 100%
 
 ---
@@ -31,13 +31,13 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | - | - |
+| v1 | Compatible | - | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Botón de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_button_v1_es)
+La documentación técnica más reciente acerca del componente Botón de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_button_v1)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
@@ -67,7 +67,7 @@ El cuadro de diálogo de configuración permite que el autor del contenido defin
 
 En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
-* **Etiqueta**: valor de un atributo de etiqueta ARIA para el componente
+* **Etiqueta**: Valor de un atributo de etiqueta ARIA para el componente
 
 ### Pestaña Estilos {#styles-tab-edit}
 

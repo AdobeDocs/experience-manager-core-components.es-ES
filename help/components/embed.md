@@ -1,11 +1,11 @@
 ---
 title: Incrustar componente
 description: El componente incrustado permite incrustar contenido externo en una página de contenido de AEM.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1421'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente incrustado, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_embed_es).
+Para experimentar el componente incrustado, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Detalles técnicos {#technical-details}
 

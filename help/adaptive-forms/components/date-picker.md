@@ -1,11 +1,11 @@
 ---
 title: 'Componente principal de Formularios adaptables: selector de fecha'
 description: Uso o personalización del componente principal de selector de fecha de Formularios adaptables.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
-source-git-commit: f0c4d6adf7266bdb6ebc7cde49656efaf3027624
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2465'
 ht-degree: 95%
 
 ---
@@ -45,9 +45,11 @@ El componente principal de selector de fecha de formularios adaptables se public
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 ## Detalles técnicos {#technical-details}
 
@@ -90,7 +92,7 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 - **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 
-- **Mensaje de validación de la secuencia de comandos**: esta opción permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
+- **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
 - **Fecha mínima**: esta opción permite introducir la fecha mínima requerida. Si introduce una fecha anterior a la fecha especificada en Fecha mínima, aparecerá un mensaje de error en la pantalla. El cuadro de diálogo **Mensaje de error mínimo** permite añadir un mensaje de error personalizado.
 
@@ -111,7 +113,7 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 - **Mostrar siempre una descripción breve**: habilite la opción para mostrar la descripción breve debajo del componente.
 
-- **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan al usuario para ayudarle a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
+- **Texto de ayuda**: el texto de ayuda hace referencia a información o directrices adicionales que se proporcionan para ayudar a rellenar correctamente un campo de formulario. Aparece cuando el usuario hace clic en el icono de ayuda (i) situado junto al componente. El texto de ayuda proporciona información más detallada que la etiqueta de un campo de formulario o el texto del marcador de posición, y está diseñado para ayudar al usuario a comprender los requisitos o restricciones del campo. También puede ofrecer sugerencias o ejemplos para que el formulario sea más fácil y preciso.
 
 
 ### Pestaña Accesibilidad {#accessibility-tab}
@@ -131,7 +133,7 @@ Puede personalizar fácilmente la experiencia del selector de fecha para los vis
 
 - **Formato de visualización**: representa el formato de fecha que se muestra al usuario. La opción **Tipo** permite al usuario seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 
-- **Editar formato**: representa un formato de fecha en el que el usuario puede editar la fecha. La opción **Tipo** permite seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
+- **Editar formato**: representa un formato de fecha en el que el usuario puede editar la fecha. La opción **Tipo** permite al usuario seleccionar el formato de fecha. También puede personalizar el formato de fecha utilizando la opción **Personalizado** en el menú desplegable **Tipo**.
 - **Mensaje de error de formato**: esta opción le permite introducir el mensaje mostrado en la pantalla cuando la fecha introducida no tiene el formato correcto.
 - **Idioma**: esta función se utiliza para dar formato al campo específico. Cuando un usuario selecciona cualquier opción de idioma del menú desplegable **Tipo**, aparece la opción **Etiqueta de idioma IETF BCP 47** en el panel. Puede elegir el idioma del formato del campo al traducir un formulario adaptable a un idioma específico.
 
@@ -202,7 +204,7 @@ Para agregar formatos a la directiva de plantilla:
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
@@ -210,7 +212,7 @@ Para agregar formatos a la directiva de plantilla:
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}
 

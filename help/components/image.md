@@ -1,12 +1,12 @@
 ---
 title: Componente Imagen
 description: El componente principal Imagen es un componente de imagen adaptable.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c5e57f4b-139f-40e7-8d79-be9a74360b63
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 99%
+source-wordcount: '2163'
+ht-degree: 95%
 
 ---
 
@@ -59,13 +59,13 @@ La mayoría de las veces, los exploradores prefieren reducir localmente la anchu
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
-El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=es). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
+El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/dynamicmedia/dynamic-media.html?lang=es). [Cuando están habilitadas,](#design-dialog) estas características permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
-Adobe Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
+Adobe AI Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
 ## Soporte de recursos remotos {#remote-assets}
 
-El componente de imagen (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurado,](/help/developing/remote-assets.md) puede seleccionar recursos desde un servicio remoto para su componente de imagen.
+El componente de imagen (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurado, ](/help/developing/remote-assets.md) puede seleccionar recursos de un servicio remoto para el componente de imagen.
 
 ## Compatibilidad con SVG {#svg-support}
 

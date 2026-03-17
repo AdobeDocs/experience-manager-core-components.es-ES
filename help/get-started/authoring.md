@@ -1,11 +1,11 @@
 ---
 title: Crear con componentes principales
 description: En AEM, los componentes son los elementos estructurales que constituyen el contenido de las páginas creadas. Los componentes principales ofrecen funciones flexibles y personalizables de creación.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 56e58303-a178-45ab-b59d-e374c9cf90cf
-source-git-commit: 945e1793ae4e959f83960db46d2de4257916fe32
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '792'
 ht-degree: 100%
 
 ---
@@ -80,6 +80,6 @@ Los estilos de la mayoría de los componentes principales se pueden definir con 
 
 Para obtener más información, consulte la documentación de [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/style-system.html?lang=es).
 
-## Medios del desarrollador {#developer-resources}
+## Recursos del desarrollador {#developer-resources}
 
 Consulte la documentación para desarrolladores de [Desarrollo de Componentes principales](/help/developing/overview.md) para obtener información técnica sobre los componentes principales.

@@ -1,13 +1,13 @@
 ---
 title: Componente Segmentación de correo electrónico
 description: El componente Segmentación de correo electrónico
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6c88b8c5-189a-40c0-ab28-04d37dc5fbac
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1156'
+ht-degree: 96%
 
 ---
 
@@ -33,11 +33,11 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | - | - |
+| v1 | Compatible | - | - |
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Teaser de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_es)
+La documentación técnica más reciente acerca del componente Teaser de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
@@ -70,7 +70,7 @@ Utilice el botón **Agregar segmento** para abrir el selector de componentes y e
 
 ![Pestaña de configuración de propiedades del diálogo del componente Segmentación de correo electrónico](/help/email/assets/email-segmentation-configure-properties.png)
 
-* **ID**: esta opción permite controlar el identificador único del componente en el HTML.
+* **ID**: esta opción permite controlar el identificador único del componente en HTML.
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando el contenido resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al CSS.
@@ -81,7 +81,7 @@ Utilice el botón **Agregar segmento** para abrir el selector de componentes y e
 
 En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
-* **Etiqueta**: valor de un atributo de etiqueta ARIA para el componente
+* **Etiqueta**: Valor de un atributo de etiqueta ARIA para el componente
 
 ### Pestaña Estilos {#styles-tab-edit}
 
@@ -136,6 +136,6 @@ Toque o haga clic en el botón **Añadir** para crear nuevas condiciones.
 * **Nombre de la condición del segmento**: una descripción de la condición
 * **Condición del segmento**: la condición que debe cumplirse, en función de las variables de personalización de Adobe Campaign
    * [Consulte aquí los recursos de personalización de Adobe Campaign Standard.](https://experienceleague.adobe.com/docs/campaign-standard/using/designing-content/personalization.html?lang=es)
-   * [Consulte aquí los recursos de personalización de Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=es
+   * [Consulte aquí los recursos de personalización de Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
 * **Eliminar**: toque o haga clic para quitar la condición
 * **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de las condiciones

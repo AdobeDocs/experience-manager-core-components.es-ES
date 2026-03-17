@@ -1,12 +1,12 @@
 ---
 title: Variables de campaña
 description: Utilice variables de campaña como marcadores de posición para crear contenido de correo electrónico personalizado.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 124ff5bf-6612-4baf-b0ff-6b1a95b455c1
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '296'
 ht-degree: 100%
 
 ---

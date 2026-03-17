@@ -1,11 +1,11 @@
 ---
 title: Componente Separador
 description: El componente Separador crea un salto entre los componentes de una página
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 79f19368-67fa-4864-93f7-2aa801d13fdb
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '309'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
+| v1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
 
 ## Salida del componente de ejemplo {#sample-component-output}
 

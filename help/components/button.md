@@ -1,17 +1,17 @@
 ---
 title: Componente Botón
 description: El componente principal Botón permite crear y visualizar un botón.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: e17efd1d-90d4-497a-9e7d-45934d81bc28
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '545'
 ht-degree: 100%
 
 ---
 
 
-# Componente Botón {#button-component}
+# Componente Botón{#button-component}
 
 El componente principal Botón permite configurar y mostrar un elemento de botón en una página.
 
@@ -39,11 +39,11 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente Botón, así como ver ejemplos de sus opciones de configuración, además de la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_button_es).
+Para experimentar el componente Botón, así como ver ejemplos de sus opciones de configuración, además de la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_button).
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Botón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_button_v2_es).
+La documentación técnica más reciente sobre el componente Botón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_button_v2).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
@@ -71,7 +71,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir e
 
 En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
-* **Etiqueta**: valor de un atributo de etiqueta ARIA para el componente
+* **Etiqueta**: Valor de un atributo de etiqueta ARIA para el componente
 
 ### Pestaña Estilos {#styles-tab-edit}
 

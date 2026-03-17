@@ -1,12 +1,12 @@
 ---
 title: 'Componente principal de formularios adaptables: Google reCAPTCHA'
 description: Mejore la seguridad de los formularios con el servicio reCAPTCHA de Google sin esfuerzo alguno. Explicar las propiedades de reCaptcha de formulario adaptable
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2d986b90-e596-4e8f-9a32-0ebced5461c8
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '1382'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ El componente principal de reCAPTCHA de Google para formularios adaptables se pu
 
 | Versión del componente | AEM as a Cloud Service |
 |--- |--- |
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/versions.md) y posteriores | Compatible | Compatible |
+| v1 | Compatible con<br>[versión 2.0.4](/help/versions.md) y posteriores \| Compatible\|Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -88,7 +88,7 @@ Puede personalizar fácilmente la experiencia de reCAPTCHA de Google para los vi
 
 - **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 
-- **Mensaje de validación de la secuencia de comandos**: esta opción permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
+- **Mensaje de validación de secuencia de comandos**: esta opción le permite introducir un mensaje que se mostrará si la validación de la secuencia de comandos falla.
 
 ## Cuadro de diálogo Diseño {#design-dialog}
 
@@ -108,7 +108,7 @@ El componente principal de reCAPTCHA de formularios adaptables es compatible con
 
 ![Cuadro de diálogo Propiedades personalizadas](/help/adaptive-forms/assets/checkbox-customproperties.png)
 
-Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de un formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
+Las propiedades personalizadas le permiten asociar atributos personalizados (pares clave-valor) a un componente principal del formulario adaptable mediante la plantilla de formulario. Las propiedades personalizadas se reflejan en la sección de propiedades de la representación sin encabezado del componente. Permite crear un comportamiento de formulario dinámico que se adapta en función de los valores de atributos personalizados. Por ejemplo, los desarrolladores pueden diseñar varias representaciones de un componente Forms sin encabezado para plataformas móviles, de escritorio o web, lo que mejora significativamente la experiencia del usuario en una amplia gama de dispositivos.
 - **Nombre de grupo**: puede proporcionar un nombre para identificar el grupo de propiedades personalizadas. Puede agregar, eliminar o reorganizar varios grupos de propiedades personalizadas. Después de añadir el grupo de propiedades personalizadas, podrá ver las siguientes opciones:
 
    - **Pares de clave-valor**: puede agregar varios nombres de propiedades personalizadas y valores de propiedades personalizadas haciendo clic en el botón **Añadir** para cada grupo de propiedades personalizadas.
@@ -122,6 +122,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}

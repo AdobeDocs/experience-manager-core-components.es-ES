@@ -1,13 +1,13 @@
 ---
 title: Uso de los componentes principales de correo electrónico
 description: Obtenga información acerca de la instalación, configuración y uso básicos de los componentes principales de correo electrónico.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '683'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ Obtenga información acerca de la instalación, configuración y uso básicos de
 
 ## Instalación de los componentes principales de correo electrónico {#installation}
 
-Los componentes principales de correo electrónico se pueden usar con AEM 6.5. Consulte la [sección Requisitos del documento Introducción a los componentes principales de correo electrónico](introduction.md#requirements) para obtener más información.
+Los componentes principales de correo electrónico se pueden utilizar con AEM 6.5. Consulte la sección [Requisitos del documento de introducción a los componentes principales de correo electrónico](introduction.md#requirements) para obtener más información.
 
 ### Instalación de componentes principales {#core-components}
 

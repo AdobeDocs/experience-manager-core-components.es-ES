@@ -1,13 +1,13 @@
 ---
 title: Componente Fragmento de experiencia (v1)
 description: El componente Fragmento de experiencia permite al autor del contenido añadir una variación de fragmento de experiencia a una página.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 42230a7b-6feb-4535-baf9-b8fc06978d98
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '770'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '775'
+ht-degree: 94%
 
 ---
 
@@ -46,7 +46,7 @@ En este caso, el fragmento con la misma localización (idioma, modelo o versión
 Este comportamiento se limita a los componentes de fragmento de experiencia añadidos a las plantillas. Los componentes Fragmento de experiencia añadidos a páginas de contenido individuales serán las representaciones exactas de los fragmentos de experiencia configurados dentro del componente.
 
 * Para ver cómo trabajan las funciones de localización del componente Fragmento de experiencia, consulte [la sección siguiente](#example).
-* Para ver un ejemplo de cómo funcionan juntas las funciones de localización de los componentes principales, consulte la página [Funciones de localización de los componentes principales](/help/get-started/localization.md).
+* Para ver un ejemplo de cómo funcionan juntas las funciones de localización de los componentes principales, consulte la [página Funciones de localización de los componentes principales](/help/get-started/localization.md).
 
 ### Ejemplo {#example}
 
@@ -108,7 +108,7 @@ Para experimentar el componente Fragmento de experiencia, así como ver ejemplos
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Fragmento de experiencia [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1_es).
+La documentación técnica más reciente sobre el componente Fragmento de experiencia [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_xf_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
@@ -120,7 +120,7 @@ El cuadro de diálogo de configuración permite al autor del contenido seleccion
 
 Utilice el botón **Abrir cuadro de diálogo de selección** para abrir el selector de componentes y elegir qué variación del componente Fragmento de experiencia se agregará a la página de contenido.
 
-Si agrega el componente Fragmento de experiencia a una plantilla, tenga en cuenta que se localizará automáticamente siempre que los fragmentos de experiencias estén localizados, por lo que lo que se procese en la página puede variar del componente que seleccione explícitamente. [Consulte el ejemplo anterior](#example) para obtener más información.
+Si agrega el componente Fragmento de experiencia a una plantilla, tenga en cuenta que se localizará automáticamente siempre que los fragmentos de experiencias estén localizados, por lo que lo que se procesa en la página puede variar del componente que seleccione explícitamente. [Vea el ejemplo anterior](#example) para obtener más información.
 
 También puede definir un **ID**. Esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos](/help/developing/data-layer/overview.md).
 

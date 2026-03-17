@@ -1,11 +1,11 @@
 ---
 title: 'Componente principal de formularios adaptables: título'
 description: Uso o personalización del componente principal de título de formularios adaptables.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 33eac885-8d66-4a5c-9a32-0ba11e6de293
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '864'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '882'
 ht-degree: 100%
 
 ---
@@ -49,9 +49,11 @@ El componente principal Mosaico de los formularios adaptables se publicó en feb
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
-<!-- ## Sample Component Output {#sample-component-output}
+<!--
+## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). -->
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
+-->
 
 
 ## Detalles técnicos {#technical-details}
@@ -73,7 +75,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir el text
    - Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    - Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
 
-## Cuadro de diálogo Diseño {#design-dialog}
+## Cuadro de diálogo de diseño {#design-dialog}
 
 La pestaña Diseño se utiliza para definir y administrar estilos CSS para el componente de título de formulario.
 
@@ -107,7 +109,7 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 
@@ -116,6 +118,6 @@ La pestaña Formatos permite especificar formatos de fecha predeterminados y per
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}

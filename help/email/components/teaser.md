@@ -1,12 +1,12 @@
 ---
 title: Componente Teaser de correo electrónico
 description: El componente Teaser de correo electrónico puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d6123b22-7cba-406c-986d-b6f00322d135
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1048'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,11 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | - | - |
+| v1 | Compatible | - | - |
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Teaser de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1_es)
+La documentación técnica más reciente acerca del componente Teaser de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
@@ -52,7 +52,7 @@ El título, la descripción y la imagen del teaser se pueden heredar del conteni
 
 * **Vínculo**: este archivo establece un vínculo a un contenido, a una URL externa o a un anclaje.
    * Haga clic en el icono de la campaña para abrir el cuadro de diálogo [Seleccione la variable Adobe Campaign](/help/email/campaign-variables.md) para insertar contenido dinámico desde Adobe Campaign.
-* **Llamadas a la acción**: esta opción permite la vinculación a varios destinos.
+* **Llamada a acción**: esta opción permite la vinculación a varios destinos.
    * La página vinculada en la primera llamada a la acción se utiliza al heredar el título, la descripción o la imagen del teaser.
    * Haga clic en el icono de la campaña para abrir el cuadro de diálogo [Seleccione la variable Adobe Campaign](/help/email/campaign-variables.md) para insertar contenido dinámico desde Adobe Campaign.
 

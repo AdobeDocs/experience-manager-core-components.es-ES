@@ -1,17 +1,17 @@
 ---
 title: Componente Página
 description: El componente Página es un componente de página ampliable diseñado para trabajar con el editor de plantillas y permitir que el encabezado/pie de página y los componentes de estructura se ensamblen con el editor de plantillas.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '739'
+ht-degree: 95%
 
 ---
 
 
-# Componente Página {#page-component}
+# Componente Página{#page-component}
 
 El componente Página es un componente de página ampliable diseñado para trabajar con el [editor de plantillas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/templates.html?lang=es) y permite ensamblar el encabezado/pie de página y los componentes de estructura con el editor de plantillas.
 
@@ -39,7 +39,7 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 
 ## Compatibilidad con la aplicación web progresiva {#pwa-support}
 
-La versión 2.15.0 de los componentes principales introdujo la compatibilidad con las [aplicaciones web progresivas (PWA) de AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=es) Con una configuración simple a nivel de sitio, convierta su experiencia AEM en una PWA.
+La versión 2.15.0 de los componentes principales introdujo la compatibilidad con las funciones integradas de [aplicaciones web progresivas (PWA) de AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=es) Con una configuración sencilla a nivel de sitio, convierta su experiencia de AEM en una PWA.
 
 ### Detalles técnicos {#technical-details}
 
@@ -74,7 +74,7 @@ Con la ventana Diseño de página, puede definir las bibliotecas de cliente que 
 
 * **Saltar al selector de elementos de contenido principal**: se utiliza como función de accesibilidad para saltar directamente al contenido principal de la página
 
-* **Procesar vínculos de idiomas alternativos**: si está activada, se añadirán al encabezado de la página vínculos a versiones de idiomas alternativos de la página en el mismo sitio.
+* **Procesar vínculos de idiomas alternativos**: si está habilitada, se añadirán al encabezado de la página vínculos a versiones de idiomas alternativos de la página en el mismo sitio.
 
 ![Cuadro de diálogo de diseño de componente de página](/help/assets/page-design.png)
 
@@ -82,7 +82,7 @@ Las bibliotecas se pueden configurar para los campos **Bibliotecas de cliente** 
 
 * Para agregar un nuevo campo, toque o haga clic en el botón **Añadir** situado debajo de los campos.
 * Para quitar un campo, pulse el icono de la papelera que hay junto al campo que se va a eliminar o haga clic en él.
-* Para reorganizar el orden de carga, arrastre el controlador situado junto al campo que desee mover.
+* Para reorganizar el orden de carga, haga clic o arrastre el controlador situado junto al campo que desee mover.
 
 Para obtener más información sobre el uso de bibliotecas del lado del cliente, consulte [Uso de bibliotecas del lado del cliente](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/using/clientlibs.html).
 

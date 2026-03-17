@@ -1,12 +1,12 @@
 ---
 title: Componente del contenedor de formularios
 description: El componente principal Contenedor de formularios permite crear formularios de envío simples.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 552f9dd5-6a3a-42d9-9969-e62a1f36e811
-source-git-commit: 6fbc781db555bc6abaed1d122a9a8756e3d53222
-workflow-type: ht
-source-wordcount: '914'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '970'
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ Cuando se envía el formulario, el tipo de acción de publicación de datos de f
 * **Mensaje de error**: mensaje que se muestra si el envío no se ha realizado correctamente
 
 >[!TIP]
->Hay opciones de tiempo de espera adicionales que un administrador del sistema puede ajustar para administrar el procesamiento de los datos de formulario reenviados. [Consulte la documentación técnica de GitHub para obtener más información.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
+>Hay opciones de tiempo de espera adicionales que un administrador del sistema puede ajustar para administrar el procesamiento de los datos de formulario reenviados. [Consulte la documentación técnica en GitHub para obtener más información.](https://github.com/adobe/aem-core-wcm-components/tree/master/content/src/content/jcr_root/apps/core/wcm/components/form/actions/rpc)
 
 ### Correo {#mail}
 

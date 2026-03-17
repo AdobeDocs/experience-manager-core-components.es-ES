@@ -1,11 +1,11 @@
 ---
 title: Componente Texto
 description: El componente Texto es un componente de composición y edición de texto enriquecido que incluye la edición in situ.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '2265'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ El resto de este artículo muestra la configuración estándar del componente Te
 
 >[!NOTE]
 >
->En el componente Texto solo están disponibles las opciones activadas por las [configuraciones de interfaz de usuario de RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=es).
+>En el componente Texto solo están disponibles las opciones habilitadas por las [configuraciones de interfaz de usuario de RTE](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/configuring-and-extending/configure-rich-text-editor-plug-ins.html?lang=es).
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 

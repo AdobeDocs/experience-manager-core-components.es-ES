@@ -1,12 +1,12 @@
 ---
 title: Introducción a los componentes principales de formularios adaptables de AEM
 description: Cree experiencias de inscripción atractivas (formularios) con la flexibilidad de los componentes principales de formularios adaptables y suministre dicha flexibilidad con la potencia de Adobe Experience Manager.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 6d0f2845-bbb8-4488-a254-b69d7a6290b1
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 936fe1b5282d64c0529ab6bff4c9a4bf9f07205d
 workflow-type: tm+mt
-source-wordcount: '1980'
-ht-degree: 98%
+source-wordcount: '3145'
+ht-degree: 95%
 
 ---
 
@@ -56,21 +56,21 @@ Además, como estos componentes son de código abierto, los desarrolladores pued
 
 Las experiencias de captura de datos son cruciales para la generación de posibles clientes y la inscripción, y los componentes principales de formularios adaptables proporcionan una solución potente para la creación de formularios optimizados para la captura de datos. Algunas de las razones para utilizar los componentes principales para crear estas experiencias sobre los componentes básicos son las siguientes:
 
-* **[Disponibilidad en GitHub](https://github.com/adobe/aem-core-forms-components)**: los componentes principales de formularios adaptables de AEM son de código abierto y están disponibles en GitHub, junto con una documentación exhaustiva. Esto facilita a los desarrolladores la comprensión de los componentes y de cómo funcionan, así como la contribución a su desarrollo. El sitio web [aemcomponents.dev](https://www.aemcomponents.dev/) también es un recurso valioso, donde los desarrolladores pueden ver los componentes en acción y acceder a la documentación detallada.
+- **[Disponibilidad en GitHub](https://github.com/adobe/aem-core-forms-components)**: los componentes principales de formularios adaptables de AEM son de código abierto y están disponibles en GitHub, junto con una documentación exhaustiva. Esto facilita a los desarrolladores la comprensión de los componentes y de cómo funcionan, así como la contribución a su desarrollo. El sitio web [aemcomponents.dev](https://www.aemcomponents.dev/) también es un recurso valioso, donde los desarrolladores pueden ver los componentes en acción y acceder a la documentación detallada.
 
-* **[Modelo BEM para estilos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: los componentes principales siguen el modelo de estilo de BEM (Block Element Modifer), que es una metodología establecida y ampliamente utilizada para organizar CSS. Esto facilita a los desarrolladores comprender cómo se organizan los estilos y cómo modificarlos para adaptarlos a sus necesidades específicas.
+- **[Modelo BEM para estilos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: los componentes principales siguen el modelo de estilo de BEM (Block Element Modifer), que es una metodología establecida y ampliamente utilizada para organizar CSS. Esto facilita a los desarrolladores comprender cómo se organizan los estilos y cómo modificarlos para adaptarlos a sus necesidades específicas.
 
-* **Sin depender de bibliotecas de terceros**: una de las ventajas de los componentes principales es que no dependen de las bibliotecas JavaScript de terceros, incluidas JQuery y Underscore. Esto hace que los componentes sean más rápidos y livianos, así como más fáciles de integrar en una implementación de AEM existente.
+- **Sin depender de bibliotecas de terceros**: una de las ventajas de los componentes principales es que no dependen de las bibliotecas JavaScript de terceros, incluidas JQuery y Underscore. Esto hace que los componentes sean más rápidos y livianos, así como más fáciles de integrar en una implementación de AEM existente.
 
-* **Centrarse en el rendimiento y la accesibilidad**: los componentes principales se crean teniendo en cuenta el rendimiento y la accesibilidad, lo que se refleja en sus altas puntuaciones de Google Lighthouse y Web Vitals. Esto facilita a los desarrolladores la creación de páginas web accesibles y de alto rendimiento, que es cada vez más importante en el panorama digital actual.
+- **Centrarse en el rendimiento y la accesibilidad**: los componentes principales se crean teniendo en cuenta el rendimiento y la accesibilidad, lo que se refleja en sus altas puntuaciones de Google Lighthouse y Web Vitals. Esto facilita a los desarrolladores la creación de páginas web accesibles y de alto rendimiento, que es cada vez más importante en el panorama digital actual.
 
-* **Componentes de formulario en plantillas y temas de Sites 30**: los componentes principales son compatibles con los componentes de formulario de la plantilla y los temas de Sites 30, lo que facilita a los desarrolladores la creación y personalización de formularios dentro de AEM.
+- **Componentes de formulario en plantillas y temas de Sites 30**: los componentes principales son compatibles con los componentes de formulario de la plantilla y los temas de Sites 30, lo que facilita a los desarrolladores la creación y personalización de formularios dentro de AEM.
 
-* **[Mayor facilidad para aplicar estilos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: es más fácil aplicar estilos a los componentes principales que sus componentes de base equivalentes. El proceso de creación del tema es similar al de Sites, con la capacidad de heredar el mismo tema/CSS de la página principal de Sites. Además, el modelo BEM para aplicar estilo facilita la comprensión y modificación de los estilos.
+- **[Mayor facilidad para aplicar estilos](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/using-themes-in-core-components)**: es más fácil aplicar estilos a los componentes principales que sus componentes de base equivalentes. El proceso de creación del tema es similar al de Sites, con la capacidad de heredar el mismo tema/CSS de la página principal de Sites. Además, el modelo BEM para aplicar estilo facilita la comprensión y modificación de los estilos.
 
-* **Accesibilidad**: los componentes principales de formularios adaptables admiten normas y directrices de accesibilidad para garantizar que las personas con discapacidades puedan utilizar los formularios, incluidas aquellas personas que utilizan tecnologías de asistencia como lectores de pantalla.
+- **Accesibilidad**: los componentes principales de formularios adaptables admiten normas y directrices de accesibilidad para garantizar que las personas con discapacidades puedan utilizar los formularios, incluidas aquellas personas que utilizan tecnologías de asistencia como lectores de pantalla.
 
-* **[Versiones](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: puede crear y administrar varias versiones de formularios adaptables basados en componentes principales, participar en debates de colaboración con comentarios y adjuntar anotaciones a componentes de formulario específicos, lo que mejora la experiencia general de creación de formularios.
+- **[Versiones](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/add-comments-annotations-versioning-adaptive-form-core-components)**: puede crear y administrar varias versiones de formularios adaptables basados en componentes principales, participar en debates de colaboración con comentarios y adjuntar anotaciones a componentes de formulario específicos, lo que mejora la experiencia general de creación de formularios.
 
 ## Componentes disponibles: desglose por tipo de componente
 
@@ -94,9 +94,9 @@ La versión actual de AEM Forms tiene los siguientes componentes principales, [C
 | Lista de archivos adjuntos | ✔️ | | | |
 | Pie de página | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/footer.md)</span> | ✔️ | |
 | Marcador de nota al pie | ✔️ | | | |
-| Contenedor de formulario | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Para los componentes de base, utilice el [componente Panel raíz](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
+| Contenedor del formulario | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/form-container.md)</span> | ✔️ | Para los componentes de base, utilice el [componente Panel raíz](https://experienceleague.adobe.com/es/docs/experience-manager-learn/cloud-service/forms/create-first-af/configure-root-panel). |
 | Título del formulario | ✔️ | ✔️ | | Para los componentes de base, utilice el componente de título. |
-| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | Para los componentes de base, puede [conectar sus formularios adaptables con hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html?lang=es) en el caso de formularios basados en componentes de base. |
+| hCaptcha | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/hcaptcha.md)</span> |  | Para los componentes de base, puede [conectar sus formularios adaptables con hCaptcha](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile.html) en el caso de formularios basados en componentes de base. |
 | Encabezado | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/header.md)</span> | ✔️ | |
 | Pestañas horizontales | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/horizontal-tabs.md)</span> | | Para los componentes de base, puede configurar el [diseño de las pestañas en la parte superior (pestañas horizontales)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) de las propiedades de los componentes del panel. |
 | Imagen | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/image.md)</span> | ✔️ | |
@@ -122,7 +122,8 @@ La versión actual de AEM Forms tiene los siguientes componentes principales, [C
 | Pestañas verticales | ✔️ | ✔️ | | Para los componentes de base, puede configurar el [diseño de las pestañas a la izquierda (pestañas verticales)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) en las propiedades de los componentes del panel |
 | Asistente | ✔️ | <span style="color:blue">[✔️](/help/adaptive-forms/components/wizard.md)</span> | ✔️ | Para los componentes de base, puede configurar el [diseño del asistente](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/configure-layout-of-an-adaptive-form/layout-capabilities-adaptive-forms#panel-layout) en las propiedades de los componentes del panel |
 
-<!--| Password Box | ✔️ | ✔️| ✔️ | |
+<!--
+| Password Box | ✔️ | ✔️| ✔️ | |
 | Image Choice | ✔️ | | | |
 -->
 
@@ -130,11 +131,11 @@ La versión actual de AEM Forms tiene los siguientes componentes principales, [C
 >[!NOTE]
 >
 >
-> * Además de los componentes enumerados anteriormente, el bloque de formularios admite todos los [Tipos de entrada HTML5](https://developer.mozilla.org/es-es/docs/Web/HTML/Element/input#input_types) y [área de texto](https://developer.mozilla.org/es-es/docs/Web/HTML/Element/textarea) como componentes.
-> * ¿Necesita un componente no enumerado anteriormente? Solicítelo por correo electrónico a aem-forms-ea@adobe.com desde su dirección oficial.
+>- Además de los componentes enumerados anteriormente, el bloque de formularios admite todos los [Tipos de entrada HTML5](https://developer.mozilla.org/es-es/docs/Web/HTML/Element/input#input_types) y [área de texto](https://developer.mozilla.org/es-es/docs/Web/HTML/Element/textarea) como componentes.
+>- ¿Necesita un componente no enumerado anteriormente? Solicítelo por correo electrónico a aem-forms-ea@adobe.com desde su dirección oficial.
 
 
-<!-- >
+<!--
 * [Accordion](/help/adaptive-forms/components/accordion.md)
 * [Adaptive Form Fragment](/help/adaptive-forms/components/adaptive-form-fragment.md)
 * [Adaptive Form Switch](/help/adaptive-forms/components/adaptive-form-switch.md)
@@ -160,7 +161,6 @@ La versión actual de AEM Forms tiene los siguientes componentes principales, [C
 * [Text](/help/adaptive-forms/components/text.md)
 * [Form Title](/help/adaptive-forms/components/form-title.md)
 * [Wizard](/help/adaptive-forms/components/wizard.md)
-
 -->
 
 ## Editor formularios de fácil uso
@@ -168,63 +168,63 @@ La versión actual de AEM Forms tiene los siguientes componentes principales, [C
 El editor de los formularios adaptables basado en componentes principales es similar al que ya utiliza para crear páginas de AEM Sites. Esto es lo que obtiene:
 
 
-* **Elementos y configuración de IU conocidos**: al configurar propiedades para componentes de formulario, verá que el cuadro de diálogo de propiedades tiene el mismo aspecto que el que utiliza para los componentes principales de WCM. Esto hace que sea más rápido encontrar las opciones que necesita. Al igual que los componentes principales de WCM, para los componentes de formulario, el cuadro de diálogo de propiedades aparece en el centro del editor con pestañas claras que separan las opciones básicas y avanzadas, el texto de ayuda y la información de accesibilidad, todo en un formato de pestañas para facilitar la navegación.
+- **Elementos y configuración de IU conocidos**: al configurar propiedades para componentes de formulario, verá que el cuadro de diálogo de propiedades tiene el mismo aspecto que el que utiliza para los componentes principales de WCM. Esto hace que sea más rápido encontrar las opciones que necesita. Al igual que los componentes principales de WCM, para los componentes de formulario, el cuadro de diálogo de propiedades aparece en el centro del editor con pestañas claras que separan las opciones básicas y avanzadas, el texto de ayuda y la información de accesibilidad, todo en un formato de pestañas para facilitar la navegación.
 
-* **[Editor de reglas](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: puede añadir lógica y características dinámicas a los formularios sin tener que escribir código. Puede usar el editor de reglas integrado para:
-   * Mostrar u ocultar campos basados en las opciones del usuario
-   * Habilitar o deshabilitar un objeto
-   * Establecer un valor para un objeto
-   * Realizar cálculos
-   * Establecer la propiedad de un objeto
-   * Validar la entrada de datos
-   * Invocar un servicio (llamar a la funcionalidad externa)
-   * Usar funciones integradas (funciones predefinidas para tareas comunes)
-   * Utilizar funciones personalizadas (su propio código para necesidades específicas)
-   * Validar campos y paneles (garantizar que los datos cumplen los requisitos)
-   * Validar el valor de un objeto
-   * Ejecutar funciones para calcular el valor de un objeto
-   * Invocar un servicio del modelo de datos de formulario (FDM) y realizar una operación
-   * Añadir estilos de forma dinámica (cambiar el aspecto según las condiciones)
-   * Crear otras reglas (acciones en cadena y lógica)
-   * y muchos más.
+- **[Editor de reglas](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/rule-editor-core-components)**: puede añadir lógica y características dinámicas a los formularios sin tener que escribir código. Puede usar el editor de reglas integrado para:
+   - Mostrar u ocultar campos basados en las opciones del usuario
+   - Habilitar o deshabilitar un objeto
+   - Establecer un valor para un objeto
+   - Realizar cálculos
+   - Establecer la propiedad de un objeto
+   - Validar la entrada de datos
+   - Invocar un servicio (llamar a la funcionalidad externa)
+   - Usar funciones integradas (funciones predefinidas para tareas comunes)
+   - Utilizar funciones personalizadas (su propio código para necesidades específicas)
+   - Validar campos y paneles (garantizar que los datos cumplen los requisitos)
+   - Validar el valor de un objeto
+   - Ejecutar funciones para calcular el valor de un objeto
+   - Invocar un servicio del modelo de datos de formulario (FDM) y realizar una operación
+   - Añadir estilos de forma dinámica (cambiar el aspecto según las condiciones)
+   - Crear otras reglas (acciones en cadena y lógica)
+   - y muchos más.
 
   El editor de reglas no tiene el editor de código. Puede utilizar [funciones personalizadas](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-and-use-custom-functions) para añadir su propio código para necesidades específicas al editor de reglas.
 
 
 
-* **Rellenado previo de formularios**: puede rellenar automáticamente determinados campos de un formulario con datos existentes cuando un usuario lo abra. Esto ahorra tiempo y esfuerzo a los usuarios al eliminar la necesidad de introducir manualmente información que podría estar disponible. El editor de componentes principales proporciona un servicio de rellenado previo OOTB para rellenar campos de formulario con la ayuda de un modelo de datos de formulario. También puede crear servicios de rellenado previo personalizados para escenarios más complejos.
+- **Rellenado previo de formularios**: puede rellenar automáticamente determinados campos de un formulario con datos existentes cuando un usuario lo abra. Esto ahorra tiempo y esfuerzo a los usuarios al eliminar la necesidad de introducir manualmente información que podría estar disponible. El editor de componentes principales proporciona un servicio de rellenado previo OOTB para rellenar campos de formulario con la ayuda de un modelo de datos de formulario. También puede crear servicios de rellenado previo personalizados para escenarios más complejos.
 
-* **[Documento de registro (DoR)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: un documento de registro (DoR) hace referencia a una representación formal e imprimible de los datos enviados a través del formulario. Sirve como registro permanente de la información que ha introducido un usuario, y proporciona una instantánea de los datos enviados en un formato fácil de usar, normalmente un documento PDF. Puede utilizar el editor para configurar fácilmente una plantilla personalizada o utilizar una plantilla OOTB para generar un DoR.
+- **[Documento de registro (DoR)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/generate-document-of-record-core-components)**: un documento de registro (DoR) hace referencia a una representación formal e imprimible de los datos enviados a través del formulario. Sirve como registro permanente de la información que ha introducido un usuario, y proporciona una instantánea de los datos enviados en un formato fácil de usar, normalmente un documento PDF. Puede utilizar el editor para configurar fácilmente una plantilla personalizada o utilizar una plantilla OOTB para generar un DoR.
 
-* **[Modelo de datos de formulario](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: un modelo de datos de formularios adaptables (FDM) actúa como un puente entre sus formularios adaptables y sus fuentes de datos. Básicamente, define la estructura y organización de los datos que los formularios recopilan y con los que interactúan. Puede utilizar el editor para conectar fácilmente el formulario con un modelo de datos de formularios (FDM).
+- **[Modelo de datos de formulario](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)**: un modelo de datos de formularios adaptables (FDM) actúa como un puente entre sus formularios adaptables y sus fuentes de datos. Básicamente, define la estructura y organización de los datos que los formularios recopilan y con los que interactúan. Puede utilizar el editor para conectar fácilmente el formulario con un modelo de datos de formularios (FDM).
 
-* **[Envíos de formularios](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: por envío de formularios se entiende el proceso por el que los usuarios completan y envían sus formularios cumplimentados. Esto activa una serie de acciones definidas dentro de la configuración del formulario, que finalmente conducen al almacenamiento o procesamiento de los datos enviados. El editor de formularios adaptables ofrece una variedad de opciones para configurar los envíos de formularios. Algunas de las acciones de envío comunes son:
+- **[Envíos de formularios](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form)**: por envío de formularios se entiende el proceso por el que los usuarios completan y envían sus formularios cumplimentados. Esto activa una serie de acciones definidas dentro de la configuración del formulario, que finalmente conducen al almacenamiento o procesamiento de los datos enviados. El editor de formularios adaptables ofrece una variedad de opciones para configurar los envíos de formularios. Algunas de las acciones de envío comunes son:
 
-   * [Enviar correo electrónico](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
-   * [Invocar un flujo de Power Automate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
-   * [Enviar a SharePoint](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
-   * [Invocar un Workfront Fusion](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
-   * [Enviar mediante el modelo de datos de formulario (FDM)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
-   * [Enviar a Azure Blob Storage](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Submit%20to%20Azure%20Blob%20Storage)
-   * [Enviar al punto final REST](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
-   * [Enviar a OneDrive](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
-   * [Invocar un flujo de trabajo de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
+   - [Enviar correo electrónico](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Adaptive%20Form%20Submit%20Action&text=Adobe%20recommends%20using%20Core%20Components,to%20create%20standalone%20Adaptive%20Forms.&text=A%20Submit%20Action%20lets%20you,button%20on%20an%20Adaptive%20Form.)
+   - [Invocar un flujo de Power Automate](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/integrate/services/forms-microsoft-power-automate-integration)
+   - [Enviar a SharePoint](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-sharepoint)
+   - [Invocar un Workfront Fusion](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20a%20Workfront%20Fusion)
+   - [Enviar mediante el modelo de datos de formulario (FDM)](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/integrate/use-form-data-model/using-form-data-model)
+   - [Enviar a Azure Blob Storage](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Submit%20to%20Azure%20Blob%20Storage)
+   - [Enviar al punto final REST](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-action-restpoint)
+   - [Enviar a OneDrive](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=to%20REST%20endpoint-,Submit%20to%20OneDrive,-Invoke%20an%20AEM)
+   - [Invocar un flujo de trabajo de AEM](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/configure-submit-actions-core-components#:~:text=Invoke%20an%20AEM%20Workflow)
 
 
-* [Componentes principales de Forms adaptable en el editor de páginas de Sites](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): puede usar Componentes principales de Forms adaptable en el editor de páginas de AEM y Fragmentos de experiencias de AEM para crear directamente una experiencia de captura de datos junto con la creación de una página de Sites.
+- [Componentes principales de Forms adaptable en el editor de páginas de Sites](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/create-or-add-an-adaptive-form-to-aem-sites-page): puede usar Componentes principales de Forms adaptable en el editor de páginas de AEM y Fragmentos de experiencias de AEM para crear directamente una experiencia de captura de datos junto con la creación de una página de Sites.
 
   >[!VIDEO](https://video.tv.adobe.com/v/3419284?quality=12&learn=on)
 
 
 <!-- 
-* **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
+- **Preview Forms**: You can use the editor to  simulates how the form would appear on various devices like desktops, tablets, and smartphones.
 
 
 
 
 ## Enable Adaptive Forms Core Components
 
-Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html?lang=es).
+Enabling Adaptive Forms Core Components on AEM Forms as a Cloud Service, allows you to start creating, publishing, and delivering Core Components based Adaptive Forms and Headless Forms using your AEM Forms Cloud Service instances to multiple channels. For detailed instructions to enable Adaptive Form Core Components, see [Enable Adaptive Forms Core Components on AEM Forms as a Cloud Service and local development environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/setup-configure-migrate/enable-adaptive-forms-core-components.html).
 
 The Adaptive Forms Core Components have the following requirements.
 
@@ -233,8 +233,7 @@ The Adaptive Forms Core Components have the following requirements.
 |AEM as a Cloud Service|Forms - Digital Enrollment|[Release 2.0.10](version.md)+|
 |AEM 6.5 | Forms add-on |[Release 1.1.12](version.md)+|
 
-If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=es#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
-
+If your AEM Cloud Service SDK version older than 2023.02.0, [ensure that you have `prerelease` flag enabled on your environment](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/release-notes/prerelease.html?lang=en#new-features) as Adaptive Forms Core Components were part of pre-prelease before the 2023.02.0 release.
 -->
 
 ## Crear un formulario adaptable basado en componentes principales
@@ -250,22 +249,26 @@ Puede realizar las siguientes acciones en los entornos de AEM Forms as a Cloud S
 
 
 
+<!--
+, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
 
+- **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+-->
 
-<!-- >, such as  [WCAG 2.1 standard](https://www.w3.org/TR/WCAG21/), to ensure that forms can be used by people with disabilities, including those using assistive technologies such as screen readers.
+<!--
+Additionally, the following points further illustrate this alignment:
 
-*   **Alignment with AEM Sites**: The Core Components are designed to be more aligned with AEM Sites, making it easier for Sites users to adopt and use them without having to learn anything new. The components use the same front-end pipeline as Sites, making it easier to style and modify their appearance. 
+    - **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
 
-<!-- Additionally, the following points further illustrate this alignment:
+    - **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
 
-    *   **Authoring experience inline with Page editor**: The Core Components have an authoring experience that is inline with the Sites editor, with dialogs and other experiences similar to the Page editor. This makes it easier for Sites users to create and manage forms within the familiar context of the Sites editor.
+    - **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
+-->
 
-    *   **Inline form editing in Sites editor**: The Core Components allow  inline form editing within the Sites editor, avoiding the need to switch back and forth between editors. This streamlines the authoring experience and makes it easier to create and manage forms.
+<!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
 
-    *   **Inheriting Sites features in Forms**: Forms authored within a Sites page inherit the same features as Sites. This provides a seamless and integrated experience for creating and managing forms within the context of AEM Sites 
-    
-    <!--including Multi Site Manager, the ability to use Sites components within a form for static content, support for scheduled publish/unpublish, form translation aligned with Sites translation, versioning, and targeting -->
-
-## Consulte también {#see-also}
+<!--
+## See Also {#see-also}
 
 {{see-also}}
+-->

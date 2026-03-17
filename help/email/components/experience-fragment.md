@@ -1,13 +1,13 @@
 ---
 title: Componente Fragmento de experiencia de correo electrónico
 description: El componente Fragmento de experiencia de correo electrónico permite al autor del contenido colocar una variación de fragmento de experiencia en su contenido y admitir al mismo tiempo una estructura de contenido localizada.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '894'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +33,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | - | - |
+| v1 | Compatible | - | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales de correo electrónico, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
 
@@ -120,7 +120,7 @@ El cuadro de diálogo de configuración permite al autor del contenido seleccion
 
 Utilice el botón **Abrir cuadro de diálogo de selección** para abrir el selector de componentes y elegir qué variación del componente Fragmento de experiencia se agregará a la página de contenido.
 
-Si agrega el componente Fragmento de experiencia de correo electrónico a una plantilla, se localizará automáticamente siempre que los fragmentos de experiencias estén localizados, de modo que lo que se procesa en la página puede variar del componente que seleccione explícitamente. [Consulte el ejemplo anterior](#example) para obtener más información.
+Si agrega el componente Fragmento de experiencia de correo electrónico a una plantilla, se localizará automáticamente siempre que los fragmentos de experiencias estén localizados, de modo que lo que se procesa en la página puede variar del componente que seleccione explícitamente. [Vea el ejemplo anterior](#example) para obtener más información.
 
 También puede definir un **ID**. Esta opción permite controlar el identificador único del componente en el HTM.
 

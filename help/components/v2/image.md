@@ -1,13 +1,13 @@
 ---
 title: Componente Imagen (v2)
 description: El componente principal Imagen es un componente de imagen adaptable que permite la edición in situ.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
-index: n
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '2050'
-ht-degree: 98%
+source-wordcount: '2119'
+ht-degree: 96%
 
 ---
 
@@ -44,9 +44,9 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
-El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
+El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas características permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
-Adobe Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
+Adobe AI Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
 ## Compatibilidad con SVG {#svg-support}
 
@@ -97,7 +97,7 @@ Además del [cuadro de diálogo de edición](#edit-dialog) y del [cuadro de diá
 * **Texto alternativo**: texto alternativo del significado o la función de la imagen, para usuarios con problemas de visión.
    * **Obtener texto alternativo de DAM**: cuando se selecciona, el texto alternativo de la imagen se rellena con el valor de los metadatos `dc:description` en DAM.
 * **Pie de ilustración**: información adicional sobre la imagen que se muestra debajo de la imagen de forma predeterminada.
-   * **Obtener pie de ilustración de DAM**: cuando se marca, el texto del pie de la imagen se rellena con el valor de los metadatos `dc:title` de DAM.
+   * **Obtener pie de ilustración de DAM**: cuando se marca, el texto del pie de ilustración de la imagen se rellena con el valor de los metadatos `dc:title` de DAM.
    * **Mostrar pie de ilustración como ventana emergente**: cuando esta opción está activada, el pie de ilustración no se mostrará debajo de la imagen, sino como una ventana emergente que se muestra en algunos exploradores al pasar el puntero por encima de la imagen.
 * **Vínculo**: vincule la imagen a otro recurso.
    * Utilice el cuadro de diálogo de selección para vincular a otro recurso de AEM.

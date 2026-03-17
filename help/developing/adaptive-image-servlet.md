@@ -1,12 +1,12 @@
 ---
 title: Servlet de imagen adaptable
 description: Descubra cómo los componentes principales utilizan el servlet de imagen adaptable para la entrega de imágenes y cómo puede optimizarlo.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 3f6e40c4dbfbd1287213d9d16d96183d24f2ad0a
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '487'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ Este documento describe el servlet de imagen adaptable predeterminado.
 
 ## Información general {#overview}
 
-De forma predeterminada, el componente de imagen utiliza el servlet de imagen adaptable del componente principal para ofrecer imágenes. [El servlet de imagen adaptable](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) es responsable del procesamiento y la transmisión de imágenes y los desarrolladores pueden aprovecharlo en sus [personalizaciones de los componentes principales](/help/developing/customizing.md).
+De forma predeterminada, el componente de imagen utiliza el servlet de imagen adaptable del componente principal para ofrecer imágenes. [El servlet de imagen adaptable ](https://github.com/adobe/aem-core-wcm-components/wiki/The-Adaptive-Image-Servlet) es responsable del procesamiento y la transmisión de imágenes y los desarrolladores pueden aprovecharlo en sus [personalizaciones de los componentes principales](/help/developing/customizing.md).
 
 ## Selección de representaciones {#rendition-selection}
 
@@ -39,7 +39,7 @@ El servlet de imagen adaptable seleccionará automáticamente la representación
 
 1. El servlet de imagen adaptable revisa todas las representaciones disponibles del recurso de imagen.
 1. Solo selecciona las que tienen el mismo MIME/tipo del recurso al que se hace referencia original.
-   * Por ejemplo, si el recurso original era un PNG, solo tendrá en cuenta las representaciones PNG.
+   * E.g. si el recurso original era un PNG, solo considerará las representaciones PNG.
 1. De esas representaciones, considera las dimensiones y las compara con el tamaño del contenedor en el que se debe mostrar la imagen.
 1. Si la representación es >= el tamaño del contenedor, se añade a una lista de candidatas.
 1. Si la representación es &lt; el tamaño del contenedor, no se tiene en cuenta.

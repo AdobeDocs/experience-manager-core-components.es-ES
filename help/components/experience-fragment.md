@@ -1,12 +1,12 @@
 ---
 title: Componente Fragmento de experiencia
 description: El componente Fragmento de experiencia permite al autor del contenido añadir una variación de fragmento de experiencia a una página.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 103f729a-084d-4b6a-a239-d8ef8902eb95
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '895'
+ht-degree: 94%
 
 ---
 
@@ -50,7 +50,7 @@ En este caso, el fragmento con la misma localización (idioma, modelo o versión
 Este comportamiento se limita a los componentes de fragmento de experiencia añadidos a las plantillas. Los componentes Fragmento de experiencia añadidos a páginas de contenido individuales serán las representaciones exactas de los fragmentos de experiencia configurados dentro del componente.
 
 * Para ver cómo trabajan las funciones de localización del componente Fragmento de experiencia, consulte [la sección siguiente](#example).
-* Para ver un ejemplo de cómo funcionan juntas las funciones de localización de los componentes principales, consulte la página [Funciones de localización de los componentes principales](/help/get-started/localization.md).
+* Para ver un ejemplo de cómo funcionan juntas las funciones de localización de los componentes principales, consulte la [página Funciones de localización de los componentes principales](/help/get-started/localization.md).
 
 ### Ejemplo {#example}
 
@@ -124,7 +124,7 @@ El cuadro de diálogo de configuración permite al autor del contenido seleccion
 
 Utilice el botón **Abrir cuadro de diálogo de selección** para abrir el selector de componentes y elegir qué variación del componente Fragmento de experiencia se agregará a la página de contenido.
 
-Si agrega el componente Fragmento de experiencia a una plantilla, tenga en cuenta que se localizará automáticamente siempre que los fragmentos de experiencias estén localizados, por lo que lo que se procese en la página puede variar del componente que seleccione explícitamente. [Consulte el ejemplo anterior](#example) para obtener más información.
+Si agrega el componente Fragmento de experiencia a una plantilla, tenga en cuenta que se localizará automáticamente siempre que los fragmentos de experiencias estén localizados, por lo que lo que se procesa en la página puede variar del componente que seleccione explícitamente. [Vea el ejemplo anterior](#example) para obtener más información.
 
 También puede definir un **ID**. Esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos](/help/developing/data-layer/overview.md).
 

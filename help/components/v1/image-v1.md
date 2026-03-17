@@ -1,12 +1,12 @@
 ---
 title: Componente de imagen (versión 1)
 description: El componente principal Imagen es un componente de imagen adaptable que permite la edición in situ.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1293'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1369'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ La siguiente tabla enumera la compatibilidad de la versión 1 del componente de 
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-El siguiente es un ejemplo tomado de [We.Retail](https://helpx.adobe.com/es/experience-manager/6-4/sites/developing/using/we-retail.html).
+El siguiente es un ejemplo tomado de [We.Retail](https://experienceleague.adobe.com/docs/experience-manager-64/developing/bestpractices/we-retail/we-retail.html?lang=es).
 
 ### Captura de pantalla {#screenshot}
 
@@ -211,7 +211,7 @@ En la pestaña **Características** puede definir qué opciones están disponibl
 
   ![](/help/assets/chlimage_1-19.png)
 
-  Seleccione la opción **Permitir carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
+  Seleccione la opción **Permitir la carga de recursos desde el sistema de archivos** para permitir que los autores de contenido carguen imágenes desde su equipo local. Para obligar a los autores de contenido a seleccionar solo recursos de AEM, anule la selección de esta opción.
 
 * Orientación
 
@@ -219,17 +219,17 @@ En la pestaña **Características** puede definir qué opciones están disponibl
 
    * **Rotar**: utilice esta opción para permitir que el autor del contenido utilice la opción **Rotar hacia la derecha**.
    * **Girar**
-Utilice esta opción para permitir que el autor del contenido utilice las opciones **Girar horizontalmente** y **Girar verticalmente**. 
+Utilice esta opción para permitir que el autor del contenido utilice las opciones **Girar horizontalmente** y **Girar verticalmente**.
 
   >[!CAUTION]
   >
-  >La opción **Voltear** está desactivada de forma predeterminada. Al activarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
+  >La opción **Voltear** está desactivada de forma predeterminada. Al habilitarla, se mostrarán los botones **Voltear verticalmente** y **Voltear horizontalmente** en el cuadro de diálogo de edición del componente de imagen, pero la función no es compatible actualmente con AEM y los cambios realizados con estas opciones no se mantendrán.
 
 * Recortar
 
   ![](/help/assets/chlimage_1-21.png)
 
-  Seleccione la opción **Permitir recorte** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
+  Seleccione la opción **Activar recortar** para permitir que el autor del contenido recorte la imagen en el componente en el cuadro de diálogo de edición.
    * Haga clic en **Añadir** para añadir una relación de aspecto de recorte predefinida.
    * Introduzca un nombre descriptivo que se mostrará en la lista desplegable **Iniciar recorte**.
    * Introduzca la relación numérica del aspecto.

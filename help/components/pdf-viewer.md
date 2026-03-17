@@ -1,11 +1,11 @@
 ---
 title: Componente Visualizador de PDF
 description: El componente Visualizador de PDF permite ver un documento PDF.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: deb635f5-2b73-4e7a-9838-3a941e39e898
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
+| v1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -79,10 +79,10 @@ El área de visualización se procesa en el explorador completo. Esto es más ad
    * Ajustar página
    * Ajustar anchura
 * **Pantalla completa**: cuando se habilita, el visualizador ocupará toda la altura y anchura de la ventana.
-* **Herramientas de anotación**: cuando está activada, las herramientas de anotación están disponibles.
-* **Panel izquierdo**: cuando está activada, se muestra el panel izquierdo.
-* **Descargar PDF**: cuando está activada, se muestra el botón de descarga.
-* **Imprimir PDF**: cuando está activada, se muestra el botón de impresión.
+* **Herramientas de anotación**: cuando está habilitada, las herramientas de anotación están disponibles.
+* **Panel izquierdo**: cuando está habilitada, se muestra el panel izquierdo.
+* **Descargar PDF**: cuando está habilitada, se muestra el botón de descarga.
+* **Imprimir PDF**: cuando está habilitada, se muestra el botón de impresión.
 * **Controles de página**: cambia el comportamiento de los controles de página.
    * Acoplar
    * Desacoplar
@@ -94,8 +94,8 @@ El área de visualización se procesa en el explorador completo. Esto es más ad
 ![La opción Personalizar contenedor de tamaño de pestaña del cuadro de diálogo de edición del componente visualizador de PDF](/help/assets/pdf-viewer-edit-customize-sized-container.png)
 
 * **Pantalla completa**: cuando se habilita, el visualizador ocupará toda la altura y anchura de la ventana.
-* **Descargar PDF**: cuando está activada, se muestra el botón de descarga.
-* **Imprimir PDF**: cuando está activada, se muestra el botón de impresión.
+* **Descargar PDF**: cuando está habilitada, se muestra el botón de descarga.
+* **Imprimir PDF**: cuando está habilitada, se muestra el botón de impresión.
 * **Controles de página**: cambia el comportamiento de los controles de página.
    * Acoplar
    * Desacoplar
@@ -106,8 +106,8 @@ Todas las páginas PDF procesadas en línea dentro de una página web. Esto es m
 
 ![La opción Personalizar contenedor de tamaño de pestaña del cuadro de diálogo de edición del componente visualizador de PDF](/help/assets/pdf-viewer-edit-customize-inline.png)
 
-* **Descargar PDF**: cuando está activada, se muestra el botón de descarga.
-* **Imprimir PDF**: cuando está activada, se muestra el botón de impresión.
+* **Descargar PDF**: cuando está habilitada, se muestra el botón de descarga.
+* **Imprimir PDF**: cuando está habilitada, se muestra el botón de impresión.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

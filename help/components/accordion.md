@@ -1,11 +1,11 @@
 ---
 title: Componente Acordeón
 description: El componente Acordeón de componentes principales permite crear una colección de paneles organizados en un acordeón de una página.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1deb570a-3d8d-409e-805f-8460c49cf9bb
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1152'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
+| v1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -43,7 +43,7 @@ Para experimentar el componente Acordeón, ver ejemplos de sus opciones de confi
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Acordeón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1_es).
+La documentación técnica más reciente sobre el componente Acordeón [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_accordion_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

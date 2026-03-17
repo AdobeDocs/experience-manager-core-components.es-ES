@@ -1,11 +1,11 @@
 ---
 title: Términos y condiciones del Componente principal de Formularios adaptables
 description: Usar o personalizar el Componente principal de los Términos y condiciones de Formularios adaptables.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
-source-git-commit: 2be68aa708131486f7d89f33952153a7a90c3d0a
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '3233'
+source-wordcount: '3266'
 ht-degree: 100%
 
 ---
@@ -186,7 +186,7 @@ Este componente reemplaza un texto de consentimiento con un vínculo o vínculos
 - **Vínculos**: especifique el vínculo y el texto para mostrar correspondiente que se utiliza en lugar del texto de consentimiento. Para añadir varios vínculos, haga clic en el botón **Añadir**.
 Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
    - **Vincular**: esta opción permite introducir la URL que se redirigirá cuando se seleccione una opción.
-   - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en un formulario adaptable.
+   - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
    - **Eliminar**: pulse o haga clic para eliminar la opción de un botón de radio.
    - **Reorganizar**: pulse o haga clic y arrastre para reorganizar el orden de las opciones.
 
@@ -251,6 +251,6 @@ Puede personalizar fácilmente el [Componente de las casillas de verificación](
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}

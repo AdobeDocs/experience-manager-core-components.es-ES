@@ -1,17 +1,17 @@
 ---
 title: Componente Fragmento de contenido
 description: El componente principal Fragmento de contenido permite ver un fragmento de contenido.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 551ff2a1-f8db-490c-84a3-4255b364fc83
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '693'
 ht-degree: 100%
 
 ---
 
 
-# Componente Fragmento de contenido {#content-fragment-component}
+# Componente Fragmento de contenido{#content-fragment-component}
 
 El componente principal Fragmento de contenido permite ver un [fragmento de contenido](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/content-fragments/content-fragments.html?lang=es).
 
@@ -37,7 +37,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |---|---|---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
+| v1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir q
 
 * **Párrafos**
 
-   * **Todo**: mostrar todos los párrafos
+   * **Todos**: mostrar todos los párrafos
    * **Intervalo**
 
       * Especifique los intervalos de párrafos que se deben mostrar, separados por punto y coma

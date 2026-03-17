@@ -1,12 +1,12 @@
 ---
 title: Componente Navegación
 description: El componente Navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9154f2a3-3d1e-4865-a413-298748fa66d3
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1556'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ El componente Navegación permite a los usuarios navegar fácilmente por una est
 
 El componente de navegación enumera un árbol de páginas para que los usuarios de un sitio puedan navegar fácilmente por su estructura.
 
-El componente de navegación puede detectar automáticamente la estructura globalizada del sitio y [adaptarse automáticamente a una página localizada.](#localized-site-structure) Además, puede admitir cualquier estructura de sitio arbitraria utilizando [páginas de redireccionamiento de sombras](#shadow-structure) para representar una estructura distinta a la del contenido principal.
+El componente de navegación puede detectar automáticamente la estructura globalizada del sitio y [adaptarse automáticamente a una página localizada.](#localized-site-structure) Además, puede admitir cualquier estructura de sitio arbitraria utilizando [páginas de redireccionamiento de sombras](#shadow-structure) para representar otra estructura distinta a la del contenido principal.
 
 El [cuadro de diálogo de edición](#edit-dialog) permite que el autor del contenido defina la página raíz de navegación junto con la profundidad de navegación. El [cuadro de diálogo de diseño](#design-dialog) permite que el autor de la plantilla defina los valores predeterminados para la raíz y profundidad de navegación.
 
@@ -157,7 +157,7 @@ En el cuadro de diálogo de edición, el autor del contenido puede definir la p�
 
 En la pestaña **Accesibilidad**, se pueden configurar valores para las etiquetas de [accesibilidad ARIA](https://www.w3.org/WAI/standards-guidelines/aria/) del componente.
 
-* **Etiqueta**: valor de un atributo de etiqueta ARIA para el componente
+* **Etiqueta**: Valor de un atributo de etiqueta ARIA para el componente
 
 ### Pestaña Estilos {#styles-tab-edit}
 

@@ -1,13 +1,13 @@
 ---
 title: Componente Navegación (v1)
 description: El componente Navegación permite a los usuarios navegar fácilmente por una estructura de sitio globalizada.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0b7de79a-e0c7-4cf9-b5a9-c78cbc3ecd2f
-index: n
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '1424'
-ht-degree: 100%
+index: false
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1435'
+ht-degree: 97%
 
 ---
 
@@ -20,7 +20,7 @@ El componente Navegación permite a los usuarios navegar fácilmente por una est
 
 El componente de navegación enumera un árbol de páginas para que los usuarios de un sitio puedan navegar fácilmente por su estructura.
 
-El componente de navegación puede detectar automáticamente la estructura globalizada del sitio y [adaptarse automáticamente a una página localizada.](#localized-site-structure) Además, puede admitir cualquier estructura de sitio arbitraria utilizando [páginas de redireccionamiento de sombras](#shadow-structure) para representar una estructura distinta a la del contenido principal.
+El componente de navegación puede detectar automáticamente la estructura globalizada del sitio y [adaptarse automáticamente a una página localizada.](#localized-site-structure) Además, puede admitir cualquier estructura de sitio arbitraria utilizando [páginas de redireccionamiento de sombras](#shadow-structure) para representar otra estructura distinta a la del contenido principal.
 
 El [cuadro de diálogo de edición](#edit-dialog) permite que el autor del contenido defina la página raíz de navegación junto con la profundidad de navegación. El [cuadro de diálogo de diseño](#design-dialog) permite que el autor de la plantilla defina los valores predeterminados para la raíz y profundidad de navegación.
 

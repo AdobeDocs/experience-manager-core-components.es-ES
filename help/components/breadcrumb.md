@@ -1,11 +1,11 @@
 ---
 title: Componente Ruta de exploración
 description: El componente principal Ruta de exploración es un componente de navegación que crea una ruta de exploración de vínculos en función de la ubicación de la página en la jerarquía de contenido.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 19d65b9d-a407-4f50-9c55-8de0f12222ed
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '807'
 ht-degree: 100%
 
 ---
@@ -94,11 +94,11 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir cuále
 * **Nivel de inicio de navegación**: define el valor predeterminado para el lugar en la jerarquía en el que el componente Ruta de exploración debe comenzar a avanzar hacia abajo hasta la página actual cuando se agrega el componente Ruta de exploración a una página.
 * **Mostrar elementos de navegación ocultos**: define el valor predeterminado de la opción **Mostrar elementos de navegación ocultos** cuando se agrega el componente Ruta de exploración a una página.
 
-   * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
+   * No habilita ni deshabilita la opción para el autor. Solo establece el valor predeterminado.
 
 * **Ocultar página actual**: define el valor predeterminado de la opción **Ocultar página actual** cuando se agrega el componente Ruta de exploración a una página.
 
-   * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
+   * No habilita ni deshabilita la opción para el autor. Solo establece el valor predeterminado.
 
 * **Deshabilitar sombreado**: define el valor predeterminado de la opción **Deshabilitar sombreado** cuando se agrega el componente de ruta de exploración a una página.
 

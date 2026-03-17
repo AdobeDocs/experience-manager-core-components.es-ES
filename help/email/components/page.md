@@ -1,12 +1,12 @@
 ---
 title: Componente Página de correo electrónico
 description: El componente Página de correo electrónico
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 17fd0f5e-2b85-41a1-abaf-8ad190a5341a
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '817'
 ht-degree: 100%
 
 ---
@@ -31,13 +31,13 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | - | - |
+| v1 | Compatible | - | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales de correo electrónico, consulte el documento [Versiones de los componentes principales de correo electrónico](/help/email/versions.md)
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente de página [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_page_v1_es)
+La documentación técnica más reciente acerca del componente de página [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_page_v1)
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
@@ -88,14 +88,14 @@ Con la ventana Diseño de página, puede definir las bibliotecas de cliente que 
    * Las categorías definidas aquí que también están presentes en el campo **Bibliotecas de cliente** tendrán JavaScript cargado en el encabezado de la página en lugar de en el final del cuerpo.
    * No se cargará CSS a menos que la categoría también esté presente en el campo **Bibliotecas de cliente**.
 * **Cargar bibliotecas de JavaScript de forma asíncrona**: si está habilitada, las bibliotecas de JavaScript personalizadas se cargarán asincrónicamente.
-* **Biblioteca cliente de recursos web**: categoría de la biblioteca de cliente que se usa para publicar recursos web, como los iconos favoritos.
+* **Biblioteca de cliente de recursos web**: categoría de la biblioteca de cliente que se usa para publicar recursos web, como los iconos favoritos.
 * **Saltar al selector de elementos de contenido principal**: se utiliza como función de accesibilidad para saltar directamente al contenido principal de la página
 
 Las bibliotecas se pueden configurar para los campos **Bibliotecas de cliente** y **Encabezado de página de las bibliotecas de cliente de JavaScript** de la siguiente manera:
 
 * Para agregar un nuevo campo, toque o haga clic en el botón **Añadir** situado debajo de los campos.
 * Para quitar un campo, toque o haga clic el icono de la papelera que hay junto al campo que se va a eliminar.
-* Para reorganizar el orden de carga, arrastre el controlador situado junto al campo que desee mover.
+* Para reorganizar el orden de carga, haga clic o arrastre el controlador situado junto al campo que desee mover.
 
 Para obtener más información acerca del uso de bibliotecas del lado del cliente, consulte [Uso de bibliotecas del lado del cliente.](https://helpx.adobe.com/es/experience-manager/6-5/sites/developing/using/clientlibs.html)
 

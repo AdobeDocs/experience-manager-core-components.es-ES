@@ -1,12 +1,12 @@
 ---
 title: Componente Lista (versión 1)
 description: El componente principal Lista permite crear fácilmente listas dinámicas y estáticas.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '866'
 ht-degree: 100%
 
 ---
@@ -256,7 +256,7 @@ En la pestaña **Configuración de elementos**, se pueden definir las opciones d
 ![](/help/assets/chlimage_1-46.png)
 
 * **Elementos de vínculo**: habilitar la opción de elementos de vínculo en el [cuadro de diálogo de edición](#edit-dialog)
-* **Mostrar descripciones**: activar la opción de mostrar descripciones en el [cuadro de diálogo de edición](#edit-dialog)
+* **Mostrar descripciones**: habilitar la opción de mostrar descripciones en el [cuadro de diálogo de edición](#edit-dialog)
 * **Mostrar fecha**: habilitar la opción de fecha en el [cuadro de diálogo de edición](#edit-dialog)
 
 ## Detalles técnicos {#technical-details}

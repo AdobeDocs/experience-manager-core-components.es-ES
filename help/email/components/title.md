@@ -1,12 +1,12 @@
 ---
 title: Componente Título de correo electrónico
 description: El componente Título de correo electrónico es un componente de encabezado de sección de los correos electrónicos que incluye la edición in situ.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f65b6973-bb36-406f-bbea-f85a23f5340b
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '606'
 ht-degree: 100%
 
 ---
@@ -33,13 +33,13 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | - | - |
+| v1 | Compatible | - | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de componentes principales de correo electrónico](/help/versions.md).
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Título [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_email_title_v1_es).
+La documentación técnica más reciente sobre el componente Título [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_email_title_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
@@ -52,7 +52,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir el text
 * **Tipo / Tamaño**: define el nivel de encabezado del título
 * **Vínculo**: define el contenido al que se vinculará el título. Puede ser una ruta a una página de contenido, una URL externa o un anclaje de página.
    * Haga clic en el icono de la campaña para abrir el cuadro de diálogo [Seleccione la variable Adobe Campaign](/help/email/campaign-variables.md) para insertar contenido dinámico desde Adobe Campaign.
-* **ID**: esta opción permite controlar el identificador único del componente en HTML.
+* **ID**: esta opción permite controlar el identificador único del componente en el HTML.
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al CSS.

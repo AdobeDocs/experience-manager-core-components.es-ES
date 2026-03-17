@@ -1,11 +1,11 @@
 ---
 title: Rutas de éxito con los componentes principales
 description: Implementar el proyecto con los componentes principales con éxito
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 1ea8cd1c-8435-4ded-82dc-5a7896c53e0c
-source-git-commit: b1d38310a3f05e2dd2a68de1574a278bac2c78e7
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '592'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ Haga referencia a la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_li
 
 ### Uso del kit de IU para Adobe XD {#ui-kit}
 
-Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el kit de interfaz de usuario para Adobe XD, [que se puede descargar aquí,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=es) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
+Tan pronto como exista una necesidad comprobada de un componente personalizado, aproveche el kit de interfaz de usuario para Adobe XD, [que se puede descargar aquí,](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) para que los diseñadores puedan empezar a crear los modelos de alambres y los diseños con los componentes principales como componentes básicos.
 
 ## No pase por alto funciones muy útiles {#powerful-features}
 
@@ -57,6 +57,6 @@ Junto con el exportador JSON actualizado, los fragmentos de contenido estructura
 
 Si un creador desea reutilizar partes (un fragmento de una experiencia) de una página. Sin [fragmentos de experiencias](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/experience-fragments.html?lang=es), el creador tendría que copiar y pegar ese fragmento. Crear y mantener estas experiencias de copia y pegado es un proceso laborioso y es posible que el usuario cometa errores. Los fragmentos de experiencias eliminan la necesidad de copiar y pegar.
 
-### El componente Insertar {#embed-component}
+### El componente Incrustar {#embed-component}
 
-[El componente Insertar](/help/components/embed.md) no solo permite la inclusión sencilla de recursos externos como contenido de vídeo de YouTube, sino que también se puede ampliar para que quepa contenido específico para las necesidades de un proyecto.
+[El componente Incrustar](/help/components/embed.md) no solo permite la inclusión sencilla de recursos externos como contenido de vídeo de YouTube, sino que también se puede ampliar para que quepa contenido específico para las necesidades de un proyecto.

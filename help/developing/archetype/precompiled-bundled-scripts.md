@@ -2,12 +2,12 @@
 title: Scripts agrupados precompilados
 description: Obtenga información sobre cómo implementar scripts de componentes con paquetes OSGi en Adobe Experience Manager Cloud Service.
 feature: Core Components, AEM Project Archetype
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 3edc388f-01b2-45cc-bd56-f22e5a5a8624
-source-git-commit: 554be9539428cd75462a38fc45f1bece04baf066
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 93%
 
 ---
 
@@ -35,10 +35,10 @@ Se puede agregar [`bnd-maven-plugin`](https://github.com/bndtools/bnd/tree/maste
 
 El marco OSGi proporciona una gran opción para definir [Requisitos y capacidades](https://docs.osgi.org/specification/osgi.core/7.0.0/framework.module.html#framework.module.dependencies) para expresar contratos entre diversos componentes. Se describen mediante metadatos y se aplican durante la ejecución. Los scripts agrupados utilizan este mecanismo para expresar tanto sus relaciones de herencia (`sling:resourceSuperType`) como su delegación (incluidos otros tipos de recursos en el proceso de renderización).
 
-El complemento `bnd` del proyecto [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) puede utilizarse para extraer los requisitos y las capacidades correspondientes a los scripts que ofrece el paquete de contenido [`ui.apps`.Paquete de contenido ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=es#code-packages-%2F-osgi-bundles)
+El complemento `bnd` del proyecto [scriptingbundle-maven-plugin](https://sling.apache.org/components/scriptingbundle-maven-plugin/bnd.html) se puede usar para extraer los requisitos y las capacidades correspondientes a los scripts proporcionados por [`ui.apps`.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/implementing/developing/aem-project-content-package-structure.html?lang=es#code-packages-%2F-osgi-bundles) paquete de contenido
 
 ## Compatibilidad con archivos de proyectos AEM {#support}
 
-A partir de la versión 31, el [tipo de archivos de proyectos AEM](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=es) se puede utilizar para configurar correctamente un proyecto de AEM as a Cloud Service para utilizar scripts empaquetados precompilados. 
+A partir de la versión 31, el [tipo de archivos de proyectos AEM](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/developing/archetype/using.html?lang=es) se puede utilizar para configurar correctamente un proyecto de AEM as a Cloud Service para utilizar scripts empaquetados precompilados.
 
 Además, el tipo de archivos de proyectos AEM configura el [complemento Maven del analizador de compilaciones de SDK de AEM as a Cloud Service](/help/developing/archetype/build-analyzer-maven-plugin.md) para validar tanto las dependencias de nivel de paquete Java como las de nivel de script.

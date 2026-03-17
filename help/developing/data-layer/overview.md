@@ -2,12 +2,12 @@
 title: Uso de la capa de datos del cliente de Adobe con los componentes principales
 description: Uso de la capa de datos del cliente de Adobe con los componentes principales
 feature: Core Components, Adobe Client Data Layer
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 55c984d3-deb7-4eda-a81d-7768791d2b46
-source-git-commit: 8f0ece0eed42f72e919535c6da6e729e54d1d339
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 96%
+source-wordcount: '1024'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ Al igual que los componentes principales, el código de la capa de datos del cli
 
 ## Instalación y activación {#installation-activation}
 
-A partir de la versión 2.9.0 de los componentes principales, la capa de datos se distribuye con los componentes principales como una biblioteca de cliente de AEM y no es necesario realizar ninguna instalación. Todos los proyectos generados por el [tipo de archivo del proyecto de AEM versión 24+](/help/developing/archetype/overview.md) incluyen una capa de datos activada de forma predeterminada.
+A partir de la versión 2.9.0 de los componentes principales, la capa de datos se distribuye con los componentes principales como una biblioteca de cliente de AEM y no es necesario realizar ninguna instalación. Todos los proyectos generados por el [Arquetipo de proyecto de AEM v. 24+](/help/developing/archetype/overview.md) incluye una capa de datos activada de forma predeterminada.
 
 Para activar manualmente la capa de datos debe crear una [configuración de reconocimiento de contexto](/help/developing/context-aware-configs.md) para ello:
 
@@ -313,7 +313,7 @@ window.adobeDataLayer.push(function (dl) {
 
 ## Tutorial
 
-¿Quiere explorar la capa de datos y los componentes principales con más detalle? [Consulte este tutorial](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=es).
+¿Quiere explorar la capa de datos y los componentes principales con más detalle? [Consulte este tutorial práctico ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/integrations/adobe-client-data-layer/data-layer-overview.html?lang=es).
 
 >[!TIP]
 >

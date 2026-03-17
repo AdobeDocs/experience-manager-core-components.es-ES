@@ -1,12 +1,12 @@
 ---
 title: Componente Teaser
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1101'
+ht-degree: 93%
 
 ---
 
@@ -36,7 +36,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 ## Soporte de recursos remotos {#remote-assets}
 
-El componente de teaser (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurado,](/help/developing/remote-assets.md) puede seleccionar recursos desde un servicio remoto para su componente teaser.
+El componente Teaser (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurado, ](/help/developing/remote-assets.md) puede seleccionar recursos de un servicio remoto para el componente teaser.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -56,10 +56,10 @@ El autor del contenido puede utilizar el cuadro de diálogo de configuración pa
 
 ![Pestaña de vínculos del cuadro de diálogo Editar del componente Teaser](/help/assets/teaser-edit-links.png)
 
-El título, la descripción y la imagen del teaser se pueden heredar de la página vinculada o de la página vinculada en la primera llamada a la acción. Si no se especifica ni un vínculo ni una llamada a la acción, el título, la descripción y la imagen se heredarán de la página actual.
+El título, la descripción y la imagen del teaser se pueden heredar de la página vinculada o de la página vinculada en la primera call to action. Si no se especifica ningún vínculo ni una call to action, el título, la descripción y la imagen se heredarán de la página actual.
 
 * **Vínculo**: este archivo establece un vínculo a una página de contenido, a una URL externa o a un anclaje de página.
-* **Abrir en ficha nueva**: si está activado, el vínculo se abre en una nueva pestaña del explorador.
+* **Abrir en ficha nueva**: si está habilitado, el vínculo se abre en una nueva pestaña del explorador.
 * **Llamada a acción**: esta opción permite la vinculación a varios destinos.
    * La página vinculada en la primera llamada a la acción se utiliza al heredar el título, la descripción o la imagen del teaser.
 

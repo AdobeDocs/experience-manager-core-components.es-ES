@@ -1,12 +1,12 @@
 ---
 title: Componente Fragmento de contenido de correo electrónico
 description: El componente Fragmento de contenido de correo electrónico permite la visualización de un fragmento de contenido en el contenido.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 9bc6b730-0d2a-4e5b-891c-d2f67f600bcc
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '645'
 ht-degree: 100%
 
 ---
@@ -32,13 +32,13 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | - | - |
+| v1 | Compatible | - | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales de correo electrónico, consulte el documento [Versiones de los componentes principales de correo electrónico.](/help/email/versions.md)
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Fragmento de contenido de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_cf_v1_es)
+La documentación técnica más reciente acerca del componente Fragmento de contenido de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_cf_v1)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
@@ -59,7 +59,7 @@ El cuadro de diálogo de configuración permite al autor del contenido definir q
    * **Elemento de texto único**: permite la selección de un elemento de texto multilínea y activa las opciones de control de párrafo
 * **Variación**: qué variación del fragmento de contenido se va a utilizar (el valor predeterminado es **Principal**)
 
-* **ID**: esta opción permite controlar el identificador único del componente en el HTML.
+* **ID**: esta opción permite controlar el identificador único del componente en HTML.
    * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando el contenido resultante.
    * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
    * Cambiar el ID puede afectar al CSS.

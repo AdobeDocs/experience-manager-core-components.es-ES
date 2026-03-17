@@ -1,12 +1,12 @@
 ---
 title: Compatibilidad con AMP para Componentes principales
 description: 'Los componentes principales admiten AMP: Accelerated Mobile Pages'
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: 1fd9b6b5-0e4d-48c7-8faa-42e0d4a6bbd0
-source-git-commit: 2ac16b15718128feefbe903e92f276b16fe96f69
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '578'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ Accelerated Mobile Pages o AMP es un marco de código abierto diseñado original
 
 ## AMP en los componentes principales {#amp-in-core-components}
 
-La compatibilidad con AMP en los componentes principales es [totalmente configurable.](#enabling-amp) Las versiones AMP de las páginas se pueden servir exclusivamente, junto con las versiones HTML estándar, o no.
+La compatibilidad con AMP en los componentes principales es [totalmente configurable.](#enabling-amp) Las versiones AMP de las páginas se pueden servir exclusivamente, junto con las versiones estándar de HTML, o no.
 
 Los componentes principales utilizan `amp` como selector de Sling para procesar una página de AMP. Por ejemplo, `example.html` renderizaría la página normal y `example.amp.html` sería la versión de AMP.
 

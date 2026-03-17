@@ -1,11 +1,11 @@
 ---
 title: Componente Carrusel
 description: El componente Carrusel permite al autor del contenido presentar el contenido en un carrusel giratorio.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 3331214c-a05c-47e1-b54c-fbfd1045bd60
-source-git-commit: dd30def59a8f037864da875ef4c831b11f766e57
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1423'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| Versión 1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
+| v1 | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | Compatible | Compatible |
 
 Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
 
@@ -101,7 +101,7 @@ En la pestaña **Propiedades**, el autor del contenido puede configurar la trans
 
 >[!NOTE]
 >
->Los controles avanzados de diapositivas no están activados en el modo **Editar**. Utilice el modo [**Vista previa**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#preview-mode) o la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#view-as-published)** para interactuar con el carrusel como lo haría un lector del contenido publicado.
+>Los controles avanzados de diapositivas no están habilitados en el modo **Editar**. Utilice el modo [**Vista previa**](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#preview-mode) o la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#view-as-published)** para interactuar con el carrusel como lo haría un lector del contenido publicado.
 >
 >La función de avance automático no está habilitada cuando se encuentra en modo **Editar**. Utilice la opción **[Ver como publicado](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/editing-content.html?lang=es#view-as-published)** para ver la función de avance automático como lo haría un lector del contenido publicado.
 
@@ -145,7 +145,7 @@ La pestaña **Propiedades** se utiliza para definir la configuración predetermi
 
 ![Cuadro de diálogo de diseño del componente Carrusel](/help/assets/carousel-design.png)
 
-* **Diapositivas de transición automática**: define si, de forma predeterminada, la opción para avanzar automáticamente el carrusel a la siguiente diapositiva está activada cuando el autor de contenido añade el componente de carrusel a una página.
+* **Diapositivas de transición automática**: define si, de forma predeterminada, la opción para avanzar automáticamente el carrusel a la siguiente diapositiva está habilitada cuando el autor de contenido añade el componente de carrusel a una página.
 * **Prefijar elementos de control**: si está activada, los elementos de control se colocan delante de los elementos del carrusel para mejorar la accesibilidad.
 
 ### Pestaña Componentes permitidos {#allowed-components-tab}

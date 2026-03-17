@@ -1,12 +1,12 @@
 ---
 title: Personalización de componentes principales
 description: Los Componentes principales implementan varios patrones que facilitan la personalización, desde un estilo sencillo hasta la reutilización avanzada de funcionalidades.
-role: Architect, Developer, Admin
+role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
-source-git-commit: 5994133947ff697f7c866fe61598c58e37e77008
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '1146'
+ht-degree: 96%
 
 ---
 
@@ -43,7 +43,7 @@ Puede que quiera personalizar las opciones de configuración disponibles en un c
 
 Cada cuadro de diálogo tiene una estructura de nodos coherente. Se recomienda que esta estructura se duplique en un componente heredado para que la [Combinación de recursos Sling](https://helpx.adobe.com/es/experience-manager/6-4/sites/developing/using/sling-resource-merger.html) y [Ocultar condiciones](https://experienceleague.adobe.com/docs/experience-manager-65/developing/components/hide-conditions.html?lang=es) se puedan usar para ocultar, reemplazar o reordenar secciones del cuadro de diálogo original. La estructura que se va a replicar se define como cualquier elemento hasta el nivel de nodo de elemento de pestaña.
 
-Para ser totalmente compatible con los cambios realizados en un cuadro de diálogo en su versión actual, es muy importante que las estructuras por debajo del nivel del elemento de pestaña no se toquen (oculten, agreguen, sustituyan, reordenen, etc.). En lugar de eso, se debe ocultar un elemento de pestaña del elemento principal mediante la propiedad `sling:hideResource` (consulte [Propiedades de la combinación de recursos Sling](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=es)) y se deben agregar nuevos elementos de pestaña que contengan los campos de configuración personalizados. `sling:orderBefore` se puede utilizar para reordenar los elementos de la pestaña si es necesario.
+Para ser totalmente compatible con los cambios realizados en un cuadro de diálogo en su versión actual, es muy importante que las estructuras por debajo del nivel del elemento de pestaña no se toquen (oculten, agreguen, sustituyan, reordenen, etc.). En su lugar, se debe ocultar un elemento de pestaña del elemento principal mediante la propiedad `sling:hideResource` (consulte [Propiedades de la fusión de recursos Sling](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/sling-resource-merger.html?lang=es)) y se deben agregar nuevos elementos de pestaña que contengan los campos de configuración personalizados. `sling:orderBefore` se puede utilizar para reordenar los elementos de la pestaña si es necesario.
 
 El siguiente cuadro de diálogo muestra la estructura de diálogo recomendada, así como cómo ocultar y reemplazar una pestaña heredada, tal como se describe anteriormente:
 

@@ -1,12 +1,12 @@
 ---
 title: Introducción a los componentes principales de correo electrónico
 description: Cree contenido de correo electrónico atractivo con la flexibilidad de los componentes principales de correo electrónico y envíelo con la potencia de Adobe Campaign.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: eb77567dc32cccb81a9fc131493d11fb55b7e93b
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Cree contenido de correo electrónico atractivo con la flexibilidad de los compo
 
 ## Información general {#overview}
 
-Los componentes principales de correo electrónico se crean sobre la misma base sólida de los componentes principales. Permiten generar contenidos de correo electrónico de forma sencilla y flexible, arrastrando y soltando, que luego pueden entregarse a la audiencia gracias a la potencia de Adobe Campaign.
+Los componentes principales de correo electrónico se crean sobre la misma base sólida de los componentes principales. Permiten generar contenidos de correo electrónico de forma sencilla y flexible, arrastrando y soltando, que luego pueden entregarse al público gracias a la potencia de Adobe Campaign.
 
 ## Ventajas {#benefits}
 
@@ -37,11 +37,11 @@ Los correos electrónicos forman parte de la experiencia de marca y del recorrid
 * Puede crear contenido de correo electrónico en cualquier parte bajo `/content`.
 * Los componentes principales de correo electrónico son de [código abierto.](https://github.com/adobe/aem-core-email-components)
 
-## Requisitos  {#requirements}
+## Requisitos {#requirements}
 
 Los componentes principales de correo electrónico tienen los siguientes requisitos:
 
-| AEM | Adobe Campaign | Componentes principales  |
+| AEM | Adobe Campaign | Componentes principales |
 |---|---|---|
 | AEM 6.5.14.0+<br>Local o AMS | Adobe Campaign Classic<br>Adobe Campaign Standard | [Versión 2.21.2](/help/versions.md)+ |
 

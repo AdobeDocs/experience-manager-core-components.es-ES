@@ -1,12 +1,12 @@
 ---
 title: Componente Ruta de exploración (versión 1)
 description: El componente principal Ruta de exploración es un componente de navegación que crea una ruta de exploración de vínculos en función de la ubicación de la página en la jerarquía de contenido.
-index: n
-role: Architect, Developer, Admin, User
+index: false
+role: Developer, Admin, User
 exl-id: 4845e649-033a-43a8-b5ee-892a3f2a8b98
-source-git-commit: 92a3ec273a5be6751c1503835b9c2e5cbd61bb9e
-workflow-type: ht
-source-wordcount: '0'
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+workflow-type: tm+mt
+source-wordcount: '559'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ La siguiente tabla enumera la compatibilidad de la versión 1 del componente Rut
 >[!CAUTION]
 >
 >Este documento describe la versión 1 del componente Ruta de exploración.
->>Para obtener más información sobre la versión actual del componente Ruta de exploración, consulte el documento [Componente Ruta de exploración](/help/components/breadcrumb.md).
+>Para obtener más información sobre la versión actual del componente Ruta de exploración, consulte el documento [Componente Ruta de exploración](/help/components/breadcrumb.md).
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -110,11 +110,11 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir cuále
 * **Navegación: nivel inicial**: define el valor predeterminado para el lugar en la jerarquía en el que el componente Ruta de exploración debe comenzar a avanzar hasta la página actual cuando se agrega el componente Ruta de exploración a una página.
 * **Mostrar ocultos**: define el valor predeterminado de la opción **Mostrar ocultas** cuando se agrega el componente de la ruta de exploración a una página.
 
-   * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
+   * No habilita ni deshabilita la opción para el autor. Solo establece el valor predeterminado.
 
 * **Ocultar actual**: define el valor predeterminado de la opción **Ocultar actual** cuando se agrega el componente Ruta de exploración a una página.
 
-   * No activa ni desactiva la opción para el autor. Solo establece el valor predeterminado.
+   * No habilita ni deshabilita la opción para el autor. Solo establece el valor predeterminado.
 
 ## Detalles técnicos {#technical-details}
 

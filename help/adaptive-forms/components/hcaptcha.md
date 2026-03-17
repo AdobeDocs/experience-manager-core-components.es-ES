@@ -1,14 +1,14 @@
 ---
 title: hCaptcha en AEM Adaptive Forms
-description: Mejore la seguridad sin esfuerzo con el servicio hCaptcha®. Guía paso a paso en el interior
+description: Mejore la seguridad de los formularios con el servicio hCaptcha&reg; sin esfuerzo. Guía paso a paso en el interior
 feature-set: Experience Manager Sites, Experience Manager Forms
 feature: Adaptive Forms, Core Components
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: eecb38d5-711e-4dc5-bc19-498e003f37e7
-source-git-commit: 6725784bd4c94d433c91d6bd65d14d03cbefd954
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+workflow-type: tm+mt
+source-wordcount: '730'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ El componente hCaptcha de formularios adaptables se publicó en mayo de 2024 com
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| Versión 1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible | Compatible |
+| v1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior\|Compatible\|Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
@@ -80,18 +80,18 @@ Puede personalizar fácilmente las propiedades del componente hCaptcha en su cua
 
 **Más información** acerca de otros **Componentes Captcha** y sus servicios, como:
 
-- [Uso de hCaptcha en un formulario adaptable para componentes principales](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
+- [Uso de Chcaptcha en un formulario adaptable para componentes principales](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/integrate-adaptive-forms-hcaptcha-core-components)
 
-- [Uso de hCaptcha en un formulario adaptable para componentes de base](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
+- [Utilizar Chcaptcha en un formulario adaptable para componentes de base](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-hcaptcha)
 
-- [Uso de Turnstile CAPTCHA en un formulario adaptable para componentes de base](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
+- [Usar CAPTCHA de torniquete en un formulario adaptable para componentes de base](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-foundation-components/add-components-to-an-adaptive-form/integrate-adaptive-forms-turnstile)
 
-- [Uso de Google reCAPTCHA en un formulario adaptable para componentes de base](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
+- [Usar Google reCAPTCHA en un formulario adaptable para componentes de base](https://experienceleague.adobe.com/es/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/captcha-adaptive-forms-core-components)
 
 ## Artículos relacionados {#related-articles}
 
 {{more-like-this}}
 
-## Consulte también {#see-also}
+## Ver también {#see-also}
 
 {{see-also}}

@@ -1,13 +1,13 @@
 ---
 title: Componente Imagen de correo electrónico
 description: El componente Imagen de correo electrónico es un componente de imagen adaptable que incluye la edición in situ.
-role: Architect, Developer, Admin, User
+role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
-source-git-commit: 8952f6c574fe1e21ff35e95bc0af6433f0363e77
+source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 98%
+source-wordcount: '1685'
+ht-degree: 96%
 
 ---
 
@@ -31,7 +31,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |---|---|---|---|
-| Versión 1 | Compatible | - | - |
+| v1 | Compatible | - | - |
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales de correo electrónico](/help/email/versions.md).
 
@@ -47,9 +47,9 @@ Además, el componente Imagen de correo electrónico admite la carga diferida pa
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
-El componente Imagen de correo electrónico es compatible con activos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
+El componente Imagen de correo electrónico admite [recursos de Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas características permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
-Las experiencias de correo electrónico creadas con los componentes principales de correo electrónico pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, con tecnología de IA de Adobe, sólidas y de alto rendimiento en varias plataformas.
+Adobe AI Las experiencias de correo electrónico creadas con los componentes principales de correo electrónico pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
 ## Compatibilidad con SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Imagen de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_es)
+La documentación técnica más reciente acerca del componente Imagen de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
@@ -81,7 +81,7 @@ El componente Imagen de correo electrónico ofrece un cuadro de diálogo de conf
 
 * **Heredar imagen destacada de la página**: esta opción utiliza la [imagen destacada de la página vinculada](page.md) o la imagen destacada de la página actual si la imagen no está vinculada.
 
-* **Texto alternativo para fines de accesibilidad**: este campo le permite definir una descripción de la imagen para los usuarios con deficiencias visuales.
+* **Texto alternativo para fines de accesibilidad**: este campo le permite definir una descripción de la imagen para los usuarios con discapacidades visuales.
 
    * **Heredar texto alternativo de la página**: esta opción utiliza la descripción alternativa del valor de recurso vinculado de los `dc:description` metadatos en DAM o de la página actual si no hay ningún recurso vinculado.
 
