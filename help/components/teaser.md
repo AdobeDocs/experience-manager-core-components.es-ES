@@ -36,7 +36,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 ## Soporte de recursos remotos {#remote-assets}
 
-El componente Teaser (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurado, ](/help/developing/remote-assets.md) puede seleccionar recursos de un servicio remoto para el componente teaser.
+El componente Teaser (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurado, &#x200B;](/help/developing/remote-assets.md) puede seleccionar recursos de un servicio remoto para el componente teaser.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
