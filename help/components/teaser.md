@@ -3,9 +3,9 @@ title: Componente Teaser
 description: El componente Teaser puede mostrar una imagen, un título, texto enriquecido y, opcionalmente, vincular a contenido adicional.
 role: Developer, Admin, User
 exl-id: ec75e168-6f3b-4dff-8df6-06ca7dc18688
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+source-git-commit: ff337aee45ea3d39f9669a8fa46accaed854532a
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1098'
 ht-degree: 93%
 
 ---
@@ -36,7 +36,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 ## Soporte de recursos remotos {#remote-assets}
 
-El componente Teaser (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurado, &#x200B;](/help/developing/remote-assets.md) puede seleccionar recursos de un servicio remoto para el componente teaser.
+El componente Teaser (a partir de la [versión 2.23.2](/help/versions.md)) admite recursos remotos. [Una vez configurado, ](/help/developing/remote-assets.md) puede seleccionar recursos de un servicio remoto para el componente teaser.
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
@@ -105,7 +105,7 @@ Los estilos deben configurarse para este componente en el [cuadro de diálogo de
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
-El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image.md). Por lo tanto, el [cuadro de diálogo de edición]&#x200B;(image.md#edit-dialog) del componente de imagen está disponible para que el autor del contenido manipule la imagen de teaser.
+El componente Teaser delega el procesamiento de imágenes en el [Componente de imagen](image.md). Por lo tanto, el [cuadro de diálogo de edición](image.md#edit-dialog) del componente de imagen está disponible para que el autor del contenido manipule la imagen de Teaser.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
