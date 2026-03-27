@@ -1,10 +1,22 @@
 ---
-source-git-commit: 9af86dedd6ff401bc226431bdd1f89523bba0715
+source-git-commit: d1ab5eb1b3de07ccdf095b03f7c2e760dfc3d413
 workflow-type: tm+mt
-source-wordcount: '7'
-ht-degree: 0%
+source-wordcount: '156'
+ht-degree: 4%
 
 ---
-# ARCHIVADO
+# Documentación de componentes principales de Adobe Experience Manager
 
-Este repositorio se ha migrado a <https://github.com/Adobe-Enterprise-Docs/experience-manager-core-components.es-ES>
+## Documentación de componentes principales
+
+Este es el repositorio de la ***documentación*** de los componentes principales de Adobe Experience Manager. Esta documentación cubre la instalación, el uso de la creación y cómo personalizar los componentes principales.
+
+Sus contribuciones a la documentación son bienvenidas. Consulte los siguientes recursos:
+
+* [contributing.md](contributing.md) Para obtener una descripción general de cómo contribuir a la documentación.
+* [guidelines.md](guidelines.md) Para obtener información general sobre lo que se espera en las contribuciones y cómo componer las contribuciones de documentación.
+* [code-of-conduct.md](code-of-conduct.md) Para obtener una descripción general de los estándares de comportamiento que esperamos que se apliquen al contribuir en este proyecto de documentación.
+
+## Repositorio de componentes principales
+
+Los [componentes principales de Adobe Experience Manager](https://github.com/adobe/aem-core-wcm-components) se mantienen como un proyecto en un repositorio independiente. Consulte ese proyecto si necesita documentación técnica o de desarrollador sobre los componentes, desea contribuir a los propios componentes o necesita presentar un problema con la funcionalidad o las características de los componentes principales.
