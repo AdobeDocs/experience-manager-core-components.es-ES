@@ -3,7 +3,7 @@ title: Versiones de componentes principales
 description: Los componentes principales se publican como versiones que pueden contener más de una versión de los mismos componentes principales. En este documento se explica cuáles son las versiones y publicaciones y cómo comprender la compatibilidad con los componentes principales y de AEM.
 role: Developer, Admin, User
 exl-id: 7d4dbe46-4013-4217-b815-cdb1462072c6
-source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
+source-git-commit: 4119923c2c7d256f46b3bf80cf620d8f114fae6f
 workflow-type: tm+mt
 source-wordcount: '3887'
 ht-degree: 96%
