@@ -3,7 +3,7 @@ title: Habilitar y utilizar patrones de validación de entrada de texto en Adobe
 description: Aprenda a configurar directivas de plantilla para exponer patrones de validación como números de teléfono, números de la seguridad social y códigos postales y, a continuación, utilícelos en su Forms adaptable.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
+source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 1%
