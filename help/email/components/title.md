@@ -39,7 +39,7 @@ Para obtener más información acerca de las versiones y publicaciones de los co
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Título [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_email_title_v1).
+La documentación técnica más reciente sobre el componente Título [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_email_title_v1_es).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

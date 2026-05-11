@@ -36,7 +36,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Teaser de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1)
+La documentación técnica más reciente acerca del componente Teaser de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_teaser_v1_es)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
