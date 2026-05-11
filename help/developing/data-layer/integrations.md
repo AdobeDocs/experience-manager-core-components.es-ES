@@ -5,9 +5,9 @@ feature: Core Components, Adobe Client Data Layer
 role: Developer, Admin
 exl-id: 503dd3dc-fe95-4a17-83f5-1f0c1960993d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ La capa de datos del cliente de Adobe se puede integrar con sus componentes pers
 Para añadir automáticamente un componente personalizado a la capa de datos:
 
 1. Defina las propiedades del modelo de componentes personalizado del que debe realizarse un seguimiento.
-1. Agregue el atributo `data-cmp-data-layer` al componente personalizado HTL. P. ej. `data-cmp-data-layer="${mycomponent.data.json}"`.
+1. Añada el atributo `data-cmp-data-layer` al componente personalizado HTL. Por ejemplo `data-cmp-data-layer="${mycomponent.data.json}"`.
 
 Para convertir automáticamente el activador de la capa de datos en un evento `cmp:click` cada vez que se hace clic en un elemento específico del componente personalizado, agregue el atributo `data-cmp-clickable` al elemento al que se va a realizar el seguimiento en el componente personalizado HTL.
 

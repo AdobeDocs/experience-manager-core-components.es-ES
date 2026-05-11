@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de pie de página d
 role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -63,11 +63,11 @@ Puede personalizar fácilmente la experiencia del pie de página para los visita
 ![Pestaña Propiedades](/help/adaptive-forms/assets/footer_propertiestab.png)
 
 - **Cuadro de diálogo Editar**
-El cuadro de diálogo de edición proporciona herramientas de formato de texto enriquecido estándar que permiten al usuario crear texto para el pie de página.
+El cuadro de diálogo Editar proporciona herramientas de formato de texto enriquecido estándar que permiten al usuario crear texto para el pie de página.
 
-- **Negrita**: esta opción aplica formato de negrita al texto seleccionado o en negrita   dar formato al texto introducido después del cursor. `Ctrl+B` es un método abreviado de teclado.
+- **Negrita**: se utiliza para aplicar formato de negrita al texto seleccionado o para dar formato negrita al texto introducido después del cursor. `Ctrl+B` es un método abreviado del teclado.
 
-- **Cursiva**: esta opción aplica formato de cursiva al texto seleccionado o   poner en cursiva el texto introducido después del cursor. `Ctrl+I` es un método abreviado de teclado.
+- **Cursiva**: esta opción aplica formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor. `Ctrl+I` es un método abreviado del teclado.
 
 ![Opciones de viñeta](/help/adaptive-forms/assets/footer_bullet.png)
 

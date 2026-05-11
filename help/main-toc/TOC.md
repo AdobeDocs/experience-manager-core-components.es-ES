@@ -6,9 +6,9 @@ feature: Core Components
 user-guide-description: En el caso de los proyectos AEM tradicionales, utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
 source-git-commit: ece6b7092a19c98c836d58f3f4d5ff15a0276b1c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '428'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 96%
       + [Pestañas horizontales de Formularios adaptables](/help/adaptive-forms/components/horizontal-tabs.md)
       + [Imagen de Formularios adaptables](/help/adaptive-forms/components/image.md)
       + [Cuadro numérico de Formularios adaptables](/help/adaptive-forms/components/numeric-box.md)
-      + {hide-from-toc}[Cuadro de contraseña de Forms adaptable](/help/adaptive-forms/components/password-box.md)
+      + {hide-from-toc}[Cuadro de contraseña de formularios adaptables](/help/adaptive-forms/components/password-box.md)
       + [Panel de Formularios adaptables](/help/adaptive-forms/components/panel.md)
       + [CAPTCHA para formularios adaptables](/help/adaptive-forms/components/adaptive-form-recaptcha.md)
       + [Botón de radio de Formularios adaptables](/help/adaptive-forms/components/radio-button.md)
       + [Botón Restablecer de Formularios adaptables](/help/adaptive-forms/components/reset-button.md)
-      + {hide-from-toc}[Revisión de formulario adaptable](/help/adaptive-forms/components/review.md)
+      + {hide-from-toc}[Revisión del formulario adaptable](/help/adaptive-forms/components/review.md)
       + [Firma manuscrita de Formularios adaptables](/help/adaptive-forms/components/scribble-signature.md)
       + [Botón de envío de Formularios adaptables](/help/adaptive-forms/components/submit-button.md)
       + [Cambio de Formularios adaptables](/help/adaptive-forms/components/adaptive-form-switch.md)

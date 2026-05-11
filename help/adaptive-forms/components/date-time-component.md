@@ -4,7 +4,7 @@ description: Uso o personalización del componente principal de fecha y hora de 
 role: Developer, Admin, User
 exl-id: 74140dca-d831-487c-8e78-e13769f63922
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1913'
 ht-degree: 100%
 

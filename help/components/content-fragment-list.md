@@ -4,7 +4,7 @@ description: El componente principal Lista de fragmentos de contenido permite mo
 role: Developer, Admin, User
 exl-id: 0f2295b1-d287-4f72-8ee4-fa98c4850e53
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '851'
 ht-degree: 100%
 

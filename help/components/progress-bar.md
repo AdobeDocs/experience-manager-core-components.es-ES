@@ -4,7 +4,7 @@ description: El componente Barra de progreso representa visualmente el progreso 
 role: Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 

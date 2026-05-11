@@ -4,9 +4,9 @@ description: El componente Tabla de contenido crea una TDC basada en los título
 role: Developer, Admin, User
 exl-id: 006adde2-ebff-4e74-8e79-325cccd43e8f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '753'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -85,4 +85,4 @@ Con el cuadro de diálogo de diseño, el autor de la plantilla puede establecer 
 
 ### Pestaña Estilos {#styles-tab}
 
-El componente Tabla de contenido es compatible con el sistema de estilos [AEM.](/help/get-started/authoring.md#component-styling).
+El componente Tabla de contenido es compatible con el [Sistema de estilos](/help/get-started/authoring.md#component-styling) de AEM.

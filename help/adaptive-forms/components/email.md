@@ -4,8 +4,8 @@ description: Uso o personalización del componente principal de entrada de corre
 role: Developer, Admin, User
 exl-id: f6a2974b-991e-4cea-9ef8-0b03e8975eeb
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '2135'
+workflow-type: ht
+source-wordcount: '2137'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,7 @@ Puede personalizar fácilmente la experiencia de entrada de correo electrónico 
 
 ![Pestaña Básicos](/help/adaptive-forms/assets/email_basictab.png)
 
-- **Nombre**: el nombre identifica de forma exclusiva el componente en el editor de reglas. No se permiten caracteres especiales ni espacios en las cadenas de nombre.
+- **Nombre**: el nombre identifica de forma exclusiva el componente en el editor de reglas.No se permiten caracteres especiales ni espacios en las cadenas de nombre.
 
 - **Título**: con su título, puede identificar fácilmente un componente en un formulario y, de forma predeterminada, el título aparece sobre el componente. Si no agrega un título, se mostrará el nombre del componente en lugar del texto del título.
 - **Permitir texto enriquecido en el título**: esta función permite a los usuarios dar formato a los títulos de texto sin formato, incorporando funciones como negrita, cursiva, texto subrayado, varias fuentes, tamaños de fuente, colores y opciones adicionales para mejorar la presentación visual y la personalización. Ofrece una mayor flexibilidad y control creativo para hacer que los títulos destaquen dentro de los documentos, sitios web o aplicaciones.\
@@ -91,7 +91,7 @@ Puede personalizar fácilmente la experiencia de entrada de correo electrónico 
 
 ![Pestaña Validación](/help/adaptive-forms/assets/email_validationtab.png)
 
-- **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe introducir un valor antes de continuar con el envío de un formulario. No puede seleccionar la opción **Ocultar componente** o **Deshabilitar componente**  en la pestaña **Básico** cuando se selecciona esta opción.
+- **Obligatorio**: seleccione esta opción si desea mostrar el componente en un formulario adaptable. Después de seleccionar la opción, debe introducir un valor antes de continuar con el envío de un formulario.No puede seleccionar **Ocultar componente** o **Deshabilitar componente** en la pestaña **Básico** cuando se selecciona esta opción.
 
 - **Mensaje de error**: esta opción permite introducir un mensaje que se muestra si se marca la casilla **Obligatorio** y el campo del formulario se deja en blanco.
 

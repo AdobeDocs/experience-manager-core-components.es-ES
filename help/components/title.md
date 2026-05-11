@@ -4,7 +4,7 @@ description: El componente principal Título es un componente de encabezado de s
 role: Developer, Admin, User
 exl-id: 393af72c-549f-4609-afb0-2712f827b549
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '634'
 ht-degree: 100%
 

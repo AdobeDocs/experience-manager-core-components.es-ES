@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 3f2b93f9-c48d-43ef-a78a-accd5090fe6f
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2119'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Además, el componente de imagen admite la carga diferida para aplazar la carga 
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
-El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas características permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
+El componente de imagen (a partir de la [versión 2.13.0](/help/versions.md)) admite recursos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
-Adobe AI Las experiencias web creadas con los componentes principales pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
+Las experiencias web creadas con los componentes principales ahora pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
 ## Compatibilidad con SVG {#svg-support}
 
@@ -223,9 +223,9 @@ En la pestaña **Características** puede definir qué opciones están disponibl
   ![Pestaña de características del cuadro de diálogo de diseño del componente de imagen](/help/assets/image-design-features-orientation.png)
 
 * **Rotar**
-Utilice esta opción para permitir que el autor del contenido utilice la opción **Rotar hacia la derecha**.
+Utilice esta opción para permitir que el autor de contenido utilice la opción **Rotar hacia la derecha**.
 * **Girar**
-Utilice esta opción para permitir que el autor del contenido utilice las opciones **Girar horizontalmente** y **Girar verticalmente**.
+Utilice esta opción para permitir que el autor de contenido utilice las opciones **Girar horizontalmente** y **Girar verticalmente**.
 
   >[!CAUTION]
   >

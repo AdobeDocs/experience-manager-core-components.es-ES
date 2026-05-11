@@ -4,7 +4,7 @@ description: El componente principal Descarga permite crear una opción de desca
 role: Developer, Admin, User
 exl-id: 48e7ade0-b849-4d1f-b836-51196e5ac507
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '770'
 ht-degree: 100%
 

@@ -4,7 +4,7 @@ description: Conozca el diseño interactivo de los componentes principales y có
 role: Developer, Admin, User
 exl-id: c0eff174-6803-4b44-aeb1-eae3bc8a36ea
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '178'
 ht-degree: 100%
 

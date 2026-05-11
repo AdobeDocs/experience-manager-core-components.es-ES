@@ -4,7 +4,7 @@ description: El componente Pestañas permite crear varias pestañas para organiz
 role: Developer, Admin, User
 exl-id: 0031c5f3-447c-4932-898f-2f453801e492
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1128'
 ht-degree: 100%
 

@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de pestañas horizo
 role: Developer, Admin, User
 exl-id: fbdf330b-3b85-4f94-9dab-eea8465fba67
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2213'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 98%
 
 Las pestañas horizontales de un Formulario adaptable hacen referencia a un patrón de diseño en el que varias secciones de un formulario se agrupan conjuntamente y se muestran como pestañas independientes, alineadas horizontalmente. Se puede pasar de una pestaña a otra para acceder a diferentes secciones del formulario. Cada pestaña actúa como un activador para mostrar y ocultar el contenido del formulario relacionado. Las pestañas horizontales ayudan a organizar formularios largos en secciones manejables y mejoran la experiencia del usuario. Las pestañas pueden ayudar a que un formulario sea más accesible para las personas con discapacidades, ya que pueden cambiar entre secciones con la navegación mediante el teclado.
 
-Las pestañas generalmente se crean como una serie de vínculos o botones, y cada vínculo o botón corresponde a una sección del formulario. Cuando se hace clic en una pestaña, el contenido del formulario se actualiza de forma dinámica para mostrar la sección correspondiente.
+Las pestañas generalmente se crean como una serie de vínculos o botones, y cada vínculo o botón corresponde a una sección del formulario. Cuando un usuario hace clic en una pestaña, el contenido del formulario se actualiza de forma dinámica para mostrar la sección correspondiente.
 
 ![ejemplo](/help/adaptive-forms/assets/horizontal-example-new.png)
 
@@ -35,13 +35,13 @@ Las razones más comunes para utilizar pestañas horizontales en un Formulario a
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal de las pestañas horizontales de Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente básico de pestañas horizontales de formularios adaptables se lanzó en febrero de 2023 como parte de Core Components 2.0.4. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior\|Compatible\|Compatible |
+| v1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores\|Compatible\|Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 

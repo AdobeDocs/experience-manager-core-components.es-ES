@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de cambio de formul
 role: Developer, Admin, User
 exl-id: 6ff2ca76-1514-42eb-bde3-60259af2d187
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1948'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,13 +35,13 @@ Las razones más comunes para utilizar el componente de cambio en un formulario 
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del conmutador de Forms adaptable se publicó como parte de los componentes principales 2.0.64. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal del cambio de formularios adaptables se publicó como parte de los componentes principales 2.0.64. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible con<br>[versión 2.0.64](/help/adaptive-forms/version.md) y posterior\|Compatible\|Compatible |
+| v1 | Compatible con la<br>[versión 2.0.64](/help/adaptive-forms/version.md) y posteriores\|Compatible\|Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 

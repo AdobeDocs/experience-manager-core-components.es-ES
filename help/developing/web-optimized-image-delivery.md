@@ -4,9 +4,9 @@ description: Descubra cómo los componentes principales pueden aprovechar las fu
 role: Developer, Admin, User
 exl-id: 6080ab8b-f53c-4d5e-812e-16889da4d7de
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1130'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -16,13 +16,13 @@ Descubra cómo los componentes principales pueden aprovechar las funciones de en
 
 ## Información general {#overview}
 
-La característica de entrega de imágenes optimizadas para la web de AEM as a Cloud Service ofrece recursos de imagen de DAM en formato [WebP.](https://developers.google.com/speed/webp) WebP puede reducir el tamaño de descarga de una imagen en aproximadamente un 25 % en promedio, lo que resulta en una carga de página más rápida.
+La función de entrega de imágenes optimizadas para la web de AEM as a Cloud Service ofrece recursos de imagen de DAM en [formato WebP.](https://developers.google.com/speed/webp) WebP puede reducir el tamaño de descarga de una imagen en aproximadamente un 25 % en promedio, lo que resulta en una carga de página más rápida.
 
 La activación de la entrega de imágenes optimizadas para la web en los componentes principales es sencilla y, como todos los exploradores comunes admiten WebP, la experiencia es transparente para el usuario final. La única diferencia que notará es que el contenido se carga más rápido.
 
 ## Activación de la entrega de imágenes optimizadas para la web para componentes principales {#activating}
 
-Para habilitar la entrega de imágenes optimizadas para la web, edite una plantilla de página y simplemente active la opción **Habilitar imágenes optimizadas para web** en el cuadro de diálogo de diseño del [componente de imagen.](/help/components/image.md#design-dialog) Esta opción está disponible para las versiones 1, 2 y 3 del componente de imagen.
+Para activar la entrega de imágenes optimizadas para la web, edite una plantilla de página y simplemente active la opción **Habilitar imágenes optimizadas para web** dentro del cuadro de diálogo de diseño del [componente de imagen.](/help/components/image.md#design-dialog) Esta opción está disponible para las versiones 1, 2 y 3 del componente de imagen.
 
 Si no conoce los cuadros de diálogo de diseño y las plantillas de página de AEM, [revise este documento.](/help/get-started/authoring.md#pre-configuring-core-components)
 
@@ -71,7 +71,7 @@ Para conservar la fidelidad de la salida, el servicio de imágenes no aumenta el
 
 ### La URL de mis imágenes sigue terminando con .JPG o .PNG, no con .WEBP, y no hay ningún atributo SRCSET o elemento PICTURE. ¿Realmente se utilizan formatos web optimizados? {#content-negotiation}
 
-Para ofrecer formatos WebP, el servicio de entrega de imágenes optimizadas para la web realiza [negociación de contenido dirigida por el servidor.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) Esto ayuda a seleccionar el formato de salida óptimo para la imagen en función de las capacidades anunciadas por el cliente, lo que permite que el servicio de entrega de imágenes ignore la extensión del archivo.
+Para ofrecer formatos WebP, el servicio de entrega de imágenes optimizadas para web lleva a cabo una [negociación de contenido dirigida por el servidor.](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation#server-driven_content_negotiation) Esto ayuda a seleccionar el formato de salida óptimo para la imagen en función de las capacidades anunciadas por el cliente, lo que permite que el servicio de entrega de imágenes ignore la extensión del archivo.
 
 La ventaja de aprovechar la negociación de contenido es que los exploradores que no anuncian la compatibilidad con WebP seguirán teniendo el formato de archivo JPG o PNG sin ningún cambio necesario en el marcado de la página. Esto ofrece una compatibilidad óptima para los sitios existentes y garantiza la ruta más fluida posible a la transición hacia la entrega de imágenes optimizadas para la web.
 

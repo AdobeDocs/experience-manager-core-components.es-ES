@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal del contenedor de p
 role: Developer, Admin, User
 exl-id: 104836fe-8325-47de-978d-1ff2d6a9dd15
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2331'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -39,13 +39,13 @@ Existen varias razones para utilizar un panel en un formulario, entre ellas, las
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-El componente principal del contenedor del panel Forms adaptable se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
+El componente principal del contenedor del panel de los formularios adaptables se publicó en febrero de 2023 como parte de los componentes principales 2.0.4. A continuación se muestra una tabla con todas las versiones admitidas, la compatibilidad con AEM y los vínculos a la documentación correspondiente:
 
 |  |  |
 |---|---|
 | Versión del componente | AEM as a Cloud Service |
 | --- | --- |
-| v1 | Compatible con<br>[versión 2.0.4](/help/adaptive-forms/version.md) y posterior\|Compatible\|Compatible |
+| v1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores\|Compatible\|Compatible |
 
 Para obtener información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/adaptive-forms/version.md).
 
@@ -100,9 +100,9 @@ Puede personalizar fácilmente la experiencia del contenedor del panel para los 
         { "Street": "123 Main Street", "City": "New York", "Zip Code": "12345" }
      ```
 
-- **Campo de grupo bajo un encabezado de sección**: seleccione esta opción para organizar los campos de formulario relacionados bajo un encabezado de sección común. Esta agrupación garantiza que las tecnologías de asistencia, como los lectores de pantalla, puedan identificar y anunciar los campos agrupados como una unidad única y coherente, lo que mejora la accesibilidad y navegación del formulario para todos los usuarios.
+- **Campo de grupo de un encabezado de sección**: seleccione esta opción para organizar los campos de formulario relacionados de un encabezado de sección común. Esta agrupación garantiza que las tecnologías de asistencia, como los lectores de pantalla, puedan identificar y anunciar los campos agrupados como una unidad única y coherente, lo que mejora la accesibilidad y navegación del formulario para todos los usuarios.
 
-  ![Campo de grupo de panel](/help/adaptive-forms/assets/panel-fieldset.png)
+  ![Campo de grupo de paneles](/help/adaptive-forms/assets/panel-fieldset.png)
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
 - **Ocultar componente**: seleccione la opción para ocultar el componente del formulario. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas. Esto resulta útil cuando necesita almacenar información que el usuario no necesita ver o cambiar directamente.

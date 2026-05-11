@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 510d059c-e60a-40aa-9032-66a901109f6e
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '866'
 ht-degree: 100%
 
@@ -231,7 +231,7 @@ Vincular elementos a la página correspondiente
 * **Mostrar descripción**
 Mostrar descripciones del elemento de vínculo
 * **Mostrar fecha**
-Mostrar fecha de modificación del elemento vinculado
+Mostrar fecha de modificación del elemento de vínculo
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 

@@ -4,7 +4,7 @@ description: El componente principal Lista permite crear fácilmente listas din�
 role: Developer, Admin, User
 exl-id: 662ab508-0253-4d28-b95c-8c4cde8173bd
 source-git-commit: 6fc9e1732302f114ad5c9c037ce203af6324edf0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1214'
 ht-degree: 100%
 
@@ -86,8 +86,8 @@ La lista se puede crear a partir de las páginas secundarias de la página actua
    * La página cuyas páginas secundarias deben aparecer en la lista
    * Déjelo en blanco para utilizar la página actual
 
-* **Profundidad secundaria**
-Cuántos niveles inferiores en la jerarquía deben usarse
+* **Profundidad del elemento secundario**
+Cuántos niveles inferiores de la jerarquía se deben usar
 
 #### Lista fija {#fixed-list}
 
@@ -118,7 +118,7 @@ La lista se puede crear utilizando los resultados de una búsqueda de contenido 
 * **Consulta de búsqueda**
 La cadena para la que se ejecutará una búsqueda de texto completo para generar los elementos de la lista
 * **Buscar en**
-Dónde se debe ejecutar la búsqueda
+Donde se debe ejecutar la búsqueda
    * Utilice el **Cuadro de diálogo de selección** para elegir la ubicación en AEM
    * Si se deja en blanco se usará la página actual
 
@@ -129,14 +129,14 @@ La lista se puede crear utilizando páginas que coincidan con determinadas etiqu
 ![Opciones de la lista de etiquetas](/help/assets/list-edit-tags.png)
 
 * **Página principal**
-Donde debería comenzar la coincidencia de etiquetas
+Donde se debería iniciar la coincidencia de etiquetas
    * Utilice el **Cuadro de diálogo de selección** para elegir la ubicación en AEM
    * Si se deja en blanco se usará la página actual
 * **Etiquetas**
 Qué etiquetas deben coincidir
    * Utilice el cuadro de diálogo **Examinar** para seleccionar las etiquetas
-* **Coincidencias**
-Define qué tipo de coincidencias debe presentar una página para incluirla en la lista
+* **Coincidencia**
+Defina qué tipo de coincidencia debe condicionar a una página para incluirla en la lista
    * **cualquier etiqueta**
    * **todas las etiquetas**
 
@@ -150,11 +150,11 @@ Independientemente de cómo elija generar la lista, hay ciertas opciones de clas
 Cómo se deben ordenar los elementos
    * **Título**
    * **Fecha de la última modificación**
-* **Orden de clasificación**
+* **Orden**
 El orden en el que se deben ordenar los elementos
    * **ascendente**
    * **descendente**
-* **Artículos máximos**
+* **Máx. elementos**
 Número máximo de elementos mostrados en la lista.
    * Déjelo vacío para ver todos los elementos.
 * **ID**: esta opción permite controlar el identificador único del componente del HTML y de la [capa de datos](/help/developing/data-layer/overview.md).
@@ -193,16 +193,16 @@ En la pestaña **Configuración de la lista**, se puede definir el formato de fe
 
 ![Configuración de la lista de cuadros de diálogo de diseño del componente Lista](/help/assets/list-design-list-settings.png)
 
-* **Formato de fecha**:
-Formato que se usará para visualizar la fecha de la última modificación
-* **Deshabilitar elementos secundarios**
-Deshabilitar el tipo de lista secundaria en el componente
-* **Deshabilitar estáticas**
+* **Formato de fecha**
+Formato que se usará para la visualización de la fecha de la última modificación
+* **Desactivar elementos secundarios**
+Deshabilitar el tipo de lista de elementos secundarios en el componente
+* **Deshabilitar estática**
 Deshabilitar el tipo de lista estática en el componente
 * **Deshabilitar búsqueda**
 Deshabilitar el tipo de lista de búsqueda en el componente
-* **Deshabilitar etiquetas**
-Deshabilitar tipo de lista de etiquetas en el componente
+* **Desactivar etiquetas**
+Deshabilitar el tipo de lista de etiquetas en el componente
 
 ### Configuración del elemento {#item-settings}
 
@@ -211,9 +211,9 @@ En la pestaña **Configuración de elementos**, se pueden definir las opciones d
 ![Configuración del elemento de diálogo de diseño del componente Lista](/help/assets/list-design-item-settings.png)
 
 * **Vincular elementos**
-Habilitar vincular elementos en el [cuadro de diálogo de edición](#edit-dialog)
+Habilitar la opción de elementos de vínculo en el [cuadro de diálogo de edición](#edit-dialog)
 * **Mostrar descripciones**
-Habilitar la opción Mostrar descripciones en el [cuadro de diálogo de edición](#edit-dialog)
+Habilitar la opción Mostrar descripciones en el  [cuadro de diálogo de edición](#edit-dialog)
 * **Mostrar fecha**
 Habilitar la opción Mostrar fecha en el [cuadro de diálogo de edición](#edit-dialog)
 

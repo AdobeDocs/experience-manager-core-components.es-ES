@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de entrada de núme
 role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2446'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -178,24 +178,24 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 ### Pestaña Formatos {#formats-tab}
 
-La pestaña Formatos permite especificar formatos de fecha predeterminados y personalizados. Además, también puede agregar un nuevo formato de número personalizado mediante el botón **Agregar**.
+La pestaña Formatos permite especificar formatos de fecha predeterminados y personalizados. Además, puede añadir un formato de número personalizado mediante el botón **Añadir**.
 
 ![Pestaña Formato](/help/adaptive-forms/assets/emailinput_formattab.png)
 
-#### Agregar formatos en la política de plantillas del componente
+#### Añadir formatos en la política de plantillas del componente
 
-Para mostrar los formatos disponibles para el componente, debe agregarlos a la directiva de plantilla del componente.
+Para mostrar los formatos disponibles para el componente, debe añadirlos a la política de plantilla del componente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3477976?quality=12&learn=on)
 
-Para agregar formatos a la directiva de plantilla:
+Para añadir formatos a la política de plantilla:
 
-1. Abra la plantilla correspondiente asociada a un formulario adaptable o a Sites en el editor de plantillas.
+1. Abra la plantilla correspondiente asociada a un formulario adaptable o a sitios en el editor de plantillas.
 2. En la sección **Componentes permitidos**, seleccione el componente **[!UICONTROL Entrada de número]**.
-   ![Directiva de plantilla del selector de fecha](/help/adaptive-forms/assets/number-input-policy.png)
-3. Haga clic en el icono **[!UICONTROL Agregar]** para crear una nueva directiva para el componente Entrada de número.
-4. Escriba un nombre para la directiva y seleccione todos los formatos necesarios en la ficha **Formato**.
-   ![Crear directiva](/help/adaptive-forms/assets/date-picker-format-policy.png)
+   ![Política de plantilla del selector de fecha](/help/adaptive-forms/assets/number-input-policy.png)
+3. Haga clic en el icono **[!UICONTROL Añadir]** para crear una nueva política para el componente Entrada de número.
+4. Escriba un nombre para la política y seleccione todos los formatos necesarios en la pestaña **Formato**.
+   ![Crear una política](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. Haga clic en **[!UICONTROL Listo]**.
 
 <!--

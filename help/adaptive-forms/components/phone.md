@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de entrada del tel�
 role: Developer, Admin, User
 exl-id: d06179ac-04bd-4af4-b6ac-c4c78086058c
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2232'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -157,7 +157,7 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 ### Pestaña Formatos {#format-tab}
 
-La pestaña Formatos le permite especificar formatos de número predeterminados y personalizados. Además, puede agregar un formato de número personalizado si hace clic en el botón **Agregar**.
+La pestaña de formatos le permite especificar formatos de número predeterminados y personalizados. Además, puede añadir un formato de número personalizado haciendo clic en el botón **Añadir**.
 
 ![Pestaña Formato](/help/adaptive-forms/assets/telephoneinput_format.png)
 

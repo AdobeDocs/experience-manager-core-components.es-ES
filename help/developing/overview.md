@@ -4,9 +4,9 @@ description: Los componentes principales proporcionan componentes básicos sóli
 role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1339'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
