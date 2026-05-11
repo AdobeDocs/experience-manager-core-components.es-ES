@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de pie de página d
 role: Developer, Admin, User
 exl-id: c8e7d3fe-4b82-4a80-8da2-19f6cff1e3e9
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Detalles técnicos {#technical-details}
@@ -63,11 +63,11 @@ Puede personalizar fácilmente la experiencia del pie de página para los visita
 ![Pestaña Propiedades](/help/adaptive-forms/assets/footer_propertiestab.png)
 
 - **Cuadro de diálogo Editar**
-El cuadro de diálogo de edición proporciona herramientas de formato de texto enriquecido estándar que permiten al usuario crear texto para el pie de página.
+El cuadro de diálogo Editar proporciona herramientas de formato de texto enriquecido estándar que permiten al usuario crear texto para el pie de página.
 
-- **Negrita**: esta opción aplica formato de negrita al texto seleccionado o en negrita   dar formato al texto introducido después del cursor. `Ctrl+B` es un método abreviado de teclado.
+- **Negrita**: se utiliza para aplicar formato de negrita al texto seleccionado o para dar formato negrita al texto introducido después del cursor. `Ctrl+B` es un método abreviado del teclado.
 
-- **Cursiva**: esta opción aplica formato de cursiva al texto seleccionado o   poner en cursiva el texto introducido después del cursor. `Ctrl+I` es un método abreviado de teclado.
+- **Cursiva**: esta opción aplica formato en cursiva al texto seleccionado o texto en cursiva introducido después del cursor. `Ctrl+I` es un método abreviado del teclado.
 
 ![Opciones de viñeta](/help/adaptive-forms/assets/footer_bullet.png)
 
@@ -114,7 +114,7 @@ El cuadro de diálogo de edición proporciona herramientas de formato de texto e
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

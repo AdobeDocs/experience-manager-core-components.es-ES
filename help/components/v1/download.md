@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: ebd63522-218d-4784-bea0-1627c64f5230
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '649'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Para experimentar el componente Descarga, así como ver ejemplos de sus opciones
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Descarga [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_download_v1_es).
+La documentación técnica más reciente sobre el componente Descarga [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_download_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

@@ -1,12 +1,12 @@
 ---
 title: Uso de componentes principales
-description: 'Para ponerse en marcha con los componentes principales de su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes de las plantillas.'
+description: 'Para empezar a utilizar los componentes principales de su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes de las plantillas.'
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1043'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,9 +44,9 @@ Algunos puntos que se deben tener en cuenta al utilizar los componentes principa
 * La canalización de la generación de proyectos generará advertencias en el registro si vuelve a incluir los componentes principales como parte de `/apps` e ignorará la versión incrustada como parte del proyecto.
    * En una próxima versión, volver a incluir los componentes principales producirá un error en la compilación de la canalización.
 * Si el proyecto anteriormente incluía los componentes principales en `/apps`, [es posible que tenga que ajustar el proyecto.](/help/developing/overview.md#via-aemaacs)
-* Aunque los componentes principales se encuentran ahora en `/libs`, no se recomienda crear ninguna superposición de la misma ruta de acceso en `/apps`. [Se debe usar el patrón de componentes proxy &#x200B;](/help/developing/guidelines.md#proxy-component-pattern) en su lugar si es necesario personalizar cualquier aspecto de los componentes.
+* Aunque los componentes principales se encuentran ahora en `/libs`, no se recomienda crear ninguna superposición de la misma ruta en `/apps`. En lugar de eso, se debe utilizar el [patrón de componentes proxy](/help/developing/guidelines.md#proxy-component-pattern) si fuera necesario personalizar cualquier aspecto de los componentes.
 * Para que el [Componente Tabla de contenido](/help/components/tableofcontents.md) procese su contenido, es necesario configurar un filtro en OSGi.
-   * [Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_es) para más información.
+   * [Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para más información.
 
 ### AEM 6.5 y anteriores {#aem-65}
 
@@ -70,7 +70,7 @@ En `/apps/my-site/components` crear un nodo de título de tipo `cq:Component`
 1. Seleccionar la versión del componente principal correspondiente con el supertipo.
 
    **Ejemplo**
-Agregar la siguiente propiedad:\
+Añadir la siguiente propiedad:\
    `sling:resourceSuperType="core/wcm/components/title/v1/title"`
 
 1. Defina el grupo, el título y, opcionalmente, la descripción del componente. Estos valores son específicos del proyecto y dictan cómo se expone el componente a los autores.

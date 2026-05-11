@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '662'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Este documento describe la versión 2 del componente Página, que se introdujo c
 
 ## Compatibilidad con la aplicación web progresiva {#pwa-support}
 
-La versión 2.15.0 de los componentes principales introdujo la compatibilidad con las funciones integradas de [aplicaciones web progresivas (PWA) de AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=es) Con una configuración sencilla a nivel de sitio, convierta su experiencia de AEM en una PWA.
+La versión 2.15.0 de los componentes principales introdujo la compatibilidad con las [aplicaciones web progresivas (PWA) integradas](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=es) de AEM as a Cloud Service. Con una configuración simple a nivel de sitio, convierta su experiencia AEM en una PWA.
 
 ### Detalles técnicos {#technical-details}
 

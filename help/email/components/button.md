@@ -5,7 +5,7 @@ role: Developer, Admin, User
 exl-id: b144e8d1-1097-475d-b2eb-3353c176afb9
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '527'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Para obtener más información acerca de las versiones y publicaciones de los co
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Botón de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_button_v1_es)
+La documentación técnica más reciente acerca del componente Botón de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_button_v1)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 

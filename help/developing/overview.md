@@ -4,9 +4,9 @@ description: Los componentes principales proporcionan componentes básicos sóli
 role: Developer, Admin
 exl-id: 0f79cac1-a3b0-487e-90be-0bd8263d3912
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1339'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -117,13 +117,13 @@ En la siguiente tabla se enumeran los componentes principales disponibles, enlaz
 | [Fragmento de contenido](https://adobe.com/go/aem_cmp_tech_cf_v1_es) | Permite la visualización de un fragmento de contenido | `-` |
 | [Lista de fragmentos de contenido](https://adobe.com/go/aem_cmp_tech_cflist_v1_es) | Permite mostrar una lista de fragmentos de contenido | `-` |
 | [Separador](https://adobe.com/go/aem_cmp_tech_separator_v1_es) | Separa el contenido de una página | `-` |
-| [Acordeón](https://adobe.com/go/aem_cmp_tech_accordion_v1_es) | Organiza paneles de contenido en un acordeón plegable | `-` |
+| [Acordeón](https://adobe.com/go/aem_cmp_tech_accordion_v1) | Organiza paneles de contenido en un acordeón plegable | `-` |
 | [Contenedor](https://adobe.com/go/aem_cmp_tech_container_v1_es) | Organización de componentes dentro de un contenedor | `-` |
-| [Botón](https://adobe.com/go/aem_cmp_tech_button_v1_es) | Creación de un botón en una página | `-` |
-| [Descargar](https://adobe.com/go/aem_cmp_tech_download_v1_es) | Agregar un recurso descargable a una página | `-` |
-| [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1_es) | Añadir un fragmento de experiencia a una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
-| [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1_es) | Incrustar un recurso externo en una página | - |
-| [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1_es) | Proporcionar una representación visual del progreso hacia un objetivo | - |
+| [Botón](https://adobe.com/go/aem_cmp_tech_button_v1) | Creación de un botón en una página | `-` |
+| [Descargar](https://adobe.com/go/aem_cmp_tech_download_v1) | Agregar un recurso descargable a una página | `-` |
+| [Fragmento de experiencias](https://adobe.com/go/aem_cmp_tech_xf_v1) | Añadir un fragmento de experiencia a una página | `/libs/cq/experience-fragments/editor/components/experiencefragment` |
+| [Incrustar](https://adobe.com/go/aem_cmp_tech_embed_v1) | Incrustar un recurso externo en una página | - |
+| [Barra de progreso](https://adobe.com/go/aem_cmp_tech_progress_v1) | Proporcionar una representación visual del progreso hacia un objetivo | - |
 | [Visualizador de PDF](https://adobe.com/go/aem_cmp_tech_pdfviewer_v1_es) | Presenta un documento PDF en una página | - |
 
 ## Actualización de los componentes principales {#upgrade-of-core-components}

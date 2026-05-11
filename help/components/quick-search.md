@@ -4,8 +4,8 @@ description: El componente Búsqueda rápida proporciona funciones de búsqueda 
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
-source-wordcount: '626'
+workflow-type: ht
+source-wordcount: '627'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ El cuadro de diálogo de edición permite que el autor del contenido defina dón
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
-Con el cuadro de diálogo de diseño, el autor de la plantilla puede establecer el valor predeterminado para el lugar en el que en el árbol de contenido debe comenzar la búsqueda, así como un tamaño máximo del conjunto de resultados y una longitud mínima del término de búsqueda. El cuadro de diálogo de diseño permite al autor de la plantilla definir qué opciones de formato de texto están disponibles para los autores de contenido.
+Mediante el cuadro de diálogo de diseño, el autor de la plantilla puede establecer el valor predeterminado de dónde debe comenzar la búsqueda en el árbol de contenido, así como un tamaño máximo del conjunto de resultados y una longitud mínima del término de búsqueda.El cuadro de diálogo del diseño permite al autor de la plantilla definir qué opciones de formato de texto están disponibles para los autores de contenido.
 
 ### Pestaña Propiedades {#properties-tab}
 
@@ -73,7 +73,7 @@ Con el cuadro de diálogo de diseño, el autor de la plantilla puede establecer 
 * **Raíz de búsqueda**
 El valor predeterminado de la raíz de búsqueda cuando un autor de contenido coloca el componente Búsqueda rápida en una página de contenido
 * **Tamaño de los resultados**
-El número máximo de resultados recuperados por una solicitud de búsqueda.
+El número máximo de resultados recuperados por una solicitud de búsqueda
 * **Longitud mínima del término de búsqueda**
 Longitud mínima del término de búsqueda para iniciar la búsqueda
 

@@ -5,7 +5,7 @@ index: false
 role: Developer, Admin, User
 exl-id: 625ce8de-5c4a-476d-b749-895493d169b1
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1369'
 ht-degree: 100%
 
@@ -219,7 +219,7 @@ En la pestaña **Características** puede definir qué opciones están disponibl
 
    * **Rotar**: utilice esta opción para permitir que el autor del contenido utilice la opción **Rotar hacia la derecha**.
    * **Girar**
-Utilice esta opción para permitir que el autor del contenido utilice las opciones **Girar horizontalmente** y **Girar verticalmente**.
+Utilice esta opción para permitir que el autor de contenido utilice las opciones **Girar horizontalmente** y **Girar verticalmente**.
 
   >[!CAUTION]
   >

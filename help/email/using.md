@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 0e79ca8f-eb0a-4519-b1e8-a9d3b0b99987
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '683'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ Obtenga información acerca de la instalación, configuración y uso básicos de
 
 ## Instalación de los componentes principales de correo electrónico {#installation}
 
-Los componentes principales de correo electrónico se pueden utilizar con AEM 6.5. Consulte la sección [Requisitos del documento de introducción a los componentes principales de correo electrónico](introduction.md#requirements) para obtener más información.
+Los componentes principales del correo electrónico se pueden utilizar con AEM 6.5. Consulte la [sección Requisitos del documento de introducción a los componentes principales de correo electrónico](introduction.md#requirements) para obtener más información.
 
 ### Instalación de componentes principales {#core-components}
 

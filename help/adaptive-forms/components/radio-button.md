@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de botón de radio 
 role: Developer, Admin, User
 exl-id: 86b5e9ec-58ac-4cd5-9c7c-4269247ec34f
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2349'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ El componente principal Botón de opción de los formularios adaptables se publi
 
 | Versión del componente | AEM as a Cloud Service | AEM 6.5.16.0 Forms o versiones posteriores |
 |---|---|---|
-| Versión 2 | Compatible con<br>[versión 3.0.142](/help/adaptive-forms/version.md) y posteriores | |
+| Versión 2 | Compatible con la <br>[versión 3.0.142](/help/adaptive-forms/version.md) y posteriores | |
 | v1 | Compatible con la <br>[versión 2.0.4](/help/adaptive-forms/version.md) y posteriores | Compatible con la<br>[versión 1.1.12](/help/adaptive-forms/version.md) y posteriores, pero inferiores a 2.0.0. |
 
 
@@ -57,12 +57,12 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 
 >[!NOTE]
 >
-> La versión v1 del componente principal Grupo de casillas de verificación es compatible con WCAG 2.1, que se centra en hacer que el contenido sea accesible siguiendo las prácticas recomendadas para su uso y legibilidad. La versión v2 es compatible con WCAG 2.2, que va un paso más allá al resaltar la accesibilidad clara, predecible e inequívoca mediante la agrupación lógica y semántica de campos relacionados, lo que lo convierte en un requisito crítico para el diseño de formularios inclusivos.
+> La versión v1 del componente principal del grupo de casillas de verificación es compatible con WCAG 2.1, que se centra en hacer que el contenido sea accesible siguiendo las prácticas recomendadas para su uso y legibilidad. La versión v2 es compatible con WCAG 2.2, que va un paso más allá al resaltar la accesibilidad clara, predecible e inequívoca mediante la agrupación lógica y semántica de campos relacionados, lo que lo convierte en un requisito crítico para el diseño de formularios inclusivos.
 
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Detalles técnicos {#technical-details}
@@ -177,13 +177,13 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 ## Compatibilidad con conjuntos de campos y leyendas para botones de opción (v2)
 
-<span class="preview"> Esta característica está disponible a través del programa Acceso anticipado. Para solicitar acceso, envía un correo electrónico desde tu dirección oficial a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
+<span class="preview"> Esta función está disponible a través del programa de acceso rápido. Para solicitar acceso, envíe un correo electrónico desde su dirección oficial a [aem-forms-ea@adobe.com](mailto:aem-forms-ea@adobe.com). </span>
 
-Los componentes principales de Forms adaptables utilizan elementos HTML semánticos `<fieldset>` y `<legend>` para mejorar la accesibilidad de los grupos de botones de opción. Estos elementos permiten a los lectores de pantalla interpretar con precisión la estructura del formulario y transmitir las relaciones entre las etiquetas de grupo y sus opciones.
+Los componentes principales de los formularios adaptables utilizan elementos HTML semánticos `<fieldset>` y `<legend>` para mejorar la accesibilidad de los grupos de botones de opción. Estos elementos permiten a los lectores de pantalla interpretar con precisión la estructura del formulario y transmitir las relaciones entre las etiquetas de grupo y sus opciones.
 
-Los componentes del botón de opción (v2) se representan dentro de un elemento `<fieldset>`, con la etiqueta de grupo envuelta en un elemento `<legend>` como su primer elemento secundario. Se eliminan los atributos ARIA redundantes o no válidos y las etiquetas individuales se asocian correctamente a sus respectivas entradas. Esto garantiza que los lectores de pantalla lean claramente cada etiqueta de botón de radio, junto con su contexto de grupo.
+Los componentes del botón de opción (v2) se representan dentro de un elemento `<fieldset>`, con la etiqueta de grupo envuelta en un elemento `<legend>` como su primer elemento secundario. Se eliminan los atributos ARIA redundantes o no válidos y las etiquetas individuales se asocian correctamente a sus respectivas entradas. Esto garantiza que los lectores de pantalla lean claramente cada etiqueta de botón de opción, junto con su contexto de grupo.
 
-![botón de opción](/help/adaptive-forms/assets/radiobutton-fieldset.png)
+![botón de radio](/help/adaptive-forms/assets/radiobutton-fieldset.png)
 
 ## Artículos relacionados {#related-articles}
 

@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: 861c1fd1-6d6d-426c-a338-a558326fe16e
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '894'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -120,7 +120,7 @@ El cuadro de diálogo de configuración permite al autor del contenido seleccion
 
 Utilice el botón **Abrir cuadro de diálogo de selección** para abrir el selector de componentes y elegir qué variación del componente Fragmento de experiencia se agregará a la página de contenido.
 
-Si agrega el componente Fragmento de experiencia de correo electrónico a una plantilla, se localizará automáticamente siempre que los fragmentos de experiencias estén localizados, de modo que lo que se procesa en la página puede variar del componente que seleccione explícitamente. [Vea el ejemplo anterior](#example) para obtener más información.
+Si agrega el componente Fragmento de experiencia de correo electrónico a una plantilla, se localizará automáticamente siempre que los fragmentos de experiencias estén localizados, de modo que lo que se procesa en la página puede variar del componente que seleccione explícitamente. [Consulte el ejemplo anterior](#example) para obtener más información.
 
 También puede definir un **ID**. Esta opción permite controlar el identificador único del componente en el HTM.
 

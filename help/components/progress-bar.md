@@ -4,7 +4,7 @@ description: El componente Barra de progreso representa visualmente el progreso 
 role: Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Para experimentar el componente Barra de progreso, así como ver ejemplos de sus
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Barra de progreso [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1_es).
+La documentación técnica más reciente sobre el componente Barra de progreso [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 

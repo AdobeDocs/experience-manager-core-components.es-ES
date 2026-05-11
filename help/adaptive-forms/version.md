@@ -4,16 +4,16 @@ description: Los componentes principales de AEM se publican como versiones que p
 role: Developer, Admin, User
 exl-id: 8146a5b1-acf6-4b54-ad6b-6e1747a137f6
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '213'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
 
 # Versiones de componentes principales de Formularios adaptables {#core-components-versions}
 
-Identifique las versiones precisas de los componentes principales de Forms y de las dependencias de los componentes principales de WCM. Además, familiarícese con los componentes y las funciones habilitados en cada versión de los componentes principales de Formularios adaptables.
+Identifique las versiones precisas de los componentes principales de los formularios y de las dependencias de los componentes principales de WCM. Además, familiarícese con los componentes y las funciones habilitados en cada versión de los componentes principales de Formularios adaptables.
 
 ## Historial de versiones de AEM Forms as Cloud Service {#aem-as-cs-version-history}
 

@@ -5,9 +5,9 @@ role: Developer, Admin, User
 exl-id: f5d40047-3082-4edd-a5f6-6ab3e33997f9
 index: false
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1685'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,9 +47,9 @@ Además, el componente Imagen de correo electrónico admite la carga diferida pa
 
 ## Asistencia de Dynamic Media {#dynamic-media}
 
-El componente Imagen de correo electrónico admite [recursos de Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas características permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
+El componente Imagen de correo electrónico es compatible con activos de [Dynamic Media](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/dynamicmedia/dynamic-media.html?lang=es#dynamicmedia). [Cuando están habilitadas,](#design-dialog) estas funciones permiten agregar recursos de imagen de Dynamic Media con tan solo arrastrar y soltar o mediante el explorador de recursos como lo haría con cualquier otra imagen. Además, también se admiten modificadores de imagen, ajustes preestablecidos de imagen y cultivos inteligentes.
 
-Adobe AI Las experiencias de correo electrónico creadas con los componentes principales de correo electrónico pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
+Las experiencias de correo electrónico creadas con los componentes principales de correo electrónico pueden ofrecer funciones de imagen de Dynamic Media enriquecidas, potentes, sólidas y de alto rendimiento en varias plataformas.
 
 ## Compatibilidad con SVG {#svg-support}
 
@@ -65,7 +65,7 @@ Por motivos de seguridad, el Editor de imágenes nunca llama directamente al SVG
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Imagen de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1_es)
+La documentación técnica más reciente acerca del componente Imagen de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_image_v1)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 

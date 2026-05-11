@@ -4,9 +4,9 @@ description: Uso o personalización del componente principal de selector de fech
 role: Developer, Admin, User
 exl-id: aa9402de-ca57-4c19-8d36-2dd0a78d6806
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Detalles técnicos {#technical-details}
@@ -180,31 +180,31 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 ### Pestaña Formatos {#formats-tab}
 
-La pestaña Formatos permite especificar formatos de fecha predeterminados y personalizados. Además, también puede agregar un nuevo formato de fecha personalizado mediante el botón **Agregar**.
+La pestaña Formatos permite especificar formatos de fecha predeterminados y personalizados. Además, puede añadir un formato de fecha personalizado mediante el botón **Añadir**.
 
 ![Pestaña Formato](/help/adaptive-forms/assets/datepicker_formatpolicy.png)
 
-#### Agregar formatos en la política de plantillas del componente
+#### Añadir formatos en la política de plantillas del componente
 
-Para mostrar los formatos disponibles para el componente, debe agregarlos a la directiva de plantilla del componente.
+Para mostrar los formatos disponibles para el componente, debe añadirlos a la política de plantilla del componente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3477975?quality=12&learn=on)
 
-Para agregar formatos a la directiva de plantilla:
+Para añadir formatos a la política de plantilla:
 
-1. Abra la plantilla correspondiente asociada a un formulario adaptable o a Sites en el editor de plantillas.
+1. Abra la plantilla correspondiente asociada a un formulario adaptable o a sitios en el editor de plantillas.
 2. En la sección **Componentes permitidos**, seleccione el componente **[!UICONTROL Selector de fecha]**.
-   ![Directiva de plantilla del selector de fecha](/help/adaptive-forms/assets/date-picker-policy.png)
-3. Haga clic en el icono **[!UICONTROL Agregar]** para crear una nueva directiva para el componente Selector de fecha.
-4. Escriba un nombre para la directiva y seleccione todos los formatos necesarios en la ficha **Formato**.
-   ![Crear directiva](/help/adaptive-forms/assets/number-input-format-policy.png)
+   ![Política de plantilla del selector de fecha](/help/adaptive-forms/assets/date-picker-policy.png)
+3. Haga clic en el icono **[!UICONTROL Añadir]** para crear una nueva política para el componente Selector de fecha.
+4. Escriba un nombre para la política y seleccione todos los formatos necesarios en la pestaña **Formato**.
+   ![Crear política](/help/adaptive-forms/assets/number-input-format-policy.png)
 5. Haga clic en **[!UICONTROL Listo]**.
 
 <!--
 
 ## Related article {#related-article}
 
-* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html?lang=es)
+* [Create a standalone Adaptive Form](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/creating-adaptive-form-core-components.html)
 
 -->
 

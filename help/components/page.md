@@ -4,9 +4,9 @@ description: El componente Página es un componente de página ampliable diseña
 role: Developer, Admin, User
 exl-id: 2503e067-abed-427d-8a54-8b79e3451487
 source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '739'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 
 ## Compatibilidad con la aplicación web progresiva {#pwa-support}
 
-La versión 2.15.0 de los componentes principales introdujo la compatibilidad con las funciones integradas de [aplicaciones web progresivas (PWA) de AEM as a Cloud Service.](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=es) Con una configuración sencilla a nivel de sitio, convierta su experiencia de AEM en una PWA.
+La versión 2.15.0 de los componentes principales introdujo la compatibilidad con las [funciones de aplicaciones web progresivas (PWA) ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/features/enable-pwa.html?lang=es) integradas de AEM as a Cloud Service. Con una configuración simple a nivel de sitio, convierta su experiencia AEM en una PWA.
 
 ### Detalles técnicos {#technical-details}
 
