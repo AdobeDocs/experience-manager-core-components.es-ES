@@ -52,7 +52,7 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente acerca del componente Teaser de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1)
+La documentación técnica más reciente acerca del componente Teaser de correo electrónico [se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_email_segmentation_v1_es)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
@@ -151,6 +151,6 @@ Toque o haga clic en el botón **Añadir** para crear nuevas condiciones.
 * **Nombre de la condición del segmento**: una descripción de la condición
 * **Condición del segmento**: la condición que debe cumplirse, en función de las variables de personalización de Adobe Campaign
    * [Consulte aquí los recursos de personalización de Adobe Campaign Standard.](https://experienceleague.adobe.com/es/docs/campaign-standard/using/designing-content/personalization)
-   * [Consulte aquí los recursos de personalización de Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/
+   * [Consulte aquí los recursos de personalización de Adobe Campaign Classic.]&#x200B;(https://experienceleague.adobe.com/docs/?lang=es
 * **Eliminar**: toque o haga clic para quitar la condición
 * **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de las condiciones
