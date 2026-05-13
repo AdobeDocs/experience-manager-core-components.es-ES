@@ -3,9 +3,15 @@ title: Uso de componentes principales
 description: 'Para empezar a utilizar los componentes principales de su propio proyecto, hay que seguir tres pasos: descargar e instalar, crear componentes proxy, cargar los estilos principales y permitir los componentes de las plantillas.'
 role: Developer, Admin, User
 exl-id: ee2d25e4-e2b8-4ecc-a62c-f0066de2bf2d
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/a6e4uJvZZmYypwhs5IPNMz9flf0FyFrItvT9poO6Ly4
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '1043'
+source-wordcount: 1043
 ht-degree: 100%
 
 ---
@@ -46,7 +52,7 @@ Algunos puntos que se deben tener en cuenta al utilizar los componentes principa
 * Si el proyecto anteriormente incluía los componentes principales en `/apps`, [es posible que tenga que ajustar el proyecto.](/help/developing/overview.md#via-aemaacs)
 * Aunque los componentes principales se encuentran ahora en `/libs`, no se recomienda crear ninguna superposición de la misma ruta en `/apps`. En lugar de eso, se debe utilizar el [patrón de componentes proxy](/help/developing/guidelines.md#proxy-component-pattern) si fuera necesario personalizar cualquier aspecto de los componentes.
 * Para que el [Componente Tabla de contenido](/help/components/tableofcontents.md) procese su contenido, es necesario configurar un filtro en OSGi.
-   * [Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1_es) para más información.
+   * [Consulte la documentación de GitHub del componente](https://adobe.com/go/aem_cmp_tech_tableofcontents_v1) para más información.
 
 ### AEM 6.5 y anteriores {#aem-65}
 

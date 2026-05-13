@@ -3,9 +3,14 @@ title: Directrices sobre los componentes
 description: Los componentes principales siguen patrones de implementación modernos que son bastante diferentes de los componentes de base.
 role: Developer, Admin
 exl-id: e8c58fa5-c991-433c-8d38-575dacfc3433
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/9OtZE6WvunYHWuoPJL6QTuu1ofPFtor0Y46-xpu-mDk
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '1296'
+source-wordcount: 1296
 ht-degree: 100%
 
 ---
@@ -32,7 +37,7 @@ Para ir más lejos, si los componentes se reutilizan en sitios o proyectos, cons
 
 ### Separación de preocupaciones {#separation-of-concerns}
 
-Normalmente se recomienda mantener la lógica (o el modelo) de un componente separado de la plantilla (o vista) de marcado. Existen varias formas de conseguirlo, pero la recomendada es utilizar [Modelos Sling](https://sling.apache.org/documentation/bundles/models.html?lang=es) para la lógica y el [Lenguaje de plantilla HTML](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) (HTL) para el marcado, como también lo hacen los componentes principales.
+Normalmente se recomienda mantener la lógica (o el modelo) de un componente separado de la plantilla (o vista) de marcado. Existen varias formas de conseguirlo, pero la recomendada es utilizar [Modelos Sling](https://sling.apache.org/documentation/bundles/models.html) para la lógica y el [Lenguaje de plantilla HTML](https://experienceleague.adobe.com/docs/experience-manager-htl/using/overview.html?lang=es) (HTL) para el marcado, como también lo hacen los componentes principales.
 
 Los modelos Sling son un conjunto de anotaciones Java para acceder fácilmente a las variables necesarias desde los POJO y, por lo tanto, ofrecen una forma sencilla, potente y eficaz de implementar la lógica Java para los componentes.
 

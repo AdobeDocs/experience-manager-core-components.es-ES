@@ -3,13 +3,16 @@ title: Componente Barra de progreso
 description: El componente Barra de progreso representa visualmente el progreso hacia un objetivo
 role: Developer, Admin, User
 exl-id: 47afc5a6-ac57-4b6c-92c4-015ca956a20b
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/Ovas6znS8-Pimv0hU5zPCnPuugjg2YyucQJbn1r6m8g
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '343'
+source-wordcount: 343
 ht-degree: 100%
 
 ---
-
 
 # Componente Barra de progreso {#progress-bar-component}
 
@@ -37,7 +40,7 @@ Para experimentar el componente Barra de progreso, así como ver ejemplos de sus
 
 ### Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Barra de progreso [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1_es).
+La documentación técnica más reciente sobre el componente Barra de progreso [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_progress_v1).
 
 Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
 
