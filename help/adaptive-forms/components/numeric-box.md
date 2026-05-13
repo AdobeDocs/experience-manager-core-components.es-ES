@@ -3,13 +3,24 @@ title: 'Componente principal de formularios adaptables: entrada de número'
 description: Uso o personalización del componente principal de entrada de número de formularios adaptables.
 role: Developer, Admin, User
 exl-id: 75604ecf-1ec5-4e97-b934-d6ed49726147
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/HAvwSxEK-bGV-0q8OMvnQc3ph-lGRzcvDqPHu0YGqMg
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '2446'
+source-wordcount: 2446
 ht-degree: 100%
 
 ---
-
 
 # Componente Cuadro numérico{#number-input-adaptive-forms-core-component}
 
@@ -82,7 +93,7 @@ Puede personalizar fácilmente la experiencia de entrada de números para los vi
 - **Deshabilitar componente**: seleccione la opción para desactivar el componente. El componente desactivado no está activo ni puede editarlo el usuario final. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Solo lectura**: seleccione la opción para que el componente no se pueda editar. El usuario puede ver el valor del campo, pero no modificarlo. El componente permanece accesible para otros fines, como utilizarlo para los cálculos en el Editor de reglas.
 - **Tipo de número**: esta opción permite seleccionar el tipo de valores numéricos permitidos en el campo del formulario. Puede seleccionar los tipos Decimal o Entero en el menú desplegable.
-- **Valor predeterminado**: esta opción le permite agregar un valor predeterminado en un campo de formulario. Si **Componente desactivado** o **Componente de solo lectura** está seleccionado, el valor predeterminado se muestra en la pantalla. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento del envío del formulario
+- **Valor predeterminado**: esta opción le permite agregar un valor predeterminado en un campo de formulario. Si se selecciona **Componente desactivado** o **Componente de solo lectura**, aparece en pantalla el valor predeterminado. Si el usuario no introduce ningún valor en el campo del formulario, este valor se envía en el momento del envío del formulario
 
 ### Pestaña Validación {#validation-tab}
 
@@ -195,7 +206,7 @@ Para añadir formatos a la política de plantilla:
    ![Política de plantilla del selector de fecha](/help/adaptive-forms/assets/number-input-policy.png)
 3. Haga clic en el icono **[!UICONTROL Añadir]** para crear una nueva política para el componente Entrada de número.
 4. Escriba un nombre para la política y seleccione todos los formatos necesarios en la pestaña **Formato**.
-   ![Crear una política](/help/adaptive-forms/assets/date-picker-format-policy.png)
+   ![Crear política](/help/adaptive-forms/assets/date-picker-format-policy.png)
 5. Haga clic en **[!UICONTROL Listo]**.
 
 <!--

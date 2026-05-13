@@ -3,9 +3,17 @@ title: Servlet de imagen adaptable
 description: Descubra cómo los componentes principales utilizan el servlet de imagen adaptable para la entrega de imágenes y cómo puede optimizarlo.
 role: Developer, Admin, User
 exl-id: d9199d51-6f09-4000-9525-afc30474437e
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/zfjxGeTjON5PKCAp63gcBb76rDEmIPewkGcLFvsNb0c
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '487'
+source-wordcount: 487
 ht-degree: 100%
 
 ---
@@ -39,7 +47,7 @@ El servlet de imagen adaptable seleccionará automáticamente la representación
 
 1. El servlet de imagen adaptable revisa todas las representaciones disponibles del recurso de imagen.
 1. Solo selecciona las que tienen el mismo MIME/tipo del recurso al que se hace referencia original.
-   * Por ejemplo:si el recurso original era un PNG, solo tendrá en cuenta las representaciones PNG.
+   * E.g. si el recurso original era un PNG, solo tendrá en cuenta las representaciones PNG.
 1. De esas representaciones, considera las dimensiones y las compara con el tamaño del contenedor en el que se debe mostrar la imagen.
 1. Si la representación es >= el tamaño del contenedor, se añade a una lista de candidatas.
 1. Si la representación es &lt; el tamaño del contenedor, no se tiene en cuenta.

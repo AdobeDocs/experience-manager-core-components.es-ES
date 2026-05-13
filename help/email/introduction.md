@@ -4,13 +4,29 @@ description: Cree contenido de correo electrónico atractivo con la flexibilidad
 role: Developer, Admin, User
 exl-id: 0a411f28-bd6a-4bad-b473-6bc27c1d1055
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/PLDfeItW57FUgvSUO7kHgeNP8KogBwVA2AeEd-srbwg
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: ae478996-b206-4712-9b0c-dc78a2644453
+  - id: d429a63e-ade4-4117-b04e-9b996d1c94ef
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+  - id: eb3ad9f8-54a2-45f3-abb1-d3976415a718
+subfeature_v2:
+  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '439'
+source-wordcount: 439
 ht-degree: 100%
 
 ---
-
 
 # Introducción a los componentes principales de correo electrónico {#email-core-components-introduction}
 

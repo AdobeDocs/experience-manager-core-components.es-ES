@@ -4,13 +4,22 @@ description: El componente principal de lista (versión 3) permite crear fácilm
 role: Developer, Admin, User
 exl-id: 4aefce2e-9c22-4c6d-869e-aaa8c246b073
 index: false
-source-git-commit: 7ba1374bd64686c2e7ac44398d77fb187ff60949
+TQID: https://experienceleague.adobe.com/uddMkZhWzXTxJKkTKt7NHjoLt2uRAV33ZHyRHvl4Xeo
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
 workflow-type: ht
-source-wordcount: '1177'
+source-wordcount: 1177
 ht-degree: 100%
 
 ---
-
 
 # Componente Lista (versión 3) {#list-component}
 
@@ -133,7 +142,7 @@ Donde se debería iniciar la coincidencia de etiquetas
 Qué etiquetas deben coincidir
    * Utilice el cuadro de diálogo **Examinar** para seleccionar las etiquetas
 * **Coincidencia**
-Definir qué tipo de coincidencia debe condicionar a una página para incluirla en la lista
+Defina qué tipo de coincidencia debe condicionar a una página para incluirla en la lista
    * **cualquier etiqueta**
    * **todas las etiquetas**
 
@@ -196,7 +205,7 @@ Formato que se usará para la visualización de la fecha de la última modificac
 Deshabilitar el tipo de lista de elementos secundarios en el componente
 * **Deshabilitar estática**
 Deshabilitar el tipo de lista estática en el componente
-* **Desactivar búsqueda**
+* **Deshabilitar búsqueda**
 Deshabilitar el tipo de lista de búsqueda en el componente
 * **Desactivar etiquetas**
 Deshabilitar el tipo de lista de etiquetas en el componente
@@ -210,7 +219,7 @@ En la pestaña **Configuración de elementos**, se pueden definir las opciones d
 * **Vincular elementos**
 Habilitar la opción de elementos de vínculo en el [cuadro de diálogo de edición](#edit-dialog)
 * **Mostrar descripciones**
-Habilitar la opción Mostrar descripciones en el [cuadro de diálogo de edición](#edit-dialog)
+Habilitar la opción Mostrar descripciones en el  [cuadro de diálogo de edición](#edit-dialog)
 * **Mostrar fecha**
 Habilitar la opción Mostrar fecha en el [cuadro de diálogo de edición](#edit-dialog)
 
