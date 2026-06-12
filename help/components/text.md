@@ -4,19 +4,13 @@ description: El componente Texto es un componente de composición y edición de 
 role: Developer, Admin, User
 exl-id: bcea202a-9ecb-4dcd-99b6-0848cbb9d500
 TQID: https://experienceleague.adobe.com/K--Dbh0QmllM2oy7EBVsQ8f-eMV32-f9bL16tcTyoiU
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2265
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2206
+ht-degree: 99%
 
 ---
 
@@ -161,8 +155,8 @@ Utilice esta opción para buscar en el texto ocurrencias de una cadena de texto 
 
 ![Buscar ejemplo](/help/assets/text-find-example.png)
 
-Escriba el texto que quiera buscar y toque o haga clic en **Buscar** para comenzar. Pulse o haga clic en la x para cancelar.
-Si desea buscar una coincidencia exacta teniendo en cuenta las minúsculas y las mayúsculas, seleccione la opción **Coincidir minúsculas y mayúsculas** antes de iniciar la búsqueda.
+Escriba el texto que quiera buscar y toque o haga clic en **Buscar** para comenzar la búsqueda. Pulse o haga clic en la x para cancelar.
+Si desea buscar una coincidencia exacta según las mayúsculas y minúsculas, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
 Si se encuentra una coincidencia, esta se resaltará y el cuadro de diálogo de búsqueda se atenuará. Pulse o haga clic de nuevo en el botón **Buscar** del cuadro de diálogo atenuado para buscar la siguiente ocurrencia.
 
 ![Buscar ejemplo](/help/assets/text-find-example-found.png)
