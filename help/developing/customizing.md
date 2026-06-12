@@ -4,20 +4,12 @@ description: Los Componentes principales implementan varios patrones que facilit
 role: Developer, Admin
 exl-id: ec4b918b-bc70-4d72-ba84-a24556aedb41
 TQID: https://experienceleague.adobe.com/7yF-HbenJw79uzNTMkUuJstaW2-usvusa-EveTJXhNk
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552eid: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+source-git-commit: a7423900fd8302f5b5e59bad28bb727978c35288
+workflow-type: tm+mt
 source-wordcount: 1146
 ht-degree: 100%
 
@@ -126,7 +118,7 @@ A veces, el estilo avanzado requiere una estructura de marcado diferente del com
 
 Esto se puede hacer fácilmente copiando los archivos HTL que necesitan modificarse del componente principal al [componente proxy.](guidelines.md#proxy-component-pattern)
 
-Siguiendo de nuevo el ejemplo del componente de ruta de exploración principal, para personalizar su salida de marcado, el archivo `breadcrumb.html` tendría que copiarse en el componente específico del sitio que tenga un `sling:resourceSuperTypes` que apunte al componente de ruta de exploración principal.
+Siguiendo de nuevo el ejemplo del componente de ruta de exploración principal, para personalizar su salida de marcado, el archivo `breadcrumb.html` tendría que copiarse en el componente específico del sitio que tenga un `sling:resourceSuperType` que apunte al componente de ruta de exploración principal.
 
 ### Diseño de los componentes {#styling-the-components}
 
