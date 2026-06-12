@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2349
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2334
+ht-degree: 99%
 
 ---
 
@@ -103,8 +103,8 @@ Puede personalizar fácilmente la experiencia del botón de radio para los visit
    - **Valor de datos**: esta opción permite introducir el contenido que se enviará cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
    - **Eliminar**: pulse o haga clic para eliminar la opción de un botón de radio.
-   - **Reorganizar**: pulse o haga clic y arrastre para reorganizar el orden de las opciones.
-También puede dar formato a las opciones del grupo de botones de opción mediante **Permitir texto enriquecido en las opciones**.
+   - **Reorganizar**: toque o haga clic y arrastre para reorganizar el orden de las opciones.
+También puede dar formato a las opciones del grupo de botones de opción mediante **Permitir texto enriquecido para las opciones**.
 
   ![Compatibilidad del texto enriquecido con las opciones](/help/adaptive-forms/assets/richtext-for-options.png)
 
@@ -200,6 +200,6 @@ Los componentes del botón de opción (v2) se representan dentro de un elemento 
 
 {{more-like-this}}
 
-## Ver también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

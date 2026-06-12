@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2089
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2083
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ Puede personalizar fácilmente la experiencia de archivo adjunto para los visita
 
 <!--   **Minimum files error message** - This option is used to enter an error message that is displayed if you upload files lesser than the specified minimum number of files.-->
 
-- **Tamaño máximo del archivo (MB)**: esta opción permite especificar un tamaño máximo de archivo. Los tamaños de archivo se especifican en MB.
+- **Tamaño máximo de archivo (MB)**: esta opción permite especificar un tamaño máximo de archivo. Los tamaños de archivo se especifican en MB.
   <!--   **Maximum files error message** - This option is used to enter an error message that is displayed if you upload files greater than the specified maximum number of files.-->
 
 - **Mensaje de error de tamaño de archivo máximo**: esta opción se utiliza para escribir un mensaje de error que se muestra si se cargan archivos de tamaño superior al tamaño de archivo especificado en la opción de **Tamaño máximo del archivo (MB)**.
@@ -182,6 +182,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Ver también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

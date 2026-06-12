@@ -15,7 +15,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 0cb3e3f06a8b78e6d5093636dafd2e2f292c1d14
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 765
 ht-degree: 100%
 
@@ -84,6 +84,6 @@ En el siguiente vídeo se muestra cómo configurar el componente **Revisar** par
 
 {{more-like-this}}
 
-## Ver también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

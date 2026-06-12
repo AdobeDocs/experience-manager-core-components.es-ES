@@ -4,7 +4,7 @@ description: Aprenda a configurar políticas de plantilla para exponer patrones 
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
 source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
 

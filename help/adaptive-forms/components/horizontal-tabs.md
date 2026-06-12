@@ -16,9 +16,9 @@ role_v2:
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2213
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2186
+ht-degree: 99%
 
 ---
 
@@ -124,8 +124,8 @@ Puede utilizar las opciones de repetibilidad para duplicar el componente Pestañ
 
 - **Hacer repetibles las pestañas en la parte superior**: función de alternancia que permite a los usuarios habilitar o deshabilitar la funcionalidad de repetibilidad.
 - **Repeticiones mínimas**: establece el número mínimo de veces que se puede repetir el componente pestañas horizontales. Un valor de cero indica que el componente de pestañas horizontales no se repite; el valor predeterminado es cero.
-- **Máximo de repeticiones**: establece el número máximo de veces que se puede repetir el componente pestañas horizontales. De forma predeterminada, este valor es ilimitado.
-Para administrar de forma eficaz las secciones repetibles dentro de las pestañas horizontales, siga los pasos que se proporcionan en el artículo [Crear formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).
+- **Máximo de repeticiones**: Establece el número máximo de veces que se puede repetir el componente de tabulaciones horizontales. De forma predeterminada, este valor es ilimitado.
+Para administrar de manera eficaz las secciones repetibles dentro de las pestañas horizontales, siga los pasos que se proporcionan en el artículo [Creación de formularios con secciones repetibles](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/forms/adaptive-forms-authoring/authoring-adaptive-forms-core-components/create-an-adaptive-form-on-forms-cs/create-forms-repeatable-sections.html?lang=es).
 
 ### Pestaña Elementos {#items-tab}
 
@@ -203,6 +203,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Ver también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}
