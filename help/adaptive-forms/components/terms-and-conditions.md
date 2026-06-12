@@ -4,23 +4,14 @@ description: Usar o personalizar el Componente principal de los Términos y cond
 role: Developer, Admin, User
 exl-id: c607d554-ad2d-4434-856d-91e174ef3149
 TQID: https://experienceleague.adobe.com/dPJ3FvF9drge2Fr6A8ZmuSD9Tcg0iI2uyOjTngUvpcI
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: d095671a-1355-40aa-8b5f-06c33c68080bid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 3266
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 3244
+ht-degree: 99%
 
 ---
 
@@ -196,8 +187,8 @@ Este componente reemplaza un texto de consentimiento con un vínculo o vínculos
 
 - **Ocultar título**: seleccione la opción para ocultar el título del componente.
 
-- **Vínculos**: especifique el vínculo y el texto para mostrar correspondiente que se utiliza en lugar del texto de consentimiento. Para añadir varios vínculos, haga clic en el botón **Añadir**.
-Una vez añadida una nueva opción, se pueden realizar las acciones siguientes:
+- **Vínculos**: especifique el vínculo y el texto para mostrar correspondiente que se usa en lugar del texto de consentimiento. Para agregar varios vínculos, haz clic en el botón **Agregar**.
+Después de añadir una nueva opción, se pueden realizar las siguientes acciones:
    - **Vincular**: esta opción permite introducir la URL que se redirigirá cuando se seleccione una opción.
    - **Mostrar texto**: esta opción permite introducir el contenido que se mostrará en el formulario adaptable.
    - **Eliminar**: pulse o haga clic para eliminar la opción de un botón de radio.
@@ -264,6 +255,6 @@ Puede personalizar fácilmente el [Componente de las casillas de verificación](
 
 {{more-like-this}}
 
-## Ver también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

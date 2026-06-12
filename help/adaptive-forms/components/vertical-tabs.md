@@ -4,28 +4,21 @@ description: Uso o personalización del componente principal de pestañas vertic
 role: Developer, Admin, User
 exl-id: d5cd1c18-6840-4f2f-a767-a69b803e6075
 TQID: https://experienceleague.adobe.com/WDH-FeDLxftyNGf06-6aoUoY0NTF1G-M5BqzgXukExk
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2214
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2130
+ht-degree: 98%
 
 ---
 
 # Componente Pestañas verticales{#vertical-tabs-adaptive-forms-core-component}
 
-Las pestañas verticales de un Formulario adaptable hacen referencia a un patrón de diseño en el que varias secciones de un formulario se agrupan conjuntamente y se muestran como pestañas independientes, alineadas horizontalmente. Se puede pasar de una pestaña a otra para acceder a diferentes secciones del formulario. Cada pestaña actúa como un activador para mostrar y ocultar el contenido del formulario relacionado. Las pestañas horizontales ayudan a organizar formularios largos en secciones manejables y mejoran la experiencia del usuario. Las pestañas pueden ayudar a que un formulario sea más accesible para las personas con discapacidades, ya que pueden cambiar entre secciones con la navegación mediante el teclado.
-Cuando un usuario hace clic en una pestaña, el contenido del formulario se actualiza de forma dinámica para mostrar la sección correspondiente.
+Las pestañas verticales de un formulario adaptable hacen referencia a un patrón de diseño en el que varias secciones de un formulario se agrupan y se muestran como pestañas independientes, alineadas verticalmente. El usuario puede alternar entre las pestañas para acceder a diferentes secciones del formulario. Cada pestaña actúa como un déclencheur para mostrar y ocultar el contenido del formulario relacionado. Las pestañas verticales ayudan a organizar los formularios largos en secciones manejables y mejorar la experiencia del usuario. Las pestañas pueden ayudar a que un formulario sea más accesible para los usuarios con discapacidades, ya que pueden cambiar entre secciones mediante la navegación con el teclado.
+Cuando un usuario hace clic en una pestaña, el contenido del formulario se actualiza dinámicamente para mostrar la sección correspondiente.
 
 >[!NOTE]
 >
@@ -200,6 +193,6 @@ Las propiedades personalizadas le permiten asociar atributos personalizados (par
 
 {{more-like-this}}
 
-## Ver también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}

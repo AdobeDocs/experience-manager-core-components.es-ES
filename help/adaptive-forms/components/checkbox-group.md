@@ -4,21 +4,14 @@ description: Uso o personalización del componente principal del grupo de casill
 role: Developer, Admin, User
 exl-id: 2ced0223-e664-470b-a400-b6865d3a67c9
 TQID: https://experienceleague.adobe.com/6TicW4M5RGGd5b6dQZnIthLpXKhTwM1r9Fli8s3EqWo
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2316
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2302
+ht-degree: 99%
 
 ---
 
@@ -76,7 +69,7 @@ Para obtener información sobre las versiones y publicaciones de los componentes
 <!--
 ## Sample Component Output {#sample-component-output}
 
-To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion_es). 
+To experience the Accordion Component as well as see examples of its configuration options as well as HTML and JSON output, visit the [Component Library](https://adobe.com/go/aem_cmp_library_accordion). 
 -->
 
 ## Detalles técnicos {#technical-details}
@@ -114,7 +107,7 @@ Puede personalizar fácilmente la experiencia de las casillas de verificación p
 
   ![Compatibilidad del texto enriquecido con las opciones](/help/adaptive-forms/assets/richtext-for-options.png)
 
-  Una vez seleccionada la casilla de verificación de **Permitir texto enriquecido en las opciones**, las opciones de formato se vuelven visibles para aplicar estilo a las opciones del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en la pestaña `Fullscreen` ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png).
+  Una vez seleccionada la casilla de verificación de **Permitir texto enriquecido para las opciones**, las opciones de formato estarán visibles para aplicar estilo a las opciones del componente. Para acceder a todas las opciones de formato disponibles, puede hacer clic en la pestaña `Fullscreen` ![Icono de pantalla completa](/help/adaptive-forms/assets/fullscreen-icon.png).
   ![Compatibilidad del texto enriquecido con las opciones](/help/adaptive-forms/assets/richtextoptions-support.png)
 
 - **Referencia de vínculo**: una referencia de vínculo es una referencia a un elemento de datos que se almacena en una fuente de datos externa y se utiliza en un formulario. La referencia de enlace permite enlazar datos de forma dinámica a campos de formulario, de modo que el formulario pueda mostrar los datos más actualizados de la fuente de datos. Por ejemplo, se puede utilizar una referencia de enlace para mostrar el nombre y la dirección de un cliente en un formulario, según el ID introducido en el formulario por el cliente. La referencia de enlace también se puede utilizar para actualizar la fuente de datos con los datos del formulario. De este modo, AEM Forms permite crear formularios que interactúen con fuentes de datos externas, lo que proporciona al usuario una experiencia óptima para recopilar y administrar datos.
@@ -205,6 +198,6 @@ El componente del grupo de casillas de verificación (v2) se procesa dentro de u
 
 {{more-like-this}}
 
-## Ver también {#see-also}
+## Consulte también {#see-also}
 
 {{see-also}}
