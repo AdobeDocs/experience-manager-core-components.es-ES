@@ -15,9 +15,9 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 2346
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: 2287
+ht-degree: 99%
 
 ---
 
@@ -164,8 +164,8 @@ Utilice esta opción para buscar en el texto ocurrencias de una cadena de texto 
 
 ![Buscar ejemplo](/help/assets/text-find-example.png)
 
-Escriba el texto que quiera buscar y toque o haga clic en **Buscar** para comenzar. Pulse o haga clic en la x para cancelar.
-Si desea buscar una coincidencia exacta teniendo en cuenta las minúsculas y las mayúsculas, seleccione la opción **Coincidir minúsculas y mayúsculas** antes de iniciar la búsqueda.
+Escriba el texto que quiera buscar y toque o haga clic en **Buscar** para comenzar la búsqueda. Pulse o haga clic en la x para cancelar.
+Si desea buscar una coincidencia exacta según las mayúsculas y minúsculas, seleccione la opción **Coincidir mayúsculas y minúsculas** antes de iniciar la búsqueda.
 Si se encuentra una coincidencia, esta se resaltará y el cuadro de diálogo de búsqueda se atenuará. Pulse o haga clic de nuevo en el botón **Buscar** del cuadro de diálogo atenuado para buscar la siguiente ocurrencia.
 
 ![Buscar ejemplo](/help/assets/text-find-example-found.png)
