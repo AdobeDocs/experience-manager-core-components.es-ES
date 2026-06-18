@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 3887
-ht-degree: 100%
+source-git-commit: 44091110a4cb18c6c35a22ee5ac9a9863ac8ae00
+workflow-type: tm+mt
+source-wordcount: 3937
+ht-degree: 98%
 
 ---
 
@@ -44,6 +44,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|---|
+| [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Esta versión introdujo la compatibilidad con los datos JSON-LD para el Componente de página, así como un rendimiento mejorado para varios otros componentes, además de numerosas correcciones de errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 19 de mayo de 2026 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Esta versión corrigió el problema de validación de rutas. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 30 de enero de 2026 |
 | [2.30.3](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.3) | Esta versión corrigió una regresión en el cuadro de diálogo de la política Componente de título. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 5 de diciembre de 2025 |
 | [2.30.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.2) | Esta versión corrigió una cadena no localizada relacionada con el visor de PDF. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 23 de octubre de 2025 |
@@ -97,7 +98,7 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 | [2.13.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.13.0) | Esta versión incluye nuevas funciones de Dynamic Media para el [Componente de imagen.](/help/components/image.md) | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 4 de diciembre de 2020 |
 | [2.12.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.2) | Este fue un parche para la versión 2.12.0 que incluía correcciones menores. | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 11 de noviembre de 2020 |
 | [2.12.1](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.1) | Este fue un parche para 2.12.0 que corregía un error importante en el [Componente de imagen.](/help/components/image.md) | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 5 de noviembre de 2020 |
-| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Esta versión introdujo [un nuevo controlador de formularios POST;](/help/components/forms/form-container.md#post-data) la posibilidad de incluir etiquetas personalizadas de CSS, Javascript y metadatos[ a través de una configuración consciente del contexto;](/help/developing/including-clientlibs.md#context-aware-loading) y una utilidad `DataLayerBuilder` para [simplificar la integración de la capa de datos en los componentes personalizados.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 29 de octubre de 2020 |
+| [2.12.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.12.0) | Esta versión introdujo [un nuevo controlador de formularios POST;](/help/components/forms/form-container.md#post-data) la posibilidad de incluir etiquetas personalizadas de CSS, Javascript y metadatos[&#x200B; a través de una configuración consciente del contexto;](/help/developing/including-clientlibs.md#context-aware-loading) y una utilidad `DataLayerBuilder` para [simplificar la integración de la capa de datos en los componentes personalizados.](/help/developing/data-layer/integrations.md#enabling-custom-components) | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 29 de octubre de 2020 |
 | [2.11.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0) | Esta versión introdujo la [compatibilidad con AMP.](/help/developing/amp.md) | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 20 de julio de 2020 |
 | [2.10.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.10.0) | Esta versión introdujo el componente [Visor de PDF.](/help/components/pdf-viewer.md) | 6.4.8.1+ | 6.5.5.0+ | - | Continua | 8, 11 | 17 de junio de 2020 |
 | [2.9.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.9.0) | Esta versión habilitó la integración con la [capa de datos del cliente de Adobe](/help/developing/data-layer/overview.md) e introdujo el componente [barra de progreso.](/help/components/progress-bar.md) | 6.4.8.0+ | 6.5.4.0+ | - | Continua | 8, 11 | 29 de mayo de 2020 |
