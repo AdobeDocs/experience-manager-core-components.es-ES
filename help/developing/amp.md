@@ -14,12 +14,13 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 578
-ht-degree: 100%
+source-git-commit: 59ca85e0f0b99ba46bb2b85f383f1fefd2b1c5fd
+workflow-type: tm+mt
+source-wordcount: 680
+ht-degree: 76%
 
 ---
+
 
 # Compatibilidad con AMP para Componentes principales {#amp-support}
 
@@ -43,10 +44,12 @@ Los proyectos individuales pueden decidir si se utiliza o no AMP. De hecho, como
 
 Aunque la compatibilidad con AMP ofrece un buen nivel de flexibilidad, para empezar a utilizarla rápidamente se necesita completar unos pocos pasos sencillos:
 
-1. Instale la extensión de compatibilidad con AMP si es necesario.
-   * Para proyectos de AEM as a Cloud Service, la extensión está disponible automáticamente con los componentes principales y no es necesario realizar ninguna instalación.
-   * Para los proyectos locales y AMS, la extensión debe instalarse explícitamente al instalar los componentes principales.
-1. Una vez instalada la extensión de AMP, el autor del componente debe indicar los supertipos de componentes a los de la extensión.
+1. [Instalación de los componentes principales](/help/get-started/using.md#download-and-install)
+   * Para los proyectos de AEM as a Cloud Service, los componentes principales están disponibles de forma predeterminada y no es necesaria ninguna instalación adicional.
+   * Para los proyectos locales y de AMS, puede [descargar el paquete de contenido más reciente para los componentes principales desde GitHub](https://github.com/adobe/aem-core-wcm-components/releases/latest) e instalarlo en sus entornos de AEM.
+   * Si el proyecto On-Premise o AMS utiliza una versión de componentes principales anterior a la 2.14.0, también debe instalar la extensión AMP disponible como parte de la versión en GitHub.
+1. Dirija su componente `resourceSuperType`s a `core/wcm/extensions/amp/components/page/v1/page`.
+   * Si usó [el tipo de archivo del proyecto de AEM](/help/developing/archetype/using.md) para su proyecto como práctica recomendada y eligió [la opción para habilitar la compatibilidad con AMP](https://github.com/adobe/aem-project-archetype/tree/develop), esto se hizo automáticamente.
 1. [Habilite la compatibilidad con AMP](#enabling-amp) en el nivel de plantilla o en sus páginas individuales.
 1. [Implemente CSS en línea](#css-requirements) según sea necesario.
 
@@ -68,6 +71,8 @@ La configuración de AMP para una página también se puede sobrescribir en [Pro
 * **Sin AMP**: la página se entrega solo como HTML estándar.
 * **AMP emparejado**: la página se entrega como AMP, así como HTML.
 * **Solo AMP**: la página se entrega como AMP solamente.
+
+Estas opciones aparecen en la interfaz de usuario solo si `resourceSuperType` está configurado correctamente para la compatibilidad con AMP. El contenido de muestra WKND predeterminado no tiene `resourceSuperType` establecido y, por lo tanto, las opciones de AMP no están visibles en la interfaz de usuario.
 
 ### Requisitos de CSS {#css-requirements}
 
