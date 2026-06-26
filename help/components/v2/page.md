@@ -5,23 +5,15 @@ role: Developer, Admin, User
 exl-id: e85fe4db-6de4-4a84-a54c-bd07a67efed3
 index: false
 TQID: https://experienceleague.adobe.com/p1V-3XLpA6H-rC-zWIYFqbPkd6HW7bBLWFXaj8aeNAs
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: 2a9a69dd7eeade8cdc2f681a354350c4370d5d1b
 workflow-type: tm+mt
-source-wordcount: 662
-ht-degree: 100%
+source-wordcount: 753
+ht-degree: 90%
 
 ---
 
@@ -58,6 +50,12 @@ Puede encontrar más información sobre el desarrollo de componentes principales
 ## Cuadro de diálogo de edición {#edit-dialog}
 
 Dado que el componente representa la página completa, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana [Propiedades de página](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/sites/authoring/fundamentals/page-properties.html?lang=es).
+
+### Compatibilidad con datos estructurados {#structured-data}
+
+La [versión 2.31.0](/help/versions.md) de los componentes principales introdujo el soporte de datos estructurados (JSON-LD) de nivel de página de [schema.org](https://schema.org) tipos a todas las versiones del componente de página.  AEM procesa estos bloques del lado del servidor en el encabezado de la página.
+
+La versión [2026.6.0 de AEM as a Cloud Service](https://experienceleague.adobe.com/es/docs/experience-manager-release-information/aem-release-updates/update-releases-roadmap) agregó la capacidad para que los autores usen la ventana Propiedades de página para agregar uno o más bloques JSON-LD a una página en la sección **SEO** de la pestaña **Avanzado**.
 
 ## Cuadro de diálogo de diseño {#design-dialog}
 
