@@ -696,7 +696,7 @@ El siguiente es un ejemplo tomado de [We.Retail](https://experienceleague.adobe.
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
-Dado que el componente representa la página completa, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana [Propiedades de página](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
+Dado que el componente representa la página completa, la configuración que normalmente estaría en un cuadro de diálogo de edición se encuentra en la ventana [Propiedades de página](https://experienceleague.adobe.com/es/docs/experience-manager-65/content/sites/authoring/authoring/editing-page-properties).
 
 ### Compatibilidad con datos estructurados {#structured-data}
 
