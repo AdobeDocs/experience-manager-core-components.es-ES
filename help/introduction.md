@@ -4,23 +4,14 @@ description: Obtenga soluciones a problemas con los componentes principales y pe
 role: Developer, Admin, User
 exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 TQID: https://experienceleague.adobe.com/TDVZQa4ww1rGJIoAeFyMRPREuUSWPcAUI0mwBHYASTI
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-subfeature_v2:
-  - id: f86a5563-8f73-4ec0-be7d-a1782604870a
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
-  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+subfeature_v2: id: f86a5563-8f73-4ec0-be7d-a1782604870a
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: c18d9e03-ac7d-4811-9c92-3e92ddc70adeid: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+source-git-commit: b0411193f08f39219ad4c791084c42cdcd8f8027
 workflow-type: tm+mt
-source-wordcount: 1076
+source-wordcount: 1077
 ht-degree: 98%
 
 ---
@@ -39,10 +30,10 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 * **Documentación de componentes (este documento):** para desarrolladores y autores, con detalles sobre cada componente.
 * **[Repositorio de componentes principales de GitHub:](https://github.com/adobe/aem-core-wcm-components)** para obtener detalles del desarrollador de cada componente y descarga de proyecto.
 * Introducción:
-   * **[Éxito con los componentes principales:](/help/developing/success.md)** instrucciones que se deben tener en cuenta mucho antes del inicio de cualquier proyecto que vaya a utilizar los componentes principales.
-   * **[Tutorial de WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)** tutorial de dos días para crear un nuevo sitio.
-   * **[Tutorial Summit:](https://expleague.azureedge.net/labs/L767/index.html)** un tutorial de dos horas para construir un nuevo sitio (de un laboratorio en la US Summit 2019).
-   * **[Seminario web de Gems:](https://helpx.adobe.com/es/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** visita guiada por los componentes principales (grabada en diciembre de 2018).
+  * **[Éxito con los componentes principales:](/help/developing/success.md)** instrucciones que se deben tener en cuenta mucho antes del inicio de cualquier proyecto que vaya a utilizar los componentes principales.
+  * **[Tutorial de WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)** tutorial de dos días para crear un nuevo sitio.
+  * **[Tutorial Summit:](https://expleague.azureedge.net/labs/L767/index.html)** un tutorial de dos horas para construir un nuevo sitio (de un laboratorio en la US Summit 2019).
+  * **[Seminario web de Gems:](https://helpx.adobe.com/es/experience-manager/kt/eseminars/gems/AEM-Core-Components.html)** visita guiada por los componentes principales (grabada en diciembre de 2018).
 
 ## Características {#features}
 
@@ -58,7 +49,7 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 | Compatible con SEO | La salida de HTML es semántica y proporciona anotaciones de microdatos de tipo [schema.org](https://schema.org). |
 | Preparado para la aplicación web | La [salida JSON optimizada](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=es) permite el procesamiento en el lado del cliente, con la posibilidad de [editar en contexto](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es). |
 | Compatibilidad con AMP | Los componentes tienen [compatibilidad integrada con el estándar AMP,](/help/developing/amp.md) lo que acelera las experiencias móviles. |
-| Kit de diseño | Un [kit de interfaz de usuario para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=es) permite a los diseñadores crear mallas metálicas que luego pueden [dar forma según sea necesario](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
+| Kit de diseño | Un [kit de interfaz de usuario para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) permite a los diseñadores crear mallas metálicas que luego pueden [dar forma según sea necesario](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
 | Configurable | Los componentes implementan el [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=es) y el marcado sigue la [nomenclatura de BEM CSS](https://getbem.com/). |
 | Personalizable | Varios patrones permiten [una fácil personalización](developing/customizing.md), desde ajustar el HTML a una reutilización avanzada de la funcionalidad. |
 | Versiones | La [directiva de versiones](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garantiza que los componentes principales no romperán el sitio al mejorar las cosas que puedan afectarle. |
@@ -126,7 +117,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 | Versión de los componentes principales | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Versión de Java SE | Versión de Maven |
 |---|---|---|---|---|---|
-| [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Continua | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Continua | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 Para conocer los requisitos de las versiones anteriores de los componentes principales, consulte [Versiones de los componentes principales](versions.md).
 
