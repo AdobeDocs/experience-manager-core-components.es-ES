@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 4ce657455437b1a274246f9f81b0f4f85d6292ff
+source-git-commit: 965111707408c37899fd8a94cd5789b56b38db4a
 workflow-type: tm+mt
-source-wordcount: 3972
-ht-degree: 98%
+source-wordcount: 4174
+ht-degree: 96%
 
 ---
 
@@ -44,6 +44,9 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|---|
+| [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Esta versión soluciona un error. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 15 de julio de 2026 |
+| [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Esta versión solucionó errores en versiones anteriores de los clientlibs de búsqueda. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 15 de julio de 2026 |
+| [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Esta versión soluciona errores de localización, entre otros. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 14 de julio de 2026 |
 | [2.31.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.2) | Esta versión soluciona errores en los que cierta información no se mantenía correctamente. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 22 de junio de 2026 |
 | [2.31.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.31.0) | Esta versión introdujo la compatibilidad con los datos JSON-LD para el Componente de página, así como un rendimiento mejorado para varios otros componentes, además de numerosas correcciones de errores. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 19 de mayo de 2026 |
 | [2.30.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.30.4) | Esta versión corrigió el problema de validación de rutas. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 30 de enero de 2026 |
