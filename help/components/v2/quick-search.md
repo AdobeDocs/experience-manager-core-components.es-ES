@@ -1,0 +1,101 @@
+---
+title: Componente Búsqueda rápida (versión 2)
+description: El componente Búsqueda rápida proporciona funciones de búsqueda en un sitio web y presenta resultados de búsqueda para que los visitantes puedan buscar en el sitio y filtrar los resultados.
+role: Developer, Admin, User
+index: false
+product_v2:
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2:
+  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 8b9c5c488c18dde58497c3e3501875bdf0e235d2
+workflow-type: tm+mt
+source-wordcount: 630
+ht-degree: 97%
+
+---
+
+# Componente Búsqueda rápida (versión 2) {#quick-search-component}
+
+El componente Búsqueda rápida proporciona funciones de búsqueda en un sitio web y presenta resultados de búsqueda para que los visitantes puedan encontrar fácilmente contenido coincidente y ver resultados.
+
+## Uso {#usage}
+
+El componente Búsqueda rápida permite a los visitantes del sitio buscar contenido, ver los resultados in situ y navegar fácilmente a las páginas coincidentes. Los nuevos resultados se obtienen de forma dinámica a medida que el usuario se desplaza por los resultados de la búsqueda.
+
+El [cuadro de diálogo de edición](#edit-dialog) permite que el autor del contenido defina dónde debería comenzar la búsqueda en el árbol de contenido. Utilizando el [cuadro de diálogo de diseño](#design-dialog), el autor de la plantilla puede establecer el valor predeterminado de dónde en el árbol de contenido debe comenzar la búsqueda, así como un tamaño máximo del conjunto de resultados y una longitud mínima del término de búsqueda.
+
+## Versión y compatibilidad {#version-and-compatibility}
+
+La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
+
+| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|--- |--- |--- |---|---|
+| Versión 2 | - | Compatible | Compatible | Compatible |
+| [Versión 1](/help/components/v1/quick-search.md) | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | - | Compatible |
+
+>[!CAUTION]
+>
+>Este documento describe la versión 2 del componente Búsqueda rápida.
+>Para obtener más información sobre la versión actual del componente Búsqueda rápida, consulte el documento [Componente Búsqueda rápida](/help/components/quick-search.md).
+
+Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+
+### Detalles técnicos {#technical-details}
+
+>[!NOTE]
+>
+>La protección del componente de búsqueda o de cualquier aplicación basada en AEM contra ataques DOS debe implementarse en un nivel superior, por ejemplo utilizando `mod_security` en Dispatcher.
+
+La documentación técnica más reciente sobre el componente Búsqueda rápida [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_es).
+
+Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+
+## Cuadro de diálogo de edición {#edit-dialog}
+
+El cuadro de diálogo de edición permite que el autor del contenido defina dónde debería comenzar la búsqueda en el árbol de contenido.
+
+![Cuadro de diálogo de edición del componente Búsqueda rápida](/help/assets/quick-search-edit.png)
+
+**Raíz de búsqueda**: página raíz desde la que se inicia la búsqueda. La raíz de búsqueda puede ser un modelo maestro, un idioma maestro o una página normal.
+* **ID**: esta opción permite controlar el identificador único del componente en el HTML y en la [capa de datos.](/help/developing/data-layer/overview.md)
+  * Si se deja en blanco, se generará automáticamente un ID único que se puede encontrar inspeccionando la página resultante.
+  * Si se especifica un ID, es responsabilidad del autor asegurarse de que sea único.
+  * Cambiar el ID puede afectar al seguimiento de CSS, JS y de la capa de datos.
+
+>[!NOTE]
+>
+>Si la **Raíz de búsqueda** no está configurada o no se puede resolver, la Búsqueda rápida toma como valor predeterminado la búsqueda debajo de la página actual.
+
+## Cuadro de diálogo de diseño {#design-dialog}
+
+Mediante el cuadro de diálogo de diseño, el autor de la plantilla puede establecer el valor predeterminado de dónde debe comenzar la búsqueda en el árbol de contenido, así como un tamaño máximo del conjunto de resultados y una longitud mínima del término de búsqueda.El cuadro de diálogo del diseño permite al autor de la plantilla definir qué opciones de formato de texto están disponibles para los autores de contenido.
+
+### Pestaña Propiedades {#properties-tab}
+
+![Cuadro de diálogo de diseño del componente Búsqueda rápida](/help/assets/quick-search-design.png)
+
+* **Raíz de búsqueda**
+El valor predeterminado de la raíz de búsqueda cuando un autor de contenido coloca el componente Búsqueda rápida en una página de contenido
+* **Tamaño de los resultados**
+El número máximo de resultados recuperados por una solicitud de búsqueda
+* **Longitud mínima del término de búsqueda**
+Longitud mínima del término de búsqueda para iniciar la búsqueda
+
+>[!NOTE]
+>
+>**El tamaño de los resultados** y **la longitud mínima del término de búsqueda** solo se pueden establecer en el modo de diseño y, por lo tanto, solo en el nivel de plantilla, lo que significa que los autores de contenido no pueden modificar estos valores.
+
+>[!CAUTION]
+>
+>**El tamaño de los resultados** y **la longitud mínima del término de búsqueda** pueden tener un impacto en el rendimiento si se establecen demasiado altos o demasiado bajos, respectivamente.
+
+### Pestaña Estilos {#styles-tab}
+
+El componente Búsqueda rápida es compatible con el sistema de estilos [AEM](/help/get-started/authoring.md#component-styling).
