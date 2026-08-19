@@ -29,7 +29,7 @@ El componente Búsqueda por IA de contenido proporciona a los visitantes del sit
 
 ## Uso {#usage}
 
-El componente Búsqueda por IA de contenido permite a los visitantes buscar en un [Source de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) directamente desde una página y, opcionalmente, ver un resumen de los resultados generado por IA. Combina un cuadro de búsqueda semántica/de texto completo estándar con un panel **Mostrar resumen generado por IA** con tecnología de IA de contenido de AEM que se puede alternar.
+El componente Búsqueda por IA de contenido permite a los visitantes buscar en un [Source de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/contentsources) directamente desde una página y, opcionalmente, ver un resumen de los resultados generado por IA. Combina un cuadro de búsqueda semántica/de texto completo estándar con un panel **Mostrar resumen generado por IA** con tecnología de IA de contenido de AEM que se puede alternar.
 
 El [cuadro de diálogo de edición](#edit-dialog) permite que el autor del contenido defina el ámbito de contenido de la búsqueda, el comportamiento de búsqueda y la configuración generativa. No hay ningún cuadro de diálogo de diseño, ya que no hay configuraciones disponibles en el nivel de plantilla.
 
@@ -78,7 +78,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir el ámb
   * **PERSONALIZADO**: un origen registrado fuera de las canalizaciones de ingesta propias de AEM
 * **Fuentes de contenido**: define el Source de contenido que busca este componente.
   * Las entradas disponibles coinciden con orígenes de contenido que ya existen y están **disponibles**, y también con el tipo establecido en **Tipo de Source de contenido**
-  * Consulte el documento [Configurar y administrar las fuentes de inteligencia artificial aplicada al contenido](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) para obtener más información.
+  * Consulte el documento [Configurar y administrar las fuentes de inteligencia artificial aplicada al contenido](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/contentsources) para obtener más información.
 
 ### Pestaña Comportamiento de búsqueda {#search-behavior}
 

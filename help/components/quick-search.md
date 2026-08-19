@@ -53,7 +53,7 @@ Para obtener más información acerca de las versiones y publicaciones de los co
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente Búsqueda rápida, ver ejemplos de sus opciones de configuración y la salida de HTML y JSON, visite la [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_search)
+Para experimentar el componente Búsqueda rápida, ver ejemplos de sus opciones de configuración y la salida de HTML y JSON, visite la [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_search_es)
 
 ## Detalles técnicos {#technical-details}
 

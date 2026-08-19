@@ -26,8 +26,8 @@ El componente Búsqueda por IA de contenido proporciona a los visitantes del sit
 
 ## Requisitos previos {#prerequisites}
 
-* Al menos un [Source de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) ya se ha creado y con el estado **Disponible**.
-* La configuración OSGi **Cliente de inteligencia artificial aplicada al contenido de AEM** (`ContentAIClientImpl`) se configuró en Autor y Publicación, con una credencial de API válida y un valor **Source de contenido predeterminado**. Consulte el documento [Configurar un proyecto de Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project) para obtener las credenciales.
+* Al menos un [Source de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/contentsources) ya se ha creado y con el estado **Disponible**.
+* La configuración OSGi **Cliente de inteligencia artificial aplicada al contenido de AEM** (`ContentAIClientImpl`) se configuró en Autor y Publicación, con una credencial de API válida y un valor **Source de contenido predeterminado**. Consulte el documento [Configurar un proyecto de Adobe Developer Console](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/setup-adc-project) para obtener las credenciales.
 
 ## Crear un componente proxy {#proxy-component}
 
@@ -54,10 +54,10 @@ Los autores de contenido ahora pueden colocar el componente Búsqueda por IA de 
 
 * Las consultas de búsqueda estándar se proporcionan mediante la misma capa de recuperación que el índice de Content Source, y devuelven páginas, fragmentos o recursos coincidentes del origen configurado.
 * Cuando se habilita el resumen generado por IA, el componente también llama al punto de conexión generativo de la inteligencia artificial aplicada al contenido de AEM, basa la respuesta en el mismo contenido indexado y muestra las fuentes junto al resumen para que los visitantes puedan verificarlo.
-* Dado que ambas funciones se leen desde el mismo Content Source controlado, los resultados y resúmenes son coherentes con el contenido indexado actualmente. Volver a ejecutar la adquisición (consulte [Control de los orígenes de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources)) actualiza ambos.
+* Dado que ambas funciones se leen desde el mismo Content Source controlado, los resultados y resúmenes son coherentes con el contenido indexado actualmente. Volver a ejecutar la adquisición (consulte [Control de los orígenes de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/contentsources)) actualiza ambos.
 
 ## Siguientes pasos {#next-steps}
 
-* [Controle sus fuentes de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources): cree y administre el Source de contenido que busca este componente.
-* [Configurar un proyecto de Adobe Developer Console](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/setup-adc-project): obtenga las credenciales que usa la configuración del cliente de inteligencia artificial aplicada al contenido de OSGi.
+* [Controle sus fuentes de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/contentsources): cree y administre el Source de contenido que busca este componente.
+* [Configurar un proyecto de Adobe Developer Console](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/setup-adc-project): obtenga las credenciales que usa la configuración del cliente de inteligencia artificial aplicada al contenido de OSGi.
 * [Referencia de la API de inteligencia artificial aplicada al contenido](https://developer.adobe.com/experience-cloud/experience-manager-apis/api/experimental/contentai/): comprenda los extremos de búsqueda y resumen generativo subyacentes a los que llama este componente.
