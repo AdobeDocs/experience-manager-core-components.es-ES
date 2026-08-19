@@ -4,21 +4,14 @@ description: El componente Búsqueda rápida proporciona funciones de búsqueda 
 role: Developer, Admin, User
 exl-id: fc40ce1d-e69a-4a40-853e-67a37228271b
 TQID: https://experienceleague.adobe.com/wU-3pacdEz9ne8b53-mKJy-XxRdyz2gu4Jvj-yFgGOw
-product_v2:
-  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
-  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
-feature_v2:
-  - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: f7fb04a4420a61d8a4755f2b3f09aad91b12c7eb
+product_v2: id: c45915cf-e157-4af7-a80d-97b905bcb3a5id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+feature_v2: id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: f939ce7498d9ec1901bea4b5fbf631365ba923fa
 workflow-type: tm+mt
-source-wordcount: 863
-ht-degree: 46%
+source-wordcount: 909
+ht-degree: 41%
 
 ---
 
@@ -43,21 +36,27 @@ La siguiente tabla detalla todas las versiones compatibles del componente, las v
 
 | Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
 |--- |--- |--- |---|---|
-| Versión 3 | - | Compatible | Compatible | Compatible |
+| Versión 3 | - | Compatible* | Compatible* | Compatible |
 | [Versión 2](/help/components/v2/quick-search.md) | - | Compatible | Compatible | Compatible |
 | [Versión 1](/help/components/v1/quick-search.md) | Compatible con la <br>[versión 2.17.4](/help/versions.md) y anteriores | Compatible | - | Compatible |
 
-Para obtener más información sobre las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de los componentes principales](/help/versions.md).
+*La opción de búsqueda semántica solo está disponible con AEM as a Cloud Service.
 
-### Detalles técnicos {#technical-details}
+Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de componentes principales.](/help/versions.md)
+
+## Salida del componente de ejemplo {#sample-component-output}
+
+Para experimentar el componente Búsqueda rápida, ver ejemplos de sus opciones de configuración y la salida de HTML y JSON, visite la [Biblioteca de componentes.](https://adobe.com/go/aem_cmp_library_search)
+
+## Detalles técnicos {#technical-details}
 
 >[!NOTE]
 >
 >La protección del componente de búsqueda o de cualquier aplicación basada en AEM contra ataques DOS debe implementarse en un nivel superior, por ejemplo utilizando `mod_security` en Dispatcher.
 
-La documentación técnica más reciente sobre el componente Búsqueda rápida [se encuentra en GitHub](https://adobe.com/go/aem_cmp_tech_search_v2_es).
+La documentación técnica más reciente sobre el componente Búsqueda rápida [ se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
 
-Puede encontrar más información sobre el desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales](/help/developing/overview.md).
+Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
 ## Cuadro de diálogo de edición {#edit-dialog}
 
