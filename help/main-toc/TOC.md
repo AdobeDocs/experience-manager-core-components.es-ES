@@ -5,10 +5,10 @@ breadcrumb-title: Guía de componentes principales
 feature: Core Components
 user-guide-description: En el caso de los proyectos AEM tradicionales, utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: ccc4eebac29251d3527f34240cb2005b9029cf82
+source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 99%
+source-wordcount: '442'
+ht-degree: 97%
 
 ---
 
@@ -43,6 +43,7 @@ ht-degree: 99%
   + [Visualizador de PDF](/help/components/pdf-viewer.md)
   + [Barra de progreso](/help/components/progress-bar.md)
   + [Búsqueda rápida](/help/components/quick-search.md)
+  + [Búsqueda por IA de contenido](/help/components/ai-search.md)
   + [Separador](/help/components/separator.md)
   + [Compartir en medios sociales](/help/components/sharing.md)
   + [Tabla de contenido](/help/components/tableofcontents.md)
@@ -156,6 +157,7 @@ ht-degree: 99%
   + [El servlet de imagen adaptable](/help/developing/adaptive-image-servlet.md)
   + [Entrega de imágenes optimizadas para la web](/help/developing/web-optimized-image-delivery.md)
   + [Soporte de recursos remotos](/help/developing/remote-assets.md)
+  + [Configuración de la Búsqueda por IA de contenido](/help/developing/ai-search.md)
   + Capa de datos del cliente de Adobe {#data-layer}
     + [Información general de la capa de datos](/help/developing/data-layer/overview.md)
     + [Integraciones con la capa de datos](/help/developing/data-layer/integrations.md)
