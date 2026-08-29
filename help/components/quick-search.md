@@ -61,7 +61,7 @@ Para experimentar el componente Búsqueda rápida, ver ejemplos de sus opciones 
 >
 >La protección del componente de búsqueda o de cualquier aplicación basada en AEM contra ataques DOS debe implementarse en un nivel superior, por ejemplo utilizando `mod_security` en Dispatcher.
 
-La documentación técnica más reciente sobre el componente Búsqueda rápida [&#x200B; se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3)
+La documentación técnica más reciente sobre el componente Búsqueda rápida [&#x200B; se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_search_v3_es)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
