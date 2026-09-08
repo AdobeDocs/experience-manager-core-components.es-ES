@@ -21,10 +21,10 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
 workflow-type: tm+mt
-source-wordcount: 4244
-ht-degree: 95%
+source-wordcount: 4308
+ht-degree: 94%
 
 ---
 
@@ -44,6 +44,8 @@ La siguiente tabla, cuyo contenido está [disponible en GitHub con detalles de v
 
 | Versión | Descripción | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service | Java | Fecha de la versión |
 |---|---|---|---|---|---|---|---|
+| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | Esta versión habilita [Componente de Búsqueda por IA de contenido](/help/components/ai-search.md) en AMS. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 8 de septiembre de 2026 |
+| [2.32.6](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.6) | Esta versión soluciona un error. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 10 de agosto de 2026 |
 | [2.32.4](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.4) | Esta versión soluciona un error. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 15 de julio de 2026 |
 | [2.32.2](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.2) | Esta versión solucionó errores en versiones anteriores de los clientlibs de búsqueda. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 15 de julio de 2026 |
 | [2.32.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.0) | Esta versión presenta el [Componente de Búsqueda por IA de contenido](/help/components/ai-search.md), una nueva versión del [componente de búsqueda rápida](/help/components/quick-search.md) con un conmutador de Búsqueda por IA opcional y aborda los errores de localización, entre otros. | - | 6.5.21.0+ | 6.5 LTS GA | Continua | 8, 11, 17, 21 | 14 de julio de 2026 |
