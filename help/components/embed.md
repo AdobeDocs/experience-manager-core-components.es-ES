@@ -6,22 +6,27 @@ exl-id: 985fa304-70a3-4329-957e-76d1832a06f1
 TQID: https://experienceleague.adobe.com/CbY4mDdS51yLd8qgtm4kloT76qZoReqdcmlylQLjZRM
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
-workflow-type: ht
-source-wordcount: 1421
+    internal-label: Security
+source-git-commit: 404cb0693a33ee0f76ca33fe8dd3aad0785fd55e
+workflow-type: tm+mt
+source-wordcount: '1421'
 ht-degree: 100%
-
 ---
-
 # Incrustar componente {#embed-component}
 
 El componente de incrustación de componentes principales permite incrustar contenido externo en una página de contenido de AEM.
@@ -50,7 +55,7 @@ Para obtener más información sobre las versiones y publicaciones de los compon
 
 ## Salida del componente de ejemplo {#sample-component-output}
 
-Para experimentar el componente incrustado, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_embed_es).
+Para experimentar el componente incrustado, ver ejemplos de sus opciones de configuración y la salida HTML y JSON, visite la [Biblioteca de componentes](https://adobe.com/go/aem_cmp_library_embed).
 
 ## Detalles técnicos {#technical-details}
 
@@ -163,12 +168,12 @@ El cuadro de diálogo de diseño permite al autor de la plantilla definir las op
 ![Pestaña YouTube del cuadro de diálogo de diseño del componente incrustado](/help/assets/embed-design-youtube.png)
 
 * **Permitir la configuración del comportamiento silencioso**: permite al autor de contenido configurar la opción **Habilitar silencio** en el componente cuando se selecciona el tipo incrustado de YouTube
-   * **Valor predeterminado de silenciar**: establece automáticamente la opción **Habilitar silencio** cuando se selecciona el tipo incrustado de YouTube
+  * **Valor predeterminado de silenciar**: establece automáticamente la opción **Habilitar silencio** cuando se selecciona el tipo incrustado de YouTube
 * **Permitir la configuración del comportamiento de reproducción automática**: permite al autor de contenido configurar la opción **Habilitar reproducción automática** en el componente cuando se selecciona el tipo incrustado de YouTube
-   * **Valor predeterminado de reproducción automática**: establece automáticamente la opción **Habilitar reproducción automática** cuando se selecciona el tipo incrustado de YouTube
+  * **Valor predeterminado de reproducción automática**: establece automáticamente la opción **Habilitar reproducción automática** cuando se selecciona el tipo incrustado de YouTube
 * **Permitir la configuración del comportamiento de la reproducción en bucle**: permite al autor de contenido configurar la opción **Habilitar reproducción en bucle** en el componente cuando se selecciona el tipo incrustado de YouTube
-   * **Valor predeterminado de reproducción en bucle**: establece automáticamente **Habilitar reproducción en bucle** cuando se selecciona el tipo incrustado de YouTube
+  * **Valor predeterminado de reproducción en bucle**: establece automáticamente **Habilitar reproducción en bucle** cuando se selecciona el tipo incrustado de YouTube
 * **Permitir la configuración de reproducción en línea (iOS)**: permite al autor de contenido configurar la opción **Habilitar reproducción en línea (iOS)** en el componente cuando se selecciona el tipo incrustado de YouTube
-   * **Valor predeterminado de reproducción en línea (iOS)**: establece automáticamente la opción **Habilitar reproducción en línea (iOS)** cuando se selecciona el tipo incrustado de YouTube
+  * **Valor predeterminado de reproducción en línea (iOS)**: establece automáticamente la opción **Habilitar reproducción en línea (iOS)** cuando se selecciona el tipo incrustado de YouTube
 * **Permitir la configuración de vídeos en línea**: permite al autor de contenido configurar la opción **Vídeos relacionados sin restricciones** en el componente cuando se selecciona el tipo incrustado de YouTube
-   * **Valor predeterminado de vídeos relacionados sin restricciones**: establece automáticamente la opción **Vídeos relacionados sin restricciones** cuando se selecciona el tipo incrustado de YouTube
+  * **Valor predeterminado de vídeos relacionados sin restricciones**: establece automáticamente la opción **Vídeos relacionados sin restricciones** cuando se selecciona el tipo incrustado de YouTube
