@@ -3,13 +3,16 @@ title: Habilitar y utilizar patrones de validación de entrada de texto en los f
 description: Aprenda a configurar políticas de plantilla para exponer patrones de validación como números de teléfono, números de la seguridad social y códigos postales y, a continuación, utilícelos en sus formularios adaptables.
 hide: true
 exl-id: e4500666-1346-4558-861d-da9541dcef51
-source-git-commit: 59064c359aea14af99675709bbddf9a933a959df
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '861'
 ht-degree: 100%
-
 ---
-
 # Habilitar y utilizar patrones de validación de entrada de texto en los formularios adaptables de Adobe Experience Manager
 
 ## Información general
@@ -113,13 +116,13 @@ Para comprobar que los patrones de validación funcionan correctamente:
 ## Solución de problemas
 
 - **Problema:** los patrones de validación no aparecen en el componente del formulario.
-   - **Solución:** asegúrese de que la política de plantilla se guardó correctamente y de que está usando la plantilla correcta al crear el formulario.
+  - **Solución:** asegúrese de que la política de plantilla se guardó correctamente y de que está usando la plantilla correcta al crear el formulario.
 
 - **Problema:** no se puede obtener acceso al editor de plantillas.
-   - **Solución:** compruebe que dispone de los permisos necesarios para editar plantillas (pertenencia al grupo `template-authors`).
+  - **Solución:** compruebe que dispone de los permisos necesarios para editar plantillas (pertenencia al grupo `template-authors`).
 
 - **Problema:** el componente Entrada de texto no valida la entrada correctamente.
-   - **Solución:** vuelva a comprobar la configuración del patrón de validación en la pestaña Validación del componente y asegúrese de que esté seleccionado el patrón correcto.
+  - **Solución:** vuelva a comprobar la configuración del patrón de validación en la pestaña Validación del componente y asegúrese de que esté seleccionado el patrón correcto.
 
 ## Próximos pasos
 
