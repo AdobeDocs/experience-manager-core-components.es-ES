@@ -3,13 +3,23 @@ title: 'Componente principal de Forms adaptable: opción de imagen'
 description: Uso del componente principal de la opción de imagen.
 role: Developer, Admin, User
 hide: true
-source-git-commit: 0af65c80f9cc58c4ba48d5b3dc7a026820bd2833
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+  - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
 source-wordcount: '1318'
 ht-degree: 58%
-
 ---
-
 # Campo de opción de imagen del formulario adaptable {#image-choice}
 
 El componente Opción de imagen de un formulario permite a los usuarios realizar selecciones basadas en representaciones visuales, como imágenes, en lugar de en opciones basadas en texto. Presenta una serie de imágenes, cada una de las cuales representa una elección distinta. Los usuarios pueden seleccionar una o varias imágenes, y los comentarios visuales indican su selección. Este componente es útil para opciones como variantes de productos, respuestas de encuestas o imágenes de perfil. Mejora la participación del usuario y la claridad al ofrecer un método de selección intuitivo y visualmente atractivo.
@@ -102,8 +112,8 @@ Puede personalizar fácilmente la experiencia del componente Opción de imagen p
 ![Opción de imagen de accesibilidad](accessibility-imagechoice.png)
 
 - **Texto para lectores de pantalla**: el texto para lectores de pantalla se refiere a texto adicional que está diseñado para que lo lean tecnologías de asistencia, como lectores de pantalla, que utilizan personas con deficiencias visuales. Este texto proporciona una descripción del audio del propósito del campo de formulario y puede incluir información sobre el título, la descripción, el nombre y cualquier mensaje relevante (texto personalizado) del campo. El texto del lector de pantalla ayuda a garantizar que el formulario sea accesible para todos los usuarios, incluidos los que tengan deficiencias visuales, y les ofrezca una comprensión completa del campo del formulario y de sus requisitos.
-   - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
-   - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
+  - **Texto personalizado**: seleccione esta opción para utilizar el texto personalizado para las etiquetas de accesibilidad de ARIA. Al seleccionar esta opción, aparece el cuadro de diálogo Texto personalizado. Puede agregar información relevante en el cuadro de diálogo Texto personalizado.
+  - **Título**: seleccione esta opción para utilizar el título para las etiquetas de accesibilidad de ARIA.
 
 ## Artículos relacionados {#related-articles}
 

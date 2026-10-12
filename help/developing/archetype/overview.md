@@ -4,27 +4,41 @@ description: Obtenga información acerca del Arquetipo de proyecto de AEM que si
 feature: Core Components, AEM Project Archetype
 role: Developer, Admin
 exl-id: 58994726-9b65-4035-9d45-60b745d577bb
-TQID: https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk
+TQID: 'https://experienceleague.adobe.com/snvIzunCCWegShAzgcg9Zpof00Wq-tAYkaoGvq4RwEk'
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
+  - id: d9d38edd-df1b-480c-8f5e-72b62576f390
+    internal-label: Site and page features
+  - id: c124fa01-25c5-42ec-adf6-21d1c114058b
+    internal-label: Developer tools
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
+  - id: c43ff1f6-5a6d-4e8c-b3cc-6bdb3fa6e092
+    internal-label: Core components
+  - id: ca9acb56-1fd9-4553-930f-d71ab7d4045d
+    internal-label: AEM Project Archetype
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: ce44533e-8ec8-4e11-a9e9-78b0fe561832
+    internal-label: Content structure
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 73aa5234ac63fa3be99feebce448bb6722513838
+    internal-label: Security
+source-git-commit: 025b8134f7675b4515f4586910a94a2732bfa2ee
 workflow-type: tm+mt
-source-wordcount: 705
+source-wordcount: '705'
 ht-degree: 100%
-
 ---
-
 # Tipo de archivo del proyecto AEM {#aem-project-archetype}
 
 El tipo de archivo del proyecto de AEM es una plantilla de Maven que crea un proyecto mínimo de Adobe Experience Manager (AEM) basado en las prácticas recomendadas como punto de partida para su sitio web. Esta documentación proporciona una descripción general de las ventajas del tipo de archivo y del uso general. Encontrará instrucciones técnicas detalladas y documentación en el tipo de archivo del repositorio de GitHub.
@@ -65,5 +79,5 @@ Por supuesto, hay muchos elementos que entran en un [proyecto de AEM correcto,](
 * **[Uso del tipo de archivo:](using.md)** Una visión general de cómo utilizar el tipo de archivo en el proyecto y los módulos resultantes generados
 * **[Desarrollo front-end con el tipo de archivo del proyecto de AEM:](front-end.md)** Cómo utilizar el módulo front-end del tipo de archivo
 * **Los siguientes tutoriales están basados en este tipo de archivo:**
-   * **[Sitio WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)** Aprenda a iniciar un nuevo sitio web.
-   * **[Aplicación de una sola página WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es)** Aprenda a crear una aplicación web de React o Angular totalmente legible en AEM.
+  * **[Sitio WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/getting-started-wknd-tutorial-develop/overview.html?lang=es)** Aprenda a iniciar un nuevo sitio web.
+  * **[Aplicación de una sola página WKND:](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es)** Aprenda a crear una aplicación web de React o Angular totalmente legible en AEM.
