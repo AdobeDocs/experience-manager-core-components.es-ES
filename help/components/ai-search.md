@@ -4,22 +4,27 @@ description: El componente Búsqueda por IA de contenido proporciona a los visit
 role: Developer, Admin, User
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e721e8b9469646300432b87d42bfb742aaf5f3fb
+    internal-label: Security
+source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
 workflow-type: tm+mt
-source-wordcount: 805
+source-wordcount: '829'
 ht-degree: 16%
-
 ---
-
 
 # Componente Búsqueda por IA de contenido {#content-ai-search-component}
 
@@ -29,7 +34,7 @@ El componente Búsqueda por IA de contenido proporciona a los visitantes del sit
 
 ## Uso {#usage}
 
-El componente Búsqueda por IA de contenido permite a los visitantes buscar en un [Source de contenido](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/contentsources) directamente desde una página y, opcionalmente, ver un resumen de los resultados generado por IA. Combina un cuadro de búsqueda semántica/de texto completo estándar con un panel **Mostrar resumen generado por IA** con tecnología de IA de contenido de AEM que se puede alternar.
+El componente Búsqueda por IA de contenido permite a los visitantes buscar en un [Source de contenido](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) directamente desde una página y, opcionalmente, ver un resumen de los resultados generado por IA. Combina un cuadro de búsqueda semántica/de texto completo estándar con un panel **Mostrar resumen generado por IA** con tecnología de IA de contenido de AEM que se puede alternar.
 
 El [cuadro de diálogo de edición](#edit-dialog) permite que el autor del contenido defina el ámbito de contenido de la búsqueda, el comportamiento de búsqueda y la configuración generativa. No hay ningún cuadro de diálogo de diseño, ya que no hay configuraciones disponibles en el nivel de plantilla.
 
@@ -39,13 +44,16 @@ El [cuadro de diálogo de edición](#edit-dialog) permite que el autor del conte
 
 ## Versión y compatibilidad {#version-and-compatibility}
 
-La versión actual del componente Búsqueda por IA de contenido es la versión 1, que se introdujo con la versión 2.32.0 de los componentes principales en julio de 2026 y se describe en este documento.
+La versión actual del componente Búsqueda por IA de contenido es la versión 2, que se introdujo con la versión 2.33.0 de los componentes principales en octubre de 2026 y se describe en este documento.
 
 La siguiente tabla detalla todas las versiones compatibles del componente, las versiones de AEM con las que son compatibles las versiones del componente y los vínculos a la documentación de versiones anteriores.
 
-| Versión del componente | AEM 6.4 | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
-|---|---|---|---|---|
-| v1 | - | - | - | En curso |
+| Versión del componente | AEM 6.5 | AEM 6.5 LTS | AEM as a Cloud Service |
+|---|---|---|---|
+| Versión 2 | 6.5.21.0 y superior* | 6,5 GA* | Compatible |
+| [Versión 1](/help/components/v1/ai-search.md) | - | - | Compatible |
+
+*La compatibilidad con el componente Búsqueda por IA de contenido en AEM 6.5 y 6.5 LTS se limita a Adobe Managed Services (AMS).
 
 Para obtener más información acerca de las versiones y publicaciones de los componentes principales, consulte el documento [Versiones de componentes principales.](/help/versions.md)
 
@@ -55,7 +63,7 @@ Para experimentar el componente Búsqueda por IA de contenido y ver ejemplos de 
 
 ## Detalles técnicos {#technical-details}
 
-La documentación técnica más reciente sobre el componente Búsqueda por IA de contenido [&#x200B; se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v1_es)
+La documentación técnica más reciente sobre el componente Búsqueda por IA de contenido [ se encuentra en GitHub.](https://adobe.com/go/aem_cmp_tech_ai_search_v2)
 
 Puede encontrar más información acerca del desarrollo de componentes principales en la [documentación para desarrolladores de componentes principales.](/help/developing/overview.md)
 
@@ -78,7 +86,7 @@ El cuadro de diálogo de edición permite al autor del contenido definir el ámb
   * **PERSONALIZADO**: un origen registrado fuera de las canalizaciones de ingesta propias de AEM
 * **Fuentes de contenido**: define el Source de contenido que busca este componente.
   * Las entradas disponibles coinciden con orígenes de contenido que ya existen y están **disponibles**, y también con el tipo establecido en **Tipo de Source de contenido**
-  * Consulte el documento [Configurar y administrar las fuentes de inteligencia artificial aplicada al contenido](https://experienceleague.adobe.com/es/docs/experience-manager-content-ai/using/contentsources) para obtener más información.
+  * Consulte el documento [Configurar y administrar las fuentes de inteligencia artificial aplicada al contenido](https://experienceleague.adobe.com/en/docs/experience-manager-content-ai/using/contentsources) para obtener más información.
 
 ### Pestaña Comportamiento de búsqueda {#search-behavior}
 
