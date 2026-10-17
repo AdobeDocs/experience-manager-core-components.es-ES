@@ -6,25 +6,32 @@ exl-id: d294db22-4cb0-48a4-9366-03fda5b8bb8e
 TQID: https://experienceleague.adobe.com/TDVZQa4ww1rGJIoAeFyMRPREuUSWPcAUI0mwBHYASTI
 product_v2:
   - id: c45915cf-e157-4af7-a80d-97b905bcb3a5
+    internal-label: Experience Manager Sites
   - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 feature_v2:
   - id: e2c1b6d3-bb7e-4fe8-8c72-f7b403298e91
+    internal-label: Authoring
 subfeature_v2:
   - id: f86a5563-8f73-4ec0-be7d-a1782604870a
+    internal-label: Editable templates
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
 topic_v2:
   - id: c18d9e03-ac7d-4811-9c92-3e92ddc70ade
+    internal-label: Mobile experience
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 2bcb4b4397044b709cabaa5bf18efa235c56e7ec
+    internal-label: Accessibility
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: 1080
+source-wordcount: '1080'
 ht-degree: 98%
-
 ---
-
 # Introducción a los componentes principales{#core-components-introduction}
 
 {{traditional-aem}}
@@ -58,7 +65,7 @@ Los componentes principales son un conjunto de componentes estandarizados de Adm
 | Compatible con SEO | La salida de HTML es semántica y proporciona anotaciones de microdatos de tipo [schema.org](https://schema.org). |
 | Preparado para la aplicación web | La [salida JSON optimizada](https://experienceleague.adobe.com/docs/experience-manager-learn/foundation/development/develop-sling-model-exporter.html?lang=es) permite el procesamiento en el lado del cliente, con la posibilidad de [editar en contexto](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/spa-editor/spa-editor-framework-feature-video-use.html?lang=es). |
 | Compatibilidad con AMP | Los componentes tienen [compatibilidad integrada con el estándar AMP,](/help/developing/amp.md) lo que acelera las experiencias móviles. |
-| Kit de diseño | Un [kit de interfaz de usuario para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd?lang=es) permite a los diseñadores crear mallas metálicas que luego pueden [dar forma según sea necesario](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
+| Kit de diseño | Un [kit de interfaz de usuario para Adobe XD](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/AEM-CoreComponents-UI-Kit.xd) permite a los diseñadores crear mallas metálicas que luego pueden [dar forma según sea necesario](https://github.com/adobe/aem-guides-wknd/releases/download/aem-guides-wknd-0.0.2/AEM_UI-kit-WKND.xd). |
 | Configurable | Los componentes implementan el [Sistema de estilos](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/features/style-system.html?lang=es) y el marcado sigue la [nomenclatura de BEM CSS](https://getbem.com/). |
 | Personalizable | Varios patrones permiten [una fácil personalización](developing/customizing.md), desde ajustar el HTML a una reutilización avanzada de la funcionalidad. |
 | Versiones | La [directiva de versiones](https://github.com/adobe/aem-core-wcm-components/wiki/Versioning-policies) garantiza que los componentes principales no romperán el sitio al mejorar las cosas que puedan afectarle. |
@@ -127,7 +134,7 @@ La versión actual de los componentes principales contiene los siguientes compon
 
 | Versión de los componentes principales | AEM as a Cloud Service | AEM 6.5 LTS | AEM 6.5 | Versión de Java SE | Versión de Maven |
 |---|---|---|---|---|---|
-| [2.32.8](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.32.8) | Continua | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
+| [2.33.0](https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.33.0) | Continua | 6.5 LTS GA | 6.5.21.0+ | 8, 11, 17, 21 | 3.3.9+ |
 
 Para conocer los requisitos de las versiones anteriores de los componentes principales, consulte [Versiones de los componentes principales](versions.md).
 

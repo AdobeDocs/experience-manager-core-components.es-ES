@@ -5,13 +5,11 @@ breadcrumb-title: Guía de componentes principales
 feature: Core Components
 user-guide-description: En el caso de los proyectos AEM tradicionales, utilice los componentes principales ampliables para que los autores puedan crear contenido fácilmente.
 feature-set: Experience Manager Sites, Experience Manager Forms
-source-git-commit: 20b54716af29ed8f283b3e6fffc2682dfee0d999
+source-git-commit: 16bb25a40209343edaeddb9948a58d921d3defe3
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 97%
-
+source-wordcount: '445'
+ht-degree: 96%
 ---
-
 
 # Ayuda de los componentes principales de AEM {#using}
 
@@ -71,6 +69,7 @@ ht-degree: 97%
     + [Página (v1)](/help/components/v1/page-v1.md)
     + [Teaser (v1)](/help/components/v1/teaser.md)
     + [Búsqueda rápida (v1)](/help/components/v1/quick-search.md)
+    + [Búsqueda por IA de contenido](/help/components/v1/ai-search.md)
     + [Texto (v1)](/help/components/v1/text-v1.md)
     + [Título (v1)](/help/components/v1/title-v1.md)
     + Componentes de formulario v1 {#v1-forms}
