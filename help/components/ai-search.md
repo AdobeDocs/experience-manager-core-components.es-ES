@@ -20,10 +20,10 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 6022fccf65523915134f38894fe5689849b2602f
+source-git-commit: a8f6d16fa3ca5d542e9416f97685ef28569adc65
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 16%
+source-wordcount: '801'
+ht-degree: 15%
 ---
 
 # Componente Búsqueda por IA de contenido {#content-ai-search-component}
@@ -102,13 +102,13 @@ El cuadro de diálogo de edición permite al autor del contenido definir el ámb
 
 ### Pestaña Búsqueda generativa {#generative-search}
 
-![Pestaña Búsqueda generativa del cuadro de diálogo de edición](/help/assets/content-ai-search-edit-generative-search.png)
+![Pestaña Búsqueda generativa del cuadro de diálogo de edición](/help/assets/content-ai-search-edit-ai-search-mode.png)
 
-* **Mostrar alternancia de resumen generativo a los visitantes**: cuando no está marcada, los visitantes no pueden cambiar si se muestra el resumen de IA.
+* **Mostrar ficha de modo IA a los visitantes**: cuando está desactivada, no se muestra ninguna barra de fichas y nunca se llama a la API de búsqueda generativa.
+  * Los visitantes solo ven una vista de resultados de búsqueda sin formato.
   * El valor predeterminado está habilitado.
-* **Mostrar resumen generativo de forma predeterminada**: esta opción controla el estado predeterminado de la opción de cara al visitante para el resumen generado por IA.
+* **Mostrar botón de reintento cuando falla la respuesta de IA**: la pestaña Modo de IA siempre muestra un mensaje de error al producirse el error; esta opción solo controla si se muestra un botón de reintento a su lado.
   * El valor predeterminado está habilitado.
-* **Reserva de error GenSearch**: define cómo debería comportarse la búsqueda o el error.
-  * **Solo resultados (ocultar error)**: si hay un error, se muestran solo los resultados devueltos, no el error ni ningún botón de reintento. Este es el valor predeterminado.
-  * **Mostrar error con reintento** - Si hay un error, mostrar el error con un botón de reintento.
-  * **Mostrar solo mensaje de error**: si hay un error, mostrar solo el mensaje de error, sin resultados.
+* **Texto de exención de responsabilidad**: este texto se muestra debajo del resumen generativo en la ficha Modo IA.
+  * Dejar vacío (predeterminado) para utilizar la exención de responsabilidad predeterminada.
+
